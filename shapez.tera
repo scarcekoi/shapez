@@ -61,6 +61,11 @@ class Mod extends shapez.Mod {
         background-position: 60% 58%;
       }
 
+      /* Dialog close button */
+      html[data-theme="catppuccin-{{ id }}"] .ingameDialog>.dialogInner>.title>.closeButton {
+        background: url("data:image/png;base64,{%- if id == "latte" -%}iVBORw0KGgoAAAANSUhEUgAAAEAAAABABAMAAABYR2ztAAAAIGNIUk0AAHomAACAhAAA+gAAAIDoAAB1MAAA6mAAADqYAAAXcJy6UTwAAAAtUExURUxPaUxPaUxPaUxPaUxPaUxPaUxPaUxPaUxPaUxPaUxPaUxPaUxPaUxPaf///2MLrVcAAAANdFJOUwAbnee0OftSx2tlWm11E2DAAAAAAWJLR0QOb70wTwAAAAd0SU1FB+oHCRY5HLYND+kAAAAldEVYdGRhdGU6Y3JlYXRlADIwMjYtMDctMDlUMjI6NTc6MTErMDA6MDCRTHQQAAAAJXRFWHRkYXRlOm1vZGlmeQAyMDI2LTA3LTA5VDIyOjU3OjExKzAwOjAw4BHMrAAAACh0RVh0ZGF0ZTp0aW1lc3RhbXAAMjAyNi0wNy0wOVQyMjo1NzoyOCswMDowMKwTr0MAAAFfSURBVEjHddUxakJBEAbgsQiPWAk5gnUKQ1qrQLpAqpwgwSIErOxyBMELeATBI+QMmoiCc5e8N677dnb+/1ULO3wsb+ffkcH48VXId/P0MJI71RkrWKhO5F71MMf7zZfqTqZKiRbQvbRVhGhsS5bKiA7Qo3wrIQzQP7lVQhigK5GNEVsMnNvV0Co/MfDTLSHRA4QoAEiUACQcAAgPAKICAlEDgQhARUSgIgDgCAQ4AgIFgYGCIEAmGJAJCoisjTDghPYTwYF0CnYCRxAgEwzIBAXST2Rhz7cQM+IBFDMPUOIKUGLR/8kZB84bSqRrHLJT5D5gRO4DQhSNhImikSDhOhERrhMBUbVyJKpWDkTIQk2ELFQECJMnQJgcAdNYEjCNBUHi3BMkzpmg78GVeLPKVSy4jKIPeaHvgb0XvzYWEZCIgw1W/KAYse9GMwYuxK4b7gQwYiKD5+OcFTTL99E/9vZG0KLhFgYAAAAASUVORK5CYII={%- elif id == "frappe" -%}iVBORw0KGgoAAAANSUhEUgAAAEAAAABABAMAAABYR2ztAAAAIGNIUk0AAHomAACAhAAA+gAAAIDoAAB1MAAA6mAAADqYAAAXcJy6UTwAAAAtUExURcbQ9cbQ9cbQ9cbQ9cbQ9cbQ9cbQ9cbQ9cbQ9cbQ9cbQ9cbQ9cbQ9cbQ9f///zKnuxkAAAANdFJOUwAbnee0OftSx2tlWm11E2DAAAAAAWJLR0QOb70wTwAAAAd0SU1FB+oHCRY5GcZn+2YAAAAldEVYdGRhdGU6Y3JlYXRlADIwMjYtMDctMDlUMjI6NTc6MTErMDA6MDCRTHQQAAAAJXRFWHRkYXRlOm1vZGlmeQAyMDI2LTA3LTA5VDIyOjU3OjExKzAwOjAw4BHMrAAAACh0RVh0ZGF0ZTp0aW1lc3RhbXAAMjAyNi0wNy0wOVQyMjo1NzoyNSswMDowMM3EzoMAAAFfSURBVEjHddUxakJBEAbgsQiPWAk5gnUKQ1qrQLpAqpwgwSIErOxyBMELeATBI+QMmoiCc5e8N677dnb+/1ULO3wsb+ffkcH48VXId/P0MJI71RkrWKhO5F71MMf7zZfqTqZKiRbQvbRVhGhsS5bKiA7Qo3wrIQzQP7lVQhigK5GNEVsMnNvV0Co/MfDTLSHRA4QoAEiUACQcAAgPAKICAlEDgQhARUSgIgDgCAQ4AgIFgYGCIEAmGJAJCoisjTDghPYTwYF0CnYCRxAgEwzIBAXST2Rhz7cQM+IBFDMPUOIKUGLR/8kZB84bSqRrHLJT5D5gRO4DQhSNhImikSDhOhERrhMBUbVyJKpWDkTIQk2ELFQECJMnQJgcAdNYEjCNBUHi3BMkzpmg78GVeLPKVSy4jKIPeaHvgb0XvzYWEZCIgw1W/KAYse9GMwYuxK4b7gQwYiKD5+OcFTTL99E/9vZG0KLhFgYAAAAASUVORK5CYII={%- elif id == "macchiato" -%}iVBORw0KGgoAAAANSUhEUgAAAEAAAABABAMAAABYR2ztAAAAIGNIUk0AAHomAACAhAAA+gAAAIDoAAB1MAAA6mAAADqYAAAXcJy6UTwAAAAtUExURcrT9crT9crT9crT9crT9crT9crT9crT9crT9crT9crT9crT9crT9crT9f///2LDSEoAAAANdFJOUwAbnee0OftSx2tlWm11E2DAAAAAAWJLR0QOb70wTwAAAAd0SU1FB+oHCRY5FlbY5vcAAAAldEVYdGRhdGU6Y3JlYXRlADIwMjYtMDctMDlUMjI6NTc6MTErMDA6MDCRTHQQAAAAJXRFWHRkYXRlOm1vZGlmeQAyMDI2LTA3LTA5VDIyOjU3OjExKzAwOjAw4BHMrAAAACh0RVh0ZGF0ZTp0aW1lc3RhbXAAMjAyNi0wNy0wOVQyMjo1NzoyMiswMDowMAhj8A0AAAFfSURBVEjHddUxakJBEAbgsQiPWAk5gnUKQ1qrQLpAqpwgwSIErOxyBMELeATBI+QMmoiCc5e8N677dnb+/1ULO3wsb+ffkcH48VXId/P0MJI71RkrWKhO5F71MMf7zZfqTqZKiRbQvbRVhGhsS5bKiA7Qo3wrIQzQP7lVQhigK5GNEVsMnNvV0Co/MfDTLSHRA4QoAEiUACQcAAgPAKICAlEDgQhARUSgIgDgCAQ4AgIFgYGCIEAmGJAJCoisjTDghPYTwYF0CnYCRxAgEwzIBAXST2Rhz7cQM+IBFDMPUOIKUGLR/8kZB84bSqRrHLJT5D5gRO4DQhSNhImikSDhOhERrhMBUbVyJKpWDkTIQk2ELFQECJMnQJgcAdNYEjCNBUHi3BMkzpmg78GVeLPKVSy4jKIPeaHvgb0XvzYWEZCIgw1W/KAYse9GMwYuxK4b7gQwYiKD5+OcFTTL99E/9vZG0KLhFgYAAAAASUVORK5CYII={%- elif id == "mocha" -%}iVBORw0KGgoAAAANSUhEUgAAAEAAAABABAMAAABYR2ztAAAAIGNIUk0AAHomAACAhAAA+gAAAIDoAAB1MAAA6mAAADqYAAAXcJy6UTwAAAAtUExURc3W9M3W9M3W9M3W9M3W9M3W9M3W9M3W9M3W9M3W9M3W9M3W9M3W9M3W9P///8hk6vIAAAANdFJOUwAbnee0OftSx2tlWm11E2DAAAAAAWJLR0QOb70wTwAAAAd0SU1FB+oHCRY5ElG1Iu4AAAAldEVYdGRhdGU6Y3JlYXRlADIwMjYtMDctMDlUMjI6NTc6MTErMDA6MDCRTHQQAAAAJXRFWHRkYXRlOm1vZGlmeQAyMDI2LTA3LTA5VDIyOjU3OjExKzAwOjAw4BHMrAAAACh0RVh0ZGF0ZTp0aW1lc3RhbXAAMjAyNi0wNy0wOVQyMjo1NzoxOCswMDowMCKcqKAAAAFfSURBVEjHddUxakJBEAbgsQiPWAk5gnUKQ1qrQLpAqpwgwSIErOxyBMELeATBI+QMmoiCc5e8N677dnb+/1ULO3wsb+ffkcH48VXId/P0MJI71RkrWKhO5F71MMf7zZfqTqZKiRbQvbRVhGhsS5bKiA7Qo3wrIQzQP7lVQhigK5GNEVsMnNvV0Co/MfDTLSHRA4QoAEiUACQcAAgPAKICAlEDgQhARUSgIgDgCAQ4AgIFgYGCIEAmGJAJCoisjTDghPYTwYF0CnYCRxAgEwzIBAXST2Rhz7cQM+IBFDMPUOIKUGLR/8kZB84bSqRrHLJT5D5gRO4DQhSNhImikSDhOhERrhMBUbVyJKpWDkTIQk2ELFQECJMnQJgcAdNYEjCNBUHi3BMkzpmg78GVeLPKVSy4jKIPeaHvgb0XvzYWEZCIgw1W/KAYse9GMwYuxK4b7gQwYiKD5+OcFTTL99E/9vZG0KLhFgYAAAAASUVORK5CYII={%- endif -%}") 50%/80% no-repeat;
+      }
+
       /* Language Flags */
       html[data-theme="catppuccin-{{ id }}"] [data-languageicon=en] {
         background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'%3E%3Cpath d='M400 512H112C50.144 512 0 461.856 0 400V112C0 50.144 50.144 0 112 0h288c61.856 0 112 50.144 112 112v288c0 61.856-50.144 112-112 112z' fill='{{ self::ehex(c=flavor.colors.blue) }}'/%3E%3Cpath d='M512 399.989v-24.587l-79.419-52.033H512v-26.948H296.421V512h26.947V348.46L494.3 460.45a111.414 111.414 0 0013.75-30.896M7.531 440.443a111.728 111.728 0 0010.168 20.007l170.932-111.99V512h26.947V296.421H0v26.948h79.419L0 375.402V400c0 4.306.252 8.553.725 12.733M0 115.807v20.791l79.419 52.034H0v26.947h215.579V0h-26.947v163.54L17.699 51.55A111.378 111.378 0 003.114 85.7m501.207-14.531a111.622 111.622 0 00-10.021-19.62L323.368 163.54V0h-26.947v215.579H512v-26.947h-79.419L512 136.598V112c0-4.46-.269-8.858-.776-13.182' fill='{{ self::ehex(c=if(cond=flavor.dark, t=flavor.colors.text, f=flavor.colors.base)) }}'/%3E%3Cg fill='{{ self::ehex(c=flavor.colors.red) }}'%3E%3Cpath d='M296.421 0h-80.842v215.579H0v80.842h215.579V512h80.842V296.421H512v-80.842H296.421z'/%3E%3Cpath d='M138.395 323.369L.725 412.733a111.28 111.28 0 006.807 27.71l180.359-117.075h-49.496v.001zm206.07 0l163.586 106.186A112.142 112.142 0 00512 400v-.011l-118.039-76.621-49.496.001zM161.684 188.632L3.114 85.7A112.234 112.234 0 000 112v3.807l112.188 72.825h49.496zm211.179 0l138.36-89.814a111.284 111.284 0 00-6.902-27.648L323.368 188.632h49.495z'/%3E%3C/g%3E%3C/svg%3E") !important;
@@ -143,6 +148,10 @@ class Mod extends shapez.Mod {
         color: #{{ flavor.colors.text.hex }};
       }
 
+      html[data-theme="catppuccin-{{ id }}"] #state_MainMenuState {
+        background: #{{ flavor.colors.base.hex }} 50%/cover !important;
+      }
+
       html[data-theme="catppuccin-{{ id }}"] #state_MainMenuState .footer .footerGrow>a {
         color: #{{ flavor.colors.text.hex }};
       }
@@ -207,7 +216,22 @@ class Mod extends shapez.Mod {
         border-color: #{{ flavor.colors.surface0.hex }};
       }
       html[data-theme="catppuccin-{{ id }}"] #state_MainMenuState .sideContainer .modsOverview .mod {
-      background-color: #{{ flavor.colors.surface0.hex }};
+        background-color: #{{ flavor.colors.surface0.hex }};
+      }
+
+      /* Dialog (language) */
+      html[data-theme="catppuccin-{{ id }}"] .ingameDialog>.dialogInner {
+        background-color: #{{ flavor.colors.base.hex }};
+      }
+      html[data-theme="catppuccin-{{ id }}"] .ingameDialog>.dialogInner.optionChooserDialog .optionParent .option {
+        background-color: #{{ flavor.colors.mantle.hex }};
+      }
+      html[data-theme="catppuccin-{{ id }}"] .ingameDialog>.dialogInner.optionChooserDialog .optionParent .option:hover {
+        background-color: #{{ flavor.colors.surface0.hex }};
+      }
+      html[data-theme="catppuccin-{{ id }}"] .ingameDialog>.dialogInner.optionChooserDialog .optionParent .option.active {
+        color: #{{ flavor.colors.base.hex }};
+        background-color: #{{ flavor.colors.blue.hex }};
       }
     `)
     {%- endfor %}

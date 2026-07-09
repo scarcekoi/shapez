@@ -51,6 +51,11 @@ class Mod extends shapez.Mod {
         background-position: 60% 58%;
       }
 
+      /* Dialog close button */
+      html[data-theme="catppuccin-latte"] .ingameDialog>.dialogInner>.title>.closeButton {
+        background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABABAMAAABYR2ztAAAAIGNIUk0AAHomAACAhAAA+gAAAIDoAAB1MAAA6mAAADqYAAAXcJy6UTwAAAAtUExURUxPaUxPaUxPaUxPaUxPaUxPaUxPaUxPaUxPaUxPaUxPaUxPaUxPaUxPaf///2MLrVcAAAANdFJOUwAbnee0OftSx2tlWm11E2DAAAAAAWJLR0QOb70wTwAAAAd0SU1FB+oHCRY5HLYND+kAAAAldEVYdGRhdGU6Y3JlYXRlADIwMjYtMDctMDlUMjI6NTc6MTErMDA6MDCRTHQQAAAAJXRFWHRkYXRlOm1vZGlmeQAyMDI2LTA3LTA5VDIyOjU3OjExKzAwOjAw4BHMrAAAACh0RVh0ZGF0ZTp0aW1lc3RhbXAAMjAyNi0wNy0wOVQyMjo1NzoyOCswMDowMKwTr0MAAAFfSURBVEjHddUxakJBEAbgsQiPWAk5gnUKQ1qrQLpAqpwgwSIErOxyBMELeATBI+QMmoiCc5e8N677dnb+/1ULO3wsb+ffkcH48VXId/P0MJI71RkrWKhO5F71MMf7zZfqTqZKiRbQvbRVhGhsS5bKiA7Qo3wrIQzQP7lVQhigK5GNEVsMnNvV0Co/MfDTLSHRA4QoAEiUACQcAAgPAKICAlEDgQhARUSgIgDgCAQ4AgIFgYGCIEAmGJAJCoisjTDghPYTwYF0CnYCRxAgEwzIBAXST2Rhz7cQM+IBFDMPUOIKUGLR/8kZB84bSqRrHLJT5D5gRO4DQhSNhImikSDhOhERrhMBUbVyJKpWDkTIQk2ELFQECJMnQJgcAdNYEjCNBUHi3BMkzpmg78GVeLPKVSy4jKIPeaHvgb0XvzYWEZCIgw1W/KAYse9GMwYuxK4b7gQwYiKD5+OcFTTL99E/9vZG0KLhFgYAAAAASUVORK5CYII=") 50%/80% no-repeat;
+      }
+
       /* Language Flags */
       html[data-theme="catppuccin-latte"] [data-languageicon=en] {
         background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'%3E%3Cpath d='M400 512H112C50.144 512 0 461.856 0 400V112C0 50.144 50.144 0 112 0h288c61.856 0 112 50.144 112 112v288c0 61.856-50.144 112-112 112z' fill='%231e66f5'/%3E%3Cpath d='M512 399.989v-24.587l-79.419-52.033H512v-26.948H296.421V512h26.947V348.46L494.3 460.45a111.414 111.414 0 0013.75-30.896M7.531 440.443a111.728 111.728 0 0010.168 20.007l170.932-111.99V512h26.947V296.421H0v26.948h79.419L0 375.402V400c0 4.306.252 8.553.725 12.733M0 115.807v20.791l79.419 52.034H0v26.947h215.579V0h-26.947v163.54L17.699 51.55A111.378 111.378 0 003.114 85.7m501.207-14.531a111.622 111.622 0 00-10.021-19.62L323.368 163.54V0h-26.947v215.579H512v-26.947h-79.419L512 136.598V112c0-4.46-.269-8.858-.776-13.182' fill='%23eff1f5'/%3E%3Cg fill='%23d20f39'%3E%3Cpath d='M296.421 0h-80.842v215.579H0v80.842h215.579V512h80.842V296.421H512v-80.842H296.421z'/%3E%3Cpath d='M138.395 323.369L.725 412.733a111.28 111.28 0 006.807 27.71l180.359-117.075h-49.496v.001zm206.07 0l163.586 106.186A112.142 112.142 0 00512 400v-.011l-118.039-76.621-49.496.001zM161.684 188.632L3.114 85.7A112.234 112.234 0 000 112v3.807l112.188 72.825h49.496zm211.179 0l138.36-89.814a111.284 111.284 0 00-6.902-27.648L323.368 188.632h49.495z'/%3E%3C/g%3E%3C/svg%3E") !important;
@@ -133,6 +138,10 @@ class Mod extends shapez.Mod {
         color: #4c4f69;
       }
 
+      html[data-theme="catppuccin-latte"] #state_MainMenuState {
+        background: #eff1f5 50%/cover !important;
+      }
+
       html[data-theme="catppuccin-latte"] #state_MainMenuState .footer .footerGrow>a {
         color: #4c4f69;
       }
@@ -197,7 +206,22 @@ class Mod extends shapez.Mod {
         border-color: #ccd0da;
       }
       html[data-theme="catppuccin-latte"] #state_MainMenuState .sideContainer .modsOverview .mod {
-      background-color: #ccd0da;
+        background-color: #ccd0da;
+      }
+
+      /* Dialog (language) */
+      html[data-theme="catppuccin-latte"] .ingameDialog>.dialogInner {
+        background-color: #eff1f5;
+      }
+      html[data-theme="catppuccin-latte"] .ingameDialog>.dialogInner.optionChooserDialog .optionParent .option {
+        background-color: #e6e9ef;
+      }
+      html[data-theme="catppuccin-latte"] .ingameDialog>.dialogInner.optionChooserDialog .optionParent .option:hover {
+        background-color: #ccd0da;
+      }
+      html[data-theme="catppuccin-latte"] .ingameDialog>.dialogInner.optionChooserDialog .optionParent .option.active {
+        color: #eff1f5;
+        background-color: #1e66f5;
       }
     `)
     this.modInterface.registerGameTheme({
@@ -236,6 +260,11 @@ class Mod extends shapez.Mod {
         background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 490.659 490.659'%3E%3Cpath d='M487.84 92.931a10.666 10.666 0 00-12.8-2.261 91.11 91.11 0 01-13.632 4.928 95.99 95.99 0 0016.213-31.211c1.513-5.693-1.876-11.535-7.569-13.048a10.664 10.664 0 00-8.857 1.571 224.2 224.2 0 01-51.328 20.075c-36.787-34.722-92.823-39.05-134.507-10.389-32.109 21.71-49.786 59.232-46.08 97.813A252.588 252.588 0 0152.384 65.134a11.03 11.03 0 00-9.067-3.989 10.664 10.664 0 00-8.533 5.205 103.25 103.25 0 00-11.776 80.149 114.143 114.143 0 0018.539 38.763 56.635 56.635 0 01-10.837-6.933c-4.575-3.711-11.292-3.011-15.004 1.564a10.667 10.667 0 00-2.383 6.714c.634 39.467 22.306 75.588 56.832 94.72a79.104 79.104 0 01-13.739-2.944c-5.641-1.697-11.59 1.5-13.287 7.141a10.675 10.675 0 00.487 7.451 116.412 116.412 0 0080.811 66.133 187.945 187.945 0 01-112.533 23.168 10.517 10.517 0 00-11.371 7.296 10.667 10.667 0 004.907 12.587 319.679 319.679 0 00157.653 44.8 270.763 270.763 0 00149.632-45.76c84.544-56.107 137.237-156.843 129.899-246.976a199.261 199.261 0 0046.379-48.341 10.67 10.67 0 00-1.153-12.951z' fill='%2399d1db'/%3E%3C/svg%3E");
         background-size: 60%;
         background-position: 60% 58%;
+      }
+
+      /* Dialog close button */
+      html[data-theme="catppuccin-frappe"] .ingameDialog>.dialogInner>.title>.closeButton {
+        background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABABAMAAABYR2ztAAAAIGNIUk0AAHomAACAhAAA+gAAAIDoAAB1MAAA6mAAADqYAAAXcJy6UTwAAAAtUExURcbQ9cbQ9cbQ9cbQ9cbQ9cbQ9cbQ9cbQ9cbQ9cbQ9cbQ9cbQ9cbQ9cbQ9f///zKnuxkAAAANdFJOUwAbnee0OftSx2tlWm11E2DAAAAAAWJLR0QOb70wTwAAAAd0SU1FB+oHCRY5GcZn+2YAAAAldEVYdGRhdGU6Y3JlYXRlADIwMjYtMDctMDlUMjI6NTc6MTErMDA6MDCRTHQQAAAAJXRFWHRkYXRlOm1vZGlmeQAyMDI2LTA3LTA5VDIyOjU3OjExKzAwOjAw4BHMrAAAACh0RVh0ZGF0ZTp0aW1lc3RhbXAAMjAyNi0wNy0wOVQyMjo1NzoyNSswMDowMM3EzoMAAAFfSURBVEjHddUxakJBEAbgsQiPWAk5gnUKQ1qrQLpAqpwgwSIErOxyBMELeATBI+QMmoiCc5e8N677dnb+/1ULO3wsb+ffkcH48VXId/P0MJI71RkrWKhO5F71MMf7zZfqTqZKiRbQvbRVhGhsS5bKiA7Qo3wrIQzQP7lVQhigK5GNEVsMnNvV0Co/MfDTLSHRA4QoAEiUACQcAAgPAKICAlEDgQhARUSgIgDgCAQ4AgIFgYGCIEAmGJAJCoisjTDghPYTwYF0CnYCRxAgEwzIBAXST2Rhz7cQM+IBFDMPUOIKUGLR/8kZB84bSqRrHLJT5D5gRO4DQhSNhImikSDhOhERrhMBUbVyJKpWDkTIQk2ELFQECJMnQJgcAdNYEjCNBUHi3BMkzpmg78GVeLPKVSy4jKIPeaHvgb0XvzYWEZCIgw1W/KAYse9GMwYuxK4b7gQwYiKD5+OcFTTL99E/9vZG0KLhFgYAAAAASUVORK5CYII=") 50%/80% no-repeat;
       }
 
       /* Language Flags */
@@ -320,6 +349,10 @@ class Mod extends shapez.Mod {
         color: #c6d0f5;
       }
 
+      html[data-theme="catppuccin-frappe"] #state_MainMenuState {
+        background: #303446 50%/cover !important;
+      }
+
       html[data-theme="catppuccin-frappe"] #state_MainMenuState .footer .footerGrow>a {
         color: #c6d0f5;
       }
@@ -384,7 +417,22 @@ class Mod extends shapez.Mod {
         border-color: #414559;
       }
       html[data-theme="catppuccin-frappe"] #state_MainMenuState .sideContainer .modsOverview .mod {
-      background-color: #414559;
+        background-color: #414559;
+      }
+
+      /* Dialog (language) */
+      html[data-theme="catppuccin-frappe"] .ingameDialog>.dialogInner {
+        background-color: #303446;
+      }
+      html[data-theme="catppuccin-frappe"] .ingameDialog>.dialogInner.optionChooserDialog .optionParent .option {
+        background-color: #292c3c;
+      }
+      html[data-theme="catppuccin-frappe"] .ingameDialog>.dialogInner.optionChooserDialog .optionParent .option:hover {
+        background-color: #414559;
+      }
+      html[data-theme="catppuccin-frappe"] .ingameDialog>.dialogInner.optionChooserDialog .optionParent .option.active {
+        color: #303446;
+        background-color: #8caaee;
       }
     `)
     this.modInterface.registerGameTheme({
@@ -423,6 +471,11 @@ class Mod extends shapez.Mod {
         background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 490.659 490.659'%3E%3Cpath d='M487.84 92.931a10.666 10.666 0 00-12.8-2.261 91.11 91.11 0 01-13.632 4.928 95.99 95.99 0 0016.213-31.211c1.513-5.693-1.876-11.535-7.569-13.048a10.664 10.664 0 00-8.857 1.571 224.2 224.2 0 01-51.328 20.075c-36.787-34.722-92.823-39.05-134.507-10.389-32.109 21.71-49.786 59.232-46.08 97.813A252.588 252.588 0 0152.384 65.134a11.03 11.03 0 00-9.067-3.989 10.664 10.664 0 00-8.533 5.205 103.25 103.25 0 00-11.776 80.149 114.143 114.143 0 0018.539 38.763 56.635 56.635 0 01-10.837-6.933c-4.575-3.711-11.292-3.011-15.004 1.564a10.667 10.667 0 00-2.383 6.714c.634 39.467 22.306 75.588 56.832 94.72a79.104 79.104 0 01-13.739-2.944c-5.641-1.697-11.59 1.5-13.287 7.141a10.675 10.675 0 00.487 7.451 116.412 116.412 0 0080.811 66.133 187.945 187.945 0 01-112.533 23.168 10.517 10.517 0 00-11.371 7.296 10.667 10.667 0 004.907 12.587 319.679 319.679 0 00157.653 44.8 270.763 270.763 0 00149.632-45.76c84.544-56.107 137.237-156.843 129.899-246.976a199.261 199.261 0 0046.379-48.341 10.67 10.67 0 00-1.153-12.951z' fill='%2391d7e3'/%3E%3C/svg%3E");
         background-size: 60%;
         background-position: 60% 58%;
+      }
+
+      /* Dialog close button */
+      html[data-theme="catppuccin-macchiato"] .ingameDialog>.dialogInner>.title>.closeButton {
+        background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABABAMAAABYR2ztAAAAIGNIUk0AAHomAACAhAAA+gAAAIDoAAB1MAAA6mAAADqYAAAXcJy6UTwAAAAtUExURcrT9crT9crT9crT9crT9crT9crT9crT9crT9crT9crT9crT9crT9crT9f///2LDSEoAAAANdFJOUwAbnee0OftSx2tlWm11E2DAAAAAAWJLR0QOb70wTwAAAAd0SU1FB+oHCRY5FlbY5vcAAAAldEVYdGRhdGU6Y3JlYXRlADIwMjYtMDctMDlUMjI6NTc6MTErMDA6MDCRTHQQAAAAJXRFWHRkYXRlOm1vZGlmeQAyMDI2LTA3LTA5VDIyOjU3OjExKzAwOjAw4BHMrAAAACh0RVh0ZGF0ZTp0aW1lc3RhbXAAMjAyNi0wNy0wOVQyMjo1NzoyMiswMDowMAhj8A0AAAFfSURBVEjHddUxakJBEAbgsQiPWAk5gnUKQ1qrQLpAqpwgwSIErOxyBMELeATBI+QMmoiCc5e8N677dnb+/1ULO3wsb+ffkcH48VXId/P0MJI71RkrWKhO5F71MMf7zZfqTqZKiRbQvbRVhGhsS5bKiA7Qo3wrIQzQP7lVQhigK5GNEVsMnNvV0Co/MfDTLSHRA4QoAEiUACQcAAgPAKICAlEDgQhARUSgIgDgCAQ4AgIFgYGCIEAmGJAJCoisjTDghPYTwYF0CnYCRxAgEwzIBAXST2Rhz7cQM+IBFDMPUOIKUGLR/8kZB84bSqRrHLJT5D5gRO4DQhSNhImikSDhOhERrhMBUbVyJKpWDkTIQk2ELFQECJMnQJgcAdNYEjCNBUHi3BMkzpmg78GVeLPKVSy4jKIPeaHvgb0XvzYWEZCIgw1W/KAYse9GMwYuxK4b7gQwYiKD5+OcFTTL99E/9vZG0KLhFgYAAAAASUVORK5CYII=") 50%/80% no-repeat;
       }
 
       /* Language Flags */
@@ -507,6 +560,10 @@ class Mod extends shapez.Mod {
         color: #cad3f5;
       }
 
+      html[data-theme="catppuccin-macchiato"] #state_MainMenuState {
+        background: #24273a 50%/cover !important;
+      }
+
       html[data-theme="catppuccin-macchiato"] #state_MainMenuState .footer .footerGrow>a {
         color: #cad3f5;
       }
@@ -571,7 +628,22 @@ class Mod extends shapez.Mod {
         border-color: #363a4f;
       }
       html[data-theme="catppuccin-macchiato"] #state_MainMenuState .sideContainer .modsOverview .mod {
-      background-color: #363a4f;
+        background-color: #363a4f;
+      }
+
+      /* Dialog (language) */
+      html[data-theme="catppuccin-macchiato"] .ingameDialog>.dialogInner {
+        background-color: #24273a;
+      }
+      html[data-theme="catppuccin-macchiato"] .ingameDialog>.dialogInner.optionChooserDialog .optionParent .option {
+        background-color: #1e2030;
+      }
+      html[data-theme="catppuccin-macchiato"] .ingameDialog>.dialogInner.optionChooserDialog .optionParent .option:hover {
+        background-color: #363a4f;
+      }
+      html[data-theme="catppuccin-macchiato"] .ingameDialog>.dialogInner.optionChooserDialog .optionParent .option.active {
+        color: #24273a;
+        background-color: #8aadf4;
       }
     `)
     this.modInterface.registerGameTheme({
@@ -610,6 +682,11 @@ class Mod extends shapez.Mod {
         background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 490.659 490.659'%3E%3Cpath d='M487.84 92.931a10.666 10.666 0 00-12.8-2.261 91.11 91.11 0 01-13.632 4.928 95.99 95.99 0 0016.213-31.211c1.513-5.693-1.876-11.535-7.569-13.048a10.664 10.664 0 00-8.857 1.571 224.2 224.2 0 01-51.328 20.075c-36.787-34.722-92.823-39.05-134.507-10.389-32.109 21.71-49.786 59.232-46.08 97.813A252.588 252.588 0 0152.384 65.134a11.03 11.03 0 00-9.067-3.989 10.664 10.664 0 00-8.533 5.205 103.25 103.25 0 00-11.776 80.149 114.143 114.143 0 0018.539 38.763 56.635 56.635 0 01-10.837-6.933c-4.575-3.711-11.292-3.011-15.004 1.564a10.667 10.667 0 00-2.383 6.714c.634 39.467 22.306 75.588 56.832 94.72a79.104 79.104 0 01-13.739-2.944c-5.641-1.697-11.59 1.5-13.287 7.141a10.675 10.675 0 00.487 7.451 116.412 116.412 0 0080.811 66.133 187.945 187.945 0 01-112.533 23.168 10.517 10.517 0 00-11.371 7.296 10.667 10.667 0 004.907 12.587 319.679 319.679 0 00157.653 44.8 270.763 270.763 0 00149.632-45.76c84.544-56.107 137.237-156.843 129.899-246.976a199.261 199.261 0 0046.379-48.341 10.67 10.67 0 00-1.153-12.951z' fill='%2389dceb'/%3E%3C/svg%3E");
         background-size: 60%;
         background-position: 60% 58%;
+      }
+
+      /* Dialog close button */
+      html[data-theme="catppuccin-mocha"] .ingameDialog>.dialogInner>.title>.closeButton {
+        background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABABAMAAABYR2ztAAAAIGNIUk0AAHomAACAhAAA+gAAAIDoAAB1MAAA6mAAADqYAAAXcJy6UTwAAAAtUExURc3W9M3W9M3W9M3W9M3W9M3W9M3W9M3W9M3W9M3W9M3W9M3W9M3W9M3W9P///8hk6vIAAAANdFJOUwAbnee0OftSx2tlWm11E2DAAAAAAWJLR0QOb70wTwAAAAd0SU1FB+oHCRY5ElG1Iu4AAAAldEVYdGRhdGU6Y3JlYXRlADIwMjYtMDctMDlUMjI6NTc6MTErMDA6MDCRTHQQAAAAJXRFWHRkYXRlOm1vZGlmeQAyMDI2LTA3LTA5VDIyOjU3OjExKzAwOjAw4BHMrAAAACh0RVh0ZGF0ZTp0aW1lc3RhbXAAMjAyNi0wNy0wOVQyMjo1NzoxOCswMDowMCKcqKAAAAFfSURBVEjHddUxakJBEAbgsQiPWAk5gnUKQ1qrQLpAqpwgwSIErOxyBMELeATBI+QMmoiCc5e8N677dnb+/1ULO3wsb+ffkcH48VXId/P0MJI71RkrWKhO5F71MMf7zZfqTqZKiRbQvbRVhGhsS5bKiA7Qo3wrIQzQP7lVQhigK5GNEVsMnNvV0Co/MfDTLSHRA4QoAEiUACQcAAgPAKICAlEDgQhARUSgIgDgCAQ4AgIFgYGCIEAmGJAJCoisjTDghPYTwYF0CnYCRxAgEwzIBAXST2Rhz7cQM+IBFDMPUOIKUGLR/8kZB84bSqRrHLJT5D5gRO4DQhSNhImikSDhOhERrhMBUbVyJKpWDkTIQk2ELFQECJMnQJgcAdNYEjCNBUHi3BMkzpmg78GVeLPKVSy4jKIPeaHvgb0XvzYWEZCIgw1W/KAYse9GMwYuxK4b7gQwYiKD5+OcFTTL99E/9vZG0KLhFgYAAAAASUVORK5CYII=") 50%/80% no-repeat;
       }
 
       /* Language Flags */
@@ -694,6 +771,10 @@ class Mod extends shapez.Mod {
         color: #cdd6f4;
       }
 
+      html[data-theme="catppuccin-mocha"] #state_MainMenuState {
+        background: #1e1e2e 50%/cover !important;
+      }
+
       html[data-theme="catppuccin-mocha"] #state_MainMenuState .footer .footerGrow>a {
         color: #cdd6f4;
       }
@@ -758,7 +839,22 @@ class Mod extends shapez.Mod {
         border-color: #313244;
       }
       html[data-theme="catppuccin-mocha"] #state_MainMenuState .sideContainer .modsOverview .mod {
-      background-color: #313244;
+        background-color: #313244;
+      }
+
+      /* Dialog (language) */
+      html[data-theme="catppuccin-mocha"] .ingameDialog>.dialogInner {
+        background-color: #1e1e2e;
+      }
+      html[data-theme="catppuccin-mocha"] .ingameDialog>.dialogInner.optionChooserDialog .optionParent .option {
+        background-color: #181825;
+      }
+      html[data-theme="catppuccin-mocha"] .ingameDialog>.dialogInner.optionChooserDialog .optionParent .option:hover {
+        background-color: #313244;
+      }
+      html[data-theme="catppuccin-mocha"] .ingameDialog>.dialogInner.optionChooserDialog .optionParent .option.active {
+        color: #1e1e2e;
+        background-color: #89b4fa;
       }
     `)
   }
