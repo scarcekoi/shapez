@@ -1,0 +1,25 @@
+name: whiskers
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v5
+
+      - name: Setup Whiskers
+        uses: catppuccin/setup-whiskers@v2
+
+      - name: Check
+        run: |
+          whiskers --check themes/catppuccin-latte.js shapez.tera
+          whiskers --check themes/catppuccin-frappe.js shapez.tera
+          whiskers --check themes/catppuccin-macchiato.js shapez.tera
+          whiskers --check themes/catppuccin-mocha.js shapez.tera
