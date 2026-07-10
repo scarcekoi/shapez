@@ -354,7 +354,7 @@ class Mod extends shapez.Mod {
       html[data-theme="catppuccin-macchiato-rosewater"] #state_ModsState .modsList .mod .version strong {
         color: #a5adcb;
       }
-      .gameState.textualState>.container>.content a {
+      html[data-theme="catppuccin-macchiato-rosewater"] .gameState.textualState>.container>.content a {
         color: #f4dbd6;
       }
     `)
@@ -699,7 +699,7 @@ class Mod extends shapez.Mod {
       html[data-theme="catppuccin-macchiato-flamingo"] #state_ModsState .modsList .mod .version strong {
         color: #a5adcb;
       }
-      .gameState.textualState>.container>.content a {
+      html[data-theme="catppuccin-macchiato-flamingo"] .gameState.textualState>.container>.content a {
         color: #f0c6c6;
       }
     `)
@@ -1044,7 +1044,7 @@ class Mod extends shapez.Mod {
       html[data-theme="catppuccin-macchiato-pink"] #state_ModsState .modsList .mod .version strong {
         color: #a5adcb;
       }
-      .gameState.textualState>.container>.content a {
+      html[data-theme="catppuccin-macchiato-pink"] .gameState.textualState>.container>.content a {
         color: #f5bde6;
       }
     `)
@@ -1389,7 +1389,7 @@ class Mod extends shapez.Mod {
       html[data-theme="catppuccin-macchiato-mauve"] #state_ModsState .modsList .mod .version strong {
         color: #a5adcb;
       }
-      .gameState.textualState>.container>.content a {
+      html[data-theme="catppuccin-macchiato-mauve"] .gameState.textualState>.container>.content a {
         color: #c6a0f6;
       }
     `)
@@ -1734,7 +1734,7 @@ class Mod extends shapez.Mod {
       html[data-theme="catppuccin-macchiato-red"] #state_ModsState .modsList .mod .version strong {
         color: #a5adcb;
       }
-      .gameState.textualState>.container>.content a {
+      html[data-theme="catppuccin-macchiato-red"] .gameState.textualState>.container>.content a {
         color: #ed8796;
       }
     `)
@@ -2079,7 +2079,7 @@ class Mod extends shapez.Mod {
       html[data-theme="catppuccin-macchiato-maroon"] #state_ModsState .modsList .mod .version strong {
         color: #a5adcb;
       }
-      .gameState.textualState>.container>.content a {
+      html[data-theme="catppuccin-macchiato-maroon"] .gameState.textualState>.container>.content a {
         color: #ee99a0;
       }
     `)
@@ -2424,7 +2424,7 @@ class Mod extends shapez.Mod {
       html[data-theme="catppuccin-macchiato-peach"] #state_ModsState .modsList .mod .version strong {
         color: #a5adcb;
       }
-      .gameState.textualState>.container>.content a {
+      html[data-theme="catppuccin-macchiato-peach"] .gameState.textualState>.container>.content a {
         color: #f5a97f;
       }
     `)
@@ -2769,7 +2769,7 @@ class Mod extends shapez.Mod {
       html[data-theme="catppuccin-macchiato-yellow"] #state_ModsState .modsList .mod .version strong {
         color: #a5adcb;
       }
-      .gameState.textualState>.container>.content a {
+      html[data-theme="catppuccin-macchiato-yellow"] .gameState.textualState>.container>.content a {
         color: #eed49f;
       }
     `)
@@ -3114,7 +3114,7 @@ class Mod extends shapez.Mod {
       html[data-theme="catppuccin-macchiato-green"] #state_ModsState .modsList .mod .version strong {
         color: #a5adcb;
       }
-      .gameState.textualState>.container>.content a {
+      html[data-theme="catppuccin-macchiato-green"] .gameState.textualState>.container>.content a {
         color: #a6da95;
       }
     `)
@@ -3459,7 +3459,7 @@ class Mod extends shapez.Mod {
       html[data-theme="catppuccin-macchiato-teal"] #state_ModsState .modsList .mod .version strong {
         color: #a5adcb;
       }
-      .gameState.textualState>.container>.content a {
+      html[data-theme="catppuccin-macchiato-teal"] .gameState.textualState>.container>.content a {
         color: #8bd5ca;
       }
     `)
@@ -3804,7 +3804,7 @@ class Mod extends shapez.Mod {
       html[data-theme="catppuccin-macchiato-sky"] #state_ModsState .modsList .mod .version strong {
         color: #a5adcb;
       }
-      .gameState.textualState>.container>.content a {
+      html[data-theme="catppuccin-macchiato-sky"] .gameState.textualState>.container>.content a {
         color: #91d7e3;
       }
     `)
@@ -4149,7 +4149,7 @@ class Mod extends shapez.Mod {
       html[data-theme="catppuccin-macchiato-sapphire"] #state_ModsState .modsList .mod .version strong {
         color: #a5adcb;
       }
-      .gameState.textualState>.container>.content a {
+      html[data-theme="catppuccin-macchiato-sapphire"] .gameState.textualState>.container>.content a {
         color: #7dc4e4;
       }
     `)
@@ -4494,7 +4494,7 @@ class Mod extends shapez.Mod {
       html[data-theme="catppuccin-macchiato-blue"] #state_ModsState .modsList .mod .version strong {
         color: #a5adcb;
       }
-      .gameState.textualState>.container>.content a {
+      html[data-theme="catppuccin-macchiato-blue"] .gameState.textualState>.container>.content a {
         color: #8aadf4;
       }
     `)
@@ -4839,7 +4839,7 @@ class Mod extends shapez.Mod {
       html[data-theme="catppuccin-macchiato-lavender"] #state_ModsState .modsList .mod .version strong {
         color: #a5adcb;
       }
-      .gameState.textualState>.container>.content a {
+      html[data-theme="catppuccin-macchiato-lavender"] .gameState.textualState>.container>.content a {
         color: #b7bdf8;
       }
     `)

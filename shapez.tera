@@ -368,7 +368,7 @@ class Mod extends shapez.Mod {
       html[data-theme="catppuccin-{{ flavor.identifier }}-{{ accent.identifier }}"] #state_ModsState .modsList .mod .version strong {
         color: #{{ flavor.colors.subtext0.hex }};
       }
-      .gameState.textualState>.container>.content a {
+      html[data-theme="catppuccin-{{ flavor.identifier }}-{{ accent.identifier }}"] .gameState.textualState>.container>.content a {
         color: #{{ accent.hex }};
       }
     `)
