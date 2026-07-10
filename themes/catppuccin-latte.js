@@ -185,7 +185,7 @@ class Mod extends shapez.Mod {
       }
 
       html[data-theme="catppuccin-latte-rosewater"] #state_MainMenuState {
-        background: #eff1f5 50%/cover !important;
+        background: #6c6f85 50%/cover !important;
       }
 
       html[data-theme="catppuccin-latte-rosewater"] #state_MainMenuState .footer .footerGrow>a {
@@ -534,7 +534,7 @@ class Mod extends shapez.Mod {
       }
 
       html[data-theme="catppuccin-latte-flamingo"] #state_MainMenuState {
-        background: #eff1f5 50%/cover !important;
+        background: #6c6f85 50%/cover !important;
       }
 
       html[data-theme="catppuccin-latte-flamingo"] #state_MainMenuState .footer .footerGrow>a {
@@ -883,7 +883,7 @@ class Mod extends shapez.Mod {
       }
 
       html[data-theme="catppuccin-latte-pink"] #state_MainMenuState {
-        background: #eff1f5 50%/cover !important;
+        background: #6c6f85 50%/cover !important;
       }
 
       html[data-theme="catppuccin-latte-pink"] #state_MainMenuState .footer .footerGrow>a {
@@ -1232,7 +1232,7 @@ class Mod extends shapez.Mod {
       }
 
       html[data-theme="catppuccin-latte-mauve"] #state_MainMenuState {
-        background: #eff1f5 50%/cover !important;
+        background: #6c6f85 50%/cover !important;
       }
 
       html[data-theme="catppuccin-latte-mauve"] #state_MainMenuState .footer .footerGrow>a {
@@ -1581,7 +1581,7 @@ class Mod extends shapez.Mod {
       }
 
       html[data-theme="catppuccin-latte-red"] #state_MainMenuState {
-        background: #eff1f5 50%/cover !important;
+        background: #6c6f85 50%/cover !important;
       }
 
       html[data-theme="catppuccin-latte-red"] #state_MainMenuState .footer .footerGrow>a {
@@ -1930,7 +1930,7 @@ class Mod extends shapez.Mod {
       }
 
       html[data-theme="catppuccin-latte-maroon"] #state_MainMenuState {
-        background: #eff1f5 50%/cover !important;
+        background: #6c6f85 50%/cover !important;
       }
 
       html[data-theme="catppuccin-latte-maroon"] #state_MainMenuState .footer .footerGrow>a {
@@ -2279,7 +2279,7 @@ class Mod extends shapez.Mod {
       }
 
       html[data-theme="catppuccin-latte-peach"] #state_MainMenuState {
-        background: #eff1f5 50%/cover !important;
+        background: #6c6f85 50%/cover !important;
       }
 
       html[data-theme="catppuccin-latte-peach"] #state_MainMenuState .footer .footerGrow>a {
@@ -2628,7 +2628,7 @@ class Mod extends shapez.Mod {
       }
 
       html[data-theme="catppuccin-latte-yellow"] #state_MainMenuState {
-        background: #eff1f5 50%/cover !important;
+        background: #6c6f85 50%/cover !important;
       }
 
       html[data-theme="catppuccin-latte-yellow"] #state_MainMenuState .footer .footerGrow>a {
@@ -2977,7 +2977,7 @@ class Mod extends shapez.Mod {
       }
 
       html[data-theme="catppuccin-latte-green"] #state_MainMenuState {
-        background: #eff1f5 50%/cover !important;
+        background: #6c6f85 50%/cover !important;
       }
 
       html[data-theme="catppuccin-latte-green"] #state_MainMenuState .footer .footerGrow>a {
@@ -3326,7 +3326,7 @@ class Mod extends shapez.Mod {
       }
 
       html[data-theme="catppuccin-latte-teal"] #state_MainMenuState {
-        background: #eff1f5 50%/cover !important;
+        background: #6c6f85 50%/cover !important;
       }
 
       html[data-theme="catppuccin-latte-teal"] #state_MainMenuState .footer .footerGrow>a {
@@ -3675,7 +3675,7 @@ class Mod extends shapez.Mod {
       }
 
       html[data-theme="catppuccin-latte-sky"] #state_MainMenuState {
-        background: #eff1f5 50%/cover !important;
+        background: #6c6f85 50%/cover !important;
       }
 
       html[data-theme="catppuccin-latte-sky"] #state_MainMenuState .footer .footerGrow>a {
@@ -4024,7 +4024,7 @@ class Mod extends shapez.Mod {
       }
 
       html[data-theme="catppuccin-latte-sapphire"] #state_MainMenuState {
-        background: #eff1f5 50%/cover !important;
+        background: #6c6f85 50%/cover !important;
       }
 
       html[data-theme="catppuccin-latte-sapphire"] #state_MainMenuState .footer .footerGrow>a {
@@ -4373,7 +4373,7 @@ class Mod extends shapez.Mod {
       }
 
       html[data-theme="catppuccin-latte-blue"] #state_MainMenuState {
-        background: #eff1f5 50%/cover !important;
+        background: #6c6f85 50%/cover !important;
       }
 
       html[data-theme="catppuccin-latte-blue"] #state_MainMenuState .footer .footerGrow>a {
@@ -4722,7 +4722,7 @@ class Mod extends shapez.Mod {
       }
 
       html[data-theme="catppuccin-latte-lavender"] #state_MainMenuState {
-        background: #eff1f5 50%/cover !important;
+        background: #6c6f85 50%/cover !important;
       }
 
       html[data-theme="catppuccin-latte-lavender"] #state_MainMenuState .footer .footerGrow>a {

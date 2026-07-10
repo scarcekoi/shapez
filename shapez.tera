@@ -199,7 +199,7 @@ class Mod extends shapez.Mod {
       }
 
       html[data-theme="catppuccin-{{ flavor.identifier }}-{{ accent.identifier }}"] #state_MainMenuState {
-        background: #{{ flavor.colors.base.hex }} 50%/cover !important;
+        background: #{{ if(cond=flavor.dark, t=flavor.colors.base.hex, f=flavor.colors.subtext0.hex) }} 50%/cover !important;
       }
 
       html[data-theme="catppuccin-{{ flavor.identifier }}-{{ accent.identifier }}"] #state_MainMenuState .footer .footerGrow>a {
