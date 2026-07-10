@@ -160,10 +160,10 @@ class Mod extends shapez.Mod {
         background-color: #{{ flavor.colors.text.hex }};
       }
       html[data-theme="catppuccin-{{ flavor.identifier }}-{{ accent.identifier }}"] .checkbox {
-        background-color: #{{ flavor.colors.subtext0.hex }};
+        background-color: #{{ flavor.colors.overlay1.hex }};
       }
       html[data-theme="catppuccin-{{ flavor.identifier }}-{{ accent.identifier }}"] .checkbox:hover {
-        background-color: #{{ flavor.colors.overlay2.hex }};
+        background-color: #{{ flavor.colors.overlay0.hex }};
       }
       html[data-theme="catppuccin-{{ flavor.identifier }}-{{ accent.identifier }}"] .checkbox.checked {
         background-color: #{{ flavor.colors.surface0.hex }};
