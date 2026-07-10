@@ -148,6 +148,10 @@ class Mod extends shapez.Mod {
         background-color: #{{ flavor.colors.mantle.hex }};
       }
 
+      html[data-theme="catppuccin-{{ flavor.identifier }}-{{ accent.identifier }}"] ::-webkit-scrollbar-thumb {
+        background-color: #{{ flavor.colors.text.hex }};
+      }
+
       html[data-theme="catppuccin-{{ flavor.identifier }}-{{ accent.identifier }}"] a {
         color: #{{ flavor.colors.text.hex }};
       }
@@ -329,6 +333,26 @@ class Mod extends shapez.Mod {
       html[data-theme="catppuccin-{{ flavor.identifier }}-{{ accent.identifier }}"] #state_SettingsState .container .content .categoryContainer .category .setting .value.enum {
         background-color: #{{ flavor.colors.crust.hex }};
         background: #{{ flavor.colors.crust.hex }} url("data:image/png;base64,{%- if flavor.identifier == "latte" -%}iVBORw0KGgoAAAANSUhEUgAAAEAAAABABAMAAABYR2ztAAAAIGNIUk0AAHomAACAhAAA+gAAAIDoAAB1MAAA6mAAADqYAAAXcJy6UTwAAAAYUExURUxPaUxPaUxPaUxPaUxPaUxPaUxPaf///8yq9UAAAAAGdFJOUwAre/xYLJjtDxIAAAABYktHRAcWYYjrAAAAB3RJTUUH6gcKBxk3gGS0ogAAACV0RVh0ZGF0ZTpjcmVhdGUAMjAyNi0wNy0xMFQwNzoyNToxNyswMDowMHnONrcAAAAldEVYdGRhdGU6bW9kaWZ5ADIwMjYtMDctMTBUMDc6MjU6MTcrMDA6MDAIk44LAAAAKHRFWHRkYXRlOnRpbWVzdGFtcAAyMDI2LTA3LTEwVDA3OjI1OjU1KzAwOjAwTFOwBwAAAJhJREFUSMftz8sNgCAMBmA0DOAIJm5g0LMJIziCCfuPII8ghT686I2eyl/7IUr16vV9DVQ4gX458FyvpR+dwR9YNz/96S5E6N1t8GAwAJcsIpodTLQr7RlttAG+s06Iv64jS7wbZtSzq5ACYEoCMKaBkjNAGXBAnrBAHvFAmglAIiQgEhIQCREIhAgEQgY8IQOeeAF69fq7boqQLsGIVTZjAAAAAElFTkSuQmCC{%- elif flavor.identifier == "frappe" -%}iVBORw0KGgoAAAANSUhEUgAAAEAAAABABAMAAABYR2ztAAAAIGNIUk0AAHomAACAhAAA+gAAAIDoAAB1MAAA6mAAADqYAAAXcJy6UTwAAAAYUExURcbQ9cbQ9cbQ9cbQ9cbQ9cbQ9cbQ9f///2sfTdAAAAAGdFJOUwAre/xYLJjtDxIAAAABYktHRAcWYYjrAAAAB3RJTUUH6gcKBxk0GW3lGAAAACV0RVh0ZGF0ZTpjcmVhdGUAMjAyNi0wNy0xMFQwNzoyNToxNyswMDowMHnONrcAAAAldEVYdGRhdGU6bW9kaWZ5ADIwMjYtMDctMTBUMDc6MjU6MTcrMDA6MDAIk44LAAAAKHRFWHRkYXRlOnRpbWVzdGFtcAAyMDI2LTA3LTEwVDA3OjI1OjUyKzAwOjAwifSOiQAAAJhJREFUSMftz8sNgCAMBmA0DOAIJm5g0LMJIziCCfuPII8ghT686I2eyl/7IUr16vV9DVQ4gX458FyvpR+dwR9YNz/96S5E6N1t8GAwAJcsIpodTLQr7RlttAG+s06Iv64jS7wbZtSzq5ACYEoCMKaBkjNAGXBAnrBAHvFAmglAIiQgEhIQCREIhAgEQgY8IQOeeAF69fq7boqQLsGIVTZjAAAAAElFTkSuQmCC{%- elif flavor.identifier == "macchiato" -%}iVBORw0KGgoAAAANSUhEUgAAAEAAAABABAMAAABYR2ztAAAAIGNIUk0AAHomAACAhAAA+gAAAIDoAAB1MAAA6mAAADqYAAAXcJy6UTwAAAAYUExURcrT9crT9crT9crT9crT9crT9crT9f///4yVXWYAAAAGdFJOUwAre/xYLJjtDxIAAAABYktHRAcWYYjrAAAAB3RJTUUH6gcKBxkvkwgs9AAAACV0RVh0ZGF0ZTpjcmVhdGUAMjAyNi0wNy0xMFQwNzoyNToxNyswMDowMHnONrcAAAAldEVYdGRhdGU6bW9kaWZ5ADIwMjYtMDctMTBUMDc6MjU6MTcrMDA6MDAIk44LAAAAKHRFWHRkYXRlOnRpbWVzdGFtcAAyMDI2LTA3LTEwVDA3OjI1OjQ3KzAwOjAwF2ahsAAAAJhJREFUSMftz8sNgCAMBmA0DOAIJm5g0LMJIziCCfuPII8ghT686I2eyl/7IUr16vV9DVQ4gX458FyvpR+dwR9YNz/96S5E6N1t8GAwAJcsIpodTLQr7RlttAG+s06Iv64jS7wbZtSzq5ACYEoCMKaBkjNAGXBAnrBAHvFAmglAIiQgEhIQCREIhAgEQgY8IQOeeAF69fq7boqQLsGIVTZjAAAAAElFTkSuQmCC{%- elif flavor.identifier == "mocha" -%}iVBORw0KGgoAAAANSUhEUgAAAEAAAABABAMAAABYR2ztAAAAIGNIUk0AAHomAACAhAAA+gAAAIDoAAB1MAAA6mAAADqYAAAXcJy6UTwAAAAYUExURc3W9M3W9M3W9M3W9M3W9M3W9M3W9P///9B7wkUAAAAGdFJOUwAre/xYLJjtDxIAAAABYktHRAcWYYjrAAAAB3RJTUUH6gcKBxkrlGXo7QAAACV0RVh0ZGF0ZTpjcmVhdGUAMjAyNi0wNy0xMFQwNzoyNToxNyswMDowMHnONrcAAAAldEVYdGRhdGU6bW9kaWZ5ADIwMjYtMDctMTBUMDc6MjU6MTcrMDA6MDAIk44LAAAAKHRFWHRkYXRlOnRpbWVzdGFtcAAyMDI2LTA3LTEwVDA3OjI1OjQzKzAwOjAw4ymFowAAAJhJREFUSMftz8sNgCAMBmA0DOAIJm5g0LMJIziCCfuPII8ghT686I2eyl/7IUr16vV9DVQ4gX458FyvpR+dwR9YNz/96S5E6N1t8GAwAJcsIpodTLQr7RlttAG+s06Iv64jS7wbZtSzq5ACYEoCMKaBkjNAGXBAnrBAHvFAmglAIiQgEhIQCREIhAgEQgY8IQOeeAF69fq7boqQLsGIVTZjAAAAAElFTkSuQmCC{%- endif -%}") calc(100% - 5px*var(--ui-scale)) calc(50% + 1px*var(--ui-scale))/calc(15px*var(--ui-scale)) no-repeat;
+      }
+
+      /* Keybindings settings */
+      html[data-theme="catppuccin-{{ flavor.identifier }}-{{ accent.identifier }}"] #state_KeybindingsState .content .hint {
+        background-color: #{{ flavor.colors.mantle.hex }};
+      }
+      html[data-theme="catppuccin-{{ flavor.identifier }}-{{ accent.identifier }}"] #state_KeybindingsState .content .category .entry .mapping {
+        color: #{{ accent.hex }};
+      }
+      html[data-theme="catppuccin-{{ flavor.identifier }}-{{ accent.identifier }}"] #state_KeybindingsState .content .category .entry button.editKeybinding,
+      html[data-theme="catppuccin-{{ flavor.identifier }}-{{ accent.identifier }}"] #state_KeybindingsState .content .category .entry button.resetKeybinding {
+        filter: {%- if flavor.identifier == "latte" -%}brightness(0) saturate(100%) invert(43%) sepia(43%) saturate(515%) hue-rotate(196deg) brightness(49%) contrast(68%){%- elif flavor.identifier == "frappe" -%}brightness(0) saturate(100%) invert(83%) sepia(29%) saturate(508%) hue-rotate(192deg) brightness(97%) contrast(98%){%- elif flavor.identifier == "macchiato" -%}brightness(0) saturate(100%) invert(73%) sepia(80%) saturate(1008%) hue-rotate(190deg) brightness(120%) contrast(92%){%- elif flavor.identifier == "mocha" -%}brightness(0) saturate(100%) invert(75%) sepia(82%) saturate(1008%) hue-rotate(189deg) brightness(120%) contrast(90%){%- endif -%};
+      }
+      html[data-theme="catppuccin-{{ flavor.identifier }}-{{ accent.identifier }}"] #state_KeybindingsState .content .category .entry button.disabled {
+        filter: {%- if flavor.identifier == "latte" -%}brightness(0) saturate(100%) invert(94%) sepia(22%) saturate(523%) hue-rotate(179deg) brightness(96%) contrast(76%){%- elif flavor.identifier == "frappe" -%}brightness(0) saturate(100%) invert(11%) sepia(65%) saturate(1032%) hue-rotate(204deg) brightness(86%) contrast(58%){%- elif flavor.identifier == "macchiato" -%}rightness(0) saturate(100%) invert(41%) sepia(39%) saturate(513%) hue-rotate(194deg) brightness(39%) contrast(82%){%- elif flavor.identifier == "mocha" -%}brightness(0) saturate(100%) invert(10%) sepia(79%) saturate(1035%) hue-rotate(212deg) brightness(62%) contrast(70%){%- endif -%};
+        opacity: 1 !important;
+      }
+      html[data-theme="catppuccin-{{ flavor.identifier }}-{{ accent.identifier }}"] #state_KeybindingsState .content .category .entry {
+        color: #{{ flavor.colors.subtext0.hex }};
+        border-bottom-color: #{{ flavor.colors.surface2.hex }};
       }
     `)
     {%- endif %}{%- endfor %}

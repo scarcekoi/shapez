@@ -134,6 +134,10 @@ class Mod extends shapez.Mod {
         background-color: #292c3c;
       }
 
+      html[data-theme="catppuccin-frappe-rosewater"] ::-webkit-scrollbar-thumb {
+        background-color: #c6d0f5;
+      }
+
       html[data-theme="catppuccin-frappe-rosewater"] a {
         color: #c6d0f5;
       }
@@ -316,6 +320,26 @@ class Mod extends shapez.Mod {
         background-color: #232634;
         background: #232634 url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABABAMAAABYR2ztAAAAIGNIUk0AAHomAACAhAAA+gAAAIDoAAB1MAAA6mAAADqYAAAXcJy6UTwAAAAYUExURcbQ9cbQ9cbQ9cbQ9cbQ9cbQ9cbQ9f///2sfTdAAAAAGdFJOUwAre/xYLJjtDxIAAAABYktHRAcWYYjrAAAAB3RJTUUH6gcKBxk0GW3lGAAAACV0RVh0ZGF0ZTpjcmVhdGUAMjAyNi0wNy0xMFQwNzoyNToxNyswMDowMHnONrcAAAAldEVYdGRhdGU6bW9kaWZ5ADIwMjYtMDctMTBUMDc6MjU6MTcrMDA6MDAIk44LAAAAKHRFWHRkYXRlOnRpbWVzdGFtcAAyMDI2LTA3LTEwVDA3OjI1OjUyKzAwOjAwifSOiQAAAJhJREFUSMftz8sNgCAMBmA0DOAIJm5g0LMJIziCCfuPII8ghT686I2eyl/7IUr16vV9DVQ4gX458FyvpR+dwR9YNz/96S5E6N1t8GAwAJcsIpodTLQr7RlttAG+s06Iv64jS7wbZtSzq5ACYEoCMKaBkjNAGXBAnrBAHvFAmglAIiQgEhIQCREIhAgEQgY8IQOeeAF69fq7boqQLsGIVTZjAAAAAElFTkSuQmCC") calc(100% - 5px*var(--ui-scale)) calc(50% + 1px*var(--ui-scale))/calc(15px*var(--ui-scale)) no-repeat;
       }
+
+      /* Keybindings settings */
+      html[data-theme="catppuccin-frappe-rosewater"] #state_KeybindingsState .content .hint {
+        background-color: #292c3c;
+      }
+      html[data-theme="catppuccin-frappe-rosewater"] #state_KeybindingsState .content .category .entry .mapping {
+        color: #f2d5cf;
+      }
+      html[data-theme="catppuccin-frappe-rosewater"] #state_KeybindingsState .content .category .entry button.editKeybinding,
+      html[data-theme="catppuccin-frappe-rosewater"] #state_KeybindingsState .content .category .entry button.resetKeybinding {
+        filter:brightness(0) saturate(100%) invert(83%) sepia(29%) saturate(508%) hue-rotate(192deg) brightness(97%) contrast(98%);
+      }
+      html[data-theme="catppuccin-frappe-rosewater"] #state_KeybindingsState .content .category .entry button.disabled {
+        filter:brightness(0) saturate(100%) invert(11%) sepia(65%) saturate(1032%) hue-rotate(204deg) brightness(86%) contrast(58%);
+        opacity: 1 !important;
+      }
+      html[data-theme="catppuccin-frappe-rosewater"] #state_KeybindingsState .content .category .entry {
+        color: #a5adce;
+        border-bottom-color: #626880;
+      }
     `)
     this.modInterface.registerGameTheme({
       id: "catppuccin-frappe-flamingo",
@@ -436,6 +460,10 @@ class Mod extends shapez.Mod {
 
       html[data-theme="catppuccin-frappe-flamingo"] {
         background-color: #292c3c;
+      }
+
+      html[data-theme="catppuccin-frappe-flamingo"] ::-webkit-scrollbar-thumb {
+        background-color: #c6d0f5;
       }
 
       html[data-theme="catppuccin-frappe-flamingo"] a {
@@ -620,6 +648,26 @@ class Mod extends shapez.Mod {
         background-color: #232634;
         background: #232634 url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABABAMAAABYR2ztAAAAIGNIUk0AAHomAACAhAAA+gAAAIDoAAB1MAAA6mAAADqYAAAXcJy6UTwAAAAYUExURcbQ9cbQ9cbQ9cbQ9cbQ9cbQ9cbQ9f///2sfTdAAAAAGdFJOUwAre/xYLJjtDxIAAAABYktHRAcWYYjrAAAAB3RJTUUH6gcKBxk0GW3lGAAAACV0RVh0ZGF0ZTpjcmVhdGUAMjAyNi0wNy0xMFQwNzoyNToxNyswMDowMHnONrcAAAAldEVYdGRhdGU6bW9kaWZ5ADIwMjYtMDctMTBUMDc6MjU6MTcrMDA6MDAIk44LAAAAKHRFWHRkYXRlOnRpbWVzdGFtcAAyMDI2LTA3LTEwVDA3OjI1OjUyKzAwOjAwifSOiQAAAJhJREFUSMftz8sNgCAMBmA0DOAIJm5g0LMJIziCCfuPII8ghT686I2eyl/7IUr16vV9DVQ4gX458FyvpR+dwR9YNz/96S5E6N1t8GAwAJcsIpodTLQr7RlttAG+s06Iv64jS7wbZtSzq5ACYEoCMKaBkjNAGXBAnrBAHvFAmglAIiQgEhIQCREIhAgEQgY8IQOeeAF69fq7boqQLsGIVTZjAAAAAElFTkSuQmCC") calc(100% - 5px*var(--ui-scale)) calc(50% + 1px*var(--ui-scale))/calc(15px*var(--ui-scale)) no-repeat;
       }
+
+      /* Keybindings settings */
+      html[data-theme="catppuccin-frappe-flamingo"] #state_KeybindingsState .content .hint {
+        background-color: #292c3c;
+      }
+      html[data-theme="catppuccin-frappe-flamingo"] #state_KeybindingsState .content .category .entry .mapping {
+        color: #eebebe;
+      }
+      html[data-theme="catppuccin-frappe-flamingo"] #state_KeybindingsState .content .category .entry button.editKeybinding,
+      html[data-theme="catppuccin-frappe-flamingo"] #state_KeybindingsState .content .category .entry button.resetKeybinding {
+        filter:brightness(0) saturate(100%) invert(83%) sepia(29%) saturate(508%) hue-rotate(192deg) brightness(97%) contrast(98%);
+      }
+      html[data-theme="catppuccin-frappe-flamingo"] #state_KeybindingsState .content .category .entry button.disabled {
+        filter:brightness(0) saturate(100%) invert(11%) sepia(65%) saturate(1032%) hue-rotate(204deg) brightness(86%) contrast(58%);
+        opacity: 1 !important;
+      }
+      html[data-theme="catppuccin-frappe-flamingo"] #state_KeybindingsState .content .category .entry {
+        color: #a5adce;
+        border-bottom-color: #626880;
+      }
     `)
     this.modInterface.registerGameTheme({
       id: "catppuccin-frappe-pink",
@@ -740,6 +788,10 @@ class Mod extends shapez.Mod {
 
       html[data-theme="catppuccin-frappe-pink"] {
         background-color: #292c3c;
+      }
+
+      html[data-theme="catppuccin-frappe-pink"] ::-webkit-scrollbar-thumb {
+        background-color: #c6d0f5;
       }
 
       html[data-theme="catppuccin-frappe-pink"] a {
@@ -924,6 +976,26 @@ class Mod extends shapez.Mod {
         background-color: #232634;
         background: #232634 url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABABAMAAABYR2ztAAAAIGNIUk0AAHomAACAhAAA+gAAAIDoAAB1MAAA6mAAADqYAAAXcJy6UTwAAAAYUExURcbQ9cbQ9cbQ9cbQ9cbQ9cbQ9cbQ9f///2sfTdAAAAAGdFJOUwAre/xYLJjtDxIAAAABYktHRAcWYYjrAAAAB3RJTUUH6gcKBxk0GW3lGAAAACV0RVh0ZGF0ZTpjcmVhdGUAMjAyNi0wNy0xMFQwNzoyNToxNyswMDowMHnONrcAAAAldEVYdGRhdGU6bW9kaWZ5ADIwMjYtMDctMTBUMDc6MjU6MTcrMDA6MDAIk44LAAAAKHRFWHRkYXRlOnRpbWVzdGFtcAAyMDI2LTA3LTEwVDA3OjI1OjUyKzAwOjAwifSOiQAAAJhJREFUSMftz8sNgCAMBmA0DOAIJm5g0LMJIziCCfuPII8ghT686I2eyl/7IUr16vV9DVQ4gX458FyvpR+dwR9YNz/96S5E6N1t8GAwAJcsIpodTLQr7RlttAG+s06Iv64jS7wbZtSzq5ACYEoCMKaBkjNAGXBAnrBAHvFAmglAIiQgEhIQCREIhAgEQgY8IQOeeAF69fq7boqQLsGIVTZjAAAAAElFTkSuQmCC") calc(100% - 5px*var(--ui-scale)) calc(50% + 1px*var(--ui-scale))/calc(15px*var(--ui-scale)) no-repeat;
       }
+
+      /* Keybindings settings */
+      html[data-theme="catppuccin-frappe-pink"] #state_KeybindingsState .content .hint {
+        background-color: #292c3c;
+      }
+      html[data-theme="catppuccin-frappe-pink"] #state_KeybindingsState .content .category .entry .mapping {
+        color: #f4b8e4;
+      }
+      html[data-theme="catppuccin-frappe-pink"] #state_KeybindingsState .content .category .entry button.editKeybinding,
+      html[data-theme="catppuccin-frappe-pink"] #state_KeybindingsState .content .category .entry button.resetKeybinding {
+        filter:brightness(0) saturate(100%) invert(83%) sepia(29%) saturate(508%) hue-rotate(192deg) brightness(97%) contrast(98%);
+      }
+      html[data-theme="catppuccin-frappe-pink"] #state_KeybindingsState .content .category .entry button.disabled {
+        filter:brightness(0) saturate(100%) invert(11%) sepia(65%) saturate(1032%) hue-rotate(204deg) brightness(86%) contrast(58%);
+        opacity: 1 !important;
+      }
+      html[data-theme="catppuccin-frappe-pink"] #state_KeybindingsState .content .category .entry {
+        color: #a5adce;
+        border-bottom-color: #626880;
+      }
     `)
     this.modInterface.registerGameTheme({
       id: "catppuccin-frappe-mauve",
@@ -1044,6 +1116,10 @@ class Mod extends shapez.Mod {
 
       html[data-theme="catppuccin-frappe-mauve"] {
         background-color: #292c3c;
+      }
+
+      html[data-theme="catppuccin-frappe-mauve"] ::-webkit-scrollbar-thumb {
+        background-color: #c6d0f5;
       }
 
       html[data-theme="catppuccin-frappe-mauve"] a {
@@ -1228,6 +1304,26 @@ class Mod extends shapez.Mod {
         background-color: #232634;
         background: #232634 url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABABAMAAABYR2ztAAAAIGNIUk0AAHomAACAhAAA+gAAAIDoAAB1MAAA6mAAADqYAAAXcJy6UTwAAAAYUExURcbQ9cbQ9cbQ9cbQ9cbQ9cbQ9cbQ9f///2sfTdAAAAAGdFJOUwAre/xYLJjtDxIAAAABYktHRAcWYYjrAAAAB3RJTUUH6gcKBxk0GW3lGAAAACV0RVh0ZGF0ZTpjcmVhdGUAMjAyNi0wNy0xMFQwNzoyNToxNyswMDowMHnONrcAAAAldEVYdGRhdGU6bW9kaWZ5ADIwMjYtMDctMTBUMDc6MjU6MTcrMDA6MDAIk44LAAAAKHRFWHRkYXRlOnRpbWVzdGFtcAAyMDI2LTA3LTEwVDA3OjI1OjUyKzAwOjAwifSOiQAAAJhJREFUSMftz8sNgCAMBmA0DOAIJm5g0LMJIziCCfuPII8ghT686I2eyl/7IUr16vV9DVQ4gX458FyvpR+dwR9YNz/96S5E6N1t8GAwAJcsIpodTLQr7RlttAG+s06Iv64jS7wbZtSzq5ACYEoCMKaBkjNAGXBAnrBAHvFAmglAIiQgEhIQCREIhAgEQgY8IQOeeAF69fq7boqQLsGIVTZjAAAAAElFTkSuQmCC") calc(100% - 5px*var(--ui-scale)) calc(50% + 1px*var(--ui-scale))/calc(15px*var(--ui-scale)) no-repeat;
       }
+
+      /* Keybindings settings */
+      html[data-theme="catppuccin-frappe-mauve"] #state_KeybindingsState .content .hint {
+        background-color: #292c3c;
+      }
+      html[data-theme="catppuccin-frappe-mauve"] #state_KeybindingsState .content .category .entry .mapping {
+        color: #ca9ee6;
+      }
+      html[data-theme="catppuccin-frappe-mauve"] #state_KeybindingsState .content .category .entry button.editKeybinding,
+      html[data-theme="catppuccin-frappe-mauve"] #state_KeybindingsState .content .category .entry button.resetKeybinding {
+        filter:brightness(0) saturate(100%) invert(83%) sepia(29%) saturate(508%) hue-rotate(192deg) brightness(97%) contrast(98%);
+      }
+      html[data-theme="catppuccin-frappe-mauve"] #state_KeybindingsState .content .category .entry button.disabled {
+        filter:brightness(0) saturate(100%) invert(11%) sepia(65%) saturate(1032%) hue-rotate(204deg) brightness(86%) contrast(58%);
+        opacity: 1 !important;
+      }
+      html[data-theme="catppuccin-frappe-mauve"] #state_KeybindingsState .content .category .entry {
+        color: #a5adce;
+        border-bottom-color: #626880;
+      }
     `)
     this.modInterface.registerGameTheme({
       id: "catppuccin-frappe-red",
@@ -1348,6 +1444,10 @@ class Mod extends shapez.Mod {
 
       html[data-theme="catppuccin-frappe-red"] {
         background-color: #292c3c;
+      }
+
+      html[data-theme="catppuccin-frappe-red"] ::-webkit-scrollbar-thumb {
+        background-color: #c6d0f5;
       }
 
       html[data-theme="catppuccin-frappe-red"] a {
@@ -1532,6 +1632,26 @@ class Mod extends shapez.Mod {
         background-color: #232634;
         background: #232634 url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABABAMAAABYR2ztAAAAIGNIUk0AAHomAACAhAAA+gAAAIDoAAB1MAAA6mAAADqYAAAXcJy6UTwAAAAYUExURcbQ9cbQ9cbQ9cbQ9cbQ9cbQ9cbQ9f///2sfTdAAAAAGdFJOUwAre/xYLJjtDxIAAAABYktHRAcWYYjrAAAAB3RJTUUH6gcKBxk0GW3lGAAAACV0RVh0ZGF0ZTpjcmVhdGUAMjAyNi0wNy0xMFQwNzoyNToxNyswMDowMHnONrcAAAAldEVYdGRhdGU6bW9kaWZ5ADIwMjYtMDctMTBUMDc6MjU6MTcrMDA6MDAIk44LAAAAKHRFWHRkYXRlOnRpbWVzdGFtcAAyMDI2LTA3LTEwVDA3OjI1OjUyKzAwOjAwifSOiQAAAJhJREFUSMftz8sNgCAMBmA0DOAIJm5g0LMJIziCCfuPII8ghT686I2eyl/7IUr16vV9DVQ4gX458FyvpR+dwR9YNz/96S5E6N1t8GAwAJcsIpodTLQr7RlttAG+s06Iv64jS7wbZtSzq5ACYEoCMKaBkjNAGXBAnrBAHvFAmglAIiQgEhIQCREIhAgEQgY8IQOeeAF69fq7boqQLsGIVTZjAAAAAElFTkSuQmCC") calc(100% - 5px*var(--ui-scale)) calc(50% + 1px*var(--ui-scale))/calc(15px*var(--ui-scale)) no-repeat;
       }
+
+      /* Keybindings settings */
+      html[data-theme="catppuccin-frappe-red"] #state_KeybindingsState .content .hint {
+        background-color: #292c3c;
+      }
+      html[data-theme="catppuccin-frappe-red"] #state_KeybindingsState .content .category .entry .mapping {
+        color: #e78284;
+      }
+      html[data-theme="catppuccin-frappe-red"] #state_KeybindingsState .content .category .entry button.editKeybinding,
+      html[data-theme="catppuccin-frappe-red"] #state_KeybindingsState .content .category .entry button.resetKeybinding {
+        filter:brightness(0) saturate(100%) invert(83%) sepia(29%) saturate(508%) hue-rotate(192deg) brightness(97%) contrast(98%);
+      }
+      html[data-theme="catppuccin-frappe-red"] #state_KeybindingsState .content .category .entry button.disabled {
+        filter:brightness(0) saturate(100%) invert(11%) sepia(65%) saturate(1032%) hue-rotate(204deg) brightness(86%) contrast(58%);
+        opacity: 1 !important;
+      }
+      html[data-theme="catppuccin-frappe-red"] #state_KeybindingsState .content .category .entry {
+        color: #a5adce;
+        border-bottom-color: #626880;
+      }
     `)
     this.modInterface.registerGameTheme({
       id: "catppuccin-frappe-maroon",
@@ -1652,6 +1772,10 @@ class Mod extends shapez.Mod {
 
       html[data-theme="catppuccin-frappe-maroon"] {
         background-color: #292c3c;
+      }
+
+      html[data-theme="catppuccin-frappe-maroon"] ::-webkit-scrollbar-thumb {
+        background-color: #c6d0f5;
       }
 
       html[data-theme="catppuccin-frappe-maroon"] a {
@@ -1836,6 +1960,26 @@ class Mod extends shapez.Mod {
         background-color: #232634;
         background: #232634 url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABABAMAAABYR2ztAAAAIGNIUk0AAHomAACAhAAA+gAAAIDoAAB1MAAA6mAAADqYAAAXcJy6UTwAAAAYUExURcbQ9cbQ9cbQ9cbQ9cbQ9cbQ9cbQ9f///2sfTdAAAAAGdFJOUwAre/xYLJjtDxIAAAABYktHRAcWYYjrAAAAB3RJTUUH6gcKBxk0GW3lGAAAACV0RVh0ZGF0ZTpjcmVhdGUAMjAyNi0wNy0xMFQwNzoyNToxNyswMDowMHnONrcAAAAldEVYdGRhdGU6bW9kaWZ5ADIwMjYtMDctMTBUMDc6MjU6MTcrMDA6MDAIk44LAAAAKHRFWHRkYXRlOnRpbWVzdGFtcAAyMDI2LTA3LTEwVDA3OjI1OjUyKzAwOjAwifSOiQAAAJhJREFUSMftz8sNgCAMBmA0DOAIJm5g0LMJIziCCfuPII8ghT686I2eyl/7IUr16vV9DVQ4gX458FyvpR+dwR9YNz/96S5E6N1t8GAwAJcsIpodTLQr7RlttAG+s06Iv64jS7wbZtSzq5ACYEoCMKaBkjNAGXBAnrBAHvFAmglAIiQgEhIQCREIhAgEQgY8IQOeeAF69fq7boqQLsGIVTZjAAAAAElFTkSuQmCC") calc(100% - 5px*var(--ui-scale)) calc(50% + 1px*var(--ui-scale))/calc(15px*var(--ui-scale)) no-repeat;
       }
+
+      /* Keybindings settings */
+      html[data-theme="catppuccin-frappe-maroon"] #state_KeybindingsState .content .hint {
+        background-color: #292c3c;
+      }
+      html[data-theme="catppuccin-frappe-maroon"] #state_KeybindingsState .content .category .entry .mapping {
+        color: #ea999c;
+      }
+      html[data-theme="catppuccin-frappe-maroon"] #state_KeybindingsState .content .category .entry button.editKeybinding,
+      html[data-theme="catppuccin-frappe-maroon"] #state_KeybindingsState .content .category .entry button.resetKeybinding {
+        filter:brightness(0) saturate(100%) invert(83%) sepia(29%) saturate(508%) hue-rotate(192deg) brightness(97%) contrast(98%);
+      }
+      html[data-theme="catppuccin-frappe-maroon"] #state_KeybindingsState .content .category .entry button.disabled {
+        filter:brightness(0) saturate(100%) invert(11%) sepia(65%) saturate(1032%) hue-rotate(204deg) brightness(86%) contrast(58%);
+        opacity: 1 !important;
+      }
+      html[data-theme="catppuccin-frappe-maroon"] #state_KeybindingsState .content .category .entry {
+        color: #a5adce;
+        border-bottom-color: #626880;
+      }
     `)
     this.modInterface.registerGameTheme({
       id: "catppuccin-frappe-peach",
@@ -1956,6 +2100,10 @@ class Mod extends shapez.Mod {
 
       html[data-theme="catppuccin-frappe-peach"] {
         background-color: #292c3c;
+      }
+
+      html[data-theme="catppuccin-frappe-peach"] ::-webkit-scrollbar-thumb {
+        background-color: #c6d0f5;
       }
 
       html[data-theme="catppuccin-frappe-peach"] a {
@@ -2140,6 +2288,26 @@ class Mod extends shapez.Mod {
         background-color: #232634;
         background: #232634 url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABABAMAAABYR2ztAAAAIGNIUk0AAHomAACAhAAA+gAAAIDoAAB1MAAA6mAAADqYAAAXcJy6UTwAAAAYUExURcbQ9cbQ9cbQ9cbQ9cbQ9cbQ9cbQ9f///2sfTdAAAAAGdFJOUwAre/xYLJjtDxIAAAABYktHRAcWYYjrAAAAB3RJTUUH6gcKBxk0GW3lGAAAACV0RVh0ZGF0ZTpjcmVhdGUAMjAyNi0wNy0xMFQwNzoyNToxNyswMDowMHnONrcAAAAldEVYdGRhdGU6bW9kaWZ5ADIwMjYtMDctMTBUMDc6MjU6MTcrMDA6MDAIk44LAAAAKHRFWHRkYXRlOnRpbWVzdGFtcAAyMDI2LTA3LTEwVDA3OjI1OjUyKzAwOjAwifSOiQAAAJhJREFUSMftz8sNgCAMBmA0DOAIJm5g0LMJIziCCfuPII8ghT686I2eyl/7IUr16vV9DVQ4gX458FyvpR+dwR9YNz/96S5E6N1t8GAwAJcsIpodTLQr7RlttAG+s06Iv64jS7wbZtSzq5ACYEoCMKaBkjNAGXBAnrBAHvFAmglAIiQgEhIQCREIhAgEQgY8IQOeeAF69fq7boqQLsGIVTZjAAAAAElFTkSuQmCC") calc(100% - 5px*var(--ui-scale)) calc(50% + 1px*var(--ui-scale))/calc(15px*var(--ui-scale)) no-repeat;
       }
+
+      /* Keybindings settings */
+      html[data-theme="catppuccin-frappe-peach"] #state_KeybindingsState .content .hint {
+        background-color: #292c3c;
+      }
+      html[data-theme="catppuccin-frappe-peach"] #state_KeybindingsState .content .category .entry .mapping {
+        color: #ef9f76;
+      }
+      html[data-theme="catppuccin-frappe-peach"] #state_KeybindingsState .content .category .entry button.editKeybinding,
+      html[data-theme="catppuccin-frappe-peach"] #state_KeybindingsState .content .category .entry button.resetKeybinding {
+        filter:brightness(0) saturate(100%) invert(83%) sepia(29%) saturate(508%) hue-rotate(192deg) brightness(97%) contrast(98%);
+      }
+      html[data-theme="catppuccin-frappe-peach"] #state_KeybindingsState .content .category .entry button.disabled {
+        filter:brightness(0) saturate(100%) invert(11%) sepia(65%) saturate(1032%) hue-rotate(204deg) brightness(86%) contrast(58%);
+        opacity: 1 !important;
+      }
+      html[data-theme="catppuccin-frappe-peach"] #state_KeybindingsState .content .category .entry {
+        color: #a5adce;
+        border-bottom-color: #626880;
+      }
     `)
     this.modInterface.registerGameTheme({
       id: "catppuccin-frappe-yellow",
@@ -2260,6 +2428,10 @@ class Mod extends shapez.Mod {
 
       html[data-theme="catppuccin-frappe-yellow"] {
         background-color: #292c3c;
+      }
+
+      html[data-theme="catppuccin-frappe-yellow"] ::-webkit-scrollbar-thumb {
+        background-color: #c6d0f5;
       }
 
       html[data-theme="catppuccin-frappe-yellow"] a {
@@ -2444,6 +2616,26 @@ class Mod extends shapez.Mod {
         background-color: #232634;
         background: #232634 url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABABAMAAABYR2ztAAAAIGNIUk0AAHomAACAhAAA+gAAAIDoAAB1MAAA6mAAADqYAAAXcJy6UTwAAAAYUExURcbQ9cbQ9cbQ9cbQ9cbQ9cbQ9cbQ9f///2sfTdAAAAAGdFJOUwAre/xYLJjtDxIAAAABYktHRAcWYYjrAAAAB3RJTUUH6gcKBxk0GW3lGAAAACV0RVh0ZGF0ZTpjcmVhdGUAMjAyNi0wNy0xMFQwNzoyNToxNyswMDowMHnONrcAAAAldEVYdGRhdGU6bW9kaWZ5ADIwMjYtMDctMTBUMDc6MjU6MTcrMDA6MDAIk44LAAAAKHRFWHRkYXRlOnRpbWVzdGFtcAAyMDI2LTA3LTEwVDA3OjI1OjUyKzAwOjAwifSOiQAAAJhJREFUSMftz8sNgCAMBmA0DOAIJm5g0LMJIziCCfuPII8ghT686I2eyl/7IUr16vV9DVQ4gX458FyvpR+dwR9YNz/96S5E6N1t8GAwAJcsIpodTLQr7RlttAG+s06Iv64jS7wbZtSzq5ACYEoCMKaBkjNAGXBAnrBAHvFAmglAIiQgEhIQCREIhAgEQgY8IQOeeAF69fq7boqQLsGIVTZjAAAAAElFTkSuQmCC") calc(100% - 5px*var(--ui-scale)) calc(50% + 1px*var(--ui-scale))/calc(15px*var(--ui-scale)) no-repeat;
       }
+
+      /* Keybindings settings */
+      html[data-theme="catppuccin-frappe-yellow"] #state_KeybindingsState .content .hint {
+        background-color: #292c3c;
+      }
+      html[data-theme="catppuccin-frappe-yellow"] #state_KeybindingsState .content .category .entry .mapping {
+        color: #e5c890;
+      }
+      html[data-theme="catppuccin-frappe-yellow"] #state_KeybindingsState .content .category .entry button.editKeybinding,
+      html[data-theme="catppuccin-frappe-yellow"] #state_KeybindingsState .content .category .entry button.resetKeybinding {
+        filter:brightness(0) saturate(100%) invert(83%) sepia(29%) saturate(508%) hue-rotate(192deg) brightness(97%) contrast(98%);
+      }
+      html[data-theme="catppuccin-frappe-yellow"] #state_KeybindingsState .content .category .entry button.disabled {
+        filter:brightness(0) saturate(100%) invert(11%) sepia(65%) saturate(1032%) hue-rotate(204deg) brightness(86%) contrast(58%);
+        opacity: 1 !important;
+      }
+      html[data-theme="catppuccin-frappe-yellow"] #state_KeybindingsState .content .category .entry {
+        color: #a5adce;
+        border-bottom-color: #626880;
+      }
     `)
     this.modInterface.registerGameTheme({
       id: "catppuccin-frappe-green",
@@ -2564,6 +2756,10 @@ class Mod extends shapez.Mod {
 
       html[data-theme="catppuccin-frappe-green"] {
         background-color: #292c3c;
+      }
+
+      html[data-theme="catppuccin-frappe-green"] ::-webkit-scrollbar-thumb {
+        background-color: #c6d0f5;
       }
 
       html[data-theme="catppuccin-frappe-green"] a {
@@ -2748,6 +2944,26 @@ class Mod extends shapez.Mod {
         background-color: #232634;
         background: #232634 url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABABAMAAABYR2ztAAAAIGNIUk0AAHomAACAhAAA+gAAAIDoAAB1MAAA6mAAADqYAAAXcJy6UTwAAAAYUExURcbQ9cbQ9cbQ9cbQ9cbQ9cbQ9cbQ9f///2sfTdAAAAAGdFJOUwAre/xYLJjtDxIAAAABYktHRAcWYYjrAAAAB3RJTUUH6gcKBxk0GW3lGAAAACV0RVh0ZGF0ZTpjcmVhdGUAMjAyNi0wNy0xMFQwNzoyNToxNyswMDowMHnONrcAAAAldEVYdGRhdGU6bW9kaWZ5ADIwMjYtMDctMTBUMDc6MjU6MTcrMDA6MDAIk44LAAAAKHRFWHRkYXRlOnRpbWVzdGFtcAAyMDI2LTA3LTEwVDA3OjI1OjUyKzAwOjAwifSOiQAAAJhJREFUSMftz8sNgCAMBmA0DOAIJm5g0LMJIziCCfuPII8ghT686I2eyl/7IUr16vV9DVQ4gX458FyvpR+dwR9YNz/96S5E6N1t8GAwAJcsIpodTLQr7RlttAG+s06Iv64jS7wbZtSzq5ACYEoCMKaBkjNAGXBAnrBAHvFAmglAIiQgEhIQCREIhAgEQgY8IQOeeAF69fq7boqQLsGIVTZjAAAAAElFTkSuQmCC") calc(100% - 5px*var(--ui-scale)) calc(50% + 1px*var(--ui-scale))/calc(15px*var(--ui-scale)) no-repeat;
       }
+
+      /* Keybindings settings */
+      html[data-theme="catppuccin-frappe-green"] #state_KeybindingsState .content .hint {
+        background-color: #292c3c;
+      }
+      html[data-theme="catppuccin-frappe-green"] #state_KeybindingsState .content .category .entry .mapping {
+        color: #a6d189;
+      }
+      html[data-theme="catppuccin-frappe-green"] #state_KeybindingsState .content .category .entry button.editKeybinding,
+      html[data-theme="catppuccin-frappe-green"] #state_KeybindingsState .content .category .entry button.resetKeybinding {
+        filter:brightness(0) saturate(100%) invert(83%) sepia(29%) saturate(508%) hue-rotate(192deg) brightness(97%) contrast(98%);
+      }
+      html[data-theme="catppuccin-frappe-green"] #state_KeybindingsState .content .category .entry button.disabled {
+        filter:brightness(0) saturate(100%) invert(11%) sepia(65%) saturate(1032%) hue-rotate(204deg) brightness(86%) contrast(58%);
+        opacity: 1 !important;
+      }
+      html[data-theme="catppuccin-frappe-green"] #state_KeybindingsState .content .category .entry {
+        color: #a5adce;
+        border-bottom-color: #626880;
+      }
     `)
     this.modInterface.registerGameTheme({
       id: "catppuccin-frappe-teal",
@@ -2868,6 +3084,10 @@ class Mod extends shapez.Mod {
 
       html[data-theme="catppuccin-frappe-teal"] {
         background-color: #292c3c;
+      }
+
+      html[data-theme="catppuccin-frappe-teal"] ::-webkit-scrollbar-thumb {
+        background-color: #c6d0f5;
       }
 
       html[data-theme="catppuccin-frappe-teal"] a {
@@ -3052,6 +3272,26 @@ class Mod extends shapez.Mod {
         background-color: #232634;
         background: #232634 url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABABAMAAABYR2ztAAAAIGNIUk0AAHomAACAhAAA+gAAAIDoAAB1MAAA6mAAADqYAAAXcJy6UTwAAAAYUExURcbQ9cbQ9cbQ9cbQ9cbQ9cbQ9cbQ9f///2sfTdAAAAAGdFJOUwAre/xYLJjtDxIAAAABYktHRAcWYYjrAAAAB3RJTUUH6gcKBxk0GW3lGAAAACV0RVh0ZGF0ZTpjcmVhdGUAMjAyNi0wNy0xMFQwNzoyNToxNyswMDowMHnONrcAAAAldEVYdGRhdGU6bW9kaWZ5ADIwMjYtMDctMTBUMDc6MjU6MTcrMDA6MDAIk44LAAAAKHRFWHRkYXRlOnRpbWVzdGFtcAAyMDI2LTA3LTEwVDA3OjI1OjUyKzAwOjAwifSOiQAAAJhJREFUSMftz8sNgCAMBmA0DOAIJm5g0LMJIziCCfuPII8ghT686I2eyl/7IUr16vV9DVQ4gX458FyvpR+dwR9YNz/96S5E6N1t8GAwAJcsIpodTLQr7RlttAG+s06Iv64jS7wbZtSzq5ACYEoCMKaBkjNAGXBAnrBAHvFAmglAIiQgEhIQCREIhAgEQgY8IQOeeAF69fq7boqQLsGIVTZjAAAAAElFTkSuQmCC") calc(100% - 5px*var(--ui-scale)) calc(50% + 1px*var(--ui-scale))/calc(15px*var(--ui-scale)) no-repeat;
       }
+
+      /* Keybindings settings */
+      html[data-theme="catppuccin-frappe-teal"] #state_KeybindingsState .content .hint {
+        background-color: #292c3c;
+      }
+      html[data-theme="catppuccin-frappe-teal"] #state_KeybindingsState .content .category .entry .mapping {
+        color: #81c8be;
+      }
+      html[data-theme="catppuccin-frappe-teal"] #state_KeybindingsState .content .category .entry button.editKeybinding,
+      html[data-theme="catppuccin-frappe-teal"] #state_KeybindingsState .content .category .entry button.resetKeybinding {
+        filter:brightness(0) saturate(100%) invert(83%) sepia(29%) saturate(508%) hue-rotate(192deg) brightness(97%) contrast(98%);
+      }
+      html[data-theme="catppuccin-frappe-teal"] #state_KeybindingsState .content .category .entry button.disabled {
+        filter:brightness(0) saturate(100%) invert(11%) sepia(65%) saturate(1032%) hue-rotate(204deg) brightness(86%) contrast(58%);
+        opacity: 1 !important;
+      }
+      html[data-theme="catppuccin-frappe-teal"] #state_KeybindingsState .content .category .entry {
+        color: #a5adce;
+        border-bottom-color: #626880;
+      }
     `)
     this.modInterface.registerGameTheme({
       id: "catppuccin-frappe-sky",
@@ -3172,6 +3412,10 @@ class Mod extends shapez.Mod {
 
       html[data-theme="catppuccin-frappe-sky"] {
         background-color: #292c3c;
+      }
+
+      html[data-theme="catppuccin-frappe-sky"] ::-webkit-scrollbar-thumb {
+        background-color: #c6d0f5;
       }
 
       html[data-theme="catppuccin-frappe-sky"] a {
@@ -3356,6 +3600,26 @@ class Mod extends shapez.Mod {
         background-color: #232634;
         background: #232634 url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABABAMAAABYR2ztAAAAIGNIUk0AAHomAACAhAAA+gAAAIDoAAB1MAAA6mAAADqYAAAXcJy6UTwAAAAYUExURcbQ9cbQ9cbQ9cbQ9cbQ9cbQ9cbQ9f///2sfTdAAAAAGdFJOUwAre/xYLJjtDxIAAAABYktHRAcWYYjrAAAAB3RJTUUH6gcKBxk0GW3lGAAAACV0RVh0ZGF0ZTpjcmVhdGUAMjAyNi0wNy0xMFQwNzoyNToxNyswMDowMHnONrcAAAAldEVYdGRhdGU6bW9kaWZ5ADIwMjYtMDctMTBUMDc6MjU6MTcrMDA6MDAIk44LAAAAKHRFWHRkYXRlOnRpbWVzdGFtcAAyMDI2LTA3LTEwVDA3OjI1OjUyKzAwOjAwifSOiQAAAJhJREFUSMftz8sNgCAMBmA0DOAIJm5g0LMJIziCCfuPII8ghT686I2eyl/7IUr16vV9DVQ4gX458FyvpR+dwR9YNz/96S5E6N1t8GAwAJcsIpodTLQr7RlttAG+s06Iv64jS7wbZtSzq5ACYEoCMKaBkjNAGXBAnrBAHvFAmglAIiQgEhIQCREIhAgEQgY8IQOeeAF69fq7boqQLsGIVTZjAAAAAElFTkSuQmCC") calc(100% - 5px*var(--ui-scale)) calc(50% + 1px*var(--ui-scale))/calc(15px*var(--ui-scale)) no-repeat;
       }
+
+      /* Keybindings settings */
+      html[data-theme="catppuccin-frappe-sky"] #state_KeybindingsState .content .hint {
+        background-color: #292c3c;
+      }
+      html[data-theme="catppuccin-frappe-sky"] #state_KeybindingsState .content .category .entry .mapping {
+        color: #99d1db;
+      }
+      html[data-theme="catppuccin-frappe-sky"] #state_KeybindingsState .content .category .entry button.editKeybinding,
+      html[data-theme="catppuccin-frappe-sky"] #state_KeybindingsState .content .category .entry button.resetKeybinding {
+        filter:brightness(0) saturate(100%) invert(83%) sepia(29%) saturate(508%) hue-rotate(192deg) brightness(97%) contrast(98%);
+      }
+      html[data-theme="catppuccin-frappe-sky"] #state_KeybindingsState .content .category .entry button.disabled {
+        filter:brightness(0) saturate(100%) invert(11%) sepia(65%) saturate(1032%) hue-rotate(204deg) brightness(86%) contrast(58%);
+        opacity: 1 !important;
+      }
+      html[data-theme="catppuccin-frappe-sky"] #state_KeybindingsState .content .category .entry {
+        color: #a5adce;
+        border-bottom-color: #626880;
+      }
     `)
     this.modInterface.registerGameTheme({
       id: "catppuccin-frappe-sapphire",
@@ -3476,6 +3740,10 @@ class Mod extends shapez.Mod {
 
       html[data-theme="catppuccin-frappe-sapphire"] {
         background-color: #292c3c;
+      }
+
+      html[data-theme="catppuccin-frappe-sapphire"] ::-webkit-scrollbar-thumb {
+        background-color: #c6d0f5;
       }
 
       html[data-theme="catppuccin-frappe-sapphire"] a {
@@ -3660,6 +3928,26 @@ class Mod extends shapez.Mod {
         background-color: #232634;
         background: #232634 url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABABAMAAABYR2ztAAAAIGNIUk0AAHomAACAhAAA+gAAAIDoAAB1MAAA6mAAADqYAAAXcJy6UTwAAAAYUExURcbQ9cbQ9cbQ9cbQ9cbQ9cbQ9cbQ9f///2sfTdAAAAAGdFJOUwAre/xYLJjtDxIAAAABYktHRAcWYYjrAAAAB3RJTUUH6gcKBxk0GW3lGAAAACV0RVh0ZGF0ZTpjcmVhdGUAMjAyNi0wNy0xMFQwNzoyNToxNyswMDowMHnONrcAAAAldEVYdGRhdGU6bW9kaWZ5ADIwMjYtMDctMTBUMDc6MjU6MTcrMDA6MDAIk44LAAAAKHRFWHRkYXRlOnRpbWVzdGFtcAAyMDI2LTA3LTEwVDA3OjI1OjUyKzAwOjAwifSOiQAAAJhJREFUSMftz8sNgCAMBmA0DOAIJm5g0LMJIziCCfuPII8ghT686I2eyl/7IUr16vV9DVQ4gX458FyvpR+dwR9YNz/96S5E6N1t8GAwAJcsIpodTLQr7RlttAG+s06Iv64jS7wbZtSzq5ACYEoCMKaBkjNAGXBAnrBAHvFAmglAIiQgEhIQCREIhAgEQgY8IQOeeAF69fq7boqQLsGIVTZjAAAAAElFTkSuQmCC") calc(100% - 5px*var(--ui-scale)) calc(50% + 1px*var(--ui-scale))/calc(15px*var(--ui-scale)) no-repeat;
       }
+
+      /* Keybindings settings */
+      html[data-theme="catppuccin-frappe-sapphire"] #state_KeybindingsState .content .hint {
+        background-color: #292c3c;
+      }
+      html[data-theme="catppuccin-frappe-sapphire"] #state_KeybindingsState .content .category .entry .mapping {
+        color: #85c1dc;
+      }
+      html[data-theme="catppuccin-frappe-sapphire"] #state_KeybindingsState .content .category .entry button.editKeybinding,
+      html[data-theme="catppuccin-frappe-sapphire"] #state_KeybindingsState .content .category .entry button.resetKeybinding {
+        filter:brightness(0) saturate(100%) invert(83%) sepia(29%) saturate(508%) hue-rotate(192deg) brightness(97%) contrast(98%);
+      }
+      html[data-theme="catppuccin-frappe-sapphire"] #state_KeybindingsState .content .category .entry button.disabled {
+        filter:brightness(0) saturate(100%) invert(11%) sepia(65%) saturate(1032%) hue-rotate(204deg) brightness(86%) contrast(58%);
+        opacity: 1 !important;
+      }
+      html[data-theme="catppuccin-frappe-sapphire"] #state_KeybindingsState .content .category .entry {
+        color: #a5adce;
+        border-bottom-color: #626880;
+      }
     `)
     this.modInterface.registerGameTheme({
       id: "catppuccin-frappe-blue",
@@ -3780,6 +4068,10 @@ class Mod extends shapez.Mod {
 
       html[data-theme="catppuccin-frappe-blue"] {
         background-color: #292c3c;
+      }
+
+      html[data-theme="catppuccin-frappe-blue"] ::-webkit-scrollbar-thumb {
+        background-color: #c6d0f5;
       }
 
       html[data-theme="catppuccin-frappe-blue"] a {
@@ -3964,6 +4256,26 @@ class Mod extends shapez.Mod {
         background-color: #232634;
         background: #232634 url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABABAMAAABYR2ztAAAAIGNIUk0AAHomAACAhAAA+gAAAIDoAAB1MAAA6mAAADqYAAAXcJy6UTwAAAAYUExURcbQ9cbQ9cbQ9cbQ9cbQ9cbQ9cbQ9f///2sfTdAAAAAGdFJOUwAre/xYLJjtDxIAAAABYktHRAcWYYjrAAAAB3RJTUUH6gcKBxk0GW3lGAAAACV0RVh0ZGF0ZTpjcmVhdGUAMjAyNi0wNy0xMFQwNzoyNToxNyswMDowMHnONrcAAAAldEVYdGRhdGU6bW9kaWZ5ADIwMjYtMDctMTBUMDc6MjU6MTcrMDA6MDAIk44LAAAAKHRFWHRkYXRlOnRpbWVzdGFtcAAyMDI2LTA3LTEwVDA3OjI1OjUyKzAwOjAwifSOiQAAAJhJREFUSMftz8sNgCAMBmA0DOAIJm5g0LMJIziCCfuPII8ghT686I2eyl/7IUr16vV9DVQ4gX458FyvpR+dwR9YNz/96S5E6N1t8GAwAJcsIpodTLQr7RlttAG+s06Iv64jS7wbZtSzq5ACYEoCMKaBkjNAGXBAnrBAHvFAmglAIiQgEhIQCREIhAgEQgY8IQOeeAF69fq7boqQLsGIVTZjAAAAAElFTkSuQmCC") calc(100% - 5px*var(--ui-scale)) calc(50% + 1px*var(--ui-scale))/calc(15px*var(--ui-scale)) no-repeat;
       }
+
+      /* Keybindings settings */
+      html[data-theme="catppuccin-frappe-blue"] #state_KeybindingsState .content .hint {
+        background-color: #292c3c;
+      }
+      html[data-theme="catppuccin-frappe-blue"] #state_KeybindingsState .content .category .entry .mapping {
+        color: #8caaee;
+      }
+      html[data-theme="catppuccin-frappe-blue"] #state_KeybindingsState .content .category .entry button.editKeybinding,
+      html[data-theme="catppuccin-frappe-blue"] #state_KeybindingsState .content .category .entry button.resetKeybinding {
+        filter:brightness(0) saturate(100%) invert(83%) sepia(29%) saturate(508%) hue-rotate(192deg) brightness(97%) contrast(98%);
+      }
+      html[data-theme="catppuccin-frappe-blue"] #state_KeybindingsState .content .category .entry button.disabled {
+        filter:brightness(0) saturate(100%) invert(11%) sepia(65%) saturate(1032%) hue-rotate(204deg) brightness(86%) contrast(58%);
+        opacity: 1 !important;
+      }
+      html[data-theme="catppuccin-frappe-blue"] #state_KeybindingsState .content .category .entry {
+        color: #a5adce;
+        border-bottom-color: #626880;
+      }
     `)
     this.modInterface.registerGameTheme({
       id: "catppuccin-frappe-lavender",
@@ -4084,6 +4396,10 @@ class Mod extends shapez.Mod {
 
       html[data-theme="catppuccin-frappe-lavender"] {
         background-color: #292c3c;
+      }
+
+      html[data-theme="catppuccin-frappe-lavender"] ::-webkit-scrollbar-thumb {
+        background-color: #c6d0f5;
       }
 
       html[data-theme="catppuccin-frappe-lavender"] a {
@@ -4267,6 +4583,26 @@ class Mod extends shapez.Mod {
       html[data-theme="catppuccin-frappe-lavender"] #state_SettingsState .container .content .categoryContainer .category .setting .value.enum {
         background-color: #232634;
         background: #232634 url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABABAMAAABYR2ztAAAAIGNIUk0AAHomAACAhAAA+gAAAIDoAAB1MAAA6mAAADqYAAAXcJy6UTwAAAAYUExURcbQ9cbQ9cbQ9cbQ9cbQ9cbQ9cbQ9f///2sfTdAAAAAGdFJOUwAre/xYLJjtDxIAAAABYktHRAcWYYjrAAAAB3RJTUUH6gcKBxk0GW3lGAAAACV0RVh0ZGF0ZTpjcmVhdGUAMjAyNi0wNy0xMFQwNzoyNToxNyswMDowMHnONrcAAAAldEVYdGRhdGU6bW9kaWZ5ADIwMjYtMDctMTBUMDc6MjU6MTcrMDA6MDAIk44LAAAAKHRFWHRkYXRlOnRpbWVzdGFtcAAyMDI2LTA3LTEwVDA3OjI1OjUyKzAwOjAwifSOiQAAAJhJREFUSMftz8sNgCAMBmA0DOAIJm5g0LMJIziCCfuPII8ghT686I2eyl/7IUr16vV9DVQ4gX458FyvpR+dwR9YNz/96S5E6N1t8GAwAJcsIpodTLQr7RlttAG+s06Iv64jS7wbZtSzq5ACYEoCMKaBkjNAGXBAnrBAHvFAmglAIiQgEhIQCREIhAgEQgY8IQOeeAF69fq7boqQLsGIVTZjAAAAAElFTkSuQmCC") calc(100% - 5px*var(--ui-scale)) calc(50% + 1px*var(--ui-scale))/calc(15px*var(--ui-scale)) no-repeat;
+      }
+
+      /* Keybindings settings */
+      html[data-theme="catppuccin-frappe-lavender"] #state_KeybindingsState .content .hint {
+        background-color: #292c3c;
+      }
+      html[data-theme="catppuccin-frappe-lavender"] #state_KeybindingsState .content .category .entry .mapping {
+        color: #babbf1;
+      }
+      html[data-theme="catppuccin-frappe-lavender"] #state_KeybindingsState .content .category .entry button.editKeybinding,
+      html[data-theme="catppuccin-frappe-lavender"] #state_KeybindingsState .content .category .entry button.resetKeybinding {
+        filter:brightness(0) saturate(100%) invert(83%) sepia(29%) saturate(508%) hue-rotate(192deg) brightness(97%) contrast(98%);
+      }
+      html[data-theme="catppuccin-frappe-lavender"] #state_KeybindingsState .content .category .entry button.disabled {
+        filter:brightness(0) saturate(100%) invert(11%) sepia(65%) saturate(1032%) hue-rotate(204deg) brightness(86%) contrast(58%);
+        opacity: 1 !important;
+      }
+      html[data-theme="catppuccin-frappe-lavender"] #state_KeybindingsState .content .category .entry {
+        color: #a5adce;
+        border-bottom-color: #626880;
       }
     `)
   }

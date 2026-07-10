@@ -134,6 +134,10 @@ class Mod extends shapez.Mod {
         background-color: #181825;
       }
 
+      html[data-theme="catppuccin-mocha-rosewater"] ::-webkit-scrollbar-thumb {
+        background-color: #cdd6f4;
+      }
+
       html[data-theme="catppuccin-mocha-rosewater"] a {
         color: #cdd6f4;
       }
@@ -316,6 +320,26 @@ class Mod extends shapez.Mod {
         background-color: #11111b;
         background: #11111b url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABABAMAAABYR2ztAAAAIGNIUk0AAHomAACAhAAA+gAAAIDoAAB1MAAA6mAAADqYAAAXcJy6UTwAAAAYUExURc3W9M3W9M3W9M3W9M3W9M3W9M3W9P///9B7wkUAAAAGdFJOUwAre/xYLJjtDxIAAAABYktHRAcWYYjrAAAAB3RJTUUH6gcKBxkrlGXo7QAAACV0RVh0ZGF0ZTpjcmVhdGUAMjAyNi0wNy0xMFQwNzoyNToxNyswMDowMHnONrcAAAAldEVYdGRhdGU6bW9kaWZ5ADIwMjYtMDctMTBUMDc6MjU6MTcrMDA6MDAIk44LAAAAKHRFWHRkYXRlOnRpbWVzdGFtcAAyMDI2LTA3LTEwVDA3OjI1OjQzKzAwOjAw4ymFowAAAJhJREFUSMftz8sNgCAMBmA0DOAIJm5g0LMJIziCCfuPII8ghT686I2eyl/7IUr16vV9DVQ4gX458FyvpR+dwR9YNz/96S5E6N1t8GAwAJcsIpodTLQr7RlttAG+s06Iv64jS7wbZtSzq5ACYEoCMKaBkjNAGXBAnrBAHvFAmglAIiQgEhIQCREIhAgEQgY8IQOeeAF69fq7boqQLsGIVTZjAAAAAElFTkSuQmCC") calc(100% - 5px*var(--ui-scale)) calc(50% + 1px*var(--ui-scale))/calc(15px*var(--ui-scale)) no-repeat;
       }
+
+      /* Keybindings settings */
+      html[data-theme="catppuccin-mocha-rosewater"] #state_KeybindingsState .content .hint {
+        background-color: #181825;
+      }
+      html[data-theme="catppuccin-mocha-rosewater"] #state_KeybindingsState .content .category .entry .mapping {
+        color: #f5e0dc;
+      }
+      html[data-theme="catppuccin-mocha-rosewater"] #state_KeybindingsState .content .category .entry button.editKeybinding,
+      html[data-theme="catppuccin-mocha-rosewater"] #state_KeybindingsState .content .category .entry button.resetKeybinding {
+        filter:brightness(0) saturate(100%) invert(75%) sepia(82%) saturate(1008%) hue-rotate(189deg) brightness(120%) contrast(90%);
+      }
+      html[data-theme="catppuccin-mocha-rosewater"] #state_KeybindingsState .content .category .entry button.disabled {
+        filter:brightness(0) saturate(100%) invert(10%) sepia(79%) saturate(1035%) hue-rotate(212deg) brightness(62%) contrast(70%);
+        opacity: 1 !important;
+      }
+      html[data-theme="catppuccin-mocha-rosewater"] #state_KeybindingsState .content .category .entry {
+        color: #a6adc8;
+        border-bottom-color: #585b70;
+      }
     `)
     this.modInterface.registerGameTheme({
       id: "catppuccin-mocha-flamingo",
@@ -436,6 +460,10 @@ class Mod extends shapez.Mod {
 
       html[data-theme="catppuccin-mocha-flamingo"] {
         background-color: #181825;
+      }
+
+      html[data-theme="catppuccin-mocha-flamingo"] ::-webkit-scrollbar-thumb {
+        background-color: #cdd6f4;
       }
 
       html[data-theme="catppuccin-mocha-flamingo"] a {
@@ -620,6 +648,26 @@ class Mod extends shapez.Mod {
         background-color: #11111b;
         background: #11111b url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABABAMAAABYR2ztAAAAIGNIUk0AAHomAACAhAAA+gAAAIDoAAB1MAAA6mAAADqYAAAXcJy6UTwAAAAYUExURc3W9M3W9M3W9M3W9M3W9M3W9M3W9P///9B7wkUAAAAGdFJOUwAre/xYLJjtDxIAAAABYktHRAcWYYjrAAAAB3RJTUUH6gcKBxkrlGXo7QAAACV0RVh0ZGF0ZTpjcmVhdGUAMjAyNi0wNy0xMFQwNzoyNToxNyswMDowMHnONrcAAAAldEVYdGRhdGU6bW9kaWZ5ADIwMjYtMDctMTBUMDc6MjU6MTcrMDA6MDAIk44LAAAAKHRFWHRkYXRlOnRpbWVzdGFtcAAyMDI2LTA3LTEwVDA3OjI1OjQzKzAwOjAw4ymFowAAAJhJREFUSMftz8sNgCAMBmA0DOAIJm5g0LMJIziCCfuPII8ghT686I2eyl/7IUr16vV9DVQ4gX458FyvpR+dwR9YNz/96S5E6N1t8GAwAJcsIpodTLQr7RlttAG+s06Iv64jS7wbZtSzq5ACYEoCMKaBkjNAGXBAnrBAHvFAmglAIiQgEhIQCREIhAgEQgY8IQOeeAF69fq7boqQLsGIVTZjAAAAAElFTkSuQmCC") calc(100% - 5px*var(--ui-scale)) calc(50% + 1px*var(--ui-scale))/calc(15px*var(--ui-scale)) no-repeat;
       }
+
+      /* Keybindings settings */
+      html[data-theme="catppuccin-mocha-flamingo"] #state_KeybindingsState .content .hint {
+        background-color: #181825;
+      }
+      html[data-theme="catppuccin-mocha-flamingo"] #state_KeybindingsState .content .category .entry .mapping {
+        color: #f2cdcd;
+      }
+      html[data-theme="catppuccin-mocha-flamingo"] #state_KeybindingsState .content .category .entry button.editKeybinding,
+      html[data-theme="catppuccin-mocha-flamingo"] #state_KeybindingsState .content .category .entry button.resetKeybinding {
+        filter:brightness(0) saturate(100%) invert(75%) sepia(82%) saturate(1008%) hue-rotate(189deg) brightness(120%) contrast(90%);
+      }
+      html[data-theme="catppuccin-mocha-flamingo"] #state_KeybindingsState .content .category .entry button.disabled {
+        filter:brightness(0) saturate(100%) invert(10%) sepia(79%) saturate(1035%) hue-rotate(212deg) brightness(62%) contrast(70%);
+        opacity: 1 !important;
+      }
+      html[data-theme="catppuccin-mocha-flamingo"] #state_KeybindingsState .content .category .entry {
+        color: #a6adc8;
+        border-bottom-color: #585b70;
+      }
     `)
     this.modInterface.registerGameTheme({
       id: "catppuccin-mocha-pink",
@@ -740,6 +788,10 @@ class Mod extends shapez.Mod {
 
       html[data-theme="catppuccin-mocha-pink"] {
         background-color: #181825;
+      }
+
+      html[data-theme="catppuccin-mocha-pink"] ::-webkit-scrollbar-thumb {
+        background-color: #cdd6f4;
       }
 
       html[data-theme="catppuccin-mocha-pink"] a {
@@ -924,6 +976,26 @@ class Mod extends shapez.Mod {
         background-color: #11111b;
         background: #11111b url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABABAMAAABYR2ztAAAAIGNIUk0AAHomAACAhAAA+gAAAIDoAAB1MAAA6mAAADqYAAAXcJy6UTwAAAAYUExURc3W9M3W9M3W9M3W9M3W9M3W9M3W9P///9B7wkUAAAAGdFJOUwAre/xYLJjtDxIAAAABYktHRAcWYYjrAAAAB3RJTUUH6gcKBxkrlGXo7QAAACV0RVh0ZGF0ZTpjcmVhdGUAMjAyNi0wNy0xMFQwNzoyNToxNyswMDowMHnONrcAAAAldEVYdGRhdGU6bW9kaWZ5ADIwMjYtMDctMTBUMDc6MjU6MTcrMDA6MDAIk44LAAAAKHRFWHRkYXRlOnRpbWVzdGFtcAAyMDI2LTA3LTEwVDA3OjI1OjQzKzAwOjAw4ymFowAAAJhJREFUSMftz8sNgCAMBmA0DOAIJm5g0LMJIziCCfuPII8ghT686I2eyl/7IUr16vV9DVQ4gX458FyvpR+dwR9YNz/96S5E6N1t8GAwAJcsIpodTLQr7RlttAG+s06Iv64jS7wbZtSzq5ACYEoCMKaBkjNAGXBAnrBAHvFAmglAIiQgEhIQCREIhAgEQgY8IQOeeAF69fq7boqQLsGIVTZjAAAAAElFTkSuQmCC") calc(100% - 5px*var(--ui-scale)) calc(50% + 1px*var(--ui-scale))/calc(15px*var(--ui-scale)) no-repeat;
       }
+
+      /* Keybindings settings */
+      html[data-theme="catppuccin-mocha-pink"] #state_KeybindingsState .content .hint {
+        background-color: #181825;
+      }
+      html[data-theme="catppuccin-mocha-pink"] #state_KeybindingsState .content .category .entry .mapping {
+        color: #f5c2e7;
+      }
+      html[data-theme="catppuccin-mocha-pink"] #state_KeybindingsState .content .category .entry button.editKeybinding,
+      html[data-theme="catppuccin-mocha-pink"] #state_KeybindingsState .content .category .entry button.resetKeybinding {
+        filter:brightness(0) saturate(100%) invert(75%) sepia(82%) saturate(1008%) hue-rotate(189deg) brightness(120%) contrast(90%);
+      }
+      html[data-theme="catppuccin-mocha-pink"] #state_KeybindingsState .content .category .entry button.disabled {
+        filter:brightness(0) saturate(100%) invert(10%) sepia(79%) saturate(1035%) hue-rotate(212deg) brightness(62%) contrast(70%);
+        opacity: 1 !important;
+      }
+      html[data-theme="catppuccin-mocha-pink"] #state_KeybindingsState .content .category .entry {
+        color: #a6adc8;
+        border-bottom-color: #585b70;
+      }
     `)
     this.modInterface.registerGameTheme({
       id: "catppuccin-mocha-mauve",
@@ -1044,6 +1116,10 @@ class Mod extends shapez.Mod {
 
       html[data-theme="catppuccin-mocha-mauve"] {
         background-color: #181825;
+      }
+
+      html[data-theme="catppuccin-mocha-mauve"] ::-webkit-scrollbar-thumb {
+        background-color: #cdd6f4;
       }
 
       html[data-theme="catppuccin-mocha-mauve"] a {
@@ -1228,6 +1304,26 @@ class Mod extends shapez.Mod {
         background-color: #11111b;
         background: #11111b url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABABAMAAABYR2ztAAAAIGNIUk0AAHomAACAhAAA+gAAAIDoAAB1MAAA6mAAADqYAAAXcJy6UTwAAAAYUExURc3W9M3W9M3W9M3W9M3W9M3W9M3W9P///9B7wkUAAAAGdFJOUwAre/xYLJjtDxIAAAABYktHRAcWYYjrAAAAB3RJTUUH6gcKBxkrlGXo7QAAACV0RVh0ZGF0ZTpjcmVhdGUAMjAyNi0wNy0xMFQwNzoyNToxNyswMDowMHnONrcAAAAldEVYdGRhdGU6bW9kaWZ5ADIwMjYtMDctMTBUMDc6MjU6MTcrMDA6MDAIk44LAAAAKHRFWHRkYXRlOnRpbWVzdGFtcAAyMDI2LTA3LTEwVDA3OjI1OjQzKzAwOjAw4ymFowAAAJhJREFUSMftz8sNgCAMBmA0DOAIJm5g0LMJIziCCfuPII8ghT686I2eyl/7IUr16vV9DVQ4gX458FyvpR+dwR9YNz/96S5E6N1t8GAwAJcsIpodTLQr7RlttAG+s06Iv64jS7wbZtSzq5ACYEoCMKaBkjNAGXBAnrBAHvFAmglAIiQgEhIQCREIhAgEQgY8IQOeeAF69fq7boqQLsGIVTZjAAAAAElFTkSuQmCC") calc(100% - 5px*var(--ui-scale)) calc(50% + 1px*var(--ui-scale))/calc(15px*var(--ui-scale)) no-repeat;
       }
+
+      /* Keybindings settings */
+      html[data-theme="catppuccin-mocha-mauve"] #state_KeybindingsState .content .hint {
+        background-color: #181825;
+      }
+      html[data-theme="catppuccin-mocha-mauve"] #state_KeybindingsState .content .category .entry .mapping {
+        color: #cba6f7;
+      }
+      html[data-theme="catppuccin-mocha-mauve"] #state_KeybindingsState .content .category .entry button.editKeybinding,
+      html[data-theme="catppuccin-mocha-mauve"] #state_KeybindingsState .content .category .entry button.resetKeybinding {
+        filter:brightness(0) saturate(100%) invert(75%) sepia(82%) saturate(1008%) hue-rotate(189deg) brightness(120%) contrast(90%);
+      }
+      html[data-theme="catppuccin-mocha-mauve"] #state_KeybindingsState .content .category .entry button.disabled {
+        filter:brightness(0) saturate(100%) invert(10%) sepia(79%) saturate(1035%) hue-rotate(212deg) brightness(62%) contrast(70%);
+        opacity: 1 !important;
+      }
+      html[data-theme="catppuccin-mocha-mauve"] #state_KeybindingsState .content .category .entry {
+        color: #a6adc8;
+        border-bottom-color: #585b70;
+      }
     `)
     this.modInterface.registerGameTheme({
       id: "catppuccin-mocha-red",
@@ -1348,6 +1444,10 @@ class Mod extends shapez.Mod {
 
       html[data-theme="catppuccin-mocha-red"] {
         background-color: #181825;
+      }
+
+      html[data-theme="catppuccin-mocha-red"] ::-webkit-scrollbar-thumb {
+        background-color: #cdd6f4;
       }
 
       html[data-theme="catppuccin-mocha-red"] a {
@@ -1532,6 +1632,26 @@ class Mod extends shapez.Mod {
         background-color: #11111b;
         background: #11111b url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABABAMAAABYR2ztAAAAIGNIUk0AAHomAACAhAAA+gAAAIDoAAB1MAAA6mAAADqYAAAXcJy6UTwAAAAYUExURc3W9M3W9M3W9M3W9M3W9M3W9M3W9P///9B7wkUAAAAGdFJOUwAre/xYLJjtDxIAAAABYktHRAcWYYjrAAAAB3RJTUUH6gcKBxkrlGXo7QAAACV0RVh0ZGF0ZTpjcmVhdGUAMjAyNi0wNy0xMFQwNzoyNToxNyswMDowMHnONrcAAAAldEVYdGRhdGU6bW9kaWZ5ADIwMjYtMDctMTBUMDc6MjU6MTcrMDA6MDAIk44LAAAAKHRFWHRkYXRlOnRpbWVzdGFtcAAyMDI2LTA3LTEwVDA3OjI1OjQzKzAwOjAw4ymFowAAAJhJREFUSMftz8sNgCAMBmA0DOAIJm5g0LMJIziCCfuPII8ghT686I2eyl/7IUr16vV9DVQ4gX458FyvpR+dwR9YNz/96S5E6N1t8GAwAJcsIpodTLQr7RlttAG+s06Iv64jS7wbZtSzq5ACYEoCMKaBkjNAGXBAnrBAHvFAmglAIiQgEhIQCREIhAgEQgY8IQOeeAF69fq7boqQLsGIVTZjAAAAAElFTkSuQmCC") calc(100% - 5px*var(--ui-scale)) calc(50% + 1px*var(--ui-scale))/calc(15px*var(--ui-scale)) no-repeat;
       }
+
+      /* Keybindings settings */
+      html[data-theme="catppuccin-mocha-red"] #state_KeybindingsState .content .hint {
+        background-color: #181825;
+      }
+      html[data-theme="catppuccin-mocha-red"] #state_KeybindingsState .content .category .entry .mapping {
+        color: #f38ba8;
+      }
+      html[data-theme="catppuccin-mocha-red"] #state_KeybindingsState .content .category .entry button.editKeybinding,
+      html[data-theme="catppuccin-mocha-red"] #state_KeybindingsState .content .category .entry button.resetKeybinding {
+        filter:brightness(0) saturate(100%) invert(75%) sepia(82%) saturate(1008%) hue-rotate(189deg) brightness(120%) contrast(90%);
+      }
+      html[data-theme="catppuccin-mocha-red"] #state_KeybindingsState .content .category .entry button.disabled {
+        filter:brightness(0) saturate(100%) invert(10%) sepia(79%) saturate(1035%) hue-rotate(212deg) brightness(62%) contrast(70%);
+        opacity: 1 !important;
+      }
+      html[data-theme="catppuccin-mocha-red"] #state_KeybindingsState .content .category .entry {
+        color: #a6adc8;
+        border-bottom-color: #585b70;
+      }
     `)
     this.modInterface.registerGameTheme({
       id: "catppuccin-mocha-maroon",
@@ -1652,6 +1772,10 @@ class Mod extends shapez.Mod {
 
       html[data-theme="catppuccin-mocha-maroon"] {
         background-color: #181825;
+      }
+
+      html[data-theme="catppuccin-mocha-maroon"] ::-webkit-scrollbar-thumb {
+        background-color: #cdd6f4;
       }
 
       html[data-theme="catppuccin-mocha-maroon"] a {
@@ -1836,6 +1960,26 @@ class Mod extends shapez.Mod {
         background-color: #11111b;
         background: #11111b url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABABAMAAABYR2ztAAAAIGNIUk0AAHomAACAhAAA+gAAAIDoAAB1MAAA6mAAADqYAAAXcJy6UTwAAAAYUExURc3W9M3W9M3W9M3W9M3W9M3W9M3W9P///9B7wkUAAAAGdFJOUwAre/xYLJjtDxIAAAABYktHRAcWYYjrAAAAB3RJTUUH6gcKBxkrlGXo7QAAACV0RVh0ZGF0ZTpjcmVhdGUAMjAyNi0wNy0xMFQwNzoyNToxNyswMDowMHnONrcAAAAldEVYdGRhdGU6bW9kaWZ5ADIwMjYtMDctMTBUMDc6MjU6MTcrMDA6MDAIk44LAAAAKHRFWHRkYXRlOnRpbWVzdGFtcAAyMDI2LTA3LTEwVDA3OjI1OjQzKzAwOjAw4ymFowAAAJhJREFUSMftz8sNgCAMBmA0DOAIJm5g0LMJIziCCfuPII8ghT686I2eyl/7IUr16vV9DVQ4gX458FyvpR+dwR9YNz/96S5E6N1t8GAwAJcsIpodTLQr7RlttAG+s06Iv64jS7wbZtSzq5ACYEoCMKaBkjNAGXBAnrBAHvFAmglAIiQgEhIQCREIhAgEQgY8IQOeeAF69fq7boqQLsGIVTZjAAAAAElFTkSuQmCC") calc(100% - 5px*var(--ui-scale)) calc(50% + 1px*var(--ui-scale))/calc(15px*var(--ui-scale)) no-repeat;
       }
+
+      /* Keybindings settings */
+      html[data-theme="catppuccin-mocha-maroon"] #state_KeybindingsState .content .hint {
+        background-color: #181825;
+      }
+      html[data-theme="catppuccin-mocha-maroon"] #state_KeybindingsState .content .category .entry .mapping {
+        color: #eba0ac;
+      }
+      html[data-theme="catppuccin-mocha-maroon"] #state_KeybindingsState .content .category .entry button.editKeybinding,
+      html[data-theme="catppuccin-mocha-maroon"] #state_KeybindingsState .content .category .entry button.resetKeybinding {
+        filter:brightness(0) saturate(100%) invert(75%) sepia(82%) saturate(1008%) hue-rotate(189deg) brightness(120%) contrast(90%);
+      }
+      html[data-theme="catppuccin-mocha-maroon"] #state_KeybindingsState .content .category .entry button.disabled {
+        filter:brightness(0) saturate(100%) invert(10%) sepia(79%) saturate(1035%) hue-rotate(212deg) brightness(62%) contrast(70%);
+        opacity: 1 !important;
+      }
+      html[data-theme="catppuccin-mocha-maroon"] #state_KeybindingsState .content .category .entry {
+        color: #a6adc8;
+        border-bottom-color: #585b70;
+      }
     `)
     this.modInterface.registerGameTheme({
       id: "catppuccin-mocha-peach",
@@ -1956,6 +2100,10 @@ class Mod extends shapez.Mod {
 
       html[data-theme="catppuccin-mocha-peach"] {
         background-color: #181825;
+      }
+
+      html[data-theme="catppuccin-mocha-peach"] ::-webkit-scrollbar-thumb {
+        background-color: #cdd6f4;
       }
 
       html[data-theme="catppuccin-mocha-peach"] a {
@@ -2140,6 +2288,26 @@ class Mod extends shapez.Mod {
         background-color: #11111b;
         background: #11111b url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABABAMAAABYR2ztAAAAIGNIUk0AAHomAACAhAAA+gAAAIDoAAB1MAAA6mAAADqYAAAXcJy6UTwAAAAYUExURc3W9M3W9M3W9M3W9M3W9M3W9M3W9P///9B7wkUAAAAGdFJOUwAre/xYLJjtDxIAAAABYktHRAcWYYjrAAAAB3RJTUUH6gcKBxkrlGXo7QAAACV0RVh0ZGF0ZTpjcmVhdGUAMjAyNi0wNy0xMFQwNzoyNToxNyswMDowMHnONrcAAAAldEVYdGRhdGU6bW9kaWZ5ADIwMjYtMDctMTBUMDc6MjU6MTcrMDA6MDAIk44LAAAAKHRFWHRkYXRlOnRpbWVzdGFtcAAyMDI2LTA3LTEwVDA3OjI1OjQzKzAwOjAw4ymFowAAAJhJREFUSMftz8sNgCAMBmA0DOAIJm5g0LMJIziCCfuPII8ghT686I2eyl/7IUr16vV9DVQ4gX458FyvpR+dwR9YNz/96S5E6N1t8GAwAJcsIpodTLQr7RlttAG+s06Iv64jS7wbZtSzq5ACYEoCMKaBkjNAGXBAnrBAHvFAmglAIiQgEhIQCREIhAgEQgY8IQOeeAF69fq7boqQLsGIVTZjAAAAAElFTkSuQmCC") calc(100% - 5px*var(--ui-scale)) calc(50% + 1px*var(--ui-scale))/calc(15px*var(--ui-scale)) no-repeat;
       }
+
+      /* Keybindings settings */
+      html[data-theme="catppuccin-mocha-peach"] #state_KeybindingsState .content .hint {
+        background-color: #181825;
+      }
+      html[data-theme="catppuccin-mocha-peach"] #state_KeybindingsState .content .category .entry .mapping {
+        color: #fab387;
+      }
+      html[data-theme="catppuccin-mocha-peach"] #state_KeybindingsState .content .category .entry button.editKeybinding,
+      html[data-theme="catppuccin-mocha-peach"] #state_KeybindingsState .content .category .entry button.resetKeybinding {
+        filter:brightness(0) saturate(100%) invert(75%) sepia(82%) saturate(1008%) hue-rotate(189deg) brightness(120%) contrast(90%);
+      }
+      html[data-theme="catppuccin-mocha-peach"] #state_KeybindingsState .content .category .entry button.disabled {
+        filter:brightness(0) saturate(100%) invert(10%) sepia(79%) saturate(1035%) hue-rotate(212deg) brightness(62%) contrast(70%);
+        opacity: 1 !important;
+      }
+      html[data-theme="catppuccin-mocha-peach"] #state_KeybindingsState .content .category .entry {
+        color: #a6adc8;
+        border-bottom-color: #585b70;
+      }
     `)
     this.modInterface.registerGameTheme({
       id: "catppuccin-mocha-yellow",
@@ -2260,6 +2428,10 @@ class Mod extends shapez.Mod {
 
       html[data-theme="catppuccin-mocha-yellow"] {
         background-color: #181825;
+      }
+
+      html[data-theme="catppuccin-mocha-yellow"] ::-webkit-scrollbar-thumb {
+        background-color: #cdd6f4;
       }
 
       html[data-theme="catppuccin-mocha-yellow"] a {
@@ -2444,6 +2616,26 @@ class Mod extends shapez.Mod {
         background-color: #11111b;
         background: #11111b url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABABAMAAABYR2ztAAAAIGNIUk0AAHomAACAhAAA+gAAAIDoAAB1MAAA6mAAADqYAAAXcJy6UTwAAAAYUExURc3W9M3W9M3W9M3W9M3W9M3W9M3W9P///9B7wkUAAAAGdFJOUwAre/xYLJjtDxIAAAABYktHRAcWYYjrAAAAB3RJTUUH6gcKBxkrlGXo7QAAACV0RVh0ZGF0ZTpjcmVhdGUAMjAyNi0wNy0xMFQwNzoyNToxNyswMDowMHnONrcAAAAldEVYdGRhdGU6bW9kaWZ5ADIwMjYtMDctMTBUMDc6MjU6MTcrMDA6MDAIk44LAAAAKHRFWHRkYXRlOnRpbWVzdGFtcAAyMDI2LTA3LTEwVDA3OjI1OjQzKzAwOjAw4ymFowAAAJhJREFUSMftz8sNgCAMBmA0DOAIJm5g0LMJIziCCfuPII8ghT686I2eyl/7IUr16vV9DVQ4gX458FyvpR+dwR9YNz/96S5E6N1t8GAwAJcsIpodTLQr7RlttAG+s06Iv64jS7wbZtSzq5ACYEoCMKaBkjNAGXBAnrBAHvFAmglAIiQgEhIQCREIhAgEQgY8IQOeeAF69fq7boqQLsGIVTZjAAAAAElFTkSuQmCC") calc(100% - 5px*var(--ui-scale)) calc(50% + 1px*var(--ui-scale))/calc(15px*var(--ui-scale)) no-repeat;
       }
+
+      /* Keybindings settings */
+      html[data-theme="catppuccin-mocha-yellow"] #state_KeybindingsState .content .hint {
+        background-color: #181825;
+      }
+      html[data-theme="catppuccin-mocha-yellow"] #state_KeybindingsState .content .category .entry .mapping {
+        color: #f9e2af;
+      }
+      html[data-theme="catppuccin-mocha-yellow"] #state_KeybindingsState .content .category .entry button.editKeybinding,
+      html[data-theme="catppuccin-mocha-yellow"] #state_KeybindingsState .content .category .entry button.resetKeybinding {
+        filter:brightness(0) saturate(100%) invert(75%) sepia(82%) saturate(1008%) hue-rotate(189deg) brightness(120%) contrast(90%);
+      }
+      html[data-theme="catppuccin-mocha-yellow"] #state_KeybindingsState .content .category .entry button.disabled {
+        filter:brightness(0) saturate(100%) invert(10%) sepia(79%) saturate(1035%) hue-rotate(212deg) brightness(62%) contrast(70%);
+        opacity: 1 !important;
+      }
+      html[data-theme="catppuccin-mocha-yellow"] #state_KeybindingsState .content .category .entry {
+        color: #a6adc8;
+        border-bottom-color: #585b70;
+      }
     `)
     this.modInterface.registerGameTheme({
       id: "catppuccin-mocha-green",
@@ -2564,6 +2756,10 @@ class Mod extends shapez.Mod {
 
       html[data-theme="catppuccin-mocha-green"] {
         background-color: #181825;
+      }
+
+      html[data-theme="catppuccin-mocha-green"] ::-webkit-scrollbar-thumb {
+        background-color: #cdd6f4;
       }
 
       html[data-theme="catppuccin-mocha-green"] a {
@@ -2748,6 +2944,26 @@ class Mod extends shapez.Mod {
         background-color: #11111b;
         background: #11111b url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABABAMAAABYR2ztAAAAIGNIUk0AAHomAACAhAAA+gAAAIDoAAB1MAAA6mAAADqYAAAXcJy6UTwAAAAYUExURc3W9M3W9M3W9M3W9M3W9M3W9M3W9P///9B7wkUAAAAGdFJOUwAre/xYLJjtDxIAAAABYktHRAcWYYjrAAAAB3RJTUUH6gcKBxkrlGXo7QAAACV0RVh0ZGF0ZTpjcmVhdGUAMjAyNi0wNy0xMFQwNzoyNToxNyswMDowMHnONrcAAAAldEVYdGRhdGU6bW9kaWZ5ADIwMjYtMDctMTBUMDc6MjU6MTcrMDA6MDAIk44LAAAAKHRFWHRkYXRlOnRpbWVzdGFtcAAyMDI2LTA3LTEwVDA3OjI1OjQzKzAwOjAw4ymFowAAAJhJREFUSMftz8sNgCAMBmA0DOAIJm5g0LMJIziCCfuPII8ghT686I2eyl/7IUr16vV9DVQ4gX458FyvpR+dwR9YNz/96S5E6N1t8GAwAJcsIpodTLQr7RlttAG+s06Iv64jS7wbZtSzq5ACYEoCMKaBkjNAGXBAnrBAHvFAmglAIiQgEhIQCREIhAgEQgY8IQOeeAF69fq7boqQLsGIVTZjAAAAAElFTkSuQmCC") calc(100% - 5px*var(--ui-scale)) calc(50% + 1px*var(--ui-scale))/calc(15px*var(--ui-scale)) no-repeat;
       }
+
+      /* Keybindings settings */
+      html[data-theme="catppuccin-mocha-green"] #state_KeybindingsState .content .hint {
+        background-color: #181825;
+      }
+      html[data-theme="catppuccin-mocha-green"] #state_KeybindingsState .content .category .entry .mapping {
+        color: #a6e3a1;
+      }
+      html[data-theme="catppuccin-mocha-green"] #state_KeybindingsState .content .category .entry button.editKeybinding,
+      html[data-theme="catppuccin-mocha-green"] #state_KeybindingsState .content .category .entry button.resetKeybinding {
+        filter:brightness(0) saturate(100%) invert(75%) sepia(82%) saturate(1008%) hue-rotate(189deg) brightness(120%) contrast(90%);
+      }
+      html[data-theme="catppuccin-mocha-green"] #state_KeybindingsState .content .category .entry button.disabled {
+        filter:brightness(0) saturate(100%) invert(10%) sepia(79%) saturate(1035%) hue-rotate(212deg) brightness(62%) contrast(70%);
+        opacity: 1 !important;
+      }
+      html[data-theme="catppuccin-mocha-green"] #state_KeybindingsState .content .category .entry {
+        color: #a6adc8;
+        border-bottom-color: #585b70;
+      }
     `)
     this.modInterface.registerGameTheme({
       id: "catppuccin-mocha-teal",
@@ -2868,6 +3084,10 @@ class Mod extends shapez.Mod {
 
       html[data-theme="catppuccin-mocha-teal"] {
         background-color: #181825;
+      }
+
+      html[data-theme="catppuccin-mocha-teal"] ::-webkit-scrollbar-thumb {
+        background-color: #cdd6f4;
       }
 
       html[data-theme="catppuccin-mocha-teal"] a {
@@ -3052,6 +3272,26 @@ class Mod extends shapez.Mod {
         background-color: #11111b;
         background: #11111b url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABABAMAAABYR2ztAAAAIGNIUk0AAHomAACAhAAA+gAAAIDoAAB1MAAA6mAAADqYAAAXcJy6UTwAAAAYUExURc3W9M3W9M3W9M3W9M3W9M3W9M3W9P///9B7wkUAAAAGdFJOUwAre/xYLJjtDxIAAAABYktHRAcWYYjrAAAAB3RJTUUH6gcKBxkrlGXo7QAAACV0RVh0ZGF0ZTpjcmVhdGUAMjAyNi0wNy0xMFQwNzoyNToxNyswMDowMHnONrcAAAAldEVYdGRhdGU6bW9kaWZ5ADIwMjYtMDctMTBUMDc6MjU6MTcrMDA6MDAIk44LAAAAKHRFWHRkYXRlOnRpbWVzdGFtcAAyMDI2LTA3LTEwVDA3OjI1OjQzKzAwOjAw4ymFowAAAJhJREFUSMftz8sNgCAMBmA0DOAIJm5g0LMJIziCCfuPII8ghT686I2eyl/7IUr16vV9DVQ4gX458FyvpR+dwR9YNz/96S5E6N1t8GAwAJcsIpodTLQr7RlttAG+s06Iv64jS7wbZtSzq5ACYEoCMKaBkjNAGXBAnrBAHvFAmglAIiQgEhIQCREIhAgEQgY8IQOeeAF69fq7boqQLsGIVTZjAAAAAElFTkSuQmCC") calc(100% - 5px*var(--ui-scale)) calc(50% + 1px*var(--ui-scale))/calc(15px*var(--ui-scale)) no-repeat;
       }
+
+      /* Keybindings settings */
+      html[data-theme="catppuccin-mocha-teal"] #state_KeybindingsState .content .hint {
+        background-color: #181825;
+      }
+      html[data-theme="catppuccin-mocha-teal"] #state_KeybindingsState .content .category .entry .mapping {
+        color: #94e2d5;
+      }
+      html[data-theme="catppuccin-mocha-teal"] #state_KeybindingsState .content .category .entry button.editKeybinding,
+      html[data-theme="catppuccin-mocha-teal"] #state_KeybindingsState .content .category .entry button.resetKeybinding {
+        filter:brightness(0) saturate(100%) invert(75%) sepia(82%) saturate(1008%) hue-rotate(189deg) brightness(120%) contrast(90%);
+      }
+      html[data-theme="catppuccin-mocha-teal"] #state_KeybindingsState .content .category .entry button.disabled {
+        filter:brightness(0) saturate(100%) invert(10%) sepia(79%) saturate(1035%) hue-rotate(212deg) brightness(62%) contrast(70%);
+        opacity: 1 !important;
+      }
+      html[data-theme="catppuccin-mocha-teal"] #state_KeybindingsState .content .category .entry {
+        color: #a6adc8;
+        border-bottom-color: #585b70;
+      }
     `)
     this.modInterface.registerGameTheme({
       id: "catppuccin-mocha-sky",
@@ -3172,6 +3412,10 @@ class Mod extends shapez.Mod {
 
       html[data-theme="catppuccin-mocha-sky"] {
         background-color: #181825;
+      }
+
+      html[data-theme="catppuccin-mocha-sky"] ::-webkit-scrollbar-thumb {
+        background-color: #cdd6f4;
       }
 
       html[data-theme="catppuccin-mocha-sky"] a {
@@ -3356,6 +3600,26 @@ class Mod extends shapez.Mod {
         background-color: #11111b;
         background: #11111b url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABABAMAAABYR2ztAAAAIGNIUk0AAHomAACAhAAA+gAAAIDoAAB1MAAA6mAAADqYAAAXcJy6UTwAAAAYUExURc3W9M3W9M3W9M3W9M3W9M3W9M3W9P///9B7wkUAAAAGdFJOUwAre/xYLJjtDxIAAAABYktHRAcWYYjrAAAAB3RJTUUH6gcKBxkrlGXo7QAAACV0RVh0ZGF0ZTpjcmVhdGUAMjAyNi0wNy0xMFQwNzoyNToxNyswMDowMHnONrcAAAAldEVYdGRhdGU6bW9kaWZ5ADIwMjYtMDctMTBUMDc6MjU6MTcrMDA6MDAIk44LAAAAKHRFWHRkYXRlOnRpbWVzdGFtcAAyMDI2LTA3LTEwVDA3OjI1OjQzKzAwOjAw4ymFowAAAJhJREFUSMftz8sNgCAMBmA0DOAIJm5g0LMJIziCCfuPII8ghT686I2eyl/7IUr16vV9DVQ4gX458FyvpR+dwR9YNz/96S5E6N1t8GAwAJcsIpodTLQr7RlttAG+s06Iv64jS7wbZtSzq5ACYEoCMKaBkjNAGXBAnrBAHvFAmglAIiQgEhIQCREIhAgEQgY8IQOeeAF69fq7boqQLsGIVTZjAAAAAElFTkSuQmCC") calc(100% - 5px*var(--ui-scale)) calc(50% + 1px*var(--ui-scale))/calc(15px*var(--ui-scale)) no-repeat;
       }
+
+      /* Keybindings settings */
+      html[data-theme="catppuccin-mocha-sky"] #state_KeybindingsState .content .hint {
+        background-color: #181825;
+      }
+      html[data-theme="catppuccin-mocha-sky"] #state_KeybindingsState .content .category .entry .mapping {
+        color: #89dceb;
+      }
+      html[data-theme="catppuccin-mocha-sky"] #state_KeybindingsState .content .category .entry button.editKeybinding,
+      html[data-theme="catppuccin-mocha-sky"] #state_KeybindingsState .content .category .entry button.resetKeybinding {
+        filter:brightness(0) saturate(100%) invert(75%) sepia(82%) saturate(1008%) hue-rotate(189deg) brightness(120%) contrast(90%);
+      }
+      html[data-theme="catppuccin-mocha-sky"] #state_KeybindingsState .content .category .entry button.disabled {
+        filter:brightness(0) saturate(100%) invert(10%) sepia(79%) saturate(1035%) hue-rotate(212deg) brightness(62%) contrast(70%);
+        opacity: 1 !important;
+      }
+      html[data-theme="catppuccin-mocha-sky"] #state_KeybindingsState .content .category .entry {
+        color: #a6adc8;
+        border-bottom-color: #585b70;
+      }
     `)
     this.modInterface.registerGameTheme({
       id: "catppuccin-mocha-sapphire",
@@ -3476,6 +3740,10 @@ class Mod extends shapez.Mod {
 
       html[data-theme="catppuccin-mocha-sapphire"] {
         background-color: #181825;
+      }
+
+      html[data-theme="catppuccin-mocha-sapphire"] ::-webkit-scrollbar-thumb {
+        background-color: #cdd6f4;
       }
 
       html[data-theme="catppuccin-mocha-sapphire"] a {
@@ -3660,6 +3928,26 @@ class Mod extends shapez.Mod {
         background-color: #11111b;
         background: #11111b url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABABAMAAABYR2ztAAAAIGNIUk0AAHomAACAhAAA+gAAAIDoAAB1MAAA6mAAADqYAAAXcJy6UTwAAAAYUExURc3W9M3W9M3W9M3W9M3W9M3W9M3W9P///9B7wkUAAAAGdFJOUwAre/xYLJjtDxIAAAABYktHRAcWYYjrAAAAB3RJTUUH6gcKBxkrlGXo7QAAACV0RVh0ZGF0ZTpjcmVhdGUAMjAyNi0wNy0xMFQwNzoyNToxNyswMDowMHnONrcAAAAldEVYdGRhdGU6bW9kaWZ5ADIwMjYtMDctMTBUMDc6MjU6MTcrMDA6MDAIk44LAAAAKHRFWHRkYXRlOnRpbWVzdGFtcAAyMDI2LTA3LTEwVDA3OjI1OjQzKzAwOjAw4ymFowAAAJhJREFUSMftz8sNgCAMBmA0DOAIJm5g0LMJIziCCfuPII8ghT686I2eyl/7IUr16vV9DVQ4gX458FyvpR+dwR9YNz/96S5E6N1t8GAwAJcsIpodTLQr7RlttAG+s06Iv64jS7wbZtSzq5ACYEoCMKaBkjNAGXBAnrBAHvFAmglAIiQgEhIQCREIhAgEQgY8IQOeeAF69fq7boqQLsGIVTZjAAAAAElFTkSuQmCC") calc(100% - 5px*var(--ui-scale)) calc(50% + 1px*var(--ui-scale))/calc(15px*var(--ui-scale)) no-repeat;
       }
+
+      /* Keybindings settings */
+      html[data-theme="catppuccin-mocha-sapphire"] #state_KeybindingsState .content .hint {
+        background-color: #181825;
+      }
+      html[data-theme="catppuccin-mocha-sapphire"] #state_KeybindingsState .content .category .entry .mapping {
+        color: #74c7ec;
+      }
+      html[data-theme="catppuccin-mocha-sapphire"] #state_KeybindingsState .content .category .entry button.editKeybinding,
+      html[data-theme="catppuccin-mocha-sapphire"] #state_KeybindingsState .content .category .entry button.resetKeybinding {
+        filter:brightness(0) saturate(100%) invert(75%) sepia(82%) saturate(1008%) hue-rotate(189deg) brightness(120%) contrast(90%);
+      }
+      html[data-theme="catppuccin-mocha-sapphire"] #state_KeybindingsState .content .category .entry button.disabled {
+        filter:brightness(0) saturate(100%) invert(10%) sepia(79%) saturate(1035%) hue-rotate(212deg) brightness(62%) contrast(70%);
+        opacity: 1 !important;
+      }
+      html[data-theme="catppuccin-mocha-sapphire"] #state_KeybindingsState .content .category .entry {
+        color: #a6adc8;
+        border-bottom-color: #585b70;
+      }
     `)
     this.modInterface.registerGameTheme({
       id: "catppuccin-mocha-blue",
@@ -3780,6 +4068,10 @@ class Mod extends shapez.Mod {
 
       html[data-theme="catppuccin-mocha-blue"] {
         background-color: #181825;
+      }
+
+      html[data-theme="catppuccin-mocha-blue"] ::-webkit-scrollbar-thumb {
+        background-color: #cdd6f4;
       }
 
       html[data-theme="catppuccin-mocha-blue"] a {
@@ -3964,6 +4256,26 @@ class Mod extends shapez.Mod {
         background-color: #11111b;
         background: #11111b url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABABAMAAABYR2ztAAAAIGNIUk0AAHomAACAhAAA+gAAAIDoAAB1MAAA6mAAADqYAAAXcJy6UTwAAAAYUExURc3W9M3W9M3W9M3W9M3W9M3W9M3W9P///9B7wkUAAAAGdFJOUwAre/xYLJjtDxIAAAABYktHRAcWYYjrAAAAB3RJTUUH6gcKBxkrlGXo7QAAACV0RVh0ZGF0ZTpjcmVhdGUAMjAyNi0wNy0xMFQwNzoyNToxNyswMDowMHnONrcAAAAldEVYdGRhdGU6bW9kaWZ5ADIwMjYtMDctMTBUMDc6MjU6MTcrMDA6MDAIk44LAAAAKHRFWHRkYXRlOnRpbWVzdGFtcAAyMDI2LTA3LTEwVDA3OjI1OjQzKzAwOjAw4ymFowAAAJhJREFUSMftz8sNgCAMBmA0DOAIJm5g0LMJIziCCfuPII8ghT686I2eyl/7IUr16vV9DVQ4gX458FyvpR+dwR9YNz/96S5E6N1t8GAwAJcsIpodTLQr7RlttAG+s06Iv64jS7wbZtSzq5ACYEoCMKaBkjNAGXBAnrBAHvFAmglAIiQgEhIQCREIhAgEQgY8IQOeeAF69fq7boqQLsGIVTZjAAAAAElFTkSuQmCC") calc(100% - 5px*var(--ui-scale)) calc(50% + 1px*var(--ui-scale))/calc(15px*var(--ui-scale)) no-repeat;
       }
+
+      /* Keybindings settings */
+      html[data-theme="catppuccin-mocha-blue"] #state_KeybindingsState .content .hint {
+        background-color: #181825;
+      }
+      html[data-theme="catppuccin-mocha-blue"] #state_KeybindingsState .content .category .entry .mapping {
+        color: #89b4fa;
+      }
+      html[data-theme="catppuccin-mocha-blue"] #state_KeybindingsState .content .category .entry button.editKeybinding,
+      html[data-theme="catppuccin-mocha-blue"] #state_KeybindingsState .content .category .entry button.resetKeybinding {
+        filter:brightness(0) saturate(100%) invert(75%) sepia(82%) saturate(1008%) hue-rotate(189deg) brightness(120%) contrast(90%);
+      }
+      html[data-theme="catppuccin-mocha-blue"] #state_KeybindingsState .content .category .entry button.disabled {
+        filter:brightness(0) saturate(100%) invert(10%) sepia(79%) saturate(1035%) hue-rotate(212deg) brightness(62%) contrast(70%);
+        opacity: 1 !important;
+      }
+      html[data-theme="catppuccin-mocha-blue"] #state_KeybindingsState .content .category .entry {
+        color: #a6adc8;
+        border-bottom-color: #585b70;
+      }
     `)
     this.modInterface.registerGameTheme({
       id: "catppuccin-mocha-lavender",
@@ -4084,6 +4396,10 @@ class Mod extends shapez.Mod {
 
       html[data-theme="catppuccin-mocha-lavender"] {
         background-color: #181825;
+      }
+
+      html[data-theme="catppuccin-mocha-lavender"] ::-webkit-scrollbar-thumb {
+        background-color: #cdd6f4;
       }
 
       html[data-theme="catppuccin-mocha-lavender"] a {
@@ -4267,6 +4583,26 @@ class Mod extends shapez.Mod {
       html[data-theme="catppuccin-mocha-lavender"] #state_SettingsState .container .content .categoryContainer .category .setting .value.enum {
         background-color: #11111b;
         background: #11111b url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABABAMAAABYR2ztAAAAIGNIUk0AAHomAACAhAAA+gAAAIDoAAB1MAAA6mAAADqYAAAXcJy6UTwAAAAYUExURc3W9M3W9M3W9M3W9M3W9M3W9M3W9P///9B7wkUAAAAGdFJOUwAre/xYLJjtDxIAAAABYktHRAcWYYjrAAAAB3RJTUUH6gcKBxkrlGXo7QAAACV0RVh0ZGF0ZTpjcmVhdGUAMjAyNi0wNy0xMFQwNzoyNToxNyswMDowMHnONrcAAAAldEVYdGRhdGU6bW9kaWZ5ADIwMjYtMDctMTBUMDc6MjU6MTcrMDA6MDAIk44LAAAAKHRFWHRkYXRlOnRpbWVzdGFtcAAyMDI2LTA3LTEwVDA3OjI1OjQzKzAwOjAw4ymFowAAAJhJREFUSMftz8sNgCAMBmA0DOAIJm5g0LMJIziCCfuPII8ghT686I2eyl/7IUr16vV9DVQ4gX458FyvpR+dwR9YNz/96S5E6N1t8GAwAJcsIpodTLQr7RlttAG+s06Iv64jS7wbZtSzq5ACYEoCMKaBkjNAGXBAnrBAHvFAmglAIiQgEhIQCREIhAgEQgY8IQOeeAF69fq7boqQLsGIVTZjAAAAAElFTkSuQmCC") calc(100% - 5px*var(--ui-scale)) calc(50% + 1px*var(--ui-scale))/calc(15px*var(--ui-scale)) no-repeat;
+      }
+
+      /* Keybindings settings */
+      html[data-theme="catppuccin-mocha-lavender"] #state_KeybindingsState .content .hint {
+        background-color: #181825;
+      }
+      html[data-theme="catppuccin-mocha-lavender"] #state_KeybindingsState .content .category .entry .mapping {
+        color: #b4befe;
+      }
+      html[data-theme="catppuccin-mocha-lavender"] #state_KeybindingsState .content .category .entry button.editKeybinding,
+      html[data-theme="catppuccin-mocha-lavender"] #state_KeybindingsState .content .category .entry button.resetKeybinding {
+        filter:brightness(0) saturate(100%) invert(75%) sepia(82%) saturate(1008%) hue-rotate(189deg) brightness(120%) contrast(90%);
+      }
+      html[data-theme="catppuccin-mocha-lavender"] #state_KeybindingsState .content .category .entry button.disabled {
+        filter:brightness(0) saturate(100%) invert(10%) sepia(79%) saturate(1035%) hue-rotate(212deg) brightness(62%) contrast(70%);
+        opacity: 1 !important;
+      }
+      html[data-theme="catppuccin-mocha-lavender"] #state_KeybindingsState .content .category .entry {
+        color: #a6adc8;
+        border-bottom-color: #585b70;
       }
     `)
   }
