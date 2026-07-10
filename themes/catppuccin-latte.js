@@ -138,6 +138,10 @@ class Mod extends shapez.Mod {
         background-color: #e6e9ef;
       }
 
+      html[data-theme="catppuccin-latte-rosewater"] ::selection {
+        background-color: #dc8a784d;
+      }
+
       html[data-theme="catppuccin-latte-rosewater"] ::-webkit-scrollbar-thumb {
         background-color: #4c4f69;
       }
@@ -361,6 +365,193 @@ class Mod extends shapez.Mod {
       html[data-theme="catppuccin-latte-rosewater"] .gameState.textualState>.container>.content a {
         color: #dc8a78;
       }
+
+      /* Ingame */
+      /* Keybindings */
+      html[data-theme="catppuccin-latte-rosewater"] #ingame_HUD_KeybindingOverlay {
+        color: #4c4f69;
+      }
+      html[data-theme="catppuccin-latte-rosewater"] .keybinding {
+        color: #ccd0da;
+        background-color: #9ca0b0;
+        border-color: #ccd0da;
+      }
+      html[data-theme="catppuccin-latte-rosewater"] #ingame_HUD_KeybindingOverlay>.binding label {
+        color: #6c6f85;
+      }
+      html[data-theme="catppuccin-latte-rosewater"] #ingame_HUD_KeybindingOverlay>.binding i {
+        background-color: #9ca0b0;
+      }
+      html[data-theme="catppuccin-latte-rosewater"] #ingame_HUD_KeybindingOverlay>.binding code.leftMouse {
+        background: #9ca0b0 url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAblJREFUWIXtlz1Lw0AYx38VdbJ0UnAJiCK4WSgItbPQyUmhmVzcpYsvg+Dg4ODL5NAPkAwKIohvs+0gRdwqQhEKItQp6AdwuUq8XpJLm8NB/1C4Ppd7/j/ukufuUkiqPz7LoW9ZjpcFVoA8cNGyMzui6xAoAHfAKVANypGbnf7xfzDQrdt4Fyj6wjVfexjIid8acAJsAs2o3AMa5qvAg2QO8BkybAloAKW+ACzHKwOVqCQBGgKcKIhAAMvxisB+j+Z+OcB8LADL8dLAZQLmHV3FAgA2EjQHSAPlOABbCQMArGsBiLU3oTHVu6CagYIhAIA5HYAFzWQjvvao5piu3KpKWJGqXJCufe0z4FVjzL0cSMmBsL0gCcl7QWQpNi3VEpSAGUN+DcCNAiiLXc2E6jKAagleDJkrc//6O/AP8OcA3nUAngwCdB1SVQA3BgHOdQCqwIcB87buDAAcGQDYUwWDALYTnoU2cBAHAMVFpB/lgzrCAKqAnYC5HXZFi6oDrkjQy3K0xfnSDXtIpxC5QFZcOHV1bDneVNgtuSOt27GYwmVgElgUh8sJYFz0v4mt9lZ8682WndFK/AVGtVKqekHA0AAAAABJRU5ErkJggg==") 50%/85% no-repeat;
+      }
+      html[data-theme="catppuccin-latte-rosewater"] #ingame_HUD_KeybindingOverlay>.binding code.rightMouse {
+        background: #9ca0b0 url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAAIGNIUk0AAHomAACAhAAA+gAAAIDoAAB1MAAA6mAAADqYAAAXcJy6UTwAAABXUExURQAAAEFFWUFFWUFFWUFFWfS45PS45PS45PS45EFFWUFFWUFFWfS45EFFWUFFWfS45PS45PS45PS45EFFWfS45EFFWUFFWUFFWUFFWUFFWUFFWfS45P///2FA/IMAAAAadFJOUwAAO4/Lf8uRMSOqlbZZ+oVlcknyDXLpuILZVda3wAAAAAFiS0dEHJwEQQcAAAAHdElNRQfqBwoMLhXJVrqTAAAAJXRFWHRkYXRlOmNyZWF0ZQAyMDI2LTA3LTEwVDEyOjQ2OjE0KzAwOjAwy4QPDwAAACV0RVh0ZGF0ZTptb2RpZnkAMjAyNi0wNy0xMFQxMjo0NjoxNCswMDowMLrZt7MAAAAodEVYdGRhdGU6dGltZXN0YW1wADIwMjYtMDctMTBUMTI6NDY6MjErMDA6MDAxe74oAAAAw0lEQVQ4y83T2w6DIAyAYUGngutwIh7a93/PHRgI2GS73H+n+SIEalU9Ez5ZN7UQl7brPy+q0PtJaUQchOiI6NqfAdzQA0OvxhIAYgbongOJJaApA/YMaE6AQwaYBCwcoAOEHRRgisDxwESwRqD9QfnaCKAOgRBTFxrzo2b6HcDGBhE0yNZEoHmg/woM34DjwRaB4oFkBibNciOXrZBe1sJ9IAXMLiT74xxBOQ8yW8XCeWDm5Li0YidKuXW3dl+dSibqAbL1NseSfU2PAAAAAElFTkSuQmCC") 50%/85% no-repeat;
+      }
+      /* Waypoint */
+      html[data-theme="catppuccin-latte-rosewater"] #ingame_HUD_Waypoints .waypoint {
+        color: #4c4f69;
+        filter:brightness(0) saturate(100%) invert(43%) sepia(43%) saturate(515%) hue-rotate(196deg) brightness(49%) contrast(68%);
+      }
+      /* Waypoints hint */
+      html[data-theme="catppuccin-latte-rosewater"] #ingame_HUD_Waypoints_Hint {
+        color: #4c4f69;
+        background-color: #bcc0cce6;
+      }
+      html[data-theme="catppuccin-latte-rosewater"] #ingame_HUD_Waypoints_Hint .desc {
+        color: #6c6f85;
+      }
+      html[data-theme="catppuccin-latte-rosewater"] #ingame_HUD_Waypoints_Hint .desc strong {
+        color: #4c4f69;
+      }
+      /* Game menu */
+      html[data-theme="catppuccin-latte-rosewater"] #ingame_HUD_GameMenu>.button.save,
+      html[data-theme="catppuccin-latte-rosewater"] #ingame_HUD_GameMenu>button.save,
+      html[data-theme="catppuccin-latte-rosewater"] #ingame_HUD_GameMenu>.button.settings,
+      html[data-theme="catppuccin-latte-rosewater"] #ingame_HUD_GameMenu>button.settings,
+      html[data-theme="catppuccin-latte-rosewater"] #ingame_HUD_GameMenu>.button.shop,
+      html[data-theme="catppuccin-latte-rosewater"] #ingame_HUD_GameMenu>button.shop,
+      html[data-theme="catppuccin-latte-rosewater"] #ingame_HUD_GameMenu>.button.stats,
+      html[data-theme="catppuccin-latte-rosewater"] #ingame_HUD_GameMenu>button.stats  {
+        filter:brightness(0) saturate(100%) invert(43%) sepia(43%) saturate(515%) hue-rotate(196deg) brightness(49%) contrast(68%);
+      }
+      /* Settings menu */
+      html[data-theme="catppuccin-latte-rosewater"] #ingame_HUD_SettingsMenu .buttons button {
+        filter:brightness(0) saturate(100%) invert(43%) sepia(43%) saturate(515%) hue-rotate(196deg) brightness(49%) contrast(68%);
+      }
+      html[data-theme="catppuccin-latte-rosewater"] #ingame_HUD_SettingsMenu .statsElement {
+        color: #4c4f69;
+      }
+      html[data-theme="catppuccin-latte-rosewater"] #ingame_HUD_SettingsMenu .statsElement strong {
+        color: #6c6f85;
+      }
+      /* Pinned shapes */
+      html[data-theme="catppuccin-latte-rosewater"] #ingame_HUD_PinnedShapes>.shape {
+        color: #4c4f69;
+      }
+      html[data-theme="catppuccin-latte-rosewater"] #ingame_HUD_PinnedShapes>.shape>.infoButton  {
+        filter:brightness(0) saturate(100%) invert(65%) sepia(15%) saturate(535%) hue-rotate(195deg) brightness(63%) contrast(82%);
+      }
+      html[data-theme="catppuccin-latte-rosewater"] #ingame_HUD_PinnedShapes>.shape.blueprint.blueprint .amountLabel:after,
+      html[data-theme="catppuccin-latte-rosewater"] #ingame_HUD_PinnedShapes>.shape.goal.blueprint .amountLabel:after,
+      html[data-theme="catppuccin-latte-rosewater"] #ingame_HUD_PinnedShapes>.shape.blueprint.goal .amountLabel:after,
+      html[data-theme="catppuccin-latte-rosewater"] #ingame_HUD_PinnedShapes>.shape.goal.goal .amountLabel:after,
+      html[data-theme="catppuccin-latte-rosewater"] #ingame_HUD_PinnedShapes>.shape>.unpinButton  {
+        filter:brightness(0) saturate(100%) invert(43%) sepia(43%) saturate(515%) hue-rotate(196deg) brightness(49%) contrast(68%);
+      }
+      /* Dialog (e.g. new marker) */
+      html[data-theme="catppuccin-latte-rosewater"] .ingameDialog>.dialogInner>.content a {
+        color: #1e66f5;
+      }
+      html[data-theme="catppuccin-latte-rosewater"] .ingameDialog>.dialogInner>.content input {
+        color: #4c4f69;
+        background-color: #e6e9ef;
+      }
+      html[data-theme="catppuccin-latte-rosewater"] .ingameDialog>.dialogInner>.content input.errored {
+        color: #eff1f5;
+        background-color: #dc8a78;
+      }
+      html[data-theme="catppuccin-latte-rosewater"] .ingameDialog>.dialogInner>.buttons>button.bad {
+        color: #eff1f5;
+        background-color: #d20f39;
+      }
+      html[data-theme="catppuccin-latte-rosewater"] .ingameDialog>.dialogInner>.buttons>button.good {
+        color: #eff1f5;
+        background-color: #40a02b;
+      }
+      /* Shop */
+      html[data-theme="catppuccin-latte-rosewater"] #ingame_HUD_Shop .content .upgrade .title .tier {
+        color: #eff1f5;
+        background-color: #40a02b;
+      }
+      html[data-theme="catppuccin-latte-rosewater"] #ingame_HUD_Shop .content .upgrade .title .tier[data-tier="0"] {
+        background-color: #179299;
+      }
+      html[data-theme="catppuccin-latte-rosewater"] #ingame_HUD_Shop .content .upgrade .title .tier[data-tier="1"] {
+        background-color: #1e66f5;
+      }
+      html[data-theme="catppuccin-latte-rosewater"] #ingame_HUD_Shop .content .upgrade .title .tier[data-tier="2"] {
+        background-color: #8839ef;
+      }
+      html[data-theme="catppuccin-latte-rosewater"] #ingame_HUD_Shop .content .upgrade .title .tier[data-tier="3"] {
+        background-color: #40a02b;
+      }
+      html[data-theme="catppuccin-latte-rosewater"] #ingame_HUD_Shop .content .upgrade .title .tier[data-tier="4"] {
+        background-color: #d20f39;
+      }
+      html[data-theme="catppuccin-latte-rosewater"] #ingame_HUD_Shop .content .upgrade .title .tier[data-tier="5"] {
+        background-color: #df8e1d;
+      }
+      html[data-theme="catppuccin-latte-rosewater"] #ingame_HUD_Shop .content .upgrade .title .tier[data-tier="6"] {
+        background-color: #dce0e8;
+      }
+      html[data-theme="catppuccin-latte-rosewater"] #ingame_HUD_Shop .content .upgrade {
+        background-color: #e6e9ef;
+      }
+      html[data-theme="catppuccin-latte-rosewater"] #ingame_HUD_Shop .content .upgrade .description {
+        color: #5c5f77;
+      }
+      html[data-theme="catppuccin-latte-rosewater"] #ingame_HUD_Shop .content .upgrade button.buy {
+        color: #eff1f5;
+        background-color: #40a02b;
+      }
+      html[data-theme="catppuccin-latte-rosewater"] #ingame_HUD_Shop .content .upgrade button.buy:not(.buyable) {
+        color: #6c6f85;
+        background-color: #ccd0da;
+      }
+      html[data-theme="catppuccin-latte-rosewater"] #ingame_HUD_Shop .content .upgrade .requirements .requirement .amount {
+        color: #4c4f69;
+        background-color: #dce0e8;
+      }
+      html[data-theme="catppuccin-latte-rosewater"] #ingame_HUD_Shop .content .upgrade .requirements .requirement .amount label.complete + label {
+        color: #eff1f5;
+      }
+      html[data-theme="catppuccin-latte-rosewater"] #ingame_HUD_Shop .content .upgrade .requirements .requirement .amount .progressBar.complete {
+        background-color: #40a02b;
+      }
+      html[data-theme="catppuccin-latte-rosewater"] #ingame_HUD_Shop .content .upgrade .requirements .requirement button.showInfo  {
+        filter:brightness(0) saturate(100%) invert(65%) sepia(15%) saturate(535%) hue-rotate(195deg) brightness(63%) contrast(82%);
+      }
+      html[data-theme="catppuccin-latte-rosewater"] #ingame_HUD_Shop .content .upgrade .requirements .requirement button.pin  {
+        filter:brightness(0) saturate(100%) invert(43%) sepia(43%) saturate(515%) hue-rotate(196deg) brightness(49%) contrast(68%);
+      }
+      /* Statistics */
+      html[data-theme="catppuccin-latte-rosewater"] #ingame_HUD_Statistics .filterHeader button {
+        color: #4c4f69;
+        background-color: #ccd0da !important;
+      }
+      html[data-theme="catppuccin-latte-rosewater"] #ingame_HUD_Statistics .sourceExplanation {
+        color: #6c6f85;
+      }
+      html[data-theme="catppuccin-latte-rosewater"] #ingame_HUD_Statistics .content>div {
+        background-color: #e6e9ef;
+      }
+      html[data-theme="catppuccin-latte-rosewater"] #ingame_HUD_Statistics .dialogInner[data-displaymode=detailed] .content.hasEntries>div .counter {
+        color: #4c4f69;
+      }
+      /* Unlock */
+      html[data-theme="catppuccin-latte-rosewater"] #ingame_HUD_UnlockNotification {
+        background: #eff1f5fa url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAAAXNSR0IArs4c6QAAAa5JREFUeJztmTFvwkAMhV+rjtlhyhKpKx2qLv3/C2Jo10pZMsGeH9DlkKKK811C7OcUfxILJJbvUzjwPSAIgiB4XJ5yH5y+fmw7qacFsAewA9Ck90YAFwBnAMOtm97fXm8We9HsdGVaAIfJoqc06dWla75zIv6yFQEfaXE1NAA+01NyLF38fH9v6sxZ/JQu3SviXUC7cPFXulQji3cBB+0angW0mQ1vLo30FHgWsLeo5VnAzqKWZwFrPP7FWp4FmOBZwGhRy7OAi0UtzwLOFrU8CxhW+hqM0mDkWQDSVKdaw7uAAUB/x/19aSz2LgBppF0ioa8Zh7dyHnBMG1nuQGTK+B8PRJAWNCw9EsuxJQFXhrmLlNjCHqBKCGA3wCYEsBtgEwLYDbAJAewG2IQAdgNslswCqw4jbOYIUMnn2dQKUMvn2dTsAar5PJuSAPV8nk1JgHo+z0YSYJLPs5EEmOTzbCQBJvk8G0mAST7P5uH/CksCTPJ5NpIAk3yejSTAJJ9nIwkwyefZlDZB9XyeTUmAej7PpuZnUDWfZ1N7HqCWz7OZcyKkks8HQRAEAY9fMBlR4F7sEJYAAAAASUVORK5CYII=") 0 0/calc(10px*var(--ui-scale)) repeat;
+      }
+      html[data-theme="catppuccin-latte-rosewater"] #ingame_HUD_UnlockNotification .dialog {
+        color: #4c4f69;
+      }
+      html[data-theme="catppuccin-latte-rosewater"] #ingame_HUD_UnlockNotification .dialog .subTitle {
+        color: #40a02b;
+      }
+      html[data-theme="catppuccin-latte-rosewater"] #ingame_HUD_UnlockNotification .dialog .contents .rewardDesc {
+        color: #6c6f85;
+      }
+      html[data-theme="catppuccin-latte-rosewater"] #ingame_HUD_UnlockNotification .dialog .contents .rewardDesc strong {
+        color: #4c4f69;
+      }
+      /* Tutorial hints */
+      html[data-theme="catppuccin-latte-rosewater"] #ingame_HUD_TutorialHints .header {
+        color: #4c4f69;
+      }
+      html[data-theme="catppuccin-latte-rosewater"] #ingame_HUD_TutorialHints .header>span:before  {
+        filter:brightness(0) saturate(100%) invert(43%) sepia(43%) saturate(515%) hue-rotate(196deg) brightness(49%) contrast(68%);
+      }
     `)
     this.modInterface.registerGameTheme({
       id: "catppuccin-latte-flamingo",
@@ -485,6 +676,10 @@ class Mod extends shapez.Mod {
 
       html[data-theme="catppuccin-latte-flamingo"] {
         background-color: #e6e9ef;
+      }
+
+      html[data-theme="catppuccin-latte-flamingo"] ::selection {
+        background-color: #dd78784d;
       }
 
       html[data-theme="catppuccin-latte-flamingo"] ::-webkit-scrollbar-thumb {
@@ -710,6 +905,193 @@ class Mod extends shapez.Mod {
       html[data-theme="catppuccin-latte-flamingo"] .gameState.textualState>.container>.content a {
         color: #dd7878;
       }
+
+      /* Ingame */
+      /* Keybindings */
+      html[data-theme="catppuccin-latte-flamingo"] #ingame_HUD_KeybindingOverlay {
+        color: #4c4f69;
+      }
+      html[data-theme="catppuccin-latte-flamingo"] .keybinding {
+        color: #ccd0da;
+        background-color: #9ca0b0;
+        border-color: #ccd0da;
+      }
+      html[data-theme="catppuccin-latte-flamingo"] #ingame_HUD_KeybindingOverlay>.binding label {
+        color: #6c6f85;
+      }
+      html[data-theme="catppuccin-latte-flamingo"] #ingame_HUD_KeybindingOverlay>.binding i {
+        background-color: #9ca0b0;
+      }
+      html[data-theme="catppuccin-latte-flamingo"] #ingame_HUD_KeybindingOverlay>.binding code.leftMouse {
+        background: #9ca0b0 url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAblJREFUWIXtlz1Lw0AYx38VdbJ0UnAJiCK4WSgItbPQyUmhmVzcpYsvg+Dg4ODL5NAPkAwKIohvs+0gRdwqQhEKItQp6AdwuUq8XpJLm8NB/1C4Ppd7/j/ukufuUkiqPz7LoW9ZjpcFVoA8cNGyMzui6xAoAHfAKVANypGbnf7xfzDQrdt4Fyj6wjVfexjIid8acAJsAs2o3AMa5qvAg2QO8BkybAloAKW+ACzHKwOVqCQBGgKcKIhAAMvxisB+j+Z+OcB8LADL8dLAZQLmHV3FAgA2EjQHSAPlOABbCQMArGsBiLU3oTHVu6CagYIhAIA5HYAFzWQjvvao5piu3KpKWJGqXJCufe0z4FVjzL0cSMmBsL0gCcl7QWQpNi3VEpSAGUN+DcCNAiiLXc2E6jKAagleDJkrc//6O/AP8OcA3nUAngwCdB1SVQA3BgHOdQCqwIcB87buDAAcGQDYUwWDALYTnoU2cBAHAMVFpB/lgzrCAKqAnYC5HXZFi6oDrkjQy3K0xfnSDXtIpxC5QFZcOHV1bDneVNgtuSOt27GYwmVgElgUh8sJYFz0v4mt9lZ8682WndFK/AVGtVKqekHA0AAAAABJRU5ErkJggg==") 50%/85% no-repeat;
+      }
+      html[data-theme="catppuccin-latte-flamingo"] #ingame_HUD_KeybindingOverlay>.binding code.rightMouse {
+        background: #9ca0b0 url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAAIGNIUk0AAHomAACAhAAA+gAAAIDoAAB1MAAA6mAAADqYAAAXcJy6UTwAAABXUExURQAAAEFFWUFFWUFFWUFFWfS45PS45PS45PS45EFFWUFFWUFFWfS45EFFWUFFWfS45PS45PS45PS45EFFWfS45EFFWUFFWUFFWUFFWUFFWUFFWfS45P///2FA/IMAAAAadFJOUwAAO4/Lf8uRMSOqlbZZ+oVlcknyDXLpuILZVda3wAAAAAFiS0dEHJwEQQcAAAAHdElNRQfqBwoMLhXJVrqTAAAAJXRFWHRkYXRlOmNyZWF0ZQAyMDI2LTA3LTEwVDEyOjQ2OjE0KzAwOjAwy4QPDwAAACV0RVh0ZGF0ZTptb2RpZnkAMjAyNi0wNy0xMFQxMjo0NjoxNCswMDowMLrZt7MAAAAodEVYdGRhdGU6dGltZXN0YW1wADIwMjYtMDctMTBUMTI6NDY6MjErMDA6MDAxe74oAAAAw0lEQVQ4y83T2w6DIAyAYUGngutwIh7a93/PHRgI2GS73H+n+SIEalU9Ez5ZN7UQl7brPy+q0PtJaUQchOiI6NqfAdzQA0OvxhIAYgbongOJJaApA/YMaE6AQwaYBCwcoAOEHRRgisDxwESwRqD9QfnaCKAOgRBTFxrzo2b6HcDGBhE0yNZEoHmg/woM34DjwRaB4oFkBibNciOXrZBe1sJ9IAXMLiT74xxBOQ8yW8XCeWDm5Li0YidKuXW3dl+dSibqAbL1NseSfU2PAAAAAElFTkSuQmCC") 50%/85% no-repeat;
+      }
+      /* Waypoint */
+      html[data-theme="catppuccin-latte-flamingo"] #ingame_HUD_Waypoints .waypoint {
+        color: #4c4f69;
+        filter:brightness(0) saturate(100%) invert(43%) sepia(43%) saturate(515%) hue-rotate(196deg) brightness(49%) contrast(68%);
+      }
+      /* Waypoints hint */
+      html[data-theme="catppuccin-latte-flamingo"] #ingame_HUD_Waypoints_Hint {
+        color: #4c4f69;
+        background-color: #bcc0cce6;
+      }
+      html[data-theme="catppuccin-latte-flamingo"] #ingame_HUD_Waypoints_Hint .desc {
+        color: #6c6f85;
+      }
+      html[data-theme="catppuccin-latte-flamingo"] #ingame_HUD_Waypoints_Hint .desc strong {
+        color: #4c4f69;
+      }
+      /* Game menu */
+      html[data-theme="catppuccin-latte-flamingo"] #ingame_HUD_GameMenu>.button.save,
+      html[data-theme="catppuccin-latte-flamingo"] #ingame_HUD_GameMenu>button.save,
+      html[data-theme="catppuccin-latte-flamingo"] #ingame_HUD_GameMenu>.button.settings,
+      html[data-theme="catppuccin-latte-flamingo"] #ingame_HUD_GameMenu>button.settings,
+      html[data-theme="catppuccin-latte-flamingo"] #ingame_HUD_GameMenu>.button.shop,
+      html[data-theme="catppuccin-latte-flamingo"] #ingame_HUD_GameMenu>button.shop,
+      html[data-theme="catppuccin-latte-flamingo"] #ingame_HUD_GameMenu>.button.stats,
+      html[data-theme="catppuccin-latte-flamingo"] #ingame_HUD_GameMenu>button.stats  {
+        filter:brightness(0) saturate(100%) invert(43%) sepia(43%) saturate(515%) hue-rotate(196deg) brightness(49%) contrast(68%);
+      }
+      /* Settings menu */
+      html[data-theme="catppuccin-latte-flamingo"] #ingame_HUD_SettingsMenu .buttons button {
+        filter:brightness(0) saturate(100%) invert(43%) sepia(43%) saturate(515%) hue-rotate(196deg) brightness(49%) contrast(68%);
+      }
+      html[data-theme="catppuccin-latte-flamingo"] #ingame_HUD_SettingsMenu .statsElement {
+        color: #4c4f69;
+      }
+      html[data-theme="catppuccin-latte-flamingo"] #ingame_HUD_SettingsMenu .statsElement strong {
+        color: #6c6f85;
+      }
+      /* Pinned shapes */
+      html[data-theme="catppuccin-latte-flamingo"] #ingame_HUD_PinnedShapes>.shape {
+        color: #4c4f69;
+      }
+      html[data-theme="catppuccin-latte-flamingo"] #ingame_HUD_PinnedShapes>.shape>.infoButton  {
+        filter:brightness(0) saturate(100%) invert(65%) sepia(15%) saturate(535%) hue-rotate(195deg) brightness(63%) contrast(82%);
+      }
+      html[data-theme="catppuccin-latte-flamingo"] #ingame_HUD_PinnedShapes>.shape.blueprint.blueprint .amountLabel:after,
+      html[data-theme="catppuccin-latte-flamingo"] #ingame_HUD_PinnedShapes>.shape.goal.blueprint .amountLabel:after,
+      html[data-theme="catppuccin-latte-flamingo"] #ingame_HUD_PinnedShapes>.shape.blueprint.goal .amountLabel:after,
+      html[data-theme="catppuccin-latte-flamingo"] #ingame_HUD_PinnedShapes>.shape.goal.goal .amountLabel:after,
+      html[data-theme="catppuccin-latte-flamingo"] #ingame_HUD_PinnedShapes>.shape>.unpinButton  {
+        filter:brightness(0) saturate(100%) invert(43%) sepia(43%) saturate(515%) hue-rotate(196deg) brightness(49%) contrast(68%);
+      }
+      /* Dialog (e.g. new marker) */
+      html[data-theme="catppuccin-latte-flamingo"] .ingameDialog>.dialogInner>.content a {
+        color: #1e66f5;
+      }
+      html[data-theme="catppuccin-latte-flamingo"] .ingameDialog>.dialogInner>.content input {
+        color: #4c4f69;
+        background-color: #e6e9ef;
+      }
+      html[data-theme="catppuccin-latte-flamingo"] .ingameDialog>.dialogInner>.content input.errored {
+        color: #eff1f5;
+        background-color: #dc8a78;
+      }
+      html[data-theme="catppuccin-latte-flamingo"] .ingameDialog>.dialogInner>.buttons>button.bad {
+        color: #eff1f5;
+        background-color: #d20f39;
+      }
+      html[data-theme="catppuccin-latte-flamingo"] .ingameDialog>.dialogInner>.buttons>button.good {
+        color: #eff1f5;
+        background-color: #40a02b;
+      }
+      /* Shop */
+      html[data-theme="catppuccin-latte-flamingo"] #ingame_HUD_Shop .content .upgrade .title .tier {
+        color: #eff1f5;
+        background-color: #40a02b;
+      }
+      html[data-theme="catppuccin-latte-flamingo"] #ingame_HUD_Shop .content .upgrade .title .tier[data-tier="0"] {
+        background-color: #179299;
+      }
+      html[data-theme="catppuccin-latte-flamingo"] #ingame_HUD_Shop .content .upgrade .title .tier[data-tier="1"] {
+        background-color: #1e66f5;
+      }
+      html[data-theme="catppuccin-latte-flamingo"] #ingame_HUD_Shop .content .upgrade .title .tier[data-tier="2"] {
+        background-color: #8839ef;
+      }
+      html[data-theme="catppuccin-latte-flamingo"] #ingame_HUD_Shop .content .upgrade .title .tier[data-tier="3"] {
+        background-color: #40a02b;
+      }
+      html[data-theme="catppuccin-latte-flamingo"] #ingame_HUD_Shop .content .upgrade .title .tier[data-tier="4"] {
+        background-color: #d20f39;
+      }
+      html[data-theme="catppuccin-latte-flamingo"] #ingame_HUD_Shop .content .upgrade .title .tier[data-tier="5"] {
+        background-color: #df8e1d;
+      }
+      html[data-theme="catppuccin-latte-flamingo"] #ingame_HUD_Shop .content .upgrade .title .tier[data-tier="6"] {
+        background-color: #dce0e8;
+      }
+      html[data-theme="catppuccin-latte-flamingo"] #ingame_HUD_Shop .content .upgrade {
+        background-color: #e6e9ef;
+      }
+      html[data-theme="catppuccin-latte-flamingo"] #ingame_HUD_Shop .content .upgrade .description {
+        color: #5c5f77;
+      }
+      html[data-theme="catppuccin-latte-flamingo"] #ingame_HUD_Shop .content .upgrade button.buy {
+        color: #eff1f5;
+        background-color: #40a02b;
+      }
+      html[data-theme="catppuccin-latte-flamingo"] #ingame_HUD_Shop .content .upgrade button.buy:not(.buyable) {
+        color: #6c6f85;
+        background-color: #ccd0da;
+      }
+      html[data-theme="catppuccin-latte-flamingo"] #ingame_HUD_Shop .content .upgrade .requirements .requirement .amount {
+        color: #4c4f69;
+        background-color: #dce0e8;
+      }
+      html[data-theme="catppuccin-latte-flamingo"] #ingame_HUD_Shop .content .upgrade .requirements .requirement .amount label.complete + label {
+        color: #eff1f5;
+      }
+      html[data-theme="catppuccin-latte-flamingo"] #ingame_HUD_Shop .content .upgrade .requirements .requirement .amount .progressBar.complete {
+        background-color: #40a02b;
+      }
+      html[data-theme="catppuccin-latte-flamingo"] #ingame_HUD_Shop .content .upgrade .requirements .requirement button.showInfo  {
+        filter:brightness(0) saturate(100%) invert(65%) sepia(15%) saturate(535%) hue-rotate(195deg) brightness(63%) contrast(82%);
+      }
+      html[data-theme="catppuccin-latte-flamingo"] #ingame_HUD_Shop .content .upgrade .requirements .requirement button.pin  {
+        filter:brightness(0) saturate(100%) invert(43%) sepia(43%) saturate(515%) hue-rotate(196deg) brightness(49%) contrast(68%);
+      }
+      /* Statistics */
+      html[data-theme="catppuccin-latte-flamingo"] #ingame_HUD_Statistics .filterHeader button {
+        color: #4c4f69;
+        background-color: #ccd0da !important;
+      }
+      html[data-theme="catppuccin-latte-flamingo"] #ingame_HUD_Statistics .sourceExplanation {
+        color: #6c6f85;
+      }
+      html[data-theme="catppuccin-latte-flamingo"] #ingame_HUD_Statistics .content>div {
+        background-color: #e6e9ef;
+      }
+      html[data-theme="catppuccin-latte-flamingo"] #ingame_HUD_Statistics .dialogInner[data-displaymode=detailed] .content.hasEntries>div .counter {
+        color: #4c4f69;
+      }
+      /* Unlock */
+      html[data-theme="catppuccin-latte-flamingo"] #ingame_HUD_UnlockNotification {
+        background: #eff1f5fa url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAAAXNSR0IArs4c6QAAAa5JREFUeJztmTFvwkAMhV+rjtlhyhKpKx2qLv3/C2Jo10pZMsGeH9DlkKKK811C7OcUfxILJJbvUzjwPSAIgiB4XJ5yH5y+fmw7qacFsAewA9Ck90YAFwBnAMOtm97fXm8We9HsdGVaAIfJoqc06dWla75zIv6yFQEfaXE1NAA+01NyLF38fH9v6sxZ/JQu3SviXUC7cPFXulQji3cBB+0angW0mQ1vLo30FHgWsLeo5VnAzqKWZwFrPP7FWp4FmOBZwGhRy7OAi0UtzwLOFrU8CxhW+hqM0mDkWQDSVKdaw7uAAUB/x/19aSz2LgBppF0ioa8Zh7dyHnBMG1nuQGTK+B8PRJAWNCw9EsuxJQFXhrmLlNjCHqBKCGA3wCYEsBtgEwLYDbAJAewG2IQAdgNslswCqw4jbOYIUMnn2dQKUMvn2dTsAar5PJuSAPV8nk1JgHo+z0YSYJLPs5EEmOTzbCQBJvk8G0mAST7P5uH/CksCTPJ5NpIAk3yejSTAJJ9nIwkwyefZlDZB9XyeTUmAej7PpuZnUDWfZ1N7HqCWz7OZcyKkks8HQRAEAY9fMBlR4F7sEJYAAAAASUVORK5CYII=") 0 0/calc(10px*var(--ui-scale)) repeat;
+      }
+      html[data-theme="catppuccin-latte-flamingo"] #ingame_HUD_UnlockNotification .dialog {
+        color: #4c4f69;
+      }
+      html[data-theme="catppuccin-latte-flamingo"] #ingame_HUD_UnlockNotification .dialog .subTitle {
+        color: #40a02b;
+      }
+      html[data-theme="catppuccin-latte-flamingo"] #ingame_HUD_UnlockNotification .dialog .contents .rewardDesc {
+        color: #6c6f85;
+      }
+      html[data-theme="catppuccin-latte-flamingo"] #ingame_HUD_UnlockNotification .dialog .contents .rewardDesc strong {
+        color: #4c4f69;
+      }
+      /* Tutorial hints */
+      html[data-theme="catppuccin-latte-flamingo"] #ingame_HUD_TutorialHints .header {
+        color: #4c4f69;
+      }
+      html[data-theme="catppuccin-latte-flamingo"] #ingame_HUD_TutorialHints .header>span:before  {
+        filter:brightness(0) saturate(100%) invert(43%) sepia(43%) saturate(515%) hue-rotate(196deg) brightness(49%) contrast(68%);
+      }
     `)
     this.modInterface.registerGameTheme({
       id: "catppuccin-latte-pink",
@@ -834,6 +1216,10 @@ class Mod extends shapez.Mod {
 
       html[data-theme="catppuccin-latte-pink"] {
         background-color: #e6e9ef;
+      }
+
+      html[data-theme="catppuccin-latte-pink"] ::selection {
+        background-color: #ea76cb4d;
       }
 
       html[data-theme="catppuccin-latte-pink"] ::-webkit-scrollbar-thumb {
@@ -1059,6 +1445,193 @@ class Mod extends shapez.Mod {
       html[data-theme="catppuccin-latte-pink"] .gameState.textualState>.container>.content a {
         color: #ea76cb;
       }
+
+      /* Ingame */
+      /* Keybindings */
+      html[data-theme="catppuccin-latte-pink"] #ingame_HUD_KeybindingOverlay {
+        color: #4c4f69;
+      }
+      html[data-theme="catppuccin-latte-pink"] .keybinding {
+        color: #ccd0da;
+        background-color: #9ca0b0;
+        border-color: #ccd0da;
+      }
+      html[data-theme="catppuccin-latte-pink"] #ingame_HUD_KeybindingOverlay>.binding label {
+        color: #6c6f85;
+      }
+      html[data-theme="catppuccin-latte-pink"] #ingame_HUD_KeybindingOverlay>.binding i {
+        background-color: #9ca0b0;
+      }
+      html[data-theme="catppuccin-latte-pink"] #ingame_HUD_KeybindingOverlay>.binding code.leftMouse {
+        background: #9ca0b0 url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAblJREFUWIXtlz1Lw0AYx38VdbJ0UnAJiCK4WSgItbPQyUmhmVzcpYsvg+Dg4ODL5NAPkAwKIohvs+0gRdwqQhEKItQp6AdwuUq8XpJLm8NB/1C4Ppd7/j/ukufuUkiqPz7LoW9ZjpcFVoA8cNGyMzui6xAoAHfAKVANypGbnf7xfzDQrdt4Fyj6wjVfexjIid8acAJsAs2o3AMa5qvAg2QO8BkybAloAKW+ACzHKwOVqCQBGgKcKIhAAMvxisB+j+Z+OcB8LADL8dLAZQLmHV3FAgA2EjQHSAPlOABbCQMArGsBiLU3oTHVu6CagYIhAIA5HYAFzWQjvvao5piu3KpKWJGqXJCufe0z4FVjzL0cSMmBsL0gCcl7QWQpNi3VEpSAGUN+DcCNAiiLXc2E6jKAagleDJkrc//6O/AP8OcA3nUAngwCdB1SVQA3BgHOdQCqwIcB87buDAAcGQDYUwWDALYTnoU2cBAHAMVFpB/lgzrCAKqAnYC5HXZFi6oDrkjQy3K0xfnSDXtIpxC5QFZcOHV1bDneVNgtuSOt27GYwmVgElgUh8sJYFz0v4mt9lZ8682WndFK/AVGtVKqekHA0AAAAABJRU5ErkJggg==") 50%/85% no-repeat;
+      }
+      html[data-theme="catppuccin-latte-pink"] #ingame_HUD_KeybindingOverlay>.binding code.rightMouse {
+        background: #9ca0b0 url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAAIGNIUk0AAHomAACAhAAA+gAAAIDoAAB1MAAA6mAAADqYAAAXcJy6UTwAAABXUExURQAAAEFFWUFFWUFFWUFFWfS45PS45PS45PS45EFFWUFFWUFFWfS45EFFWUFFWfS45PS45PS45PS45EFFWfS45EFFWUFFWUFFWUFFWUFFWUFFWfS45P///2FA/IMAAAAadFJOUwAAO4/Lf8uRMSOqlbZZ+oVlcknyDXLpuILZVda3wAAAAAFiS0dEHJwEQQcAAAAHdElNRQfqBwoMLhXJVrqTAAAAJXRFWHRkYXRlOmNyZWF0ZQAyMDI2LTA3LTEwVDEyOjQ2OjE0KzAwOjAwy4QPDwAAACV0RVh0ZGF0ZTptb2RpZnkAMjAyNi0wNy0xMFQxMjo0NjoxNCswMDowMLrZt7MAAAAodEVYdGRhdGU6dGltZXN0YW1wADIwMjYtMDctMTBUMTI6NDY6MjErMDA6MDAxe74oAAAAw0lEQVQ4y83T2w6DIAyAYUGngutwIh7a93/PHRgI2GS73H+n+SIEalU9Ez5ZN7UQl7brPy+q0PtJaUQchOiI6NqfAdzQA0OvxhIAYgbongOJJaApA/YMaE6AQwaYBCwcoAOEHRRgisDxwESwRqD9QfnaCKAOgRBTFxrzo2b6HcDGBhE0yNZEoHmg/woM34DjwRaB4oFkBibNciOXrZBe1sJ9IAXMLiT74xxBOQ8yW8XCeWDm5Li0YidKuXW3dl+dSibqAbL1NseSfU2PAAAAAElFTkSuQmCC") 50%/85% no-repeat;
+      }
+      /* Waypoint */
+      html[data-theme="catppuccin-latte-pink"] #ingame_HUD_Waypoints .waypoint {
+        color: #4c4f69;
+        filter:brightness(0) saturate(100%) invert(43%) sepia(43%) saturate(515%) hue-rotate(196deg) brightness(49%) contrast(68%);
+      }
+      /* Waypoints hint */
+      html[data-theme="catppuccin-latte-pink"] #ingame_HUD_Waypoints_Hint {
+        color: #4c4f69;
+        background-color: #bcc0cce6;
+      }
+      html[data-theme="catppuccin-latte-pink"] #ingame_HUD_Waypoints_Hint .desc {
+        color: #6c6f85;
+      }
+      html[data-theme="catppuccin-latte-pink"] #ingame_HUD_Waypoints_Hint .desc strong {
+        color: #4c4f69;
+      }
+      /* Game menu */
+      html[data-theme="catppuccin-latte-pink"] #ingame_HUD_GameMenu>.button.save,
+      html[data-theme="catppuccin-latte-pink"] #ingame_HUD_GameMenu>button.save,
+      html[data-theme="catppuccin-latte-pink"] #ingame_HUD_GameMenu>.button.settings,
+      html[data-theme="catppuccin-latte-pink"] #ingame_HUD_GameMenu>button.settings,
+      html[data-theme="catppuccin-latte-pink"] #ingame_HUD_GameMenu>.button.shop,
+      html[data-theme="catppuccin-latte-pink"] #ingame_HUD_GameMenu>button.shop,
+      html[data-theme="catppuccin-latte-pink"] #ingame_HUD_GameMenu>.button.stats,
+      html[data-theme="catppuccin-latte-pink"] #ingame_HUD_GameMenu>button.stats  {
+        filter:brightness(0) saturate(100%) invert(43%) sepia(43%) saturate(515%) hue-rotate(196deg) brightness(49%) contrast(68%);
+      }
+      /* Settings menu */
+      html[data-theme="catppuccin-latte-pink"] #ingame_HUD_SettingsMenu .buttons button {
+        filter:brightness(0) saturate(100%) invert(43%) sepia(43%) saturate(515%) hue-rotate(196deg) brightness(49%) contrast(68%);
+      }
+      html[data-theme="catppuccin-latte-pink"] #ingame_HUD_SettingsMenu .statsElement {
+        color: #4c4f69;
+      }
+      html[data-theme="catppuccin-latte-pink"] #ingame_HUD_SettingsMenu .statsElement strong {
+        color: #6c6f85;
+      }
+      /* Pinned shapes */
+      html[data-theme="catppuccin-latte-pink"] #ingame_HUD_PinnedShapes>.shape {
+        color: #4c4f69;
+      }
+      html[data-theme="catppuccin-latte-pink"] #ingame_HUD_PinnedShapes>.shape>.infoButton  {
+        filter:brightness(0) saturate(100%) invert(65%) sepia(15%) saturate(535%) hue-rotate(195deg) brightness(63%) contrast(82%);
+      }
+      html[data-theme="catppuccin-latte-pink"] #ingame_HUD_PinnedShapes>.shape.blueprint.blueprint .amountLabel:after,
+      html[data-theme="catppuccin-latte-pink"] #ingame_HUD_PinnedShapes>.shape.goal.blueprint .amountLabel:after,
+      html[data-theme="catppuccin-latte-pink"] #ingame_HUD_PinnedShapes>.shape.blueprint.goal .amountLabel:after,
+      html[data-theme="catppuccin-latte-pink"] #ingame_HUD_PinnedShapes>.shape.goal.goal .amountLabel:after,
+      html[data-theme="catppuccin-latte-pink"] #ingame_HUD_PinnedShapes>.shape>.unpinButton  {
+        filter:brightness(0) saturate(100%) invert(43%) sepia(43%) saturate(515%) hue-rotate(196deg) brightness(49%) contrast(68%);
+      }
+      /* Dialog (e.g. new marker) */
+      html[data-theme="catppuccin-latte-pink"] .ingameDialog>.dialogInner>.content a {
+        color: #1e66f5;
+      }
+      html[data-theme="catppuccin-latte-pink"] .ingameDialog>.dialogInner>.content input {
+        color: #4c4f69;
+        background-color: #e6e9ef;
+      }
+      html[data-theme="catppuccin-latte-pink"] .ingameDialog>.dialogInner>.content input.errored {
+        color: #eff1f5;
+        background-color: #dc8a78;
+      }
+      html[data-theme="catppuccin-latte-pink"] .ingameDialog>.dialogInner>.buttons>button.bad {
+        color: #eff1f5;
+        background-color: #d20f39;
+      }
+      html[data-theme="catppuccin-latte-pink"] .ingameDialog>.dialogInner>.buttons>button.good {
+        color: #eff1f5;
+        background-color: #40a02b;
+      }
+      /* Shop */
+      html[data-theme="catppuccin-latte-pink"] #ingame_HUD_Shop .content .upgrade .title .tier {
+        color: #eff1f5;
+        background-color: #40a02b;
+      }
+      html[data-theme="catppuccin-latte-pink"] #ingame_HUD_Shop .content .upgrade .title .tier[data-tier="0"] {
+        background-color: #179299;
+      }
+      html[data-theme="catppuccin-latte-pink"] #ingame_HUD_Shop .content .upgrade .title .tier[data-tier="1"] {
+        background-color: #1e66f5;
+      }
+      html[data-theme="catppuccin-latte-pink"] #ingame_HUD_Shop .content .upgrade .title .tier[data-tier="2"] {
+        background-color: #8839ef;
+      }
+      html[data-theme="catppuccin-latte-pink"] #ingame_HUD_Shop .content .upgrade .title .tier[data-tier="3"] {
+        background-color: #40a02b;
+      }
+      html[data-theme="catppuccin-latte-pink"] #ingame_HUD_Shop .content .upgrade .title .tier[data-tier="4"] {
+        background-color: #d20f39;
+      }
+      html[data-theme="catppuccin-latte-pink"] #ingame_HUD_Shop .content .upgrade .title .tier[data-tier="5"] {
+        background-color: #df8e1d;
+      }
+      html[data-theme="catppuccin-latte-pink"] #ingame_HUD_Shop .content .upgrade .title .tier[data-tier="6"] {
+        background-color: #dce0e8;
+      }
+      html[data-theme="catppuccin-latte-pink"] #ingame_HUD_Shop .content .upgrade {
+        background-color: #e6e9ef;
+      }
+      html[data-theme="catppuccin-latte-pink"] #ingame_HUD_Shop .content .upgrade .description {
+        color: #5c5f77;
+      }
+      html[data-theme="catppuccin-latte-pink"] #ingame_HUD_Shop .content .upgrade button.buy {
+        color: #eff1f5;
+        background-color: #40a02b;
+      }
+      html[data-theme="catppuccin-latte-pink"] #ingame_HUD_Shop .content .upgrade button.buy:not(.buyable) {
+        color: #6c6f85;
+        background-color: #ccd0da;
+      }
+      html[data-theme="catppuccin-latte-pink"] #ingame_HUD_Shop .content .upgrade .requirements .requirement .amount {
+        color: #4c4f69;
+        background-color: #dce0e8;
+      }
+      html[data-theme="catppuccin-latte-pink"] #ingame_HUD_Shop .content .upgrade .requirements .requirement .amount label.complete + label {
+        color: #eff1f5;
+      }
+      html[data-theme="catppuccin-latte-pink"] #ingame_HUD_Shop .content .upgrade .requirements .requirement .amount .progressBar.complete {
+        background-color: #40a02b;
+      }
+      html[data-theme="catppuccin-latte-pink"] #ingame_HUD_Shop .content .upgrade .requirements .requirement button.showInfo  {
+        filter:brightness(0) saturate(100%) invert(65%) sepia(15%) saturate(535%) hue-rotate(195deg) brightness(63%) contrast(82%);
+      }
+      html[data-theme="catppuccin-latte-pink"] #ingame_HUD_Shop .content .upgrade .requirements .requirement button.pin  {
+        filter:brightness(0) saturate(100%) invert(43%) sepia(43%) saturate(515%) hue-rotate(196deg) brightness(49%) contrast(68%);
+      }
+      /* Statistics */
+      html[data-theme="catppuccin-latte-pink"] #ingame_HUD_Statistics .filterHeader button {
+        color: #4c4f69;
+        background-color: #ccd0da !important;
+      }
+      html[data-theme="catppuccin-latte-pink"] #ingame_HUD_Statistics .sourceExplanation {
+        color: #6c6f85;
+      }
+      html[data-theme="catppuccin-latte-pink"] #ingame_HUD_Statistics .content>div {
+        background-color: #e6e9ef;
+      }
+      html[data-theme="catppuccin-latte-pink"] #ingame_HUD_Statistics .dialogInner[data-displaymode=detailed] .content.hasEntries>div .counter {
+        color: #4c4f69;
+      }
+      /* Unlock */
+      html[data-theme="catppuccin-latte-pink"] #ingame_HUD_UnlockNotification {
+        background: #eff1f5fa url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAAAXNSR0IArs4c6QAAAa5JREFUeJztmTFvwkAMhV+rjtlhyhKpKx2qLv3/C2Jo10pZMsGeH9DlkKKK811C7OcUfxILJJbvUzjwPSAIgiB4XJ5yH5y+fmw7qacFsAewA9Ck90YAFwBnAMOtm97fXm8We9HsdGVaAIfJoqc06dWla75zIv6yFQEfaXE1NAA+01NyLF38fH9v6sxZ/JQu3SviXUC7cPFXulQji3cBB+0angW0mQ1vLo30FHgWsLeo5VnAzqKWZwFrPP7FWp4FmOBZwGhRy7OAi0UtzwLOFrU8CxhW+hqM0mDkWQDSVKdaw7uAAUB/x/19aSz2LgBppF0ioa8Zh7dyHnBMG1nuQGTK+B8PRJAWNCw9EsuxJQFXhrmLlNjCHqBKCGA3wCYEsBtgEwLYDbAJAewG2IQAdgNslswCqw4jbOYIUMnn2dQKUMvn2dTsAar5PJuSAPV8nk1JgHo+z0YSYJLPs5EEmOTzbCQBJvk8G0mAST7P5uH/CksCTPJ5NpIAk3yejSTAJJ9nIwkwyefZlDZB9XyeTUmAej7PpuZnUDWfZ1N7HqCWz7OZcyKkks8HQRAEAY9fMBlR4F7sEJYAAAAASUVORK5CYII=") 0 0/calc(10px*var(--ui-scale)) repeat;
+      }
+      html[data-theme="catppuccin-latte-pink"] #ingame_HUD_UnlockNotification .dialog {
+        color: #4c4f69;
+      }
+      html[data-theme="catppuccin-latte-pink"] #ingame_HUD_UnlockNotification .dialog .subTitle {
+        color: #40a02b;
+      }
+      html[data-theme="catppuccin-latte-pink"] #ingame_HUD_UnlockNotification .dialog .contents .rewardDesc {
+        color: #6c6f85;
+      }
+      html[data-theme="catppuccin-latte-pink"] #ingame_HUD_UnlockNotification .dialog .contents .rewardDesc strong {
+        color: #4c4f69;
+      }
+      /* Tutorial hints */
+      html[data-theme="catppuccin-latte-pink"] #ingame_HUD_TutorialHints .header {
+        color: #4c4f69;
+      }
+      html[data-theme="catppuccin-latte-pink"] #ingame_HUD_TutorialHints .header>span:before  {
+        filter:brightness(0) saturate(100%) invert(43%) sepia(43%) saturate(515%) hue-rotate(196deg) brightness(49%) contrast(68%);
+      }
     `)
     this.modInterface.registerGameTheme({
       id: "catppuccin-latte-mauve",
@@ -1183,6 +1756,10 @@ class Mod extends shapez.Mod {
 
       html[data-theme="catppuccin-latte-mauve"] {
         background-color: #e6e9ef;
+      }
+
+      html[data-theme="catppuccin-latte-mauve"] ::selection {
+        background-color: #8839ef4d;
       }
 
       html[data-theme="catppuccin-latte-mauve"] ::-webkit-scrollbar-thumb {
@@ -1408,6 +1985,193 @@ class Mod extends shapez.Mod {
       html[data-theme="catppuccin-latte-mauve"] .gameState.textualState>.container>.content a {
         color: #8839ef;
       }
+
+      /* Ingame */
+      /* Keybindings */
+      html[data-theme="catppuccin-latte-mauve"] #ingame_HUD_KeybindingOverlay {
+        color: #4c4f69;
+      }
+      html[data-theme="catppuccin-latte-mauve"] .keybinding {
+        color: #ccd0da;
+        background-color: #9ca0b0;
+        border-color: #ccd0da;
+      }
+      html[data-theme="catppuccin-latte-mauve"] #ingame_HUD_KeybindingOverlay>.binding label {
+        color: #6c6f85;
+      }
+      html[data-theme="catppuccin-latte-mauve"] #ingame_HUD_KeybindingOverlay>.binding i {
+        background-color: #9ca0b0;
+      }
+      html[data-theme="catppuccin-latte-mauve"] #ingame_HUD_KeybindingOverlay>.binding code.leftMouse {
+        background: #9ca0b0 url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAblJREFUWIXtlz1Lw0AYx38VdbJ0UnAJiCK4WSgItbPQyUmhmVzcpYsvg+Dg4ODL5NAPkAwKIohvs+0gRdwqQhEKItQp6AdwuUq8XpJLm8NB/1C4Ppd7/j/ukufuUkiqPz7LoW9ZjpcFVoA8cNGyMzui6xAoAHfAKVANypGbnf7xfzDQrdt4Fyj6wjVfexjIid8acAJsAs2o3AMa5qvAg2QO8BkybAloAKW+ACzHKwOVqCQBGgKcKIhAAMvxisB+j+Z+OcB8LADL8dLAZQLmHV3FAgA2EjQHSAPlOABbCQMArGsBiLU3oTHVu6CagYIhAIA5HYAFzWQjvvao5piu3KpKWJGqXJCufe0z4FVjzL0cSMmBsL0gCcl7QWQpNi3VEpSAGUN+DcCNAiiLXc2E6jKAagleDJkrc//6O/AP8OcA3nUAngwCdB1SVQA3BgHOdQCqwIcB87buDAAcGQDYUwWDALYTnoU2cBAHAMVFpB/lgzrCAKqAnYC5HXZFi6oDrkjQy3K0xfnSDXtIpxC5QFZcOHV1bDneVNgtuSOt27GYwmVgElgUh8sJYFz0v4mt9lZ8682WndFK/AVGtVKqekHA0AAAAABJRU5ErkJggg==") 50%/85% no-repeat;
+      }
+      html[data-theme="catppuccin-latte-mauve"] #ingame_HUD_KeybindingOverlay>.binding code.rightMouse {
+        background: #9ca0b0 url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAAIGNIUk0AAHomAACAhAAA+gAAAIDoAAB1MAAA6mAAADqYAAAXcJy6UTwAAABXUExURQAAAEFFWUFFWUFFWUFFWfS45PS45PS45PS45EFFWUFFWUFFWfS45EFFWUFFWfS45PS45PS45PS45EFFWfS45EFFWUFFWUFFWUFFWUFFWUFFWfS45P///2FA/IMAAAAadFJOUwAAO4/Lf8uRMSOqlbZZ+oVlcknyDXLpuILZVda3wAAAAAFiS0dEHJwEQQcAAAAHdElNRQfqBwoMLhXJVrqTAAAAJXRFWHRkYXRlOmNyZWF0ZQAyMDI2LTA3LTEwVDEyOjQ2OjE0KzAwOjAwy4QPDwAAACV0RVh0ZGF0ZTptb2RpZnkAMjAyNi0wNy0xMFQxMjo0NjoxNCswMDowMLrZt7MAAAAodEVYdGRhdGU6dGltZXN0YW1wADIwMjYtMDctMTBUMTI6NDY6MjErMDA6MDAxe74oAAAAw0lEQVQ4y83T2w6DIAyAYUGngutwIh7a93/PHRgI2GS73H+n+SIEalU9Ez5ZN7UQl7brPy+q0PtJaUQchOiI6NqfAdzQA0OvxhIAYgbongOJJaApA/YMaE6AQwaYBCwcoAOEHRRgisDxwESwRqD9QfnaCKAOgRBTFxrzo2b6HcDGBhE0yNZEoHmg/woM34DjwRaB4oFkBibNciOXrZBe1sJ9IAXMLiT74xxBOQ8yW8XCeWDm5Li0YidKuXW3dl+dSibqAbL1NseSfU2PAAAAAElFTkSuQmCC") 50%/85% no-repeat;
+      }
+      /* Waypoint */
+      html[data-theme="catppuccin-latte-mauve"] #ingame_HUD_Waypoints .waypoint {
+        color: #4c4f69;
+        filter:brightness(0) saturate(100%) invert(43%) sepia(43%) saturate(515%) hue-rotate(196deg) brightness(49%) contrast(68%);
+      }
+      /* Waypoints hint */
+      html[data-theme="catppuccin-latte-mauve"] #ingame_HUD_Waypoints_Hint {
+        color: #4c4f69;
+        background-color: #bcc0cce6;
+      }
+      html[data-theme="catppuccin-latte-mauve"] #ingame_HUD_Waypoints_Hint .desc {
+        color: #6c6f85;
+      }
+      html[data-theme="catppuccin-latte-mauve"] #ingame_HUD_Waypoints_Hint .desc strong {
+        color: #4c4f69;
+      }
+      /* Game menu */
+      html[data-theme="catppuccin-latte-mauve"] #ingame_HUD_GameMenu>.button.save,
+      html[data-theme="catppuccin-latte-mauve"] #ingame_HUD_GameMenu>button.save,
+      html[data-theme="catppuccin-latte-mauve"] #ingame_HUD_GameMenu>.button.settings,
+      html[data-theme="catppuccin-latte-mauve"] #ingame_HUD_GameMenu>button.settings,
+      html[data-theme="catppuccin-latte-mauve"] #ingame_HUD_GameMenu>.button.shop,
+      html[data-theme="catppuccin-latte-mauve"] #ingame_HUD_GameMenu>button.shop,
+      html[data-theme="catppuccin-latte-mauve"] #ingame_HUD_GameMenu>.button.stats,
+      html[data-theme="catppuccin-latte-mauve"] #ingame_HUD_GameMenu>button.stats  {
+        filter:brightness(0) saturate(100%) invert(43%) sepia(43%) saturate(515%) hue-rotate(196deg) brightness(49%) contrast(68%);
+      }
+      /* Settings menu */
+      html[data-theme="catppuccin-latte-mauve"] #ingame_HUD_SettingsMenu .buttons button {
+        filter:brightness(0) saturate(100%) invert(43%) sepia(43%) saturate(515%) hue-rotate(196deg) brightness(49%) contrast(68%);
+      }
+      html[data-theme="catppuccin-latte-mauve"] #ingame_HUD_SettingsMenu .statsElement {
+        color: #4c4f69;
+      }
+      html[data-theme="catppuccin-latte-mauve"] #ingame_HUD_SettingsMenu .statsElement strong {
+        color: #6c6f85;
+      }
+      /* Pinned shapes */
+      html[data-theme="catppuccin-latte-mauve"] #ingame_HUD_PinnedShapes>.shape {
+        color: #4c4f69;
+      }
+      html[data-theme="catppuccin-latte-mauve"] #ingame_HUD_PinnedShapes>.shape>.infoButton  {
+        filter:brightness(0) saturate(100%) invert(65%) sepia(15%) saturate(535%) hue-rotate(195deg) brightness(63%) contrast(82%);
+      }
+      html[data-theme="catppuccin-latte-mauve"] #ingame_HUD_PinnedShapes>.shape.blueprint.blueprint .amountLabel:after,
+      html[data-theme="catppuccin-latte-mauve"] #ingame_HUD_PinnedShapes>.shape.goal.blueprint .amountLabel:after,
+      html[data-theme="catppuccin-latte-mauve"] #ingame_HUD_PinnedShapes>.shape.blueprint.goal .amountLabel:after,
+      html[data-theme="catppuccin-latte-mauve"] #ingame_HUD_PinnedShapes>.shape.goal.goal .amountLabel:after,
+      html[data-theme="catppuccin-latte-mauve"] #ingame_HUD_PinnedShapes>.shape>.unpinButton  {
+        filter:brightness(0) saturate(100%) invert(43%) sepia(43%) saturate(515%) hue-rotate(196deg) brightness(49%) contrast(68%);
+      }
+      /* Dialog (e.g. new marker) */
+      html[data-theme="catppuccin-latte-mauve"] .ingameDialog>.dialogInner>.content a {
+        color: #1e66f5;
+      }
+      html[data-theme="catppuccin-latte-mauve"] .ingameDialog>.dialogInner>.content input {
+        color: #4c4f69;
+        background-color: #e6e9ef;
+      }
+      html[data-theme="catppuccin-latte-mauve"] .ingameDialog>.dialogInner>.content input.errored {
+        color: #eff1f5;
+        background-color: #dc8a78;
+      }
+      html[data-theme="catppuccin-latte-mauve"] .ingameDialog>.dialogInner>.buttons>button.bad {
+        color: #eff1f5;
+        background-color: #d20f39;
+      }
+      html[data-theme="catppuccin-latte-mauve"] .ingameDialog>.dialogInner>.buttons>button.good {
+        color: #eff1f5;
+        background-color: #40a02b;
+      }
+      /* Shop */
+      html[data-theme="catppuccin-latte-mauve"] #ingame_HUD_Shop .content .upgrade .title .tier {
+        color: #eff1f5;
+        background-color: #40a02b;
+      }
+      html[data-theme="catppuccin-latte-mauve"] #ingame_HUD_Shop .content .upgrade .title .tier[data-tier="0"] {
+        background-color: #179299;
+      }
+      html[data-theme="catppuccin-latte-mauve"] #ingame_HUD_Shop .content .upgrade .title .tier[data-tier="1"] {
+        background-color: #1e66f5;
+      }
+      html[data-theme="catppuccin-latte-mauve"] #ingame_HUD_Shop .content .upgrade .title .tier[data-tier="2"] {
+        background-color: #8839ef;
+      }
+      html[data-theme="catppuccin-latte-mauve"] #ingame_HUD_Shop .content .upgrade .title .tier[data-tier="3"] {
+        background-color: #40a02b;
+      }
+      html[data-theme="catppuccin-latte-mauve"] #ingame_HUD_Shop .content .upgrade .title .tier[data-tier="4"] {
+        background-color: #d20f39;
+      }
+      html[data-theme="catppuccin-latte-mauve"] #ingame_HUD_Shop .content .upgrade .title .tier[data-tier="5"] {
+        background-color: #df8e1d;
+      }
+      html[data-theme="catppuccin-latte-mauve"] #ingame_HUD_Shop .content .upgrade .title .tier[data-tier="6"] {
+        background-color: #dce0e8;
+      }
+      html[data-theme="catppuccin-latte-mauve"] #ingame_HUD_Shop .content .upgrade {
+        background-color: #e6e9ef;
+      }
+      html[data-theme="catppuccin-latte-mauve"] #ingame_HUD_Shop .content .upgrade .description {
+        color: #5c5f77;
+      }
+      html[data-theme="catppuccin-latte-mauve"] #ingame_HUD_Shop .content .upgrade button.buy {
+        color: #eff1f5;
+        background-color: #40a02b;
+      }
+      html[data-theme="catppuccin-latte-mauve"] #ingame_HUD_Shop .content .upgrade button.buy:not(.buyable) {
+        color: #6c6f85;
+        background-color: #ccd0da;
+      }
+      html[data-theme="catppuccin-latte-mauve"] #ingame_HUD_Shop .content .upgrade .requirements .requirement .amount {
+        color: #4c4f69;
+        background-color: #dce0e8;
+      }
+      html[data-theme="catppuccin-latte-mauve"] #ingame_HUD_Shop .content .upgrade .requirements .requirement .amount label.complete + label {
+        color: #eff1f5;
+      }
+      html[data-theme="catppuccin-latte-mauve"] #ingame_HUD_Shop .content .upgrade .requirements .requirement .amount .progressBar.complete {
+        background-color: #40a02b;
+      }
+      html[data-theme="catppuccin-latte-mauve"] #ingame_HUD_Shop .content .upgrade .requirements .requirement button.showInfo  {
+        filter:brightness(0) saturate(100%) invert(65%) sepia(15%) saturate(535%) hue-rotate(195deg) brightness(63%) contrast(82%);
+      }
+      html[data-theme="catppuccin-latte-mauve"] #ingame_HUD_Shop .content .upgrade .requirements .requirement button.pin  {
+        filter:brightness(0) saturate(100%) invert(43%) sepia(43%) saturate(515%) hue-rotate(196deg) brightness(49%) contrast(68%);
+      }
+      /* Statistics */
+      html[data-theme="catppuccin-latte-mauve"] #ingame_HUD_Statistics .filterHeader button {
+        color: #4c4f69;
+        background-color: #ccd0da !important;
+      }
+      html[data-theme="catppuccin-latte-mauve"] #ingame_HUD_Statistics .sourceExplanation {
+        color: #6c6f85;
+      }
+      html[data-theme="catppuccin-latte-mauve"] #ingame_HUD_Statistics .content>div {
+        background-color: #e6e9ef;
+      }
+      html[data-theme="catppuccin-latte-mauve"] #ingame_HUD_Statistics .dialogInner[data-displaymode=detailed] .content.hasEntries>div .counter {
+        color: #4c4f69;
+      }
+      /* Unlock */
+      html[data-theme="catppuccin-latte-mauve"] #ingame_HUD_UnlockNotification {
+        background: #eff1f5fa url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAAAXNSR0IArs4c6QAAAa5JREFUeJztmTFvwkAMhV+rjtlhyhKpKx2qLv3/C2Jo10pZMsGeH9DlkKKK811C7OcUfxILJJbvUzjwPSAIgiB4XJ5yH5y+fmw7qacFsAewA9Ck90YAFwBnAMOtm97fXm8We9HsdGVaAIfJoqc06dWla75zIv6yFQEfaXE1NAA+01NyLF38fH9v6sxZ/JQu3SviXUC7cPFXulQji3cBB+0angW0mQ1vLo30FHgWsLeo5VnAzqKWZwFrPP7FWp4FmOBZwGhRy7OAi0UtzwLOFrU8CxhW+hqM0mDkWQDSVKdaw7uAAUB/x/19aSz2LgBppF0ioa8Zh7dyHnBMG1nuQGTK+B8PRJAWNCw9EsuxJQFXhrmLlNjCHqBKCGA3wCYEsBtgEwLYDbAJAewG2IQAdgNslswCqw4jbOYIUMnn2dQKUMvn2dTsAar5PJuSAPV8nk1JgHo+z0YSYJLPs5EEmOTzbCQBJvk8G0mAST7P5uH/CksCTPJ5NpIAk3yejSTAJJ9nIwkwyefZlDZB9XyeTUmAej7PpuZnUDWfZ1N7HqCWz7OZcyKkks8HQRAEAY9fMBlR4F7sEJYAAAAASUVORK5CYII=") 0 0/calc(10px*var(--ui-scale)) repeat;
+      }
+      html[data-theme="catppuccin-latte-mauve"] #ingame_HUD_UnlockNotification .dialog {
+        color: #4c4f69;
+      }
+      html[data-theme="catppuccin-latte-mauve"] #ingame_HUD_UnlockNotification .dialog .subTitle {
+        color: #40a02b;
+      }
+      html[data-theme="catppuccin-latte-mauve"] #ingame_HUD_UnlockNotification .dialog .contents .rewardDesc {
+        color: #6c6f85;
+      }
+      html[data-theme="catppuccin-latte-mauve"] #ingame_HUD_UnlockNotification .dialog .contents .rewardDesc strong {
+        color: #4c4f69;
+      }
+      /* Tutorial hints */
+      html[data-theme="catppuccin-latte-mauve"] #ingame_HUD_TutorialHints .header {
+        color: #4c4f69;
+      }
+      html[data-theme="catppuccin-latte-mauve"] #ingame_HUD_TutorialHints .header>span:before  {
+        filter:brightness(0) saturate(100%) invert(43%) sepia(43%) saturate(515%) hue-rotate(196deg) brightness(49%) contrast(68%);
+      }
     `)
     this.modInterface.registerGameTheme({
       id: "catppuccin-latte-red",
@@ -1532,6 +2296,10 @@ class Mod extends shapez.Mod {
 
       html[data-theme="catppuccin-latte-red"] {
         background-color: #e6e9ef;
+      }
+
+      html[data-theme="catppuccin-latte-red"] ::selection {
+        background-color: #d20f394d;
       }
 
       html[data-theme="catppuccin-latte-red"] ::-webkit-scrollbar-thumb {
@@ -1757,6 +2525,193 @@ class Mod extends shapez.Mod {
       html[data-theme="catppuccin-latte-red"] .gameState.textualState>.container>.content a {
         color: #d20f39;
       }
+
+      /* Ingame */
+      /* Keybindings */
+      html[data-theme="catppuccin-latte-red"] #ingame_HUD_KeybindingOverlay {
+        color: #4c4f69;
+      }
+      html[data-theme="catppuccin-latte-red"] .keybinding {
+        color: #ccd0da;
+        background-color: #9ca0b0;
+        border-color: #ccd0da;
+      }
+      html[data-theme="catppuccin-latte-red"] #ingame_HUD_KeybindingOverlay>.binding label {
+        color: #6c6f85;
+      }
+      html[data-theme="catppuccin-latte-red"] #ingame_HUD_KeybindingOverlay>.binding i {
+        background-color: #9ca0b0;
+      }
+      html[data-theme="catppuccin-latte-red"] #ingame_HUD_KeybindingOverlay>.binding code.leftMouse {
+        background: #9ca0b0 url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAblJREFUWIXtlz1Lw0AYx38VdbJ0UnAJiCK4WSgItbPQyUmhmVzcpYsvg+Dg4ODL5NAPkAwKIohvs+0gRdwqQhEKItQp6AdwuUq8XpJLm8NB/1C4Ppd7/j/ukufuUkiqPz7LoW9ZjpcFVoA8cNGyMzui6xAoAHfAKVANypGbnf7xfzDQrdt4Fyj6wjVfexjIid8acAJsAs2o3AMa5qvAg2QO8BkybAloAKW+ACzHKwOVqCQBGgKcKIhAAMvxisB+j+Z+OcB8LADL8dLAZQLmHV3FAgA2EjQHSAPlOABbCQMArGsBiLU3oTHVu6CagYIhAIA5HYAFzWQjvvao5piu3KpKWJGqXJCufe0z4FVjzL0cSMmBsL0gCcl7QWQpNi3VEpSAGUN+DcCNAiiLXc2E6jKAagleDJkrc//6O/AP8OcA3nUAngwCdB1SVQA3BgHOdQCqwIcB87buDAAcGQDYUwWDALYTnoU2cBAHAMVFpB/lgzrCAKqAnYC5HXZFi6oDrkjQy3K0xfnSDXtIpxC5QFZcOHV1bDneVNgtuSOt27GYwmVgElgUh8sJYFz0v4mt9lZ8682WndFK/AVGtVKqekHA0AAAAABJRU5ErkJggg==") 50%/85% no-repeat;
+      }
+      html[data-theme="catppuccin-latte-red"] #ingame_HUD_KeybindingOverlay>.binding code.rightMouse {
+        background: #9ca0b0 url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAAIGNIUk0AAHomAACAhAAA+gAAAIDoAAB1MAAA6mAAADqYAAAXcJy6UTwAAABXUExURQAAAEFFWUFFWUFFWUFFWfS45PS45PS45PS45EFFWUFFWUFFWfS45EFFWUFFWfS45PS45PS45PS45EFFWfS45EFFWUFFWUFFWUFFWUFFWUFFWfS45P///2FA/IMAAAAadFJOUwAAO4/Lf8uRMSOqlbZZ+oVlcknyDXLpuILZVda3wAAAAAFiS0dEHJwEQQcAAAAHdElNRQfqBwoMLhXJVrqTAAAAJXRFWHRkYXRlOmNyZWF0ZQAyMDI2LTA3LTEwVDEyOjQ2OjE0KzAwOjAwy4QPDwAAACV0RVh0ZGF0ZTptb2RpZnkAMjAyNi0wNy0xMFQxMjo0NjoxNCswMDowMLrZt7MAAAAodEVYdGRhdGU6dGltZXN0YW1wADIwMjYtMDctMTBUMTI6NDY6MjErMDA6MDAxe74oAAAAw0lEQVQ4y83T2w6DIAyAYUGngutwIh7a93/PHRgI2GS73H+n+SIEalU9Ez5ZN7UQl7brPy+q0PtJaUQchOiI6NqfAdzQA0OvxhIAYgbongOJJaApA/YMaE6AQwaYBCwcoAOEHRRgisDxwESwRqD9QfnaCKAOgRBTFxrzo2b6HcDGBhE0yNZEoHmg/woM34DjwRaB4oFkBibNciOXrZBe1sJ9IAXMLiT74xxBOQ8yW8XCeWDm5Li0YidKuXW3dl+dSibqAbL1NseSfU2PAAAAAElFTkSuQmCC") 50%/85% no-repeat;
+      }
+      /* Waypoint */
+      html[data-theme="catppuccin-latte-red"] #ingame_HUD_Waypoints .waypoint {
+        color: #4c4f69;
+        filter:brightness(0) saturate(100%) invert(43%) sepia(43%) saturate(515%) hue-rotate(196deg) brightness(49%) contrast(68%);
+      }
+      /* Waypoints hint */
+      html[data-theme="catppuccin-latte-red"] #ingame_HUD_Waypoints_Hint {
+        color: #4c4f69;
+        background-color: #bcc0cce6;
+      }
+      html[data-theme="catppuccin-latte-red"] #ingame_HUD_Waypoints_Hint .desc {
+        color: #6c6f85;
+      }
+      html[data-theme="catppuccin-latte-red"] #ingame_HUD_Waypoints_Hint .desc strong {
+        color: #4c4f69;
+      }
+      /* Game menu */
+      html[data-theme="catppuccin-latte-red"] #ingame_HUD_GameMenu>.button.save,
+      html[data-theme="catppuccin-latte-red"] #ingame_HUD_GameMenu>button.save,
+      html[data-theme="catppuccin-latte-red"] #ingame_HUD_GameMenu>.button.settings,
+      html[data-theme="catppuccin-latte-red"] #ingame_HUD_GameMenu>button.settings,
+      html[data-theme="catppuccin-latte-red"] #ingame_HUD_GameMenu>.button.shop,
+      html[data-theme="catppuccin-latte-red"] #ingame_HUD_GameMenu>button.shop,
+      html[data-theme="catppuccin-latte-red"] #ingame_HUD_GameMenu>.button.stats,
+      html[data-theme="catppuccin-latte-red"] #ingame_HUD_GameMenu>button.stats  {
+        filter:brightness(0) saturate(100%) invert(43%) sepia(43%) saturate(515%) hue-rotate(196deg) brightness(49%) contrast(68%);
+      }
+      /* Settings menu */
+      html[data-theme="catppuccin-latte-red"] #ingame_HUD_SettingsMenu .buttons button {
+        filter:brightness(0) saturate(100%) invert(43%) sepia(43%) saturate(515%) hue-rotate(196deg) brightness(49%) contrast(68%);
+      }
+      html[data-theme="catppuccin-latte-red"] #ingame_HUD_SettingsMenu .statsElement {
+        color: #4c4f69;
+      }
+      html[data-theme="catppuccin-latte-red"] #ingame_HUD_SettingsMenu .statsElement strong {
+        color: #6c6f85;
+      }
+      /* Pinned shapes */
+      html[data-theme="catppuccin-latte-red"] #ingame_HUD_PinnedShapes>.shape {
+        color: #4c4f69;
+      }
+      html[data-theme="catppuccin-latte-red"] #ingame_HUD_PinnedShapes>.shape>.infoButton  {
+        filter:brightness(0) saturate(100%) invert(65%) sepia(15%) saturate(535%) hue-rotate(195deg) brightness(63%) contrast(82%);
+      }
+      html[data-theme="catppuccin-latte-red"] #ingame_HUD_PinnedShapes>.shape.blueprint.blueprint .amountLabel:after,
+      html[data-theme="catppuccin-latte-red"] #ingame_HUD_PinnedShapes>.shape.goal.blueprint .amountLabel:after,
+      html[data-theme="catppuccin-latte-red"] #ingame_HUD_PinnedShapes>.shape.blueprint.goal .amountLabel:after,
+      html[data-theme="catppuccin-latte-red"] #ingame_HUD_PinnedShapes>.shape.goal.goal .amountLabel:after,
+      html[data-theme="catppuccin-latte-red"] #ingame_HUD_PinnedShapes>.shape>.unpinButton  {
+        filter:brightness(0) saturate(100%) invert(43%) sepia(43%) saturate(515%) hue-rotate(196deg) brightness(49%) contrast(68%);
+      }
+      /* Dialog (e.g. new marker) */
+      html[data-theme="catppuccin-latte-red"] .ingameDialog>.dialogInner>.content a {
+        color: #1e66f5;
+      }
+      html[data-theme="catppuccin-latte-red"] .ingameDialog>.dialogInner>.content input {
+        color: #4c4f69;
+        background-color: #e6e9ef;
+      }
+      html[data-theme="catppuccin-latte-red"] .ingameDialog>.dialogInner>.content input.errored {
+        color: #eff1f5;
+        background-color: #dc8a78;
+      }
+      html[data-theme="catppuccin-latte-red"] .ingameDialog>.dialogInner>.buttons>button.bad {
+        color: #eff1f5;
+        background-color: #d20f39;
+      }
+      html[data-theme="catppuccin-latte-red"] .ingameDialog>.dialogInner>.buttons>button.good {
+        color: #eff1f5;
+        background-color: #40a02b;
+      }
+      /* Shop */
+      html[data-theme="catppuccin-latte-red"] #ingame_HUD_Shop .content .upgrade .title .tier {
+        color: #eff1f5;
+        background-color: #40a02b;
+      }
+      html[data-theme="catppuccin-latte-red"] #ingame_HUD_Shop .content .upgrade .title .tier[data-tier="0"] {
+        background-color: #179299;
+      }
+      html[data-theme="catppuccin-latte-red"] #ingame_HUD_Shop .content .upgrade .title .tier[data-tier="1"] {
+        background-color: #1e66f5;
+      }
+      html[data-theme="catppuccin-latte-red"] #ingame_HUD_Shop .content .upgrade .title .tier[data-tier="2"] {
+        background-color: #8839ef;
+      }
+      html[data-theme="catppuccin-latte-red"] #ingame_HUD_Shop .content .upgrade .title .tier[data-tier="3"] {
+        background-color: #40a02b;
+      }
+      html[data-theme="catppuccin-latte-red"] #ingame_HUD_Shop .content .upgrade .title .tier[data-tier="4"] {
+        background-color: #d20f39;
+      }
+      html[data-theme="catppuccin-latte-red"] #ingame_HUD_Shop .content .upgrade .title .tier[data-tier="5"] {
+        background-color: #df8e1d;
+      }
+      html[data-theme="catppuccin-latte-red"] #ingame_HUD_Shop .content .upgrade .title .tier[data-tier="6"] {
+        background-color: #dce0e8;
+      }
+      html[data-theme="catppuccin-latte-red"] #ingame_HUD_Shop .content .upgrade {
+        background-color: #e6e9ef;
+      }
+      html[data-theme="catppuccin-latte-red"] #ingame_HUD_Shop .content .upgrade .description {
+        color: #5c5f77;
+      }
+      html[data-theme="catppuccin-latte-red"] #ingame_HUD_Shop .content .upgrade button.buy {
+        color: #eff1f5;
+        background-color: #40a02b;
+      }
+      html[data-theme="catppuccin-latte-red"] #ingame_HUD_Shop .content .upgrade button.buy:not(.buyable) {
+        color: #6c6f85;
+        background-color: #ccd0da;
+      }
+      html[data-theme="catppuccin-latte-red"] #ingame_HUD_Shop .content .upgrade .requirements .requirement .amount {
+        color: #4c4f69;
+        background-color: #dce0e8;
+      }
+      html[data-theme="catppuccin-latte-red"] #ingame_HUD_Shop .content .upgrade .requirements .requirement .amount label.complete + label {
+        color: #eff1f5;
+      }
+      html[data-theme="catppuccin-latte-red"] #ingame_HUD_Shop .content .upgrade .requirements .requirement .amount .progressBar.complete {
+        background-color: #40a02b;
+      }
+      html[data-theme="catppuccin-latte-red"] #ingame_HUD_Shop .content .upgrade .requirements .requirement button.showInfo  {
+        filter:brightness(0) saturate(100%) invert(65%) sepia(15%) saturate(535%) hue-rotate(195deg) brightness(63%) contrast(82%);
+      }
+      html[data-theme="catppuccin-latte-red"] #ingame_HUD_Shop .content .upgrade .requirements .requirement button.pin  {
+        filter:brightness(0) saturate(100%) invert(43%) sepia(43%) saturate(515%) hue-rotate(196deg) brightness(49%) contrast(68%);
+      }
+      /* Statistics */
+      html[data-theme="catppuccin-latte-red"] #ingame_HUD_Statistics .filterHeader button {
+        color: #4c4f69;
+        background-color: #ccd0da !important;
+      }
+      html[data-theme="catppuccin-latte-red"] #ingame_HUD_Statistics .sourceExplanation {
+        color: #6c6f85;
+      }
+      html[data-theme="catppuccin-latte-red"] #ingame_HUD_Statistics .content>div {
+        background-color: #e6e9ef;
+      }
+      html[data-theme="catppuccin-latte-red"] #ingame_HUD_Statistics .dialogInner[data-displaymode=detailed] .content.hasEntries>div .counter {
+        color: #4c4f69;
+      }
+      /* Unlock */
+      html[data-theme="catppuccin-latte-red"] #ingame_HUD_UnlockNotification {
+        background: #eff1f5fa url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAAAXNSR0IArs4c6QAAAa5JREFUeJztmTFvwkAMhV+rjtlhyhKpKx2qLv3/C2Jo10pZMsGeH9DlkKKK811C7OcUfxILJJbvUzjwPSAIgiB4XJ5yH5y+fmw7qacFsAewA9Ck90YAFwBnAMOtm97fXm8We9HsdGVaAIfJoqc06dWla75zIv6yFQEfaXE1NAA+01NyLF38fH9v6sxZ/JQu3SviXUC7cPFXulQji3cBB+0angW0mQ1vLo30FHgWsLeo5VnAzqKWZwFrPP7FWp4FmOBZwGhRy7OAi0UtzwLOFrU8CxhW+hqM0mDkWQDSVKdaw7uAAUB/x/19aSz2LgBppF0ioa8Zh7dyHnBMG1nuQGTK+B8PRJAWNCw9EsuxJQFXhrmLlNjCHqBKCGA3wCYEsBtgEwLYDbAJAewG2IQAdgNslswCqw4jbOYIUMnn2dQKUMvn2dTsAar5PJuSAPV8nk1JgHo+z0YSYJLPs5EEmOTzbCQBJvk8G0mAST7P5uH/CksCTPJ5NpIAk3yejSTAJJ9nIwkwyefZlDZB9XyeTUmAej7PpuZnUDWfZ1N7HqCWz7OZcyKkks8HQRAEAY9fMBlR4F7sEJYAAAAASUVORK5CYII=") 0 0/calc(10px*var(--ui-scale)) repeat;
+      }
+      html[data-theme="catppuccin-latte-red"] #ingame_HUD_UnlockNotification .dialog {
+        color: #4c4f69;
+      }
+      html[data-theme="catppuccin-latte-red"] #ingame_HUD_UnlockNotification .dialog .subTitle {
+        color: #40a02b;
+      }
+      html[data-theme="catppuccin-latte-red"] #ingame_HUD_UnlockNotification .dialog .contents .rewardDesc {
+        color: #6c6f85;
+      }
+      html[data-theme="catppuccin-latte-red"] #ingame_HUD_UnlockNotification .dialog .contents .rewardDesc strong {
+        color: #4c4f69;
+      }
+      /* Tutorial hints */
+      html[data-theme="catppuccin-latte-red"] #ingame_HUD_TutorialHints .header {
+        color: #4c4f69;
+      }
+      html[data-theme="catppuccin-latte-red"] #ingame_HUD_TutorialHints .header>span:before  {
+        filter:brightness(0) saturate(100%) invert(43%) sepia(43%) saturate(515%) hue-rotate(196deg) brightness(49%) contrast(68%);
+      }
     `)
     this.modInterface.registerGameTheme({
       id: "catppuccin-latte-maroon",
@@ -1881,6 +2836,10 @@ class Mod extends shapez.Mod {
 
       html[data-theme="catppuccin-latte-maroon"] {
         background-color: #e6e9ef;
+      }
+
+      html[data-theme="catppuccin-latte-maroon"] ::selection {
+        background-color: #e645534d;
       }
 
       html[data-theme="catppuccin-latte-maroon"] ::-webkit-scrollbar-thumb {
@@ -2106,6 +3065,193 @@ class Mod extends shapez.Mod {
       html[data-theme="catppuccin-latte-maroon"] .gameState.textualState>.container>.content a {
         color: #e64553;
       }
+
+      /* Ingame */
+      /* Keybindings */
+      html[data-theme="catppuccin-latte-maroon"] #ingame_HUD_KeybindingOverlay {
+        color: #4c4f69;
+      }
+      html[data-theme="catppuccin-latte-maroon"] .keybinding {
+        color: #ccd0da;
+        background-color: #9ca0b0;
+        border-color: #ccd0da;
+      }
+      html[data-theme="catppuccin-latte-maroon"] #ingame_HUD_KeybindingOverlay>.binding label {
+        color: #6c6f85;
+      }
+      html[data-theme="catppuccin-latte-maroon"] #ingame_HUD_KeybindingOverlay>.binding i {
+        background-color: #9ca0b0;
+      }
+      html[data-theme="catppuccin-latte-maroon"] #ingame_HUD_KeybindingOverlay>.binding code.leftMouse {
+        background: #9ca0b0 url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAblJREFUWIXtlz1Lw0AYx38VdbJ0UnAJiCK4WSgItbPQyUmhmVzcpYsvg+Dg4ODL5NAPkAwKIohvs+0gRdwqQhEKItQp6AdwuUq8XpJLm8NB/1C4Ppd7/j/ukufuUkiqPz7LoW9ZjpcFVoA8cNGyMzui6xAoAHfAKVANypGbnf7xfzDQrdt4Fyj6wjVfexjIid8acAJsAs2o3AMa5qvAg2QO8BkybAloAKW+ACzHKwOVqCQBGgKcKIhAAMvxisB+j+Z+OcB8LADL8dLAZQLmHV3FAgA2EjQHSAPlOABbCQMArGsBiLU3oTHVu6CagYIhAIA5HYAFzWQjvvao5piu3KpKWJGqXJCufe0z4FVjzL0cSMmBsL0gCcl7QWQpNi3VEpSAGUN+DcCNAiiLXc2E6jKAagleDJkrc//6O/AP8OcA3nUAngwCdB1SVQA3BgHOdQCqwIcB87buDAAcGQDYUwWDALYTnoU2cBAHAMVFpB/lgzrCAKqAnYC5HXZFi6oDrkjQy3K0xfnSDXtIpxC5QFZcOHV1bDneVNgtuSOt27GYwmVgElgUh8sJYFz0v4mt9lZ8682WndFK/AVGtVKqekHA0AAAAABJRU5ErkJggg==") 50%/85% no-repeat;
+      }
+      html[data-theme="catppuccin-latte-maroon"] #ingame_HUD_KeybindingOverlay>.binding code.rightMouse {
+        background: #9ca0b0 url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAAIGNIUk0AAHomAACAhAAA+gAAAIDoAAB1MAAA6mAAADqYAAAXcJy6UTwAAABXUExURQAAAEFFWUFFWUFFWUFFWfS45PS45PS45PS45EFFWUFFWUFFWfS45EFFWUFFWfS45PS45PS45PS45EFFWfS45EFFWUFFWUFFWUFFWUFFWUFFWfS45P///2FA/IMAAAAadFJOUwAAO4/Lf8uRMSOqlbZZ+oVlcknyDXLpuILZVda3wAAAAAFiS0dEHJwEQQcAAAAHdElNRQfqBwoMLhXJVrqTAAAAJXRFWHRkYXRlOmNyZWF0ZQAyMDI2LTA3LTEwVDEyOjQ2OjE0KzAwOjAwy4QPDwAAACV0RVh0ZGF0ZTptb2RpZnkAMjAyNi0wNy0xMFQxMjo0NjoxNCswMDowMLrZt7MAAAAodEVYdGRhdGU6dGltZXN0YW1wADIwMjYtMDctMTBUMTI6NDY6MjErMDA6MDAxe74oAAAAw0lEQVQ4y83T2w6DIAyAYUGngutwIh7a93/PHRgI2GS73H+n+SIEalU9Ez5ZN7UQl7brPy+q0PtJaUQchOiI6NqfAdzQA0OvxhIAYgbongOJJaApA/YMaE6AQwaYBCwcoAOEHRRgisDxwESwRqD9QfnaCKAOgRBTFxrzo2b6HcDGBhE0yNZEoHmg/woM34DjwRaB4oFkBibNciOXrZBe1sJ9IAXMLiT74xxBOQ8yW8XCeWDm5Li0YidKuXW3dl+dSibqAbL1NseSfU2PAAAAAElFTkSuQmCC") 50%/85% no-repeat;
+      }
+      /* Waypoint */
+      html[data-theme="catppuccin-latte-maroon"] #ingame_HUD_Waypoints .waypoint {
+        color: #4c4f69;
+        filter:brightness(0) saturate(100%) invert(43%) sepia(43%) saturate(515%) hue-rotate(196deg) brightness(49%) contrast(68%);
+      }
+      /* Waypoints hint */
+      html[data-theme="catppuccin-latte-maroon"] #ingame_HUD_Waypoints_Hint {
+        color: #4c4f69;
+        background-color: #bcc0cce6;
+      }
+      html[data-theme="catppuccin-latte-maroon"] #ingame_HUD_Waypoints_Hint .desc {
+        color: #6c6f85;
+      }
+      html[data-theme="catppuccin-latte-maroon"] #ingame_HUD_Waypoints_Hint .desc strong {
+        color: #4c4f69;
+      }
+      /* Game menu */
+      html[data-theme="catppuccin-latte-maroon"] #ingame_HUD_GameMenu>.button.save,
+      html[data-theme="catppuccin-latte-maroon"] #ingame_HUD_GameMenu>button.save,
+      html[data-theme="catppuccin-latte-maroon"] #ingame_HUD_GameMenu>.button.settings,
+      html[data-theme="catppuccin-latte-maroon"] #ingame_HUD_GameMenu>button.settings,
+      html[data-theme="catppuccin-latte-maroon"] #ingame_HUD_GameMenu>.button.shop,
+      html[data-theme="catppuccin-latte-maroon"] #ingame_HUD_GameMenu>button.shop,
+      html[data-theme="catppuccin-latte-maroon"] #ingame_HUD_GameMenu>.button.stats,
+      html[data-theme="catppuccin-latte-maroon"] #ingame_HUD_GameMenu>button.stats  {
+        filter:brightness(0) saturate(100%) invert(43%) sepia(43%) saturate(515%) hue-rotate(196deg) brightness(49%) contrast(68%);
+      }
+      /* Settings menu */
+      html[data-theme="catppuccin-latte-maroon"] #ingame_HUD_SettingsMenu .buttons button {
+        filter:brightness(0) saturate(100%) invert(43%) sepia(43%) saturate(515%) hue-rotate(196deg) brightness(49%) contrast(68%);
+      }
+      html[data-theme="catppuccin-latte-maroon"] #ingame_HUD_SettingsMenu .statsElement {
+        color: #4c4f69;
+      }
+      html[data-theme="catppuccin-latte-maroon"] #ingame_HUD_SettingsMenu .statsElement strong {
+        color: #6c6f85;
+      }
+      /* Pinned shapes */
+      html[data-theme="catppuccin-latte-maroon"] #ingame_HUD_PinnedShapes>.shape {
+        color: #4c4f69;
+      }
+      html[data-theme="catppuccin-latte-maroon"] #ingame_HUD_PinnedShapes>.shape>.infoButton  {
+        filter:brightness(0) saturate(100%) invert(65%) sepia(15%) saturate(535%) hue-rotate(195deg) brightness(63%) contrast(82%);
+      }
+      html[data-theme="catppuccin-latte-maroon"] #ingame_HUD_PinnedShapes>.shape.blueprint.blueprint .amountLabel:after,
+      html[data-theme="catppuccin-latte-maroon"] #ingame_HUD_PinnedShapes>.shape.goal.blueprint .amountLabel:after,
+      html[data-theme="catppuccin-latte-maroon"] #ingame_HUD_PinnedShapes>.shape.blueprint.goal .amountLabel:after,
+      html[data-theme="catppuccin-latte-maroon"] #ingame_HUD_PinnedShapes>.shape.goal.goal .amountLabel:after,
+      html[data-theme="catppuccin-latte-maroon"] #ingame_HUD_PinnedShapes>.shape>.unpinButton  {
+        filter:brightness(0) saturate(100%) invert(43%) sepia(43%) saturate(515%) hue-rotate(196deg) brightness(49%) contrast(68%);
+      }
+      /* Dialog (e.g. new marker) */
+      html[data-theme="catppuccin-latte-maroon"] .ingameDialog>.dialogInner>.content a {
+        color: #1e66f5;
+      }
+      html[data-theme="catppuccin-latte-maroon"] .ingameDialog>.dialogInner>.content input {
+        color: #4c4f69;
+        background-color: #e6e9ef;
+      }
+      html[data-theme="catppuccin-latte-maroon"] .ingameDialog>.dialogInner>.content input.errored {
+        color: #eff1f5;
+        background-color: #dc8a78;
+      }
+      html[data-theme="catppuccin-latte-maroon"] .ingameDialog>.dialogInner>.buttons>button.bad {
+        color: #eff1f5;
+        background-color: #d20f39;
+      }
+      html[data-theme="catppuccin-latte-maroon"] .ingameDialog>.dialogInner>.buttons>button.good {
+        color: #eff1f5;
+        background-color: #40a02b;
+      }
+      /* Shop */
+      html[data-theme="catppuccin-latte-maroon"] #ingame_HUD_Shop .content .upgrade .title .tier {
+        color: #eff1f5;
+        background-color: #40a02b;
+      }
+      html[data-theme="catppuccin-latte-maroon"] #ingame_HUD_Shop .content .upgrade .title .tier[data-tier="0"] {
+        background-color: #179299;
+      }
+      html[data-theme="catppuccin-latte-maroon"] #ingame_HUD_Shop .content .upgrade .title .tier[data-tier="1"] {
+        background-color: #1e66f5;
+      }
+      html[data-theme="catppuccin-latte-maroon"] #ingame_HUD_Shop .content .upgrade .title .tier[data-tier="2"] {
+        background-color: #8839ef;
+      }
+      html[data-theme="catppuccin-latte-maroon"] #ingame_HUD_Shop .content .upgrade .title .tier[data-tier="3"] {
+        background-color: #40a02b;
+      }
+      html[data-theme="catppuccin-latte-maroon"] #ingame_HUD_Shop .content .upgrade .title .tier[data-tier="4"] {
+        background-color: #d20f39;
+      }
+      html[data-theme="catppuccin-latte-maroon"] #ingame_HUD_Shop .content .upgrade .title .tier[data-tier="5"] {
+        background-color: #df8e1d;
+      }
+      html[data-theme="catppuccin-latte-maroon"] #ingame_HUD_Shop .content .upgrade .title .tier[data-tier="6"] {
+        background-color: #dce0e8;
+      }
+      html[data-theme="catppuccin-latte-maroon"] #ingame_HUD_Shop .content .upgrade {
+        background-color: #e6e9ef;
+      }
+      html[data-theme="catppuccin-latte-maroon"] #ingame_HUD_Shop .content .upgrade .description {
+        color: #5c5f77;
+      }
+      html[data-theme="catppuccin-latte-maroon"] #ingame_HUD_Shop .content .upgrade button.buy {
+        color: #eff1f5;
+        background-color: #40a02b;
+      }
+      html[data-theme="catppuccin-latte-maroon"] #ingame_HUD_Shop .content .upgrade button.buy:not(.buyable) {
+        color: #6c6f85;
+        background-color: #ccd0da;
+      }
+      html[data-theme="catppuccin-latte-maroon"] #ingame_HUD_Shop .content .upgrade .requirements .requirement .amount {
+        color: #4c4f69;
+        background-color: #dce0e8;
+      }
+      html[data-theme="catppuccin-latte-maroon"] #ingame_HUD_Shop .content .upgrade .requirements .requirement .amount label.complete + label {
+        color: #eff1f5;
+      }
+      html[data-theme="catppuccin-latte-maroon"] #ingame_HUD_Shop .content .upgrade .requirements .requirement .amount .progressBar.complete {
+        background-color: #40a02b;
+      }
+      html[data-theme="catppuccin-latte-maroon"] #ingame_HUD_Shop .content .upgrade .requirements .requirement button.showInfo  {
+        filter:brightness(0) saturate(100%) invert(65%) sepia(15%) saturate(535%) hue-rotate(195deg) brightness(63%) contrast(82%);
+      }
+      html[data-theme="catppuccin-latte-maroon"] #ingame_HUD_Shop .content .upgrade .requirements .requirement button.pin  {
+        filter:brightness(0) saturate(100%) invert(43%) sepia(43%) saturate(515%) hue-rotate(196deg) brightness(49%) contrast(68%);
+      }
+      /* Statistics */
+      html[data-theme="catppuccin-latte-maroon"] #ingame_HUD_Statistics .filterHeader button {
+        color: #4c4f69;
+        background-color: #ccd0da !important;
+      }
+      html[data-theme="catppuccin-latte-maroon"] #ingame_HUD_Statistics .sourceExplanation {
+        color: #6c6f85;
+      }
+      html[data-theme="catppuccin-latte-maroon"] #ingame_HUD_Statistics .content>div {
+        background-color: #e6e9ef;
+      }
+      html[data-theme="catppuccin-latte-maroon"] #ingame_HUD_Statistics .dialogInner[data-displaymode=detailed] .content.hasEntries>div .counter {
+        color: #4c4f69;
+      }
+      /* Unlock */
+      html[data-theme="catppuccin-latte-maroon"] #ingame_HUD_UnlockNotification {
+        background: #eff1f5fa url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAAAXNSR0IArs4c6QAAAa5JREFUeJztmTFvwkAMhV+rjtlhyhKpKx2qLv3/C2Jo10pZMsGeH9DlkKKK811C7OcUfxILJJbvUzjwPSAIgiB4XJ5yH5y+fmw7qacFsAewA9Ck90YAFwBnAMOtm97fXm8We9HsdGVaAIfJoqc06dWla75zIv6yFQEfaXE1NAA+01NyLF38fH9v6sxZ/JQu3SviXUC7cPFXulQji3cBB+0angW0mQ1vLo30FHgWsLeo5VnAzqKWZwFrPP7FWp4FmOBZwGhRy7OAi0UtzwLOFrU8CxhW+hqM0mDkWQDSVKdaw7uAAUB/x/19aSz2LgBppF0ioa8Zh7dyHnBMG1nuQGTK+B8PRJAWNCw9EsuxJQFXhrmLlNjCHqBKCGA3wCYEsBtgEwLYDbAJAewG2IQAdgNslswCqw4jbOYIUMnn2dQKUMvn2dTsAar5PJuSAPV8nk1JgHo+z0YSYJLPs5EEmOTzbCQBJvk8G0mAST7P5uH/CksCTPJ5NpIAk3yejSTAJJ9nIwkwyefZlDZB9XyeTUmAej7PpuZnUDWfZ1N7HqCWz7OZcyKkks8HQRAEAY9fMBlR4F7sEJYAAAAASUVORK5CYII=") 0 0/calc(10px*var(--ui-scale)) repeat;
+      }
+      html[data-theme="catppuccin-latte-maroon"] #ingame_HUD_UnlockNotification .dialog {
+        color: #4c4f69;
+      }
+      html[data-theme="catppuccin-latte-maroon"] #ingame_HUD_UnlockNotification .dialog .subTitle {
+        color: #40a02b;
+      }
+      html[data-theme="catppuccin-latte-maroon"] #ingame_HUD_UnlockNotification .dialog .contents .rewardDesc {
+        color: #6c6f85;
+      }
+      html[data-theme="catppuccin-latte-maroon"] #ingame_HUD_UnlockNotification .dialog .contents .rewardDesc strong {
+        color: #4c4f69;
+      }
+      /* Tutorial hints */
+      html[data-theme="catppuccin-latte-maroon"] #ingame_HUD_TutorialHints .header {
+        color: #4c4f69;
+      }
+      html[data-theme="catppuccin-latte-maroon"] #ingame_HUD_TutorialHints .header>span:before  {
+        filter:brightness(0) saturate(100%) invert(43%) sepia(43%) saturate(515%) hue-rotate(196deg) brightness(49%) contrast(68%);
+      }
     `)
     this.modInterface.registerGameTheme({
       id: "catppuccin-latte-peach",
@@ -2230,6 +3376,10 @@ class Mod extends shapez.Mod {
 
       html[data-theme="catppuccin-latte-peach"] {
         background-color: #e6e9ef;
+      }
+
+      html[data-theme="catppuccin-latte-peach"] ::selection {
+        background-color: #fe640b4d;
       }
 
       html[data-theme="catppuccin-latte-peach"] ::-webkit-scrollbar-thumb {
@@ -2455,6 +3605,193 @@ class Mod extends shapez.Mod {
       html[data-theme="catppuccin-latte-peach"] .gameState.textualState>.container>.content a {
         color: #fe640b;
       }
+
+      /* Ingame */
+      /* Keybindings */
+      html[data-theme="catppuccin-latte-peach"] #ingame_HUD_KeybindingOverlay {
+        color: #4c4f69;
+      }
+      html[data-theme="catppuccin-latte-peach"] .keybinding {
+        color: #ccd0da;
+        background-color: #9ca0b0;
+        border-color: #ccd0da;
+      }
+      html[data-theme="catppuccin-latte-peach"] #ingame_HUD_KeybindingOverlay>.binding label {
+        color: #6c6f85;
+      }
+      html[data-theme="catppuccin-latte-peach"] #ingame_HUD_KeybindingOverlay>.binding i {
+        background-color: #9ca0b0;
+      }
+      html[data-theme="catppuccin-latte-peach"] #ingame_HUD_KeybindingOverlay>.binding code.leftMouse {
+        background: #9ca0b0 url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAblJREFUWIXtlz1Lw0AYx38VdbJ0UnAJiCK4WSgItbPQyUmhmVzcpYsvg+Dg4ODL5NAPkAwKIohvs+0gRdwqQhEKItQp6AdwuUq8XpJLm8NB/1C4Ppd7/j/ukufuUkiqPz7LoW9ZjpcFVoA8cNGyMzui6xAoAHfAKVANypGbnf7xfzDQrdt4Fyj6wjVfexjIid8acAJsAs2o3AMa5qvAg2QO8BkybAloAKW+ACzHKwOVqCQBGgKcKIhAAMvxisB+j+Z+OcB8LADL8dLAZQLmHV3FAgA2EjQHSAPlOABbCQMArGsBiLU3oTHVu6CagYIhAIA5HYAFzWQjvvao5piu3KpKWJGqXJCufe0z4FVjzL0cSMmBsL0gCcl7QWQpNi3VEpSAGUN+DcCNAiiLXc2E6jKAagleDJkrc//6O/AP8OcA3nUAngwCdB1SVQA3BgHOdQCqwIcB87buDAAcGQDYUwWDALYTnoU2cBAHAMVFpB/lgzrCAKqAnYC5HXZFi6oDrkjQy3K0xfnSDXtIpxC5QFZcOHV1bDneVNgtuSOt27GYwmVgElgUh8sJYFz0v4mt9lZ8682WndFK/AVGtVKqekHA0AAAAABJRU5ErkJggg==") 50%/85% no-repeat;
+      }
+      html[data-theme="catppuccin-latte-peach"] #ingame_HUD_KeybindingOverlay>.binding code.rightMouse {
+        background: #9ca0b0 url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAAIGNIUk0AAHomAACAhAAA+gAAAIDoAAB1MAAA6mAAADqYAAAXcJy6UTwAAABXUExURQAAAEFFWUFFWUFFWUFFWfS45PS45PS45PS45EFFWUFFWUFFWfS45EFFWUFFWfS45PS45PS45PS45EFFWfS45EFFWUFFWUFFWUFFWUFFWUFFWfS45P///2FA/IMAAAAadFJOUwAAO4/Lf8uRMSOqlbZZ+oVlcknyDXLpuILZVda3wAAAAAFiS0dEHJwEQQcAAAAHdElNRQfqBwoMLhXJVrqTAAAAJXRFWHRkYXRlOmNyZWF0ZQAyMDI2LTA3LTEwVDEyOjQ2OjE0KzAwOjAwy4QPDwAAACV0RVh0ZGF0ZTptb2RpZnkAMjAyNi0wNy0xMFQxMjo0NjoxNCswMDowMLrZt7MAAAAodEVYdGRhdGU6dGltZXN0YW1wADIwMjYtMDctMTBUMTI6NDY6MjErMDA6MDAxe74oAAAAw0lEQVQ4y83T2w6DIAyAYUGngutwIh7a93/PHRgI2GS73H+n+SIEalU9Ez5ZN7UQl7brPy+q0PtJaUQchOiI6NqfAdzQA0OvxhIAYgbongOJJaApA/YMaE6AQwaYBCwcoAOEHRRgisDxwESwRqD9QfnaCKAOgRBTFxrzo2b6HcDGBhE0yNZEoHmg/woM34DjwRaB4oFkBibNciOXrZBe1sJ9IAXMLiT74xxBOQ8yW8XCeWDm5Li0YidKuXW3dl+dSibqAbL1NseSfU2PAAAAAElFTkSuQmCC") 50%/85% no-repeat;
+      }
+      /* Waypoint */
+      html[data-theme="catppuccin-latte-peach"] #ingame_HUD_Waypoints .waypoint {
+        color: #4c4f69;
+        filter:brightness(0) saturate(100%) invert(43%) sepia(43%) saturate(515%) hue-rotate(196deg) brightness(49%) contrast(68%);
+      }
+      /* Waypoints hint */
+      html[data-theme="catppuccin-latte-peach"] #ingame_HUD_Waypoints_Hint {
+        color: #4c4f69;
+        background-color: #bcc0cce6;
+      }
+      html[data-theme="catppuccin-latte-peach"] #ingame_HUD_Waypoints_Hint .desc {
+        color: #6c6f85;
+      }
+      html[data-theme="catppuccin-latte-peach"] #ingame_HUD_Waypoints_Hint .desc strong {
+        color: #4c4f69;
+      }
+      /* Game menu */
+      html[data-theme="catppuccin-latte-peach"] #ingame_HUD_GameMenu>.button.save,
+      html[data-theme="catppuccin-latte-peach"] #ingame_HUD_GameMenu>button.save,
+      html[data-theme="catppuccin-latte-peach"] #ingame_HUD_GameMenu>.button.settings,
+      html[data-theme="catppuccin-latte-peach"] #ingame_HUD_GameMenu>button.settings,
+      html[data-theme="catppuccin-latte-peach"] #ingame_HUD_GameMenu>.button.shop,
+      html[data-theme="catppuccin-latte-peach"] #ingame_HUD_GameMenu>button.shop,
+      html[data-theme="catppuccin-latte-peach"] #ingame_HUD_GameMenu>.button.stats,
+      html[data-theme="catppuccin-latte-peach"] #ingame_HUD_GameMenu>button.stats  {
+        filter:brightness(0) saturate(100%) invert(43%) sepia(43%) saturate(515%) hue-rotate(196deg) brightness(49%) contrast(68%);
+      }
+      /* Settings menu */
+      html[data-theme="catppuccin-latte-peach"] #ingame_HUD_SettingsMenu .buttons button {
+        filter:brightness(0) saturate(100%) invert(43%) sepia(43%) saturate(515%) hue-rotate(196deg) brightness(49%) contrast(68%);
+      }
+      html[data-theme="catppuccin-latte-peach"] #ingame_HUD_SettingsMenu .statsElement {
+        color: #4c4f69;
+      }
+      html[data-theme="catppuccin-latte-peach"] #ingame_HUD_SettingsMenu .statsElement strong {
+        color: #6c6f85;
+      }
+      /* Pinned shapes */
+      html[data-theme="catppuccin-latte-peach"] #ingame_HUD_PinnedShapes>.shape {
+        color: #4c4f69;
+      }
+      html[data-theme="catppuccin-latte-peach"] #ingame_HUD_PinnedShapes>.shape>.infoButton  {
+        filter:brightness(0) saturate(100%) invert(65%) sepia(15%) saturate(535%) hue-rotate(195deg) brightness(63%) contrast(82%);
+      }
+      html[data-theme="catppuccin-latte-peach"] #ingame_HUD_PinnedShapes>.shape.blueprint.blueprint .amountLabel:after,
+      html[data-theme="catppuccin-latte-peach"] #ingame_HUD_PinnedShapes>.shape.goal.blueprint .amountLabel:after,
+      html[data-theme="catppuccin-latte-peach"] #ingame_HUD_PinnedShapes>.shape.blueprint.goal .amountLabel:after,
+      html[data-theme="catppuccin-latte-peach"] #ingame_HUD_PinnedShapes>.shape.goal.goal .amountLabel:after,
+      html[data-theme="catppuccin-latte-peach"] #ingame_HUD_PinnedShapes>.shape>.unpinButton  {
+        filter:brightness(0) saturate(100%) invert(43%) sepia(43%) saturate(515%) hue-rotate(196deg) brightness(49%) contrast(68%);
+      }
+      /* Dialog (e.g. new marker) */
+      html[data-theme="catppuccin-latte-peach"] .ingameDialog>.dialogInner>.content a {
+        color: #1e66f5;
+      }
+      html[data-theme="catppuccin-latte-peach"] .ingameDialog>.dialogInner>.content input {
+        color: #4c4f69;
+        background-color: #e6e9ef;
+      }
+      html[data-theme="catppuccin-latte-peach"] .ingameDialog>.dialogInner>.content input.errored {
+        color: #eff1f5;
+        background-color: #dc8a78;
+      }
+      html[data-theme="catppuccin-latte-peach"] .ingameDialog>.dialogInner>.buttons>button.bad {
+        color: #eff1f5;
+        background-color: #d20f39;
+      }
+      html[data-theme="catppuccin-latte-peach"] .ingameDialog>.dialogInner>.buttons>button.good {
+        color: #eff1f5;
+        background-color: #40a02b;
+      }
+      /* Shop */
+      html[data-theme="catppuccin-latte-peach"] #ingame_HUD_Shop .content .upgrade .title .tier {
+        color: #eff1f5;
+        background-color: #40a02b;
+      }
+      html[data-theme="catppuccin-latte-peach"] #ingame_HUD_Shop .content .upgrade .title .tier[data-tier="0"] {
+        background-color: #179299;
+      }
+      html[data-theme="catppuccin-latte-peach"] #ingame_HUD_Shop .content .upgrade .title .tier[data-tier="1"] {
+        background-color: #1e66f5;
+      }
+      html[data-theme="catppuccin-latte-peach"] #ingame_HUD_Shop .content .upgrade .title .tier[data-tier="2"] {
+        background-color: #8839ef;
+      }
+      html[data-theme="catppuccin-latte-peach"] #ingame_HUD_Shop .content .upgrade .title .tier[data-tier="3"] {
+        background-color: #40a02b;
+      }
+      html[data-theme="catppuccin-latte-peach"] #ingame_HUD_Shop .content .upgrade .title .tier[data-tier="4"] {
+        background-color: #d20f39;
+      }
+      html[data-theme="catppuccin-latte-peach"] #ingame_HUD_Shop .content .upgrade .title .tier[data-tier="5"] {
+        background-color: #df8e1d;
+      }
+      html[data-theme="catppuccin-latte-peach"] #ingame_HUD_Shop .content .upgrade .title .tier[data-tier="6"] {
+        background-color: #dce0e8;
+      }
+      html[data-theme="catppuccin-latte-peach"] #ingame_HUD_Shop .content .upgrade {
+        background-color: #e6e9ef;
+      }
+      html[data-theme="catppuccin-latte-peach"] #ingame_HUD_Shop .content .upgrade .description {
+        color: #5c5f77;
+      }
+      html[data-theme="catppuccin-latte-peach"] #ingame_HUD_Shop .content .upgrade button.buy {
+        color: #eff1f5;
+        background-color: #40a02b;
+      }
+      html[data-theme="catppuccin-latte-peach"] #ingame_HUD_Shop .content .upgrade button.buy:not(.buyable) {
+        color: #6c6f85;
+        background-color: #ccd0da;
+      }
+      html[data-theme="catppuccin-latte-peach"] #ingame_HUD_Shop .content .upgrade .requirements .requirement .amount {
+        color: #4c4f69;
+        background-color: #dce0e8;
+      }
+      html[data-theme="catppuccin-latte-peach"] #ingame_HUD_Shop .content .upgrade .requirements .requirement .amount label.complete + label {
+        color: #eff1f5;
+      }
+      html[data-theme="catppuccin-latte-peach"] #ingame_HUD_Shop .content .upgrade .requirements .requirement .amount .progressBar.complete {
+        background-color: #40a02b;
+      }
+      html[data-theme="catppuccin-latte-peach"] #ingame_HUD_Shop .content .upgrade .requirements .requirement button.showInfo  {
+        filter:brightness(0) saturate(100%) invert(65%) sepia(15%) saturate(535%) hue-rotate(195deg) brightness(63%) contrast(82%);
+      }
+      html[data-theme="catppuccin-latte-peach"] #ingame_HUD_Shop .content .upgrade .requirements .requirement button.pin  {
+        filter:brightness(0) saturate(100%) invert(43%) sepia(43%) saturate(515%) hue-rotate(196deg) brightness(49%) contrast(68%);
+      }
+      /* Statistics */
+      html[data-theme="catppuccin-latte-peach"] #ingame_HUD_Statistics .filterHeader button {
+        color: #4c4f69;
+        background-color: #ccd0da !important;
+      }
+      html[data-theme="catppuccin-latte-peach"] #ingame_HUD_Statistics .sourceExplanation {
+        color: #6c6f85;
+      }
+      html[data-theme="catppuccin-latte-peach"] #ingame_HUD_Statistics .content>div {
+        background-color: #e6e9ef;
+      }
+      html[data-theme="catppuccin-latte-peach"] #ingame_HUD_Statistics .dialogInner[data-displaymode=detailed] .content.hasEntries>div .counter {
+        color: #4c4f69;
+      }
+      /* Unlock */
+      html[data-theme="catppuccin-latte-peach"] #ingame_HUD_UnlockNotification {
+        background: #eff1f5fa url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAAAXNSR0IArs4c6QAAAa5JREFUeJztmTFvwkAMhV+rjtlhyhKpKx2qLv3/C2Jo10pZMsGeH9DlkKKK811C7OcUfxILJJbvUzjwPSAIgiB4XJ5yH5y+fmw7qacFsAewA9Ck90YAFwBnAMOtm97fXm8We9HsdGVaAIfJoqc06dWla75zIv6yFQEfaXE1NAA+01NyLF38fH9v6sxZ/JQu3SviXUC7cPFXulQji3cBB+0angW0mQ1vLo30FHgWsLeo5VnAzqKWZwFrPP7FWp4FmOBZwGhRy7OAi0UtzwLOFrU8CxhW+hqM0mDkWQDSVKdaw7uAAUB/x/19aSz2LgBppF0ioa8Zh7dyHnBMG1nuQGTK+B8PRJAWNCw9EsuxJQFXhrmLlNjCHqBKCGA3wCYEsBtgEwLYDbAJAewG2IQAdgNslswCqw4jbOYIUMnn2dQKUMvn2dTsAar5PJuSAPV8nk1JgHo+z0YSYJLPs5EEmOTzbCQBJvk8G0mAST7P5uH/CksCTPJ5NpIAk3yejSTAJJ9nIwkwyefZlDZB9XyeTUmAej7PpuZnUDWfZ1N7HqCWz7OZcyKkks8HQRAEAY9fMBlR4F7sEJYAAAAASUVORK5CYII=") 0 0/calc(10px*var(--ui-scale)) repeat;
+      }
+      html[data-theme="catppuccin-latte-peach"] #ingame_HUD_UnlockNotification .dialog {
+        color: #4c4f69;
+      }
+      html[data-theme="catppuccin-latte-peach"] #ingame_HUD_UnlockNotification .dialog .subTitle {
+        color: #40a02b;
+      }
+      html[data-theme="catppuccin-latte-peach"] #ingame_HUD_UnlockNotification .dialog .contents .rewardDesc {
+        color: #6c6f85;
+      }
+      html[data-theme="catppuccin-latte-peach"] #ingame_HUD_UnlockNotification .dialog .contents .rewardDesc strong {
+        color: #4c4f69;
+      }
+      /* Tutorial hints */
+      html[data-theme="catppuccin-latte-peach"] #ingame_HUD_TutorialHints .header {
+        color: #4c4f69;
+      }
+      html[data-theme="catppuccin-latte-peach"] #ingame_HUD_TutorialHints .header>span:before  {
+        filter:brightness(0) saturate(100%) invert(43%) sepia(43%) saturate(515%) hue-rotate(196deg) brightness(49%) contrast(68%);
+      }
     `)
     this.modInterface.registerGameTheme({
       id: "catppuccin-latte-yellow",
@@ -2579,6 +3916,10 @@ class Mod extends shapez.Mod {
 
       html[data-theme="catppuccin-latte-yellow"] {
         background-color: #e6e9ef;
+      }
+
+      html[data-theme="catppuccin-latte-yellow"] ::selection {
+        background-color: #df8e1d4d;
       }
 
       html[data-theme="catppuccin-latte-yellow"] ::-webkit-scrollbar-thumb {
@@ -2804,6 +4145,193 @@ class Mod extends shapez.Mod {
       html[data-theme="catppuccin-latte-yellow"] .gameState.textualState>.container>.content a {
         color: #df8e1d;
       }
+
+      /* Ingame */
+      /* Keybindings */
+      html[data-theme="catppuccin-latte-yellow"] #ingame_HUD_KeybindingOverlay {
+        color: #4c4f69;
+      }
+      html[data-theme="catppuccin-latte-yellow"] .keybinding {
+        color: #ccd0da;
+        background-color: #9ca0b0;
+        border-color: #ccd0da;
+      }
+      html[data-theme="catppuccin-latte-yellow"] #ingame_HUD_KeybindingOverlay>.binding label {
+        color: #6c6f85;
+      }
+      html[data-theme="catppuccin-latte-yellow"] #ingame_HUD_KeybindingOverlay>.binding i {
+        background-color: #9ca0b0;
+      }
+      html[data-theme="catppuccin-latte-yellow"] #ingame_HUD_KeybindingOverlay>.binding code.leftMouse {
+        background: #9ca0b0 url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAblJREFUWIXtlz1Lw0AYx38VdbJ0UnAJiCK4WSgItbPQyUmhmVzcpYsvg+Dg4ODL5NAPkAwKIohvs+0gRdwqQhEKItQp6AdwuUq8XpJLm8NB/1C4Ppd7/j/ukufuUkiqPz7LoW9ZjpcFVoA8cNGyMzui6xAoAHfAKVANypGbnf7xfzDQrdt4Fyj6wjVfexjIid8acAJsAs2o3AMa5qvAg2QO8BkybAloAKW+ACzHKwOVqCQBGgKcKIhAAMvxisB+j+Z+OcB8LADL8dLAZQLmHV3FAgA2EjQHSAPlOABbCQMArGsBiLU3oTHVu6CagYIhAIA5HYAFzWQjvvao5piu3KpKWJGqXJCufe0z4FVjzL0cSMmBsL0gCcl7QWQpNi3VEpSAGUN+DcCNAiiLXc2E6jKAagleDJkrc//6O/AP8OcA3nUAngwCdB1SVQA3BgHOdQCqwIcB87buDAAcGQDYUwWDALYTnoU2cBAHAMVFpB/lgzrCAKqAnYC5HXZFi6oDrkjQy3K0xfnSDXtIpxC5QFZcOHV1bDneVNgtuSOt27GYwmVgElgUh8sJYFz0v4mt9lZ8682WndFK/AVGtVKqekHA0AAAAABJRU5ErkJggg==") 50%/85% no-repeat;
+      }
+      html[data-theme="catppuccin-latte-yellow"] #ingame_HUD_KeybindingOverlay>.binding code.rightMouse {
+        background: #9ca0b0 url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAAIGNIUk0AAHomAACAhAAA+gAAAIDoAAB1MAAA6mAAADqYAAAXcJy6UTwAAABXUExURQAAAEFFWUFFWUFFWUFFWfS45PS45PS45PS45EFFWUFFWUFFWfS45EFFWUFFWfS45PS45PS45PS45EFFWfS45EFFWUFFWUFFWUFFWUFFWUFFWfS45P///2FA/IMAAAAadFJOUwAAO4/Lf8uRMSOqlbZZ+oVlcknyDXLpuILZVda3wAAAAAFiS0dEHJwEQQcAAAAHdElNRQfqBwoMLhXJVrqTAAAAJXRFWHRkYXRlOmNyZWF0ZQAyMDI2LTA3LTEwVDEyOjQ2OjE0KzAwOjAwy4QPDwAAACV0RVh0ZGF0ZTptb2RpZnkAMjAyNi0wNy0xMFQxMjo0NjoxNCswMDowMLrZt7MAAAAodEVYdGRhdGU6dGltZXN0YW1wADIwMjYtMDctMTBUMTI6NDY6MjErMDA6MDAxe74oAAAAw0lEQVQ4y83T2w6DIAyAYUGngutwIh7a93/PHRgI2GS73H+n+SIEalU9Ez5ZN7UQl7brPy+q0PtJaUQchOiI6NqfAdzQA0OvxhIAYgbongOJJaApA/YMaE6AQwaYBCwcoAOEHRRgisDxwESwRqD9QfnaCKAOgRBTFxrzo2b6HcDGBhE0yNZEoHmg/woM34DjwRaB4oFkBibNciOXrZBe1sJ9IAXMLiT74xxBOQ8yW8XCeWDm5Li0YidKuXW3dl+dSibqAbL1NseSfU2PAAAAAElFTkSuQmCC") 50%/85% no-repeat;
+      }
+      /* Waypoint */
+      html[data-theme="catppuccin-latte-yellow"] #ingame_HUD_Waypoints .waypoint {
+        color: #4c4f69;
+        filter:brightness(0) saturate(100%) invert(43%) sepia(43%) saturate(515%) hue-rotate(196deg) brightness(49%) contrast(68%);
+      }
+      /* Waypoints hint */
+      html[data-theme="catppuccin-latte-yellow"] #ingame_HUD_Waypoints_Hint {
+        color: #4c4f69;
+        background-color: #bcc0cce6;
+      }
+      html[data-theme="catppuccin-latte-yellow"] #ingame_HUD_Waypoints_Hint .desc {
+        color: #6c6f85;
+      }
+      html[data-theme="catppuccin-latte-yellow"] #ingame_HUD_Waypoints_Hint .desc strong {
+        color: #4c4f69;
+      }
+      /* Game menu */
+      html[data-theme="catppuccin-latte-yellow"] #ingame_HUD_GameMenu>.button.save,
+      html[data-theme="catppuccin-latte-yellow"] #ingame_HUD_GameMenu>button.save,
+      html[data-theme="catppuccin-latte-yellow"] #ingame_HUD_GameMenu>.button.settings,
+      html[data-theme="catppuccin-latte-yellow"] #ingame_HUD_GameMenu>button.settings,
+      html[data-theme="catppuccin-latte-yellow"] #ingame_HUD_GameMenu>.button.shop,
+      html[data-theme="catppuccin-latte-yellow"] #ingame_HUD_GameMenu>button.shop,
+      html[data-theme="catppuccin-latte-yellow"] #ingame_HUD_GameMenu>.button.stats,
+      html[data-theme="catppuccin-latte-yellow"] #ingame_HUD_GameMenu>button.stats  {
+        filter:brightness(0) saturate(100%) invert(43%) sepia(43%) saturate(515%) hue-rotate(196deg) brightness(49%) contrast(68%);
+      }
+      /* Settings menu */
+      html[data-theme="catppuccin-latte-yellow"] #ingame_HUD_SettingsMenu .buttons button {
+        filter:brightness(0) saturate(100%) invert(43%) sepia(43%) saturate(515%) hue-rotate(196deg) brightness(49%) contrast(68%);
+      }
+      html[data-theme="catppuccin-latte-yellow"] #ingame_HUD_SettingsMenu .statsElement {
+        color: #4c4f69;
+      }
+      html[data-theme="catppuccin-latte-yellow"] #ingame_HUD_SettingsMenu .statsElement strong {
+        color: #6c6f85;
+      }
+      /* Pinned shapes */
+      html[data-theme="catppuccin-latte-yellow"] #ingame_HUD_PinnedShapes>.shape {
+        color: #4c4f69;
+      }
+      html[data-theme="catppuccin-latte-yellow"] #ingame_HUD_PinnedShapes>.shape>.infoButton  {
+        filter:brightness(0) saturate(100%) invert(65%) sepia(15%) saturate(535%) hue-rotate(195deg) brightness(63%) contrast(82%);
+      }
+      html[data-theme="catppuccin-latte-yellow"] #ingame_HUD_PinnedShapes>.shape.blueprint.blueprint .amountLabel:after,
+      html[data-theme="catppuccin-latte-yellow"] #ingame_HUD_PinnedShapes>.shape.goal.blueprint .amountLabel:after,
+      html[data-theme="catppuccin-latte-yellow"] #ingame_HUD_PinnedShapes>.shape.blueprint.goal .amountLabel:after,
+      html[data-theme="catppuccin-latte-yellow"] #ingame_HUD_PinnedShapes>.shape.goal.goal .amountLabel:after,
+      html[data-theme="catppuccin-latte-yellow"] #ingame_HUD_PinnedShapes>.shape>.unpinButton  {
+        filter:brightness(0) saturate(100%) invert(43%) sepia(43%) saturate(515%) hue-rotate(196deg) brightness(49%) contrast(68%);
+      }
+      /* Dialog (e.g. new marker) */
+      html[data-theme="catppuccin-latte-yellow"] .ingameDialog>.dialogInner>.content a {
+        color: #1e66f5;
+      }
+      html[data-theme="catppuccin-latte-yellow"] .ingameDialog>.dialogInner>.content input {
+        color: #4c4f69;
+        background-color: #e6e9ef;
+      }
+      html[data-theme="catppuccin-latte-yellow"] .ingameDialog>.dialogInner>.content input.errored {
+        color: #eff1f5;
+        background-color: #dc8a78;
+      }
+      html[data-theme="catppuccin-latte-yellow"] .ingameDialog>.dialogInner>.buttons>button.bad {
+        color: #eff1f5;
+        background-color: #d20f39;
+      }
+      html[data-theme="catppuccin-latte-yellow"] .ingameDialog>.dialogInner>.buttons>button.good {
+        color: #eff1f5;
+        background-color: #40a02b;
+      }
+      /* Shop */
+      html[data-theme="catppuccin-latte-yellow"] #ingame_HUD_Shop .content .upgrade .title .tier {
+        color: #eff1f5;
+        background-color: #40a02b;
+      }
+      html[data-theme="catppuccin-latte-yellow"] #ingame_HUD_Shop .content .upgrade .title .tier[data-tier="0"] {
+        background-color: #179299;
+      }
+      html[data-theme="catppuccin-latte-yellow"] #ingame_HUD_Shop .content .upgrade .title .tier[data-tier="1"] {
+        background-color: #1e66f5;
+      }
+      html[data-theme="catppuccin-latte-yellow"] #ingame_HUD_Shop .content .upgrade .title .tier[data-tier="2"] {
+        background-color: #8839ef;
+      }
+      html[data-theme="catppuccin-latte-yellow"] #ingame_HUD_Shop .content .upgrade .title .tier[data-tier="3"] {
+        background-color: #40a02b;
+      }
+      html[data-theme="catppuccin-latte-yellow"] #ingame_HUD_Shop .content .upgrade .title .tier[data-tier="4"] {
+        background-color: #d20f39;
+      }
+      html[data-theme="catppuccin-latte-yellow"] #ingame_HUD_Shop .content .upgrade .title .tier[data-tier="5"] {
+        background-color: #df8e1d;
+      }
+      html[data-theme="catppuccin-latte-yellow"] #ingame_HUD_Shop .content .upgrade .title .tier[data-tier="6"] {
+        background-color: #dce0e8;
+      }
+      html[data-theme="catppuccin-latte-yellow"] #ingame_HUD_Shop .content .upgrade {
+        background-color: #e6e9ef;
+      }
+      html[data-theme="catppuccin-latte-yellow"] #ingame_HUD_Shop .content .upgrade .description {
+        color: #5c5f77;
+      }
+      html[data-theme="catppuccin-latte-yellow"] #ingame_HUD_Shop .content .upgrade button.buy {
+        color: #eff1f5;
+        background-color: #40a02b;
+      }
+      html[data-theme="catppuccin-latte-yellow"] #ingame_HUD_Shop .content .upgrade button.buy:not(.buyable) {
+        color: #6c6f85;
+        background-color: #ccd0da;
+      }
+      html[data-theme="catppuccin-latte-yellow"] #ingame_HUD_Shop .content .upgrade .requirements .requirement .amount {
+        color: #4c4f69;
+        background-color: #dce0e8;
+      }
+      html[data-theme="catppuccin-latte-yellow"] #ingame_HUD_Shop .content .upgrade .requirements .requirement .amount label.complete + label {
+        color: #eff1f5;
+      }
+      html[data-theme="catppuccin-latte-yellow"] #ingame_HUD_Shop .content .upgrade .requirements .requirement .amount .progressBar.complete {
+        background-color: #40a02b;
+      }
+      html[data-theme="catppuccin-latte-yellow"] #ingame_HUD_Shop .content .upgrade .requirements .requirement button.showInfo  {
+        filter:brightness(0) saturate(100%) invert(65%) sepia(15%) saturate(535%) hue-rotate(195deg) brightness(63%) contrast(82%);
+      }
+      html[data-theme="catppuccin-latte-yellow"] #ingame_HUD_Shop .content .upgrade .requirements .requirement button.pin  {
+        filter:brightness(0) saturate(100%) invert(43%) sepia(43%) saturate(515%) hue-rotate(196deg) brightness(49%) contrast(68%);
+      }
+      /* Statistics */
+      html[data-theme="catppuccin-latte-yellow"] #ingame_HUD_Statistics .filterHeader button {
+        color: #4c4f69;
+        background-color: #ccd0da !important;
+      }
+      html[data-theme="catppuccin-latte-yellow"] #ingame_HUD_Statistics .sourceExplanation {
+        color: #6c6f85;
+      }
+      html[data-theme="catppuccin-latte-yellow"] #ingame_HUD_Statistics .content>div {
+        background-color: #e6e9ef;
+      }
+      html[data-theme="catppuccin-latte-yellow"] #ingame_HUD_Statistics .dialogInner[data-displaymode=detailed] .content.hasEntries>div .counter {
+        color: #4c4f69;
+      }
+      /* Unlock */
+      html[data-theme="catppuccin-latte-yellow"] #ingame_HUD_UnlockNotification {
+        background: #eff1f5fa url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAAAXNSR0IArs4c6QAAAa5JREFUeJztmTFvwkAMhV+rjtlhyhKpKx2qLv3/C2Jo10pZMsGeH9DlkKKK811C7OcUfxILJJbvUzjwPSAIgiB4XJ5yH5y+fmw7qacFsAewA9Ck90YAFwBnAMOtm97fXm8We9HsdGVaAIfJoqc06dWla75zIv6yFQEfaXE1NAA+01NyLF38fH9v6sxZ/JQu3SviXUC7cPFXulQji3cBB+0angW0mQ1vLo30FHgWsLeo5VnAzqKWZwFrPP7FWp4FmOBZwGhRy7OAi0UtzwLOFrU8CxhW+hqM0mDkWQDSVKdaw7uAAUB/x/19aSz2LgBppF0ioa8Zh7dyHnBMG1nuQGTK+B8PRJAWNCw9EsuxJQFXhrmLlNjCHqBKCGA3wCYEsBtgEwLYDbAJAewG2IQAdgNslswCqw4jbOYIUMnn2dQKUMvn2dTsAar5PJuSAPV8nk1JgHo+z0YSYJLPs5EEmOTzbCQBJvk8G0mAST7P5uH/CksCTPJ5NpIAk3yejSTAJJ9nIwkwyefZlDZB9XyeTUmAej7PpuZnUDWfZ1N7HqCWz7OZcyKkks8HQRAEAY9fMBlR4F7sEJYAAAAASUVORK5CYII=") 0 0/calc(10px*var(--ui-scale)) repeat;
+      }
+      html[data-theme="catppuccin-latte-yellow"] #ingame_HUD_UnlockNotification .dialog {
+        color: #4c4f69;
+      }
+      html[data-theme="catppuccin-latte-yellow"] #ingame_HUD_UnlockNotification .dialog .subTitle {
+        color: #40a02b;
+      }
+      html[data-theme="catppuccin-latte-yellow"] #ingame_HUD_UnlockNotification .dialog .contents .rewardDesc {
+        color: #6c6f85;
+      }
+      html[data-theme="catppuccin-latte-yellow"] #ingame_HUD_UnlockNotification .dialog .contents .rewardDesc strong {
+        color: #4c4f69;
+      }
+      /* Tutorial hints */
+      html[data-theme="catppuccin-latte-yellow"] #ingame_HUD_TutorialHints .header {
+        color: #4c4f69;
+      }
+      html[data-theme="catppuccin-latte-yellow"] #ingame_HUD_TutorialHints .header>span:before  {
+        filter:brightness(0) saturate(100%) invert(43%) sepia(43%) saturate(515%) hue-rotate(196deg) brightness(49%) contrast(68%);
+      }
     `)
     this.modInterface.registerGameTheme({
       id: "catppuccin-latte-green",
@@ -2928,6 +4456,10 @@ class Mod extends shapez.Mod {
 
       html[data-theme="catppuccin-latte-green"] {
         background-color: #e6e9ef;
+      }
+
+      html[data-theme="catppuccin-latte-green"] ::selection {
+        background-color: #40a02b4d;
       }
 
       html[data-theme="catppuccin-latte-green"] ::-webkit-scrollbar-thumb {
@@ -3153,6 +4685,193 @@ class Mod extends shapez.Mod {
       html[data-theme="catppuccin-latte-green"] .gameState.textualState>.container>.content a {
         color: #40a02b;
       }
+
+      /* Ingame */
+      /* Keybindings */
+      html[data-theme="catppuccin-latte-green"] #ingame_HUD_KeybindingOverlay {
+        color: #4c4f69;
+      }
+      html[data-theme="catppuccin-latte-green"] .keybinding {
+        color: #ccd0da;
+        background-color: #9ca0b0;
+        border-color: #ccd0da;
+      }
+      html[data-theme="catppuccin-latte-green"] #ingame_HUD_KeybindingOverlay>.binding label {
+        color: #6c6f85;
+      }
+      html[data-theme="catppuccin-latte-green"] #ingame_HUD_KeybindingOverlay>.binding i {
+        background-color: #9ca0b0;
+      }
+      html[data-theme="catppuccin-latte-green"] #ingame_HUD_KeybindingOverlay>.binding code.leftMouse {
+        background: #9ca0b0 url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAblJREFUWIXtlz1Lw0AYx38VdbJ0UnAJiCK4WSgItbPQyUmhmVzcpYsvg+Dg4ODL5NAPkAwKIohvs+0gRdwqQhEKItQp6AdwuUq8XpJLm8NB/1C4Ppd7/j/ukufuUkiqPz7LoW9ZjpcFVoA8cNGyMzui6xAoAHfAKVANypGbnf7xfzDQrdt4Fyj6wjVfexjIid8acAJsAs2o3AMa5qvAg2QO8BkybAloAKW+ACzHKwOVqCQBGgKcKIhAAMvxisB+j+Z+OcB8LADL8dLAZQLmHV3FAgA2EjQHSAPlOABbCQMArGsBiLU3oTHVu6CagYIhAIA5HYAFzWQjvvao5piu3KpKWJGqXJCufe0z4FVjzL0cSMmBsL0gCcl7QWQpNi3VEpSAGUN+DcCNAiiLXc2E6jKAagleDJkrc//6O/AP8OcA3nUAngwCdB1SVQA3BgHOdQCqwIcB87buDAAcGQDYUwWDALYTnoU2cBAHAMVFpB/lgzrCAKqAnYC5HXZFi6oDrkjQy3K0xfnSDXtIpxC5QFZcOHV1bDneVNgtuSOt27GYwmVgElgUh8sJYFz0v4mt9lZ8682WndFK/AVGtVKqekHA0AAAAABJRU5ErkJggg==") 50%/85% no-repeat;
+      }
+      html[data-theme="catppuccin-latte-green"] #ingame_HUD_KeybindingOverlay>.binding code.rightMouse {
+        background: #9ca0b0 url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAAIGNIUk0AAHomAACAhAAA+gAAAIDoAAB1MAAA6mAAADqYAAAXcJy6UTwAAABXUExURQAAAEFFWUFFWUFFWUFFWfS45PS45PS45PS45EFFWUFFWUFFWfS45EFFWUFFWfS45PS45PS45PS45EFFWfS45EFFWUFFWUFFWUFFWUFFWUFFWfS45P///2FA/IMAAAAadFJOUwAAO4/Lf8uRMSOqlbZZ+oVlcknyDXLpuILZVda3wAAAAAFiS0dEHJwEQQcAAAAHdElNRQfqBwoMLhXJVrqTAAAAJXRFWHRkYXRlOmNyZWF0ZQAyMDI2LTA3LTEwVDEyOjQ2OjE0KzAwOjAwy4QPDwAAACV0RVh0ZGF0ZTptb2RpZnkAMjAyNi0wNy0xMFQxMjo0NjoxNCswMDowMLrZt7MAAAAodEVYdGRhdGU6dGltZXN0YW1wADIwMjYtMDctMTBUMTI6NDY6MjErMDA6MDAxe74oAAAAw0lEQVQ4y83T2w6DIAyAYUGngutwIh7a93/PHRgI2GS73H+n+SIEalU9Ez5ZN7UQl7brPy+q0PtJaUQchOiI6NqfAdzQA0OvxhIAYgbongOJJaApA/YMaE6AQwaYBCwcoAOEHRRgisDxwESwRqD9QfnaCKAOgRBTFxrzo2b6HcDGBhE0yNZEoHmg/woM34DjwRaB4oFkBibNciOXrZBe1sJ9IAXMLiT74xxBOQ8yW8XCeWDm5Li0YidKuXW3dl+dSibqAbL1NseSfU2PAAAAAElFTkSuQmCC") 50%/85% no-repeat;
+      }
+      /* Waypoint */
+      html[data-theme="catppuccin-latte-green"] #ingame_HUD_Waypoints .waypoint {
+        color: #4c4f69;
+        filter:brightness(0) saturate(100%) invert(43%) sepia(43%) saturate(515%) hue-rotate(196deg) brightness(49%) contrast(68%);
+      }
+      /* Waypoints hint */
+      html[data-theme="catppuccin-latte-green"] #ingame_HUD_Waypoints_Hint {
+        color: #4c4f69;
+        background-color: #bcc0cce6;
+      }
+      html[data-theme="catppuccin-latte-green"] #ingame_HUD_Waypoints_Hint .desc {
+        color: #6c6f85;
+      }
+      html[data-theme="catppuccin-latte-green"] #ingame_HUD_Waypoints_Hint .desc strong {
+        color: #4c4f69;
+      }
+      /* Game menu */
+      html[data-theme="catppuccin-latte-green"] #ingame_HUD_GameMenu>.button.save,
+      html[data-theme="catppuccin-latte-green"] #ingame_HUD_GameMenu>button.save,
+      html[data-theme="catppuccin-latte-green"] #ingame_HUD_GameMenu>.button.settings,
+      html[data-theme="catppuccin-latte-green"] #ingame_HUD_GameMenu>button.settings,
+      html[data-theme="catppuccin-latte-green"] #ingame_HUD_GameMenu>.button.shop,
+      html[data-theme="catppuccin-latte-green"] #ingame_HUD_GameMenu>button.shop,
+      html[data-theme="catppuccin-latte-green"] #ingame_HUD_GameMenu>.button.stats,
+      html[data-theme="catppuccin-latte-green"] #ingame_HUD_GameMenu>button.stats  {
+        filter:brightness(0) saturate(100%) invert(43%) sepia(43%) saturate(515%) hue-rotate(196deg) brightness(49%) contrast(68%);
+      }
+      /* Settings menu */
+      html[data-theme="catppuccin-latte-green"] #ingame_HUD_SettingsMenu .buttons button {
+        filter:brightness(0) saturate(100%) invert(43%) sepia(43%) saturate(515%) hue-rotate(196deg) brightness(49%) contrast(68%);
+      }
+      html[data-theme="catppuccin-latte-green"] #ingame_HUD_SettingsMenu .statsElement {
+        color: #4c4f69;
+      }
+      html[data-theme="catppuccin-latte-green"] #ingame_HUD_SettingsMenu .statsElement strong {
+        color: #6c6f85;
+      }
+      /* Pinned shapes */
+      html[data-theme="catppuccin-latte-green"] #ingame_HUD_PinnedShapes>.shape {
+        color: #4c4f69;
+      }
+      html[data-theme="catppuccin-latte-green"] #ingame_HUD_PinnedShapes>.shape>.infoButton  {
+        filter:brightness(0) saturate(100%) invert(65%) sepia(15%) saturate(535%) hue-rotate(195deg) brightness(63%) contrast(82%);
+      }
+      html[data-theme="catppuccin-latte-green"] #ingame_HUD_PinnedShapes>.shape.blueprint.blueprint .amountLabel:after,
+      html[data-theme="catppuccin-latte-green"] #ingame_HUD_PinnedShapes>.shape.goal.blueprint .amountLabel:after,
+      html[data-theme="catppuccin-latte-green"] #ingame_HUD_PinnedShapes>.shape.blueprint.goal .amountLabel:after,
+      html[data-theme="catppuccin-latte-green"] #ingame_HUD_PinnedShapes>.shape.goal.goal .amountLabel:after,
+      html[data-theme="catppuccin-latte-green"] #ingame_HUD_PinnedShapes>.shape>.unpinButton  {
+        filter:brightness(0) saturate(100%) invert(43%) sepia(43%) saturate(515%) hue-rotate(196deg) brightness(49%) contrast(68%);
+      }
+      /* Dialog (e.g. new marker) */
+      html[data-theme="catppuccin-latte-green"] .ingameDialog>.dialogInner>.content a {
+        color: #1e66f5;
+      }
+      html[data-theme="catppuccin-latte-green"] .ingameDialog>.dialogInner>.content input {
+        color: #4c4f69;
+        background-color: #e6e9ef;
+      }
+      html[data-theme="catppuccin-latte-green"] .ingameDialog>.dialogInner>.content input.errored {
+        color: #eff1f5;
+        background-color: #dc8a78;
+      }
+      html[data-theme="catppuccin-latte-green"] .ingameDialog>.dialogInner>.buttons>button.bad {
+        color: #eff1f5;
+        background-color: #d20f39;
+      }
+      html[data-theme="catppuccin-latte-green"] .ingameDialog>.dialogInner>.buttons>button.good {
+        color: #eff1f5;
+        background-color: #40a02b;
+      }
+      /* Shop */
+      html[data-theme="catppuccin-latte-green"] #ingame_HUD_Shop .content .upgrade .title .tier {
+        color: #eff1f5;
+        background-color: #40a02b;
+      }
+      html[data-theme="catppuccin-latte-green"] #ingame_HUD_Shop .content .upgrade .title .tier[data-tier="0"] {
+        background-color: #179299;
+      }
+      html[data-theme="catppuccin-latte-green"] #ingame_HUD_Shop .content .upgrade .title .tier[data-tier="1"] {
+        background-color: #1e66f5;
+      }
+      html[data-theme="catppuccin-latte-green"] #ingame_HUD_Shop .content .upgrade .title .tier[data-tier="2"] {
+        background-color: #8839ef;
+      }
+      html[data-theme="catppuccin-latte-green"] #ingame_HUD_Shop .content .upgrade .title .tier[data-tier="3"] {
+        background-color: #40a02b;
+      }
+      html[data-theme="catppuccin-latte-green"] #ingame_HUD_Shop .content .upgrade .title .tier[data-tier="4"] {
+        background-color: #d20f39;
+      }
+      html[data-theme="catppuccin-latte-green"] #ingame_HUD_Shop .content .upgrade .title .tier[data-tier="5"] {
+        background-color: #df8e1d;
+      }
+      html[data-theme="catppuccin-latte-green"] #ingame_HUD_Shop .content .upgrade .title .tier[data-tier="6"] {
+        background-color: #dce0e8;
+      }
+      html[data-theme="catppuccin-latte-green"] #ingame_HUD_Shop .content .upgrade {
+        background-color: #e6e9ef;
+      }
+      html[data-theme="catppuccin-latte-green"] #ingame_HUD_Shop .content .upgrade .description {
+        color: #5c5f77;
+      }
+      html[data-theme="catppuccin-latte-green"] #ingame_HUD_Shop .content .upgrade button.buy {
+        color: #eff1f5;
+        background-color: #40a02b;
+      }
+      html[data-theme="catppuccin-latte-green"] #ingame_HUD_Shop .content .upgrade button.buy:not(.buyable) {
+        color: #6c6f85;
+        background-color: #ccd0da;
+      }
+      html[data-theme="catppuccin-latte-green"] #ingame_HUD_Shop .content .upgrade .requirements .requirement .amount {
+        color: #4c4f69;
+        background-color: #dce0e8;
+      }
+      html[data-theme="catppuccin-latte-green"] #ingame_HUD_Shop .content .upgrade .requirements .requirement .amount label.complete + label {
+        color: #eff1f5;
+      }
+      html[data-theme="catppuccin-latte-green"] #ingame_HUD_Shop .content .upgrade .requirements .requirement .amount .progressBar.complete {
+        background-color: #40a02b;
+      }
+      html[data-theme="catppuccin-latte-green"] #ingame_HUD_Shop .content .upgrade .requirements .requirement button.showInfo  {
+        filter:brightness(0) saturate(100%) invert(65%) sepia(15%) saturate(535%) hue-rotate(195deg) brightness(63%) contrast(82%);
+      }
+      html[data-theme="catppuccin-latte-green"] #ingame_HUD_Shop .content .upgrade .requirements .requirement button.pin  {
+        filter:brightness(0) saturate(100%) invert(43%) sepia(43%) saturate(515%) hue-rotate(196deg) brightness(49%) contrast(68%);
+      }
+      /* Statistics */
+      html[data-theme="catppuccin-latte-green"] #ingame_HUD_Statistics .filterHeader button {
+        color: #4c4f69;
+        background-color: #ccd0da !important;
+      }
+      html[data-theme="catppuccin-latte-green"] #ingame_HUD_Statistics .sourceExplanation {
+        color: #6c6f85;
+      }
+      html[data-theme="catppuccin-latte-green"] #ingame_HUD_Statistics .content>div {
+        background-color: #e6e9ef;
+      }
+      html[data-theme="catppuccin-latte-green"] #ingame_HUD_Statistics .dialogInner[data-displaymode=detailed] .content.hasEntries>div .counter {
+        color: #4c4f69;
+      }
+      /* Unlock */
+      html[data-theme="catppuccin-latte-green"] #ingame_HUD_UnlockNotification {
+        background: #eff1f5fa url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAAAXNSR0IArs4c6QAAAa5JREFUeJztmTFvwkAMhV+rjtlhyhKpKx2qLv3/C2Jo10pZMsGeH9DlkKKK811C7OcUfxILJJbvUzjwPSAIgiB4XJ5yH5y+fmw7qacFsAewA9Ck90YAFwBnAMOtm97fXm8We9HsdGVaAIfJoqc06dWla75zIv6yFQEfaXE1NAA+01NyLF38fH9v6sxZ/JQu3SviXUC7cPFXulQji3cBB+0angW0mQ1vLo30FHgWsLeo5VnAzqKWZwFrPP7FWp4FmOBZwGhRy7OAi0UtzwLOFrU8CxhW+hqM0mDkWQDSVKdaw7uAAUB/x/19aSz2LgBppF0ioa8Zh7dyHnBMG1nuQGTK+B8PRJAWNCw9EsuxJQFXhrmLlNjCHqBKCGA3wCYEsBtgEwLYDbAJAewG2IQAdgNslswCqw4jbOYIUMnn2dQKUMvn2dTsAar5PJuSAPV8nk1JgHo+z0YSYJLPs5EEmOTzbCQBJvk8G0mAST7P5uH/CksCTPJ5NpIAk3yejSTAJJ9nIwkwyefZlDZB9XyeTUmAej7PpuZnUDWfZ1N7HqCWz7OZcyKkks8HQRAEAY9fMBlR4F7sEJYAAAAASUVORK5CYII=") 0 0/calc(10px*var(--ui-scale)) repeat;
+      }
+      html[data-theme="catppuccin-latte-green"] #ingame_HUD_UnlockNotification .dialog {
+        color: #4c4f69;
+      }
+      html[data-theme="catppuccin-latte-green"] #ingame_HUD_UnlockNotification .dialog .subTitle {
+        color: #40a02b;
+      }
+      html[data-theme="catppuccin-latte-green"] #ingame_HUD_UnlockNotification .dialog .contents .rewardDesc {
+        color: #6c6f85;
+      }
+      html[data-theme="catppuccin-latte-green"] #ingame_HUD_UnlockNotification .dialog .contents .rewardDesc strong {
+        color: #4c4f69;
+      }
+      /* Tutorial hints */
+      html[data-theme="catppuccin-latte-green"] #ingame_HUD_TutorialHints .header {
+        color: #4c4f69;
+      }
+      html[data-theme="catppuccin-latte-green"] #ingame_HUD_TutorialHints .header>span:before  {
+        filter:brightness(0) saturate(100%) invert(43%) sepia(43%) saturate(515%) hue-rotate(196deg) brightness(49%) contrast(68%);
+      }
     `)
     this.modInterface.registerGameTheme({
       id: "catppuccin-latte-teal",
@@ -3277,6 +4996,10 @@ class Mod extends shapez.Mod {
 
       html[data-theme="catppuccin-latte-teal"] {
         background-color: #e6e9ef;
+      }
+
+      html[data-theme="catppuccin-latte-teal"] ::selection {
+        background-color: #1792994d;
       }
 
       html[data-theme="catppuccin-latte-teal"] ::-webkit-scrollbar-thumb {
@@ -3502,6 +5225,193 @@ class Mod extends shapez.Mod {
       html[data-theme="catppuccin-latte-teal"] .gameState.textualState>.container>.content a {
         color: #179299;
       }
+
+      /* Ingame */
+      /* Keybindings */
+      html[data-theme="catppuccin-latte-teal"] #ingame_HUD_KeybindingOverlay {
+        color: #4c4f69;
+      }
+      html[data-theme="catppuccin-latte-teal"] .keybinding {
+        color: #ccd0da;
+        background-color: #9ca0b0;
+        border-color: #ccd0da;
+      }
+      html[data-theme="catppuccin-latte-teal"] #ingame_HUD_KeybindingOverlay>.binding label {
+        color: #6c6f85;
+      }
+      html[data-theme="catppuccin-latte-teal"] #ingame_HUD_KeybindingOverlay>.binding i {
+        background-color: #9ca0b0;
+      }
+      html[data-theme="catppuccin-latte-teal"] #ingame_HUD_KeybindingOverlay>.binding code.leftMouse {
+        background: #9ca0b0 url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAblJREFUWIXtlz1Lw0AYx38VdbJ0UnAJiCK4WSgItbPQyUmhmVzcpYsvg+Dg4ODL5NAPkAwKIohvs+0gRdwqQhEKItQp6AdwuUq8XpJLm8NB/1C4Ppd7/j/ukufuUkiqPz7LoW9ZjpcFVoA8cNGyMzui6xAoAHfAKVANypGbnf7xfzDQrdt4Fyj6wjVfexjIid8acAJsAs2o3AMa5qvAg2QO8BkybAloAKW+ACzHKwOVqCQBGgKcKIhAAMvxisB+j+Z+OcB8LADL8dLAZQLmHV3FAgA2EjQHSAPlOABbCQMArGsBiLU3oTHVu6CagYIhAIA5HYAFzWQjvvao5piu3KpKWJGqXJCufe0z4FVjzL0cSMmBsL0gCcl7QWQpNi3VEpSAGUN+DcCNAiiLXc2E6jKAagleDJkrc//6O/AP8OcA3nUAngwCdB1SVQA3BgHOdQCqwIcB87buDAAcGQDYUwWDALYTnoU2cBAHAMVFpB/lgzrCAKqAnYC5HXZFi6oDrkjQy3K0xfnSDXtIpxC5QFZcOHV1bDneVNgtuSOt27GYwmVgElgUh8sJYFz0v4mt9lZ8682WndFK/AVGtVKqekHA0AAAAABJRU5ErkJggg==") 50%/85% no-repeat;
+      }
+      html[data-theme="catppuccin-latte-teal"] #ingame_HUD_KeybindingOverlay>.binding code.rightMouse {
+        background: #9ca0b0 url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAAIGNIUk0AAHomAACAhAAA+gAAAIDoAAB1MAAA6mAAADqYAAAXcJy6UTwAAABXUExURQAAAEFFWUFFWUFFWUFFWfS45PS45PS45PS45EFFWUFFWUFFWfS45EFFWUFFWfS45PS45PS45PS45EFFWfS45EFFWUFFWUFFWUFFWUFFWUFFWfS45P///2FA/IMAAAAadFJOUwAAO4/Lf8uRMSOqlbZZ+oVlcknyDXLpuILZVda3wAAAAAFiS0dEHJwEQQcAAAAHdElNRQfqBwoMLhXJVrqTAAAAJXRFWHRkYXRlOmNyZWF0ZQAyMDI2LTA3LTEwVDEyOjQ2OjE0KzAwOjAwy4QPDwAAACV0RVh0ZGF0ZTptb2RpZnkAMjAyNi0wNy0xMFQxMjo0NjoxNCswMDowMLrZt7MAAAAodEVYdGRhdGU6dGltZXN0YW1wADIwMjYtMDctMTBUMTI6NDY6MjErMDA6MDAxe74oAAAAw0lEQVQ4y83T2w6DIAyAYUGngutwIh7a93/PHRgI2GS73H+n+SIEalU9Ez5ZN7UQl7brPy+q0PtJaUQchOiI6NqfAdzQA0OvxhIAYgbongOJJaApA/YMaE6AQwaYBCwcoAOEHRRgisDxwESwRqD9QfnaCKAOgRBTFxrzo2b6HcDGBhE0yNZEoHmg/woM34DjwRaB4oFkBibNciOXrZBe1sJ9IAXMLiT74xxBOQ8yW8XCeWDm5Li0YidKuXW3dl+dSibqAbL1NseSfU2PAAAAAElFTkSuQmCC") 50%/85% no-repeat;
+      }
+      /* Waypoint */
+      html[data-theme="catppuccin-latte-teal"] #ingame_HUD_Waypoints .waypoint {
+        color: #4c4f69;
+        filter:brightness(0) saturate(100%) invert(43%) sepia(43%) saturate(515%) hue-rotate(196deg) brightness(49%) contrast(68%);
+      }
+      /* Waypoints hint */
+      html[data-theme="catppuccin-latte-teal"] #ingame_HUD_Waypoints_Hint {
+        color: #4c4f69;
+        background-color: #bcc0cce6;
+      }
+      html[data-theme="catppuccin-latte-teal"] #ingame_HUD_Waypoints_Hint .desc {
+        color: #6c6f85;
+      }
+      html[data-theme="catppuccin-latte-teal"] #ingame_HUD_Waypoints_Hint .desc strong {
+        color: #4c4f69;
+      }
+      /* Game menu */
+      html[data-theme="catppuccin-latte-teal"] #ingame_HUD_GameMenu>.button.save,
+      html[data-theme="catppuccin-latte-teal"] #ingame_HUD_GameMenu>button.save,
+      html[data-theme="catppuccin-latte-teal"] #ingame_HUD_GameMenu>.button.settings,
+      html[data-theme="catppuccin-latte-teal"] #ingame_HUD_GameMenu>button.settings,
+      html[data-theme="catppuccin-latte-teal"] #ingame_HUD_GameMenu>.button.shop,
+      html[data-theme="catppuccin-latte-teal"] #ingame_HUD_GameMenu>button.shop,
+      html[data-theme="catppuccin-latte-teal"] #ingame_HUD_GameMenu>.button.stats,
+      html[data-theme="catppuccin-latte-teal"] #ingame_HUD_GameMenu>button.stats  {
+        filter:brightness(0) saturate(100%) invert(43%) sepia(43%) saturate(515%) hue-rotate(196deg) brightness(49%) contrast(68%);
+      }
+      /* Settings menu */
+      html[data-theme="catppuccin-latte-teal"] #ingame_HUD_SettingsMenu .buttons button {
+        filter:brightness(0) saturate(100%) invert(43%) sepia(43%) saturate(515%) hue-rotate(196deg) brightness(49%) contrast(68%);
+      }
+      html[data-theme="catppuccin-latte-teal"] #ingame_HUD_SettingsMenu .statsElement {
+        color: #4c4f69;
+      }
+      html[data-theme="catppuccin-latte-teal"] #ingame_HUD_SettingsMenu .statsElement strong {
+        color: #6c6f85;
+      }
+      /* Pinned shapes */
+      html[data-theme="catppuccin-latte-teal"] #ingame_HUD_PinnedShapes>.shape {
+        color: #4c4f69;
+      }
+      html[data-theme="catppuccin-latte-teal"] #ingame_HUD_PinnedShapes>.shape>.infoButton  {
+        filter:brightness(0) saturate(100%) invert(65%) sepia(15%) saturate(535%) hue-rotate(195deg) brightness(63%) contrast(82%);
+      }
+      html[data-theme="catppuccin-latte-teal"] #ingame_HUD_PinnedShapes>.shape.blueprint.blueprint .amountLabel:after,
+      html[data-theme="catppuccin-latte-teal"] #ingame_HUD_PinnedShapes>.shape.goal.blueprint .amountLabel:after,
+      html[data-theme="catppuccin-latte-teal"] #ingame_HUD_PinnedShapes>.shape.blueprint.goal .amountLabel:after,
+      html[data-theme="catppuccin-latte-teal"] #ingame_HUD_PinnedShapes>.shape.goal.goal .amountLabel:after,
+      html[data-theme="catppuccin-latte-teal"] #ingame_HUD_PinnedShapes>.shape>.unpinButton  {
+        filter:brightness(0) saturate(100%) invert(43%) sepia(43%) saturate(515%) hue-rotate(196deg) brightness(49%) contrast(68%);
+      }
+      /* Dialog (e.g. new marker) */
+      html[data-theme="catppuccin-latte-teal"] .ingameDialog>.dialogInner>.content a {
+        color: #1e66f5;
+      }
+      html[data-theme="catppuccin-latte-teal"] .ingameDialog>.dialogInner>.content input {
+        color: #4c4f69;
+        background-color: #e6e9ef;
+      }
+      html[data-theme="catppuccin-latte-teal"] .ingameDialog>.dialogInner>.content input.errored {
+        color: #eff1f5;
+        background-color: #dc8a78;
+      }
+      html[data-theme="catppuccin-latte-teal"] .ingameDialog>.dialogInner>.buttons>button.bad {
+        color: #eff1f5;
+        background-color: #d20f39;
+      }
+      html[data-theme="catppuccin-latte-teal"] .ingameDialog>.dialogInner>.buttons>button.good {
+        color: #eff1f5;
+        background-color: #40a02b;
+      }
+      /* Shop */
+      html[data-theme="catppuccin-latte-teal"] #ingame_HUD_Shop .content .upgrade .title .tier {
+        color: #eff1f5;
+        background-color: #40a02b;
+      }
+      html[data-theme="catppuccin-latte-teal"] #ingame_HUD_Shop .content .upgrade .title .tier[data-tier="0"] {
+        background-color: #179299;
+      }
+      html[data-theme="catppuccin-latte-teal"] #ingame_HUD_Shop .content .upgrade .title .tier[data-tier="1"] {
+        background-color: #1e66f5;
+      }
+      html[data-theme="catppuccin-latte-teal"] #ingame_HUD_Shop .content .upgrade .title .tier[data-tier="2"] {
+        background-color: #8839ef;
+      }
+      html[data-theme="catppuccin-latte-teal"] #ingame_HUD_Shop .content .upgrade .title .tier[data-tier="3"] {
+        background-color: #40a02b;
+      }
+      html[data-theme="catppuccin-latte-teal"] #ingame_HUD_Shop .content .upgrade .title .tier[data-tier="4"] {
+        background-color: #d20f39;
+      }
+      html[data-theme="catppuccin-latte-teal"] #ingame_HUD_Shop .content .upgrade .title .tier[data-tier="5"] {
+        background-color: #df8e1d;
+      }
+      html[data-theme="catppuccin-latte-teal"] #ingame_HUD_Shop .content .upgrade .title .tier[data-tier="6"] {
+        background-color: #dce0e8;
+      }
+      html[data-theme="catppuccin-latte-teal"] #ingame_HUD_Shop .content .upgrade {
+        background-color: #e6e9ef;
+      }
+      html[data-theme="catppuccin-latte-teal"] #ingame_HUD_Shop .content .upgrade .description {
+        color: #5c5f77;
+      }
+      html[data-theme="catppuccin-latte-teal"] #ingame_HUD_Shop .content .upgrade button.buy {
+        color: #eff1f5;
+        background-color: #40a02b;
+      }
+      html[data-theme="catppuccin-latte-teal"] #ingame_HUD_Shop .content .upgrade button.buy:not(.buyable) {
+        color: #6c6f85;
+        background-color: #ccd0da;
+      }
+      html[data-theme="catppuccin-latte-teal"] #ingame_HUD_Shop .content .upgrade .requirements .requirement .amount {
+        color: #4c4f69;
+        background-color: #dce0e8;
+      }
+      html[data-theme="catppuccin-latte-teal"] #ingame_HUD_Shop .content .upgrade .requirements .requirement .amount label.complete + label {
+        color: #eff1f5;
+      }
+      html[data-theme="catppuccin-latte-teal"] #ingame_HUD_Shop .content .upgrade .requirements .requirement .amount .progressBar.complete {
+        background-color: #40a02b;
+      }
+      html[data-theme="catppuccin-latte-teal"] #ingame_HUD_Shop .content .upgrade .requirements .requirement button.showInfo  {
+        filter:brightness(0) saturate(100%) invert(65%) sepia(15%) saturate(535%) hue-rotate(195deg) brightness(63%) contrast(82%);
+      }
+      html[data-theme="catppuccin-latte-teal"] #ingame_HUD_Shop .content .upgrade .requirements .requirement button.pin  {
+        filter:brightness(0) saturate(100%) invert(43%) sepia(43%) saturate(515%) hue-rotate(196deg) brightness(49%) contrast(68%);
+      }
+      /* Statistics */
+      html[data-theme="catppuccin-latte-teal"] #ingame_HUD_Statistics .filterHeader button {
+        color: #4c4f69;
+        background-color: #ccd0da !important;
+      }
+      html[data-theme="catppuccin-latte-teal"] #ingame_HUD_Statistics .sourceExplanation {
+        color: #6c6f85;
+      }
+      html[data-theme="catppuccin-latte-teal"] #ingame_HUD_Statistics .content>div {
+        background-color: #e6e9ef;
+      }
+      html[data-theme="catppuccin-latte-teal"] #ingame_HUD_Statistics .dialogInner[data-displaymode=detailed] .content.hasEntries>div .counter {
+        color: #4c4f69;
+      }
+      /* Unlock */
+      html[data-theme="catppuccin-latte-teal"] #ingame_HUD_UnlockNotification {
+        background: #eff1f5fa url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAAAXNSR0IArs4c6QAAAa5JREFUeJztmTFvwkAMhV+rjtlhyhKpKx2qLv3/C2Jo10pZMsGeH9DlkKKK811C7OcUfxILJJbvUzjwPSAIgiB4XJ5yH5y+fmw7qacFsAewA9Ck90YAFwBnAMOtm97fXm8We9HsdGVaAIfJoqc06dWla75zIv6yFQEfaXE1NAA+01NyLF38fH9v6sxZ/JQu3SviXUC7cPFXulQji3cBB+0angW0mQ1vLo30FHgWsLeo5VnAzqKWZwFrPP7FWp4FmOBZwGhRy7OAi0UtzwLOFrU8CxhW+hqM0mDkWQDSVKdaw7uAAUB/x/19aSz2LgBppF0ioa8Zh7dyHnBMG1nuQGTK+B8PRJAWNCw9EsuxJQFXhrmLlNjCHqBKCGA3wCYEsBtgEwLYDbAJAewG2IQAdgNslswCqw4jbOYIUMnn2dQKUMvn2dTsAar5PJuSAPV8nk1JgHo+z0YSYJLPs5EEmOTzbCQBJvk8G0mAST7P5uH/CksCTPJ5NpIAk3yejSTAJJ9nIwkwyefZlDZB9XyeTUmAej7PpuZnUDWfZ1N7HqCWz7OZcyKkks8HQRAEAY9fMBlR4F7sEJYAAAAASUVORK5CYII=") 0 0/calc(10px*var(--ui-scale)) repeat;
+      }
+      html[data-theme="catppuccin-latte-teal"] #ingame_HUD_UnlockNotification .dialog {
+        color: #4c4f69;
+      }
+      html[data-theme="catppuccin-latte-teal"] #ingame_HUD_UnlockNotification .dialog .subTitle {
+        color: #40a02b;
+      }
+      html[data-theme="catppuccin-latte-teal"] #ingame_HUD_UnlockNotification .dialog .contents .rewardDesc {
+        color: #6c6f85;
+      }
+      html[data-theme="catppuccin-latte-teal"] #ingame_HUD_UnlockNotification .dialog .contents .rewardDesc strong {
+        color: #4c4f69;
+      }
+      /* Tutorial hints */
+      html[data-theme="catppuccin-latte-teal"] #ingame_HUD_TutorialHints .header {
+        color: #4c4f69;
+      }
+      html[data-theme="catppuccin-latte-teal"] #ingame_HUD_TutorialHints .header>span:before  {
+        filter:brightness(0) saturate(100%) invert(43%) sepia(43%) saturate(515%) hue-rotate(196deg) brightness(49%) contrast(68%);
+      }
     `)
     this.modInterface.registerGameTheme({
       id: "catppuccin-latte-sky",
@@ -3626,6 +5536,10 @@ class Mod extends shapez.Mod {
 
       html[data-theme="catppuccin-latte-sky"] {
         background-color: #e6e9ef;
+      }
+
+      html[data-theme="catppuccin-latte-sky"] ::selection {
+        background-color: #04a5e54d;
       }
 
       html[data-theme="catppuccin-latte-sky"] ::-webkit-scrollbar-thumb {
@@ -3851,6 +5765,193 @@ class Mod extends shapez.Mod {
       html[data-theme="catppuccin-latte-sky"] .gameState.textualState>.container>.content a {
         color: #04a5e5;
       }
+
+      /* Ingame */
+      /* Keybindings */
+      html[data-theme="catppuccin-latte-sky"] #ingame_HUD_KeybindingOverlay {
+        color: #4c4f69;
+      }
+      html[data-theme="catppuccin-latte-sky"] .keybinding {
+        color: #ccd0da;
+        background-color: #9ca0b0;
+        border-color: #ccd0da;
+      }
+      html[data-theme="catppuccin-latte-sky"] #ingame_HUD_KeybindingOverlay>.binding label {
+        color: #6c6f85;
+      }
+      html[data-theme="catppuccin-latte-sky"] #ingame_HUD_KeybindingOverlay>.binding i {
+        background-color: #9ca0b0;
+      }
+      html[data-theme="catppuccin-latte-sky"] #ingame_HUD_KeybindingOverlay>.binding code.leftMouse {
+        background: #9ca0b0 url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAblJREFUWIXtlz1Lw0AYx38VdbJ0UnAJiCK4WSgItbPQyUmhmVzcpYsvg+Dg4ODL5NAPkAwKIohvs+0gRdwqQhEKItQp6AdwuUq8XpJLm8NB/1C4Ppd7/j/ukufuUkiqPz7LoW9ZjpcFVoA8cNGyMzui6xAoAHfAKVANypGbnf7xfzDQrdt4Fyj6wjVfexjIid8acAJsAs2o3AMa5qvAg2QO8BkybAloAKW+ACzHKwOVqCQBGgKcKIhAAMvxisB+j+Z+OcB8LADL8dLAZQLmHV3FAgA2EjQHSAPlOABbCQMArGsBiLU3oTHVu6CagYIhAIA5HYAFzWQjvvao5piu3KpKWJGqXJCufe0z4FVjzL0cSMmBsL0gCcl7QWQpNi3VEpSAGUN+DcCNAiiLXc2E6jKAagleDJkrc//6O/AP8OcA3nUAngwCdB1SVQA3BgHOdQCqwIcB87buDAAcGQDYUwWDALYTnoU2cBAHAMVFpB/lgzrCAKqAnYC5HXZFi6oDrkjQy3K0xfnSDXtIpxC5QFZcOHV1bDneVNgtuSOt27GYwmVgElgUh8sJYFz0v4mt9lZ8682WndFK/AVGtVKqekHA0AAAAABJRU5ErkJggg==") 50%/85% no-repeat;
+      }
+      html[data-theme="catppuccin-latte-sky"] #ingame_HUD_KeybindingOverlay>.binding code.rightMouse {
+        background: #9ca0b0 url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAAIGNIUk0AAHomAACAhAAA+gAAAIDoAAB1MAAA6mAAADqYAAAXcJy6UTwAAABXUExURQAAAEFFWUFFWUFFWUFFWfS45PS45PS45PS45EFFWUFFWUFFWfS45EFFWUFFWfS45PS45PS45PS45EFFWfS45EFFWUFFWUFFWUFFWUFFWUFFWfS45P///2FA/IMAAAAadFJOUwAAO4/Lf8uRMSOqlbZZ+oVlcknyDXLpuILZVda3wAAAAAFiS0dEHJwEQQcAAAAHdElNRQfqBwoMLhXJVrqTAAAAJXRFWHRkYXRlOmNyZWF0ZQAyMDI2LTA3LTEwVDEyOjQ2OjE0KzAwOjAwy4QPDwAAACV0RVh0ZGF0ZTptb2RpZnkAMjAyNi0wNy0xMFQxMjo0NjoxNCswMDowMLrZt7MAAAAodEVYdGRhdGU6dGltZXN0YW1wADIwMjYtMDctMTBUMTI6NDY6MjErMDA6MDAxe74oAAAAw0lEQVQ4y83T2w6DIAyAYUGngutwIh7a93/PHRgI2GS73H+n+SIEalU9Ez5ZN7UQl7brPy+q0PtJaUQchOiI6NqfAdzQA0OvxhIAYgbongOJJaApA/YMaE6AQwaYBCwcoAOEHRRgisDxwESwRqD9QfnaCKAOgRBTFxrzo2b6HcDGBhE0yNZEoHmg/woM34DjwRaB4oFkBibNciOXrZBe1sJ9IAXMLiT74xxBOQ8yW8XCeWDm5Li0YidKuXW3dl+dSibqAbL1NseSfU2PAAAAAElFTkSuQmCC") 50%/85% no-repeat;
+      }
+      /* Waypoint */
+      html[data-theme="catppuccin-latte-sky"] #ingame_HUD_Waypoints .waypoint {
+        color: #4c4f69;
+        filter:brightness(0) saturate(100%) invert(43%) sepia(43%) saturate(515%) hue-rotate(196deg) brightness(49%) contrast(68%);
+      }
+      /* Waypoints hint */
+      html[data-theme="catppuccin-latte-sky"] #ingame_HUD_Waypoints_Hint {
+        color: #4c4f69;
+        background-color: #bcc0cce6;
+      }
+      html[data-theme="catppuccin-latte-sky"] #ingame_HUD_Waypoints_Hint .desc {
+        color: #6c6f85;
+      }
+      html[data-theme="catppuccin-latte-sky"] #ingame_HUD_Waypoints_Hint .desc strong {
+        color: #4c4f69;
+      }
+      /* Game menu */
+      html[data-theme="catppuccin-latte-sky"] #ingame_HUD_GameMenu>.button.save,
+      html[data-theme="catppuccin-latte-sky"] #ingame_HUD_GameMenu>button.save,
+      html[data-theme="catppuccin-latte-sky"] #ingame_HUD_GameMenu>.button.settings,
+      html[data-theme="catppuccin-latte-sky"] #ingame_HUD_GameMenu>button.settings,
+      html[data-theme="catppuccin-latte-sky"] #ingame_HUD_GameMenu>.button.shop,
+      html[data-theme="catppuccin-latte-sky"] #ingame_HUD_GameMenu>button.shop,
+      html[data-theme="catppuccin-latte-sky"] #ingame_HUD_GameMenu>.button.stats,
+      html[data-theme="catppuccin-latte-sky"] #ingame_HUD_GameMenu>button.stats  {
+        filter:brightness(0) saturate(100%) invert(43%) sepia(43%) saturate(515%) hue-rotate(196deg) brightness(49%) contrast(68%);
+      }
+      /* Settings menu */
+      html[data-theme="catppuccin-latte-sky"] #ingame_HUD_SettingsMenu .buttons button {
+        filter:brightness(0) saturate(100%) invert(43%) sepia(43%) saturate(515%) hue-rotate(196deg) brightness(49%) contrast(68%);
+      }
+      html[data-theme="catppuccin-latte-sky"] #ingame_HUD_SettingsMenu .statsElement {
+        color: #4c4f69;
+      }
+      html[data-theme="catppuccin-latte-sky"] #ingame_HUD_SettingsMenu .statsElement strong {
+        color: #6c6f85;
+      }
+      /* Pinned shapes */
+      html[data-theme="catppuccin-latte-sky"] #ingame_HUD_PinnedShapes>.shape {
+        color: #4c4f69;
+      }
+      html[data-theme="catppuccin-latte-sky"] #ingame_HUD_PinnedShapes>.shape>.infoButton  {
+        filter:brightness(0) saturate(100%) invert(65%) sepia(15%) saturate(535%) hue-rotate(195deg) brightness(63%) contrast(82%);
+      }
+      html[data-theme="catppuccin-latte-sky"] #ingame_HUD_PinnedShapes>.shape.blueprint.blueprint .amountLabel:after,
+      html[data-theme="catppuccin-latte-sky"] #ingame_HUD_PinnedShapes>.shape.goal.blueprint .amountLabel:after,
+      html[data-theme="catppuccin-latte-sky"] #ingame_HUD_PinnedShapes>.shape.blueprint.goal .amountLabel:after,
+      html[data-theme="catppuccin-latte-sky"] #ingame_HUD_PinnedShapes>.shape.goal.goal .amountLabel:after,
+      html[data-theme="catppuccin-latte-sky"] #ingame_HUD_PinnedShapes>.shape>.unpinButton  {
+        filter:brightness(0) saturate(100%) invert(43%) sepia(43%) saturate(515%) hue-rotate(196deg) brightness(49%) contrast(68%);
+      }
+      /* Dialog (e.g. new marker) */
+      html[data-theme="catppuccin-latte-sky"] .ingameDialog>.dialogInner>.content a {
+        color: #1e66f5;
+      }
+      html[data-theme="catppuccin-latte-sky"] .ingameDialog>.dialogInner>.content input {
+        color: #4c4f69;
+        background-color: #e6e9ef;
+      }
+      html[data-theme="catppuccin-latte-sky"] .ingameDialog>.dialogInner>.content input.errored {
+        color: #eff1f5;
+        background-color: #dc8a78;
+      }
+      html[data-theme="catppuccin-latte-sky"] .ingameDialog>.dialogInner>.buttons>button.bad {
+        color: #eff1f5;
+        background-color: #d20f39;
+      }
+      html[data-theme="catppuccin-latte-sky"] .ingameDialog>.dialogInner>.buttons>button.good {
+        color: #eff1f5;
+        background-color: #40a02b;
+      }
+      /* Shop */
+      html[data-theme="catppuccin-latte-sky"] #ingame_HUD_Shop .content .upgrade .title .tier {
+        color: #eff1f5;
+        background-color: #40a02b;
+      }
+      html[data-theme="catppuccin-latte-sky"] #ingame_HUD_Shop .content .upgrade .title .tier[data-tier="0"] {
+        background-color: #179299;
+      }
+      html[data-theme="catppuccin-latte-sky"] #ingame_HUD_Shop .content .upgrade .title .tier[data-tier="1"] {
+        background-color: #1e66f5;
+      }
+      html[data-theme="catppuccin-latte-sky"] #ingame_HUD_Shop .content .upgrade .title .tier[data-tier="2"] {
+        background-color: #8839ef;
+      }
+      html[data-theme="catppuccin-latte-sky"] #ingame_HUD_Shop .content .upgrade .title .tier[data-tier="3"] {
+        background-color: #40a02b;
+      }
+      html[data-theme="catppuccin-latte-sky"] #ingame_HUD_Shop .content .upgrade .title .tier[data-tier="4"] {
+        background-color: #d20f39;
+      }
+      html[data-theme="catppuccin-latte-sky"] #ingame_HUD_Shop .content .upgrade .title .tier[data-tier="5"] {
+        background-color: #df8e1d;
+      }
+      html[data-theme="catppuccin-latte-sky"] #ingame_HUD_Shop .content .upgrade .title .tier[data-tier="6"] {
+        background-color: #dce0e8;
+      }
+      html[data-theme="catppuccin-latte-sky"] #ingame_HUD_Shop .content .upgrade {
+        background-color: #e6e9ef;
+      }
+      html[data-theme="catppuccin-latte-sky"] #ingame_HUD_Shop .content .upgrade .description {
+        color: #5c5f77;
+      }
+      html[data-theme="catppuccin-latte-sky"] #ingame_HUD_Shop .content .upgrade button.buy {
+        color: #eff1f5;
+        background-color: #40a02b;
+      }
+      html[data-theme="catppuccin-latte-sky"] #ingame_HUD_Shop .content .upgrade button.buy:not(.buyable) {
+        color: #6c6f85;
+        background-color: #ccd0da;
+      }
+      html[data-theme="catppuccin-latte-sky"] #ingame_HUD_Shop .content .upgrade .requirements .requirement .amount {
+        color: #4c4f69;
+        background-color: #dce0e8;
+      }
+      html[data-theme="catppuccin-latte-sky"] #ingame_HUD_Shop .content .upgrade .requirements .requirement .amount label.complete + label {
+        color: #eff1f5;
+      }
+      html[data-theme="catppuccin-latte-sky"] #ingame_HUD_Shop .content .upgrade .requirements .requirement .amount .progressBar.complete {
+        background-color: #40a02b;
+      }
+      html[data-theme="catppuccin-latte-sky"] #ingame_HUD_Shop .content .upgrade .requirements .requirement button.showInfo  {
+        filter:brightness(0) saturate(100%) invert(65%) sepia(15%) saturate(535%) hue-rotate(195deg) brightness(63%) contrast(82%);
+      }
+      html[data-theme="catppuccin-latte-sky"] #ingame_HUD_Shop .content .upgrade .requirements .requirement button.pin  {
+        filter:brightness(0) saturate(100%) invert(43%) sepia(43%) saturate(515%) hue-rotate(196deg) brightness(49%) contrast(68%);
+      }
+      /* Statistics */
+      html[data-theme="catppuccin-latte-sky"] #ingame_HUD_Statistics .filterHeader button {
+        color: #4c4f69;
+        background-color: #ccd0da !important;
+      }
+      html[data-theme="catppuccin-latte-sky"] #ingame_HUD_Statistics .sourceExplanation {
+        color: #6c6f85;
+      }
+      html[data-theme="catppuccin-latte-sky"] #ingame_HUD_Statistics .content>div {
+        background-color: #e6e9ef;
+      }
+      html[data-theme="catppuccin-latte-sky"] #ingame_HUD_Statistics .dialogInner[data-displaymode=detailed] .content.hasEntries>div .counter {
+        color: #4c4f69;
+      }
+      /* Unlock */
+      html[data-theme="catppuccin-latte-sky"] #ingame_HUD_UnlockNotification {
+        background: #eff1f5fa url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAAAXNSR0IArs4c6QAAAa5JREFUeJztmTFvwkAMhV+rjtlhyhKpKx2qLv3/C2Jo10pZMsGeH9DlkKKK811C7OcUfxILJJbvUzjwPSAIgiB4XJ5yH5y+fmw7qacFsAewA9Ck90YAFwBnAMOtm97fXm8We9HsdGVaAIfJoqc06dWla75zIv6yFQEfaXE1NAA+01NyLF38fH9v6sxZ/JQu3SviXUC7cPFXulQji3cBB+0angW0mQ1vLo30FHgWsLeo5VnAzqKWZwFrPP7FWp4FmOBZwGhRy7OAi0UtzwLOFrU8CxhW+hqM0mDkWQDSVKdaw7uAAUB/x/19aSz2LgBppF0ioa8Zh7dyHnBMG1nuQGTK+B8PRJAWNCw9EsuxJQFXhrmLlNjCHqBKCGA3wCYEsBtgEwLYDbAJAewG2IQAdgNslswCqw4jbOYIUMnn2dQKUMvn2dTsAar5PJuSAPV8nk1JgHo+z0YSYJLPs5EEmOTzbCQBJvk8G0mAST7P5uH/CksCTPJ5NpIAk3yejSTAJJ9nIwkwyefZlDZB9XyeTUmAej7PpuZnUDWfZ1N7HqCWz7OZcyKkks8HQRAEAY9fMBlR4F7sEJYAAAAASUVORK5CYII=") 0 0/calc(10px*var(--ui-scale)) repeat;
+      }
+      html[data-theme="catppuccin-latte-sky"] #ingame_HUD_UnlockNotification .dialog {
+        color: #4c4f69;
+      }
+      html[data-theme="catppuccin-latte-sky"] #ingame_HUD_UnlockNotification .dialog .subTitle {
+        color: #40a02b;
+      }
+      html[data-theme="catppuccin-latte-sky"] #ingame_HUD_UnlockNotification .dialog .contents .rewardDesc {
+        color: #6c6f85;
+      }
+      html[data-theme="catppuccin-latte-sky"] #ingame_HUD_UnlockNotification .dialog .contents .rewardDesc strong {
+        color: #4c4f69;
+      }
+      /* Tutorial hints */
+      html[data-theme="catppuccin-latte-sky"] #ingame_HUD_TutorialHints .header {
+        color: #4c4f69;
+      }
+      html[data-theme="catppuccin-latte-sky"] #ingame_HUD_TutorialHints .header>span:before  {
+        filter:brightness(0) saturate(100%) invert(43%) sepia(43%) saturate(515%) hue-rotate(196deg) brightness(49%) contrast(68%);
+      }
     `)
     this.modInterface.registerGameTheme({
       id: "catppuccin-latte-sapphire",
@@ -3975,6 +6076,10 @@ class Mod extends shapez.Mod {
 
       html[data-theme="catppuccin-latte-sapphire"] {
         background-color: #e6e9ef;
+      }
+
+      html[data-theme="catppuccin-latte-sapphire"] ::selection {
+        background-color: #209fb54d;
       }
 
       html[data-theme="catppuccin-latte-sapphire"] ::-webkit-scrollbar-thumb {
@@ -4200,6 +6305,193 @@ class Mod extends shapez.Mod {
       html[data-theme="catppuccin-latte-sapphire"] .gameState.textualState>.container>.content a {
         color: #209fb5;
       }
+
+      /* Ingame */
+      /* Keybindings */
+      html[data-theme="catppuccin-latte-sapphire"] #ingame_HUD_KeybindingOverlay {
+        color: #4c4f69;
+      }
+      html[data-theme="catppuccin-latte-sapphire"] .keybinding {
+        color: #ccd0da;
+        background-color: #9ca0b0;
+        border-color: #ccd0da;
+      }
+      html[data-theme="catppuccin-latte-sapphire"] #ingame_HUD_KeybindingOverlay>.binding label {
+        color: #6c6f85;
+      }
+      html[data-theme="catppuccin-latte-sapphire"] #ingame_HUD_KeybindingOverlay>.binding i {
+        background-color: #9ca0b0;
+      }
+      html[data-theme="catppuccin-latte-sapphire"] #ingame_HUD_KeybindingOverlay>.binding code.leftMouse {
+        background: #9ca0b0 url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAblJREFUWIXtlz1Lw0AYx38VdbJ0UnAJiCK4WSgItbPQyUmhmVzcpYsvg+Dg4ODL5NAPkAwKIohvs+0gRdwqQhEKItQp6AdwuUq8XpJLm8NB/1C4Ppd7/j/ukufuUkiqPz7LoW9ZjpcFVoA8cNGyMzui6xAoAHfAKVANypGbnf7xfzDQrdt4Fyj6wjVfexjIid8acAJsAs2o3AMa5qvAg2QO8BkybAloAKW+ACzHKwOVqCQBGgKcKIhAAMvxisB+j+Z+OcB8LADL8dLAZQLmHV3FAgA2EjQHSAPlOABbCQMArGsBiLU3oTHVu6CagYIhAIA5HYAFzWQjvvao5piu3KpKWJGqXJCufe0z4FVjzL0cSMmBsL0gCcl7QWQpNi3VEpSAGUN+DcCNAiiLXc2E6jKAagleDJkrc//6O/AP8OcA3nUAngwCdB1SVQA3BgHOdQCqwIcB87buDAAcGQDYUwWDALYTnoU2cBAHAMVFpB/lgzrCAKqAnYC5HXZFi6oDrkjQy3K0xfnSDXtIpxC5QFZcOHV1bDneVNgtuSOt27GYwmVgElgUh8sJYFz0v4mt9lZ8682WndFK/AVGtVKqekHA0AAAAABJRU5ErkJggg==") 50%/85% no-repeat;
+      }
+      html[data-theme="catppuccin-latte-sapphire"] #ingame_HUD_KeybindingOverlay>.binding code.rightMouse {
+        background: #9ca0b0 url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAAIGNIUk0AAHomAACAhAAA+gAAAIDoAAB1MAAA6mAAADqYAAAXcJy6UTwAAABXUExURQAAAEFFWUFFWUFFWUFFWfS45PS45PS45PS45EFFWUFFWUFFWfS45EFFWUFFWfS45PS45PS45PS45EFFWfS45EFFWUFFWUFFWUFFWUFFWUFFWfS45P///2FA/IMAAAAadFJOUwAAO4/Lf8uRMSOqlbZZ+oVlcknyDXLpuILZVda3wAAAAAFiS0dEHJwEQQcAAAAHdElNRQfqBwoMLhXJVrqTAAAAJXRFWHRkYXRlOmNyZWF0ZQAyMDI2LTA3LTEwVDEyOjQ2OjE0KzAwOjAwy4QPDwAAACV0RVh0ZGF0ZTptb2RpZnkAMjAyNi0wNy0xMFQxMjo0NjoxNCswMDowMLrZt7MAAAAodEVYdGRhdGU6dGltZXN0YW1wADIwMjYtMDctMTBUMTI6NDY6MjErMDA6MDAxe74oAAAAw0lEQVQ4y83T2w6DIAyAYUGngutwIh7a93/PHRgI2GS73H+n+SIEalU9Ez5ZN7UQl7brPy+q0PtJaUQchOiI6NqfAdzQA0OvxhIAYgbongOJJaApA/YMaE6AQwaYBCwcoAOEHRRgisDxwESwRqD9QfnaCKAOgRBTFxrzo2b6HcDGBhE0yNZEoHmg/woM34DjwRaB4oFkBibNciOXrZBe1sJ9IAXMLiT74xxBOQ8yW8XCeWDm5Li0YidKuXW3dl+dSibqAbL1NseSfU2PAAAAAElFTkSuQmCC") 50%/85% no-repeat;
+      }
+      /* Waypoint */
+      html[data-theme="catppuccin-latte-sapphire"] #ingame_HUD_Waypoints .waypoint {
+        color: #4c4f69;
+        filter:brightness(0) saturate(100%) invert(43%) sepia(43%) saturate(515%) hue-rotate(196deg) brightness(49%) contrast(68%);
+      }
+      /* Waypoints hint */
+      html[data-theme="catppuccin-latte-sapphire"] #ingame_HUD_Waypoints_Hint {
+        color: #4c4f69;
+        background-color: #bcc0cce6;
+      }
+      html[data-theme="catppuccin-latte-sapphire"] #ingame_HUD_Waypoints_Hint .desc {
+        color: #6c6f85;
+      }
+      html[data-theme="catppuccin-latte-sapphire"] #ingame_HUD_Waypoints_Hint .desc strong {
+        color: #4c4f69;
+      }
+      /* Game menu */
+      html[data-theme="catppuccin-latte-sapphire"] #ingame_HUD_GameMenu>.button.save,
+      html[data-theme="catppuccin-latte-sapphire"] #ingame_HUD_GameMenu>button.save,
+      html[data-theme="catppuccin-latte-sapphire"] #ingame_HUD_GameMenu>.button.settings,
+      html[data-theme="catppuccin-latte-sapphire"] #ingame_HUD_GameMenu>button.settings,
+      html[data-theme="catppuccin-latte-sapphire"] #ingame_HUD_GameMenu>.button.shop,
+      html[data-theme="catppuccin-latte-sapphire"] #ingame_HUD_GameMenu>button.shop,
+      html[data-theme="catppuccin-latte-sapphire"] #ingame_HUD_GameMenu>.button.stats,
+      html[data-theme="catppuccin-latte-sapphire"] #ingame_HUD_GameMenu>button.stats  {
+        filter:brightness(0) saturate(100%) invert(43%) sepia(43%) saturate(515%) hue-rotate(196deg) brightness(49%) contrast(68%);
+      }
+      /* Settings menu */
+      html[data-theme="catppuccin-latte-sapphire"] #ingame_HUD_SettingsMenu .buttons button {
+        filter:brightness(0) saturate(100%) invert(43%) sepia(43%) saturate(515%) hue-rotate(196deg) brightness(49%) contrast(68%);
+      }
+      html[data-theme="catppuccin-latte-sapphire"] #ingame_HUD_SettingsMenu .statsElement {
+        color: #4c4f69;
+      }
+      html[data-theme="catppuccin-latte-sapphire"] #ingame_HUD_SettingsMenu .statsElement strong {
+        color: #6c6f85;
+      }
+      /* Pinned shapes */
+      html[data-theme="catppuccin-latte-sapphire"] #ingame_HUD_PinnedShapes>.shape {
+        color: #4c4f69;
+      }
+      html[data-theme="catppuccin-latte-sapphire"] #ingame_HUD_PinnedShapes>.shape>.infoButton  {
+        filter:brightness(0) saturate(100%) invert(65%) sepia(15%) saturate(535%) hue-rotate(195deg) brightness(63%) contrast(82%);
+      }
+      html[data-theme="catppuccin-latte-sapphire"] #ingame_HUD_PinnedShapes>.shape.blueprint.blueprint .amountLabel:after,
+      html[data-theme="catppuccin-latte-sapphire"] #ingame_HUD_PinnedShapes>.shape.goal.blueprint .amountLabel:after,
+      html[data-theme="catppuccin-latte-sapphire"] #ingame_HUD_PinnedShapes>.shape.blueprint.goal .amountLabel:after,
+      html[data-theme="catppuccin-latte-sapphire"] #ingame_HUD_PinnedShapes>.shape.goal.goal .amountLabel:after,
+      html[data-theme="catppuccin-latte-sapphire"] #ingame_HUD_PinnedShapes>.shape>.unpinButton  {
+        filter:brightness(0) saturate(100%) invert(43%) sepia(43%) saturate(515%) hue-rotate(196deg) brightness(49%) contrast(68%);
+      }
+      /* Dialog (e.g. new marker) */
+      html[data-theme="catppuccin-latte-sapphire"] .ingameDialog>.dialogInner>.content a {
+        color: #1e66f5;
+      }
+      html[data-theme="catppuccin-latte-sapphire"] .ingameDialog>.dialogInner>.content input {
+        color: #4c4f69;
+        background-color: #e6e9ef;
+      }
+      html[data-theme="catppuccin-latte-sapphire"] .ingameDialog>.dialogInner>.content input.errored {
+        color: #eff1f5;
+        background-color: #dc8a78;
+      }
+      html[data-theme="catppuccin-latte-sapphire"] .ingameDialog>.dialogInner>.buttons>button.bad {
+        color: #eff1f5;
+        background-color: #d20f39;
+      }
+      html[data-theme="catppuccin-latte-sapphire"] .ingameDialog>.dialogInner>.buttons>button.good {
+        color: #eff1f5;
+        background-color: #40a02b;
+      }
+      /* Shop */
+      html[data-theme="catppuccin-latte-sapphire"] #ingame_HUD_Shop .content .upgrade .title .tier {
+        color: #eff1f5;
+        background-color: #40a02b;
+      }
+      html[data-theme="catppuccin-latte-sapphire"] #ingame_HUD_Shop .content .upgrade .title .tier[data-tier="0"] {
+        background-color: #179299;
+      }
+      html[data-theme="catppuccin-latte-sapphire"] #ingame_HUD_Shop .content .upgrade .title .tier[data-tier="1"] {
+        background-color: #1e66f5;
+      }
+      html[data-theme="catppuccin-latte-sapphire"] #ingame_HUD_Shop .content .upgrade .title .tier[data-tier="2"] {
+        background-color: #8839ef;
+      }
+      html[data-theme="catppuccin-latte-sapphire"] #ingame_HUD_Shop .content .upgrade .title .tier[data-tier="3"] {
+        background-color: #40a02b;
+      }
+      html[data-theme="catppuccin-latte-sapphire"] #ingame_HUD_Shop .content .upgrade .title .tier[data-tier="4"] {
+        background-color: #d20f39;
+      }
+      html[data-theme="catppuccin-latte-sapphire"] #ingame_HUD_Shop .content .upgrade .title .tier[data-tier="5"] {
+        background-color: #df8e1d;
+      }
+      html[data-theme="catppuccin-latte-sapphire"] #ingame_HUD_Shop .content .upgrade .title .tier[data-tier="6"] {
+        background-color: #dce0e8;
+      }
+      html[data-theme="catppuccin-latte-sapphire"] #ingame_HUD_Shop .content .upgrade {
+        background-color: #e6e9ef;
+      }
+      html[data-theme="catppuccin-latte-sapphire"] #ingame_HUD_Shop .content .upgrade .description {
+        color: #5c5f77;
+      }
+      html[data-theme="catppuccin-latte-sapphire"] #ingame_HUD_Shop .content .upgrade button.buy {
+        color: #eff1f5;
+        background-color: #40a02b;
+      }
+      html[data-theme="catppuccin-latte-sapphire"] #ingame_HUD_Shop .content .upgrade button.buy:not(.buyable) {
+        color: #6c6f85;
+        background-color: #ccd0da;
+      }
+      html[data-theme="catppuccin-latte-sapphire"] #ingame_HUD_Shop .content .upgrade .requirements .requirement .amount {
+        color: #4c4f69;
+        background-color: #dce0e8;
+      }
+      html[data-theme="catppuccin-latte-sapphire"] #ingame_HUD_Shop .content .upgrade .requirements .requirement .amount label.complete + label {
+        color: #eff1f5;
+      }
+      html[data-theme="catppuccin-latte-sapphire"] #ingame_HUD_Shop .content .upgrade .requirements .requirement .amount .progressBar.complete {
+        background-color: #40a02b;
+      }
+      html[data-theme="catppuccin-latte-sapphire"] #ingame_HUD_Shop .content .upgrade .requirements .requirement button.showInfo  {
+        filter:brightness(0) saturate(100%) invert(65%) sepia(15%) saturate(535%) hue-rotate(195deg) brightness(63%) contrast(82%);
+      }
+      html[data-theme="catppuccin-latte-sapphire"] #ingame_HUD_Shop .content .upgrade .requirements .requirement button.pin  {
+        filter:brightness(0) saturate(100%) invert(43%) sepia(43%) saturate(515%) hue-rotate(196deg) brightness(49%) contrast(68%);
+      }
+      /* Statistics */
+      html[data-theme="catppuccin-latte-sapphire"] #ingame_HUD_Statistics .filterHeader button {
+        color: #4c4f69;
+        background-color: #ccd0da !important;
+      }
+      html[data-theme="catppuccin-latte-sapphire"] #ingame_HUD_Statistics .sourceExplanation {
+        color: #6c6f85;
+      }
+      html[data-theme="catppuccin-latte-sapphire"] #ingame_HUD_Statistics .content>div {
+        background-color: #e6e9ef;
+      }
+      html[data-theme="catppuccin-latte-sapphire"] #ingame_HUD_Statistics .dialogInner[data-displaymode=detailed] .content.hasEntries>div .counter {
+        color: #4c4f69;
+      }
+      /* Unlock */
+      html[data-theme="catppuccin-latte-sapphire"] #ingame_HUD_UnlockNotification {
+        background: #eff1f5fa url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAAAXNSR0IArs4c6QAAAa5JREFUeJztmTFvwkAMhV+rjtlhyhKpKx2qLv3/C2Jo10pZMsGeH9DlkKKK811C7OcUfxILJJbvUzjwPSAIgiB4XJ5yH5y+fmw7qacFsAewA9Ck90YAFwBnAMOtm97fXm8We9HsdGVaAIfJoqc06dWla75zIv6yFQEfaXE1NAA+01NyLF38fH9v6sxZ/JQu3SviXUC7cPFXulQji3cBB+0angW0mQ1vLo30FHgWsLeo5VnAzqKWZwFrPP7FWp4FmOBZwGhRy7OAi0UtzwLOFrU8CxhW+hqM0mDkWQDSVKdaw7uAAUB/x/19aSz2LgBppF0ioa8Zh7dyHnBMG1nuQGTK+B8PRJAWNCw9EsuxJQFXhrmLlNjCHqBKCGA3wCYEsBtgEwLYDbAJAewG2IQAdgNslswCqw4jbOYIUMnn2dQKUMvn2dTsAar5PJuSAPV8nk1JgHo+z0YSYJLPs5EEmOTzbCQBJvk8G0mAST7P5uH/CksCTPJ5NpIAk3yejSTAJJ9nIwkwyefZlDZB9XyeTUmAej7PpuZnUDWfZ1N7HqCWz7OZcyKkks8HQRAEAY9fMBlR4F7sEJYAAAAASUVORK5CYII=") 0 0/calc(10px*var(--ui-scale)) repeat;
+      }
+      html[data-theme="catppuccin-latte-sapphire"] #ingame_HUD_UnlockNotification .dialog {
+        color: #4c4f69;
+      }
+      html[data-theme="catppuccin-latte-sapphire"] #ingame_HUD_UnlockNotification .dialog .subTitle {
+        color: #40a02b;
+      }
+      html[data-theme="catppuccin-latte-sapphire"] #ingame_HUD_UnlockNotification .dialog .contents .rewardDesc {
+        color: #6c6f85;
+      }
+      html[data-theme="catppuccin-latte-sapphire"] #ingame_HUD_UnlockNotification .dialog .contents .rewardDesc strong {
+        color: #4c4f69;
+      }
+      /* Tutorial hints */
+      html[data-theme="catppuccin-latte-sapphire"] #ingame_HUD_TutorialHints .header {
+        color: #4c4f69;
+      }
+      html[data-theme="catppuccin-latte-sapphire"] #ingame_HUD_TutorialHints .header>span:before  {
+        filter:brightness(0) saturate(100%) invert(43%) sepia(43%) saturate(515%) hue-rotate(196deg) brightness(49%) contrast(68%);
+      }
     `)
     this.modInterface.registerGameTheme({
       id: "catppuccin-latte-blue",
@@ -4324,6 +6616,10 @@ class Mod extends shapez.Mod {
 
       html[data-theme="catppuccin-latte-blue"] {
         background-color: #e6e9ef;
+      }
+
+      html[data-theme="catppuccin-latte-blue"] ::selection {
+        background-color: #1e66f54d;
       }
 
       html[data-theme="catppuccin-latte-blue"] ::-webkit-scrollbar-thumb {
@@ -4549,6 +6845,193 @@ class Mod extends shapez.Mod {
       html[data-theme="catppuccin-latte-blue"] .gameState.textualState>.container>.content a {
         color: #1e66f5;
       }
+
+      /* Ingame */
+      /* Keybindings */
+      html[data-theme="catppuccin-latte-blue"] #ingame_HUD_KeybindingOverlay {
+        color: #4c4f69;
+      }
+      html[data-theme="catppuccin-latte-blue"] .keybinding {
+        color: #ccd0da;
+        background-color: #9ca0b0;
+        border-color: #ccd0da;
+      }
+      html[data-theme="catppuccin-latte-blue"] #ingame_HUD_KeybindingOverlay>.binding label {
+        color: #6c6f85;
+      }
+      html[data-theme="catppuccin-latte-blue"] #ingame_HUD_KeybindingOverlay>.binding i {
+        background-color: #9ca0b0;
+      }
+      html[data-theme="catppuccin-latte-blue"] #ingame_HUD_KeybindingOverlay>.binding code.leftMouse {
+        background: #9ca0b0 url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAblJREFUWIXtlz1Lw0AYx38VdbJ0UnAJiCK4WSgItbPQyUmhmVzcpYsvg+Dg4ODL5NAPkAwKIohvs+0gRdwqQhEKItQp6AdwuUq8XpJLm8NB/1C4Ppd7/j/ukufuUkiqPz7LoW9ZjpcFVoA8cNGyMzui6xAoAHfAKVANypGbnf7xfzDQrdt4Fyj6wjVfexjIid8acAJsAs2o3AMa5qvAg2QO8BkybAloAKW+ACzHKwOVqCQBGgKcKIhAAMvxisB+j+Z+OcB8LADL8dLAZQLmHV3FAgA2EjQHSAPlOABbCQMArGsBiLU3oTHVu6CagYIhAIA5HYAFzWQjvvao5piu3KpKWJGqXJCufe0z4FVjzL0cSMmBsL0gCcl7QWQpNi3VEpSAGUN+DcCNAiiLXc2E6jKAagleDJkrc//6O/AP8OcA3nUAngwCdB1SVQA3BgHOdQCqwIcB87buDAAcGQDYUwWDALYTnoU2cBAHAMVFpB/lgzrCAKqAnYC5HXZFi6oDrkjQy3K0xfnSDXtIpxC5QFZcOHV1bDneVNgtuSOt27GYwmVgElgUh8sJYFz0v4mt9lZ8682WndFK/AVGtVKqekHA0AAAAABJRU5ErkJggg==") 50%/85% no-repeat;
+      }
+      html[data-theme="catppuccin-latte-blue"] #ingame_HUD_KeybindingOverlay>.binding code.rightMouse {
+        background: #9ca0b0 url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAAIGNIUk0AAHomAACAhAAA+gAAAIDoAAB1MAAA6mAAADqYAAAXcJy6UTwAAABXUExURQAAAEFFWUFFWUFFWUFFWfS45PS45PS45PS45EFFWUFFWUFFWfS45EFFWUFFWfS45PS45PS45PS45EFFWfS45EFFWUFFWUFFWUFFWUFFWUFFWfS45P///2FA/IMAAAAadFJOUwAAO4/Lf8uRMSOqlbZZ+oVlcknyDXLpuILZVda3wAAAAAFiS0dEHJwEQQcAAAAHdElNRQfqBwoMLhXJVrqTAAAAJXRFWHRkYXRlOmNyZWF0ZQAyMDI2LTA3LTEwVDEyOjQ2OjE0KzAwOjAwy4QPDwAAACV0RVh0ZGF0ZTptb2RpZnkAMjAyNi0wNy0xMFQxMjo0NjoxNCswMDowMLrZt7MAAAAodEVYdGRhdGU6dGltZXN0YW1wADIwMjYtMDctMTBUMTI6NDY6MjErMDA6MDAxe74oAAAAw0lEQVQ4y83T2w6DIAyAYUGngutwIh7a93/PHRgI2GS73H+n+SIEalU9Ez5ZN7UQl7brPy+q0PtJaUQchOiI6NqfAdzQA0OvxhIAYgbongOJJaApA/YMaE6AQwaYBCwcoAOEHRRgisDxwESwRqD9QfnaCKAOgRBTFxrzo2b6HcDGBhE0yNZEoHmg/woM34DjwRaB4oFkBibNciOXrZBe1sJ9IAXMLiT74xxBOQ8yW8XCeWDm5Li0YidKuXW3dl+dSibqAbL1NseSfU2PAAAAAElFTkSuQmCC") 50%/85% no-repeat;
+      }
+      /* Waypoint */
+      html[data-theme="catppuccin-latte-blue"] #ingame_HUD_Waypoints .waypoint {
+        color: #4c4f69;
+        filter:brightness(0) saturate(100%) invert(43%) sepia(43%) saturate(515%) hue-rotate(196deg) brightness(49%) contrast(68%);
+      }
+      /* Waypoints hint */
+      html[data-theme="catppuccin-latte-blue"] #ingame_HUD_Waypoints_Hint {
+        color: #4c4f69;
+        background-color: #bcc0cce6;
+      }
+      html[data-theme="catppuccin-latte-blue"] #ingame_HUD_Waypoints_Hint .desc {
+        color: #6c6f85;
+      }
+      html[data-theme="catppuccin-latte-blue"] #ingame_HUD_Waypoints_Hint .desc strong {
+        color: #4c4f69;
+      }
+      /* Game menu */
+      html[data-theme="catppuccin-latte-blue"] #ingame_HUD_GameMenu>.button.save,
+      html[data-theme="catppuccin-latte-blue"] #ingame_HUD_GameMenu>button.save,
+      html[data-theme="catppuccin-latte-blue"] #ingame_HUD_GameMenu>.button.settings,
+      html[data-theme="catppuccin-latte-blue"] #ingame_HUD_GameMenu>button.settings,
+      html[data-theme="catppuccin-latte-blue"] #ingame_HUD_GameMenu>.button.shop,
+      html[data-theme="catppuccin-latte-blue"] #ingame_HUD_GameMenu>button.shop,
+      html[data-theme="catppuccin-latte-blue"] #ingame_HUD_GameMenu>.button.stats,
+      html[data-theme="catppuccin-latte-blue"] #ingame_HUD_GameMenu>button.stats  {
+        filter:brightness(0) saturate(100%) invert(43%) sepia(43%) saturate(515%) hue-rotate(196deg) brightness(49%) contrast(68%);
+      }
+      /* Settings menu */
+      html[data-theme="catppuccin-latte-blue"] #ingame_HUD_SettingsMenu .buttons button {
+        filter:brightness(0) saturate(100%) invert(43%) sepia(43%) saturate(515%) hue-rotate(196deg) brightness(49%) contrast(68%);
+      }
+      html[data-theme="catppuccin-latte-blue"] #ingame_HUD_SettingsMenu .statsElement {
+        color: #4c4f69;
+      }
+      html[data-theme="catppuccin-latte-blue"] #ingame_HUD_SettingsMenu .statsElement strong {
+        color: #6c6f85;
+      }
+      /* Pinned shapes */
+      html[data-theme="catppuccin-latte-blue"] #ingame_HUD_PinnedShapes>.shape {
+        color: #4c4f69;
+      }
+      html[data-theme="catppuccin-latte-blue"] #ingame_HUD_PinnedShapes>.shape>.infoButton  {
+        filter:brightness(0) saturate(100%) invert(65%) sepia(15%) saturate(535%) hue-rotate(195deg) brightness(63%) contrast(82%);
+      }
+      html[data-theme="catppuccin-latte-blue"] #ingame_HUD_PinnedShapes>.shape.blueprint.blueprint .amountLabel:after,
+      html[data-theme="catppuccin-latte-blue"] #ingame_HUD_PinnedShapes>.shape.goal.blueprint .amountLabel:after,
+      html[data-theme="catppuccin-latte-blue"] #ingame_HUD_PinnedShapes>.shape.blueprint.goal .amountLabel:after,
+      html[data-theme="catppuccin-latte-blue"] #ingame_HUD_PinnedShapes>.shape.goal.goal .amountLabel:after,
+      html[data-theme="catppuccin-latte-blue"] #ingame_HUD_PinnedShapes>.shape>.unpinButton  {
+        filter:brightness(0) saturate(100%) invert(43%) sepia(43%) saturate(515%) hue-rotate(196deg) brightness(49%) contrast(68%);
+      }
+      /* Dialog (e.g. new marker) */
+      html[data-theme="catppuccin-latte-blue"] .ingameDialog>.dialogInner>.content a {
+        color: #1e66f5;
+      }
+      html[data-theme="catppuccin-latte-blue"] .ingameDialog>.dialogInner>.content input {
+        color: #4c4f69;
+        background-color: #e6e9ef;
+      }
+      html[data-theme="catppuccin-latte-blue"] .ingameDialog>.dialogInner>.content input.errored {
+        color: #eff1f5;
+        background-color: #dc8a78;
+      }
+      html[data-theme="catppuccin-latte-blue"] .ingameDialog>.dialogInner>.buttons>button.bad {
+        color: #eff1f5;
+        background-color: #d20f39;
+      }
+      html[data-theme="catppuccin-latte-blue"] .ingameDialog>.dialogInner>.buttons>button.good {
+        color: #eff1f5;
+        background-color: #40a02b;
+      }
+      /* Shop */
+      html[data-theme="catppuccin-latte-blue"] #ingame_HUD_Shop .content .upgrade .title .tier {
+        color: #eff1f5;
+        background-color: #40a02b;
+      }
+      html[data-theme="catppuccin-latte-blue"] #ingame_HUD_Shop .content .upgrade .title .tier[data-tier="0"] {
+        background-color: #179299;
+      }
+      html[data-theme="catppuccin-latte-blue"] #ingame_HUD_Shop .content .upgrade .title .tier[data-tier="1"] {
+        background-color: #1e66f5;
+      }
+      html[data-theme="catppuccin-latte-blue"] #ingame_HUD_Shop .content .upgrade .title .tier[data-tier="2"] {
+        background-color: #8839ef;
+      }
+      html[data-theme="catppuccin-latte-blue"] #ingame_HUD_Shop .content .upgrade .title .tier[data-tier="3"] {
+        background-color: #40a02b;
+      }
+      html[data-theme="catppuccin-latte-blue"] #ingame_HUD_Shop .content .upgrade .title .tier[data-tier="4"] {
+        background-color: #d20f39;
+      }
+      html[data-theme="catppuccin-latte-blue"] #ingame_HUD_Shop .content .upgrade .title .tier[data-tier="5"] {
+        background-color: #df8e1d;
+      }
+      html[data-theme="catppuccin-latte-blue"] #ingame_HUD_Shop .content .upgrade .title .tier[data-tier="6"] {
+        background-color: #dce0e8;
+      }
+      html[data-theme="catppuccin-latte-blue"] #ingame_HUD_Shop .content .upgrade {
+        background-color: #e6e9ef;
+      }
+      html[data-theme="catppuccin-latte-blue"] #ingame_HUD_Shop .content .upgrade .description {
+        color: #5c5f77;
+      }
+      html[data-theme="catppuccin-latte-blue"] #ingame_HUD_Shop .content .upgrade button.buy {
+        color: #eff1f5;
+        background-color: #40a02b;
+      }
+      html[data-theme="catppuccin-latte-blue"] #ingame_HUD_Shop .content .upgrade button.buy:not(.buyable) {
+        color: #6c6f85;
+        background-color: #ccd0da;
+      }
+      html[data-theme="catppuccin-latte-blue"] #ingame_HUD_Shop .content .upgrade .requirements .requirement .amount {
+        color: #4c4f69;
+        background-color: #dce0e8;
+      }
+      html[data-theme="catppuccin-latte-blue"] #ingame_HUD_Shop .content .upgrade .requirements .requirement .amount label.complete + label {
+        color: #eff1f5;
+      }
+      html[data-theme="catppuccin-latte-blue"] #ingame_HUD_Shop .content .upgrade .requirements .requirement .amount .progressBar.complete {
+        background-color: #40a02b;
+      }
+      html[data-theme="catppuccin-latte-blue"] #ingame_HUD_Shop .content .upgrade .requirements .requirement button.showInfo  {
+        filter:brightness(0) saturate(100%) invert(65%) sepia(15%) saturate(535%) hue-rotate(195deg) brightness(63%) contrast(82%);
+      }
+      html[data-theme="catppuccin-latte-blue"] #ingame_HUD_Shop .content .upgrade .requirements .requirement button.pin  {
+        filter:brightness(0) saturate(100%) invert(43%) sepia(43%) saturate(515%) hue-rotate(196deg) brightness(49%) contrast(68%);
+      }
+      /* Statistics */
+      html[data-theme="catppuccin-latte-blue"] #ingame_HUD_Statistics .filterHeader button {
+        color: #4c4f69;
+        background-color: #ccd0da !important;
+      }
+      html[data-theme="catppuccin-latte-blue"] #ingame_HUD_Statistics .sourceExplanation {
+        color: #6c6f85;
+      }
+      html[data-theme="catppuccin-latte-blue"] #ingame_HUD_Statistics .content>div {
+        background-color: #e6e9ef;
+      }
+      html[data-theme="catppuccin-latte-blue"] #ingame_HUD_Statistics .dialogInner[data-displaymode=detailed] .content.hasEntries>div .counter {
+        color: #4c4f69;
+      }
+      /* Unlock */
+      html[data-theme="catppuccin-latte-blue"] #ingame_HUD_UnlockNotification {
+        background: #eff1f5fa url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAAAXNSR0IArs4c6QAAAa5JREFUeJztmTFvwkAMhV+rjtlhyhKpKx2qLv3/C2Jo10pZMsGeH9DlkKKK811C7OcUfxILJJbvUzjwPSAIgiB4XJ5yH5y+fmw7qacFsAewA9Ck90YAFwBnAMOtm97fXm8We9HsdGVaAIfJoqc06dWla75zIv6yFQEfaXE1NAA+01NyLF38fH9v6sxZ/JQu3SviXUC7cPFXulQji3cBB+0angW0mQ1vLo30FHgWsLeo5VnAzqKWZwFrPP7FWp4FmOBZwGhRy7OAi0UtzwLOFrU8CxhW+hqM0mDkWQDSVKdaw7uAAUB/x/19aSz2LgBppF0ioa8Zh7dyHnBMG1nuQGTK+B8PRJAWNCw9EsuxJQFXhrmLlNjCHqBKCGA3wCYEsBtgEwLYDbAJAewG2IQAdgNslswCqw4jbOYIUMnn2dQKUMvn2dTsAar5PJuSAPV8nk1JgHo+z0YSYJLPs5EEmOTzbCQBJvk8G0mAST7P5uH/CksCTPJ5NpIAk3yejSTAJJ9nIwkwyefZlDZB9XyeTUmAej7PpuZnUDWfZ1N7HqCWz7OZcyKkks8HQRAEAY9fMBlR4F7sEJYAAAAASUVORK5CYII=") 0 0/calc(10px*var(--ui-scale)) repeat;
+      }
+      html[data-theme="catppuccin-latte-blue"] #ingame_HUD_UnlockNotification .dialog {
+        color: #4c4f69;
+      }
+      html[data-theme="catppuccin-latte-blue"] #ingame_HUD_UnlockNotification .dialog .subTitle {
+        color: #40a02b;
+      }
+      html[data-theme="catppuccin-latte-blue"] #ingame_HUD_UnlockNotification .dialog .contents .rewardDesc {
+        color: #6c6f85;
+      }
+      html[data-theme="catppuccin-latte-blue"] #ingame_HUD_UnlockNotification .dialog .contents .rewardDesc strong {
+        color: #4c4f69;
+      }
+      /* Tutorial hints */
+      html[data-theme="catppuccin-latte-blue"] #ingame_HUD_TutorialHints .header {
+        color: #4c4f69;
+      }
+      html[data-theme="catppuccin-latte-blue"] #ingame_HUD_TutorialHints .header>span:before  {
+        filter:brightness(0) saturate(100%) invert(43%) sepia(43%) saturate(515%) hue-rotate(196deg) brightness(49%) contrast(68%);
+      }
     `)
     this.modInterface.registerGameTheme({
       id: "catppuccin-latte-lavender",
@@ -4673,6 +7156,10 @@ class Mod extends shapez.Mod {
 
       html[data-theme="catppuccin-latte-lavender"] {
         background-color: #e6e9ef;
+      }
+
+      html[data-theme="catppuccin-latte-lavender"] ::selection {
+        background-color: #7287fd4d;
       }
 
       html[data-theme="catppuccin-latte-lavender"] ::-webkit-scrollbar-thumb {
@@ -4898,6 +7385,193 @@ class Mod extends shapez.Mod {
       html[data-theme="catppuccin-latte-lavender"] .gameState.textualState>.container>.content a {
         color: #7287fd;
       }
+
+      /* Ingame */
+      /* Keybindings */
+      html[data-theme="catppuccin-latte-lavender"] #ingame_HUD_KeybindingOverlay {
+        color: #4c4f69;
+      }
+      html[data-theme="catppuccin-latte-lavender"] .keybinding {
+        color: #ccd0da;
+        background-color: #9ca0b0;
+        border-color: #ccd0da;
+      }
+      html[data-theme="catppuccin-latte-lavender"] #ingame_HUD_KeybindingOverlay>.binding label {
+        color: #6c6f85;
+      }
+      html[data-theme="catppuccin-latte-lavender"] #ingame_HUD_KeybindingOverlay>.binding i {
+        background-color: #9ca0b0;
+      }
+      html[data-theme="catppuccin-latte-lavender"] #ingame_HUD_KeybindingOverlay>.binding code.leftMouse {
+        background: #9ca0b0 url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAblJREFUWIXtlz1Lw0AYx38VdbJ0UnAJiCK4WSgItbPQyUmhmVzcpYsvg+Dg4ODL5NAPkAwKIohvs+0gRdwqQhEKItQp6AdwuUq8XpJLm8NB/1C4Ppd7/j/ukufuUkiqPz7LoW9ZjpcFVoA8cNGyMzui6xAoAHfAKVANypGbnf7xfzDQrdt4Fyj6wjVfexjIid8acAJsAs2o3AMa5qvAg2QO8BkybAloAKW+ACzHKwOVqCQBGgKcKIhAAMvxisB+j+Z+OcB8LADL8dLAZQLmHV3FAgA2EjQHSAPlOABbCQMArGsBiLU3oTHVu6CagYIhAIA5HYAFzWQjvvao5piu3KpKWJGqXJCufe0z4FVjzL0cSMmBsL0gCcl7QWQpNi3VEpSAGUN+DcCNAiiLXc2E6jKAagleDJkrc//6O/AP8OcA3nUAngwCdB1SVQA3BgHOdQCqwIcB87buDAAcGQDYUwWDALYTnoU2cBAHAMVFpB/lgzrCAKqAnYC5HXZFi6oDrkjQy3K0xfnSDXtIpxC5QFZcOHV1bDneVNgtuSOt27GYwmVgElgUh8sJYFz0v4mt9lZ8682WndFK/AVGtVKqekHA0AAAAABJRU5ErkJggg==") 50%/85% no-repeat;
+      }
+      html[data-theme="catppuccin-latte-lavender"] #ingame_HUD_KeybindingOverlay>.binding code.rightMouse {
+        background: #9ca0b0 url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAAIGNIUk0AAHomAACAhAAA+gAAAIDoAAB1MAAA6mAAADqYAAAXcJy6UTwAAABXUExURQAAAEFFWUFFWUFFWUFFWfS45PS45PS45PS45EFFWUFFWUFFWfS45EFFWUFFWfS45PS45PS45PS45EFFWfS45EFFWUFFWUFFWUFFWUFFWUFFWfS45P///2FA/IMAAAAadFJOUwAAO4/Lf8uRMSOqlbZZ+oVlcknyDXLpuILZVda3wAAAAAFiS0dEHJwEQQcAAAAHdElNRQfqBwoMLhXJVrqTAAAAJXRFWHRkYXRlOmNyZWF0ZQAyMDI2LTA3LTEwVDEyOjQ2OjE0KzAwOjAwy4QPDwAAACV0RVh0ZGF0ZTptb2RpZnkAMjAyNi0wNy0xMFQxMjo0NjoxNCswMDowMLrZt7MAAAAodEVYdGRhdGU6dGltZXN0YW1wADIwMjYtMDctMTBUMTI6NDY6MjErMDA6MDAxe74oAAAAw0lEQVQ4y83T2w6DIAyAYUGngutwIh7a93/PHRgI2GS73H+n+SIEalU9Ez5ZN7UQl7brPy+q0PtJaUQchOiI6NqfAdzQA0OvxhIAYgbongOJJaApA/YMaE6AQwaYBCwcoAOEHRRgisDxwESwRqD9QfnaCKAOgRBTFxrzo2b6HcDGBhE0yNZEoHmg/woM34DjwRaB4oFkBibNciOXrZBe1sJ9IAXMLiT74xxBOQ8yW8XCeWDm5Li0YidKuXW3dl+dSibqAbL1NseSfU2PAAAAAElFTkSuQmCC") 50%/85% no-repeat;
+      }
+      /* Waypoint */
+      html[data-theme="catppuccin-latte-lavender"] #ingame_HUD_Waypoints .waypoint {
+        color: #4c4f69;
+        filter:brightness(0) saturate(100%) invert(43%) sepia(43%) saturate(515%) hue-rotate(196deg) brightness(49%) contrast(68%);
+      }
+      /* Waypoints hint */
+      html[data-theme="catppuccin-latte-lavender"] #ingame_HUD_Waypoints_Hint {
+        color: #4c4f69;
+        background-color: #bcc0cce6;
+      }
+      html[data-theme="catppuccin-latte-lavender"] #ingame_HUD_Waypoints_Hint .desc {
+        color: #6c6f85;
+      }
+      html[data-theme="catppuccin-latte-lavender"] #ingame_HUD_Waypoints_Hint .desc strong {
+        color: #4c4f69;
+      }
+      /* Game menu */
+      html[data-theme="catppuccin-latte-lavender"] #ingame_HUD_GameMenu>.button.save,
+      html[data-theme="catppuccin-latte-lavender"] #ingame_HUD_GameMenu>button.save,
+      html[data-theme="catppuccin-latte-lavender"] #ingame_HUD_GameMenu>.button.settings,
+      html[data-theme="catppuccin-latte-lavender"] #ingame_HUD_GameMenu>button.settings,
+      html[data-theme="catppuccin-latte-lavender"] #ingame_HUD_GameMenu>.button.shop,
+      html[data-theme="catppuccin-latte-lavender"] #ingame_HUD_GameMenu>button.shop,
+      html[data-theme="catppuccin-latte-lavender"] #ingame_HUD_GameMenu>.button.stats,
+      html[data-theme="catppuccin-latte-lavender"] #ingame_HUD_GameMenu>button.stats  {
+        filter:brightness(0) saturate(100%) invert(43%) sepia(43%) saturate(515%) hue-rotate(196deg) brightness(49%) contrast(68%);
+      }
+      /* Settings menu */
+      html[data-theme="catppuccin-latte-lavender"] #ingame_HUD_SettingsMenu .buttons button {
+        filter:brightness(0) saturate(100%) invert(43%) sepia(43%) saturate(515%) hue-rotate(196deg) brightness(49%) contrast(68%);
+      }
+      html[data-theme="catppuccin-latte-lavender"] #ingame_HUD_SettingsMenu .statsElement {
+        color: #4c4f69;
+      }
+      html[data-theme="catppuccin-latte-lavender"] #ingame_HUD_SettingsMenu .statsElement strong {
+        color: #6c6f85;
+      }
+      /* Pinned shapes */
+      html[data-theme="catppuccin-latte-lavender"] #ingame_HUD_PinnedShapes>.shape {
+        color: #4c4f69;
+      }
+      html[data-theme="catppuccin-latte-lavender"] #ingame_HUD_PinnedShapes>.shape>.infoButton  {
+        filter:brightness(0) saturate(100%) invert(65%) sepia(15%) saturate(535%) hue-rotate(195deg) brightness(63%) contrast(82%);
+      }
+      html[data-theme="catppuccin-latte-lavender"] #ingame_HUD_PinnedShapes>.shape.blueprint.blueprint .amountLabel:after,
+      html[data-theme="catppuccin-latte-lavender"] #ingame_HUD_PinnedShapes>.shape.goal.blueprint .amountLabel:after,
+      html[data-theme="catppuccin-latte-lavender"] #ingame_HUD_PinnedShapes>.shape.blueprint.goal .amountLabel:after,
+      html[data-theme="catppuccin-latte-lavender"] #ingame_HUD_PinnedShapes>.shape.goal.goal .amountLabel:after,
+      html[data-theme="catppuccin-latte-lavender"] #ingame_HUD_PinnedShapes>.shape>.unpinButton  {
+        filter:brightness(0) saturate(100%) invert(43%) sepia(43%) saturate(515%) hue-rotate(196deg) brightness(49%) contrast(68%);
+      }
+      /* Dialog (e.g. new marker) */
+      html[data-theme="catppuccin-latte-lavender"] .ingameDialog>.dialogInner>.content a {
+        color: #1e66f5;
+      }
+      html[data-theme="catppuccin-latte-lavender"] .ingameDialog>.dialogInner>.content input {
+        color: #4c4f69;
+        background-color: #e6e9ef;
+      }
+      html[data-theme="catppuccin-latte-lavender"] .ingameDialog>.dialogInner>.content input.errored {
+        color: #eff1f5;
+        background-color: #dc8a78;
+      }
+      html[data-theme="catppuccin-latte-lavender"] .ingameDialog>.dialogInner>.buttons>button.bad {
+        color: #eff1f5;
+        background-color: #d20f39;
+      }
+      html[data-theme="catppuccin-latte-lavender"] .ingameDialog>.dialogInner>.buttons>button.good {
+        color: #eff1f5;
+        background-color: #40a02b;
+      }
+      /* Shop */
+      html[data-theme="catppuccin-latte-lavender"] #ingame_HUD_Shop .content .upgrade .title .tier {
+        color: #eff1f5;
+        background-color: #40a02b;
+      }
+      html[data-theme="catppuccin-latte-lavender"] #ingame_HUD_Shop .content .upgrade .title .tier[data-tier="0"] {
+        background-color: #179299;
+      }
+      html[data-theme="catppuccin-latte-lavender"] #ingame_HUD_Shop .content .upgrade .title .tier[data-tier="1"] {
+        background-color: #1e66f5;
+      }
+      html[data-theme="catppuccin-latte-lavender"] #ingame_HUD_Shop .content .upgrade .title .tier[data-tier="2"] {
+        background-color: #8839ef;
+      }
+      html[data-theme="catppuccin-latte-lavender"] #ingame_HUD_Shop .content .upgrade .title .tier[data-tier="3"] {
+        background-color: #40a02b;
+      }
+      html[data-theme="catppuccin-latte-lavender"] #ingame_HUD_Shop .content .upgrade .title .tier[data-tier="4"] {
+        background-color: #d20f39;
+      }
+      html[data-theme="catppuccin-latte-lavender"] #ingame_HUD_Shop .content .upgrade .title .tier[data-tier="5"] {
+        background-color: #df8e1d;
+      }
+      html[data-theme="catppuccin-latte-lavender"] #ingame_HUD_Shop .content .upgrade .title .tier[data-tier="6"] {
+        background-color: #dce0e8;
+      }
+      html[data-theme="catppuccin-latte-lavender"] #ingame_HUD_Shop .content .upgrade {
+        background-color: #e6e9ef;
+      }
+      html[data-theme="catppuccin-latte-lavender"] #ingame_HUD_Shop .content .upgrade .description {
+        color: #5c5f77;
+      }
+      html[data-theme="catppuccin-latte-lavender"] #ingame_HUD_Shop .content .upgrade button.buy {
+        color: #eff1f5;
+        background-color: #40a02b;
+      }
+      html[data-theme="catppuccin-latte-lavender"] #ingame_HUD_Shop .content .upgrade button.buy:not(.buyable) {
+        color: #6c6f85;
+        background-color: #ccd0da;
+      }
+      html[data-theme="catppuccin-latte-lavender"] #ingame_HUD_Shop .content .upgrade .requirements .requirement .amount {
+        color: #4c4f69;
+        background-color: #dce0e8;
+      }
+      html[data-theme="catppuccin-latte-lavender"] #ingame_HUD_Shop .content .upgrade .requirements .requirement .amount label.complete + label {
+        color: #eff1f5;
+      }
+      html[data-theme="catppuccin-latte-lavender"] #ingame_HUD_Shop .content .upgrade .requirements .requirement .amount .progressBar.complete {
+        background-color: #40a02b;
+      }
+      html[data-theme="catppuccin-latte-lavender"] #ingame_HUD_Shop .content .upgrade .requirements .requirement button.showInfo  {
+        filter:brightness(0) saturate(100%) invert(65%) sepia(15%) saturate(535%) hue-rotate(195deg) brightness(63%) contrast(82%);
+      }
+      html[data-theme="catppuccin-latte-lavender"] #ingame_HUD_Shop .content .upgrade .requirements .requirement button.pin  {
+        filter:brightness(0) saturate(100%) invert(43%) sepia(43%) saturate(515%) hue-rotate(196deg) brightness(49%) contrast(68%);
+      }
+      /* Statistics */
+      html[data-theme="catppuccin-latte-lavender"] #ingame_HUD_Statistics .filterHeader button {
+        color: #4c4f69;
+        background-color: #ccd0da !important;
+      }
+      html[data-theme="catppuccin-latte-lavender"] #ingame_HUD_Statistics .sourceExplanation {
+        color: #6c6f85;
+      }
+      html[data-theme="catppuccin-latte-lavender"] #ingame_HUD_Statistics .content>div {
+        background-color: #e6e9ef;
+      }
+      html[data-theme="catppuccin-latte-lavender"] #ingame_HUD_Statistics .dialogInner[data-displaymode=detailed] .content.hasEntries>div .counter {
+        color: #4c4f69;
+      }
+      /* Unlock */
+      html[data-theme="catppuccin-latte-lavender"] #ingame_HUD_UnlockNotification {
+        background: #eff1f5fa url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAAAXNSR0IArs4c6QAAAa5JREFUeJztmTFvwkAMhV+rjtlhyhKpKx2qLv3/C2Jo10pZMsGeH9DlkKKK811C7OcUfxILJJbvUzjwPSAIgiB4XJ5yH5y+fmw7qacFsAewA9Ck90YAFwBnAMOtm97fXm8We9HsdGVaAIfJoqc06dWla75zIv6yFQEfaXE1NAA+01NyLF38fH9v6sxZ/JQu3SviXUC7cPFXulQji3cBB+0angW0mQ1vLo30FHgWsLeo5VnAzqKWZwFrPP7FWp4FmOBZwGhRy7OAi0UtzwLOFrU8CxhW+hqM0mDkWQDSVKdaw7uAAUB/x/19aSz2LgBppF0ioa8Zh7dyHnBMG1nuQGTK+B8PRJAWNCw9EsuxJQFXhrmLlNjCHqBKCGA3wCYEsBtgEwLYDbAJAewG2IQAdgNslswCqw4jbOYIUMnn2dQKUMvn2dTsAar5PJuSAPV8nk1JgHo+z0YSYJLPs5EEmOTzbCQBJvk8G0mAST7P5uH/CksCTPJ5NpIAk3yejSTAJJ9nIwkwyefZlDZB9XyeTUmAej7PpuZnUDWfZ1N7HqCWz7OZcyKkks8HQRAEAY9fMBlR4F7sEJYAAAAASUVORK5CYII=") 0 0/calc(10px*var(--ui-scale)) repeat;
+      }
+      html[data-theme="catppuccin-latte-lavender"] #ingame_HUD_UnlockNotification .dialog {
+        color: #4c4f69;
+      }
+      html[data-theme="catppuccin-latte-lavender"] #ingame_HUD_UnlockNotification .dialog .subTitle {
+        color: #40a02b;
+      }
+      html[data-theme="catppuccin-latte-lavender"] #ingame_HUD_UnlockNotification .dialog .contents .rewardDesc {
+        color: #6c6f85;
+      }
+      html[data-theme="catppuccin-latte-lavender"] #ingame_HUD_UnlockNotification .dialog .contents .rewardDesc strong {
+        color: #4c4f69;
+      }
+      /* Tutorial hints */
+      html[data-theme="catppuccin-latte-lavender"] #ingame_HUD_TutorialHints .header {
+        color: #4c4f69;
+      }
+      html[data-theme="catppuccin-latte-lavender"] #ingame_HUD_TutorialHints .header>span:before  {
+        filter:brightness(0) saturate(100%) invert(43%) sepia(43%) saturate(515%) hue-rotate(196deg) brightness(49%) contrast(68%);
+      }
     `)
   }
 };
@@ -4905,15 +7579,15 @@ class Mod extends shapez.Mod {
 const RESOURCES = {
   "catppuccin-latte-rosewater.json": {
     "map": {
-      "background": "#3e3f47",
+      "background": "#eff1f5",
       "gridRegular": "rgba(255, 255, 255, 0.02)",
       "gridPlacing": "rgba(255, 255, 255, 0.06)",
 
       "gridLineWidth": 0.5,
 
-      "selectionOverlay": "rgba(74, 163, 223, 0.7)",
-      "selectionOutline": "rgba(74, 163, 223, 0.5)",
-      "selectionBackground": "rgba(74, 163, 223, 0.2)",
+      "selectionOverlay": "rgba(220, 138, 120, 0.70)",
+      "selectionOutline": "rgba(220, 138, 120, 0.50)",
+      "selectionBackground": "rgba(220, 138, 120, 0.20)",
 
       "chunkBorders": "rgba(127, 190, 255, 0.04)",
 
@@ -4937,15 +7611,16 @@ const RESOURCES = {
       "colorBlindPickerTile": "rgba(255, 255, 255, 0.5)",
 
       "resources": {
-        "shape": "#5d5f6a",
-        "red": "#854f56",
-        "green": "#667964",
-        "blue": "#5e7ca4"
+        "shape": "#acb0be",
+        "red": "#d20f39",
+        "green": "#40a02b",
+        "blue": "#1e66f5"
       },
+
       "chunkOverview": {
-        "empty": "#444856",
-        "filled": "#646b7d",
-        "beltColor": "#9096a3"
+        "empty": "#eff1f5",
+        "filled": "#ccd0da",
+        "beltColor": "#8c8fa1"
       },
 
       "wires": {
@@ -4980,15 +7655,15 @@ const RESOURCES = {
   },
   "catppuccin-latte-flamingo.json": {
     "map": {
-      "background": "#3e3f47",
+      "background": "#eff1f5",
       "gridRegular": "rgba(255, 255, 255, 0.02)",
       "gridPlacing": "rgba(255, 255, 255, 0.06)",
 
       "gridLineWidth": 0.5,
 
-      "selectionOverlay": "rgba(74, 163, 223, 0.7)",
-      "selectionOutline": "rgba(74, 163, 223, 0.5)",
-      "selectionBackground": "rgba(74, 163, 223, 0.2)",
+      "selectionOverlay": "rgba(221, 120, 120, 0.70)",
+      "selectionOutline": "rgba(221, 120, 120, 0.50)",
+      "selectionBackground": "rgba(221, 120, 120, 0.20)",
 
       "chunkBorders": "rgba(127, 190, 255, 0.04)",
 
@@ -5012,15 +7687,16 @@ const RESOURCES = {
       "colorBlindPickerTile": "rgba(255, 255, 255, 0.5)",
 
       "resources": {
-        "shape": "#5d5f6a",
-        "red": "#854f56",
-        "green": "#667964",
-        "blue": "#5e7ca4"
+        "shape": "#acb0be",
+        "red": "#d20f39",
+        "green": "#40a02b",
+        "blue": "#1e66f5"
       },
+
       "chunkOverview": {
-        "empty": "#444856",
-        "filled": "#646b7d",
-        "beltColor": "#9096a3"
+        "empty": "#eff1f5",
+        "filled": "#ccd0da",
+        "beltColor": "#8c8fa1"
       },
 
       "wires": {
@@ -5055,15 +7731,15 @@ const RESOURCES = {
   },
   "catppuccin-latte-pink.json": {
     "map": {
-      "background": "#3e3f47",
+      "background": "#eff1f5",
       "gridRegular": "rgba(255, 255, 255, 0.02)",
       "gridPlacing": "rgba(255, 255, 255, 0.06)",
 
       "gridLineWidth": 0.5,
 
-      "selectionOverlay": "rgba(74, 163, 223, 0.7)",
-      "selectionOutline": "rgba(74, 163, 223, 0.5)",
-      "selectionBackground": "rgba(74, 163, 223, 0.2)",
+      "selectionOverlay": "rgba(234, 118, 203, 0.70)",
+      "selectionOutline": "rgba(234, 118, 203, 0.50)",
+      "selectionBackground": "rgba(234, 118, 203, 0.20)",
 
       "chunkBorders": "rgba(127, 190, 255, 0.04)",
 
@@ -5087,15 +7763,16 @@ const RESOURCES = {
       "colorBlindPickerTile": "rgba(255, 255, 255, 0.5)",
 
       "resources": {
-        "shape": "#5d5f6a",
-        "red": "#854f56",
-        "green": "#667964",
-        "blue": "#5e7ca4"
+        "shape": "#acb0be",
+        "red": "#d20f39",
+        "green": "#40a02b",
+        "blue": "#1e66f5"
       },
+
       "chunkOverview": {
-        "empty": "#444856",
-        "filled": "#646b7d",
-        "beltColor": "#9096a3"
+        "empty": "#eff1f5",
+        "filled": "#ccd0da",
+        "beltColor": "#8c8fa1"
       },
 
       "wires": {
@@ -5130,15 +7807,15 @@ const RESOURCES = {
   },
   "catppuccin-latte-mauve.json": {
     "map": {
-      "background": "#3e3f47",
+      "background": "#eff1f5",
       "gridRegular": "rgba(255, 255, 255, 0.02)",
       "gridPlacing": "rgba(255, 255, 255, 0.06)",
 
       "gridLineWidth": 0.5,
 
-      "selectionOverlay": "rgba(74, 163, 223, 0.7)",
-      "selectionOutline": "rgba(74, 163, 223, 0.5)",
-      "selectionBackground": "rgba(74, 163, 223, 0.2)",
+      "selectionOverlay": "rgba(136, 57, 239, 0.70)",
+      "selectionOutline": "rgba(136, 57, 239, 0.50)",
+      "selectionBackground": "rgba(136, 57, 239, 0.20)",
 
       "chunkBorders": "rgba(127, 190, 255, 0.04)",
 
@@ -5162,15 +7839,16 @@ const RESOURCES = {
       "colorBlindPickerTile": "rgba(255, 255, 255, 0.5)",
 
       "resources": {
-        "shape": "#5d5f6a",
-        "red": "#854f56",
-        "green": "#667964",
-        "blue": "#5e7ca4"
+        "shape": "#acb0be",
+        "red": "#d20f39",
+        "green": "#40a02b",
+        "blue": "#1e66f5"
       },
+
       "chunkOverview": {
-        "empty": "#444856",
-        "filled": "#646b7d",
-        "beltColor": "#9096a3"
+        "empty": "#eff1f5",
+        "filled": "#ccd0da",
+        "beltColor": "#8c8fa1"
       },
 
       "wires": {
@@ -5205,15 +7883,15 @@ const RESOURCES = {
   },
   "catppuccin-latte-red.json": {
     "map": {
-      "background": "#3e3f47",
+      "background": "#eff1f5",
       "gridRegular": "rgba(255, 255, 255, 0.02)",
       "gridPlacing": "rgba(255, 255, 255, 0.06)",
 
       "gridLineWidth": 0.5,
 
-      "selectionOverlay": "rgba(74, 163, 223, 0.7)",
-      "selectionOutline": "rgba(74, 163, 223, 0.5)",
-      "selectionBackground": "rgba(74, 163, 223, 0.2)",
+      "selectionOverlay": "rgba(210, 15, 57, 0.70)",
+      "selectionOutline": "rgba(210, 15, 57, 0.50)",
+      "selectionBackground": "rgba(210, 15, 57, 0.20)",
 
       "chunkBorders": "rgba(127, 190, 255, 0.04)",
 
@@ -5237,15 +7915,16 @@ const RESOURCES = {
       "colorBlindPickerTile": "rgba(255, 255, 255, 0.5)",
 
       "resources": {
-        "shape": "#5d5f6a",
-        "red": "#854f56",
-        "green": "#667964",
-        "blue": "#5e7ca4"
+        "shape": "#acb0be",
+        "red": "#d20f39",
+        "green": "#40a02b",
+        "blue": "#1e66f5"
       },
+
       "chunkOverview": {
-        "empty": "#444856",
-        "filled": "#646b7d",
-        "beltColor": "#9096a3"
+        "empty": "#eff1f5",
+        "filled": "#ccd0da",
+        "beltColor": "#8c8fa1"
       },
 
       "wires": {
@@ -5280,15 +7959,15 @@ const RESOURCES = {
   },
   "catppuccin-latte-maroon.json": {
     "map": {
-      "background": "#3e3f47",
+      "background": "#eff1f5",
       "gridRegular": "rgba(255, 255, 255, 0.02)",
       "gridPlacing": "rgba(255, 255, 255, 0.06)",
 
       "gridLineWidth": 0.5,
 
-      "selectionOverlay": "rgba(74, 163, 223, 0.7)",
-      "selectionOutline": "rgba(74, 163, 223, 0.5)",
-      "selectionBackground": "rgba(74, 163, 223, 0.2)",
+      "selectionOverlay": "rgba(230, 69, 83, 0.70)",
+      "selectionOutline": "rgba(230, 69, 83, 0.50)",
+      "selectionBackground": "rgba(230, 69, 83, 0.20)",
 
       "chunkBorders": "rgba(127, 190, 255, 0.04)",
 
@@ -5312,15 +7991,16 @@ const RESOURCES = {
       "colorBlindPickerTile": "rgba(255, 255, 255, 0.5)",
 
       "resources": {
-        "shape": "#5d5f6a",
-        "red": "#854f56",
-        "green": "#667964",
-        "blue": "#5e7ca4"
+        "shape": "#acb0be",
+        "red": "#d20f39",
+        "green": "#40a02b",
+        "blue": "#1e66f5"
       },
+
       "chunkOverview": {
-        "empty": "#444856",
-        "filled": "#646b7d",
-        "beltColor": "#9096a3"
+        "empty": "#eff1f5",
+        "filled": "#ccd0da",
+        "beltColor": "#8c8fa1"
       },
 
       "wires": {
@@ -5355,15 +8035,15 @@ const RESOURCES = {
   },
   "catppuccin-latte-peach.json": {
     "map": {
-      "background": "#3e3f47",
+      "background": "#eff1f5",
       "gridRegular": "rgba(255, 255, 255, 0.02)",
       "gridPlacing": "rgba(255, 255, 255, 0.06)",
 
       "gridLineWidth": 0.5,
 
-      "selectionOverlay": "rgba(74, 163, 223, 0.7)",
-      "selectionOutline": "rgba(74, 163, 223, 0.5)",
-      "selectionBackground": "rgba(74, 163, 223, 0.2)",
+      "selectionOverlay": "rgba(254, 100, 11, 0.70)",
+      "selectionOutline": "rgba(254, 100, 11, 0.50)",
+      "selectionBackground": "rgba(254, 100, 11, 0.20)",
 
       "chunkBorders": "rgba(127, 190, 255, 0.04)",
 
@@ -5387,15 +8067,16 @@ const RESOURCES = {
       "colorBlindPickerTile": "rgba(255, 255, 255, 0.5)",
 
       "resources": {
-        "shape": "#5d5f6a",
-        "red": "#854f56",
-        "green": "#667964",
-        "blue": "#5e7ca4"
+        "shape": "#acb0be",
+        "red": "#d20f39",
+        "green": "#40a02b",
+        "blue": "#1e66f5"
       },
+
       "chunkOverview": {
-        "empty": "#444856",
-        "filled": "#646b7d",
-        "beltColor": "#9096a3"
+        "empty": "#eff1f5",
+        "filled": "#ccd0da",
+        "beltColor": "#8c8fa1"
       },
 
       "wires": {
@@ -5430,15 +8111,15 @@ const RESOURCES = {
   },
   "catppuccin-latte-yellow.json": {
     "map": {
-      "background": "#3e3f47",
+      "background": "#eff1f5",
       "gridRegular": "rgba(255, 255, 255, 0.02)",
       "gridPlacing": "rgba(255, 255, 255, 0.06)",
 
       "gridLineWidth": 0.5,
 
-      "selectionOverlay": "rgba(74, 163, 223, 0.7)",
-      "selectionOutline": "rgba(74, 163, 223, 0.5)",
-      "selectionBackground": "rgba(74, 163, 223, 0.2)",
+      "selectionOverlay": "rgba(223, 142, 29, 0.70)",
+      "selectionOutline": "rgba(223, 142, 29, 0.50)",
+      "selectionBackground": "rgba(223, 142, 29, 0.20)",
 
       "chunkBorders": "rgba(127, 190, 255, 0.04)",
 
@@ -5462,15 +8143,16 @@ const RESOURCES = {
       "colorBlindPickerTile": "rgba(255, 255, 255, 0.5)",
 
       "resources": {
-        "shape": "#5d5f6a",
-        "red": "#854f56",
-        "green": "#667964",
-        "blue": "#5e7ca4"
+        "shape": "#acb0be",
+        "red": "#d20f39",
+        "green": "#40a02b",
+        "blue": "#1e66f5"
       },
+
       "chunkOverview": {
-        "empty": "#444856",
-        "filled": "#646b7d",
-        "beltColor": "#9096a3"
+        "empty": "#eff1f5",
+        "filled": "#ccd0da",
+        "beltColor": "#8c8fa1"
       },
 
       "wires": {
@@ -5505,15 +8187,15 @@ const RESOURCES = {
   },
   "catppuccin-latte-green.json": {
     "map": {
-      "background": "#3e3f47",
+      "background": "#eff1f5",
       "gridRegular": "rgba(255, 255, 255, 0.02)",
       "gridPlacing": "rgba(255, 255, 255, 0.06)",
 
       "gridLineWidth": 0.5,
 
-      "selectionOverlay": "rgba(74, 163, 223, 0.7)",
-      "selectionOutline": "rgba(74, 163, 223, 0.5)",
-      "selectionBackground": "rgba(74, 163, 223, 0.2)",
+      "selectionOverlay": "rgba(64, 160, 43, 0.70)",
+      "selectionOutline": "rgba(64, 160, 43, 0.50)",
+      "selectionBackground": "rgba(64, 160, 43, 0.20)",
 
       "chunkBorders": "rgba(127, 190, 255, 0.04)",
 
@@ -5537,15 +8219,16 @@ const RESOURCES = {
       "colorBlindPickerTile": "rgba(255, 255, 255, 0.5)",
 
       "resources": {
-        "shape": "#5d5f6a",
-        "red": "#854f56",
-        "green": "#667964",
-        "blue": "#5e7ca4"
+        "shape": "#acb0be",
+        "red": "#d20f39",
+        "green": "#40a02b",
+        "blue": "#1e66f5"
       },
+
       "chunkOverview": {
-        "empty": "#444856",
-        "filled": "#646b7d",
-        "beltColor": "#9096a3"
+        "empty": "#eff1f5",
+        "filled": "#ccd0da",
+        "beltColor": "#8c8fa1"
       },
 
       "wires": {
@@ -5580,15 +8263,15 @@ const RESOURCES = {
   },
   "catppuccin-latte-teal.json": {
     "map": {
-      "background": "#3e3f47",
+      "background": "#eff1f5",
       "gridRegular": "rgba(255, 255, 255, 0.02)",
       "gridPlacing": "rgba(255, 255, 255, 0.06)",
 
       "gridLineWidth": 0.5,
 
-      "selectionOverlay": "rgba(74, 163, 223, 0.7)",
-      "selectionOutline": "rgba(74, 163, 223, 0.5)",
-      "selectionBackground": "rgba(74, 163, 223, 0.2)",
+      "selectionOverlay": "rgba(23, 146, 153, 0.70)",
+      "selectionOutline": "rgba(23, 146, 153, 0.50)",
+      "selectionBackground": "rgba(23, 146, 153, 0.20)",
 
       "chunkBorders": "rgba(127, 190, 255, 0.04)",
 
@@ -5612,15 +8295,16 @@ const RESOURCES = {
       "colorBlindPickerTile": "rgba(255, 255, 255, 0.5)",
 
       "resources": {
-        "shape": "#5d5f6a",
-        "red": "#854f56",
-        "green": "#667964",
-        "blue": "#5e7ca4"
+        "shape": "#acb0be",
+        "red": "#d20f39",
+        "green": "#40a02b",
+        "blue": "#1e66f5"
       },
+
       "chunkOverview": {
-        "empty": "#444856",
-        "filled": "#646b7d",
-        "beltColor": "#9096a3"
+        "empty": "#eff1f5",
+        "filled": "#ccd0da",
+        "beltColor": "#8c8fa1"
       },
 
       "wires": {
@@ -5655,15 +8339,15 @@ const RESOURCES = {
   },
   "catppuccin-latte-sky.json": {
     "map": {
-      "background": "#3e3f47",
+      "background": "#eff1f5",
       "gridRegular": "rgba(255, 255, 255, 0.02)",
       "gridPlacing": "rgba(255, 255, 255, 0.06)",
 
       "gridLineWidth": 0.5,
 
-      "selectionOverlay": "rgba(74, 163, 223, 0.7)",
-      "selectionOutline": "rgba(74, 163, 223, 0.5)",
-      "selectionBackground": "rgba(74, 163, 223, 0.2)",
+      "selectionOverlay": "rgba(4, 165, 229, 0.70)",
+      "selectionOutline": "rgba(4, 165, 229, 0.50)",
+      "selectionBackground": "rgba(4, 165, 229, 0.20)",
 
       "chunkBorders": "rgba(127, 190, 255, 0.04)",
 
@@ -5687,15 +8371,16 @@ const RESOURCES = {
       "colorBlindPickerTile": "rgba(255, 255, 255, 0.5)",
 
       "resources": {
-        "shape": "#5d5f6a",
-        "red": "#854f56",
-        "green": "#667964",
-        "blue": "#5e7ca4"
+        "shape": "#acb0be",
+        "red": "#d20f39",
+        "green": "#40a02b",
+        "blue": "#1e66f5"
       },
+
       "chunkOverview": {
-        "empty": "#444856",
-        "filled": "#646b7d",
-        "beltColor": "#9096a3"
+        "empty": "#eff1f5",
+        "filled": "#ccd0da",
+        "beltColor": "#8c8fa1"
       },
 
       "wires": {
@@ -5730,15 +8415,15 @@ const RESOURCES = {
   },
   "catppuccin-latte-sapphire.json": {
     "map": {
-      "background": "#3e3f47",
+      "background": "#eff1f5",
       "gridRegular": "rgba(255, 255, 255, 0.02)",
       "gridPlacing": "rgba(255, 255, 255, 0.06)",
 
       "gridLineWidth": 0.5,
 
-      "selectionOverlay": "rgba(74, 163, 223, 0.7)",
-      "selectionOutline": "rgba(74, 163, 223, 0.5)",
-      "selectionBackground": "rgba(74, 163, 223, 0.2)",
+      "selectionOverlay": "rgba(32, 159, 181, 0.70)",
+      "selectionOutline": "rgba(32, 159, 181, 0.50)",
+      "selectionBackground": "rgba(32, 159, 181, 0.20)",
 
       "chunkBorders": "rgba(127, 190, 255, 0.04)",
 
@@ -5762,15 +8447,16 @@ const RESOURCES = {
       "colorBlindPickerTile": "rgba(255, 255, 255, 0.5)",
 
       "resources": {
-        "shape": "#5d5f6a",
-        "red": "#854f56",
-        "green": "#667964",
-        "blue": "#5e7ca4"
+        "shape": "#acb0be",
+        "red": "#d20f39",
+        "green": "#40a02b",
+        "blue": "#1e66f5"
       },
+
       "chunkOverview": {
-        "empty": "#444856",
-        "filled": "#646b7d",
-        "beltColor": "#9096a3"
+        "empty": "#eff1f5",
+        "filled": "#ccd0da",
+        "beltColor": "#8c8fa1"
       },
 
       "wires": {
@@ -5805,15 +8491,15 @@ const RESOURCES = {
   },
   "catppuccin-latte-blue.json": {
     "map": {
-      "background": "#3e3f47",
+      "background": "#eff1f5",
       "gridRegular": "rgba(255, 255, 255, 0.02)",
       "gridPlacing": "rgba(255, 255, 255, 0.06)",
 
       "gridLineWidth": 0.5,
 
-      "selectionOverlay": "rgba(74, 163, 223, 0.7)",
-      "selectionOutline": "rgba(74, 163, 223, 0.5)",
-      "selectionBackground": "rgba(74, 163, 223, 0.2)",
+      "selectionOverlay": "rgba(30, 102, 245, 0.70)",
+      "selectionOutline": "rgba(30, 102, 245, 0.50)",
+      "selectionBackground": "rgba(30, 102, 245, 0.20)",
 
       "chunkBorders": "rgba(127, 190, 255, 0.04)",
 
@@ -5837,15 +8523,16 @@ const RESOURCES = {
       "colorBlindPickerTile": "rgba(255, 255, 255, 0.5)",
 
       "resources": {
-        "shape": "#5d5f6a",
-        "red": "#854f56",
-        "green": "#667964",
-        "blue": "#5e7ca4"
+        "shape": "#acb0be",
+        "red": "#d20f39",
+        "green": "#40a02b",
+        "blue": "#1e66f5"
       },
+
       "chunkOverview": {
-        "empty": "#444856",
-        "filled": "#646b7d",
-        "beltColor": "#9096a3"
+        "empty": "#eff1f5",
+        "filled": "#ccd0da",
+        "beltColor": "#8c8fa1"
       },
 
       "wires": {
@@ -5880,15 +8567,15 @@ const RESOURCES = {
   },
   "catppuccin-latte-lavender.json": {
     "map": {
-      "background": "#3e3f47",
+      "background": "#eff1f5",
       "gridRegular": "rgba(255, 255, 255, 0.02)",
       "gridPlacing": "rgba(255, 255, 255, 0.06)",
 
       "gridLineWidth": 0.5,
 
-      "selectionOverlay": "rgba(74, 163, 223, 0.7)",
-      "selectionOutline": "rgba(74, 163, 223, 0.5)",
-      "selectionBackground": "rgba(74, 163, 223, 0.2)",
+      "selectionOverlay": "rgba(114, 135, 253, 0.70)",
+      "selectionOutline": "rgba(114, 135, 253, 0.50)",
+      "selectionBackground": "rgba(114, 135, 253, 0.20)",
 
       "chunkBorders": "rgba(127, 190, 255, 0.04)",
 
@@ -5912,15 +8599,16 @@ const RESOURCES = {
       "colorBlindPickerTile": "rgba(255, 255, 255, 0.5)",
 
       "resources": {
-        "shape": "#5d5f6a",
-        "red": "#854f56",
-        "green": "#667964",
-        "blue": "#5e7ca4"
+        "shape": "#acb0be",
+        "red": "#d20f39",
+        "green": "#40a02b",
+        "blue": "#1e66f5"
       },
+
       "chunkOverview": {
-        "empty": "#444856",
-        "filled": "#646b7d",
-        "beltColor": "#9096a3"
+        "empty": "#eff1f5",
+        "filled": "#ccd0da",
+        "beltColor": "#8c8fa1"
       },
 
       "wires": {
