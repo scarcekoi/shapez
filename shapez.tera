@@ -354,6 +354,23 @@ class Mod extends shapez.Mod {
         color: #{{ flavor.colors.subtext0.hex }};
         border-bottom-color: #{{ flavor.colors.surface2.hex }};
       }
+
+      /* Mods settings */
+      html[data-theme="catppuccin-{{ flavor.identifier }}-{{ accent.identifier }}"] #state_ModsState>.headerBar .openModsFolder {
+        background-color: #{{ flavor.colors.pink.hex }};
+      }
+      html[data-theme="catppuccin-{{ flavor.identifier }}-{{ accent.identifier }}"] #state_ModsState .modsList .mod {
+        background-color: #{{ flavor.colors.mantle.hex }};
+      }
+      html[data-theme="catppuccin-{{ flavor.identifier }}-{{ accent.identifier }}"] #state_ModsState .modsStats,
+      html[data-theme="catppuccin-{{ flavor.identifier }}-{{ accent.identifier }}"] #state_ModsState .modsList .mod .mainInfo .description,
+      html[data-theme="catppuccin-{{ flavor.identifier }}-{{ accent.identifier }}"] #state_ModsState .modsList .mod .author strong,
+      html[data-theme="catppuccin-{{ flavor.identifier }}-{{ accent.identifier }}"] #state_ModsState .modsList .mod .version strong {
+        color: #{{ flavor.colors.subtext0.hex }};
+      }
+      .gameState.textualState>.container>.content a {
+        color: #{{ accent.hex }};
+      }
     `)
     {%- endif %}{%- endfor %}
   }

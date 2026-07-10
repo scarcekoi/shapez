@@ -340,6 +340,23 @@ class Mod extends shapez.Mod {
         color: #6c6f85;
         border-bottom-color: #acb0be;
       }
+
+      /* Mods settings */
+      html[data-theme="catppuccin-latte-rosewater"] #state_ModsState>.headerBar .openModsFolder {
+        background-color: #ea76cb;
+      }
+      html[data-theme="catppuccin-latte-rosewater"] #state_ModsState .modsList .mod {
+        background-color: #e6e9ef;
+      }
+      html[data-theme="catppuccin-latte-rosewater"] #state_ModsState .modsStats,
+      html[data-theme="catppuccin-latte-rosewater"] #state_ModsState .modsList .mod .mainInfo .description,
+      html[data-theme="catppuccin-latte-rosewater"] #state_ModsState .modsList .mod .author strong,
+      html[data-theme="catppuccin-latte-rosewater"] #state_ModsState .modsList .mod .version strong {
+        color: #6c6f85;
+      }
+      .gameState.textualState>.container>.content a {
+        color: #dc8a78;
+      }
     `)
     this.modInterface.registerGameTheme({
       id: "catppuccin-latte-flamingo",
@@ -667,6 +684,23 @@ class Mod extends shapez.Mod {
       html[data-theme="catppuccin-latte-flamingo"] #state_KeybindingsState .content .category .entry {
         color: #6c6f85;
         border-bottom-color: #acb0be;
+      }
+
+      /* Mods settings */
+      html[data-theme="catppuccin-latte-flamingo"] #state_ModsState>.headerBar .openModsFolder {
+        background-color: #ea76cb;
+      }
+      html[data-theme="catppuccin-latte-flamingo"] #state_ModsState .modsList .mod {
+        background-color: #e6e9ef;
+      }
+      html[data-theme="catppuccin-latte-flamingo"] #state_ModsState .modsStats,
+      html[data-theme="catppuccin-latte-flamingo"] #state_ModsState .modsList .mod .mainInfo .description,
+      html[data-theme="catppuccin-latte-flamingo"] #state_ModsState .modsList .mod .author strong,
+      html[data-theme="catppuccin-latte-flamingo"] #state_ModsState .modsList .mod .version strong {
+        color: #6c6f85;
+      }
+      .gameState.textualState>.container>.content a {
+        color: #dd7878;
       }
     `)
     this.modInterface.registerGameTheme({
@@ -996,6 +1030,23 @@ class Mod extends shapez.Mod {
         color: #6c6f85;
         border-bottom-color: #acb0be;
       }
+
+      /* Mods settings */
+      html[data-theme="catppuccin-latte-pink"] #state_ModsState>.headerBar .openModsFolder {
+        background-color: #ea76cb;
+      }
+      html[data-theme="catppuccin-latte-pink"] #state_ModsState .modsList .mod {
+        background-color: #e6e9ef;
+      }
+      html[data-theme="catppuccin-latte-pink"] #state_ModsState .modsStats,
+      html[data-theme="catppuccin-latte-pink"] #state_ModsState .modsList .mod .mainInfo .description,
+      html[data-theme="catppuccin-latte-pink"] #state_ModsState .modsList .mod .author strong,
+      html[data-theme="catppuccin-latte-pink"] #state_ModsState .modsList .mod .version strong {
+        color: #6c6f85;
+      }
+      .gameState.textualState>.container>.content a {
+        color: #ea76cb;
+      }
     `)
     this.modInterface.registerGameTheme({
       id: "catppuccin-latte-mauve",
@@ -1323,6 +1374,23 @@ class Mod extends shapez.Mod {
       html[data-theme="catppuccin-latte-mauve"] #state_KeybindingsState .content .category .entry {
         color: #6c6f85;
         border-bottom-color: #acb0be;
+      }
+
+      /* Mods settings */
+      html[data-theme="catppuccin-latte-mauve"] #state_ModsState>.headerBar .openModsFolder {
+        background-color: #ea76cb;
+      }
+      html[data-theme="catppuccin-latte-mauve"] #state_ModsState .modsList .mod {
+        background-color: #e6e9ef;
+      }
+      html[data-theme="catppuccin-latte-mauve"] #state_ModsState .modsStats,
+      html[data-theme="catppuccin-latte-mauve"] #state_ModsState .modsList .mod .mainInfo .description,
+      html[data-theme="catppuccin-latte-mauve"] #state_ModsState .modsList .mod .author strong,
+      html[data-theme="catppuccin-latte-mauve"] #state_ModsState .modsList .mod .version strong {
+        color: #6c6f85;
+      }
+      .gameState.textualState>.container>.content a {
+        color: #8839ef;
       }
     `)
     this.modInterface.registerGameTheme({
@@ -1652,6 +1720,23 @@ class Mod extends shapez.Mod {
         color: #6c6f85;
         border-bottom-color: #acb0be;
       }
+
+      /* Mods settings */
+      html[data-theme="catppuccin-latte-red"] #state_ModsState>.headerBar .openModsFolder {
+        background-color: #ea76cb;
+      }
+      html[data-theme="catppuccin-latte-red"] #state_ModsState .modsList .mod {
+        background-color: #e6e9ef;
+      }
+      html[data-theme="catppuccin-latte-red"] #state_ModsState .modsStats,
+      html[data-theme="catppuccin-latte-red"] #state_ModsState .modsList .mod .mainInfo .description,
+      html[data-theme="catppuccin-latte-red"] #state_ModsState .modsList .mod .author strong,
+      html[data-theme="catppuccin-latte-red"] #state_ModsState .modsList .mod .version strong {
+        color: #6c6f85;
+      }
+      .gameState.textualState>.container>.content a {
+        color: #d20f39;
+      }
     `)
     this.modInterface.registerGameTheme({
       id: "catppuccin-latte-maroon",
@@ -1979,6 +2064,23 @@ class Mod extends shapez.Mod {
       html[data-theme="catppuccin-latte-maroon"] #state_KeybindingsState .content .category .entry {
         color: #6c6f85;
         border-bottom-color: #acb0be;
+      }
+
+      /* Mods settings */
+      html[data-theme="catppuccin-latte-maroon"] #state_ModsState>.headerBar .openModsFolder {
+        background-color: #ea76cb;
+      }
+      html[data-theme="catppuccin-latte-maroon"] #state_ModsState .modsList .mod {
+        background-color: #e6e9ef;
+      }
+      html[data-theme="catppuccin-latte-maroon"] #state_ModsState .modsStats,
+      html[data-theme="catppuccin-latte-maroon"] #state_ModsState .modsList .mod .mainInfo .description,
+      html[data-theme="catppuccin-latte-maroon"] #state_ModsState .modsList .mod .author strong,
+      html[data-theme="catppuccin-latte-maroon"] #state_ModsState .modsList .mod .version strong {
+        color: #6c6f85;
+      }
+      .gameState.textualState>.container>.content a {
+        color: #e64553;
       }
     `)
     this.modInterface.registerGameTheme({
@@ -2308,6 +2410,23 @@ class Mod extends shapez.Mod {
         color: #6c6f85;
         border-bottom-color: #acb0be;
       }
+
+      /* Mods settings */
+      html[data-theme="catppuccin-latte-peach"] #state_ModsState>.headerBar .openModsFolder {
+        background-color: #ea76cb;
+      }
+      html[data-theme="catppuccin-latte-peach"] #state_ModsState .modsList .mod {
+        background-color: #e6e9ef;
+      }
+      html[data-theme="catppuccin-latte-peach"] #state_ModsState .modsStats,
+      html[data-theme="catppuccin-latte-peach"] #state_ModsState .modsList .mod .mainInfo .description,
+      html[data-theme="catppuccin-latte-peach"] #state_ModsState .modsList .mod .author strong,
+      html[data-theme="catppuccin-latte-peach"] #state_ModsState .modsList .mod .version strong {
+        color: #6c6f85;
+      }
+      .gameState.textualState>.container>.content a {
+        color: #fe640b;
+      }
     `)
     this.modInterface.registerGameTheme({
       id: "catppuccin-latte-yellow",
@@ -2635,6 +2754,23 @@ class Mod extends shapez.Mod {
       html[data-theme="catppuccin-latte-yellow"] #state_KeybindingsState .content .category .entry {
         color: #6c6f85;
         border-bottom-color: #acb0be;
+      }
+
+      /* Mods settings */
+      html[data-theme="catppuccin-latte-yellow"] #state_ModsState>.headerBar .openModsFolder {
+        background-color: #ea76cb;
+      }
+      html[data-theme="catppuccin-latte-yellow"] #state_ModsState .modsList .mod {
+        background-color: #e6e9ef;
+      }
+      html[data-theme="catppuccin-latte-yellow"] #state_ModsState .modsStats,
+      html[data-theme="catppuccin-latte-yellow"] #state_ModsState .modsList .mod .mainInfo .description,
+      html[data-theme="catppuccin-latte-yellow"] #state_ModsState .modsList .mod .author strong,
+      html[data-theme="catppuccin-latte-yellow"] #state_ModsState .modsList .mod .version strong {
+        color: #6c6f85;
+      }
+      .gameState.textualState>.container>.content a {
+        color: #df8e1d;
       }
     `)
     this.modInterface.registerGameTheme({
@@ -2964,6 +3100,23 @@ class Mod extends shapez.Mod {
         color: #6c6f85;
         border-bottom-color: #acb0be;
       }
+
+      /* Mods settings */
+      html[data-theme="catppuccin-latte-green"] #state_ModsState>.headerBar .openModsFolder {
+        background-color: #ea76cb;
+      }
+      html[data-theme="catppuccin-latte-green"] #state_ModsState .modsList .mod {
+        background-color: #e6e9ef;
+      }
+      html[data-theme="catppuccin-latte-green"] #state_ModsState .modsStats,
+      html[data-theme="catppuccin-latte-green"] #state_ModsState .modsList .mod .mainInfo .description,
+      html[data-theme="catppuccin-latte-green"] #state_ModsState .modsList .mod .author strong,
+      html[data-theme="catppuccin-latte-green"] #state_ModsState .modsList .mod .version strong {
+        color: #6c6f85;
+      }
+      .gameState.textualState>.container>.content a {
+        color: #40a02b;
+      }
     `)
     this.modInterface.registerGameTheme({
       id: "catppuccin-latte-teal",
@@ -3291,6 +3444,23 @@ class Mod extends shapez.Mod {
       html[data-theme="catppuccin-latte-teal"] #state_KeybindingsState .content .category .entry {
         color: #6c6f85;
         border-bottom-color: #acb0be;
+      }
+
+      /* Mods settings */
+      html[data-theme="catppuccin-latte-teal"] #state_ModsState>.headerBar .openModsFolder {
+        background-color: #ea76cb;
+      }
+      html[data-theme="catppuccin-latte-teal"] #state_ModsState .modsList .mod {
+        background-color: #e6e9ef;
+      }
+      html[data-theme="catppuccin-latte-teal"] #state_ModsState .modsStats,
+      html[data-theme="catppuccin-latte-teal"] #state_ModsState .modsList .mod .mainInfo .description,
+      html[data-theme="catppuccin-latte-teal"] #state_ModsState .modsList .mod .author strong,
+      html[data-theme="catppuccin-latte-teal"] #state_ModsState .modsList .mod .version strong {
+        color: #6c6f85;
+      }
+      .gameState.textualState>.container>.content a {
+        color: #179299;
       }
     `)
     this.modInterface.registerGameTheme({
@@ -3620,6 +3790,23 @@ class Mod extends shapez.Mod {
         color: #6c6f85;
         border-bottom-color: #acb0be;
       }
+
+      /* Mods settings */
+      html[data-theme="catppuccin-latte-sky"] #state_ModsState>.headerBar .openModsFolder {
+        background-color: #ea76cb;
+      }
+      html[data-theme="catppuccin-latte-sky"] #state_ModsState .modsList .mod {
+        background-color: #e6e9ef;
+      }
+      html[data-theme="catppuccin-latte-sky"] #state_ModsState .modsStats,
+      html[data-theme="catppuccin-latte-sky"] #state_ModsState .modsList .mod .mainInfo .description,
+      html[data-theme="catppuccin-latte-sky"] #state_ModsState .modsList .mod .author strong,
+      html[data-theme="catppuccin-latte-sky"] #state_ModsState .modsList .mod .version strong {
+        color: #6c6f85;
+      }
+      .gameState.textualState>.container>.content a {
+        color: #04a5e5;
+      }
     `)
     this.modInterface.registerGameTheme({
       id: "catppuccin-latte-sapphire",
@@ -3947,6 +4134,23 @@ class Mod extends shapez.Mod {
       html[data-theme="catppuccin-latte-sapphire"] #state_KeybindingsState .content .category .entry {
         color: #6c6f85;
         border-bottom-color: #acb0be;
+      }
+
+      /* Mods settings */
+      html[data-theme="catppuccin-latte-sapphire"] #state_ModsState>.headerBar .openModsFolder {
+        background-color: #ea76cb;
+      }
+      html[data-theme="catppuccin-latte-sapphire"] #state_ModsState .modsList .mod {
+        background-color: #e6e9ef;
+      }
+      html[data-theme="catppuccin-latte-sapphire"] #state_ModsState .modsStats,
+      html[data-theme="catppuccin-latte-sapphire"] #state_ModsState .modsList .mod .mainInfo .description,
+      html[data-theme="catppuccin-latte-sapphire"] #state_ModsState .modsList .mod .author strong,
+      html[data-theme="catppuccin-latte-sapphire"] #state_ModsState .modsList .mod .version strong {
+        color: #6c6f85;
+      }
+      .gameState.textualState>.container>.content a {
+        color: #209fb5;
       }
     `)
     this.modInterface.registerGameTheme({
@@ -4276,6 +4480,23 @@ class Mod extends shapez.Mod {
         color: #6c6f85;
         border-bottom-color: #acb0be;
       }
+
+      /* Mods settings */
+      html[data-theme="catppuccin-latte-blue"] #state_ModsState>.headerBar .openModsFolder {
+        background-color: #ea76cb;
+      }
+      html[data-theme="catppuccin-latte-blue"] #state_ModsState .modsList .mod {
+        background-color: #e6e9ef;
+      }
+      html[data-theme="catppuccin-latte-blue"] #state_ModsState .modsStats,
+      html[data-theme="catppuccin-latte-blue"] #state_ModsState .modsList .mod .mainInfo .description,
+      html[data-theme="catppuccin-latte-blue"] #state_ModsState .modsList .mod .author strong,
+      html[data-theme="catppuccin-latte-blue"] #state_ModsState .modsList .mod .version strong {
+        color: #6c6f85;
+      }
+      .gameState.textualState>.container>.content a {
+        color: #1e66f5;
+      }
     `)
     this.modInterface.registerGameTheme({
       id: "catppuccin-latte-lavender",
@@ -4603,6 +4824,23 @@ class Mod extends shapez.Mod {
       html[data-theme="catppuccin-latte-lavender"] #state_KeybindingsState .content .category .entry {
         color: #6c6f85;
         border-bottom-color: #acb0be;
+      }
+
+      /* Mods settings */
+      html[data-theme="catppuccin-latte-lavender"] #state_ModsState>.headerBar .openModsFolder {
+        background-color: #ea76cb;
+      }
+      html[data-theme="catppuccin-latte-lavender"] #state_ModsState .modsList .mod {
+        background-color: #e6e9ef;
+      }
+      html[data-theme="catppuccin-latte-lavender"] #state_ModsState .modsStats,
+      html[data-theme="catppuccin-latte-lavender"] #state_ModsState .modsList .mod .mainInfo .description,
+      html[data-theme="catppuccin-latte-lavender"] #state_ModsState .modsList .mod .author strong,
+      html[data-theme="catppuccin-latte-lavender"] #state_ModsState .modsList .mod .version strong {
+        color: #6c6f85;
+      }
+      .gameState.textualState>.container>.content a {
+        color: #7287fd;
       }
     `)
   }
