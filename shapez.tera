@@ -156,20 +156,26 @@ class Mod extends shapez.Mod {
         color: #{{ flavor.colors.text.hex }};
       }
 
-      html[data-theme="catppuccin-{{ flavor.identifier }}-{{ accent.identifier }}"] .checkbox .knob {
-        background-color: #{{ flavor.colors.text.hex }};
-      }
       html[data-theme="catppuccin-{{ flavor.identifier }}-{{ accent.identifier }}"] .checkbox {
-        background-color: #{{ flavor.colors.overlay1.hex }};
-      }
-      html[data-theme="catppuccin-{{ flavor.identifier }}-{{ accent.identifier }}"] .checkbox:hover {
-        background-color: #{{ flavor.colors.overlay0.hex }};
-      }
-      html[data-theme="catppuccin-{{ flavor.identifier }}-{{ accent.identifier }}"] .checkbox.checked {
         background-color: #{{ flavor.colors.surface0.hex }};
       }
-      html[data-theme="catppuccin-{{ flavor.identifier }}-{{ accent.identifier }}"] .checkbox.checked:hover {
+      html[data-theme="catppuccin-{{ flavor.identifier }}-{{ accent.identifier }}"] .checkbox:hover {
         background-color: #{{ flavor.colors.surface1.hex }};
+      }
+      html[data-theme="catppuccin-{{ flavor.identifier }}-{{ accent.identifier }}"] .checkbox .knob {
+        background-color: #{{ flavor.colors.text.hex }};
+        transition:
+          margin-left .4s ease-in-out,
+          background-color .3s ease-in-out !important;
+      }
+      html[data-theme="catppuccin-{{ flavor.identifier }}-{{ accent.identifier }}"] .checkbox.checked {
+        background-color: #{{ flavor.colors.mauve.hex }};
+      }
+      html[data-theme="catppuccin-{{ flavor.identifier }}-{{ accent.identifier }}"] .checkbox.checked:hover {
+        background-color: #{{ flavor.colors.mauve | sub(lightness=5) | hex }};
+      }
+      html[data-theme="catppuccin-{{ flavor.identifier }}-{{ accent.identifier }}"] .checkbox.checked .knob {
+        background-color: #{{ flavor.colors.base.hex }};
       }
 
       html[data-theme="catppuccin-{{ flavor.identifier }}-{{ accent.identifier }}"] input.rangeInput::-webkit-slider-runnable-track {

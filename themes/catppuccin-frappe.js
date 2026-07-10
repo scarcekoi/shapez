@@ -142,20 +142,26 @@ class Mod extends shapez.Mod {
         color: #c6d0f5;
       }
 
-      html[data-theme="catppuccin-frappe-rosewater"] .checkbox .knob {
-        background-color: #c6d0f5;
-      }
       html[data-theme="catppuccin-frappe-rosewater"] .checkbox {
-        background-color: #838ba7;
-      }
-      html[data-theme="catppuccin-frappe-rosewater"] .checkbox:hover {
-        background-color: #737994;
-      }
-      html[data-theme="catppuccin-frappe-rosewater"] .checkbox.checked {
         background-color: #414559;
       }
-      html[data-theme="catppuccin-frappe-rosewater"] .checkbox.checked:hover {
+      html[data-theme="catppuccin-frappe-rosewater"] .checkbox:hover {
         background-color: #51576d;
+      }
+      html[data-theme="catppuccin-frappe-rosewater"] .checkbox .knob {
+        background-color: #c6d0f5;
+        transition:
+          margin-left .4s ease-in-out,
+          background-color .3s ease-in-out !important;
+      }
+      html[data-theme="catppuccin-frappe-rosewater"] .checkbox.checked {
+        background-color: #ca9ee6;
+      }
+      html[data-theme="catppuccin-frappe-rosewater"] .checkbox.checked:hover {
+        background-color: #bf89e1;
+      }
+      html[data-theme="catppuccin-frappe-rosewater"] .checkbox.checked .knob {
+        background-color: #303446;
       }
 
       html[data-theme="catppuccin-frappe-rosewater"] input.rangeInput::-webkit-slider-runnable-track {
@@ -440,20 +446,26 @@ class Mod extends shapez.Mod {
         color: #c6d0f5;
       }
 
-      html[data-theme="catppuccin-frappe-flamingo"] .checkbox .knob {
-        background-color: #c6d0f5;
-      }
       html[data-theme="catppuccin-frappe-flamingo"] .checkbox {
-        background-color: #838ba7;
-      }
-      html[data-theme="catppuccin-frappe-flamingo"] .checkbox:hover {
-        background-color: #737994;
-      }
-      html[data-theme="catppuccin-frappe-flamingo"] .checkbox.checked {
         background-color: #414559;
       }
-      html[data-theme="catppuccin-frappe-flamingo"] .checkbox.checked:hover {
+      html[data-theme="catppuccin-frappe-flamingo"] .checkbox:hover {
         background-color: #51576d;
+      }
+      html[data-theme="catppuccin-frappe-flamingo"] .checkbox .knob {
+        background-color: #c6d0f5;
+        transition:
+          margin-left .4s ease-in-out,
+          background-color .3s ease-in-out !important;
+      }
+      html[data-theme="catppuccin-frappe-flamingo"] .checkbox.checked {
+        background-color: #ca9ee6;
+      }
+      html[data-theme="catppuccin-frappe-flamingo"] .checkbox.checked:hover {
+        background-color: #bf89e1;
+      }
+      html[data-theme="catppuccin-frappe-flamingo"] .checkbox.checked .knob {
+        background-color: #303446;
       }
 
       html[data-theme="catppuccin-frappe-flamingo"] input.rangeInput::-webkit-slider-runnable-track {
@@ -738,20 +750,26 @@ class Mod extends shapez.Mod {
         color: #c6d0f5;
       }
 
-      html[data-theme="catppuccin-frappe-pink"] .checkbox .knob {
-        background-color: #c6d0f5;
-      }
       html[data-theme="catppuccin-frappe-pink"] .checkbox {
-        background-color: #838ba7;
-      }
-      html[data-theme="catppuccin-frappe-pink"] .checkbox:hover {
-        background-color: #737994;
-      }
-      html[data-theme="catppuccin-frappe-pink"] .checkbox.checked {
         background-color: #414559;
       }
-      html[data-theme="catppuccin-frappe-pink"] .checkbox.checked:hover {
+      html[data-theme="catppuccin-frappe-pink"] .checkbox:hover {
         background-color: #51576d;
+      }
+      html[data-theme="catppuccin-frappe-pink"] .checkbox .knob {
+        background-color: #c6d0f5;
+        transition:
+          margin-left .4s ease-in-out,
+          background-color .3s ease-in-out !important;
+      }
+      html[data-theme="catppuccin-frappe-pink"] .checkbox.checked {
+        background-color: #ca9ee6;
+      }
+      html[data-theme="catppuccin-frappe-pink"] .checkbox.checked:hover {
+        background-color: #bf89e1;
+      }
+      html[data-theme="catppuccin-frappe-pink"] .checkbox.checked .knob {
+        background-color: #303446;
       }
 
       html[data-theme="catppuccin-frappe-pink"] input.rangeInput::-webkit-slider-runnable-track {
@@ -1036,20 +1054,26 @@ class Mod extends shapez.Mod {
         color: #c6d0f5;
       }
 
-      html[data-theme="catppuccin-frappe-mauve"] .checkbox .knob {
-        background-color: #c6d0f5;
-      }
       html[data-theme="catppuccin-frappe-mauve"] .checkbox {
-        background-color: #838ba7;
-      }
-      html[data-theme="catppuccin-frappe-mauve"] .checkbox:hover {
-        background-color: #737994;
-      }
-      html[data-theme="catppuccin-frappe-mauve"] .checkbox.checked {
         background-color: #414559;
       }
-      html[data-theme="catppuccin-frappe-mauve"] .checkbox.checked:hover {
+      html[data-theme="catppuccin-frappe-mauve"] .checkbox:hover {
         background-color: #51576d;
+      }
+      html[data-theme="catppuccin-frappe-mauve"] .checkbox .knob {
+        background-color: #c6d0f5;
+        transition:
+          margin-left .4s ease-in-out,
+          background-color .3s ease-in-out !important;
+      }
+      html[data-theme="catppuccin-frappe-mauve"] .checkbox.checked {
+        background-color: #ca9ee6;
+      }
+      html[data-theme="catppuccin-frappe-mauve"] .checkbox.checked:hover {
+        background-color: #bf89e1;
+      }
+      html[data-theme="catppuccin-frappe-mauve"] .checkbox.checked .knob {
+        background-color: #303446;
       }
 
       html[data-theme="catppuccin-frappe-mauve"] input.rangeInput::-webkit-slider-runnable-track {
@@ -1334,20 +1358,26 @@ class Mod extends shapez.Mod {
         color: #c6d0f5;
       }
 
-      html[data-theme="catppuccin-frappe-red"] .checkbox .knob {
-        background-color: #c6d0f5;
-      }
       html[data-theme="catppuccin-frappe-red"] .checkbox {
-        background-color: #838ba7;
-      }
-      html[data-theme="catppuccin-frappe-red"] .checkbox:hover {
-        background-color: #737994;
-      }
-      html[data-theme="catppuccin-frappe-red"] .checkbox.checked {
         background-color: #414559;
       }
-      html[data-theme="catppuccin-frappe-red"] .checkbox.checked:hover {
+      html[data-theme="catppuccin-frappe-red"] .checkbox:hover {
         background-color: #51576d;
+      }
+      html[data-theme="catppuccin-frappe-red"] .checkbox .knob {
+        background-color: #c6d0f5;
+        transition:
+          margin-left .4s ease-in-out,
+          background-color .3s ease-in-out !important;
+      }
+      html[data-theme="catppuccin-frappe-red"] .checkbox.checked {
+        background-color: #ca9ee6;
+      }
+      html[data-theme="catppuccin-frappe-red"] .checkbox.checked:hover {
+        background-color: #bf89e1;
+      }
+      html[data-theme="catppuccin-frappe-red"] .checkbox.checked .knob {
+        background-color: #303446;
       }
 
       html[data-theme="catppuccin-frappe-red"] input.rangeInput::-webkit-slider-runnable-track {
@@ -1632,20 +1662,26 @@ class Mod extends shapez.Mod {
         color: #c6d0f5;
       }
 
-      html[data-theme="catppuccin-frappe-maroon"] .checkbox .knob {
-        background-color: #c6d0f5;
-      }
       html[data-theme="catppuccin-frappe-maroon"] .checkbox {
-        background-color: #838ba7;
-      }
-      html[data-theme="catppuccin-frappe-maroon"] .checkbox:hover {
-        background-color: #737994;
-      }
-      html[data-theme="catppuccin-frappe-maroon"] .checkbox.checked {
         background-color: #414559;
       }
-      html[data-theme="catppuccin-frappe-maroon"] .checkbox.checked:hover {
+      html[data-theme="catppuccin-frappe-maroon"] .checkbox:hover {
         background-color: #51576d;
+      }
+      html[data-theme="catppuccin-frappe-maroon"] .checkbox .knob {
+        background-color: #c6d0f5;
+        transition:
+          margin-left .4s ease-in-out,
+          background-color .3s ease-in-out !important;
+      }
+      html[data-theme="catppuccin-frappe-maroon"] .checkbox.checked {
+        background-color: #ca9ee6;
+      }
+      html[data-theme="catppuccin-frappe-maroon"] .checkbox.checked:hover {
+        background-color: #bf89e1;
+      }
+      html[data-theme="catppuccin-frappe-maroon"] .checkbox.checked .knob {
+        background-color: #303446;
       }
 
       html[data-theme="catppuccin-frappe-maroon"] input.rangeInput::-webkit-slider-runnable-track {
@@ -1930,20 +1966,26 @@ class Mod extends shapez.Mod {
         color: #c6d0f5;
       }
 
-      html[data-theme="catppuccin-frappe-peach"] .checkbox .knob {
-        background-color: #c6d0f5;
-      }
       html[data-theme="catppuccin-frappe-peach"] .checkbox {
-        background-color: #838ba7;
-      }
-      html[data-theme="catppuccin-frappe-peach"] .checkbox:hover {
-        background-color: #737994;
-      }
-      html[data-theme="catppuccin-frappe-peach"] .checkbox.checked {
         background-color: #414559;
       }
-      html[data-theme="catppuccin-frappe-peach"] .checkbox.checked:hover {
+      html[data-theme="catppuccin-frappe-peach"] .checkbox:hover {
         background-color: #51576d;
+      }
+      html[data-theme="catppuccin-frappe-peach"] .checkbox .knob {
+        background-color: #c6d0f5;
+        transition:
+          margin-left .4s ease-in-out,
+          background-color .3s ease-in-out !important;
+      }
+      html[data-theme="catppuccin-frappe-peach"] .checkbox.checked {
+        background-color: #ca9ee6;
+      }
+      html[data-theme="catppuccin-frappe-peach"] .checkbox.checked:hover {
+        background-color: #bf89e1;
+      }
+      html[data-theme="catppuccin-frappe-peach"] .checkbox.checked .knob {
+        background-color: #303446;
       }
 
       html[data-theme="catppuccin-frappe-peach"] input.rangeInput::-webkit-slider-runnable-track {
@@ -2228,20 +2270,26 @@ class Mod extends shapez.Mod {
         color: #c6d0f5;
       }
 
-      html[data-theme="catppuccin-frappe-yellow"] .checkbox .knob {
-        background-color: #c6d0f5;
-      }
       html[data-theme="catppuccin-frappe-yellow"] .checkbox {
-        background-color: #838ba7;
-      }
-      html[data-theme="catppuccin-frappe-yellow"] .checkbox:hover {
-        background-color: #737994;
-      }
-      html[data-theme="catppuccin-frappe-yellow"] .checkbox.checked {
         background-color: #414559;
       }
-      html[data-theme="catppuccin-frappe-yellow"] .checkbox.checked:hover {
+      html[data-theme="catppuccin-frappe-yellow"] .checkbox:hover {
         background-color: #51576d;
+      }
+      html[data-theme="catppuccin-frappe-yellow"] .checkbox .knob {
+        background-color: #c6d0f5;
+        transition:
+          margin-left .4s ease-in-out,
+          background-color .3s ease-in-out !important;
+      }
+      html[data-theme="catppuccin-frappe-yellow"] .checkbox.checked {
+        background-color: #ca9ee6;
+      }
+      html[data-theme="catppuccin-frappe-yellow"] .checkbox.checked:hover {
+        background-color: #bf89e1;
+      }
+      html[data-theme="catppuccin-frappe-yellow"] .checkbox.checked .knob {
+        background-color: #303446;
       }
 
       html[data-theme="catppuccin-frappe-yellow"] input.rangeInput::-webkit-slider-runnable-track {
@@ -2526,20 +2574,26 @@ class Mod extends shapez.Mod {
         color: #c6d0f5;
       }
 
-      html[data-theme="catppuccin-frappe-green"] .checkbox .knob {
-        background-color: #c6d0f5;
-      }
       html[data-theme="catppuccin-frappe-green"] .checkbox {
-        background-color: #838ba7;
-      }
-      html[data-theme="catppuccin-frappe-green"] .checkbox:hover {
-        background-color: #737994;
-      }
-      html[data-theme="catppuccin-frappe-green"] .checkbox.checked {
         background-color: #414559;
       }
-      html[data-theme="catppuccin-frappe-green"] .checkbox.checked:hover {
+      html[data-theme="catppuccin-frappe-green"] .checkbox:hover {
         background-color: #51576d;
+      }
+      html[data-theme="catppuccin-frappe-green"] .checkbox .knob {
+        background-color: #c6d0f5;
+        transition:
+          margin-left .4s ease-in-out,
+          background-color .3s ease-in-out !important;
+      }
+      html[data-theme="catppuccin-frappe-green"] .checkbox.checked {
+        background-color: #ca9ee6;
+      }
+      html[data-theme="catppuccin-frappe-green"] .checkbox.checked:hover {
+        background-color: #bf89e1;
+      }
+      html[data-theme="catppuccin-frappe-green"] .checkbox.checked .knob {
+        background-color: #303446;
       }
 
       html[data-theme="catppuccin-frappe-green"] input.rangeInput::-webkit-slider-runnable-track {
@@ -2824,20 +2878,26 @@ class Mod extends shapez.Mod {
         color: #c6d0f5;
       }
 
-      html[data-theme="catppuccin-frappe-teal"] .checkbox .knob {
-        background-color: #c6d0f5;
-      }
       html[data-theme="catppuccin-frappe-teal"] .checkbox {
-        background-color: #838ba7;
-      }
-      html[data-theme="catppuccin-frappe-teal"] .checkbox:hover {
-        background-color: #737994;
-      }
-      html[data-theme="catppuccin-frappe-teal"] .checkbox.checked {
         background-color: #414559;
       }
-      html[data-theme="catppuccin-frappe-teal"] .checkbox.checked:hover {
+      html[data-theme="catppuccin-frappe-teal"] .checkbox:hover {
         background-color: #51576d;
+      }
+      html[data-theme="catppuccin-frappe-teal"] .checkbox .knob {
+        background-color: #c6d0f5;
+        transition:
+          margin-left .4s ease-in-out,
+          background-color .3s ease-in-out !important;
+      }
+      html[data-theme="catppuccin-frappe-teal"] .checkbox.checked {
+        background-color: #ca9ee6;
+      }
+      html[data-theme="catppuccin-frappe-teal"] .checkbox.checked:hover {
+        background-color: #bf89e1;
+      }
+      html[data-theme="catppuccin-frappe-teal"] .checkbox.checked .knob {
+        background-color: #303446;
       }
 
       html[data-theme="catppuccin-frappe-teal"] input.rangeInput::-webkit-slider-runnable-track {
@@ -3122,20 +3182,26 @@ class Mod extends shapez.Mod {
         color: #c6d0f5;
       }
 
-      html[data-theme="catppuccin-frappe-sky"] .checkbox .knob {
-        background-color: #c6d0f5;
-      }
       html[data-theme="catppuccin-frappe-sky"] .checkbox {
-        background-color: #838ba7;
-      }
-      html[data-theme="catppuccin-frappe-sky"] .checkbox:hover {
-        background-color: #737994;
-      }
-      html[data-theme="catppuccin-frappe-sky"] .checkbox.checked {
         background-color: #414559;
       }
-      html[data-theme="catppuccin-frappe-sky"] .checkbox.checked:hover {
+      html[data-theme="catppuccin-frappe-sky"] .checkbox:hover {
         background-color: #51576d;
+      }
+      html[data-theme="catppuccin-frappe-sky"] .checkbox .knob {
+        background-color: #c6d0f5;
+        transition:
+          margin-left .4s ease-in-out,
+          background-color .3s ease-in-out !important;
+      }
+      html[data-theme="catppuccin-frappe-sky"] .checkbox.checked {
+        background-color: #ca9ee6;
+      }
+      html[data-theme="catppuccin-frappe-sky"] .checkbox.checked:hover {
+        background-color: #bf89e1;
+      }
+      html[data-theme="catppuccin-frappe-sky"] .checkbox.checked .knob {
+        background-color: #303446;
       }
 
       html[data-theme="catppuccin-frappe-sky"] input.rangeInput::-webkit-slider-runnable-track {
@@ -3420,20 +3486,26 @@ class Mod extends shapez.Mod {
         color: #c6d0f5;
       }
 
-      html[data-theme="catppuccin-frappe-sapphire"] .checkbox .knob {
-        background-color: #c6d0f5;
-      }
       html[data-theme="catppuccin-frappe-sapphire"] .checkbox {
-        background-color: #838ba7;
-      }
-      html[data-theme="catppuccin-frappe-sapphire"] .checkbox:hover {
-        background-color: #737994;
-      }
-      html[data-theme="catppuccin-frappe-sapphire"] .checkbox.checked {
         background-color: #414559;
       }
-      html[data-theme="catppuccin-frappe-sapphire"] .checkbox.checked:hover {
+      html[data-theme="catppuccin-frappe-sapphire"] .checkbox:hover {
         background-color: #51576d;
+      }
+      html[data-theme="catppuccin-frappe-sapphire"] .checkbox .knob {
+        background-color: #c6d0f5;
+        transition:
+          margin-left .4s ease-in-out,
+          background-color .3s ease-in-out !important;
+      }
+      html[data-theme="catppuccin-frappe-sapphire"] .checkbox.checked {
+        background-color: #ca9ee6;
+      }
+      html[data-theme="catppuccin-frappe-sapphire"] .checkbox.checked:hover {
+        background-color: #bf89e1;
+      }
+      html[data-theme="catppuccin-frappe-sapphire"] .checkbox.checked .knob {
+        background-color: #303446;
       }
 
       html[data-theme="catppuccin-frappe-sapphire"] input.rangeInput::-webkit-slider-runnable-track {
@@ -3718,20 +3790,26 @@ class Mod extends shapez.Mod {
         color: #c6d0f5;
       }
 
-      html[data-theme="catppuccin-frappe-blue"] .checkbox .knob {
-        background-color: #c6d0f5;
-      }
       html[data-theme="catppuccin-frappe-blue"] .checkbox {
-        background-color: #838ba7;
-      }
-      html[data-theme="catppuccin-frappe-blue"] .checkbox:hover {
-        background-color: #737994;
-      }
-      html[data-theme="catppuccin-frappe-blue"] .checkbox.checked {
         background-color: #414559;
       }
-      html[data-theme="catppuccin-frappe-blue"] .checkbox.checked:hover {
+      html[data-theme="catppuccin-frappe-blue"] .checkbox:hover {
         background-color: #51576d;
+      }
+      html[data-theme="catppuccin-frappe-blue"] .checkbox .knob {
+        background-color: #c6d0f5;
+        transition:
+          margin-left .4s ease-in-out,
+          background-color .3s ease-in-out !important;
+      }
+      html[data-theme="catppuccin-frappe-blue"] .checkbox.checked {
+        background-color: #ca9ee6;
+      }
+      html[data-theme="catppuccin-frappe-blue"] .checkbox.checked:hover {
+        background-color: #bf89e1;
+      }
+      html[data-theme="catppuccin-frappe-blue"] .checkbox.checked .knob {
+        background-color: #303446;
       }
 
       html[data-theme="catppuccin-frappe-blue"] input.rangeInput::-webkit-slider-runnable-track {
@@ -4016,20 +4094,26 @@ class Mod extends shapez.Mod {
         color: #c6d0f5;
       }
 
-      html[data-theme="catppuccin-frappe-lavender"] .checkbox .knob {
-        background-color: #c6d0f5;
-      }
       html[data-theme="catppuccin-frappe-lavender"] .checkbox {
-        background-color: #838ba7;
-      }
-      html[data-theme="catppuccin-frappe-lavender"] .checkbox:hover {
-        background-color: #737994;
-      }
-      html[data-theme="catppuccin-frappe-lavender"] .checkbox.checked {
         background-color: #414559;
       }
-      html[data-theme="catppuccin-frappe-lavender"] .checkbox.checked:hover {
+      html[data-theme="catppuccin-frappe-lavender"] .checkbox:hover {
         background-color: #51576d;
+      }
+      html[data-theme="catppuccin-frappe-lavender"] .checkbox .knob {
+        background-color: #c6d0f5;
+        transition:
+          margin-left .4s ease-in-out,
+          background-color .3s ease-in-out !important;
+      }
+      html[data-theme="catppuccin-frappe-lavender"] .checkbox.checked {
+        background-color: #ca9ee6;
+      }
+      html[data-theme="catppuccin-frappe-lavender"] .checkbox.checked:hover {
+        background-color: #bf89e1;
+      }
+      html[data-theme="catppuccin-frappe-lavender"] .checkbox.checked .knob {
+        background-color: #303446;
       }
 
       html[data-theme="catppuccin-frappe-lavender"] input.rangeInput::-webkit-slider-runnable-track {
