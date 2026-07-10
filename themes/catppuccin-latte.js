@@ -130,12 +130,44 @@ class Mod extends shapez.Mod {
         background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'%3E%3Cpath fill='%231e66f5' d='M0 0h512v512H0z'/%3E%3Cpath fill='%23eff1f5' d='M0 93.86h512v324.28H0z'/%3E%3Cpath d='M317.474 256l30.734-53.234h-61.469L256 149.523l-30.739 53.243h-61.469L194.526 256l-30.734 53.234h61.469L256 362.477l30.739-53.243h61.469L317.474 256zm.58-35.824l-10.632 18.415-10.632-18.415h21.264zM297.371 256l-20.683 35.824h-41.376L214.629 256l20.683-35.824h41.376L297.371 256zM256 184.344l10.636 18.422h-21.272L256 184.344zm-62.054 35.832h21.264l-10.632 18.415-10.632-18.415zm0 71.648l10.632-18.415 10.632 18.415h-21.264zM256 327.656l-10.636-18.422h21.272L256 327.656zm51.423-54.247l10.632 18.415h-21.264l10.632-18.415z' fill='%231e66f5'/%3E%3C/svg%3E") !important;
       }
 
+      html[data-theme="catppuccin-latte-rosewater"] {
+        background-color: #e6e9ef;
+      }
+
       html[data-theme="catppuccin-latte-rosewater"] a {
         color: #4c4f69;
       }
 
       html[data-theme="catppuccin-latte-rosewater"] body {
         color: #4c4f69;
+      }
+
+      html[data-theme="catppuccin-latte-rosewater"] .checkbox .knob {
+        background-color: #4c4f69;
+      }
+      html[data-theme="catppuccin-latte-rosewater"] .checkbox {
+        background-color: #6c6f85;
+      }
+      html[data-theme="catppuccin-latte-rosewater"] .checkbox:hover {
+        background-color: #7c7f93;
+      }
+      html[data-theme="catppuccin-latte-rosewater"] .checkbox.checked {
+        background-color: #ccd0da;
+      }
+      html[data-theme="catppuccin-latte-rosewater"] .checkbox.checked:hover {
+        background-color: #bcc0cc;
+      }
+
+      html[data-theme="catppuccin-latte-rosewater"] input.rangeInput::-webkit-slider-runnable-track {
+        color: #dce0e8;
+        background-color: #dce0e8;
+      }
+
+      html[data-theme="catppuccin-latte-rosewater"] input.rangeInput::-webkit-slider-thumb {
+        box-shadow:inset 0 0 0 calc(10px*var(--ui-scale)) #ccd0da;
+      }
+      html[data-theme="catppuccin-latte-rosewater"] input.rangeInput:hover::-webkit-slider-thumb {
+        box-shadow:inset 0 0 0 calc(10px*var(--ui-scale)) #bdc2cf;
       }
 
       html[data-theme="catppuccin-latte-rosewater"] #state_MainMenuState {
@@ -214,6 +246,15 @@ class Mod extends shapez.Mod {
       }
 
       /* Dialog (language) */
+      html[data-theme="catppuccin-latte-rosewater"] .ingameDialog,
+      html[data-theme="catppuccin-latte-rosewater"] .ingameDialog.visible {
+        animation: f .12s ease-in-out !important;
+        -webkit-animation: f .12s ease-in-out !important;
+
+        background: #ccd0dacc !important;
+        backdrop-filter: blur(calc(3px * var(--ui-scale))) !important;
+        -webkit-backdrop-filter: blur(calc(3px * var(--ui-scale))) !important;
+      }
       html[data-theme="catppuccin-latte-rosewater"] .ingameDialog>.dialogInner {
         background-color: #eff1f5;
       }
@@ -226,6 +267,48 @@ class Mod extends shapez.Mod {
       html[data-theme="catppuccin-latte-rosewater"] .ingameDialog>.dialogInner.optionChooserDialog .optionParent .option.active {
         color: #eff1f5;
         background-color: #dc8a78;
+      }
+
+      /* Settings */
+      html[data-theme="catppuccin-latte-rosewater"] .gameState.textualState .headerBar .backButton {
+      filter:brightness(0) saturate(100%) invert(43%) sepia(43%) saturate(515%) hue-rotate(196deg) brightness(49%) contrast(68%);
+      }
+      html[data-theme="catppuccin-latte-rosewater"] .gameState.textualState .headerBar h1 {
+        color: #4c4f69;
+      }
+      html[data-theme="catppuccin-latte-rosewater"] .gameState.textualState>.container>.content {
+        background-color: #eff1f5;
+      }
+      html[data-theme="catppuccin-latte-rosewater"] #state_SettingsState .container .content .sidebar button.about,
+      html[data-theme="catppuccin-latte-rosewater"] #state_SettingsState .container .content .sidebar button.categoryButton,
+      html[data-theme="catppuccin-latte-rosewater"] #state_SettingsState .container .content .sidebar button.privacy {
+        color: #4c4f69;
+        background-color: #e6e9ef;
+      }
+      html[data-theme="catppuccin-latte-rosewater"] #state_SettingsState .container .content .sidebar button.about.active,
+      html[data-theme="catppuccin-latte-rosewater"] #state_SettingsState .container .content .sidebar button.categoryButton.active,
+      html[data-theme="catppuccin-latte-rosewater"] #state_SettingsState .container .content .sidebar button.privacy.active {
+        color: #eff1f5;
+        background-color: #dc8a78;
+      }
+      html[data-theme="catppuccin-latte-rosewater"] #state_SettingsState .container .content .sidebar button.manageMods {
+        color: #ea76cb;
+        background-color: #efe4f1;
+      }
+      html[data-theme="catppuccin-latte-rosewater"] #state_SettingsState .container .content .sidebar button.manageMods .newBadge {
+        color: #eff1f5;
+        background-color: #ea76cb;
+      }
+      html[data-theme="catppuccin-latte-rosewater"] #state_SettingsState .container .content .categoryContainer .category .setting {
+        background-color: #e6e9ef;
+      }
+      html[data-theme="catppuccin-latte-rosewater"] #state_SettingsState .container .content .categoryContainer .category .setting .desc,
+      html[data-theme="catppuccin-latte-rosewater"] #state_SettingsState .container .content .sidebar .versionbar .buildVersion {
+        color: #6c6f85;
+      }
+      html[data-theme="catppuccin-latte-rosewater"] #state_SettingsState .container .content .categoryContainer .category .setting .value.enum {
+        background-color: #dce0e8;
+        background: #dce0e8 url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABABAMAAABYR2ztAAAAIGNIUk0AAHomAACAhAAA+gAAAIDoAAB1MAAA6mAAADqYAAAXcJy6UTwAAAAYUExURUxPaUxPaUxPaUxPaUxPaUxPaUxPaf///8yq9UAAAAAGdFJOUwAre/xYLJjtDxIAAAABYktHRAcWYYjrAAAAB3RJTUUH6gcKBxk3gGS0ogAAACV0RVh0ZGF0ZTpjcmVhdGUAMjAyNi0wNy0xMFQwNzoyNToxNyswMDowMHnONrcAAAAldEVYdGRhdGU6bW9kaWZ5ADIwMjYtMDctMTBUMDc6MjU6MTcrMDA6MDAIk44LAAAAKHRFWHRkYXRlOnRpbWVzdGFtcAAyMDI2LTA3LTEwVDA3OjI1OjU1KzAwOjAwTFOwBwAAAJhJREFUSMftz8sNgCAMBmA0DOAIJm5g0LMJIziCCfuPII8ghT686I2eyl/7IUr16vV9DVQ4gX458FyvpR+dwR9YNz/96S5E6N1t8GAwAJcsIpodTLQr7RlttAG+s06Iv64jS7wbZtSzq5ACYEoCMKaBkjNAGXBAnrBAHvFAmglAIiQgEhIQCREIhAgEQgY8IQOeeAF69fq7boqQLsGIVTZjAAAAAElFTkSuQmCC") calc(100% - 5px*var(--ui-scale)) calc(50% + 1px*var(--ui-scale))/calc(15px*var(--ui-scale)) no-repeat;
       }
     `)
     this.modInterface.registerGameTheme({
@@ -345,12 +428,44 @@ class Mod extends shapez.Mod {
         background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'%3E%3Cpath fill='%231e66f5' d='M0 0h512v512H0z'/%3E%3Cpath fill='%23eff1f5' d='M0 93.86h512v324.28H0z'/%3E%3Cpath d='M317.474 256l30.734-53.234h-61.469L256 149.523l-30.739 53.243h-61.469L194.526 256l-30.734 53.234h61.469L256 362.477l30.739-53.243h61.469L317.474 256zm.58-35.824l-10.632 18.415-10.632-18.415h21.264zM297.371 256l-20.683 35.824h-41.376L214.629 256l20.683-35.824h41.376L297.371 256zM256 184.344l10.636 18.422h-21.272L256 184.344zm-62.054 35.832h21.264l-10.632 18.415-10.632-18.415zm0 71.648l10.632-18.415 10.632 18.415h-21.264zM256 327.656l-10.636-18.422h21.272L256 327.656zm51.423-54.247l10.632 18.415h-21.264l10.632-18.415z' fill='%231e66f5'/%3E%3C/svg%3E") !important;
       }
 
+      html[data-theme="catppuccin-latte-flamingo"] {
+        background-color: #e6e9ef;
+      }
+
       html[data-theme="catppuccin-latte-flamingo"] a {
         color: #4c4f69;
       }
 
       html[data-theme="catppuccin-latte-flamingo"] body {
         color: #4c4f69;
+      }
+
+      html[data-theme="catppuccin-latte-flamingo"] .checkbox .knob {
+        background-color: #4c4f69;
+      }
+      html[data-theme="catppuccin-latte-flamingo"] .checkbox {
+        background-color: #6c6f85;
+      }
+      html[data-theme="catppuccin-latte-flamingo"] .checkbox:hover {
+        background-color: #7c7f93;
+      }
+      html[data-theme="catppuccin-latte-flamingo"] .checkbox.checked {
+        background-color: #ccd0da;
+      }
+      html[data-theme="catppuccin-latte-flamingo"] .checkbox.checked:hover {
+        background-color: #bcc0cc;
+      }
+
+      html[data-theme="catppuccin-latte-flamingo"] input.rangeInput::-webkit-slider-runnable-track {
+        color: #dce0e8;
+        background-color: #dce0e8;
+      }
+
+      html[data-theme="catppuccin-latte-flamingo"] input.rangeInput::-webkit-slider-thumb {
+        box-shadow:inset 0 0 0 calc(10px*var(--ui-scale)) #ccd0da;
+      }
+      html[data-theme="catppuccin-latte-flamingo"] input.rangeInput:hover::-webkit-slider-thumb {
+        box-shadow:inset 0 0 0 calc(10px*var(--ui-scale)) #bdc2cf;
       }
 
       html[data-theme="catppuccin-latte-flamingo"] #state_MainMenuState {
@@ -429,6 +544,15 @@ class Mod extends shapez.Mod {
       }
 
       /* Dialog (language) */
+      html[data-theme="catppuccin-latte-flamingo"] .ingameDialog,
+      html[data-theme="catppuccin-latte-flamingo"] .ingameDialog.visible {
+        animation: f .12s ease-in-out !important;
+        -webkit-animation: f .12s ease-in-out !important;
+
+        background: #ccd0dacc !important;
+        backdrop-filter: blur(calc(3px * var(--ui-scale))) !important;
+        -webkit-backdrop-filter: blur(calc(3px * var(--ui-scale))) !important;
+      }
       html[data-theme="catppuccin-latte-flamingo"] .ingameDialog>.dialogInner {
         background-color: #eff1f5;
       }
@@ -441,6 +565,48 @@ class Mod extends shapez.Mod {
       html[data-theme="catppuccin-latte-flamingo"] .ingameDialog>.dialogInner.optionChooserDialog .optionParent .option.active {
         color: #eff1f5;
         background-color: #dd7878;
+      }
+
+      /* Settings */
+      html[data-theme="catppuccin-latte-flamingo"] .gameState.textualState .headerBar .backButton {
+      filter:brightness(0) saturate(100%) invert(43%) sepia(43%) saturate(515%) hue-rotate(196deg) brightness(49%) contrast(68%);
+      }
+      html[data-theme="catppuccin-latte-flamingo"] .gameState.textualState .headerBar h1 {
+        color: #4c4f69;
+      }
+      html[data-theme="catppuccin-latte-flamingo"] .gameState.textualState>.container>.content {
+        background-color: #eff1f5;
+      }
+      html[data-theme="catppuccin-latte-flamingo"] #state_SettingsState .container .content .sidebar button.about,
+      html[data-theme="catppuccin-latte-flamingo"] #state_SettingsState .container .content .sidebar button.categoryButton,
+      html[data-theme="catppuccin-latte-flamingo"] #state_SettingsState .container .content .sidebar button.privacy {
+        color: #4c4f69;
+        background-color: #e6e9ef;
+      }
+      html[data-theme="catppuccin-latte-flamingo"] #state_SettingsState .container .content .sidebar button.about.active,
+      html[data-theme="catppuccin-latte-flamingo"] #state_SettingsState .container .content .sidebar button.categoryButton.active,
+      html[data-theme="catppuccin-latte-flamingo"] #state_SettingsState .container .content .sidebar button.privacy.active {
+        color: #eff1f5;
+        background-color: #dd7878;
+      }
+      html[data-theme="catppuccin-latte-flamingo"] #state_SettingsState .container .content .sidebar button.manageMods {
+        color: #ea76cb;
+        background-color: #efe4f1;
+      }
+      html[data-theme="catppuccin-latte-flamingo"] #state_SettingsState .container .content .sidebar button.manageMods .newBadge {
+        color: #eff1f5;
+        background-color: #ea76cb;
+      }
+      html[data-theme="catppuccin-latte-flamingo"] #state_SettingsState .container .content .categoryContainer .category .setting {
+        background-color: #e6e9ef;
+      }
+      html[data-theme="catppuccin-latte-flamingo"] #state_SettingsState .container .content .categoryContainer .category .setting .desc,
+      html[data-theme="catppuccin-latte-flamingo"] #state_SettingsState .container .content .sidebar .versionbar .buildVersion {
+        color: #6c6f85;
+      }
+      html[data-theme="catppuccin-latte-flamingo"] #state_SettingsState .container .content .categoryContainer .category .setting .value.enum {
+        background-color: #dce0e8;
+        background: #dce0e8 url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABABAMAAABYR2ztAAAAIGNIUk0AAHomAACAhAAA+gAAAIDoAAB1MAAA6mAAADqYAAAXcJy6UTwAAAAYUExURUxPaUxPaUxPaUxPaUxPaUxPaUxPaf///8yq9UAAAAAGdFJOUwAre/xYLJjtDxIAAAABYktHRAcWYYjrAAAAB3RJTUUH6gcKBxk3gGS0ogAAACV0RVh0ZGF0ZTpjcmVhdGUAMjAyNi0wNy0xMFQwNzoyNToxNyswMDowMHnONrcAAAAldEVYdGRhdGU6bW9kaWZ5ADIwMjYtMDctMTBUMDc6MjU6MTcrMDA6MDAIk44LAAAAKHRFWHRkYXRlOnRpbWVzdGFtcAAyMDI2LTA3LTEwVDA3OjI1OjU1KzAwOjAwTFOwBwAAAJhJREFUSMftz8sNgCAMBmA0DOAIJm5g0LMJIziCCfuPII8ghT686I2eyl/7IUr16vV9DVQ4gX458FyvpR+dwR9YNz/96S5E6N1t8GAwAJcsIpodTLQr7RlttAG+s06Iv64jS7wbZtSzq5ACYEoCMKaBkjNAGXBAnrBAHvFAmglAIiQgEhIQCREIhAgEQgY8IQOeeAF69fq7boqQLsGIVTZjAAAAAElFTkSuQmCC") calc(100% - 5px*var(--ui-scale)) calc(50% + 1px*var(--ui-scale))/calc(15px*var(--ui-scale)) no-repeat;
       }
     `)
     this.modInterface.registerGameTheme({
@@ -560,12 +726,44 @@ class Mod extends shapez.Mod {
         background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'%3E%3Cpath fill='%231e66f5' d='M0 0h512v512H0z'/%3E%3Cpath fill='%23eff1f5' d='M0 93.86h512v324.28H0z'/%3E%3Cpath d='M317.474 256l30.734-53.234h-61.469L256 149.523l-30.739 53.243h-61.469L194.526 256l-30.734 53.234h61.469L256 362.477l30.739-53.243h61.469L317.474 256zm.58-35.824l-10.632 18.415-10.632-18.415h21.264zM297.371 256l-20.683 35.824h-41.376L214.629 256l20.683-35.824h41.376L297.371 256zM256 184.344l10.636 18.422h-21.272L256 184.344zm-62.054 35.832h21.264l-10.632 18.415-10.632-18.415zm0 71.648l10.632-18.415 10.632 18.415h-21.264zM256 327.656l-10.636-18.422h21.272L256 327.656zm51.423-54.247l10.632 18.415h-21.264l10.632-18.415z' fill='%231e66f5'/%3E%3C/svg%3E") !important;
       }
 
+      html[data-theme="catppuccin-latte-pink"] {
+        background-color: #e6e9ef;
+      }
+
       html[data-theme="catppuccin-latte-pink"] a {
         color: #4c4f69;
       }
 
       html[data-theme="catppuccin-latte-pink"] body {
         color: #4c4f69;
+      }
+
+      html[data-theme="catppuccin-latte-pink"] .checkbox .knob {
+        background-color: #4c4f69;
+      }
+      html[data-theme="catppuccin-latte-pink"] .checkbox {
+        background-color: #6c6f85;
+      }
+      html[data-theme="catppuccin-latte-pink"] .checkbox:hover {
+        background-color: #7c7f93;
+      }
+      html[data-theme="catppuccin-latte-pink"] .checkbox.checked {
+        background-color: #ccd0da;
+      }
+      html[data-theme="catppuccin-latte-pink"] .checkbox.checked:hover {
+        background-color: #bcc0cc;
+      }
+
+      html[data-theme="catppuccin-latte-pink"] input.rangeInput::-webkit-slider-runnable-track {
+        color: #dce0e8;
+        background-color: #dce0e8;
+      }
+
+      html[data-theme="catppuccin-latte-pink"] input.rangeInput::-webkit-slider-thumb {
+        box-shadow:inset 0 0 0 calc(10px*var(--ui-scale)) #ccd0da;
+      }
+      html[data-theme="catppuccin-latte-pink"] input.rangeInput:hover::-webkit-slider-thumb {
+        box-shadow:inset 0 0 0 calc(10px*var(--ui-scale)) #bdc2cf;
       }
 
       html[data-theme="catppuccin-latte-pink"] #state_MainMenuState {
@@ -644,6 +842,15 @@ class Mod extends shapez.Mod {
       }
 
       /* Dialog (language) */
+      html[data-theme="catppuccin-latte-pink"] .ingameDialog,
+      html[data-theme="catppuccin-latte-pink"] .ingameDialog.visible {
+        animation: f .12s ease-in-out !important;
+        -webkit-animation: f .12s ease-in-out !important;
+
+        background: #ccd0dacc !important;
+        backdrop-filter: blur(calc(3px * var(--ui-scale))) !important;
+        -webkit-backdrop-filter: blur(calc(3px * var(--ui-scale))) !important;
+      }
       html[data-theme="catppuccin-latte-pink"] .ingameDialog>.dialogInner {
         background-color: #eff1f5;
       }
@@ -656,6 +863,48 @@ class Mod extends shapez.Mod {
       html[data-theme="catppuccin-latte-pink"] .ingameDialog>.dialogInner.optionChooserDialog .optionParent .option.active {
         color: #eff1f5;
         background-color: #ea76cb;
+      }
+
+      /* Settings */
+      html[data-theme="catppuccin-latte-pink"] .gameState.textualState .headerBar .backButton {
+      filter:brightness(0) saturate(100%) invert(43%) sepia(43%) saturate(515%) hue-rotate(196deg) brightness(49%) contrast(68%);
+      }
+      html[data-theme="catppuccin-latte-pink"] .gameState.textualState .headerBar h1 {
+        color: #4c4f69;
+      }
+      html[data-theme="catppuccin-latte-pink"] .gameState.textualState>.container>.content {
+        background-color: #eff1f5;
+      }
+      html[data-theme="catppuccin-latte-pink"] #state_SettingsState .container .content .sidebar button.about,
+      html[data-theme="catppuccin-latte-pink"] #state_SettingsState .container .content .sidebar button.categoryButton,
+      html[data-theme="catppuccin-latte-pink"] #state_SettingsState .container .content .sidebar button.privacy {
+        color: #4c4f69;
+        background-color: #e6e9ef;
+      }
+      html[data-theme="catppuccin-latte-pink"] #state_SettingsState .container .content .sidebar button.about.active,
+      html[data-theme="catppuccin-latte-pink"] #state_SettingsState .container .content .sidebar button.categoryButton.active,
+      html[data-theme="catppuccin-latte-pink"] #state_SettingsState .container .content .sidebar button.privacy.active {
+        color: #eff1f5;
+        background-color: #ea76cb;
+      }
+      html[data-theme="catppuccin-latte-pink"] #state_SettingsState .container .content .sidebar button.manageMods {
+        color: #ea76cb;
+        background-color: #efe4f1;
+      }
+      html[data-theme="catppuccin-latte-pink"] #state_SettingsState .container .content .sidebar button.manageMods .newBadge {
+        color: #eff1f5;
+        background-color: #ea76cb;
+      }
+      html[data-theme="catppuccin-latte-pink"] #state_SettingsState .container .content .categoryContainer .category .setting {
+        background-color: #e6e9ef;
+      }
+      html[data-theme="catppuccin-latte-pink"] #state_SettingsState .container .content .categoryContainer .category .setting .desc,
+      html[data-theme="catppuccin-latte-pink"] #state_SettingsState .container .content .sidebar .versionbar .buildVersion {
+        color: #6c6f85;
+      }
+      html[data-theme="catppuccin-latte-pink"] #state_SettingsState .container .content .categoryContainer .category .setting .value.enum {
+        background-color: #dce0e8;
+        background: #dce0e8 url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABABAMAAABYR2ztAAAAIGNIUk0AAHomAACAhAAA+gAAAIDoAAB1MAAA6mAAADqYAAAXcJy6UTwAAAAYUExURUxPaUxPaUxPaUxPaUxPaUxPaUxPaf///8yq9UAAAAAGdFJOUwAre/xYLJjtDxIAAAABYktHRAcWYYjrAAAAB3RJTUUH6gcKBxk3gGS0ogAAACV0RVh0ZGF0ZTpjcmVhdGUAMjAyNi0wNy0xMFQwNzoyNToxNyswMDowMHnONrcAAAAldEVYdGRhdGU6bW9kaWZ5ADIwMjYtMDctMTBUMDc6MjU6MTcrMDA6MDAIk44LAAAAKHRFWHRkYXRlOnRpbWVzdGFtcAAyMDI2LTA3LTEwVDA3OjI1OjU1KzAwOjAwTFOwBwAAAJhJREFUSMftz8sNgCAMBmA0DOAIJm5g0LMJIziCCfuPII8ghT686I2eyl/7IUr16vV9DVQ4gX458FyvpR+dwR9YNz/96S5E6N1t8GAwAJcsIpodTLQr7RlttAG+s06Iv64jS7wbZtSzq5ACYEoCMKaBkjNAGXBAnrBAHvFAmglAIiQgEhIQCREIhAgEQgY8IQOeeAF69fq7boqQLsGIVTZjAAAAAElFTkSuQmCC") calc(100% - 5px*var(--ui-scale)) calc(50% + 1px*var(--ui-scale))/calc(15px*var(--ui-scale)) no-repeat;
       }
     `)
     this.modInterface.registerGameTheme({
@@ -775,12 +1024,44 @@ class Mod extends shapez.Mod {
         background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'%3E%3Cpath fill='%231e66f5' d='M0 0h512v512H0z'/%3E%3Cpath fill='%23eff1f5' d='M0 93.86h512v324.28H0z'/%3E%3Cpath d='M317.474 256l30.734-53.234h-61.469L256 149.523l-30.739 53.243h-61.469L194.526 256l-30.734 53.234h61.469L256 362.477l30.739-53.243h61.469L317.474 256zm.58-35.824l-10.632 18.415-10.632-18.415h21.264zM297.371 256l-20.683 35.824h-41.376L214.629 256l20.683-35.824h41.376L297.371 256zM256 184.344l10.636 18.422h-21.272L256 184.344zm-62.054 35.832h21.264l-10.632 18.415-10.632-18.415zm0 71.648l10.632-18.415 10.632 18.415h-21.264zM256 327.656l-10.636-18.422h21.272L256 327.656zm51.423-54.247l10.632 18.415h-21.264l10.632-18.415z' fill='%231e66f5'/%3E%3C/svg%3E") !important;
       }
 
+      html[data-theme="catppuccin-latte-mauve"] {
+        background-color: #e6e9ef;
+      }
+
       html[data-theme="catppuccin-latte-mauve"] a {
         color: #4c4f69;
       }
 
       html[data-theme="catppuccin-latte-mauve"] body {
         color: #4c4f69;
+      }
+
+      html[data-theme="catppuccin-latte-mauve"] .checkbox .knob {
+        background-color: #4c4f69;
+      }
+      html[data-theme="catppuccin-latte-mauve"] .checkbox {
+        background-color: #6c6f85;
+      }
+      html[data-theme="catppuccin-latte-mauve"] .checkbox:hover {
+        background-color: #7c7f93;
+      }
+      html[data-theme="catppuccin-latte-mauve"] .checkbox.checked {
+        background-color: #ccd0da;
+      }
+      html[data-theme="catppuccin-latte-mauve"] .checkbox.checked:hover {
+        background-color: #bcc0cc;
+      }
+
+      html[data-theme="catppuccin-latte-mauve"] input.rangeInput::-webkit-slider-runnable-track {
+        color: #dce0e8;
+        background-color: #dce0e8;
+      }
+
+      html[data-theme="catppuccin-latte-mauve"] input.rangeInput::-webkit-slider-thumb {
+        box-shadow:inset 0 0 0 calc(10px*var(--ui-scale)) #ccd0da;
+      }
+      html[data-theme="catppuccin-latte-mauve"] input.rangeInput:hover::-webkit-slider-thumb {
+        box-shadow:inset 0 0 0 calc(10px*var(--ui-scale)) #bdc2cf;
       }
 
       html[data-theme="catppuccin-latte-mauve"] #state_MainMenuState {
@@ -859,6 +1140,15 @@ class Mod extends shapez.Mod {
       }
 
       /* Dialog (language) */
+      html[data-theme="catppuccin-latte-mauve"] .ingameDialog,
+      html[data-theme="catppuccin-latte-mauve"] .ingameDialog.visible {
+        animation: f .12s ease-in-out !important;
+        -webkit-animation: f .12s ease-in-out !important;
+
+        background: #ccd0dacc !important;
+        backdrop-filter: blur(calc(3px * var(--ui-scale))) !important;
+        -webkit-backdrop-filter: blur(calc(3px * var(--ui-scale))) !important;
+      }
       html[data-theme="catppuccin-latte-mauve"] .ingameDialog>.dialogInner {
         background-color: #eff1f5;
       }
@@ -871,6 +1161,48 @@ class Mod extends shapez.Mod {
       html[data-theme="catppuccin-latte-mauve"] .ingameDialog>.dialogInner.optionChooserDialog .optionParent .option.active {
         color: #eff1f5;
         background-color: #8839ef;
+      }
+
+      /* Settings */
+      html[data-theme="catppuccin-latte-mauve"] .gameState.textualState .headerBar .backButton {
+      filter:brightness(0) saturate(100%) invert(43%) sepia(43%) saturate(515%) hue-rotate(196deg) brightness(49%) contrast(68%);
+      }
+      html[data-theme="catppuccin-latte-mauve"] .gameState.textualState .headerBar h1 {
+        color: #4c4f69;
+      }
+      html[data-theme="catppuccin-latte-mauve"] .gameState.textualState>.container>.content {
+        background-color: #eff1f5;
+      }
+      html[data-theme="catppuccin-latte-mauve"] #state_SettingsState .container .content .sidebar button.about,
+      html[data-theme="catppuccin-latte-mauve"] #state_SettingsState .container .content .sidebar button.categoryButton,
+      html[data-theme="catppuccin-latte-mauve"] #state_SettingsState .container .content .sidebar button.privacy {
+        color: #4c4f69;
+        background-color: #e6e9ef;
+      }
+      html[data-theme="catppuccin-latte-mauve"] #state_SettingsState .container .content .sidebar button.about.active,
+      html[data-theme="catppuccin-latte-mauve"] #state_SettingsState .container .content .sidebar button.categoryButton.active,
+      html[data-theme="catppuccin-latte-mauve"] #state_SettingsState .container .content .sidebar button.privacy.active {
+        color: #eff1f5;
+        background-color: #8839ef;
+      }
+      html[data-theme="catppuccin-latte-mauve"] #state_SettingsState .container .content .sidebar button.manageMods {
+        color: #ea76cb;
+        background-color: #efe4f1;
+      }
+      html[data-theme="catppuccin-latte-mauve"] #state_SettingsState .container .content .sidebar button.manageMods .newBadge {
+        color: #eff1f5;
+        background-color: #ea76cb;
+      }
+      html[data-theme="catppuccin-latte-mauve"] #state_SettingsState .container .content .categoryContainer .category .setting {
+        background-color: #e6e9ef;
+      }
+      html[data-theme="catppuccin-latte-mauve"] #state_SettingsState .container .content .categoryContainer .category .setting .desc,
+      html[data-theme="catppuccin-latte-mauve"] #state_SettingsState .container .content .sidebar .versionbar .buildVersion {
+        color: #6c6f85;
+      }
+      html[data-theme="catppuccin-latte-mauve"] #state_SettingsState .container .content .categoryContainer .category .setting .value.enum {
+        background-color: #dce0e8;
+        background: #dce0e8 url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABABAMAAABYR2ztAAAAIGNIUk0AAHomAACAhAAA+gAAAIDoAAB1MAAA6mAAADqYAAAXcJy6UTwAAAAYUExURUxPaUxPaUxPaUxPaUxPaUxPaUxPaf///8yq9UAAAAAGdFJOUwAre/xYLJjtDxIAAAABYktHRAcWYYjrAAAAB3RJTUUH6gcKBxk3gGS0ogAAACV0RVh0ZGF0ZTpjcmVhdGUAMjAyNi0wNy0xMFQwNzoyNToxNyswMDowMHnONrcAAAAldEVYdGRhdGU6bW9kaWZ5ADIwMjYtMDctMTBUMDc6MjU6MTcrMDA6MDAIk44LAAAAKHRFWHRkYXRlOnRpbWVzdGFtcAAyMDI2LTA3LTEwVDA3OjI1OjU1KzAwOjAwTFOwBwAAAJhJREFUSMftz8sNgCAMBmA0DOAIJm5g0LMJIziCCfuPII8ghT686I2eyl/7IUr16vV9DVQ4gX458FyvpR+dwR9YNz/96S5E6N1t8GAwAJcsIpodTLQr7RlttAG+s06Iv64jS7wbZtSzq5ACYEoCMKaBkjNAGXBAnrBAHvFAmglAIiQgEhIQCREIhAgEQgY8IQOeeAF69fq7boqQLsGIVTZjAAAAAElFTkSuQmCC") calc(100% - 5px*var(--ui-scale)) calc(50% + 1px*var(--ui-scale))/calc(15px*var(--ui-scale)) no-repeat;
       }
     `)
     this.modInterface.registerGameTheme({
@@ -990,12 +1322,44 @@ class Mod extends shapez.Mod {
         background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'%3E%3Cpath fill='%231e66f5' d='M0 0h512v512H0z'/%3E%3Cpath fill='%23eff1f5' d='M0 93.86h512v324.28H0z'/%3E%3Cpath d='M317.474 256l30.734-53.234h-61.469L256 149.523l-30.739 53.243h-61.469L194.526 256l-30.734 53.234h61.469L256 362.477l30.739-53.243h61.469L317.474 256zm.58-35.824l-10.632 18.415-10.632-18.415h21.264zM297.371 256l-20.683 35.824h-41.376L214.629 256l20.683-35.824h41.376L297.371 256zM256 184.344l10.636 18.422h-21.272L256 184.344zm-62.054 35.832h21.264l-10.632 18.415-10.632-18.415zm0 71.648l10.632-18.415 10.632 18.415h-21.264zM256 327.656l-10.636-18.422h21.272L256 327.656zm51.423-54.247l10.632 18.415h-21.264l10.632-18.415z' fill='%231e66f5'/%3E%3C/svg%3E") !important;
       }
 
+      html[data-theme="catppuccin-latte-red"] {
+        background-color: #e6e9ef;
+      }
+
       html[data-theme="catppuccin-latte-red"] a {
         color: #4c4f69;
       }
 
       html[data-theme="catppuccin-latte-red"] body {
         color: #4c4f69;
+      }
+
+      html[data-theme="catppuccin-latte-red"] .checkbox .knob {
+        background-color: #4c4f69;
+      }
+      html[data-theme="catppuccin-latte-red"] .checkbox {
+        background-color: #6c6f85;
+      }
+      html[data-theme="catppuccin-latte-red"] .checkbox:hover {
+        background-color: #7c7f93;
+      }
+      html[data-theme="catppuccin-latte-red"] .checkbox.checked {
+        background-color: #ccd0da;
+      }
+      html[data-theme="catppuccin-latte-red"] .checkbox.checked:hover {
+        background-color: #bcc0cc;
+      }
+
+      html[data-theme="catppuccin-latte-red"] input.rangeInput::-webkit-slider-runnable-track {
+        color: #dce0e8;
+        background-color: #dce0e8;
+      }
+
+      html[data-theme="catppuccin-latte-red"] input.rangeInput::-webkit-slider-thumb {
+        box-shadow:inset 0 0 0 calc(10px*var(--ui-scale)) #ccd0da;
+      }
+      html[data-theme="catppuccin-latte-red"] input.rangeInput:hover::-webkit-slider-thumb {
+        box-shadow:inset 0 0 0 calc(10px*var(--ui-scale)) #bdc2cf;
       }
 
       html[data-theme="catppuccin-latte-red"] #state_MainMenuState {
@@ -1074,6 +1438,15 @@ class Mod extends shapez.Mod {
       }
 
       /* Dialog (language) */
+      html[data-theme="catppuccin-latte-red"] .ingameDialog,
+      html[data-theme="catppuccin-latte-red"] .ingameDialog.visible {
+        animation: f .12s ease-in-out !important;
+        -webkit-animation: f .12s ease-in-out !important;
+
+        background: #ccd0dacc !important;
+        backdrop-filter: blur(calc(3px * var(--ui-scale))) !important;
+        -webkit-backdrop-filter: blur(calc(3px * var(--ui-scale))) !important;
+      }
       html[data-theme="catppuccin-latte-red"] .ingameDialog>.dialogInner {
         background-color: #eff1f5;
       }
@@ -1086,6 +1459,48 @@ class Mod extends shapez.Mod {
       html[data-theme="catppuccin-latte-red"] .ingameDialog>.dialogInner.optionChooserDialog .optionParent .option.active {
         color: #eff1f5;
         background-color: #d20f39;
+      }
+
+      /* Settings */
+      html[data-theme="catppuccin-latte-red"] .gameState.textualState .headerBar .backButton {
+      filter:brightness(0) saturate(100%) invert(43%) sepia(43%) saturate(515%) hue-rotate(196deg) brightness(49%) contrast(68%);
+      }
+      html[data-theme="catppuccin-latte-red"] .gameState.textualState .headerBar h1 {
+        color: #4c4f69;
+      }
+      html[data-theme="catppuccin-latte-red"] .gameState.textualState>.container>.content {
+        background-color: #eff1f5;
+      }
+      html[data-theme="catppuccin-latte-red"] #state_SettingsState .container .content .sidebar button.about,
+      html[data-theme="catppuccin-latte-red"] #state_SettingsState .container .content .sidebar button.categoryButton,
+      html[data-theme="catppuccin-latte-red"] #state_SettingsState .container .content .sidebar button.privacy {
+        color: #4c4f69;
+        background-color: #e6e9ef;
+      }
+      html[data-theme="catppuccin-latte-red"] #state_SettingsState .container .content .sidebar button.about.active,
+      html[data-theme="catppuccin-latte-red"] #state_SettingsState .container .content .sidebar button.categoryButton.active,
+      html[data-theme="catppuccin-latte-red"] #state_SettingsState .container .content .sidebar button.privacy.active {
+        color: #eff1f5;
+        background-color: #d20f39;
+      }
+      html[data-theme="catppuccin-latte-red"] #state_SettingsState .container .content .sidebar button.manageMods {
+        color: #ea76cb;
+        background-color: #efe4f1;
+      }
+      html[data-theme="catppuccin-latte-red"] #state_SettingsState .container .content .sidebar button.manageMods .newBadge {
+        color: #eff1f5;
+        background-color: #ea76cb;
+      }
+      html[data-theme="catppuccin-latte-red"] #state_SettingsState .container .content .categoryContainer .category .setting {
+        background-color: #e6e9ef;
+      }
+      html[data-theme="catppuccin-latte-red"] #state_SettingsState .container .content .categoryContainer .category .setting .desc,
+      html[data-theme="catppuccin-latte-red"] #state_SettingsState .container .content .sidebar .versionbar .buildVersion {
+        color: #6c6f85;
+      }
+      html[data-theme="catppuccin-latte-red"] #state_SettingsState .container .content .categoryContainer .category .setting .value.enum {
+        background-color: #dce0e8;
+        background: #dce0e8 url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABABAMAAABYR2ztAAAAIGNIUk0AAHomAACAhAAA+gAAAIDoAAB1MAAA6mAAADqYAAAXcJy6UTwAAAAYUExURUxPaUxPaUxPaUxPaUxPaUxPaUxPaf///8yq9UAAAAAGdFJOUwAre/xYLJjtDxIAAAABYktHRAcWYYjrAAAAB3RJTUUH6gcKBxk3gGS0ogAAACV0RVh0ZGF0ZTpjcmVhdGUAMjAyNi0wNy0xMFQwNzoyNToxNyswMDowMHnONrcAAAAldEVYdGRhdGU6bW9kaWZ5ADIwMjYtMDctMTBUMDc6MjU6MTcrMDA6MDAIk44LAAAAKHRFWHRkYXRlOnRpbWVzdGFtcAAyMDI2LTA3LTEwVDA3OjI1OjU1KzAwOjAwTFOwBwAAAJhJREFUSMftz8sNgCAMBmA0DOAIJm5g0LMJIziCCfuPII8ghT686I2eyl/7IUr16vV9DVQ4gX458FyvpR+dwR9YNz/96S5E6N1t8GAwAJcsIpodTLQr7RlttAG+s06Iv64jS7wbZtSzq5ACYEoCMKaBkjNAGXBAnrBAHvFAmglAIiQgEhIQCREIhAgEQgY8IQOeeAF69fq7boqQLsGIVTZjAAAAAElFTkSuQmCC") calc(100% - 5px*var(--ui-scale)) calc(50% + 1px*var(--ui-scale))/calc(15px*var(--ui-scale)) no-repeat;
       }
     `)
     this.modInterface.registerGameTheme({
@@ -1205,12 +1620,44 @@ class Mod extends shapez.Mod {
         background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'%3E%3Cpath fill='%231e66f5' d='M0 0h512v512H0z'/%3E%3Cpath fill='%23eff1f5' d='M0 93.86h512v324.28H0z'/%3E%3Cpath d='M317.474 256l30.734-53.234h-61.469L256 149.523l-30.739 53.243h-61.469L194.526 256l-30.734 53.234h61.469L256 362.477l30.739-53.243h61.469L317.474 256zm.58-35.824l-10.632 18.415-10.632-18.415h21.264zM297.371 256l-20.683 35.824h-41.376L214.629 256l20.683-35.824h41.376L297.371 256zM256 184.344l10.636 18.422h-21.272L256 184.344zm-62.054 35.832h21.264l-10.632 18.415-10.632-18.415zm0 71.648l10.632-18.415 10.632 18.415h-21.264zM256 327.656l-10.636-18.422h21.272L256 327.656zm51.423-54.247l10.632 18.415h-21.264l10.632-18.415z' fill='%231e66f5'/%3E%3C/svg%3E") !important;
       }
 
+      html[data-theme="catppuccin-latte-maroon"] {
+        background-color: #e6e9ef;
+      }
+
       html[data-theme="catppuccin-latte-maroon"] a {
         color: #4c4f69;
       }
 
       html[data-theme="catppuccin-latte-maroon"] body {
         color: #4c4f69;
+      }
+
+      html[data-theme="catppuccin-latte-maroon"] .checkbox .knob {
+        background-color: #4c4f69;
+      }
+      html[data-theme="catppuccin-latte-maroon"] .checkbox {
+        background-color: #6c6f85;
+      }
+      html[data-theme="catppuccin-latte-maroon"] .checkbox:hover {
+        background-color: #7c7f93;
+      }
+      html[data-theme="catppuccin-latte-maroon"] .checkbox.checked {
+        background-color: #ccd0da;
+      }
+      html[data-theme="catppuccin-latte-maroon"] .checkbox.checked:hover {
+        background-color: #bcc0cc;
+      }
+
+      html[data-theme="catppuccin-latte-maroon"] input.rangeInput::-webkit-slider-runnable-track {
+        color: #dce0e8;
+        background-color: #dce0e8;
+      }
+
+      html[data-theme="catppuccin-latte-maroon"] input.rangeInput::-webkit-slider-thumb {
+        box-shadow:inset 0 0 0 calc(10px*var(--ui-scale)) #ccd0da;
+      }
+      html[data-theme="catppuccin-latte-maroon"] input.rangeInput:hover::-webkit-slider-thumb {
+        box-shadow:inset 0 0 0 calc(10px*var(--ui-scale)) #bdc2cf;
       }
 
       html[data-theme="catppuccin-latte-maroon"] #state_MainMenuState {
@@ -1289,6 +1736,15 @@ class Mod extends shapez.Mod {
       }
 
       /* Dialog (language) */
+      html[data-theme="catppuccin-latte-maroon"] .ingameDialog,
+      html[data-theme="catppuccin-latte-maroon"] .ingameDialog.visible {
+        animation: f .12s ease-in-out !important;
+        -webkit-animation: f .12s ease-in-out !important;
+
+        background: #ccd0dacc !important;
+        backdrop-filter: blur(calc(3px * var(--ui-scale))) !important;
+        -webkit-backdrop-filter: blur(calc(3px * var(--ui-scale))) !important;
+      }
       html[data-theme="catppuccin-latte-maroon"] .ingameDialog>.dialogInner {
         background-color: #eff1f5;
       }
@@ -1301,6 +1757,48 @@ class Mod extends shapez.Mod {
       html[data-theme="catppuccin-latte-maroon"] .ingameDialog>.dialogInner.optionChooserDialog .optionParent .option.active {
         color: #eff1f5;
         background-color: #e64553;
+      }
+
+      /* Settings */
+      html[data-theme="catppuccin-latte-maroon"] .gameState.textualState .headerBar .backButton {
+      filter:brightness(0) saturate(100%) invert(43%) sepia(43%) saturate(515%) hue-rotate(196deg) brightness(49%) contrast(68%);
+      }
+      html[data-theme="catppuccin-latte-maroon"] .gameState.textualState .headerBar h1 {
+        color: #4c4f69;
+      }
+      html[data-theme="catppuccin-latte-maroon"] .gameState.textualState>.container>.content {
+        background-color: #eff1f5;
+      }
+      html[data-theme="catppuccin-latte-maroon"] #state_SettingsState .container .content .sidebar button.about,
+      html[data-theme="catppuccin-latte-maroon"] #state_SettingsState .container .content .sidebar button.categoryButton,
+      html[data-theme="catppuccin-latte-maroon"] #state_SettingsState .container .content .sidebar button.privacy {
+        color: #4c4f69;
+        background-color: #e6e9ef;
+      }
+      html[data-theme="catppuccin-latte-maroon"] #state_SettingsState .container .content .sidebar button.about.active,
+      html[data-theme="catppuccin-latte-maroon"] #state_SettingsState .container .content .sidebar button.categoryButton.active,
+      html[data-theme="catppuccin-latte-maroon"] #state_SettingsState .container .content .sidebar button.privacy.active {
+        color: #eff1f5;
+        background-color: #e64553;
+      }
+      html[data-theme="catppuccin-latte-maroon"] #state_SettingsState .container .content .sidebar button.manageMods {
+        color: #ea76cb;
+        background-color: #efe4f1;
+      }
+      html[data-theme="catppuccin-latte-maroon"] #state_SettingsState .container .content .sidebar button.manageMods .newBadge {
+        color: #eff1f5;
+        background-color: #ea76cb;
+      }
+      html[data-theme="catppuccin-latte-maroon"] #state_SettingsState .container .content .categoryContainer .category .setting {
+        background-color: #e6e9ef;
+      }
+      html[data-theme="catppuccin-latte-maroon"] #state_SettingsState .container .content .categoryContainer .category .setting .desc,
+      html[data-theme="catppuccin-latte-maroon"] #state_SettingsState .container .content .sidebar .versionbar .buildVersion {
+        color: #6c6f85;
+      }
+      html[data-theme="catppuccin-latte-maroon"] #state_SettingsState .container .content .categoryContainer .category .setting .value.enum {
+        background-color: #dce0e8;
+        background: #dce0e8 url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABABAMAAABYR2ztAAAAIGNIUk0AAHomAACAhAAA+gAAAIDoAAB1MAAA6mAAADqYAAAXcJy6UTwAAAAYUExURUxPaUxPaUxPaUxPaUxPaUxPaUxPaf///8yq9UAAAAAGdFJOUwAre/xYLJjtDxIAAAABYktHRAcWYYjrAAAAB3RJTUUH6gcKBxk3gGS0ogAAACV0RVh0ZGF0ZTpjcmVhdGUAMjAyNi0wNy0xMFQwNzoyNToxNyswMDowMHnONrcAAAAldEVYdGRhdGU6bW9kaWZ5ADIwMjYtMDctMTBUMDc6MjU6MTcrMDA6MDAIk44LAAAAKHRFWHRkYXRlOnRpbWVzdGFtcAAyMDI2LTA3LTEwVDA3OjI1OjU1KzAwOjAwTFOwBwAAAJhJREFUSMftz8sNgCAMBmA0DOAIJm5g0LMJIziCCfuPII8ghT686I2eyl/7IUr16vV9DVQ4gX458FyvpR+dwR9YNz/96S5E6N1t8GAwAJcsIpodTLQr7RlttAG+s06Iv64jS7wbZtSzq5ACYEoCMKaBkjNAGXBAnrBAHvFAmglAIiQgEhIQCREIhAgEQgY8IQOeeAF69fq7boqQLsGIVTZjAAAAAElFTkSuQmCC") calc(100% - 5px*var(--ui-scale)) calc(50% + 1px*var(--ui-scale))/calc(15px*var(--ui-scale)) no-repeat;
       }
     `)
     this.modInterface.registerGameTheme({
@@ -1420,12 +1918,44 @@ class Mod extends shapez.Mod {
         background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'%3E%3Cpath fill='%231e66f5' d='M0 0h512v512H0z'/%3E%3Cpath fill='%23eff1f5' d='M0 93.86h512v324.28H0z'/%3E%3Cpath d='M317.474 256l30.734-53.234h-61.469L256 149.523l-30.739 53.243h-61.469L194.526 256l-30.734 53.234h61.469L256 362.477l30.739-53.243h61.469L317.474 256zm.58-35.824l-10.632 18.415-10.632-18.415h21.264zM297.371 256l-20.683 35.824h-41.376L214.629 256l20.683-35.824h41.376L297.371 256zM256 184.344l10.636 18.422h-21.272L256 184.344zm-62.054 35.832h21.264l-10.632 18.415-10.632-18.415zm0 71.648l10.632-18.415 10.632 18.415h-21.264zM256 327.656l-10.636-18.422h21.272L256 327.656zm51.423-54.247l10.632 18.415h-21.264l10.632-18.415z' fill='%231e66f5'/%3E%3C/svg%3E") !important;
       }
 
+      html[data-theme="catppuccin-latte-peach"] {
+        background-color: #e6e9ef;
+      }
+
       html[data-theme="catppuccin-latte-peach"] a {
         color: #4c4f69;
       }
 
       html[data-theme="catppuccin-latte-peach"] body {
         color: #4c4f69;
+      }
+
+      html[data-theme="catppuccin-latte-peach"] .checkbox .knob {
+        background-color: #4c4f69;
+      }
+      html[data-theme="catppuccin-latte-peach"] .checkbox {
+        background-color: #6c6f85;
+      }
+      html[data-theme="catppuccin-latte-peach"] .checkbox:hover {
+        background-color: #7c7f93;
+      }
+      html[data-theme="catppuccin-latte-peach"] .checkbox.checked {
+        background-color: #ccd0da;
+      }
+      html[data-theme="catppuccin-latte-peach"] .checkbox.checked:hover {
+        background-color: #bcc0cc;
+      }
+
+      html[data-theme="catppuccin-latte-peach"] input.rangeInput::-webkit-slider-runnable-track {
+        color: #dce0e8;
+        background-color: #dce0e8;
+      }
+
+      html[data-theme="catppuccin-latte-peach"] input.rangeInput::-webkit-slider-thumb {
+        box-shadow:inset 0 0 0 calc(10px*var(--ui-scale)) #ccd0da;
+      }
+      html[data-theme="catppuccin-latte-peach"] input.rangeInput:hover::-webkit-slider-thumb {
+        box-shadow:inset 0 0 0 calc(10px*var(--ui-scale)) #bdc2cf;
       }
 
       html[data-theme="catppuccin-latte-peach"] #state_MainMenuState {
@@ -1504,6 +2034,15 @@ class Mod extends shapez.Mod {
       }
 
       /* Dialog (language) */
+      html[data-theme="catppuccin-latte-peach"] .ingameDialog,
+      html[data-theme="catppuccin-latte-peach"] .ingameDialog.visible {
+        animation: f .12s ease-in-out !important;
+        -webkit-animation: f .12s ease-in-out !important;
+
+        background: #ccd0dacc !important;
+        backdrop-filter: blur(calc(3px * var(--ui-scale))) !important;
+        -webkit-backdrop-filter: blur(calc(3px * var(--ui-scale))) !important;
+      }
       html[data-theme="catppuccin-latte-peach"] .ingameDialog>.dialogInner {
         background-color: #eff1f5;
       }
@@ -1516,6 +2055,48 @@ class Mod extends shapez.Mod {
       html[data-theme="catppuccin-latte-peach"] .ingameDialog>.dialogInner.optionChooserDialog .optionParent .option.active {
         color: #eff1f5;
         background-color: #fe640b;
+      }
+
+      /* Settings */
+      html[data-theme="catppuccin-latte-peach"] .gameState.textualState .headerBar .backButton {
+      filter:brightness(0) saturate(100%) invert(43%) sepia(43%) saturate(515%) hue-rotate(196deg) brightness(49%) contrast(68%);
+      }
+      html[data-theme="catppuccin-latte-peach"] .gameState.textualState .headerBar h1 {
+        color: #4c4f69;
+      }
+      html[data-theme="catppuccin-latte-peach"] .gameState.textualState>.container>.content {
+        background-color: #eff1f5;
+      }
+      html[data-theme="catppuccin-latte-peach"] #state_SettingsState .container .content .sidebar button.about,
+      html[data-theme="catppuccin-latte-peach"] #state_SettingsState .container .content .sidebar button.categoryButton,
+      html[data-theme="catppuccin-latte-peach"] #state_SettingsState .container .content .sidebar button.privacy {
+        color: #4c4f69;
+        background-color: #e6e9ef;
+      }
+      html[data-theme="catppuccin-latte-peach"] #state_SettingsState .container .content .sidebar button.about.active,
+      html[data-theme="catppuccin-latte-peach"] #state_SettingsState .container .content .sidebar button.categoryButton.active,
+      html[data-theme="catppuccin-latte-peach"] #state_SettingsState .container .content .sidebar button.privacy.active {
+        color: #eff1f5;
+        background-color: #fe640b;
+      }
+      html[data-theme="catppuccin-latte-peach"] #state_SettingsState .container .content .sidebar button.manageMods {
+        color: #ea76cb;
+        background-color: #efe4f1;
+      }
+      html[data-theme="catppuccin-latte-peach"] #state_SettingsState .container .content .sidebar button.manageMods .newBadge {
+        color: #eff1f5;
+        background-color: #ea76cb;
+      }
+      html[data-theme="catppuccin-latte-peach"] #state_SettingsState .container .content .categoryContainer .category .setting {
+        background-color: #e6e9ef;
+      }
+      html[data-theme="catppuccin-latte-peach"] #state_SettingsState .container .content .categoryContainer .category .setting .desc,
+      html[data-theme="catppuccin-latte-peach"] #state_SettingsState .container .content .sidebar .versionbar .buildVersion {
+        color: #6c6f85;
+      }
+      html[data-theme="catppuccin-latte-peach"] #state_SettingsState .container .content .categoryContainer .category .setting .value.enum {
+        background-color: #dce0e8;
+        background: #dce0e8 url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABABAMAAABYR2ztAAAAIGNIUk0AAHomAACAhAAA+gAAAIDoAAB1MAAA6mAAADqYAAAXcJy6UTwAAAAYUExURUxPaUxPaUxPaUxPaUxPaUxPaUxPaf///8yq9UAAAAAGdFJOUwAre/xYLJjtDxIAAAABYktHRAcWYYjrAAAAB3RJTUUH6gcKBxk3gGS0ogAAACV0RVh0ZGF0ZTpjcmVhdGUAMjAyNi0wNy0xMFQwNzoyNToxNyswMDowMHnONrcAAAAldEVYdGRhdGU6bW9kaWZ5ADIwMjYtMDctMTBUMDc6MjU6MTcrMDA6MDAIk44LAAAAKHRFWHRkYXRlOnRpbWVzdGFtcAAyMDI2LTA3LTEwVDA3OjI1OjU1KzAwOjAwTFOwBwAAAJhJREFUSMftz8sNgCAMBmA0DOAIJm5g0LMJIziCCfuPII8ghT686I2eyl/7IUr16vV9DVQ4gX458FyvpR+dwR9YNz/96S5E6N1t8GAwAJcsIpodTLQr7RlttAG+s06Iv64jS7wbZtSzq5ACYEoCMKaBkjNAGXBAnrBAHvFAmglAIiQgEhIQCREIhAgEQgY8IQOeeAF69fq7boqQLsGIVTZjAAAAAElFTkSuQmCC") calc(100% - 5px*var(--ui-scale)) calc(50% + 1px*var(--ui-scale))/calc(15px*var(--ui-scale)) no-repeat;
       }
     `)
     this.modInterface.registerGameTheme({
@@ -1635,12 +2216,44 @@ class Mod extends shapez.Mod {
         background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'%3E%3Cpath fill='%231e66f5' d='M0 0h512v512H0z'/%3E%3Cpath fill='%23eff1f5' d='M0 93.86h512v324.28H0z'/%3E%3Cpath d='M317.474 256l30.734-53.234h-61.469L256 149.523l-30.739 53.243h-61.469L194.526 256l-30.734 53.234h61.469L256 362.477l30.739-53.243h61.469L317.474 256zm.58-35.824l-10.632 18.415-10.632-18.415h21.264zM297.371 256l-20.683 35.824h-41.376L214.629 256l20.683-35.824h41.376L297.371 256zM256 184.344l10.636 18.422h-21.272L256 184.344zm-62.054 35.832h21.264l-10.632 18.415-10.632-18.415zm0 71.648l10.632-18.415 10.632 18.415h-21.264zM256 327.656l-10.636-18.422h21.272L256 327.656zm51.423-54.247l10.632 18.415h-21.264l10.632-18.415z' fill='%231e66f5'/%3E%3C/svg%3E") !important;
       }
 
+      html[data-theme="catppuccin-latte-yellow"] {
+        background-color: #e6e9ef;
+      }
+
       html[data-theme="catppuccin-latte-yellow"] a {
         color: #4c4f69;
       }
 
       html[data-theme="catppuccin-latte-yellow"] body {
         color: #4c4f69;
+      }
+
+      html[data-theme="catppuccin-latte-yellow"] .checkbox .knob {
+        background-color: #4c4f69;
+      }
+      html[data-theme="catppuccin-latte-yellow"] .checkbox {
+        background-color: #6c6f85;
+      }
+      html[data-theme="catppuccin-latte-yellow"] .checkbox:hover {
+        background-color: #7c7f93;
+      }
+      html[data-theme="catppuccin-latte-yellow"] .checkbox.checked {
+        background-color: #ccd0da;
+      }
+      html[data-theme="catppuccin-latte-yellow"] .checkbox.checked:hover {
+        background-color: #bcc0cc;
+      }
+
+      html[data-theme="catppuccin-latte-yellow"] input.rangeInput::-webkit-slider-runnable-track {
+        color: #dce0e8;
+        background-color: #dce0e8;
+      }
+
+      html[data-theme="catppuccin-latte-yellow"] input.rangeInput::-webkit-slider-thumb {
+        box-shadow:inset 0 0 0 calc(10px*var(--ui-scale)) #ccd0da;
+      }
+      html[data-theme="catppuccin-latte-yellow"] input.rangeInput:hover::-webkit-slider-thumb {
+        box-shadow:inset 0 0 0 calc(10px*var(--ui-scale)) #bdc2cf;
       }
 
       html[data-theme="catppuccin-latte-yellow"] #state_MainMenuState {
@@ -1719,6 +2332,15 @@ class Mod extends shapez.Mod {
       }
 
       /* Dialog (language) */
+      html[data-theme="catppuccin-latte-yellow"] .ingameDialog,
+      html[data-theme="catppuccin-latte-yellow"] .ingameDialog.visible {
+        animation: f .12s ease-in-out !important;
+        -webkit-animation: f .12s ease-in-out !important;
+
+        background: #ccd0dacc !important;
+        backdrop-filter: blur(calc(3px * var(--ui-scale))) !important;
+        -webkit-backdrop-filter: blur(calc(3px * var(--ui-scale))) !important;
+      }
       html[data-theme="catppuccin-latte-yellow"] .ingameDialog>.dialogInner {
         background-color: #eff1f5;
       }
@@ -1731,6 +2353,48 @@ class Mod extends shapez.Mod {
       html[data-theme="catppuccin-latte-yellow"] .ingameDialog>.dialogInner.optionChooserDialog .optionParent .option.active {
         color: #eff1f5;
         background-color: #df8e1d;
+      }
+
+      /* Settings */
+      html[data-theme="catppuccin-latte-yellow"] .gameState.textualState .headerBar .backButton {
+      filter:brightness(0) saturate(100%) invert(43%) sepia(43%) saturate(515%) hue-rotate(196deg) brightness(49%) contrast(68%);
+      }
+      html[data-theme="catppuccin-latte-yellow"] .gameState.textualState .headerBar h1 {
+        color: #4c4f69;
+      }
+      html[data-theme="catppuccin-latte-yellow"] .gameState.textualState>.container>.content {
+        background-color: #eff1f5;
+      }
+      html[data-theme="catppuccin-latte-yellow"] #state_SettingsState .container .content .sidebar button.about,
+      html[data-theme="catppuccin-latte-yellow"] #state_SettingsState .container .content .sidebar button.categoryButton,
+      html[data-theme="catppuccin-latte-yellow"] #state_SettingsState .container .content .sidebar button.privacy {
+        color: #4c4f69;
+        background-color: #e6e9ef;
+      }
+      html[data-theme="catppuccin-latte-yellow"] #state_SettingsState .container .content .sidebar button.about.active,
+      html[data-theme="catppuccin-latte-yellow"] #state_SettingsState .container .content .sidebar button.categoryButton.active,
+      html[data-theme="catppuccin-latte-yellow"] #state_SettingsState .container .content .sidebar button.privacy.active {
+        color: #eff1f5;
+        background-color: #df8e1d;
+      }
+      html[data-theme="catppuccin-latte-yellow"] #state_SettingsState .container .content .sidebar button.manageMods {
+        color: #ea76cb;
+        background-color: #efe4f1;
+      }
+      html[data-theme="catppuccin-latte-yellow"] #state_SettingsState .container .content .sidebar button.manageMods .newBadge {
+        color: #eff1f5;
+        background-color: #ea76cb;
+      }
+      html[data-theme="catppuccin-latte-yellow"] #state_SettingsState .container .content .categoryContainer .category .setting {
+        background-color: #e6e9ef;
+      }
+      html[data-theme="catppuccin-latte-yellow"] #state_SettingsState .container .content .categoryContainer .category .setting .desc,
+      html[data-theme="catppuccin-latte-yellow"] #state_SettingsState .container .content .sidebar .versionbar .buildVersion {
+        color: #6c6f85;
+      }
+      html[data-theme="catppuccin-latte-yellow"] #state_SettingsState .container .content .categoryContainer .category .setting .value.enum {
+        background-color: #dce0e8;
+        background: #dce0e8 url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABABAMAAABYR2ztAAAAIGNIUk0AAHomAACAhAAA+gAAAIDoAAB1MAAA6mAAADqYAAAXcJy6UTwAAAAYUExURUxPaUxPaUxPaUxPaUxPaUxPaUxPaf///8yq9UAAAAAGdFJOUwAre/xYLJjtDxIAAAABYktHRAcWYYjrAAAAB3RJTUUH6gcKBxk3gGS0ogAAACV0RVh0ZGF0ZTpjcmVhdGUAMjAyNi0wNy0xMFQwNzoyNToxNyswMDowMHnONrcAAAAldEVYdGRhdGU6bW9kaWZ5ADIwMjYtMDctMTBUMDc6MjU6MTcrMDA6MDAIk44LAAAAKHRFWHRkYXRlOnRpbWVzdGFtcAAyMDI2LTA3LTEwVDA3OjI1OjU1KzAwOjAwTFOwBwAAAJhJREFUSMftz8sNgCAMBmA0DOAIJm5g0LMJIziCCfuPII8ghT686I2eyl/7IUr16vV9DVQ4gX458FyvpR+dwR9YNz/96S5E6N1t8GAwAJcsIpodTLQr7RlttAG+s06Iv64jS7wbZtSzq5ACYEoCMKaBkjNAGXBAnrBAHvFAmglAIiQgEhIQCREIhAgEQgY8IQOeeAF69fq7boqQLsGIVTZjAAAAAElFTkSuQmCC") calc(100% - 5px*var(--ui-scale)) calc(50% + 1px*var(--ui-scale))/calc(15px*var(--ui-scale)) no-repeat;
       }
     `)
     this.modInterface.registerGameTheme({
@@ -1850,12 +2514,44 @@ class Mod extends shapez.Mod {
         background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'%3E%3Cpath fill='%231e66f5' d='M0 0h512v512H0z'/%3E%3Cpath fill='%23eff1f5' d='M0 93.86h512v324.28H0z'/%3E%3Cpath d='M317.474 256l30.734-53.234h-61.469L256 149.523l-30.739 53.243h-61.469L194.526 256l-30.734 53.234h61.469L256 362.477l30.739-53.243h61.469L317.474 256zm.58-35.824l-10.632 18.415-10.632-18.415h21.264zM297.371 256l-20.683 35.824h-41.376L214.629 256l20.683-35.824h41.376L297.371 256zM256 184.344l10.636 18.422h-21.272L256 184.344zm-62.054 35.832h21.264l-10.632 18.415-10.632-18.415zm0 71.648l10.632-18.415 10.632 18.415h-21.264zM256 327.656l-10.636-18.422h21.272L256 327.656zm51.423-54.247l10.632 18.415h-21.264l10.632-18.415z' fill='%231e66f5'/%3E%3C/svg%3E") !important;
       }
 
+      html[data-theme="catppuccin-latte-green"] {
+        background-color: #e6e9ef;
+      }
+
       html[data-theme="catppuccin-latte-green"] a {
         color: #4c4f69;
       }
 
       html[data-theme="catppuccin-latte-green"] body {
         color: #4c4f69;
+      }
+
+      html[data-theme="catppuccin-latte-green"] .checkbox .knob {
+        background-color: #4c4f69;
+      }
+      html[data-theme="catppuccin-latte-green"] .checkbox {
+        background-color: #6c6f85;
+      }
+      html[data-theme="catppuccin-latte-green"] .checkbox:hover {
+        background-color: #7c7f93;
+      }
+      html[data-theme="catppuccin-latte-green"] .checkbox.checked {
+        background-color: #ccd0da;
+      }
+      html[data-theme="catppuccin-latte-green"] .checkbox.checked:hover {
+        background-color: #bcc0cc;
+      }
+
+      html[data-theme="catppuccin-latte-green"] input.rangeInput::-webkit-slider-runnable-track {
+        color: #dce0e8;
+        background-color: #dce0e8;
+      }
+
+      html[data-theme="catppuccin-latte-green"] input.rangeInput::-webkit-slider-thumb {
+        box-shadow:inset 0 0 0 calc(10px*var(--ui-scale)) #ccd0da;
+      }
+      html[data-theme="catppuccin-latte-green"] input.rangeInput:hover::-webkit-slider-thumb {
+        box-shadow:inset 0 0 0 calc(10px*var(--ui-scale)) #bdc2cf;
       }
 
       html[data-theme="catppuccin-latte-green"] #state_MainMenuState {
@@ -1934,6 +2630,15 @@ class Mod extends shapez.Mod {
       }
 
       /* Dialog (language) */
+      html[data-theme="catppuccin-latte-green"] .ingameDialog,
+      html[data-theme="catppuccin-latte-green"] .ingameDialog.visible {
+        animation: f .12s ease-in-out !important;
+        -webkit-animation: f .12s ease-in-out !important;
+
+        background: #ccd0dacc !important;
+        backdrop-filter: blur(calc(3px * var(--ui-scale))) !important;
+        -webkit-backdrop-filter: blur(calc(3px * var(--ui-scale))) !important;
+      }
       html[data-theme="catppuccin-latte-green"] .ingameDialog>.dialogInner {
         background-color: #eff1f5;
       }
@@ -1946,6 +2651,48 @@ class Mod extends shapez.Mod {
       html[data-theme="catppuccin-latte-green"] .ingameDialog>.dialogInner.optionChooserDialog .optionParent .option.active {
         color: #eff1f5;
         background-color: #40a02b;
+      }
+
+      /* Settings */
+      html[data-theme="catppuccin-latte-green"] .gameState.textualState .headerBar .backButton {
+      filter:brightness(0) saturate(100%) invert(43%) sepia(43%) saturate(515%) hue-rotate(196deg) brightness(49%) contrast(68%);
+      }
+      html[data-theme="catppuccin-latte-green"] .gameState.textualState .headerBar h1 {
+        color: #4c4f69;
+      }
+      html[data-theme="catppuccin-latte-green"] .gameState.textualState>.container>.content {
+        background-color: #eff1f5;
+      }
+      html[data-theme="catppuccin-latte-green"] #state_SettingsState .container .content .sidebar button.about,
+      html[data-theme="catppuccin-latte-green"] #state_SettingsState .container .content .sidebar button.categoryButton,
+      html[data-theme="catppuccin-latte-green"] #state_SettingsState .container .content .sidebar button.privacy {
+        color: #4c4f69;
+        background-color: #e6e9ef;
+      }
+      html[data-theme="catppuccin-latte-green"] #state_SettingsState .container .content .sidebar button.about.active,
+      html[data-theme="catppuccin-latte-green"] #state_SettingsState .container .content .sidebar button.categoryButton.active,
+      html[data-theme="catppuccin-latte-green"] #state_SettingsState .container .content .sidebar button.privacy.active {
+        color: #eff1f5;
+        background-color: #40a02b;
+      }
+      html[data-theme="catppuccin-latte-green"] #state_SettingsState .container .content .sidebar button.manageMods {
+        color: #ea76cb;
+        background-color: #efe4f1;
+      }
+      html[data-theme="catppuccin-latte-green"] #state_SettingsState .container .content .sidebar button.manageMods .newBadge {
+        color: #eff1f5;
+        background-color: #ea76cb;
+      }
+      html[data-theme="catppuccin-latte-green"] #state_SettingsState .container .content .categoryContainer .category .setting {
+        background-color: #e6e9ef;
+      }
+      html[data-theme="catppuccin-latte-green"] #state_SettingsState .container .content .categoryContainer .category .setting .desc,
+      html[data-theme="catppuccin-latte-green"] #state_SettingsState .container .content .sidebar .versionbar .buildVersion {
+        color: #6c6f85;
+      }
+      html[data-theme="catppuccin-latte-green"] #state_SettingsState .container .content .categoryContainer .category .setting .value.enum {
+        background-color: #dce0e8;
+        background: #dce0e8 url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABABAMAAABYR2ztAAAAIGNIUk0AAHomAACAhAAA+gAAAIDoAAB1MAAA6mAAADqYAAAXcJy6UTwAAAAYUExURUxPaUxPaUxPaUxPaUxPaUxPaUxPaf///8yq9UAAAAAGdFJOUwAre/xYLJjtDxIAAAABYktHRAcWYYjrAAAAB3RJTUUH6gcKBxk3gGS0ogAAACV0RVh0ZGF0ZTpjcmVhdGUAMjAyNi0wNy0xMFQwNzoyNToxNyswMDowMHnONrcAAAAldEVYdGRhdGU6bW9kaWZ5ADIwMjYtMDctMTBUMDc6MjU6MTcrMDA6MDAIk44LAAAAKHRFWHRkYXRlOnRpbWVzdGFtcAAyMDI2LTA3LTEwVDA3OjI1OjU1KzAwOjAwTFOwBwAAAJhJREFUSMftz8sNgCAMBmA0DOAIJm5g0LMJIziCCfuPII8ghT686I2eyl/7IUr16vV9DVQ4gX458FyvpR+dwR9YNz/96S5E6N1t8GAwAJcsIpodTLQr7RlttAG+s06Iv64jS7wbZtSzq5ACYEoCMKaBkjNAGXBAnrBAHvFAmglAIiQgEhIQCREIhAgEQgY8IQOeeAF69fq7boqQLsGIVTZjAAAAAElFTkSuQmCC") calc(100% - 5px*var(--ui-scale)) calc(50% + 1px*var(--ui-scale))/calc(15px*var(--ui-scale)) no-repeat;
       }
     `)
     this.modInterface.registerGameTheme({
@@ -2065,12 +2812,44 @@ class Mod extends shapez.Mod {
         background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'%3E%3Cpath fill='%231e66f5' d='M0 0h512v512H0z'/%3E%3Cpath fill='%23eff1f5' d='M0 93.86h512v324.28H0z'/%3E%3Cpath d='M317.474 256l30.734-53.234h-61.469L256 149.523l-30.739 53.243h-61.469L194.526 256l-30.734 53.234h61.469L256 362.477l30.739-53.243h61.469L317.474 256zm.58-35.824l-10.632 18.415-10.632-18.415h21.264zM297.371 256l-20.683 35.824h-41.376L214.629 256l20.683-35.824h41.376L297.371 256zM256 184.344l10.636 18.422h-21.272L256 184.344zm-62.054 35.832h21.264l-10.632 18.415-10.632-18.415zm0 71.648l10.632-18.415 10.632 18.415h-21.264zM256 327.656l-10.636-18.422h21.272L256 327.656zm51.423-54.247l10.632 18.415h-21.264l10.632-18.415z' fill='%231e66f5'/%3E%3C/svg%3E") !important;
       }
 
+      html[data-theme="catppuccin-latte-teal"] {
+        background-color: #e6e9ef;
+      }
+
       html[data-theme="catppuccin-latte-teal"] a {
         color: #4c4f69;
       }
 
       html[data-theme="catppuccin-latte-teal"] body {
         color: #4c4f69;
+      }
+
+      html[data-theme="catppuccin-latte-teal"] .checkbox .knob {
+        background-color: #4c4f69;
+      }
+      html[data-theme="catppuccin-latte-teal"] .checkbox {
+        background-color: #6c6f85;
+      }
+      html[data-theme="catppuccin-latte-teal"] .checkbox:hover {
+        background-color: #7c7f93;
+      }
+      html[data-theme="catppuccin-latte-teal"] .checkbox.checked {
+        background-color: #ccd0da;
+      }
+      html[data-theme="catppuccin-latte-teal"] .checkbox.checked:hover {
+        background-color: #bcc0cc;
+      }
+
+      html[data-theme="catppuccin-latte-teal"] input.rangeInput::-webkit-slider-runnable-track {
+        color: #dce0e8;
+        background-color: #dce0e8;
+      }
+
+      html[data-theme="catppuccin-latte-teal"] input.rangeInput::-webkit-slider-thumb {
+        box-shadow:inset 0 0 0 calc(10px*var(--ui-scale)) #ccd0da;
+      }
+      html[data-theme="catppuccin-latte-teal"] input.rangeInput:hover::-webkit-slider-thumb {
+        box-shadow:inset 0 0 0 calc(10px*var(--ui-scale)) #bdc2cf;
       }
 
       html[data-theme="catppuccin-latte-teal"] #state_MainMenuState {
@@ -2149,6 +2928,15 @@ class Mod extends shapez.Mod {
       }
 
       /* Dialog (language) */
+      html[data-theme="catppuccin-latte-teal"] .ingameDialog,
+      html[data-theme="catppuccin-latte-teal"] .ingameDialog.visible {
+        animation: f .12s ease-in-out !important;
+        -webkit-animation: f .12s ease-in-out !important;
+
+        background: #ccd0dacc !important;
+        backdrop-filter: blur(calc(3px * var(--ui-scale))) !important;
+        -webkit-backdrop-filter: blur(calc(3px * var(--ui-scale))) !important;
+      }
       html[data-theme="catppuccin-latte-teal"] .ingameDialog>.dialogInner {
         background-color: #eff1f5;
       }
@@ -2161,6 +2949,48 @@ class Mod extends shapez.Mod {
       html[data-theme="catppuccin-latte-teal"] .ingameDialog>.dialogInner.optionChooserDialog .optionParent .option.active {
         color: #eff1f5;
         background-color: #179299;
+      }
+
+      /* Settings */
+      html[data-theme="catppuccin-latte-teal"] .gameState.textualState .headerBar .backButton {
+      filter:brightness(0) saturate(100%) invert(43%) sepia(43%) saturate(515%) hue-rotate(196deg) brightness(49%) contrast(68%);
+      }
+      html[data-theme="catppuccin-latte-teal"] .gameState.textualState .headerBar h1 {
+        color: #4c4f69;
+      }
+      html[data-theme="catppuccin-latte-teal"] .gameState.textualState>.container>.content {
+        background-color: #eff1f5;
+      }
+      html[data-theme="catppuccin-latte-teal"] #state_SettingsState .container .content .sidebar button.about,
+      html[data-theme="catppuccin-latte-teal"] #state_SettingsState .container .content .sidebar button.categoryButton,
+      html[data-theme="catppuccin-latte-teal"] #state_SettingsState .container .content .sidebar button.privacy {
+        color: #4c4f69;
+        background-color: #e6e9ef;
+      }
+      html[data-theme="catppuccin-latte-teal"] #state_SettingsState .container .content .sidebar button.about.active,
+      html[data-theme="catppuccin-latte-teal"] #state_SettingsState .container .content .sidebar button.categoryButton.active,
+      html[data-theme="catppuccin-latte-teal"] #state_SettingsState .container .content .sidebar button.privacy.active {
+        color: #eff1f5;
+        background-color: #179299;
+      }
+      html[data-theme="catppuccin-latte-teal"] #state_SettingsState .container .content .sidebar button.manageMods {
+        color: #ea76cb;
+        background-color: #efe4f1;
+      }
+      html[data-theme="catppuccin-latte-teal"] #state_SettingsState .container .content .sidebar button.manageMods .newBadge {
+        color: #eff1f5;
+        background-color: #ea76cb;
+      }
+      html[data-theme="catppuccin-latte-teal"] #state_SettingsState .container .content .categoryContainer .category .setting {
+        background-color: #e6e9ef;
+      }
+      html[data-theme="catppuccin-latte-teal"] #state_SettingsState .container .content .categoryContainer .category .setting .desc,
+      html[data-theme="catppuccin-latte-teal"] #state_SettingsState .container .content .sidebar .versionbar .buildVersion {
+        color: #6c6f85;
+      }
+      html[data-theme="catppuccin-latte-teal"] #state_SettingsState .container .content .categoryContainer .category .setting .value.enum {
+        background-color: #dce0e8;
+        background: #dce0e8 url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABABAMAAABYR2ztAAAAIGNIUk0AAHomAACAhAAA+gAAAIDoAAB1MAAA6mAAADqYAAAXcJy6UTwAAAAYUExURUxPaUxPaUxPaUxPaUxPaUxPaUxPaf///8yq9UAAAAAGdFJOUwAre/xYLJjtDxIAAAABYktHRAcWYYjrAAAAB3RJTUUH6gcKBxk3gGS0ogAAACV0RVh0ZGF0ZTpjcmVhdGUAMjAyNi0wNy0xMFQwNzoyNToxNyswMDowMHnONrcAAAAldEVYdGRhdGU6bW9kaWZ5ADIwMjYtMDctMTBUMDc6MjU6MTcrMDA6MDAIk44LAAAAKHRFWHRkYXRlOnRpbWVzdGFtcAAyMDI2LTA3LTEwVDA3OjI1OjU1KzAwOjAwTFOwBwAAAJhJREFUSMftz8sNgCAMBmA0DOAIJm5g0LMJIziCCfuPII8ghT686I2eyl/7IUr16vV9DVQ4gX458FyvpR+dwR9YNz/96S5E6N1t8GAwAJcsIpodTLQr7RlttAG+s06Iv64jS7wbZtSzq5ACYEoCMKaBkjNAGXBAnrBAHvFAmglAIiQgEhIQCREIhAgEQgY8IQOeeAF69fq7boqQLsGIVTZjAAAAAElFTkSuQmCC") calc(100% - 5px*var(--ui-scale)) calc(50% + 1px*var(--ui-scale))/calc(15px*var(--ui-scale)) no-repeat;
       }
     `)
     this.modInterface.registerGameTheme({
@@ -2280,12 +3110,44 @@ class Mod extends shapez.Mod {
         background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'%3E%3Cpath fill='%231e66f5' d='M0 0h512v512H0z'/%3E%3Cpath fill='%23eff1f5' d='M0 93.86h512v324.28H0z'/%3E%3Cpath d='M317.474 256l30.734-53.234h-61.469L256 149.523l-30.739 53.243h-61.469L194.526 256l-30.734 53.234h61.469L256 362.477l30.739-53.243h61.469L317.474 256zm.58-35.824l-10.632 18.415-10.632-18.415h21.264zM297.371 256l-20.683 35.824h-41.376L214.629 256l20.683-35.824h41.376L297.371 256zM256 184.344l10.636 18.422h-21.272L256 184.344zm-62.054 35.832h21.264l-10.632 18.415-10.632-18.415zm0 71.648l10.632-18.415 10.632 18.415h-21.264zM256 327.656l-10.636-18.422h21.272L256 327.656zm51.423-54.247l10.632 18.415h-21.264l10.632-18.415z' fill='%231e66f5'/%3E%3C/svg%3E") !important;
       }
 
+      html[data-theme="catppuccin-latte-sky"] {
+        background-color: #e6e9ef;
+      }
+
       html[data-theme="catppuccin-latte-sky"] a {
         color: #4c4f69;
       }
 
       html[data-theme="catppuccin-latte-sky"] body {
         color: #4c4f69;
+      }
+
+      html[data-theme="catppuccin-latte-sky"] .checkbox .knob {
+        background-color: #4c4f69;
+      }
+      html[data-theme="catppuccin-latte-sky"] .checkbox {
+        background-color: #6c6f85;
+      }
+      html[data-theme="catppuccin-latte-sky"] .checkbox:hover {
+        background-color: #7c7f93;
+      }
+      html[data-theme="catppuccin-latte-sky"] .checkbox.checked {
+        background-color: #ccd0da;
+      }
+      html[data-theme="catppuccin-latte-sky"] .checkbox.checked:hover {
+        background-color: #bcc0cc;
+      }
+
+      html[data-theme="catppuccin-latte-sky"] input.rangeInput::-webkit-slider-runnable-track {
+        color: #dce0e8;
+        background-color: #dce0e8;
+      }
+
+      html[data-theme="catppuccin-latte-sky"] input.rangeInput::-webkit-slider-thumb {
+        box-shadow:inset 0 0 0 calc(10px*var(--ui-scale)) #ccd0da;
+      }
+      html[data-theme="catppuccin-latte-sky"] input.rangeInput:hover::-webkit-slider-thumb {
+        box-shadow:inset 0 0 0 calc(10px*var(--ui-scale)) #bdc2cf;
       }
 
       html[data-theme="catppuccin-latte-sky"] #state_MainMenuState {
@@ -2364,6 +3226,15 @@ class Mod extends shapez.Mod {
       }
 
       /* Dialog (language) */
+      html[data-theme="catppuccin-latte-sky"] .ingameDialog,
+      html[data-theme="catppuccin-latte-sky"] .ingameDialog.visible {
+        animation: f .12s ease-in-out !important;
+        -webkit-animation: f .12s ease-in-out !important;
+
+        background: #ccd0dacc !important;
+        backdrop-filter: blur(calc(3px * var(--ui-scale))) !important;
+        -webkit-backdrop-filter: blur(calc(3px * var(--ui-scale))) !important;
+      }
       html[data-theme="catppuccin-latte-sky"] .ingameDialog>.dialogInner {
         background-color: #eff1f5;
       }
@@ -2376,6 +3247,48 @@ class Mod extends shapez.Mod {
       html[data-theme="catppuccin-latte-sky"] .ingameDialog>.dialogInner.optionChooserDialog .optionParent .option.active {
         color: #eff1f5;
         background-color: #04a5e5;
+      }
+
+      /* Settings */
+      html[data-theme="catppuccin-latte-sky"] .gameState.textualState .headerBar .backButton {
+      filter:brightness(0) saturate(100%) invert(43%) sepia(43%) saturate(515%) hue-rotate(196deg) brightness(49%) contrast(68%);
+      }
+      html[data-theme="catppuccin-latte-sky"] .gameState.textualState .headerBar h1 {
+        color: #4c4f69;
+      }
+      html[data-theme="catppuccin-latte-sky"] .gameState.textualState>.container>.content {
+        background-color: #eff1f5;
+      }
+      html[data-theme="catppuccin-latte-sky"] #state_SettingsState .container .content .sidebar button.about,
+      html[data-theme="catppuccin-latte-sky"] #state_SettingsState .container .content .sidebar button.categoryButton,
+      html[data-theme="catppuccin-latte-sky"] #state_SettingsState .container .content .sidebar button.privacy {
+        color: #4c4f69;
+        background-color: #e6e9ef;
+      }
+      html[data-theme="catppuccin-latte-sky"] #state_SettingsState .container .content .sidebar button.about.active,
+      html[data-theme="catppuccin-latte-sky"] #state_SettingsState .container .content .sidebar button.categoryButton.active,
+      html[data-theme="catppuccin-latte-sky"] #state_SettingsState .container .content .sidebar button.privacy.active {
+        color: #eff1f5;
+        background-color: #04a5e5;
+      }
+      html[data-theme="catppuccin-latte-sky"] #state_SettingsState .container .content .sidebar button.manageMods {
+        color: #ea76cb;
+        background-color: #efe4f1;
+      }
+      html[data-theme="catppuccin-latte-sky"] #state_SettingsState .container .content .sidebar button.manageMods .newBadge {
+        color: #eff1f5;
+        background-color: #ea76cb;
+      }
+      html[data-theme="catppuccin-latte-sky"] #state_SettingsState .container .content .categoryContainer .category .setting {
+        background-color: #e6e9ef;
+      }
+      html[data-theme="catppuccin-latte-sky"] #state_SettingsState .container .content .categoryContainer .category .setting .desc,
+      html[data-theme="catppuccin-latte-sky"] #state_SettingsState .container .content .sidebar .versionbar .buildVersion {
+        color: #6c6f85;
+      }
+      html[data-theme="catppuccin-latte-sky"] #state_SettingsState .container .content .categoryContainer .category .setting .value.enum {
+        background-color: #dce0e8;
+        background: #dce0e8 url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABABAMAAABYR2ztAAAAIGNIUk0AAHomAACAhAAA+gAAAIDoAAB1MAAA6mAAADqYAAAXcJy6UTwAAAAYUExURUxPaUxPaUxPaUxPaUxPaUxPaUxPaf///8yq9UAAAAAGdFJOUwAre/xYLJjtDxIAAAABYktHRAcWYYjrAAAAB3RJTUUH6gcKBxk3gGS0ogAAACV0RVh0ZGF0ZTpjcmVhdGUAMjAyNi0wNy0xMFQwNzoyNToxNyswMDowMHnONrcAAAAldEVYdGRhdGU6bW9kaWZ5ADIwMjYtMDctMTBUMDc6MjU6MTcrMDA6MDAIk44LAAAAKHRFWHRkYXRlOnRpbWVzdGFtcAAyMDI2LTA3LTEwVDA3OjI1OjU1KzAwOjAwTFOwBwAAAJhJREFUSMftz8sNgCAMBmA0DOAIJm5g0LMJIziCCfuPII8ghT686I2eyl/7IUr16vV9DVQ4gX458FyvpR+dwR9YNz/96S5E6N1t8GAwAJcsIpodTLQr7RlttAG+s06Iv64jS7wbZtSzq5ACYEoCMKaBkjNAGXBAnrBAHvFAmglAIiQgEhIQCREIhAgEQgY8IQOeeAF69fq7boqQLsGIVTZjAAAAAElFTkSuQmCC") calc(100% - 5px*var(--ui-scale)) calc(50% + 1px*var(--ui-scale))/calc(15px*var(--ui-scale)) no-repeat;
       }
     `)
     this.modInterface.registerGameTheme({
@@ -2495,12 +3408,44 @@ class Mod extends shapez.Mod {
         background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'%3E%3Cpath fill='%231e66f5' d='M0 0h512v512H0z'/%3E%3Cpath fill='%23eff1f5' d='M0 93.86h512v324.28H0z'/%3E%3Cpath d='M317.474 256l30.734-53.234h-61.469L256 149.523l-30.739 53.243h-61.469L194.526 256l-30.734 53.234h61.469L256 362.477l30.739-53.243h61.469L317.474 256zm.58-35.824l-10.632 18.415-10.632-18.415h21.264zM297.371 256l-20.683 35.824h-41.376L214.629 256l20.683-35.824h41.376L297.371 256zM256 184.344l10.636 18.422h-21.272L256 184.344zm-62.054 35.832h21.264l-10.632 18.415-10.632-18.415zm0 71.648l10.632-18.415 10.632 18.415h-21.264zM256 327.656l-10.636-18.422h21.272L256 327.656zm51.423-54.247l10.632 18.415h-21.264l10.632-18.415z' fill='%231e66f5'/%3E%3C/svg%3E") !important;
       }
 
+      html[data-theme="catppuccin-latte-sapphire"] {
+        background-color: #e6e9ef;
+      }
+
       html[data-theme="catppuccin-latte-sapphire"] a {
         color: #4c4f69;
       }
 
       html[data-theme="catppuccin-latte-sapphire"] body {
         color: #4c4f69;
+      }
+
+      html[data-theme="catppuccin-latte-sapphire"] .checkbox .knob {
+        background-color: #4c4f69;
+      }
+      html[data-theme="catppuccin-latte-sapphire"] .checkbox {
+        background-color: #6c6f85;
+      }
+      html[data-theme="catppuccin-latte-sapphire"] .checkbox:hover {
+        background-color: #7c7f93;
+      }
+      html[data-theme="catppuccin-latte-sapphire"] .checkbox.checked {
+        background-color: #ccd0da;
+      }
+      html[data-theme="catppuccin-latte-sapphire"] .checkbox.checked:hover {
+        background-color: #bcc0cc;
+      }
+
+      html[data-theme="catppuccin-latte-sapphire"] input.rangeInput::-webkit-slider-runnable-track {
+        color: #dce0e8;
+        background-color: #dce0e8;
+      }
+
+      html[data-theme="catppuccin-latte-sapphire"] input.rangeInput::-webkit-slider-thumb {
+        box-shadow:inset 0 0 0 calc(10px*var(--ui-scale)) #ccd0da;
+      }
+      html[data-theme="catppuccin-latte-sapphire"] input.rangeInput:hover::-webkit-slider-thumb {
+        box-shadow:inset 0 0 0 calc(10px*var(--ui-scale)) #bdc2cf;
       }
 
       html[data-theme="catppuccin-latte-sapphire"] #state_MainMenuState {
@@ -2579,6 +3524,15 @@ class Mod extends shapez.Mod {
       }
 
       /* Dialog (language) */
+      html[data-theme="catppuccin-latte-sapphire"] .ingameDialog,
+      html[data-theme="catppuccin-latte-sapphire"] .ingameDialog.visible {
+        animation: f .12s ease-in-out !important;
+        -webkit-animation: f .12s ease-in-out !important;
+
+        background: #ccd0dacc !important;
+        backdrop-filter: blur(calc(3px * var(--ui-scale))) !important;
+        -webkit-backdrop-filter: blur(calc(3px * var(--ui-scale))) !important;
+      }
       html[data-theme="catppuccin-latte-sapphire"] .ingameDialog>.dialogInner {
         background-color: #eff1f5;
       }
@@ -2591,6 +3545,48 @@ class Mod extends shapez.Mod {
       html[data-theme="catppuccin-latte-sapphire"] .ingameDialog>.dialogInner.optionChooserDialog .optionParent .option.active {
         color: #eff1f5;
         background-color: #209fb5;
+      }
+
+      /* Settings */
+      html[data-theme="catppuccin-latte-sapphire"] .gameState.textualState .headerBar .backButton {
+      filter:brightness(0) saturate(100%) invert(43%) sepia(43%) saturate(515%) hue-rotate(196deg) brightness(49%) contrast(68%);
+      }
+      html[data-theme="catppuccin-latte-sapphire"] .gameState.textualState .headerBar h1 {
+        color: #4c4f69;
+      }
+      html[data-theme="catppuccin-latte-sapphire"] .gameState.textualState>.container>.content {
+        background-color: #eff1f5;
+      }
+      html[data-theme="catppuccin-latte-sapphire"] #state_SettingsState .container .content .sidebar button.about,
+      html[data-theme="catppuccin-latte-sapphire"] #state_SettingsState .container .content .sidebar button.categoryButton,
+      html[data-theme="catppuccin-latte-sapphire"] #state_SettingsState .container .content .sidebar button.privacy {
+        color: #4c4f69;
+        background-color: #e6e9ef;
+      }
+      html[data-theme="catppuccin-latte-sapphire"] #state_SettingsState .container .content .sidebar button.about.active,
+      html[data-theme="catppuccin-latte-sapphire"] #state_SettingsState .container .content .sidebar button.categoryButton.active,
+      html[data-theme="catppuccin-latte-sapphire"] #state_SettingsState .container .content .sidebar button.privacy.active {
+        color: #eff1f5;
+        background-color: #209fb5;
+      }
+      html[data-theme="catppuccin-latte-sapphire"] #state_SettingsState .container .content .sidebar button.manageMods {
+        color: #ea76cb;
+        background-color: #efe4f1;
+      }
+      html[data-theme="catppuccin-latte-sapphire"] #state_SettingsState .container .content .sidebar button.manageMods .newBadge {
+        color: #eff1f5;
+        background-color: #ea76cb;
+      }
+      html[data-theme="catppuccin-latte-sapphire"] #state_SettingsState .container .content .categoryContainer .category .setting {
+        background-color: #e6e9ef;
+      }
+      html[data-theme="catppuccin-latte-sapphire"] #state_SettingsState .container .content .categoryContainer .category .setting .desc,
+      html[data-theme="catppuccin-latte-sapphire"] #state_SettingsState .container .content .sidebar .versionbar .buildVersion {
+        color: #6c6f85;
+      }
+      html[data-theme="catppuccin-latte-sapphire"] #state_SettingsState .container .content .categoryContainer .category .setting .value.enum {
+        background-color: #dce0e8;
+        background: #dce0e8 url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABABAMAAABYR2ztAAAAIGNIUk0AAHomAACAhAAA+gAAAIDoAAB1MAAA6mAAADqYAAAXcJy6UTwAAAAYUExURUxPaUxPaUxPaUxPaUxPaUxPaUxPaf///8yq9UAAAAAGdFJOUwAre/xYLJjtDxIAAAABYktHRAcWYYjrAAAAB3RJTUUH6gcKBxk3gGS0ogAAACV0RVh0ZGF0ZTpjcmVhdGUAMjAyNi0wNy0xMFQwNzoyNToxNyswMDowMHnONrcAAAAldEVYdGRhdGU6bW9kaWZ5ADIwMjYtMDctMTBUMDc6MjU6MTcrMDA6MDAIk44LAAAAKHRFWHRkYXRlOnRpbWVzdGFtcAAyMDI2LTA3LTEwVDA3OjI1OjU1KzAwOjAwTFOwBwAAAJhJREFUSMftz8sNgCAMBmA0DOAIJm5g0LMJIziCCfuPII8ghT686I2eyl/7IUr16vV9DVQ4gX458FyvpR+dwR9YNz/96S5E6N1t8GAwAJcsIpodTLQr7RlttAG+s06Iv64jS7wbZtSzq5ACYEoCMKaBkjNAGXBAnrBAHvFAmglAIiQgEhIQCREIhAgEQgY8IQOeeAF69fq7boqQLsGIVTZjAAAAAElFTkSuQmCC") calc(100% - 5px*var(--ui-scale)) calc(50% + 1px*var(--ui-scale))/calc(15px*var(--ui-scale)) no-repeat;
       }
     `)
     this.modInterface.registerGameTheme({
@@ -2710,12 +3706,44 @@ class Mod extends shapez.Mod {
         background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'%3E%3Cpath fill='%231e66f5' d='M0 0h512v512H0z'/%3E%3Cpath fill='%23eff1f5' d='M0 93.86h512v324.28H0z'/%3E%3Cpath d='M317.474 256l30.734-53.234h-61.469L256 149.523l-30.739 53.243h-61.469L194.526 256l-30.734 53.234h61.469L256 362.477l30.739-53.243h61.469L317.474 256zm.58-35.824l-10.632 18.415-10.632-18.415h21.264zM297.371 256l-20.683 35.824h-41.376L214.629 256l20.683-35.824h41.376L297.371 256zM256 184.344l10.636 18.422h-21.272L256 184.344zm-62.054 35.832h21.264l-10.632 18.415-10.632-18.415zm0 71.648l10.632-18.415 10.632 18.415h-21.264zM256 327.656l-10.636-18.422h21.272L256 327.656zm51.423-54.247l10.632 18.415h-21.264l10.632-18.415z' fill='%231e66f5'/%3E%3C/svg%3E") !important;
       }
 
+      html[data-theme="catppuccin-latte-blue"] {
+        background-color: #e6e9ef;
+      }
+
       html[data-theme="catppuccin-latte-blue"] a {
         color: #4c4f69;
       }
 
       html[data-theme="catppuccin-latte-blue"] body {
         color: #4c4f69;
+      }
+
+      html[data-theme="catppuccin-latte-blue"] .checkbox .knob {
+        background-color: #4c4f69;
+      }
+      html[data-theme="catppuccin-latte-blue"] .checkbox {
+        background-color: #6c6f85;
+      }
+      html[data-theme="catppuccin-latte-blue"] .checkbox:hover {
+        background-color: #7c7f93;
+      }
+      html[data-theme="catppuccin-latte-blue"] .checkbox.checked {
+        background-color: #ccd0da;
+      }
+      html[data-theme="catppuccin-latte-blue"] .checkbox.checked:hover {
+        background-color: #bcc0cc;
+      }
+
+      html[data-theme="catppuccin-latte-blue"] input.rangeInput::-webkit-slider-runnable-track {
+        color: #dce0e8;
+        background-color: #dce0e8;
+      }
+
+      html[data-theme="catppuccin-latte-blue"] input.rangeInput::-webkit-slider-thumb {
+        box-shadow:inset 0 0 0 calc(10px*var(--ui-scale)) #ccd0da;
+      }
+      html[data-theme="catppuccin-latte-blue"] input.rangeInput:hover::-webkit-slider-thumb {
+        box-shadow:inset 0 0 0 calc(10px*var(--ui-scale)) #bdc2cf;
       }
 
       html[data-theme="catppuccin-latte-blue"] #state_MainMenuState {
@@ -2794,6 +3822,15 @@ class Mod extends shapez.Mod {
       }
 
       /* Dialog (language) */
+      html[data-theme="catppuccin-latte-blue"] .ingameDialog,
+      html[data-theme="catppuccin-latte-blue"] .ingameDialog.visible {
+        animation: f .12s ease-in-out !important;
+        -webkit-animation: f .12s ease-in-out !important;
+
+        background: #ccd0dacc !important;
+        backdrop-filter: blur(calc(3px * var(--ui-scale))) !important;
+        -webkit-backdrop-filter: blur(calc(3px * var(--ui-scale))) !important;
+      }
       html[data-theme="catppuccin-latte-blue"] .ingameDialog>.dialogInner {
         background-color: #eff1f5;
       }
@@ -2806,6 +3843,48 @@ class Mod extends shapez.Mod {
       html[data-theme="catppuccin-latte-blue"] .ingameDialog>.dialogInner.optionChooserDialog .optionParent .option.active {
         color: #eff1f5;
         background-color: #1e66f5;
+      }
+
+      /* Settings */
+      html[data-theme="catppuccin-latte-blue"] .gameState.textualState .headerBar .backButton {
+      filter:brightness(0) saturate(100%) invert(43%) sepia(43%) saturate(515%) hue-rotate(196deg) brightness(49%) contrast(68%);
+      }
+      html[data-theme="catppuccin-latte-blue"] .gameState.textualState .headerBar h1 {
+        color: #4c4f69;
+      }
+      html[data-theme="catppuccin-latte-blue"] .gameState.textualState>.container>.content {
+        background-color: #eff1f5;
+      }
+      html[data-theme="catppuccin-latte-blue"] #state_SettingsState .container .content .sidebar button.about,
+      html[data-theme="catppuccin-latte-blue"] #state_SettingsState .container .content .sidebar button.categoryButton,
+      html[data-theme="catppuccin-latte-blue"] #state_SettingsState .container .content .sidebar button.privacy {
+        color: #4c4f69;
+        background-color: #e6e9ef;
+      }
+      html[data-theme="catppuccin-latte-blue"] #state_SettingsState .container .content .sidebar button.about.active,
+      html[data-theme="catppuccin-latte-blue"] #state_SettingsState .container .content .sidebar button.categoryButton.active,
+      html[data-theme="catppuccin-latte-blue"] #state_SettingsState .container .content .sidebar button.privacy.active {
+        color: #eff1f5;
+        background-color: #1e66f5;
+      }
+      html[data-theme="catppuccin-latte-blue"] #state_SettingsState .container .content .sidebar button.manageMods {
+        color: #ea76cb;
+        background-color: #efe4f1;
+      }
+      html[data-theme="catppuccin-latte-blue"] #state_SettingsState .container .content .sidebar button.manageMods .newBadge {
+        color: #eff1f5;
+        background-color: #ea76cb;
+      }
+      html[data-theme="catppuccin-latte-blue"] #state_SettingsState .container .content .categoryContainer .category .setting {
+        background-color: #e6e9ef;
+      }
+      html[data-theme="catppuccin-latte-blue"] #state_SettingsState .container .content .categoryContainer .category .setting .desc,
+      html[data-theme="catppuccin-latte-blue"] #state_SettingsState .container .content .sidebar .versionbar .buildVersion {
+        color: #6c6f85;
+      }
+      html[data-theme="catppuccin-latte-blue"] #state_SettingsState .container .content .categoryContainer .category .setting .value.enum {
+        background-color: #dce0e8;
+        background: #dce0e8 url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABABAMAAABYR2ztAAAAIGNIUk0AAHomAACAhAAA+gAAAIDoAAB1MAAA6mAAADqYAAAXcJy6UTwAAAAYUExURUxPaUxPaUxPaUxPaUxPaUxPaUxPaf///8yq9UAAAAAGdFJOUwAre/xYLJjtDxIAAAABYktHRAcWYYjrAAAAB3RJTUUH6gcKBxk3gGS0ogAAACV0RVh0ZGF0ZTpjcmVhdGUAMjAyNi0wNy0xMFQwNzoyNToxNyswMDowMHnONrcAAAAldEVYdGRhdGU6bW9kaWZ5ADIwMjYtMDctMTBUMDc6MjU6MTcrMDA6MDAIk44LAAAAKHRFWHRkYXRlOnRpbWVzdGFtcAAyMDI2LTA3LTEwVDA3OjI1OjU1KzAwOjAwTFOwBwAAAJhJREFUSMftz8sNgCAMBmA0DOAIJm5g0LMJIziCCfuPII8ghT686I2eyl/7IUr16vV9DVQ4gX458FyvpR+dwR9YNz/96S5E6N1t8GAwAJcsIpodTLQr7RlttAG+s06Iv64jS7wbZtSzq5ACYEoCMKaBkjNAGXBAnrBAHvFAmglAIiQgEhIQCREIhAgEQgY8IQOeeAF69fq7boqQLsGIVTZjAAAAAElFTkSuQmCC") calc(100% - 5px*var(--ui-scale)) calc(50% + 1px*var(--ui-scale))/calc(15px*var(--ui-scale)) no-repeat;
       }
     `)
     this.modInterface.registerGameTheme({
@@ -2925,12 +4004,44 @@ class Mod extends shapez.Mod {
         background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'%3E%3Cpath fill='%231e66f5' d='M0 0h512v512H0z'/%3E%3Cpath fill='%23eff1f5' d='M0 93.86h512v324.28H0z'/%3E%3Cpath d='M317.474 256l30.734-53.234h-61.469L256 149.523l-30.739 53.243h-61.469L194.526 256l-30.734 53.234h61.469L256 362.477l30.739-53.243h61.469L317.474 256zm.58-35.824l-10.632 18.415-10.632-18.415h21.264zM297.371 256l-20.683 35.824h-41.376L214.629 256l20.683-35.824h41.376L297.371 256zM256 184.344l10.636 18.422h-21.272L256 184.344zm-62.054 35.832h21.264l-10.632 18.415-10.632-18.415zm0 71.648l10.632-18.415 10.632 18.415h-21.264zM256 327.656l-10.636-18.422h21.272L256 327.656zm51.423-54.247l10.632 18.415h-21.264l10.632-18.415z' fill='%231e66f5'/%3E%3C/svg%3E") !important;
       }
 
+      html[data-theme="catppuccin-latte-lavender"] {
+        background-color: #e6e9ef;
+      }
+
       html[data-theme="catppuccin-latte-lavender"] a {
         color: #4c4f69;
       }
 
       html[data-theme="catppuccin-latte-lavender"] body {
         color: #4c4f69;
+      }
+
+      html[data-theme="catppuccin-latte-lavender"] .checkbox .knob {
+        background-color: #4c4f69;
+      }
+      html[data-theme="catppuccin-latte-lavender"] .checkbox {
+        background-color: #6c6f85;
+      }
+      html[data-theme="catppuccin-latte-lavender"] .checkbox:hover {
+        background-color: #7c7f93;
+      }
+      html[data-theme="catppuccin-latte-lavender"] .checkbox.checked {
+        background-color: #ccd0da;
+      }
+      html[data-theme="catppuccin-latte-lavender"] .checkbox.checked:hover {
+        background-color: #bcc0cc;
+      }
+
+      html[data-theme="catppuccin-latte-lavender"] input.rangeInput::-webkit-slider-runnable-track {
+        color: #dce0e8;
+        background-color: #dce0e8;
+      }
+
+      html[data-theme="catppuccin-latte-lavender"] input.rangeInput::-webkit-slider-thumb {
+        box-shadow:inset 0 0 0 calc(10px*var(--ui-scale)) #ccd0da;
+      }
+      html[data-theme="catppuccin-latte-lavender"] input.rangeInput:hover::-webkit-slider-thumb {
+        box-shadow:inset 0 0 0 calc(10px*var(--ui-scale)) #bdc2cf;
       }
 
       html[data-theme="catppuccin-latte-lavender"] #state_MainMenuState {
@@ -3009,6 +4120,15 @@ class Mod extends shapez.Mod {
       }
 
       /* Dialog (language) */
+      html[data-theme="catppuccin-latte-lavender"] .ingameDialog,
+      html[data-theme="catppuccin-latte-lavender"] .ingameDialog.visible {
+        animation: f .12s ease-in-out !important;
+        -webkit-animation: f .12s ease-in-out !important;
+
+        background: #ccd0dacc !important;
+        backdrop-filter: blur(calc(3px * var(--ui-scale))) !important;
+        -webkit-backdrop-filter: blur(calc(3px * var(--ui-scale))) !important;
+      }
       html[data-theme="catppuccin-latte-lavender"] .ingameDialog>.dialogInner {
         background-color: #eff1f5;
       }
@@ -3021,6 +4141,48 @@ class Mod extends shapez.Mod {
       html[data-theme="catppuccin-latte-lavender"] .ingameDialog>.dialogInner.optionChooserDialog .optionParent .option.active {
         color: #eff1f5;
         background-color: #7287fd;
+      }
+
+      /* Settings */
+      html[data-theme="catppuccin-latte-lavender"] .gameState.textualState .headerBar .backButton {
+      filter:brightness(0) saturate(100%) invert(43%) sepia(43%) saturate(515%) hue-rotate(196deg) brightness(49%) contrast(68%);
+      }
+      html[data-theme="catppuccin-latte-lavender"] .gameState.textualState .headerBar h1 {
+        color: #4c4f69;
+      }
+      html[data-theme="catppuccin-latte-lavender"] .gameState.textualState>.container>.content {
+        background-color: #eff1f5;
+      }
+      html[data-theme="catppuccin-latte-lavender"] #state_SettingsState .container .content .sidebar button.about,
+      html[data-theme="catppuccin-latte-lavender"] #state_SettingsState .container .content .sidebar button.categoryButton,
+      html[data-theme="catppuccin-latte-lavender"] #state_SettingsState .container .content .sidebar button.privacy {
+        color: #4c4f69;
+        background-color: #e6e9ef;
+      }
+      html[data-theme="catppuccin-latte-lavender"] #state_SettingsState .container .content .sidebar button.about.active,
+      html[data-theme="catppuccin-latte-lavender"] #state_SettingsState .container .content .sidebar button.categoryButton.active,
+      html[data-theme="catppuccin-latte-lavender"] #state_SettingsState .container .content .sidebar button.privacy.active {
+        color: #eff1f5;
+        background-color: #7287fd;
+      }
+      html[data-theme="catppuccin-latte-lavender"] #state_SettingsState .container .content .sidebar button.manageMods {
+        color: #ea76cb;
+        background-color: #efe4f1;
+      }
+      html[data-theme="catppuccin-latte-lavender"] #state_SettingsState .container .content .sidebar button.manageMods .newBadge {
+        color: #eff1f5;
+        background-color: #ea76cb;
+      }
+      html[data-theme="catppuccin-latte-lavender"] #state_SettingsState .container .content .categoryContainer .category .setting {
+        background-color: #e6e9ef;
+      }
+      html[data-theme="catppuccin-latte-lavender"] #state_SettingsState .container .content .categoryContainer .category .setting .desc,
+      html[data-theme="catppuccin-latte-lavender"] #state_SettingsState .container .content .sidebar .versionbar .buildVersion {
+        color: #6c6f85;
+      }
+      html[data-theme="catppuccin-latte-lavender"] #state_SettingsState .container .content .categoryContainer .category .setting .value.enum {
+        background-color: #dce0e8;
+        background: #dce0e8 url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABABAMAAABYR2ztAAAAIGNIUk0AAHomAACAhAAA+gAAAIDoAAB1MAAA6mAAADqYAAAXcJy6UTwAAAAYUExURUxPaUxPaUxPaUxPaUxPaUxPaUxPaf///8yq9UAAAAAGdFJOUwAre/xYLJjtDxIAAAABYktHRAcWYYjrAAAAB3RJTUUH6gcKBxk3gGS0ogAAACV0RVh0ZGF0ZTpjcmVhdGUAMjAyNi0wNy0xMFQwNzoyNToxNyswMDowMHnONrcAAAAldEVYdGRhdGU6bW9kaWZ5ADIwMjYtMDctMTBUMDc6MjU6MTcrMDA6MDAIk44LAAAAKHRFWHRkYXRlOnRpbWVzdGFtcAAyMDI2LTA3LTEwVDA3OjI1OjU1KzAwOjAwTFOwBwAAAJhJREFUSMftz8sNgCAMBmA0DOAIJm5g0LMJIziCCfuPII8ghT686I2eyl/7IUr16vV9DVQ4gX458FyvpR+dwR9YNz/96S5E6N1t8GAwAJcsIpodTLQr7RlttAG+s06Iv64jS7wbZtSzq5ACYEoCMKaBkjNAGXBAnrBAHvFAmglAIiQgEhIQCREIhAgEQgY8IQOeeAF69fq7boqQLsGIVTZjAAAAAElFTkSuQmCC") calc(100% - 5px*var(--ui-scale)) calc(50% + 1px*var(--ui-scale))/calc(15px*var(--ui-scale)) no-repeat;
       }
     `)
   }
