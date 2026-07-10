@@ -193,7 +193,7 @@ class Mod extends shapez.Mod {
       }
 
       html[data-theme="catppuccin-macchiato-rosewater"] #state_MainMenuState .footer .author a img {
-      filter:brightness(0) saturate(100%) invert(73%) sepia(80%) saturate(1008%) hue-rotate(190deg) brightness(120%) contrast(92%);
+        filter:brightness(0) saturate(100%) invert(73%) sepia(80%) saturate(1008%) hue-rotate(190deg) brightness(120%) contrast(92%);
       }
 
       html[data-theme="catppuccin-macchiato-rosewater"] .styledButton {
@@ -285,7 +285,7 @@ class Mod extends shapez.Mod {
 
       /* Settings */
       html[data-theme="catppuccin-macchiato-rosewater"] .gameState.textualState .headerBar .backButton {
-      filter:brightness(0) saturate(100%) invert(73%) sepia(80%) saturate(1008%) hue-rotate(190deg) brightness(120%) contrast(92%);
+        filter:brightness(0) saturate(100%) invert(73%) sepia(80%) saturate(1008%) hue-rotate(190deg) brightness(120%) contrast(92%);
       }
       html[data-theme="catppuccin-macchiato-rosewater"] .gameState.textualState .headerBar h1 {
         color: #cad3f5;
@@ -542,7 +542,7 @@ class Mod extends shapez.Mod {
       }
 
       html[data-theme="catppuccin-macchiato-flamingo"] #state_MainMenuState .footer .author a img {
-      filter:brightness(0) saturate(100%) invert(73%) sepia(80%) saturate(1008%) hue-rotate(190deg) brightness(120%) contrast(92%);
+        filter:brightness(0) saturate(100%) invert(73%) sepia(80%) saturate(1008%) hue-rotate(190deg) brightness(120%) contrast(92%);
       }
 
       html[data-theme="catppuccin-macchiato-flamingo"] .styledButton {
@@ -634,7 +634,7 @@ class Mod extends shapez.Mod {
 
       /* Settings */
       html[data-theme="catppuccin-macchiato-flamingo"] .gameState.textualState .headerBar .backButton {
-      filter:brightness(0) saturate(100%) invert(73%) sepia(80%) saturate(1008%) hue-rotate(190deg) brightness(120%) contrast(92%);
+        filter:brightness(0) saturate(100%) invert(73%) sepia(80%) saturate(1008%) hue-rotate(190deg) brightness(120%) contrast(92%);
       }
       html[data-theme="catppuccin-macchiato-flamingo"] .gameState.textualState .headerBar h1 {
         color: #cad3f5;
@@ -891,7 +891,7 @@ class Mod extends shapez.Mod {
       }
 
       html[data-theme="catppuccin-macchiato-pink"] #state_MainMenuState .footer .author a img {
-      filter:brightness(0) saturate(100%) invert(73%) sepia(80%) saturate(1008%) hue-rotate(190deg) brightness(120%) contrast(92%);
+        filter:brightness(0) saturate(100%) invert(73%) sepia(80%) saturate(1008%) hue-rotate(190deg) brightness(120%) contrast(92%);
       }
 
       html[data-theme="catppuccin-macchiato-pink"] .styledButton {
@@ -983,7 +983,7 @@ class Mod extends shapez.Mod {
 
       /* Settings */
       html[data-theme="catppuccin-macchiato-pink"] .gameState.textualState .headerBar .backButton {
-      filter:brightness(0) saturate(100%) invert(73%) sepia(80%) saturate(1008%) hue-rotate(190deg) brightness(120%) contrast(92%);
+        filter:brightness(0) saturate(100%) invert(73%) sepia(80%) saturate(1008%) hue-rotate(190deg) brightness(120%) contrast(92%);
       }
       html[data-theme="catppuccin-macchiato-pink"] .gameState.textualState .headerBar h1 {
         color: #cad3f5;
@@ -1240,7 +1240,7 @@ class Mod extends shapez.Mod {
       }
 
       html[data-theme="catppuccin-macchiato-mauve"] #state_MainMenuState .footer .author a img {
-      filter:brightness(0) saturate(100%) invert(73%) sepia(80%) saturate(1008%) hue-rotate(190deg) brightness(120%) contrast(92%);
+        filter:brightness(0) saturate(100%) invert(73%) sepia(80%) saturate(1008%) hue-rotate(190deg) brightness(120%) contrast(92%);
       }
 
       html[data-theme="catppuccin-macchiato-mauve"] .styledButton {
@@ -1332,7 +1332,7 @@ class Mod extends shapez.Mod {
 
       /* Settings */
       html[data-theme="catppuccin-macchiato-mauve"] .gameState.textualState .headerBar .backButton {
-      filter:brightness(0) saturate(100%) invert(73%) sepia(80%) saturate(1008%) hue-rotate(190deg) brightness(120%) contrast(92%);
+        filter:brightness(0) saturate(100%) invert(73%) sepia(80%) saturate(1008%) hue-rotate(190deg) brightness(120%) contrast(92%);
       }
       html[data-theme="catppuccin-macchiato-mauve"] .gameState.textualState .headerBar h1 {
         color: #cad3f5;
@@ -1589,7 +1589,7 @@ class Mod extends shapez.Mod {
       }
 
       html[data-theme="catppuccin-macchiato-red"] #state_MainMenuState .footer .author a img {
-      filter:brightness(0) saturate(100%) invert(73%) sepia(80%) saturate(1008%) hue-rotate(190deg) brightness(120%) contrast(92%);
+        filter:brightness(0) saturate(100%) invert(73%) sepia(80%) saturate(1008%) hue-rotate(190deg) brightness(120%) contrast(92%);
       }
 
       html[data-theme="catppuccin-macchiato-red"] .styledButton {
@@ -1681,7 +1681,7 @@ class Mod extends shapez.Mod {
 
       /* Settings */
       html[data-theme="catppuccin-macchiato-red"] .gameState.textualState .headerBar .backButton {
-      filter:brightness(0) saturate(100%) invert(73%) sepia(80%) saturate(1008%) hue-rotate(190deg) brightness(120%) contrast(92%);
+        filter:brightness(0) saturate(100%) invert(73%) sepia(80%) saturate(1008%) hue-rotate(190deg) brightness(120%) contrast(92%);
       }
       html[data-theme="catppuccin-macchiato-red"] .gameState.textualState .headerBar h1 {
         color: #cad3f5;
@@ -1938,7 +1938,7 @@ class Mod extends shapez.Mod {
       }
 
       html[data-theme="catppuccin-macchiato-maroon"] #state_MainMenuState .footer .author a img {
-      filter:brightness(0) saturate(100%) invert(73%) sepia(80%) saturate(1008%) hue-rotate(190deg) brightness(120%) contrast(92%);
+        filter:brightness(0) saturate(100%) invert(73%) sepia(80%) saturate(1008%) hue-rotate(190deg) brightness(120%) contrast(92%);
       }
 
       html[data-theme="catppuccin-macchiato-maroon"] .styledButton {
@@ -2030,7 +2030,7 @@ class Mod extends shapez.Mod {
 
       /* Settings */
       html[data-theme="catppuccin-macchiato-maroon"] .gameState.textualState .headerBar .backButton {
-      filter:brightness(0) saturate(100%) invert(73%) sepia(80%) saturate(1008%) hue-rotate(190deg) brightness(120%) contrast(92%);
+        filter:brightness(0) saturate(100%) invert(73%) sepia(80%) saturate(1008%) hue-rotate(190deg) brightness(120%) contrast(92%);
       }
       html[data-theme="catppuccin-macchiato-maroon"] .gameState.textualState .headerBar h1 {
         color: #cad3f5;
@@ -2287,7 +2287,7 @@ class Mod extends shapez.Mod {
       }
 
       html[data-theme="catppuccin-macchiato-peach"] #state_MainMenuState .footer .author a img {
-      filter:brightness(0) saturate(100%) invert(73%) sepia(80%) saturate(1008%) hue-rotate(190deg) brightness(120%) contrast(92%);
+        filter:brightness(0) saturate(100%) invert(73%) sepia(80%) saturate(1008%) hue-rotate(190deg) brightness(120%) contrast(92%);
       }
 
       html[data-theme="catppuccin-macchiato-peach"] .styledButton {
@@ -2379,7 +2379,7 @@ class Mod extends shapez.Mod {
 
       /* Settings */
       html[data-theme="catppuccin-macchiato-peach"] .gameState.textualState .headerBar .backButton {
-      filter:brightness(0) saturate(100%) invert(73%) sepia(80%) saturate(1008%) hue-rotate(190deg) brightness(120%) contrast(92%);
+        filter:brightness(0) saturate(100%) invert(73%) sepia(80%) saturate(1008%) hue-rotate(190deg) brightness(120%) contrast(92%);
       }
       html[data-theme="catppuccin-macchiato-peach"] .gameState.textualState .headerBar h1 {
         color: #cad3f5;
@@ -2636,7 +2636,7 @@ class Mod extends shapez.Mod {
       }
 
       html[data-theme="catppuccin-macchiato-yellow"] #state_MainMenuState .footer .author a img {
-      filter:brightness(0) saturate(100%) invert(73%) sepia(80%) saturate(1008%) hue-rotate(190deg) brightness(120%) contrast(92%);
+        filter:brightness(0) saturate(100%) invert(73%) sepia(80%) saturate(1008%) hue-rotate(190deg) brightness(120%) contrast(92%);
       }
 
       html[data-theme="catppuccin-macchiato-yellow"] .styledButton {
@@ -2728,7 +2728,7 @@ class Mod extends shapez.Mod {
 
       /* Settings */
       html[data-theme="catppuccin-macchiato-yellow"] .gameState.textualState .headerBar .backButton {
-      filter:brightness(0) saturate(100%) invert(73%) sepia(80%) saturate(1008%) hue-rotate(190deg) brightness(120%) contrast(92%);
+        filter:brightness(0) saturate(100%) invert(73%) sepia(80%) saturate(1008%) hue-rotate(190deg) brightness(120%) contrast(92%);
       }
       html[data-theme="catppuccin-macchiato-yellow"] .gameState.textualState .headerBar h1 {
         color: #cad3f5;
@@ -2985,7 +2985,7 @@ class Mod extends shapez.Mod {
       }
 
       html[data-theme="catppuccin-macchiato-green"] #state_MainMenuState .footer .author a img {
-      filter:brightness(0) saturate(100%) invert(73%) sepia(80%) saturate(1008%) hue-rotate(190deg) brightness(120%) contrast(92%);
+        filter:brightness(0) saturate(100%) invert(73%) sepia(80%) saturate(1008%) hue-rotate(190deg) brightness(120%) contrast(92%);
       }
 
       html[data-theme="catppuccin-macchiato-green"] .styledButton {
@@ -3077,7 +3077,7 @@ class Mod extends shapez.Mod {
 
       /* Settings */
       html[data-theme="catppuccin-macchiato-green"] .gameState.textualState .headerBar .backButton {
-      filter:brightness(0) saturate(100%) invert(73%) sepia(80%) saturate(1008%) hue-rotate(190deg) brightness(120%) contrast(92%);
+        filter:brightness(0) saturate(100%) invert(73%) sepia(80%) saturate(1008%) hue-rotate(190deg) brightness(120%) contrast(92%);
       }
       html[data-theme="catppuccin-macchiato-green"] .gameState.textualState .headerBar h1 {
         color: #cad3f5;
@@ -3334,7 +3334,7 @@ class Mod extends shapez.Mod {
       }
 
       html[data-theme="catppuccin-macchiato-teal"] #state_MainMenuState .footer .author a img {
-      filter:brightness(0) saturate(100%) invert(73%) sepia(80%) saturate(1008%) hue-rotate(190deg) brightness(120%) contrast(92%);
+        filter:brightness(0) saturate(100%) invert(73%) sepia(80%) saturate(1008%) hue-rotate(190deg) brightness(120%) contrast(92%);
       }
 
       html[data-theme="catppuccin-macchiato-teal"] .styledButton {
@@ -3426,7 +3426,7 @@ class Mod extends shapez.Mod {
 
       /* Settings */
       html[data-theme="catppuccin-macchiato-teal"] .gameState.textualState .headerBar .backButton {
-      filter:brightness(0) saturate(100%) invert(73%) sepia(80%) saturate(1008%) hue-rotate(190deg) brightness(120%) contrast(92%);
+        filter:brightness(0) saturate(100%) invert(73%) sepia(80%) saturate(1008%) hue-rotate(190deg) brightness(120%) contrast(92%);
       }
       html[data-theme="catppuccin-macchiato-teal"] .gameState.textualState .headerBar h1 {
         color: #cad3f5;
@@ -3683,7 +3683,7 @@ class Mod extends shapez.Mod {
       }
 
       html[data-theme="catppuccin-macchiato-sky"] #state_MainMenuState .footer .author a img {
-      filter:brightness(0) saturate(100%) invert(73%) sepia(80%) saturate(1008%) hue-rotate(190deg) brightness(120%) contrast(92%);
+        filter:brightness(0) saturate(100%) invert(73%) sepia(80%) saturate(1008%) hue-rotate(190deg) brightness(120%) contrast(92%);
       }
 
       html[data-theme="catppuccin-macchiato-sky"] .styledButton {
@@ -3775,7 +3775,7 @@ class Mod extends shapez.Mod {
 
       /* Settings */
       html[data-theme="catppuccin-macchiato-sky"] .gameState.textualState .headerBar .backButton {
-      filter:brightness(0) saturate(100%) invert(73%) sepia(80%) saturate(1008%) hue-rotate(190deg) brightness(120%) contrast(92%);
+        filter:brightness(0) saturate(100%) invert(73%) sepia(80%) saturate(1008%) hue-rotate(190deg) brightness(120%) contrast(92%);
       }
       html[data-theme="catppuccin-macchiato-sky"] .gameState.textualState .headerBar h1 {
         color: #cad3f5;
@@ -4032,7 +4032,7 @@ class Mod extends shapez.Mod {
       }
 
       html[data-theme="catppuccin-macchiato-sapphire"] #state_MainMenuState .footer .author a img {
-      filter:brightness(0) saturate(100%) invert(73%) sepia(80%) saturate(1008%) hue-rotate(190deg) brightness(120%) contrast(92%);
+        filter:brightness(0) saturate(100%) invert(73%) sepia(80%) saturate(1008%) hue-rotate(190deg) brightness(120%) contrast(92%);
       }
 
       html[data-theme="catppuccin-macchiato-sapphire"] .styledButton {
@@ -4124,7 +4124,7 @@ class Mod extends shapez.Mod {
 
       /* Settings */
       html[data-theme="catppuccin-macchiato-sapphire"] .gameState.textualState .headerBar .backButton {
-      filter:brightness(0) saturate(100%) invert(73%) sepia(80%) saturate(1008%) hue-rotate(190deg) brightness(120%) contrast(92%);
+        filter:brightness(0) saturate(100%) invert(73%) sepia(80%) saturate(1008%) hue-rotate(190deg) brightness(120%) contrast(92%);
       }
       html[data-theme="catppuccin-macchiato-sapphire"] .gameState.textualState .headerBar h1 {
         color: #cad3f5;
@@ -4381,7 +4381,7 @@ class Mod extends shapez.Mod {
       }
 
       html[data-theme="catppuccin-macchiato-blue"] #state_MainMenuState .footer .author a img {
-      filter:brightness(0) saturate(100%) invert(73%) sepia(80%) saturate(1008%) hue-rotate(190deg) brightness(120%) contrast(92%);
+        filter:brightness(0) saturate(100%) invert(73%) sepia(80%) saturate(1008%) hue-rotate(190deg) brightness(120%) contrast(92%);
       }
 
       html[data-theme="catppuccin-macchiato-blue"] .styledButton {
@@ -4473,7 +4473,7 @@ class Mod extends shapez.Mod {
 
       /* Settings */
       html[data-theme="catppuccin-macchiato-blue"] .gameState.textualState .headerBar .backButton {
-      filter:brightness(0) saturate(100%) invert(73%) sepia(80%) saturate(1008%) hue-rotate(190deg) brightness(120%) contrast(92%);
+        filter:brightness(0) saturate(100%) invert(73%) sepia(80%) saturate(1008%) hue-rotate(190deg) brightness(120%) contrast(92%);
       }
       html[data-theme="catppuccin-macchiato-blue"] .gameState.textualState .headerBar h1 {
         color: #cad3f5;
@@ -4730,7 +4730,7 @@ class Mod extends shapez.Mod {
       }
 
       html[data-theme="catppuccin-macchiato-lavender"] #state_MainMenuState .footer .author a img {
-      filter:brightness(0) saturate(100%) invert(73%) sepia(80%) saturate(1008%) hue-rotate(190deg) brightness(120%) contrast(92%);
+        filter:brightness(0) saturate(100%) invert(73%) sepia(80%) saturate(1008%) hue-rotate(190deg) brightness(120%) contrast(92%);
       }
 
       html[data-theme="catppuccin-macchiato-lavender"] .styledButton {
@@ -4822,7 +4822,7 @@ class Mod extends shapez.Mod {
 
       /* Settings */
       html[data-theme="catppuccin-macchiato-lavender"] .gameState.textualState .headerBar .backButton {
-      filter:brightness(0) saturate(100%) invert(73%) sepia(80%) saturate(1008%) hue-rotate(190deg) brightness(120%) contrast(92%);
+        filter:brightness(0) saturate(100%) invert(73%) sepia(80%) saturate(1008%) hue-rotate(190deg) brightness(120%) contrast(92%);
       }
       html[data-theme="catppuccin-macchiato-lavender"] .gameState.textualState .headerBar h1 {
         color: #cad3f5;
