@@ -156,6 +156,10 @@ class Mod extends shapez.Mod {
         color: #{{ flavor.colors.text.hex }};
       }
 
+      html[data-theme="catppuccin-{{ id }}"] #state_MainMenuState .footer .author a img {
+      filter: {%- if id == "latte" -%}brightness(0) saturate(100%) invert(43%) sepia(43%) saturate(515%) hue-rotate(196deg) brightness(49%) contrast(68%){%- elif id == "frappe" -%}brightness(0) saturate(100%) invert(83%) sepia(29%) saturate(508%) hue-rotate(192deg) brightness(97%) contrast(98%){%- elif id == "macchiato" -%}brightness(0) saturate(100%) invert(73%) sepia(80%) saturate(1008%) hue-rotate(190deg) brightness(120%) contrast(92%){%- elif id == "mocha" -%}brightness(0) saturate(100%) invert(75%) sepia(82%) saturate(1008%) hue-rotate(189deg) brightness(120%) contrast(90%){%- endif -%};
+      }
+
       html[data-theme="catppuccin-{{ id }}"] .styledButton {
         color: #{{ flavor.colors.base.hex }};
         background-color: #{{ flavor.colors.blue.hex }};

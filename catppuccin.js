@@ -146,6 +146,10 @@ class Mod extends shapez.Mod {
         color: #4c4f69;
       }
 
+      html[data-theme="catppuccin-latte"] #state_MainMenuState .footer .author a img {
+      filter:brightness(0) saturate(100%) invert(43%) sepia(43%) saturate(515%) hue-rotate(196deg) brightness(49%) contrast(68%);
+      }
+
       html[data-theme="catppuccin-latte"] .styledButton {
         color: #eff1f5;
         background-color: #1e66f5;
@@ -355,6 +359,10 @@ class Mod extends shapez.Mod {
 
       html[data-theme="catppuccin-frappe"] #state_MainMenuState .footer .footerGrow>a {
         color: #c6d0f5;
+      }
+
+      html[data-theme="catppuccin-frappe"] #state_MainMenuState .footer .author a img {
+      filter:brightness(0) saturate(100%) invert(83%) sepia(29%) saturate(508%) hue-rotate(192deg) brightness(97%) contrast(98%);
       }
 
       html[data-theme="catppuccin-frappe"] .styledButton {
@@ -568,6 +576,10 @@ class Mod extends shapez.Mod {
         color: #cad3f5;
       }
 
+      html[data-theme="catppuccin-macchiato"] #state_MainMenuState .footer .author a img {
+      filter:brightness(0) saturate(100%) invert(73%) sepia(80%) saturate(1008%) hue-rotate(190deg) brightness(120%) contrast(92%);
+      }
+
       html[data-theme="catppuccin-macchiato"] .styledButton {
         color: #24273a;
         background-color: #8aadf4;
@@ -777,6 +789,10 @@ class Mod extends shapez.Mod {
 
       html[data-theme="catppuccin-mocha"] #state_MainMenuState .footer .footerGrow>a {
         color: #cdd6f4;
+      }
+
+      html[data-theme="catppuccin-mocha"] #state_MainMenuState .footer .author a img {
+      filter:brightness(0) saturate(100%) invert(75%) sepia(82%) saturate(1008%) hue-rotate(189deg) brightness(120%) contrast(90%);
       }
 
       html[data-theme="catppuccin-mocha"] .styledButton {
