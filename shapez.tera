@@ -566,6 +566,12 @@ class Mod extends shapez.Mod {
       html[data-theme="catppuccin-{{ flavor.identifier }}-{{ accent.identifier }}"] #ingame_HUD_TutorialHints .header>span:before  {
         filter: {%- if flavor.identifier == "latte" -%}brightness(0) saturate(100%) invert(43%) sepia(43%) saturate(515%) hue-rotate(196deg) brightness(49%) contrast(68%){%- elif flavor.identifier == "frappe" -%}brightness(0) saturate(100%) invert(83%) sepia(29%) saturate(508%) hue-rotate(192deg) brightness(97%) contrast(98%){%- elif flavor.identifier == "macchiato" -%}brightness(0) saturate(100%) invert(73%) sepia(80%) saturate(1008%) hue-rotate(190deg) brightness(120%) contrast(92%){%- elif flavor.identifier == "mocha" -%}brightness(0) saturate(100%) invert(75%) sepia(82%) saturate(1008%) hue-rotate(189deg) brightness(120%) contrast(90%){%- endif -%};
       }
+      html[data-theme="catppuccin-{{ flavor.identifier }}-{{ accent.identifier }}"] #ingame_HUD_TutorialHints.enlarged {
+        background-color: #{{ text | mod(opacity=0.9) | hex }};
+      }
+      html[data-theme="catppuccin-{{ flavor.identifier }}-{{ accent.identifier }}"] #ingame_HUD_TutorialHints.enlarged:before {
+        background-color: #{{ surface0 | mod(opacity=0.8) | hex }};
+      }
       /* Notifications */
       html[data-theme="catppuccin-{{ flavor.identifier }}-{{ accent.identifier }}"] #ingame_HUD_Notifications .notification {
         color: #{{ text.hex }};

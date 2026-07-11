@@ -552,6 +552,12 @@ class Mod extends shapez.Mod {
       html[data-theme="catppuccin-mocha-rosewater"] #ingame_HUD_TutorialHints .header>span:before  {
         filter:brightness(0) saturate(100%) invert(75%) sepia(82%) saturate(1008%) hue-rotate(189deg) brightness(120%) contrast(90%);
       }
+      html[data-theme="catppuccin-mocha-rosewater"] #ingame_HUD_TutorialHints.enlarged {
+        background-color: #cdd6f4e6;
+      }
+      html[data-theme="catppuccin-mocha-rosewater"] #ingame_HUD_TutorialHints.enlarged:before {
+        background-color: #313244cc;
+      }
       /* Notifications */
       html[data-theme="catppuccin-mocha-rosewater"] #ingame_HUD_Notifications .notification {
         color: #cdd6f4;
@@ -1103,6 +1109,12 @@ class Mod extends shapez.Mod {
       }
       html[data-theme="catppuccin-mocha-flamingo"] #ingame_HUD_TutorialHints .header>span:before  {
         filter:brightness(0) saturate(100%) invert(75%) sepia(82%) saturate(1008%) hue-rotate(189deg) brightness(120%) contrast(90%);
+      }
+      html[data-theme="catppuccin-mocha-flamingo"] #ingame_HUD_TutorialHints.enlarged {
+        background-color: #cdd6f4e6;
+      }
+      html[data-theme="catppuccin-mocha-flamingo"] #ingame_HUD_TutorialHints.enlarged:before {
+        background-color: #313244cc;
       }
       /* Notifications */
       html[data-theme="catppuccin-mocha-flamingo"] #ingame_HUD_Notifications .notification {
@@ -1656,6 +1668,12 @@ class Mod extends shapez.Mod {
       html[data-theme="catppuccin-mocha-pink"] #ingame_HUD_TutorialHints .header>span:before  {
         filter:brightness(0) saturate(100%) invert(75%) sepia(82%) saturate(1008%) hue-rotate(189deg) brightness(120%) contrast(90%);
       }
+      html[data-theme="catppuccin-mocha-pink"] #ingame_HUD_TutorialHints.enlarged {
+        background-color: #cdd6f4e6;
+      }
+      html[data-theme="catppuccin-mocha-pink"] #ingame_HUD_TutorialHints.enlarged:before {
+        background-color: #313244cc;
+      }
       /* Notifications */
       html[data-theme="catppuccin-mocha-pink"] #ingame_HUD_Notifications .notification {
         color: #cdd6f4;
@@ -2207,6 +2225,12 @@ class Mod extends shapez.Mod {
       }
       html[data-theme="catppuccin-mocha-mauve"] #ingame_HUD_TutorialHints .header>span:before  {
         filter:brightness(0) saturate(100%) invert(75%) sepia(82%) saturate(1008%) hue-rotate(189deg) brightness(120%) contrast(90%);
+      }
+      html[data-theme="catppuccin-mocha-mauve"] #ingame_HUD_TutorialHints.enlarged {
+        background-color: #cdd6f4e6;
+      }
+      html[data-theme="catppuccin-mocha-mauve"] #ingame_HUD_TutorialHints.enlarged:before {
+        background-color: #313244cc;
       }
       /* Notifications */
       html[data-theme="catppuccin-mocha-mauve"] #ingame_HUD_Notifications .notification {
@@ -2760,6 +2784,12 @@ class Mod extends shapez.Mod {
       html[data-theme="catppuccin-mocha-red"] #ingame_HUD_TutorialHints .header>span:before  {
         filter:brightness(0) saturate(100%) invert(75%) sepia(82%) saturate(1008%) hue-rotate(189deg) brightness(120%) contrast(90%);
       }
+      html[data-theme="catppuccin-mocha-red"] #ingame_HUD_TutorialHints.enlarged {
+        background-color: #cdd6f4e6;
+      }
+      html[data-theme="catppuccin-mocha-red"] #ingame_HUD_TutorialHints.enlarged:before {
+        background-color: #313244cc;
+      }
       /* Notifications */
       html[data-theme="catppuccin-mocha-red"] #ingame_HUD_Notifications .notification {
         color: #cdd6f4;
@@ -3311,6 +3341,12 @@ class Mod extends shapez.Mod {
       }
       html[data-theme="catppuccin-mocha-maroon"] #ingame_HUD_TutorialHints .header>span:before  {
         filter:brightness(0) saturate(100%) invert(75%) sepia(82%) saturate(1008%) hue-rotate(189deg) brightness(120%) contrast(90%);
+      }
+      html[data-theme="catppuccin-mocha-maroon"] #ingame_HUD_TutorialHints.enlarged {
+        background-color: #cdd6f4e6;
+      }
+      html[data-theme="catppuccin-mocha-maroon"] #ingame_HUD_TutorialHints.enlarged:before {
+        background-color: #313244cc;
       }
       /* Notifications */
       html[data-theme="catppuccin-mocha-maroon"] #ingame_HUD_Notifications .notification {
@@ -3864,6 +3900,12 @@ class Mod extends shapez.Mod {
       html[data-theme="catppuccin-mocha-peach"] #ingame_HUD_TutorialHints .header>span:before  {
         filter:brightness(0) saturate(100%) invert(75%) sepia(82%) saturate(1008%) hue-rotate(189deg) brightness(120%) contrast(90%);
       }
+      html[data-theme="catppuccin-mocha-peach"] #ingame_HUD_TutorialHints.enlarged {
+        background-color: #cdd6f4e6;
+      }
+      html[data-theme="catppuccin-mocha-peach"] #ingame_HUD_TutorialHints.enlarged:before {
+        background-color: #313244cc;
+      }
       /* Notifications */
       html[data-theme="catppuccin-mocha-peach"] #ingame_HUD_Notifications .notification {
         color: #cdd6f4;
@@ -4415,6 +4457,12 @@ class Mod extends shapez.Mod {
       }
       html[data-theme="catppuccin-mocha-yellow"] #ingame_HUD_TutorialHints .header>span:before  {
         filter:brightness(0) saturate(100%) invert(75%) sepia(82%) saturate(1008%) hue-rotate(189deg) brightness(120%) contrast(90%);
+      }
+      html[data-theme="catppuccin-mocha-yellow"] #ingame_HUD_TutorialHints.enlarged {
+        background-color: #cdd6f4e6;
+      }
+      html[data-theme="catppuccin-mocha-yellow"] #ingame_HUD_TutorialHints.enlarged:before {
+        background-color: #313244cc;
       }
       /* Notifications */
       html[data-theme="catppuccin-mocha-yellow"] #ingame_HUD_Notifications .notification {
@@ -4968,6 +5016,12 @@ class Mod extends shapez.Mod {
       html[data-theme="catppuccin-mocha-green"] #ingame_HUD_TutorialHints .header>span:before  {
         filter:brightness(0) saturate(100%) invert(75%) sepia(82%) saturate(1008%) hue-rotate(189deg) brightness(120%) contrast(90%);
       }
+      html[data-theme="catppuccin-mocha-green"] #ingame_HUD_TutorialHints.enlarged {
+        background-color: #cdd6f4e6;
+      }
+      html[data-theme="catppuccin-mocha-green"] #ingame_HUD_TutorialHints.enlarged:before {
+        background-color: #313244cc;
+      }
       /* Notifications */
       html[data-theme="catppuccin-mocha-green"] #ingame_HUD_Notifications .notification {
         color: #cdd6f4;
@@ -5519,6 +5573,12 @@ class Mod extends shapez.Mod {
       }
       html[data-theme="catppuccin-mocha-teal"] #ingame_HUD_TutorialHints .header>span:before  {
         filter:brightness(0) saturate(100%) invert(75%) sepia(82%) saturate(1008%) hue-rotate(189deg) brightness(120%) contrast(90%);
+      }
+      html[data-theme="catppuccin-mocha-teal"] #ingame_HUD_TutorialHints.enlarged {
+        background-color: #cdd6f4e6;
+      }
+      html[data-theme="catppuccin-mocha-teal"] #ingame_HUD_TutorialHints.enlarged:before {
+        background-color: #313244cc;
       }
       /* Notifications */
       html[data-theme="catppuccin-mocha-teal"] #ingame_HUD_Notifications .notification {
@@ -6072,6 +6132,12 @@ class Mod extends shapez.Mod {
       html[data-theme="catppuccin-mocha-sky"] #ingame_HUD_TutorialHints .header>span:before  {
         filter:brightness(0) saturate(100%) invert(75%) sepia(82%) saturate(1008%) hue-rotate(189deg) brightness(120%) contrast(90%);
       }
+      html[data-theme="catppuccin-mocha-sky"] #ingame_HUD_TutorialHints.enlarged {
+        background-color: #cdd6f4e6;
+      }
+      html[data-theme="catppuccin-mocha-sky"] #ingame_HUD_TutorialHints.enlarged:before {
+        background-color: #313244cc;
+      }
       /* Notifications */
       html[data-theme="catppuccin-mocha-sky"] #ingame_HUD_Notifications .notification {
         color: #cdd6f4;
@@ -6623,6 +6689,12 @@ class Mod extends shapez.Mod {
       }
       html[data-theme="catppuccin-mocha-sapphire"] #ingame_HUD_TutorialHints .header>span:before  {
         filter:brightness(0) saturate(100%) invert(75%) sepia(82%) saturate(1008%) hue-rotate(189deg) brightness(120%) contrast(90%);
+      }
+      html[data-theme="catppuccin-mocha-sapphire"] #ingame_HUD_TutorialHints.enlarged {
+        background-color: #cdd6f4e6;
+      }
+      html[data-theme="catppuccin-mocha-sapphire"] #ingame_HUD_TutorialHints.enlarged:before {
+        background-color: #313244cc;
       }
       /* Notifications */
       html[data-theme="catppuccin-mocha-sapphire"] #ingame_HUD_Notifications .notification {
@@ -7176,6 +7248,12 @@ class Mod extends shapez.Mod {
       html[data-theme="catppuccin-mocha-blue"] #ingame_HUD_TutorialHints .header>span:before  {
         filter:brightness(0) saturate(100%) invert(75%) sepia(82%) saturate(1008%) hue-rotate(189deg) brightness(120%) contrast(90%);
       }
+      html[data-theme="catppuccin-mocha-blue"] #ingame_HUD_TutorialHints.enlarged {
+        background-color: #cdd6f4e6;
+      }
+      html[data-theme="catppuccin-mocha-blue"] #ingame_HUD_TutorialHints.enlarged:before {
+        background-color: #313244cc;
+      }
       /* Notifications */
       html[data-theme="catppuccin-mocha-blue"] #ingame_HUD_Notifications .notification {
         color: #cdd6f4;
@@ -7727,6 +7805,12 @@ class Mod extends shapez.Mod {
       }
       html[data-theme="catppuccin-mocha-lavender"] #ingame_HUD_TutorialHints .header>span:before  {
         filter:brightness(0) saturate(100%) invert(75%) sepia(82%) saturate(1008%) hue-rotate(189deg) brightness(120%) contrast(90%);
+      }
+      html[data-theme="catppuccin-mocha-lavender"] #ingame_HUD_TutorialHints.enlarged {
+        background-color: #cdd6f4e6;
+      }
+      html[data-theme="catppuccin-mocha-lavender"] #ingame_HUD_TutorialHints.enlarged:before {
+        background-color: #313244cc;
       }
       /* Notifications */
       html[data-theme="catppuccin-mocha-lavender"] #ingame_HUD_Notifications .notification {
