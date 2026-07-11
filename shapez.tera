@@ -5,6 +5,7 @@ whiskers:
     - flavor
     - accent
   filename: "themes/catppuccin-{{ flavor.identifier }}.js"
+  hex_format: "#{{r}}{{g}}{{b}}{{z}}"
 ---
 // @ts-nocheck
 const METADATA = {
@@ -40,7 +41,7 @@ const RESOURCES = {
   {%- if accent.accent %}
   "catppuccin-{{ flavor.identifier }}-{{ accent.identifier }}.json": {
     "map": {
-      "background": "#{{ base.hex }}",
+      "background": "{{ base.hex }}",
       "gridRegular": "{{ css_rgba(color=surface0 | mod(opacity=0.2)) }}",
       "gridPlacing": "rgba(255, 255, 255, 0.06)",
 
@@ -72,16 +73,16 @@ const RESOURCES = {
       "colorBlindPickerTile": "rgba(255, 255, 255, 0.5)",
 
       "resources": {
-        "shape": "#{{ surface2.hex }}",
-        "red": "#{{ red.hex }}",
-        "green": "#{{ green.hex }}",
-        "blue": "#{{ blue.hex }}"
+        "shape": "{{ surface2.hex }}",
+        "red": "{{ red.hex }}",
+        "green": "{{ green.hex }}",
+        "blue": "{{ blue.hex }}"
       },
 
       "chunkOverview": {
-        "empty": "#{{ base.hex }}",
-        "filled": "#{{ surface0.hex }}",
-        "beltColor": "#{{ overlay1.hex }}"
+        "empty": "{{ base.hex }}",
+        "filled": "{{ surface0.hex }}",
+        "beltColor": "{{ overlay1.hex }}"
       },
 
       "wires": {
@@ -92,8 +93,8 @@ const RESOURCES = {
 
       "connectedMiners": {
         "overlay": "{{ css_rgba(color=surface0 | mod(opacity=0.5)) }}",
-        "textColor": "#{{ text.hex }}",
-        "textColorCapped": "#{{ red.hex }}",
+        "textColor": "{{ text.hex }}",
+        "textColorCapped": "{{ red.hex }}",
         "background": "{{ css_rgba(color=surface0 | mod(opacity=0.9)) }}"
       },
 
