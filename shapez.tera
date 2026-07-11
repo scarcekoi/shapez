@@ -520,6 +520,9 @@ class Mod extends shapez.Mod {
       html[data-theme="catppuccin-{{ flavor.identifier }}-{{ accent.identifier }}"] #ingame_HUD_Shop .content .upgrade .requirements .requirement .amount label.complete + label {
         color: #{{ base.hex }};
       }
+      html[data-theme="catppuccin-{{ flavor.identifier }}-{{ accent.identifier }}"] #ingame_HUD_Shop .content .upgrade .requirements .requirement .amount .progressBar {
+        background-color: #{{ surface0.hex }};
+      }
       html[data-theme="catppuccin-{{ flavor.identifier }}-{{ accent.identifier }}"] #ingame_HUD_Shop .content .upgrade .requirements .requirement .amount .progressBar.complete {
         background-color: #{{ green.hex }};
       }
@@ -597,6 +600,13 @@ class Mod extends shapez.Mod {
       html[data-theme="catppuccin-{{ flavor.identifier }}-{{ accent.identifier }}"] #ingame_HUD_PlacementHints .additionalInfo label,
       html[data-theme="catppuccin-{{ flavor.identifier }}-{{ accent.identifier }}"] #ingame_HUD_PlacementHints .hotkey  {
         color: #{{ green.hex }};
+      }
+      /* Toolbar */
+      html[data-theme="catppuccin-{{ flavor.identifier }}-{{ accent.identifier }}"] .ingame_buildingsToolbar .buildings {
+        background-color: #{{ surface0 | mod(opacity=0.3) | hex }};
+      }
+      html[data-theme="catppuccin-{{ flavor.identifier }}-{{ accent.identifier }}"] .ingame_buildingsToolbar .buildings .building.unlocked .icon:hover {
+        background-color: #{{ base | mod(opacity=0.4) | hex }};
       }
     `)
     {%- endif %}{%- endfor %}

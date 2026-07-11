@@ -506,6 +506,9 @@ class Mod extends shapez.Mod {
       html[data-theme="catppuccin-macchiato-rosewater"] #ingame_HUD_Shop .content .upgrade .requirements .requirement .amount label.complete + label {
         color: #24273a;
       }
+      html[data-theme="catppuccin-macchiato-rosewater"] #ingame_HUD_Shop .content .upgrade .requirements .requirement .amount .progressBar {
+        background-color: #363a4f;
+      }
       html[data-theme="catppuccin-macchiato-rosewater"] #ingame_HUD_Shop .content .upgrade .requirements .requirement .amount .progressBar.complete {
         background-color: #a6da95;
       }
@@ -583,6 +586,13 @@ class Mod extends shapez.Mod {
       html[data-theme="catppuccin-macchiato-rosewater"] #ingame_HUD_PlacementHints .additionalInfo label,
       html[data-theme="catppuccin-macchiato-rosewater"] #ingame_HUD_PlacementHints .hotkey  {
         color: #a6da95;
+      }
+      /* Toolbar */
+      html[data-theme="catppuccin-macchiato-rosewater"] .ingame_buildingsToolbar .buildings {
+        background-color: #363a4f4d;
+      }
+      html[data-theme="catppuccin-macchiato-rosewater"] .ingame_buildingsToolbar .buildings .building.unlocked .icon:hover {
+        background-color: #24273a66;
       }
     `)
     this.modInterface.registerGameTheme({
@@ -1078,6 +1088,9 @@ class Mod extends shapez.Mod {
       html[data-theme="catppuccin-macchiato-flamingo"] #ingame_HUD_Shop .content .upgrade .requirements .requirement .amount label.complete + label {
         color: #24273a;
       }
+      html[data-theme="catppuccin-macchiato-flamingo"] #ingame_HUD_Shop .content .upgrade .requirements .requirement .amount .progressBar {
+        background-color: #363a4f;
+      }
       html[data-theme="catppuccin-macchiato-flamingo"] #ingame_HUD_Shop .content .upgrade .requirements .requirement .amount .progressBar.complete {
         background-color: #a6da95;
       }
@@ -1155,6 +1168,13 @@ class Mod extends shapez.Mod {
       html[data-theme="catppuccin-macchiato-flamingo"] #ingame_HUD_PlacementHints .additionalInfo label,
       html[data-theme="catppuccin-macchiato-flamingo"] #ingame_HUD_PlacementHints .hotkey  {
         color: #a6da95;
+      }
+      /* Toolbar */
+      html[data-theme="catppuccin-macchiato-flamingo"] .ingame_buildingsToolbar .buildings {
+        background-color: #363a4f4d;
+      }
+      html[data-theme="catppuccin-macchiato-flamingo"] .ingame_buildingsToolbar .buildings .building.unlocked .icon:hover {
+        background-color: #24273a66;
       }
     `)
     this.modInterface.registerGameTheme({
@@ -1650,6 +1670,9 @@ class Mod extends shapez.Mod {
       html[data-theme="catppuccin-macchiato-pink"] #ingame_HUD_Shop .content .upgrade .requirements .requirement .amount label.complete + label {
         color: #24273a;
       }
+      html[data-theme="catppuccin-macchiato-pink"] #ingame_HUD_Shop .content .upgrade .requirements .requirement .amount .progressBar {
+        background-color: #363a4f;
+      }
       html[data-theme="catppuccin-macchiato-pink"] #ingame_HUD_Shop .content .upgrade .requirements .requirement .amount .progressBar.complete {
         background-color: #a6da95;
       }
@@ -1727,6 +1750,13 @@ class Mod extends shapez.Mod {
       html[data-theme="catppuccin-macchiato-pink"] #ingame_HUD_PlacementHints .additionalInfo label,
       html[data-theme="catppuccin-macchiato-pink"] #ingame_HUD_PlacementHints .hotkey  {
         color: #a6da95;
+      }
+      /* Toolbar */
+      html[data-theme="catppuccin-macchiato-pink"] .ingame_buildingsToolbar .buildings {
+        background-color: #363a4f4d;
+      }
+      html[data-theme="catppuccin-macchiato-pink"] .ingame_buildingsToolbar .buildings .building.unlocked .icon:hover {
+        background-color: #24273a66;
       }
     `)
     this.modInterface.registerGameTheme({
@@ -2222,6 +2252,9 @@ class Mod extends shapez.Mod {
       html[data-theme="catppuccin-macchiato-mauve"] #ingame_HUD_Shop .content .upgrade .requirements .requirement .amount label.complete + label {
         color: #24273a;
       }
+      html[data-theme="catppuccin-macchiato-mauve"] #ingame_HUD_Shop .content .upgrade .requirements .requirement .amount .progressBar {
+        background-color: #363a4f;
+      }
       html[data-theme="catppuccin-macchiato-mauve"] #ingame_HUD_Shop .content .upgrade .requirements .requirement .amount .progressBar.complete {
         background-color: #a6da95;
       }
@@ -2299,6 +2332,13 @@ class Mod extends shapez.Mod {
       html[data-theme="catppuccin-macchiato-mauve"] #ingame_HUD_PlacementHints .additionalInfo label,
       html[data-theme="catppuccin-macchiato-mauve"] #ingame_HUD_PlacementHints .hotkey  {
         color: #a6da95;
+      }
+      /* Toolbar */
+      html[data-theme="catppuccin-macchiato-mauve"] .ingame_buildingsToolbar .buildings {
+        background-color: #363a4f4d;
+      }
+      html[data-theme="catppuccin-macchiato-mauve"] .ingame_buildingsToolbar .buildings .building.unlocked .icon:hover {
+        background-color: #24273a66;
       }
     `)
     this.modInterface.registerGameTheme({
@@ -2794,6 +2834,9 @@ class Mod extends shapez.Mod {
       html[data-theme="catppuccin-macchiato-red"] #ingame_HUD_Shop .content .upgrade .requirements .requirement .amount label.complete + label {
         color: #24273a;
       }
+      html[data-theme="catppuccin-macchiato-red"] #ingame_HUD_Shop .content .upgrade .requirements .requirement .amount .progressBar {
+        background-color: #363a4f;
+      }
       html[data-theme="catppuccin-macchiato-red"] #ingame_HUD_Shop .content .upgrade .requirements .requirement .amount .progressBar.complete {
         background-color: #a6da95;
       }
@@ -2871,6 +2914,13 @@ class Mod extends shapez.Mod {
       html[data-theme="catppuccin-macchiato-red"] #ingame_HUD_PlacementHints .additionalInfo label,
       html[data-theme="catppuccin-macchiato-red"] #ingame_HUD_PlacementHints .hotkey  {
         color: #a6da95;
+      }
+      /* Toolbar */
+      html[data-theme="catppuccin-macchiato-red"] .ingame_buildingsToolbar .buildings {
+        background-color: #363a4f4d;
+      }
+      html[data-theme="catppuccin-macchiato-red"] .ingame_buildingsToolbar .buildings .building.unlocked .icon:hover {
+        background-color: #24273a66;
       }
     `)
     this.modInterface.registerGameTheme({
@@ -3366,6 +3416,9 @@ class Mod extends shapez.Mod {
       html[data-theme="catppuccin-macchiato-maroon"] #ingame_HUD_Shop .content .upgrade .requirements .requirement .amount label.complete + label {
         color: #24273a;
       }
+      html[data-theme="catppuccin-macchiato-maroon"] #ingame_HUD_Shop .content .upgrade .requirements .requirement .amount .progressBar {
+        background-color: #363a4f;
+      }
       html[data-theme="catppuccin-macchiato-maroon"] #ingame_HUD_Shop .content .upgrade .requirements .requirement .amount .progressBar.complete {
         background-color: #a6da95;
       }
@@ -3443,6 +3496,13 @@ class Mod extends shapez.Mod {
       html[data-theme="catppuccin-macchiato-maroon"] #ingame_HUD_PlacementHints .additionalInfo label,
       html[data-theme="catppuccin-macchiato-maroon"] #ingame_HUD_PlacementHints .hotkey  {
         color: #a6da95;
+      }
+      /* Toolbar */
+      html[data-theme="catppuccin-macchiato-maroon"] .ingame_buildingsToolbar .buildings {
+        background-color: #363a4f4d;
+      }
+      html[data-theme="catppuccin-macchiato-maroon"] .ingame_buildingsToolbar .buildings .building.unlocked .icon:hover {
+        background-color: #24273a66;
       }
     `)
     this.modInterface.registerGameTheme({
@@ -3938,6 +3998,9 @@ class Mod extends shapez.Mod {
       html[data-theme="catppuccin-macchiato-peach"] #ingame_HUD_Shop .content .upgrade .requirements .requirement .amount label.complete + label {
         color: #24273a;
       }
+      html[data-theme="catppuccin-macchiato-peach"] #ingame_HUD_Shop .content .upgrade .requirements .requirement .amount .progressBar {
+        background-color: #363a4f;
+      }
       html[data-theme="catppuccin-macchiato-peach"] #ingame_HUD_Shop .content .upgrade .requirements .requirement .amount .progressBar.complete {
         background-color: #a6da95;
       }
@@ -4015,6 +4078,13 @@ class Mod extends shapez.Mod {
       html[data-theme="catppuccin-macchiato-peach"] #ingame_HUD_PlacementHints .additionalInfo label,
       html[data-theme="catppuccin-macchiato-peach"] #ingame_HUD_PlacementHints .hotkey  {
         color: #a6da95;
+      }
+      /* Toolbar */
+      html[data-theme="catppuccin-macchiato-peach"] .ingame_buildingsToolbar .buildings {
+        background-color: #363a4f4d;
+      }
+      html[data-theme="catppuccin-macchiato-peach"] .ingame_buildingsToolbar .buildings .building.unlocked .icon:hover {
+        background-color: #24273a66;
       }
     `)
     this.modInterface.registerGameTheme({
@@ -4510,6 +4580,9 @@ class Mod extends shapez.Mod {
       html[data-theme="catppuccin-macchiato-yellow"] #ingame_HUD_Shop .content .upgrade .requirements .requirement .amount label.complete + label {
         color: #24273a;
       }
+      html[data-theme="catppuccin-macchiato-yellow"] #ingame_HUD_Shop .content .upgrade .requirements .requirement .amount .progressBar {
+        background-color: #363a4f;
+      }
       html[data-theme="catppuccin-macchiato-yellow"] #ingame_HUD_Shop .content .upgrade .requirements .requirement .amount .progressBar.complete {
         background-color: #a6da95;
       }
@@ -4587,6 +4660,13 @@ class Mod extends shapez.Mod {
       html[data-theme="catppuccin-macchiato-yellow"] #ingame_HUD_PlacementHints .additionalInfo label,
       html[data-theme="catppuccin-macchiato-yellow"] #ingame_HUD_PlacementHints .hotkey  {
         color: #a6da95;
+      }
+      /* Toolbar */
+      html[data-theme="catppuccin-macchiato-yellow"] .ingame_buildingsToolbar .buildings {
+        background-color: #363a4f4d;
+      }
+      html[data-theme="catppuccin-macchiato-yellow"] .ingame_buildingsToolbar .buildings .building.unlocked .icon:hover {
+        background-color: #24273a66;
       }
     `)
     this.modInterface.registerGameTheme({
@@ -5082,6 +5162,9 @@ class Mod extends shapez.Mod {
       html[data-theme="catppuccin-macchiato-green"] #ingame_HUD_Shop .content .upgrade .requirements .requirement .amount label.complete + label {
         color: #24273a;
       }
+      html[data-theme="catppuccin-macchiato-green"] #ingame_HUD_Shop .content .upgrade .requirements .requirement .amount .progressBar {
+        background-color: #363a4f;
+      }
       html[data-theme="catppuccin-macchiato-green"] #ingame_HUD_Shop .content .upgrade .requirements .requirement .amount .progressBar.complete {
         background-color: #a6da95;
       }
@@ -5159,6 +5242,13 @@ class Mod extends shapez.Mod {
       html[data-theme="catppuccin-macchiato-green"] #ingame_HUD_PlacementHints .additionalInfo label,
       html[data-theme="catppuccin-macchiato-green"] #ingame_HUD_PlacementHints .hotkey  {
         color: #a6da95;
+      }
+      /* Toolbar */
+      html[data-theme="catppuccin-macchiato-green"] .ingame_buildingsToolbar .buildings {
+        background-color: #363a4f4d;
+      }
+      html[data-theme="catppuccin-macchiato-green"] .ingame_buildingsToolbar .buildings .building.unlocked .icon:hover {
+        background-color: #24273a66;
       }
     `)
     this.modInterface.registerGameTheme({
@@ -5654,6 +5744,9 @@ class Mod extends shapez.Mod {
       html[data-theme="catppuccin-macchiato-teal"] #ingame_HUD_Shop .content .upgrade .requirements .requirement .amount label.complete + label {
         color: #24273a;
       }
+      html[data-theme="catppuccin-macchiato-teal"] #ingame_HUD_Shop .content .upgrade .requirements .requirement .amount .progressBar {
+        background-color: #363a4f;
+      }
       html[data-theme="catppuccin-macchiato-teal"] #ingame_HUD_Shop .content .upgrade .requirements .requirement .amount .progressBar.complete {
         background-color: #a6da95;
       }
@@ -5731,6 +5824,13 @@ class Mod extends shapez.Mod {
       html[data-theme="catppuccin-macchiato-teal"] #ingame_HUD_PlacementHints .additionalInfo label,
       html[data-theme="catppuccin-macchiato-teal"] #ingame_HUD_PlacementHints .hotkey  {
         color: #a6da95;
+      }
+      /* Toolbar */
+      html[data-theme="catppuccin-macchiato-teal"] .ingame_buildingsToolbar .buildings {
+        background-color: #363a4f4d;
+      }
+      html[data-theme="catppuccin-macchiato-teal"] .ingame_buildingsToolbar .buildings .building.unlocked .icon:hover {
+        background-color: #24273a66;
       }
     `)
     this.modInterface.registerGameTheme({
@@ -6226,6 +6326,9 @@ class Mod extends shapez.Mod {
       html[data-theme="catppuccin-macchiato-sky"] #ingame_HUD_Shop .content .upgrade .requirements .requirement .amount label.complete + label {
         color: #24273a;
       }
+      html[data-theme="catppuccin-macchiato-sky"] #ingame_HUD_Shop .content .upgrade .requirements .requirement .amount .progressBar {
+        background-color: #363a4f;
+      }
       html[data-theme="catppuccin-macchiato-sky"] #ingame_HUD_Shop .content .upgrade .requirements .requirement .amount .progressBar.complete {
         background-color: #a6da95;
       }
@@ -6303,6 +6406,13 @@ class Mod extends shapez.Mod {
       html[data-theme="catppuccin-macchiato-sky"] #ingame_HUD_PlacementHints .additionalInfo label,
       html[data-theme="catppuccin-macchiato-sky"] #ingame_HUD_PlacementHints .hotkey  {
         color: #a6da95;
+      }
+      /* Toolbar */
+      html[data-theme="catppuccin-macchiato-sky"] .ingame_buildingsToolbar .buildings {
+        background-color: #363a4f4d;
+      }
+      html[data-theme="catppuccin-macchiato-sky"] .ingame_buildingsToolbar .buildings .building.unlocked .icon:hover {
+        background-color: #24273a66;
       }
     `)
     this.modInterface.registerGameTheme({
@@ -6798,6 +6908,9 @@ class Mod extends shapez.Mod {
       html[data-theme="catppuccin-macchiato-sapphire"] #ingame_HUD_Shop .content .upgrade .requirements .requirement .amount label.complete + label {
         color: #24273a;
       }
+      html[data-theme="catppuccin-macchiato-sapphire"] #ingame_HUD_Shop .content .upgrade .requirements .requirement .amount .progressBar {
+        background-color: #363a4f;
+      }
       html[data-theme="catppuccin-macchiato-sapphire"] #ingame_HUD_Shop .content .upgrade .requirements .requirement .amount .progressBar.complete {
         background-color: #a6da95;
       }
@@ -6875,6 +6988,13 @@ class Mod extends shapez.Mod {
       html[data-theme="catppuccin-macchiato-sapphire"] #ingame_HUD_PlacementHints .additionalInfo label,
       html[data-theme="catppuccin-macchiato-sapphire"] #ingame_HUD_PlacementHints .hotkey  {
         color: #a6da95;
+      }
+      /* Toolbar */
+      html[data-theme="catppuccin-macchiato-sapphire"] .ingame_buildingsToolbar .buildings {
+        background-color: #363a4f4d;
+      }
+      html[data-theme="catppuccin-macchiato-sapphire"] .ingame_buildingsToolbar .buildings .building.unlocked .icon:hover {
+        background-color: #24273a66;
       }
     `)
     this.modInterface.registerGameTheme({
@@ -7370,6 +7490,9 @@ class Mod extends shapez.Mod {
       html[data-theme="catppuccin-macchiato-blue"] #ingame_HUD_Shop .content .upgrade .requirements .requirement .amount label.complete + label {
         color: #24273a;
       }
+      html[data-theme="catppuccin-macchiato-blue"] #ingame_HUD_Shop .content .upgrade .requirements .requirement .amount .progressBar {
+        background-color: #363a4f;
+      }
       html[data-theme="catppuccin-macchiato-blue"] #ingame_HUD_Shop .content .upgrade .requirements .requirement .amount .progressBar.complete {
         background-color: #a6da95;
       }
@@ -7447,6 +7570,13 @@ class Mod extends shapez.Mod {
       html[data-theme="catppuccin-macchiato-blue"] #ingame_HUD_PlacementHints .additionalInfo label,
       html[data-theme="catppuccin-macchiato-blue"] #ingame_HUD_PlacementHints .hotkey  {
         color: #a6da95;
+      }
+      /* Toolbar */
+      html[data-theme="catppuccin-macchiato-blue"] .ingame_buildingsToolbar .buildings {
+        background-color: #363a4f4d;
+      }
+      html[data-theme="catppuccin-macchiato-blue"] .ingame_buildingsToolbar .buildings .building.unlocked .icon:hover {
+        background-color: #24273a66;
       }
     `)
     this.modInterface.registerGameTheme({
@@ -7942,6 +8072,9 @@ class Mod extends shapez.Mod {
       html[data-theme="catppuccin-macchiato-lavender"] #ingame_HUD_Shop .content .upgrade .requirements .requirement .amount label.complete + label {
         color: #24273a;
       }
+      html[data-theme="catppuccin-macchiato-lavender"] #ingame_HUD_Shop .content .upgrade .requirements .requirement .amount .progressBar {
+        background-color: #363a4f;
+      }
       html[data-theme="catppuccin-macchiato-lavender"] #ingame_HUD_Shop .content .upgrade .requirements .requirement .amount .progressBar.complete {
         background-color: #a6da95;
       }
@@ -8019,6 +8152,13 @@ class Mod extends shapez.Mod {
       html[data-theme="catppuccin-macchiato-lavender"] #ingame_HUD_PlacementHints .additionalInfo label,
       html[data-theme="catppuccin-macchiato-lavender"] #ingame_HUD_PlacementHints .hotkey  {
         color: #a6da95;
+      }
+      /* Toolbar */
+      html[data-theme="catppuccin-macchiato-lavender"] .ingame_buildingsToolbar .buildings {
+        background-color: #363a4f4d;
+      }
+      html[data-theme="catppuccin-macchiato-lavender"] .ingame_buildingsToolbar .buildings .building.unlocked .icon:hover {
+        background-color: #24273a66;
       }
     `)
   }
