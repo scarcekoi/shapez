@@ -570,6 +570,20 @@ class Mod extends shapez.Mod {
       html[data-theme="catppuccin-frappe-rosewater"] #ingame_VignetteOverlay {
         background: none;
       }
+      /* Shape tooltip */
+      html[data-theme="catppuccin-frappe-rosewater"] #ingame_HUD_PlacementHints {
+        background-color: #414559e6;
+      }
+      html[data-theme="catppuccin-frappe-rosewater"] #ingame_HUD_PlacementHints .buildingLabel {
+        color: #c6d0f5;
+      }
+      html[data-theme="catppuccin-frappe-rosewater"] #ingame_HUD_PlacementHints .description {
+        color: #a5adce;
+      }
+      html[data-theme="catppuccin-frappe-rosewater"] #ingame_HUD_PlacementHints .additionalInfo label,
+      html[data-theme="catppuccin-frappe-rosewater"] #ingame_HUD_PlacementHints .hotkey  {
+        color: #a6d189;
+      }
     `)
     this.modInterface.registerGameTheme({
       id: "catppuccin-frappe-flamingo",
@@ -1127,6 +1141,20 @@ class Mod extends shapez.Mod {
       /* Vignette */
       html[data-theme="catppuccin-frappe-flamingo"] #ingame_VignetteOverlay {
         background: none;
+      }
+      /* Shape tooltip */
+      html[data-theme="catppuccin-frappe-flamingo"] #ingame_HUD_PlacementHints {
+        background-color: #414559e6;
+      }
+      html[data-theme="catppuccin-frappe-flamingo"] #ingame_HUD_PlacementHints .buildingLabel {
+        color: #c6d0f5;
+      }
+      html[data-theme="catppuccin-frappe-flamingo"] #ingame_HUD_PlacementHints .description {
+        color: #a5adce;
+      }
+      html[data-theme="catppuccin-frappe-flamingo"] #ingame_HUD_PlacementHints .additionalInfo label,
+      html[data-theme="catppuccin-frappe-flamingo"] #ingame_HUD_PlacementHints .hotkey  {
+        color: #a6d189;
       }
     `)
     this.modInterface.registerGameTheme({
@@ -1686,6 +1714,20 @@ class Mod extends shapez.Mod {
       html[data-theme="catppuccin-frappe-pink"] #ingame_VignetteOverlay {
         background: none;
       }
+      /* Shape tooltip */
+      html[data-theme="catppuccin-frappe-pink"] #ingame_HUD_PlacementHints {
+        background-color: #414559e6;
+      }
+      html[data-theme="catppuccin-frappe-pink"] #ingame_HUD_PlacementHints .buildingLabel {
+        color: #c6d0f5;
+      }
+      html[data-theme="catppuccin-frappe-pink"] #ingame_HUD_PlacementHints .description {
+        color: #a5adce;
+      }
+      html[data-theme="catppuccin-frappe-pink"] #ingame_HUD_PlacementHints .additionalInfo label,
+      html[data-theme="catppuccin-frappe-pink"] #ingame_HUD_PlacementHints .hotkey  {
+        color: #a6d189;
+      }
     `)
     this.modInterface.registerGameTheme({
       id: "catppuccin-frappe-mauve",
@@ -2243,6 +2285,20 @@ class Mod extends shapez.Mod {
       /* Vignette */
       html[data-theme="catppuccin-frappe-mauve"] #ingame_VignetteOverlay {
         background: none;
+      }
+      /* Shape tooltip */
+      html[data-theme="catppuccin-frappe-mauve"] #ingame_HUD_PlacementHints {
+        background-color: #414559e6;
+      }
+      html[data-theme="catppuccin-frappe-mauve"] #ingame_HUD_PlacementHints .buildingLabel {
+        color: #c6d0f5;
+      }
+      html[data-theme="catppuccin-frappe-mauve"] #ingame_HUD_PlacementHints .description {
+        color: #a5adce;
+      }
+      html[data-theme="catppuccin-frappe-mauve"] #ingame_HUD_PlacementHints .additionalInfo label,
+      html[data-theme="catppuccin-frappe-mauve"] #ingame_HUD_PlacementHints .hotkey  {
+        color: #a6d189;
       }
     `)
     this.modInterface.registerGameTheme({
@@ -2802,6 +2858,20 @@ class Mod extends shapez.Mod {
       html[data-theme="catppuccin-frappe-red"] #ingame_VignetteOverlay {
         background: none;
       }
+      /* Shape tooltip */
+      html[data-theme="catppuccin-frappe-red"] #ingame_HUD_PlacementHints {
+        background-color: #414559e6;
+      }
+      html[data-theme="catppuccin-frappe-red"] #ingame_HUD_PlacementHints .buildingLabel {
+        color: #c6d0f5;
+      }
+      html[data-theme="catppuccin-frappe-red"] #ingame_HUD_PlacementHints .description {
+        color: #a5adce;
+      }
+      html[data-theme="catppuccin-frappe-red"] #ingame_HUD_PlacementHints .additionalInfo label,
+      html[data-theme="catppuccin-frappe-red"] #ingame_HUD_PlacementHints .hotkey  {
+        color: #a6d189;
+      }
     `)
     this.modInterface.registerGameTheme({
       id: "catppuccin-frappe-maroon",
@@ -3359,6 +3429,20 @@ class Mod extends shapez.Mod {
       /* Vignette */
       html[data-theme="catppuccin-frappe-maroon"] #ingame_VignetteOverlay {
         background: none;
+      }
+      /* Shape tooltip */
+      html[data-theme="catppuccin-frappe-maroon"] #ingame_HUD_PlacementHints {
+        background-color: #414559e6;
+      }
+      html[data-theme="catppuccin-frappe-maroon"] #ingame_HUD_PlacementHints .buildingLabel {
+        color: #c6d0f5;
+      }
+      html[data-theme="catppuccin-frappe-maroon"] #ingame_HUD_PlacementHints .description {
+        color: #a5adce;
+      }
+      html[data-theme="catppuccin-frappe-maroon"] #ingame_HUD_PlacementHints .additionalInfo label,
+      html[data-theme="catppuccin-frappe-maroon"] #ingame_HUD_PlacementHints .hotkey  {
+        color: #a6d189;
       }
     `)
     this.modInterface.registerGameTheme({
@@ -3918,6 +4002,20 @@ class Mod extends shapez.Mod {
       html[data-theme="catppuccin-frappe-peach"] #ingame_VignetteOverlay {
         background: none;
       }
+      /* Shape tooltip */
+      html[data-theme="catppuccin-frappe-peach"] #ingame_HUD_PlacementHints {
+        background-color: #414559e6;
+      }
+      html[data-theme="catppuccin-frappe-peach"] #ingame_HUD_PlacementHints .buildingLabel {
+        color: #c6d0f5;
+      }
+      html[data-theme="catppuccin-frappe-peach"] #ingame_HUD_PlacementHints .description {
+        color: #a5adce;
+      }
+      html[data-theme="catppuccin-frappe-peach"] #ingame_HUD_PlacementHints .additionalInfo label,
+      html[data-theme="catppuccin-frappe-peach"] #ingame_HUD_PlacementHints .hotkey  {
+        color: #a6d189;
+      }
     `)
     this.modInterface.registerGameTheme({
       id: "catppuccin-frappe-yellow",
@@ -4475,6 +4573,20 @@ class Mod extends shapez.Mod {
       /* Vignette */
       html[data-theme="catppuccin-frappe-yellow"] #ingame_VignetteOverlay {
         background: none;
+      }
+      /* Shape tooltip */
+      html[data-theme="catppuccin-frappe-yellow"] #ingame_HUD_PlacementHints {
+        background-color: #414559e6;
+      }
+      html[data-theme="catppuccin-frappe-yellow"] #ingame_HUD_PlacementHints .buildingLabel {
+        color: #c6d0f5;
+      }
+      html[data-theme="catppuccin-frappe-yellow"] #ingame_HUD_PlacementHints .description {
+        color: #a5adce;
+      }
+      html[data-theme="catppuccin-frappe-yellow"] #ingame_HUD_PlacementHints .additionalInfo label,
+      html[data-theme="catppuccin-frappe-yellow"] #ingame_HUD_PlacementHints .hotkey  {
+        color: #a6d189;
       }
     `)
     this.modInterface.registerGameTheme({
@@ -5034,6 +5146,20 @@ class Mod extends shapez.Mod {
       html[data-theme="catppuccin-frappe-green"] #ingame_VignetteOverlay {
         background: none;
       }
+      /* Shape tooltip */
+      html[data-theme="catppuccin-frappe-green"] #ingame_HUD_PlacementHints {
+        background-color: #414559e6;
+      }
+      html[data-theme="catppuccin-frappe-green"] #ingame_HUD_PlacementHints .buildingLabel {
+        color: #c6d0f5;
+      }
+      html[data-theme="catppuccin-frappe-green"] #ingame_HUD_PlacementHints .description {
+        color: #a5adce;
+      }
+      html[data-theme="catppuccin-frappe-green"] #ingame_HUD_PlacementHints .additionalInfo label,
+      html[data-theme="catppuccin-frappe-green"] #ingame_HUD_PlacementHints .hotkey  {
+        color: #a6d189;
+      }
     `)
     this.modInterface.registerGameTheme({
       id: "catppuccin-frappe-teal",
@@ -5591,6 +5717,20 @@ class Mod extends shapez.Mod {
       /* Vignette */
       html[data-theme="catppuccin-frappe-teal"] #ingame_VignetteOverlay {
         background: none;
+      }
+      /* Shape tooltip */
+      html[data-theme="catppuccin-frappe-teal"] #ingame_HUD_PlacementHints {
+        background-color: #414559e6;
+      }
+      html[data-theme="catppuccin-frappe-teal"] #ingame_HUD_PlacementHints .buildingLabel {
+        color: #c6d0f5;
+      }
+      html[data-theme="catppuccin-frappe-teal"] #ingame_HUD_PlacementHints .description {
+        color: #a5adce;
+      }
+      html[data-theme="catppuccin-frappe-teal"] #ingame_HUD_PlacementHints .additionalInfo label,
+      html[data-theme="catppuccin-frappe-teal"] #ingame_HUD_PlacementHints .hotkey  {
+        color: #a6d189;
       }
     `)
     this.modInterface.registerGameTheme({
@@ -6150,6 +6290,20 @@ class Mod extends shapez.Mod {
       html[data-theme="catppuccin-frappe-sky"] #ingame_VignetteOverlay {
         background: none;
       }
+      /* Shape tooltip */
+      html[data-theme="catppuccin-frappe-sky"] #ingame_HUD_PlacementHints {
+        background-color: #414559e6;
+      }
+      html[data-theme="catppuccin-frappe-sky"] #ingame_HUD_PlacementHints .buildingLabel {
+        color: #c6d0f5;
+      }
+      html[data-theme="catppuccin-frappe-sky"] #ingame_HUD_PlacementHints .description {
+        color: #a5adce;
+      }
+      html[data-theme="catppuccin-frappe-sky"] #ingame_HUD_PlacementHints .additionalInfo label,
+      html[data-theme="catppuccin-frappe-sky"] #ingame_HUD_PlacementHints .hotkey  {
+        color: #a6d189;
+      }
     `)
     this.modInterface.registerGameTheme({
       id: "catppuccin-frappe-sapphire",
@@ -6707,6 +6861,20 @@ class Mod extends shapez.Mod {
       /* Vignette */
       html[data-theme="catppuccin-frappe-sapphire"] #ingame_VignetteOverlay {
         background: none;
+      }
+      /* Shape tooltip */
+      html[data-theme="catppuccin-frappe-sapphire"] #ingame_HUD_PlacementHints {
+        background-color: #414559e6;
+      }
+      html[data-theme="catppuccin-frappe-sapphire"] #ingame_HUD_PlacementHints .buildingLabel {
+        color: #c6d0f5;
+      }
+      html[data-theme="catppuccin-frappe-sapphire"] #ingame_HUD_PlacementHints .description {
+        color: #a5adce;
+      }
+      html[data-theme="catppuccin-frappe-sapphire"] #ingame_HUD_PlacementHints .additionalInfo label,
+      html[data-theme="catppuccin-frappe-sapphire"] #ingame_HUD_PlacementHints .hotkey  {
+        color: #a6d189;
       }
     `)
     this.modInterface.registerGameTheme({
@@ -7266,6 +7434,20 @@ class Mod extends shapez.Mod {
       html[data-theme="catppuccin-frappe-blue"] #ingame_VignetteOverlay {
         background: none;
       }
+      /* Shape tooltip */
+      html[data-theme="catppuccin-frappe-blue"] #ingame_HUD_PlacementHints {
+        background-color: #414559e6;
+      }
+      html[data-theme="catppuccin-frappe-blue"] #ingame_HUD_PlacementHints .buildingLabel {
+        color: #c6d0f5;
+      }
+      html[data-theme="catppuccin-frappe-blue"] #ingame_HUD_PlacementHints .description {
+        color: #a5adce;
+      }
+      html[data-theme="catppuccin-frappe-blue"] #ingame_HUD_PlacementHints .additionalInfo label,
+      html[data-theme="catppuccin-frappe-blue"] #ingame_HUD_PlacementHints .hotkey  {
+        color: #a6d189;
+      }
     `)
     this.modInterface.registerGameTheme({
       id: "catppuccin-frappe-lavender",
@@ -7823,6 +8005,20 @@ class Mod extends shapez.Mod {
       /* Vignette */
       html[data-theme="catppuccin-frappe-lavender"] #ingame_VignetteOverlay {
         background: none;
+      }
+      /* Shape tooltip */
+      html[data-theme="catppuccin-frappe-lavender"] #ingame_HUD_PlacementHints {
+        background-color: #414559e6;
+      }
+      html[data-theme="catppuccin-frappe-lavender"] #ingame_HUD_PlacementHints .buildingLabel {
+        color: #c6d0f5;
+      }
+      html[data-theme="catppuccin-frappe-lavender"] #ingame_HUD_PlacementHints .description {
+        color: #a5adce;
+      }
+      html[data-theme="catppuccin-frappe-lavender"] #ingame_HUD_PlacementHints .additionalInfo label,
+      html[data-theme="catppuccin-frappe-lavender"] #ingame_HUD_PlacementHints .hotkey  {
+        color: #a6d189;
       }
     `)
   }

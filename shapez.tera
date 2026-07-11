@@ -584,6 +584,20 @@ class Mod extends shapez.Mod {
       html[data-theme="catppuccin-{{ flavor.identifier }}-{{ accent.identifier }}"] #ingame_VignetteOverlay {
         background: none;
       }
+      /* Shape tooltip */
+      html[data-theme="catppuccin-{{ flavor.identifier }}-{{ accent.identifier }}"] #ingame_HUD_PlacementHints {
+        background-color: #{{ surface0 | mod(opacity=0.9) | hex }};
+      }
+      html[data-theme="catppuccin-{{ flavor.identifier }}-{{ accent.identifier }}"] #ingame_HUD_PlacementHints .buildingLabel {
+        color: #{{ text.hex }};
+      }
+      html[data-theme="catppuccin-{{ flavor.identifier }}-{{ accent.identifier }}"] #ingame_HUD_PlacementHints .description {
+        color: #{{ subtext0.hex }};
+      }
+      html[data-theme="catppuccin-{{ flavor.identifier }}-{{ accent.identifier }}"] #ingame_HUD_PlacementHints .additionalInfo label,
+      html[data-theme="catppuccin-{{ flavor.identifier }}-{{ accent.identifier }}"] #ingame_HUD_PlacementHints .hotkey  {
+        color: #{{ green.hex }};
+      }
     `)
     {%- endif %}{%- endfor %}
   }
