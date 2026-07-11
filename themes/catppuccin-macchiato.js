@@ -8218,10 +8218,10 @@ const RESOURCES = {
       },
 
       "connectedMiners": {
-        "overlay": "rgba(40, 50, 60, 0.5)",
-        "textColor": "#fff",
-        "textColorCapped": "#ef5072",
-        "background": "rgba(40, 50, 60, 0.8)"
+        "overlay": "rgba(54, 58, 79, 0.50)",
+        "textColor": "#cad3f5",
+        "textColorCapped": "#ed8796",
+        "background": "rgba(54, 58, 79, 0.90)"
       },
 
       "zone": {
@@ -8294,10 +8294,10 @@ const RESOURCES = {
       },
 
       "connectedMiners": {
-        "overlay": "rgba(40, 50, 60, 0.5)",
-        "textColor": "#fff",
-        "textColorCapped": "#ef5072",
-        "background": "rgba(40, 50, 60, 0.8)"
+        "overlay": "rgba(54, 58, 79, 0.50)",
+        "textColor": "#cad3f5",
+        "textColorCapped": "#ed8796",
+        "background": "rgba(54, 58, 79, 0.90)"
       },
 
       "zone": {
@@ -8370,10 +8370,10 @@ const RESOURCES = {
       },
 
       "connectedMiners": {
-        "overlay": "rgba(40, 50, 60, 0.5)",
-        "textColor": "#fff",
-        "textColorCapped": "#ef5072",
-        "background": "rgba(40, 50, 60, 0.8)"
+        "overlay": "rgba(54, 58, 79, 0.50)",
+        "textColor": "#cad3f5",
+        "textColorCapped": "#ed8796",
+        "background": "rgba(54, 58, 79, 0.90)"
       },
 
       "zone": {
@@ -8446,10 +8446,10 @@ const RESOURCES = {
       },
 
       "connectedMiners": {
-        "overlay": "rgba(40, 50, 60, 0.5)",
-        "textColor": "#fff",
-        "textColorCapped": "#ef5072",
-        "background": "rgba(40, 50, 60, 0.8)"
+        "overlay": "rgba(54, 58, 79, 0.50)",
+        "textColor": "#cad3f5",
+        "textColorCapped": "#ed8796",
+        "background": "rgba(54, 58, 79, 0.90)"
       },
 
       "zone": {
@@ -8522,10 +8522,10 @@ const RESOURCES = {
       },
 
       "connectedMiners": {
-        "overlay": "rgba(40, 50, 60, 0.5)",
-        "textColor": "#fff",
-        "textColorCapped": "#ef5072",
-        "background": "rgba(40, 50, 60, 0.8)"
+        "overlay": "rgba(54, 58, 79, 0.50)",
+        "textColor": "#cad3f5",
+        "textColorCapped": "#ed8796",
+        "background": "rgba(54, 58, 79, 0.90)"
       },
 
       "zone": {
@@ -8598,10 +8598,10 @@ const RESOURCES = {
       },
 
       "connectedMiners": {
-        "overlay": "rgba(40, 50, 60, 0.5)",
-        "textColor": "#fff",
-        "textColorCapped": "#ef5072",
-        "background": "rgba(40, 50, 60, 0.8)"
+        "overlay": "rgba(54, 58, 79, 0.50)",
+        "textColor": "#cad3f5",
+        "textColorCapped": "#ed8796",
+        "background": "rgba(54, 58, 79, 0.90)"
       },
 
       "zone": {
@@ -8674,10 +8674,10 @@ const RESOURCES = {
       },
 
       "connectedMiners": {
-        "overlay": "rgba(40, 50, 60, 0.5)",
-        "textColor": "#fff",
-        "textColorCapped": "#ef5072",
-        "background": "rgba(40, 50, 60, 0.8)"
+        "overlay": "rgba(54, 58, 79, 0.50)",
+        "textColor": "#cad3f5",
+        "textColorCapped": "#ed8796",
+        "background": "rgba(54, 58, 79, 0.90)"
       },
 
       "zone": {
@@ -8750,10 +8750,10 @@ const RESOURCES = {
       },
 
       "connectedMiners": {
-        "overlay": "rgba(40, 50, 60, 0.5)",
-        "textColor": "#fff",
-        "textColorCapped": "#ef5072",
-        "background": "rgba(40, 50, 60, 0.8)"
+        "overlay": "rgba(54, 58, 79, 0.50)",
+        "textColor": "#cad3f5",
+        "textColorCapped": "#ed8796",
+        "background": "rgba(54, 58, 79, 0.90)"
       },
 
       "zone": {
@@ -8826,10 +8826,10 @@ const RESOURCES = {
       },
 
       "connectedMiners": {
-        "overlay": "rgba(40, 50, 60, 0.5)",
-        "textColor": "#fff",
-        "textColorCapped": "#ef5072",
-        "background": "rgba(40, 50, 60, 0.8)"
+        "overlay": "rgba(54, 58, 79, 0.50)",
+        "textColor": "#cad3f5",
+        "textColorCapped": "#ed8796",
+        "background": "rgba(54, 58, 79, 0.90)"
       },
 
       "zone": {
@@ -8902,10 +8902,10 @@ const RESOURCES = {
       },
 
       "connectedMiners": {
-        "overlay": "rgba(40, 50, 60, 0.5)",
-        "textColor": "#fff",
-        "textColorCapped": "#ef5072",
-        "background": "rgba(40, 50, 60, 0.8)"
+        "overlay": "rgba(54, 58, 79, 0.50)",
+        "textColor": "#cad3f5",
+        "textColorCapped": "#ed8796",
+        "background": "rgba(54, 58, 79, 0.90)"
       },
 
       "zone": {
@@ -8978,10 +8978,10 @@ const RESOURCES = {
       },
 
       "connectedMiners": {
-        "overlay": "rgba(40, 50, 60, 0.5)",
-        "textColor": "#fff",
-        "textColorCapped": "#ef5072",
-        "background": "rgba(40, 50, 60, 0.8)"
+        "overlay": "rgba(54, 58, 79, 0.50)",
+        "textColor": "#cad3f5",
+        "textColorCapped": "#ed8796",
+        "background": "rgba(54, 58, 79, 0.90)"
       },
 
       "zone": {
@@ -9054,10 +9054,10 @@ const RESOURCES = {
       },
 
       "connectedMiners": {
-        "overlay": "rgba(40, 50, 60, 0.5)",
-        "textColor": "#fff",
-        "textColorCapped": "#ef5072",
-        "background": "rgba(40, 50, 60, 0.8)"
+        "overlay": "rgba(54, 58, 79, 0.50)",
+        "textColor": "#cad3f5",
+        "textColorCapped": "#ed8796",
+        "background": "rgba(54, 58, 79, 0.90)"
       },
 
       "zone": {
@@ -9130,10 +9130,10 @@ const RESOURCES = {
       },
 
       "connectedMiners": {
-        "overlay": "rgba(40, 50, 60, 0.5)",
-        "textColor": "#fff",
-        "textColorCapped": "#ef5072",
-        "background": "rgba(40, 50, 60, 0.8)"
+        "overlay": "rgba(54, 58, 79, 0.50)",
+        "textColor": "#cad3f5",
+        "textColorCapped": "#ed8796",
+        "background": "rgba(54, 58, 79, 0.90)"
       },
 
       "zone": {
@@ -9206,10 +9206,10 @@ const RESOURCES = {
       },
 
       "connectedMiners": {
-        "overlay": "rgba(40, 50, 60, 0.5)",
-        "textColor": "#fff",
-        "textColorCapped": "#ef5072",
-        "background": "rgba(40, 50, 60, 0.8)"
+        "overlay": "rgba(54, 58, 79, 0.50)",
+        "textColor": "#cad3f5",
+        "textColorCapped": "#ed8796",
+        "background": "rgba(54, 58, 79, 0.90)"
       },
 
       "zone": {

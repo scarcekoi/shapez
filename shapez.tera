@@ -669,10 +669,10 @@ const RESOURCES = {
       },
 
       "connectedMiners": {
-        "overlay": "rgba(40, 50, 60, 0.5)",
-        "textColor": "#fff",
-        "textColorCapped": "#ef5072",
-        "background": "rgba(40, 50, 60, 0.8)"
+        "overlay": "{{ css_rgba(color=surface0 | mod(opacity=0.5)) }}",
+        "textColor": "#{{ text.hex }}",
+        "textColorCapped": "#{{ red.hex }}",
+        "background": "{{ css_rgba(color=surface0 | mod(opacity=0.9)) }}"
       },
 
       "zone": {
