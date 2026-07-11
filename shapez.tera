@@ -609,7 +609,7 @@ const RESOURCES = {
   "catppuccin-{{ flavor.identifier }}-{{ accent.identifier }}.json": {
     "map": {
       "background": "#{{ base.hex }}",
-      "gridRegular": "rgba(255, 255, 255, 0.02)",
+      "gridRegular": "{{ css_rgba(color=surface0 | mod(opacity=0.2)) }}",
       "gridPlacing": "rgba(255, 255, 255, 0.06)",
 
       "gridLineWidth": 0.5,

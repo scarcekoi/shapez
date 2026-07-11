@@ -8028,7 +8028,7 @@ const RESOURCES = {
   "catppuccin-mocha-rosewater.json": {
     "map": {
       "background": "#1e1e2e",
-      "gridRegular": "rgba(255, 255, 255, 0.02)",
+      "gridRegular": "rgba(49, 50, 68, 0.20)",
       "gridPlacing": "rgba(255, 255, 255, 0.06)",
 
       "gridLineWidth": 0.5,
@@ -8104,7 +8104,7 @@ const RESOURCES = {
   "catppuccin-mocha-flamingo.json": {
     "map": {
       "background": "#1e1e2e",
-      "gridRegular": "rgba(255, 255, 255, 0.02)",
+      "gridRegular": "rgba(49, 50, 68, 0.20)",
       "gridPlacing": "rgba(255, 255, 255, 0.06)",
 
       "gridLineWidth": 0.5,
@@ -8180,7 +8180,7 @@ const RESOURCES = {
   "catppuccin-mocha-pink.json": {
     "map": {
       "background": "#1e1e2e",
-      "gridRegular": "rgba(255, 255, 255, 0.02)",
+      "gridRegular": "rgba(49, 50, 68, 0.20)",
       "gridPlacing": "rgba(255, 255, 255, 0.06)",
 
       "gridLineWidth": 0.5,
@@ -8256,7 +8256,7 @@ const RESOURCES = {
   "catppuccin-mocha-mauve.json": {
     "map": {
       "background": "#1e1e2e",
-      "gridRegular": "rgba(255, 255, 255, 0.02)",
+      "gridRegular": "rgba(49, 50, 68, 0.20)",
       "gridPlacing": "rgba(255, 255, 255, 0.06)",
 
       "gridLineWidth": 0.5,
@@ -8332,7 +8332,7 @@ const RESOURCES = {
   "catppuccin-mocha-red.json": {
     "map": {
       "background": "#1e1e2e",
-      "gridRegular": "rgba(255, 255, 255, 0.02)",
+      "gridRegular": "rgba(49, 50, 68, 0.20)",
       "gridPlacing": "rgba(255, 255, 255, 0.06)",
 
       "gridLineWidth": 0.5,
@@ -8408,7 +8408,7 @@ const RESOURCES = {
   "catppuccin-mocha-maroon.json": {
     "map": {
       "background": "#1e1e2e",
-      "gridRegular": "rgba(255, 255, 255, 0.02)",
+      "gridRegular": "rgba(49, 50, 68, 0.20)",
       "gridPlacing": "rgba(255, 255, 255, 0.06)",
 
       "gridLineWidth": 0.5,
@@ -8484,7 +8484,7 @@ const RESOURCES = {
   "catppuccin-mocha-peach.json": {
     "map": {
       "background": "#1e1e2e",
-      "gridRegular": "rgba(255, 255, 255, 0.02)",
+      "gridRegular": "rgba(49, 50, 68, 0.20)",
       "gridPlacing": "rgba(255, 255, 255, 0.06)",
 
       "gridLineWidth": 0.5,
@@ -8560,7 +8560,7 @@ const RESOURCES = {
   "catppuccin-mocha-yellow.json": {
     "map": {
       "background": "#1e1e2e",
-      "gridRegular": "rgba(255, 255, 255, 0.02)",
+      "gridRegular": "rgba(49, 50, 68, 0.20)",
       "gridPlacing": "rgba(255, 255, 255, 0.06)",
 
       "gridLineWidth": 0.5,
@@ -8636,7 +8636,7 @@ const RESOURCES = {
   "catppuccin-mocha-green.json": {
     "map": {
       "background": "#1e1e2e",
-      "gridRegular": "rgba(255, 255, 255, 0.02)",
+      "gridRegular": "rgba(49, 50, 68, 0.20)",
       "gridPlacing": "rgba(255, 255, 255, 0.06)",
 
       "gridLineWidth": 0.5,
@@ -8712,7 +8712,7 @@ const RESOURCES = {
   "catppuccin-mocha-teal.json": {
     "map": {
       "background": "#1e1e2e",
-      "gridRegular": "rgba(255, 255, 255, 0.02)",
+      "gridRegular": "rgba(49, 50, 68, 0.20)",
       "gridPlacing": "rgba(255, 255, 255, 0.06)",
 
       "gridLineWidth": 0.5,
@@ -8788,7 +8788,7 @@ const RESOURCES = {
   "catppuccin-mocha-sky.json": {
     "map": {
       "background": "#1e1e2e",
-      "gridRegular": "rgba(255, 255, 255, 0.02)",
+      "gridRegular": "rgba(49, 50, 68, 0.20)",
       "gridPlacing": "rgba(255, 255, 255, 0.06)",
 
       "gridLineWidth": 0.5,
@@ -8864,7 +8864,7 @@ const RESOURCES = {
   "catppuccin-mocha-sapphire.json": {
     "map": {
       "background": "#1e1e2e",
-      "gridRegular": "rgba(255, 255, 255, 0.02)",
+      "gridRegular": "rgba(49, 50, 68, 0.20)",
       "gridPlacing": "rgba(255, 255, 255, 0.06)",
 
       "gridLineWidth": 0.5,
@@ -8940,7 +8940,7 @@ const RESOURCES = {
   "catppuccin-mocha-blue.json": {
     "map": {
       "background": "#1e1e2e",
-      "gridRegular": "rgba(255, 255, 255, 0.02)",
+      "gridRegular": "rgba(49, 50, 68, 0.20)",
       "gridPlacing": "rgba(255, 255, 255, 0.06)",
 
       "gridLineWidth": 0.5,
@@ -9016,7 +9016,7 @@ const RESOURCES = {
   "catppuccin-mocha-lavender.json": {
     "map": {
       "background": "#1e1e2e",
-      "gridRegular": "rgba(255, 255, 255, 0.02)",
+      "gridRegular": "rgba(49, 50, 68, 0.20)",
       "gridPlacing": "rgba(255, 255, 255, 0.06)",
 
       "gridLineWidth": 0.5,
