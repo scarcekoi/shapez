@@ -161,7 +161,7 @@ html[data-theme="catppuccin-macchiato-rosewater"] .checkbox.checked {
   background-color: #f4dbd6;
 }
 html[data-theme="catppuccin-macchiato-rosewater"] .checkbox.checked:hover {
-  background-color: #eec9c2;
+  background-color: #efc9c2;
 }
 html[data-theme="catppuccin-macchiato-rosewater"] .checkbox.checked .knob {
   background-color: #24273a;
@@ -735,7 +735,7 @@ html[data-theme="catppuccin-macchiato-flamingo"] .checkbox.checked {
   background-color: #f0c6c6;
 }
 html[data-theme="catppuccin-macchiato-flamingo"] .checkbox.checked:hover {
-  background-color: #ebb1b1;
+  background-color: #ebb2b2;
 }
 html[data-theme="catppuccin-macchiato-flamingo"] .checkbox.checked .knob {
   background-color: #24273a;
@@ -1309,7 +1309,7 @@ html[data-theme="catppuccin-macchiato-pink"] .checkbox.checked {
   background-color: #f5bde6;
 }
 html[data-theme="catppuccin-macchiato-pink"] .checkbox.checked:hover {
-  background-color: #f2a6de;
+  background-color: #f2a7de;
 }
 html[data-theme="catppuccin-macchiato-pink"] .checkbox.checked .knob {
   background-color: #24273a;
@@ -1883,7 +1883,7 @@ html[data-theme="catppuccin-macchiato-mauve"] .checkbox.checked {
   background-color: #c6a0f6;
 }
 html[data-theme="catppuccin-macchiato-mauve"] .checkbox.checked:hover {
-  background-color: #b988f4;
+  background-color: #b889f4;
 }
 html[data-theme="catppuccin-macchiato-mauve"] .checkbox.checked .knob {
   background-color: #24273a;
@@ -2457,7 +2457,7 @@ html[data-theme="catppuccin-macchiato-red"] .checkbox.checked {
   background-color: #ed8796;
 }
 html[data-theme="catppuccin-macchiato-red"] .checkbox.checked:hover {
-  background-color: #e97183;
+  background-color: #ea7183;
 }
 html[data-theme="catppuccin-macchiato-red"] .checkbox.checked .knob {
   background-color: #24273a;
@@ -3031,7 +3031,7 @@ html[data-theme="catppuccin-macchiato-maroon"] .checkbox.checked {
   background-color: #ee99a0;
 }
 html[data-theme="catppuccin-macchiato-maroon"] .checkbox.checked:hover {
-  background-color: #ea848c;
+  background-color: #ea838c;
 }
 html[data-theme="catppuccin-macchiato-maroon"] .checkbox.checked .knob {
   background-color: #24273a;
@@ -3605,7 +3605,7 @@ html[data-theme="catppuccin-macchiato-peach"] .checkbox.checked {
   background-color: #f5a97f;
 }
 html[data-theme="catppuccin-macchiato-peach"] .checkbox.checked:hover {
-  background-color: #f39867;
+  background-color: #f39967;
 }
 html[data-theme="catppuccin-macchiato-peach"] .checkbox.checked .knob {
   background-color: #24273a;
@@ -4179,7 +4179,7 @@ html[data-theme="catppuccin-macchiato-yellow"] .checkbox.checked {
   background-color: #eed49f;
 }
 html[data-theme="catppuccin-macchiato-yellow"] .checkbox.checked:hover {
-  background-color: #eaca8a;
+  background-color: #eaca89;
 }
 html[data-theme="catppuccin-macchiato-yellow"] .checkbox.checked .knob {
   background-color: #24273a;
@@ -4753,7 +4753,7 @@ html[data-theme="catppuccin-macchiato-green"] .checkbox.checked {
   background-color: #a6da95;
 }
 html[data-theme="catppuccin-macchiato-green"] .checkbox.checked:hover {
-  background-color: #97d482;
+  background-color: #96d382;
 }
 html[data-theme="catppuccin-macchiato-green"] .checkbox.checked .knob {
   background-color: #24273a;
@@ -5901,7 +5901,7 @@ html[data-theme="catppuccin-macchiato-sky"] .checkbox.checked {
   background-color: #91d7e3;
 }
 html[data-theme="catppuccin-macchiato-sky"] .checkbox.checked:hover {
-  background-color: #7ccfde;
+  background-color: #7dd0de;
 }
 html[data-theme="catppuccin-macchiato-sky"] .checkbox.checked .knob {
   background-color: #24273a;
@@ -7049,7 +7049,7 @@ html[data-theme="catppuccin-macchiato-blue"] .checkbox.checked {
   background-color: #8aadf4;
 }
 html[data-theme="catppuccin-macchiato-blue"] .checkbox.checked:hover {
-  background-color: #729df2;
+  background-color: #739df2;
 }
 html[data-theme="catppuccin-macchiato-blue"] .checkbox.checked .knob {
   background-color: #24273a;
@@ -7623,7 +7623,7 @@ html[data-theme="catppuccin-macchiato-lavender"] .checkbox.checked {
   background-color: #b7bdf8;
 }
 html[data-theme="catppuccin-macchiato-lavender"] .checkbox.checked:hover {
-  background-color: #a0a9f6;
+  background-color: #a0a8f6;
 }
 html[data-theme="catppuccin-macchiato-lavender"] .checkbox.checked .knob {
   background-color: #24273a;

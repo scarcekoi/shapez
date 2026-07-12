@@ -247,7 +247,7 @@ html[data-theme="catppuccin-latte-rosewater"] .checkbox.checked {
   background-color: #dc8a78;
 }
 html[data-theme="catppuccin-latte-rosewater"] .checkbox.checked:hover {
-  background-color: #d77863;
+  background-color: #d77864;
 }
 html[data-theme="catppuccin-latte-rosewater"] .checkbox.checked .knob {
   background-color: #eff1f5;
@@ -373,7 +373,7 @@ html[data-theme="catppuccin-latte-rosewater"] #state_SettingsState .container .c
 }
 html[data-theme="catppuccin-latte-rosewater"] #state_SettingsState .container .content .sidebar button.manageMods {
   color: #ea76cb;
-  background-color: #efe4f1;
+  background-color: #efe5f1;
 }
 html[data-theme="catppuccin-latte-rosewater"] #state_SettingsState .container .content .sidebar button.manageMods.newBadge {
   color: #eff1f5;
@@ -947,7 +947,7 @@ html[data-theme="catppuccin-latte-flamingo"] #state_SettingsState .container .co
 }
 html[data-theme="catppuccin-latte-flamingo"] #state_SettingsState .container .content .sidebar button.manageMods {
   color: #ea76cb;
-  background-color: #efe4f1;
+  background-color: #efe5f1;
 }
 html[data-theme="catppuccin-latte-flamingo"] #state_SettingsState .container .content .sidebar button.manageMods.newBadge {
   color: #eff1f5;
@@ -1395,7 +1395,7 @@ html[data-theme="catppuccin-latte-pink"] .checkbox.checked {
   background-color: #ea76cb;
 }
 html[data-theme="catppuccin-latte-pink"] .checkbox.checked:hover {
-  background-color: #e660c2;
+  background-color: #e760c3;
 }
 html[data-theme="catppuccin-latte-pink"] .checkbox.checked .knob {
   background-color: #eff1f5;
@@ -1521,7 +1521,7 @@ html[data-theme="catppuccin-latte-pink"] #state_SettingsState .container .conten
 }
 html[data-theme="catppuccin-latte-pink"] #state_SettingsState .container .content .sidebar button.manageMods {
   color: #ea76cb;
-  background-color: #efe4f1;
+  background-color: #efe5f1;
 }
 html[data-theme="catppuccin-latte-pink"] #state_SettingsState .container .content .sidebar button.manageMods.newBadge {
   color: #eff1f5;
@@ -1969,7 +1969,7 @@ html[data-theme="catppuccin-latte-mauve"] .checkbox.checked {
   background-color: #8839ef;
 }
 html[data-theme="catppuccin-latte-mauve"] .checkbox.checked:hover {
-  background-color: #7921ed;
+  background-color: #7a21ed;
 }
 html[data-theme="catppuccin-latte-mauve"] .checkbox.checked .knob {
   background-color: #eff1f5;
@@ -2095,7 +2095,7 @@ html[data-theme="catppuccin-latte-mauve"] #state_SettingsState .container .conte
 }
 html[data-theme="catppuccin-latte-mauve"] #state_SettingsState .container .content .sidebar button.manageMods {
   color: #ea76cb;
-  background-color: #efe4f1;
+  background-color: #efe5f1;
 }
 html[data-theme="catppuccin-latte-mauve"] #state_SettingsState .container .content .sidebar button.manageMods.newBadge {
   color: #eff1f5;
@@ -2543,7 +2543,7 @@ html[data-theme="catppuccin-latte-red"] .checkbox.checked {
   background-color: #d20f39;
 }
 html[data-theme="catppuccin-latte-red"] .checkbox.checked:hover {
-  background-color: #bb0d33;
+  background-color: #ba0d33;
 }
 html[data-theme="catppuccin-latte-red"] .checkbox.checked .knob {
   background-color: #eff1f5;
@@ -2669,7 +2669,7 @@ html[data-theme="catppuccin-latte-red"] #state_SettingsState .container .content
 }
 html[data-theme="catppuccin-latte-red"] #state_SettingsState .container .content .sidebar button.manageMods {
   color: #ea76cb;
-  background-color: #efe4f1;
+  background-color: #efe5f1;
 }
 html[data-theme="catppuccin-latte-red"] #state_SettingsState .container .content .sidebar button.manageMods.newBadge {
   color: #eff1f5;
@@ -3243,7 +3243,7 @@ html[data-theme="catppuccin-latte-maroon"] #state_SettingsState .container .cont
 }
 html[data-theme="catppuccin-latte-maroon"] #state_SettingsState .container .content .sidebar button.manageMods {
   color: #ea76cb;
-  background-color: #efe4f1;
+  background-color: #efe5f1;
 }
 html[data-theme="catppuccin-latte-maroon"] #state_SettingsState .container .content .sidebar button.manageMods.newBadge {
   color: #eff1f5;
@@ -3817,7 +3817,7 @@ html[data-theme="catppuccin-latte-peach"] #state_SettingsState .container .conte
 }
 html[data-theme="catppuccin-latte-peach"] #state_SettingsState .container .content .sidebar button.manageMods {
   color: #ea76cb;
-  background-color: #efe4f1;
+  background-color: #efe5f1;
 }
 html[data-theme="catppuccin-latte-peach"] #state_SettingsState .container .content .sidebar button.manageMods.newBadge {
   color: #eff1f5;
@@ -4265,7 +4265,7 @@ html[data-theme="catppuccin-latte-yellow"] .checkbox.checked {
   background-color: #df8e1d;
 }
 html[data-theme="catppuccin-latte-yellow"] .checkbox.checked:hover {
-  background-color: #c87f1a;
+  background-color: #c8801a;
 }
 html[data-theme="catppuccin-latte-yellow"] .checkbox.checked .knob {
   background-color: #eff1f5;
@@ -4391,7 +4391,7 @@ html[data-theme="catppuccin-latte-yellow"] #state_SettingsState .container .cont
 }
 html[data-theme="catppuccin-latte-yellow"] #state_SettingsState .container .content .sidebar button.manageMods {
   color: #ea76cb;
-  background-color: #efe4f1;
+  background-color: #efe5f1;
 }
 html[data-theme="catppuccin-latte-yellow"] #state_SettingsState .container .content .sidebar button.manageMods.newBadge {
   color: #eff1f5;
@@ -4839,7 +4839,7 @@ html[data-theme="catppuccin-latte-green"] .checkbox.checked {
   background-color: #40a02b;
 }
 html[data-theme="catppuccin-latte-green"] .checkbox.checked:hover {
-  background-color: #398c26;
+  background-color: #388c26;
 }
 html[data-theme="catppuccin-latte-green"] .checkbox.checked .knob {
   background-color: #eff1f5;
@@ -4965,7 +4965,7 @@ html[data-theme="catppuccin-latte-green"] #state_SettingsState .container .conte
 }
 html[data-theme="catppuccin-latte-green"] #state_SettingsState .container .content .sidebar button.manageMods {
   color: #ea76cb;
-  background-color: #efe4f1;
+  background-color: #efe5f1;
 }
 html[data-theme="catppuccin-latte-green"] #state_SettingsState .container .content .sidebar button.manageMods.newBadge {
   color: #eff1f5;
@@ -5413,7 +5413,7 @@ html[data-theme="catppuccin-latte-teal"] .checkbox.checked {
   background-color: #179299;
 }
 html[data-theme="catppuccin-latte-teal"] .checkbox.checked:hover {
-  background-color: #147d82;
+  background-color: #147d83;
 }
 html[data-theme="catppuccin-latte-teal"] .checkbox.checked .knob {
   background-color: #eff1f5;
@@ -5539,7 +5539,7 @@ html[data-theme="catppuccin-latte-teal"] #state_SettingsState .container .conten
 }
 html[data-theme="catppuccin-latte-teal"] #state_SettingsState .container .content .sidebar button.manageMods {
   color: #ea76cb;
-  background-color: #efe4f1;
+  background-color: #efe5f1;
 }
 html[data-theme="catppuccin-latte-teal"] #state_SettingsState .container .content .sidebar button.manageMods.newBadge {
   color: #eff1f5;
@@ -6113,7 +6113,7 @@ html[data-theme="catppuccin-latte-sky"] #state_SettingsState .container .content
 }
 html[data-theme="catppuccin-latte-sky"] #state_SettingsState .container .content .sidebar button.manageMods {
   color: #ea76cb;
-  background-color: #efe4f1;
+  background-color: #efe5f1;
 }
 html[data-theme="catppuccin-latte-sky"] #state_SettingsState .container .content .sidebar button.manageMods.newBadge {
   color: #eff1f5;
@@ -6561,7 +6561,7 @@ html[data-theme="catppuccin-latte-sapphire"] .checkbox.checked {
   background-color: #209fb5;
 }
 html[data-theme="catppuccin-latte-sapphire"] .checkbox.checked:hover {
-  background-color: #1c8ca0;
+  background-color: #1c8c9f;
 }
 html[data-theme="catppuccin-latte-sapphire"] .checkbox.checked .knob {
   background-color: #eff1f5;
@@ -6687,7 +6687,7 @@ html[data-theme="catppuccin-latte-sapphire"] #state_SettingsState .container .co
 }
 html[data-theme="catppuccin-latte-sapphire"] #state_SettingsState .container .content .sidebar button.manageMods {
   color: #ea76cb;
-  background-color: #efe4f1;
+  background-color: #efe5f1;
 }
 html[data-theme="catppuccin-latte-sapphire"] #state_SettingsState .container .content .sidebar button.manageMods.newBadge {
   color: #eff1f5;
@@ -7261,7 +7261,7 @@ html[data-theme="catppuccin-latte-blue"] #state_SettingsState .container .conten
 }
 html[data-theme="catppuccin-latte-blue"] #state_SettingsState .container .content .sidebar button.manageMods {
   color: #ea76cb;
-  background-color: #efe4f1;
+  background-color: #efe5f1;
 }
 html[data-theme="catppuccin-latte-blue"] #state_SettingsState .container .content .sidebar button.manageMods.newBadge {
   color: #eff1f5;
@@ -7835,7 +7835,7 @@ html[data-theme="catppuccin-latte-lavender"] #state_SettingsState .container .co
 }
 html[data-theme="catppuccin-latte-lavender"] #state_SettingsState .container .content .sidebar button.manageMods {
   color: #ea76cb;
-  background-color: #efe4f1;
+  background-color: #efe5f1;
 }
 html[data-theme="catppuccin-latte-lavender"] #state_SettingsState .container .content .sidebar button.manageMods.newBadge {
   color: #eff1f5;

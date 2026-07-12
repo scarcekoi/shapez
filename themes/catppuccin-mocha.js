@@ -247,7 +247,7 @@ html[data-theme="catppuccin-mocha-rosewater"] .checkbox.checked {
   background-color: #f5e0dc;
 }
 html[data-theme="catppuccin-mocha-rosewater"] .checkbox.checked:hover {
-  background-color: #efcfc9;
+  background-color: #efcec8;
 }
 html[data-theme="catppuccin-mocha-rosewater"] .checkbox.checked .knob {
   background-color: #1e1e2e;
@@ -260,7 +260,7 @@ html[data-theme="catppuccin-mocha-rosewater"] input.rangeInput::-webkit-slider-t
   box-shadow: inset 0 0 0 calc(10px*var(--ui-scale)) #313244;
 }
 html[data-theme="catppuccin-mocha-rosewater"] input.rangeInput:hover::-webkit-slider-thumb {
-  box-shadow: inset 0 0 0 calc(10px*var(--ui-scale)) #272735;
+  box-shadow: inset 0 0 0 calc(10px*var(--ui-scale)) #262735;
 }
 html[data-theme="catppuccin-mocha-rosewater"] #state_MainMenuState {
   background: #1e1e2e 50% / cover !important;
@@ -373,7 +373,7 @@ html[data-theme="catppuccin-mocha-rosewater"] #state_SettingsState .container .c
 }
 html[data-theme="catppuccin-mocha-rosewater"] #state_SettingsState .container .content .sidebar button.manageMods {
   color: #f5c2e7;
-  background-color: #342f41;
+  background-color: #332e41;
 }
 html[data-theme="catppuccin-mocha-rosewater"] #state_SettingsState .container .content .sidebar button.manageMods.newBadge {
   color: #1e1e2e;
@@ -834,7 +834,7 @@ html[data-theme="catppuccin-mocha-flamingo"] input.rangeInput::-webkit-slider-th
   box-shadow: inset 0 0 0 calc(10px*var(--ui-scale)) #313244;
 }
 html[data-theme="catppuccin-mocha-flamingo"] input.rangeInput:hover::-webkit-slider-thumb {
-  box-shadow: inset 0 0 0 calc(10px*var(--ui-scale)) #272735;
+  box-shadow: inset 0 0 0 calc(10px*var(--ui-scale)) #262735;
 }
 html[data-theme="catppuccin-mocha-flamingo"] #state_MainMenuState {
   background: #1e1e2e 50% / cover !important;
@@ -947,7 +947,7 @@ html[data-theme="catppuccin-mocha-flamingo"] #state_SettingsState .container .co
 }
 html[data-theme="catppuccin-mocha-flamingo"] #state_SettingsState .container .content .sidebar button.manageMods {
   color: #f5c2e7;
-  background-color: #342f41;
+  background-color: #332e41;
 }
 html[data-theme="catppuccin-mocha-flamingo"] #state_SettingsState .container .content .sidebar button.manageMods.newBadge {
   color: #1e1e2e;
@@ -1395,7 +1395,7 @@ html[data-theme="catppuccin-mocha-pink"] .checkbox.checked {
   background-color: #f5c2e7;
 }
 html[data-theme="catppuccin-mocha-pink"] .checkbox.checked:hover {
-  background-color: #f1addf;
+  background-color: #f1acde;
 }
 html[data-theme="catppuccin-mocha-pink"] .checkbox.checked .knob {
   background-color: #1e1e2e;
@@ -1408,7 +1408,7 @@ html[data-theme="catppuccin-mocha-pink"] input.rangeInput::-webkit-slider-thumb 
   box-shadow: inset 0 0 0 calc(10px*var(--ui-scale)) #313244;
 }
 html[data-theme="catppuccin-mocha-pink"] input.rangeInput:hover::-webkit-slider-thumb {
-  box-shadow: inset 0 0 0 calc(10px*var(--ui-scale)) #272735;
+  box-shadow: inset 0 0 0 calc(10px*var(--ui-scale)) #262735;
 }
 html[data-theme="catppuccin-mocha-pink"] #state_MainMenuState {
   background: #1e1e2e 50% / cover !important;
@@ -1521,7 +1521,7 @@ html[data-theme="catppuccin-mocha-pink"] #state_SettingsState .container .conten
 }
 html[data-theme="catppuccin-mocha-pink"] #state_SettingsState .container .content .sidebar button.manageMods {
   color: #f5c2e7;
-  background-color: #342f41;
+  background-color: #332e41;
 }
 html[data-theme="catppuccin-mocha-pink"] #state_SettingsState .container .content .sidebar button.manageMods.newBadge {
   color: #1e1e2e;
@@ -1982,7 +1982,7 @@ html[data-theme="catppuccin-mocha-mauve"] input.rangeInput::-webkit-slider-thumb
   box-shadow: inset 0 0 0 calc(10px*var(--ui-scale)) #313244;
 }
 html[data-theme="catppuccin-mocha-mauve"] input.rangeInput:hover::-webkit-slider-thumb {
-  box-shadow: inset 0 0 0 calc(10px*var(--ui-scale)) #272735;
+  box-shadow: inset 0 0 0 calc(10px*var(--ui-scale)) #262735;
 }
 html[data-theme="catppuccin-mocha-mauve"] #state_MainMenuState {
   background: #1e1e2e 50% / cover !important;
@@ -2095,7 +2095,7 @@ html[data-theme="catppuccin-mocha-mauve"] #state_SettingsState .container .conte
 }
 html[data-theme="catppuccin-mocha-mauve"] #state_SettingsState .container .content .sidebar button.manageMods {
   color: #f5c2e7;
-  background-color: #342f41;
+  background-color: #332e41;
 }
 html[data-theme="catppuccin-mocha-mauve"] #state_SettingsState .container .content .sidebar button.manageMods.newBadge {
   color: #1e1e2e;
@@ -2543,7 +2543,7 @@ html[data-theme="catppuccin-mocha-red"] .checkbox.checked {
   background-color: #f38ba8;
 }
 html[data-theme="catppuccin-mocha-red"] .checkbox.checked:hover {
-  background-color: #f17397;
+  background-color: #f17497;
 }
 html[data-theme="catppuccin-mocha-red"] .checkbox.checked .knob {
   background-color: #1e1e2e;
@@ -2556,7 +2556,7 @@ html[data-theme="catppuccin-mocha-red"] input.rangeInput::-webkit-slider-thumb {
   box-shadow: inset 0 0 0 calc(10px*var(--ui-scale)) #313244;
 }
 html[data-theme="catppuccin-mocha-red"] input.rangeInput:hover::-webkit-slider-thumb {
-  box-shadow: inset 0 0 0 calc(10px*var(--ui-scale)) #272735;
+  box-shadow: inset 0 0 0 calc(10px*var(--ui-scale)) #262735;
 }
 html[data-theme="catppuccin-mocha-red"] #state_MainMenuState {
   background: #1e1e2e 50% / cover !important;
@@ -2669,7 +2669,7 @@ html[data-theme="catppuccin-mocha-red"] #state_SettingsState .container .content
 }
 html[data-theme="catppuccin-mocha-red"] #state_SettingsState .container .content .sidebar button.manageMods {
   color: #f5c2e7;
-  background-color: #342f41;
+  background-color: #332e41;
 }
 html[data-theme="catppuccin-mocha-red"] #state_SettingsState .container .content .sidebar button.manageMods.newBadge {
   color: #1e1e2e;
@@ -3117,7 +3117,7 @@ html[data-theme="catppuccin-mocha-maroon"] .checkbox.checked {
   background-color: #eba0ac;
 }
 html[data-theme="catppuccin-mocha-maroon"] .checkbox.checked:hover {
-  background-color: #e78b9b;
+  background-color: #e78b9a;
 }
 html[data-theme="catppuccin-mocha-maroon"] .checkbox.checked .knob {
   background-color: #1e1e2e;
@@ -3130,7 +3130,7 @@ html[data-theme="catppuccin-mocha-maroon"] input.rangeInput::-webkit-slider-thum
   box-shadow: inset 0 0 0 calc(10px*var(--ui-scale)) #313244;
 }
 html[data-theme="catppuccin-mocha-maroon"] input.rangeInput:hover::-webkit-slider-thumb {
-  box-shadow: inset 0 0 0 calc(10px*var(--ui-scale)) #272735;
+  box-shadow: inset 0 0 0 calc(10px*var(--ui-scale)) #262735;
 }
 html[data-theme="catppuccin-mocha-maroon"] #state_MainMenuState {
   background: #1e1e2e 50% / cover !important;
@@ -3243,7 +3243,7 @@ html[data-theme="catppuccin-mocha-maroon"] #state_SettingsState .container .cont
 }
 html[data-theme="catppuccin-mocha-maroon"] #state_SettingsState .container .content .sidebar button.manageMods {
   color: #f5c2e7;
-  background-color: #342f41;
+  background-color: #332e41;
 }
 html[data-theme="catppuccin-mocha-maroon"] #state_SettingsState .container .content .sidebar button.manageMods.newBadge {
   color: #1e1e2e;
@@ -3691,7 +3691,7 @@ html[data-theme="catppuccin-mocha-peach"] .checkbox.checked {
   background-color: #fab387;
 }
 html[data-theme="catppuccin-mocha-peach"] .checkbox.checked:hover {
-  background-color: #f9a46f;
+  background-color: #f9a36f;
 }
 html[data-theme="catppuccin-mocha-peach"] .checkbox.checked .knob {
   background-color: #1e1e2e;
@@ -3704,7 +3704,7 @@ html[data-theme="catppuccin-mocha-peach"] input.rangeInput::-webkit-slider-thumb
   box-shadow: inset 0 0 0 calc(10px*var(--ui-scale)) #313244;
 }
 html[data-theme="catppuccin-mocha-peach"] input.rangeInput:hover::-webkit-slider-thumb {
-  box-shadow: inset 0 0 0 calc(10px*var(--ui-scale)) #272735;
+  box-shadow: inset 0 0 0 calc(10px*var(--ui-scale)) #262735;
 }
 html[data-theme="catppuccin-mocha-peach"] #state_MainMenuState {
   background: #1e1e2e 50% / cover !important;
@@ -3817,7 +3817,7 @@ html[data-theme="catppuccin-mocha-peach"] #state_SettingsState .container .conte
 }
 html[data-theme="catppuccin-mocha-peach"] #state_SettingsState .container .content .sidebar button.manageMods {
   color: #f5c2e7;
-  background-color: #342f41;
+  background-color: #332e41;
 }
 html[data-theme="catppuccin-mocha-peach"] #state_SettingsState .container .content .sidebar button.manageMods.newBadge {
   color: #1e1e2e;
@@ -4278,7 +4278,7 @@ html[data-theme="catppuccin-mocha-yellow"] input.rangeInput::-webkit-slider-thum
   box-shadow: inset 0 0 0 calc(10px*var(--ui-scale)) #313244;
 }
 html[data-theme="catppuccin-mocha-yellow"] input.rangeInput:hover::-webkit-slider-thumb {
-  box-shadow: inset 0 0 0 calc(10px*var(--ui-scale)) #272735;
+  box-shadow: inset 0 0 0 calc(10px*var(--ui-scale)) #262735;
 }
 html[data-theme="catppuccin-mocha-yellow"] #state_MainMenuState {
   background: #1e1e2e 50% / cover !important;
@@ -4391,7 +4391,7 @@ html[data-theme="catppuccin-mocha-yellow"] #state_SettingsState .container .cont
 }
 html[data-theme="catppuccin-mocha-yellow"] #state_SettingsState .container .content .sidebar button.manageMods {
   color: #f5c2e7;
-  background-color: #342f41;
+  background-color: #332e41;
 }
 html[data-theme="catppuccin-mocha-yellow"] #state_SettingsState .container .content .sidebar button.manageMods.newBadge {
   color: #1e1e2e;
@@ -4839,7 +4839,7 @@ html[data-theme="catppuccin-mocha-green"] .checkbox.checked {
   background-color: #a6e3a1;
 }
 html[data-theme="catppuccin-mocha-green"] .checkbox.checked:hover {
-  background-color: #94dd8d;
+  background-color: #93dd8d;
 }
 html[data-theme="catppuccin-mocha-green"] .checkbox.checked .knob {
   background-color: #1e1e2e;
@@ -4852,7 +4852,7 @@ html[data-theme="catppuccin-mocha-green"] input.rangeInput::-webkit-slider-thumb
   box-shadow: inset 0 0 0 calc(10px*var(--ui-scale)) #313244;
 }
 html[data-theme="catppuccin-mocha-green"] input.rangeInput:hover::-webkit-slider-thumb {
-  box-shadow: inset 0 0 0 calc(10px*var(--ui-scale)) #272735;
+  box-shadow: inset 0 0 0 calc(10px*var(--ui-scale)) #262735;
 }
 html[data-theme="catppuccin-mocha-green"] #state_MainMenuState {
   background: #1e1e2e 50% / cover !important;
@@ -4965,7 +4965,7 @@ html[data-theme="catppuccin-mocha-green"] #state_SettingsState .container .conte
 }
 html[data-theme="catppuccin-mocha-green"] #state_SettingsState .container .content .sidebar button.manageMods {
   color: #f5c2e7;
-  background-color: #342f41;
+  background-color: #332e41;
 }
 html[data-theme="catppuccin-mocha-green"] #state_SettingsState .container .content .sidebar button.manageMods.newBadge {
   color: #1e1e2e;
@@ -5413,7 +5413,7 @@ html[data-theme="catppuccin-mocha-teal"] .checkbox.checked {
   background-color: #94e2d5;
 }
 html[data-theme="catppuccin-mocha-teal"] .checkbox.checked:hover {
-  background-color: #80dccd;
+  background-color: #80ddcd;
 }
 html[data-theme="catppuccin-mocha-teal"] .checkbox.checked .knob {
   background-color: #1e1e2e;
@@ -5426,7 +5426,7 @@ html[data-theme="catppuccin-mocha-teal"] input.rangeInput::-webkit-slider-thumb 
   box-shadow: inset 0 0 0 calc(10px*var(--ui-scale)) #313244;
 }
 html[data-theme="catppuccin-mocha-teal"] input.rangeInput:hover::-webkit-slider-thumb {
-  box-shadow: inset 0 0 0 calc(10px*var(--ui-scale)) #272735;
+  box-shadow: inset 0 0 0 calc(10px*var(--ui-scale)) #262735;
 }
 html[data-theme="catppuccin-mocha-teal"] #state_MainMenuState {
   background: #1e1e2e 50% / cover !important;
@@ -5539,7 +5539,7 @@ html[data-theme="catppuccin-mocha-teal"] #state_SettingsState .container .conten
 }
 html[data-theme="catppuccin-mocha-teal"] #state_SettingsState .container .content .sidebar button.manageMods {
   color: #f5c2e7;
-  background-color: #342f41;
+  background-color: #332e41;
 }
 html[data-theme="catppuccin-mocha-teal"] #state_SettingsState .container .content .sidebar button.manageMods.newBadge {
   color: #1e1e2e;
@@ -6000,7 +6000,7 @@ html[data-theme="catppuccin-mocha-sky"] input.rangeInput::-webkit-slider-thumb {
   box-shadow: inset 0 0 0 calc(10px*var(--ui-scale)) #313244;
 }
 html[data-theme="catppuccin-mocha-sky"] input.rangeInput:hover::-webkit-slider-thumb {
-  box-shadow: inset 0 0 0 calc(10px*var(--ui-scale)) #272735;
+  box-shadow: inset 0 0 0 calc(10px*var(--ui-scale)) #262735;
 }
 html[data-theme="catppuccin-mocha-sky"] #state_MainMenuState {
   background: #1e1e2e 50% / cover !important;
@@ -6113,7 +6113,7 @@ html[data-theme="catppuccin-mocha-sky"] #state_SettingsState .container .content
 }
 html[data-theme="catppuccin-mocha-sky"] #state_SettingsState .container .content .sidebar button.manageMods {
   color: #f5c2e7;
-  background-color: #342f41;
+  background-color: #332e41;
 }
 html[data-theme="catppuccin-mocha-sky"] #state_SettingsState .container .content .sidebar button.manageMods.newBadge {
   color: #1e1e2e;
@@ -6561,7 +6561,7 @@ html[data-theme="catppuccin-mocha-sapphire"] .checkbox.checked {
   background-color: #74c7ec;
 }
 html[data-theme="catppuccin-mocha-sapphire"] .checkbox.checked:hover {
-  background-color: #5dbde9;
+  background-color: #5ebee9;
 }
 html[data-theme="catppuccin-mocha-sapphire"] .checkbox.checked .knob {
   background-color: #1e1e2e;
@@ -6574,7 +6574,7 @@ html[data-theme="catppuccin-mocha-sapphire"] input.rangeInput::-webkit-slider-th
   box-shadow: inset 0 0 0 calc(10px*var(--ui-scale)) #313244;
 }
 html[data-theme="catppuccin-mocha-sapphire"] input.rangeInput:hover::-webkit-slider-thumb {
-  box-shadow: inset 0 0 0 calc(10px*var(--ui-scale)) #272735;
+  box-shadow: inset 0 0 0 calc(10px*var(--ui-scale)) #262735;
 }
 html[data-theme="catppuccin-mocha-sapphire"] #state_MainMenuState {
   background: #1e1e2e 50% / cover !important;
@@ -6687,7 +6687,7 @@ html[data-theme="catppuccin-mocha-sapphire"] #state_SettingsState .container .co
 }
 html[data-theme="catppuccin-mocha-sapphire"] #state_SettingsState .container .content .sidebar button.manageMods {
   color: #f5c2e7;
-  background-color: #342f41;
+  background-color: #332e41;
 }
 html[data-theme="catppuccin-mocha-sapphire"] #state_SettingsState .container .content .sidebar button.manageMods.newBadge {
   color: #1e1e2e;
@@ -7135,7 +7135,7 @@ html[data-theme="catppuccin-mocha-blue"] .checkbox.checked {
   background-color: #89b4fa;
 }
 html[data-theme="catppuccin-mocha-blue"] .checkbox.checked:hover {
-  background-color: #71a5f9;
+  background-color: #71a4f9;
 }
 html[data-theme="catppuccin-mocha-blue"] .checkbox.checked .knob {
   background-color: #1e1e2e;
@@ -7148,7 +7148,7 @@ html[data-theme="catppuccin-mocha-blue"] input.rangeInput::-webkit-slider-thumb 
   box-shadow: inset 0 0 0 calc(10px*var(--ui-scale)) #313244;
 }
 html[data-theme="catppuccin-mocha-blue"] input.rangeInput:hover::-webkit-slider-thumb {
-  box-shadow: inset 0 0 0 calc(10px*var(--ui-scale)) #272735;
+  box-shadow: inset 0 0 0 calc(10px*var(--ui-scale)) #262735;
 }
 html[data-theme="catppuccin-mocha-blue"] #state_MainMenuState {
   background: #1e1e2e 50% / cover !important;
@@ -7261,7 +7261,7 @@ html[data-theme="catppuccin-mocha-blue"] #state_SettingsState .container .conten
 }
 html[data-theme="catppuccin-mocha-blue"] #state_SettingsState .container .content .sidebar button.manageMods {
   color: #f5c2e7;
-  background-color: #342f41;
+  background-color: #332e41;
 }
 html[data-theme="catppuccin-mocha-blue"] #state_SettingsState .container .content .sidebar button.manageMods.newBadge {
   color: #1e1e2e;
@@ -7709,7 +7709,7 @@ html[data-theme="catppuccin-mocha-lavender"] .checkbox.checked {
   background-color: #b4befe;
 }
 html[data-theme="catppuccin-mocha-lavender"] .checkbox.checked:hover {
-  background-color: #9aa8fe;
+  background-color: #9ba8fe;
 }
 html[data-theme="catppuccin-mocha-lavender"] .checkbox.checked .knob {
   background-color: #1e1e2e;
@@ -7722,7 +7722,7 @@ html[data-theme="catppuccin-mocha-lavender"] input.rangeInput::-webkit-slider-th
   box-shadow: inset 0 0 0 calc(10px*var(--ui-scale)) #313244;
 }
 html[data-theme="catppuccin-mocha-lavender"] input.rangeInput:hover::-webkit-slider-thumb {
-  box-shadow: inset 0 0 0 calc(10px*var(--ui-scale)) #272735;
+  box-shadow: inset 0 0 0 calc(10px*var(--ui-scale)) #262735;
 }
 html[data-theme="catppuccin-mocha-lavender"] #state_MainMenuState {
   background: #1e1e2e 50% / cover !important;
@@ -7835,7 +7835,7 @@ html[data-theme="catppuccin-mocha-lavender"] #state_SettingsState .container .co
 }
 html[data-theme="catppuccin-mocha-lavender"] #state_SettingsState .container .content .sidebar button.manageMods {
   color: #f5c2e7;
-  background-color: #342f41;
+  background-color: #332e41;
 }
 html[data-theme="catppuccin-mocha-lavender"] #state_SettingsState .container .content .sidebar button.manageMods.newBadge {
   color: #1e1e2e;
