@@ -590,13 +590,16 @@ html[data-theme="catppuccin-mocha-rosewater"] #ingame_HUD_UnlockNotification {
   background-color: rgba(30, 30, 46, 0.0098);
   background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAAAXNSR0IArs4c6QAAAbBJREFUeJztmTFuwkAQRX+ilO6hcuMDoKRIkzbH5gQUiXIAN66g9wHSLJIVsbNr45k/DvMkGrBHs09mYfYDQRAEwePylPvg9e3TtpN6WgB7ADsATXpvBHABcAYw3Lrp++t4s9iLZqcr0wI4TBY9pUmvLl3zkxPxl60IeE+Lq6EB8JGeklPp4uf7e1NnzuKndOleEe8C2oWLv9KlGlm8Czho1/AsoM1seHNppKfAs4C9RS3PAnYWtTwLWOPxL9byLMAEzwJGi1qeBVwsankWcLao5VnAsNLXYJQGI88CkKY61RreBQwA+jvu70tjsXcBSCPtEgl9zTi8lfOAU9rIcgciU8b/eCCCtKBh6ZFYji0JuDLMXaTEFvYAVUIAuwE2IYDdAJsQwG6ATQhgN8AmBLAbYLNkFlh1GGEzR4BKPs+mVoBaPs+mZg9QzefZlASo5/NsSgLU83k2kgCTfJ6NJMAkn2cjCTDJ59lIAkzyeTYP/1dYEmCSz7ORBJjk82wkASb5PBtJgEk+z6a0Carn82xKAtTzeTY1P4Oq+Tyb2vMAtXyezZwTIZV8PgiCIAh4/AK3y1Hg1Nsv8AAAAABJRU5ErkJggg==");
 }
-html[data-theme="catppuccin-mocha-rosewater"] #ingame_HUD_UnlockNotification .subTitle {
+html[data-theme="catppuccin-mocha-rosewater"] #ingame_HUD_UnlockNotification .dialog {
+  color: #cdd6f4;
+}
+html[data-theme="catppuccin-mocha-rosewater"] #ingame_HUD_UnlockNotification .dialog .subTitle {
   color: #a6e3a1;
 }
-html[data-theme="catppuccin-mocha-rosewater"] #ingame_HUD_UnlockNotification .contents .rewardDesc {
+html[data-theme="catppuccin-mocha-rosewater"] #ingame_HUD_UnlockNotification .dialog .contents .rewardDesc {
   color: #a6adc8;
 }
-html[data-theme="catppuccin-mocha-rosewater"] #ingame_HUD_UnlockNotification .contents .rewardDesc strong {
+html[data-theme="catppuccin-mocha-rosewater"] #ingame_HUD_UnlockNotification .dialog .contents .rewardDesc strong {
   color: #cdd6f4;
 }
 html[data-theme="catppuccin-mocha-rosewater"] #ingame_HUD_TutorialHints .header {
@@ -1163,13 +1166,16 @@ html[data-theme="catppuccin-mocha-flamingo"] #ingame_HUD_UnlockNotification {
   background-color: rgba(30, 30, 46, 0.0098);
   background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAAAXNSR0IArs4c6QAAAbBJREFUeJztmTFuwkAQRX+ilO6hcuMDoKRIkzbH5gQUiXIAN66g9wHSLJIVsbNr45k/DvMkGrBHs09mYfYDQRAEwePylPvg9e3TtpN6WgB7ADsATXpvBHABcAYw3Lrp++t4s9iLZqcr0wI4TBY9pUmvLl3zkxPxl60IeE+Lq6EB8JGeklPp4uf7e1NnzuKndOleEe8C2oWLv9KlGlm8Czho1/AsoM1seHNppKfAs4C9RS3PAnYWtTwLWOPxL9byLMAEzwJGi1qeBVwsankWcLao5VnAsNLXYJQGI88CkKY61RreBQwA+jvu70tjsXcBSCPtEgl9zTi8lfOAU9rIcgciU8b/eCCCtKBh6ZFYji0JuDLMXaTEFvYAVUIAuwE2IYDdAJsQwG6ATQhgN8AmBLAbYLNkFlh1GGEzR4BKPs+mVoBaPs+mZg9QzefZlASo5/NsSgLU83k2kgCTfJ6NJMAkn2cjCTDJ59lIAkzyeTYP/1dYEmCSz7ORBJjk82wkASb5PBtJgEk+z6a0Carn82xKAtTzeTY1P4Oq+Tyb2vMAtXyezZwTIZV8PgiCIAh4/AK3y1Hg1Nsv8AAAAABJRU5ErkJggg==");
 }
-html[data-theme="catppuccin-mocha-flamingo"] #ingame_HUD_UnlockNotification .subTitle {
+html[data-theme="catppuccin-mocha-flamingo"] #ingame_HUD_UnlockNotification .dialog {
+  color: #cdd6f4;
+}
+html[data-theme="catppuccin-mocha-flamingo"] #ingame_HUD_UnlockNotification .dialog .subTitle {
   color: #a6e3a1;
 }
-html[data-theme="catppuccin-mocha-flamingo"] #ingame_HUD_UnlockNotification .contents .rewardDesc {
+html[data-theme="catppuccin-mocha-flamingo"] #ingame_HUD_UnlockNotification .dialog .contents .rewardDesc {
   color: #a6adc8;
 }
-html[data-theme="catppuccin-mocha-flamingo"] #ingame_HUD_UnlockNotification .contents .rewardDesc strong {
+html[data-theme="catppuccin-mocha-flamingo"] #ingame_HUD_UnlockNotification .dialog .contents .rewardDesc strong {
   color: #cdd6f4;
 }
 html[data-theme="catppuccin-mocha-flamingo"] #ingame_HUD_TutorialHints .header {
@@ -1736,13 +1742,16 @@ html[data-theme="catppuccin-mocha-pink"] #ingame_HUD_UnlockNotification {
   background-color: rgba(30, 30, 46, 0.0098);
   background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAAAXNSR0IArs4c6QAAAbBJREFUeJztmTFuwkAQRX+ilO6hcuMDoKRIkzbH5gQUiXIAN66g9wHSLJIVsbNr45k/DvMkGrBHs09mYfYDQRAEwePylPvg9e3TtpN6WgB7ADsATXpvBHABcAYw3Lrp++t4s9iLZqcr0wI4TBY9pUmvLl3zkxPxl60IeE+Lq6EB8JGeklPp4uf7e1NnzuKndOleEe8C2oWLv9KlGlm8Czho1/AsoM1seHNppKfAs4C9RS3PAnYWtTwLWOPxL9byLMAEzwJGi1qeBVwsankWcLao5VnAsNLXYJQGI88CkKY61RreBQwA+jvu70tjsXcBSCPtEgl9zTi8lfOAU9rIcgciU8b/eCCCtKBh6ZFYji0JuDLMXaTEFvYAVUIAuwE2IYDdAJsQwG6ATQhgN8AmBLAbYLNkFlh1GGEzR4BKPs+mVoBaPs+mZg9QzefZlASo5/NsSgLU83k2kgCTfJ6NJMAkn2cjCTDJ59lIAkzyeTYP/1dYEmCSz7ORBJjk82wkASb5PBtJgEk+z6a0Carn82xKAtTzeTY1P4Oq+Tyb2vMAtXyezZwTIZV8PgiCIAh4/AK3y1Hg1Nsv8AAAAABJRU5ErkJggg==");
 }
-html[data-theme="catppuccin-mocha-pink"] #ingame_HUD_UnlockNotification .subTitle {
+html[data-theme="catppuccin-mocha-pink"] #ingame_HUD_UnlockNotification .dialog {
+  color: #cdd6f4;
+}
+html[data-theme="catppuccin-mocha-pink"] #ingame_HUD_UnlockNotification .dialog .subTitle {
   color: #a6e3a1;
 }
-html[data-theme="catppuccin-mocha-pink"] #ingame_HUD_UnlockNotification .contents .rewardDesc {
+html[data-theme="catppuccin-mocha-pink"] #ingame_HUD_UnlockNotification .dialog .contents .rewardDesc {
   color: #a6adc8;
 }
-html[data-theme="catppuccin-mocha-pink"] #ingame_HUD_UnlockNotification .contents .rewardDesc strong {
+html[data-theme="catppuccin-mocha-pink"] #ingame_HUD_UnlockNotification .dialog .contents .rewardDesc strong {
   color: #cdd6f4;
 }
 html[data-theme="catppuccin-mocha-pink"] #ingame_HUD_TutorialHints .header {
@@ -2309,13 +2318,16 @@ html[data-theme="catppuccin-mocha-mauve"] #ingame_HUD_UnlockNotification {
   background-color: rgba(30, 30, 46, 0.0098);
   background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAAAXNSR0IArs4c6QAAAbBJREFUeJztmTFuwkAQRX+ilO6hcuMDoKRIkzbH5gQUiXIAN66g9wHSLJIVsbNr45k/DvMkGrBHs09mYfYDQRAEwePylPvg9e3TtpN6WgB7ADsATXpvBHABcAYw3Lrp++t4s9iLZqcr0wI4TBY9pUmvLl3zkxPxl60IeE+Lq6EB8JGeklPp4uf7e1NnzuKndOleEe8C2oWLv9KlGlm8Czho1/AsoM1seHNppKfAs4C9RS3PAnYWtTwLWOPxL9byLMAEzwJGi1qeBVwsankWcLao5VnAsNLXYJQGI88CkKY61RreBQwA+jvu70tjsXcBSCPtEgl9zTi8lfOAU9rIcgciU8b/eCCCtKBh6ZFYji0JuDLMXaTEFvYAVUIAuwE2IYDdAJsQwG6ATQhgN8AmBLAbYLNkFlh1GGEzR4BKPs+mVoBaPs+mZg9QzefZlASo5/NsSgLU83k2kgCTfJ6NJMAkn2cjCTDJ59lIAkzyeTYP/1dYEmCSz7ORBJjk82wkASb5PBtJgEk+z6a0Carn82xKAtTzeTY1P4Oq+Tyb2vMAtXyezZwTIZV8PgiCIAh4/AK3y1Hg1Nsv8AAAAABJRU5ErkJggg==");
 }
-html[data-theme="catppuccin-mocha-mauve"] #ingame_HUD_UnlockNotification .subTitle {
+html[data-theme="catppuccin-mocha-mauve"] #ingame_HUD_UnlockNotification .dialog {
+  color: #cdd6f4;
+}
+html[data-theme="catppuccin-mocha-mauve"] #ingame_HUD_UnlockNotification .dialog .subTitle {
   color: #a6e3a1;
 }
-html[data-theme="catppuccin-mocha-mauve"] #ingame_HUD_UnlockNotification .contents .rewardDesc {
+html[data-theme="catppuccin-mocha-mauve"] #ingame_HUD_UnlockNotification .dialog .contents .rewardDesc {
   color: #a6adc8;
 }
-html[data-theme="catppuccin-mocha-mauve"] #ingame_HUD_UnlockNotification .contents .rewardDesc strong {
+html[data-theme="catppuccin-mocha-mauve"] #ingame_HUD_UnlockNotification .dialog .contents .rewardDesc strong {
   color: #cdd6f4;
 }
 html[data-theme="catppuccin-mocha-mauve"] #ingame_HUD_TutorialHints .header {
@@ -2882,13 +2894,16 @@ html[data-theme="catppuccin-mocha-red"] #ingame_HUD_UnlockNotification {
   background-color: rgba(30, 30, 46, 0.0098);
   background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAAAXNSR0IArs4c6QAAAbBJREFUeJztmTFuwkAQRX+ilO6hcuMDoKRIkzbH5gQUiXIAN66g9wHSLJIVsbNr45k/DvMkGrBHs09mYfYDQRAEwePylPvg9e3TtpN6WgB7ADsATXpvBHABcAYw3Lrp++t4s9iLZqcr0wI4TBY9pUmvLl3zkxPxl60IeE+Lq6EB8JGeklPp4uf7e1NnzuKndOleEe8C2oWLv9KlGlm8Czho1/AsoM1seHNppKfAs4C9RS3PAnYWtTwLWOPxL9byLMAEzwJGi1qeBVwsankWcLao5VnAsNLXYJQGI88CkKY61RreBQwA+jvu70tjsXcBSCPtEgl9zTi8lfOAU9rIcgciU8b/eCCCtKBh6ZFYji0JuDLMXaTEFvYAVUIAuwE2IYDdAJsQwG6ATQhgN8AmBLAbYLNkFlh1GGEzR4BKPs+mVoBaPs+mZg9QzefZlASo5/NsSgLU83k2kgCTfJ6NJMAkn2cjCTDJ59lIAkzyeTYP/1dYEmCSz7ORBJjk82wkASb5PBtJgEk+z6a0Carn82xKAtTzeTY1P4Oq+Tyb2vMAtXyezZwTIZV8PgiCIAh4/AK3y1Hg1Nsv8AAAAABJRU5ErkJggg==");
 }
-html[data-theme="catppuccin-mocha-red"] #ingame_HUD_UnlockNotification .subTitle {
+html[data-theme="catppuccin-mocha-red"] #ingame_HUD_UnlockNotification .dialog {
+  color: #cdd6f4;
+}
+html[data-theme="catppuccin-mocha-red"] #ingame_HUD_UnlockNotification .dialog .subTitle {
   color: #a6e3a1;
 }
-html[data-theme="catppuccin-mocha-red"] #ingame_HUD_UnlockNotification .contents .rewardDesc {
+html[data-theme="catppuccin-mocha-red"] #ingame_HUD_UnlockNotification .dialog .contents .rewardDesc {
   color: #a6adc8;
 }
-html[data-theme="catppuccin-mocha-red"] #ingame_HUD_UnlockNotification .contents .rewardDesc strong {
+html[data-theme="catppuccin-mocha-red"] #ingame_HUD_UnlockNotification .dialog .contents .rewardDesc strong {
   color: #cdd6f4;
 }
 html[data-theme="catppuccin-mocha-red"] #ingame_HUD_TutorialHints .header {
@@ -3455,13 +3470,16 @@ html[data-theme="catppuccin-mocha-maroon"] #ingame_HUD_UnlockNotification {
   background-color: rgba(30, 30, 46, 0.0098);
   background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAAAXNSR0IArs4c6QAAAbBJREFUeJztmTFuwkAQRX+ilO6hcuMDoKRIkzbH5gQUiXIAN66g9wHSLJIVsbNr45k/DvMkGrBHs09mYfYDQRAEwePylPvg9e3TtpN6WgB7ADsATXpvBHABcAYw3Lrp++t4s9iLZqcr0wI4TBY9pUmvLl3zkxPxl60IeE+Lq6EB8JGeklPp4uf7e1NnzuKndOleEe8C2oWLv9KlGlm8Czho1/AsoM1seHNppKfAs4C9RS3PAnYWtTwLWOPxL9byLMAEzwJGi1qeBVwsankWcLao5VnAsNLXYJQGI88CkKY61RreBQwA+jvu70tjsXcBSCPtEgl9zTi8lfOAU9rIcgciU8b/eCCCtKBh6ZFYji0JuDLMXaTEFvYAVUIAuwE2IYDdAJsQwG6ATQhgN8AmBLAbYLNkFlh1GGEzR4BKPs+mVoBaPs+mZg9QzefZlASo5/NsSgLU83k2kgCTfJ6NJMAkn2cjCTDJ59lIAkzyeTYP/1dYEmCSz7ORBJjk82wkASb5PBtJgEk+z6a0Carn82xKAtTzeTY1P4Oq+Tyb2vMAtXyezZwTIZV8PgiCIAh4/AK3y1Hg1Nsv8AAAAABJRU5ErkJggg==");
 }
-html[data-theme="catppuccin-mocha-maroon"] #ingame_HUD_UnlockNotification .subTitle {
+html[data-theme="catppuccin-mocha-maroon"] #ingame_HUD_UnlockNotification .dialog {
+  color: #cdd6f4;
+}
+html[data-theme="catppuccin-mocha-maroon"] #ingame_HUD_UnlockNotification .dialog .subTitle {
   color: #a6e3a1;
 }
-html[data-theme="catppuccin-mocha-maroon"] #ingame_HUD_UnlockNotification .contents .rewardDesc {
+html[data-theme="catppuccin-mocha-maroon"] #ingame_HUD_UnlockNotification .dialog .contents .rewardDesc {
   color: #a6adc8;
 }
-html[data-theme="catppuccin-mocha-maroon"] #ingame_HUD_UnlockNotification .contents .rewardDesc strong {
+html[data-theme="catppuccin-mocha-maroon"] #ingame_HUD_UnlockNotification .dialog .contents .rewardDesc strong {
   color: #cdd6f4;
 }
 html[data-theme="catppuccin-mocha-maroon"] #ingame_HUD_TutorialHints .header {
@@ -4028,13 +4046,16 @@ html[data-theme="catppuccin-mocha-peach"] #ingame_HUD_UnlockNotification {
   background-color: rgba(30, 30, 46, 0.0098);
   background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAAAXNSR0IArs4c6QAAAbBJREFUeJztmTFuwkAQRX+ilO6hcuMDoKRIkzbH5gQUiXIAN66g9wHSLJIVsbNr45k/DvMkGrBHs09mYfYDQRAEwePylPvg9e3TtpN6WgB7ADsATXpvBHABcAYw3Lrp++t4s9iLZqcr0wI4TBY9pUmvLl3zkxPxl60IeE+Lq6EB8JGeklPp4uf7e1NnzuKndOleEe8C2oWLv9KlGlm8Czho1/AsoM1seHNppKfAs4C9RS3PAnYWtTwLWOPxL9byLMAEzwJGi1qeBVwsankWcLao5VnAsNLXYJQGI88CkKY61RreBQwA+jvu70tjsXcBSCPtEgl9zTi8lfOAU9rIcgciU8b/eCCCtKBh6ZFYji0JuDLMXaTEFvYAVUIAuwE2IYDdAJsQwG6ATQhgN8AmBLAbYLNkFlh1GGEzR4BKPs+mVoBaPs+mZg9QzefZlASo5/NsSgLU83k2kgCTfJ6NJMAkn2cjCTDJ59lIAkzyeTYP/1dYEmCSz7ORBJjk82wkASb5PBtJgEk+z6a0Carn82xKAtTzeTY1P4Oq+Tyb2vMAtXyezZwTIZV8PgiCIAh4/AK3y1Hg1Nsv8AAAAABJRU5ErkJggg==");
 }
-html[data-theme="catppuccin-mocha-peach"] #ingame_HUD_UnlockNotification .subTitle {
+html[data-theme="catppuccin-mocha-peach"] #ingame_HUD_UnlockNotification .dialog {
+  color: #cdd6f4;
+}
+html[data-theme="catppuccin-mocha-peach"] #ingame_HUD_UnlockNotification .dialog .subTitle {
   color: #a6e3a1;
 }
-html[data-theme="catppuccin-mocha-peach"] #ingame_HUD_UnlockNotification .contents .rewardDesc {
+html[data-theme="catppuccin-mocha-peach"] #ingame_HUD_UnlockNotification .dialog .contents .rewardDesc {
   color: #a6adc8;
 }
-html[data-theme="catppuccin-mocha-peach"] #ingame_HUD_UnlockNotification .contents .rewardDesc strong {
+html[data-theme="catppuccin-mocha-peach"] #ingame_HUD_UnlockNotification .dialog .contents .rewardDesc strong {
   color: #cdd6f4;
 }
 html[data-theme="catppuccin-mocha-peach"] #ingame_HUD_TutorialHints .header {
@@ -4601,13 +4622,16 @@ html[data-theme="catppuccin-mocha-yellow"] #ingame_HUD_UnlockNotification {
   background-color: rgba(30, 30, 46, 0.0098);
   background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAAAXNSR0IArs4c6QAAAbBJREFUeJztmTFuwkAQRX+ilO6hcuMDoKRIkzbH5gQUiXIAN66g9wHSLJIVsbNr45k/DvMkGrBHs09mYfYDQRAEwePylPvg9e3TtpN6WgB7ADsATXpvBHABcAYw3Lrp++t4s9iLZqcr0wI4TBY9pUmvLl3zkxPxl60IeE+Lq6EB8JGeklPp4uf7e1NnzuKndOleEe8C2oWLv9KlGlm8Czho1/AsoM1seHNppKfAs4C9RS3PAnYWtTwLWOPxL9byLMAEzwJGi1qeBVwsankWcLao5VnAsNLXYJQGI88CkKY61RreBQwA+jvu70tjsXcBSCPtEgl9zTi8lfOAU9rIcgciU8b/eCCCtKBh6ZFYji0JuDLMXaTEFvYAVUIAuwE2IYDdAJsQwG6ATQhgN8AmBLAbYLNkFlh1GGEzR4BKPs+mVoBaPs+mZg9QzefZlASo5/NsSgLU83k2kgCTfJ6NJMAkn2cjCTDJ59lIAkzyeTYP/1dYEmCSz7ORBJjk82wkASb5PBtJgEk+z6a0Carn82xKAtTzeTY1P4Oq+Tyb2vMAtXyezZwTIZV8PgiCIAh4/AK3y1Hg1Nsv8AAAAABJRU5ErkJggg==");
 }
-html[data-theme="catppuccin-mocha-yellow"] #ingame_HUD_UnlockNotification .subTitle {
+html[data-theme="catppuccin-mocha-yellow"] #ingame_HUD_UnlockNotification .dialog {
+  color: #cdd6f4;
+}
+html[data-theme="catppuccin-mocha-yellow"] #ingame_HUD_UnlockNotification .dialog .subTitle {
   color: #a6e3a1;
 }
-html[data-theme="catppuccin-mocha-yellow"] #ingame_HUD_UnlockNotification .contents .rewardDesc {
+html[data-theme="catppuccin-mocha-yellow"] #ingame_HUD_UnlockNotification .dialog .contents .rewardDesc {
   color: #a6adc8;
 }
-html[data-theme="catppuccin-mocha-yellow"] #ingame_HUD_UnlockNotification .contents .rewardDesc strong {
+html[data-theme="catppuccin-mocha-yellow"] #ingame_HUD_UnlockNotification .dialog .contents .rewardDesc strong {
   color: #cdd6f4;
 }
 html[data-theme="catppuccin-mocha-yellow"] #ingame_HUD_TutorialHints .header {
@@ -5174,13 +5198,16 @@ html[data-theme="catppuccin-mocha-green"] #ingame_HUD_UnlockNotification {
   background-color: rgba(30, 30, 46, 0.0098);
   background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAAAXNSR0IArs4c6QAAAbBJREFUeJztmTFuwkAQRX+ilO6hcuMDoKRIkzbH5gQUiXIAN66g9wHSLJIVsbNr45k/DvMkGrBHs09mYfYDQRAEwePylPvg9e3TtpN6WgB7ADsATXpvBHABcAYw3Lrp++t4s9iLZqcr0wI4TBY9pUmvLl3zkxPxl60IeE+Lq6EB8JGeklPp4uf7e1NnzuKndOleEe8C2oWLv9KlGlm8Czho1/AsoM1seHNppKfAs4C9RS3PAnYWtTwLWOPxL9byLMAEzwJGi1qeBVwsankWcLao5VnAsNLXYJQGI88CkKY61RreBQwA+jvu70tjsXcBSCPtEgl9zTi8lfOAU9rIcgciU8b/eCCCtKBh6ZFYji0JuDLMXaTEFvYAVUIAuwE2IYDdAJsQwG6ATQhgN8AmBLAbYLNkFlh1GGEzR4BKPs+mVoBaPs+mZg9QzefZlASo5/NsSgLU83k2kgCTfJ6NJMAkn2cjCTDJ59lIAkzyeTYP/1dYEmCSz7ORBJjk82wkASb5PBtJgEk+z6a0Carn82xKAtTzeTY1P4Oq+Tyb2vMAtXyezZwTIZV8PgiCIAh4/AK3y1Hg1Nsv8AAAAABJRU5ErkJggg==");
 }
-html[data-theme="catppuccin-mocha-green"] #ingame_HUD_UnlockNotification .subTitle {
+html[data-theme="catppuccin-mocha-green"] #ingame_HUD_UnlockNotification .dialog {
+  color: #cdd6f4;
+}
+html[data-theme="catppuccin-mocha-green"] #ingame_HUD_UnlockNotification .dialog .subTitle {
   color: #a6e3a1;
 }
-html[data-theme="catppuccin-mocha-green"] #ingame_HUD_UnlockNotification .contents .rewardDesc {
+html[data-theme="catppuccin-mocha-green"] #ingame_HUD_UnlockNotification .dialog .contents .rewardDesc {
   color: #a6adc8;
 }
-html[data-theme="catppuccin-mocha-green"] #ingame_HUD_UnlockNotification .contents .rewardDesc strong {
+html[data-theme="catppuccin-mocha-green"] #ingame_HUD_UnlockNotification .dialog .contents .rewardDesc strong {
   color: #cdd6f4;
 }
 html[data-theme="catppuccin-mocha-green"] #ingame_HUD_TutorialHints .header {
@@ -5747,13 +5774,16 @@ html[data-theme="catppuccin-mocha-teal"] #ingame_HUD_UnlockNotification {
   background-color: rgba(30, 30, 46, 0.0098);
   background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAAAXNSR0IArs4c6QAAAbBJREFUeJztmTFuwkAQRX+ilO6hcuMDoKRIkzbH5gQUiXIAN66g9wHSLJIVsbNr45k/DvMkGrBHs09mYfYDQRAEwePylPvg9e3TtpN6WgB7ADsATXpvBHABcAYw3Lrp++t4s9iLZqcr0wI4TBY9pUmvLl3zkxPxl60IeE+Lq6EB8JGeklPp4uf7e1NnzuKndOleEe8C2oWLv9KlGlm8Czho1/AsoM1seHNppKfAs4C9RS3PAnYWtTwLWOPxL9byLMAEzwJGi1qeBVwsankWcLao5VnAsNLXYJQGI88CkKY61RreBQwA+jvu70tjsXcBSCPtEgl9zTi8lfOAU9rIcgciU8b/eCCCtKBh6ZFYji0JuDLMXaTEFvYAVUIAuwE2IYDdAJsQwG6ATQhgN8AmBLAbYLNkFlh1GGEzR4BKPs+mVoBaPs+mZg9QzefZlASo5/NsSgLU83k2kgCTfJ6NJMAkn2cjCTDJ59lIAkzyeTYP/1dYEmCSz7ORBJjk82wkASb5PBtJgEk+z6a0Carn82xKAtTzeTY1P4Oq+Tyb2vMAtXyezZwTIZV8PgiCIAh4/AK3y1Hg1Nsv8AAAAABJRU5ErkJggg==");
 }
-html[data-theme="catppuccin-mocha-teal"] #ingame_HUD_UnlockNotification .subTitle {
+html[data-theme="catppuccin-mocha-teal"] #ingame_HUD_UnlockNotification .dialog {
+  color: #cdd6f4;
+}
+html[data-theme="catppuccin-mocha-teal"] #ingame_HUD_UnlockNotification .dialog .subTitle {
   color: #a6e3a1;
 }
-html[data-theme="catppuccin-mocha-teal"] #ingame_HUD_UnlockNotification .contents .rewardDesc {
+html[data-theme="catppuccin-mocha-teal"] #ingame_HUD_UnlockNotification .dialog .contents .rewardDesc {
   color: #a6adc8;
 }
-html[data-theme="catppuccin-mocha-teal"] #ingame_HUD_UnlockNotification .contents .rewardDesc strong {
+html[data-theme="catppuccin-mocha-teal"] #ingame_HUD_UnlockNotification .dialog .contents .rewardDesc strong {
   color: #cdd6f4;
 }
 html[data-theme="catppuccin-mocha-teal"] #ingame_HUD_TutorialHints .header {
@@ -6320,13 +6350,16 @@ html[data-theme="catppuccin-mocha-sky"] #ingame_HUD_UnlockNotification {
   background-color: rgba(30, 30, 46, 0.0098);
   background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAAAXNSR0IArs4c6QAAAbBJREFUeJztmTFuwkAQRX+ilO6hcuMDoKRIkzbH5gQUiXIAN66g9wHSLJIVsbNr45k/DvMkGrBHs09mYfYDQRAEwePylPvg9e3TtpN6WgB7ADsATXpvBHABcAYw3Lrp++t4s9iLZqcr0wI4TBY9pUmvLl3zkxPxl60IeE+Lq6EB8JGeklPp4uf7e1NnzuKndOleEe8C2oWLv9KlGlm8Czho1/AsoM1seHNppKfAs4C9RS3PAnYWtTwLWOPxL9byLMAEzwJGi1qeBVwsankWcLao5VnAsNLXYJQGI88CkKY61RreBQwA+jvu70tjsXcBSCPtEgl9zTi8lfOAU9rIcgciU8b/eCCCtKBh6ZFYji0JuDLMXaTEFvYAVUIAuwE2IYDdAJsQwG6ATQhgN8AmBLAbYLNkFlh1GGEzR4BKPs+mVoBaPs+mZg9QzefZlASo5/NsSgLU83k2kgCTfJ6NJMAkn2cjCTDJ59lIAkzyeTYP/1dYEmCSz7ORBJjk82wkASb5PBtJgEk+z6a0Carn82xKAtTzeTY1P4Oq+Tyb2vMAtXyezZwTIZV8PgiCIAh4/AK3y1Hg1Nsv8AAAAABJRU5ErkJggg==");
 }
-html[data-theme="catppuccin-mocha-sky"] #ingame_HUD_UnlockNotification .subTitle {
+html[data-theme="catppuccin-mocha-sky"] #ingame_HUD_UnlockNotification .dialog {
+  color: #cdd6f4;
+}
+html[data-theme="catppuccin-mocha-sky"] #ingame_HUD_UnlockNotification .dialog .subTitle {
   color: #a6e3a1;
 }
-html[data-theme="catppuccin-mocha-sky"] #ingame_HUD_UnlockNotification .contents .rewardDesc {
+html[data-theme="catppuccin-mocha-sky"] #ingame_HUD_UnlockNotification .dialog .contents .rewardDesc {
   color: #a6adc8;
 }
-html[data-theme="catppuccin-mocha-sky"] #ingame_HUD_UnlockNotification .contents .rewardDesc strong {
+html[data-theme="catppuccin-mocha-sky"] #ingame_HUD_UnlockNotification .dialog .contents .rewardDesc strong {
   color: #cdd6f4;
 }
 html[data-theme="catppuccin-mocha-sky"] #ingame_HUD_TutorialHints .header {
@@ -6893,13 +6926,16 @@ html[data-theme="catppuccin-mocha-sapphire"] #ingame_HUD_UnlockNotification {
   background-color: rgba(30, 30, 46, 0.0098);
   background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAAAXNSR0IArs4c6QAAAbBJREFUeJztmTFuwkAQRX+ilO6hcuMDoKRIkzbH5gQUiXIAN66g9wHSLJIVsbNr45k/DvMkGrBHs09mYfYDQRAEwePylPvg9e3TtpN6WgB7ADsATXpvBHABcAYw3Lrp++t4s9iLZqcr0wI4TBY9pUmvLl3zkxPxl60IeE+Lq6EB8JGeklPp4uf7e1NnzuKndOleEe8C2oWLv9KlGlm8Czho1/AsoM1seHNppKfAs4C9RS3PAnYWtTwLWOPxL9byLMAEzwJGi1qeBVwsankWcLao5VnAsNLXYJQGI88CkKY61RreBQwA+jvu70tjsXcBSCPtEgl9zTi8lfOAU9rIcgciU8b/eCCCtKBh6ZFYji0JuDLMXaTEFvYAVUIAuwE2IYDdAJsQwG6ATQhgN8AmBLAbYLNkFlh1GGEzR4BKPs+mVoBaPs+mZg9QzefZlASo5/NsSgLU83k2kgCTfJ6NJMAkn2cjCTDJ59lIAkzyeTYP/1dYEmCSz7ORBJjk82wkASb5PBtJgEk+z6a0Carn82xKAtTzeTY1P4Oq+Tyb2vMAtXyezZwTIZV8PgiCIAh4/AK3y1Hg1Nsv8AAAAABJRU5ErkJggg==");
 }
-html[data-theme="catppuccin-mocha-sapphire"] #ingame_HUD_UnlockNotification .subTitle {
+html[data-theme="catppuccin-mocha-sapphire"] #ingame_HUD_UnlockNotification .dialog {
+  color: #cdd6f4;
+}
+html[data-theme="catppuccin-mocha-sapphire"] #ingame_HUD_UnlockNotification .dialog .subTitle {
   color: #a6e3a1;
 }
-html[data-theme="catppuccin-mocha-sapphire"] #ingame_HUD_UnlockNotification .contents .rewardDesc {
+html[data-theme="catppuccin-mocha-sapphire"] #ingame_HUD_UnlockNotification .dialog .contents .rewardDesc {
   color: #a6adc8;
 }
-html[data-theme="catppuccin-mocha-sapphire"] #ingame_HUD_UnlockNotification .contents .rewardDesc strong {
+html[data-theme="catppuccin-mocha-sapphire"] #ingame_HUD_UnlockNotification .dialog .contents .rewardDesc strong {
   color: #cdd6f4;
 }
 html[data-theme="catppuccin-mocha-sapphire"] #ingame_HUD_TutorialHints .header {
@@ -7466,13 +7502,16 @@ html[data-theme="catppuccin-mocha-blue"] #ingame_HUD_UnlockNotification {
   background-color: rgba(30, 30, 46, 0.0098);
   background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAAAXNSR0IArs4c6QAAAbBJREFUeJztmTFuwkAQRX+ilO6hcuMDoKRIkzbH5gQUiXIAN66g9wHSLJIVsbNr45k/DvMkGrBHs09mYfYDQRAEwePylPvg9e3TtpN6WgB7ADsATXpvBHABcAYw3Lrp++t4s9iLZqcr0wI4TBY9pUmvLl3zkxPxl60IeE+Lq6EB8JGeklPp4uf7e1NnzuKndOleEe8C2oWLv9KlGlm8Czho1/AsoM1seHNppKfAs4C9RS3PAnYWtTwLWOPxL9byLMAEzwJGi1qeBVwsankWcLao5VnAsNLXYJQGI88CkKY61RreBQwA+jvu70tjsXcBSCPtEgl9zTi8lfOAU9rIcgciU8b/eCCCtKBh6ZFYji0JuDLMXaTEFvYAVUIAuwE2IYDdAJsQwG6ATQhgN8AmBLAbYLNkFlh1GGEzR4BKPs+mVoBaPs+mZg9QzefZlASo5/NsSgLU83k2kgCTfJ6NJMAkn2cjCTDJ59lIAkzyeTYP/1dYEmCSz7ORBJjk82wkASb5PBtJgEk+z6a0Carn82xKAtTzeTY1P4Oq+Tyb2vMAtXyezZwTIZV8PgiCIAh4/AK3y1Hg1Nsv8AAAAABJRU5ErkJggg==");
 }
-html[data-theme="catppuccin-mocha-blue"] #ingame_HUD_UnlockNotification .subTitle {
+html[data-theme="catppuccin-mocha-blue"] #ingame_HUD_UnlockNotification .dialog {
+  color: #cdd6f4;
+}
+html[data-theme="catppuccin-mocha-blue"] #ingame_HUD_UnlockNotification .dialog .subTitle {
   color: #a6e3a1;
 }
-html[data-theme="catppuccin-mocha-blue"] #ingame_HUD_UnlockNotification .contents .rewardDesc {
+html[data-theme="catppuccin-mocha-blue"] #ingame_HUD_UnlockNotification .dialog .contents .rewardDesc {
   color: #a6adc8;
 }
-html[data-theme="catppuccin-mocha-blue"] #ingame_HUD_UnlockNotification .contents .rewardDesc strong {
+html[data-theme="catppuccin-mocha-blue"] #ingame_HUD_UnlockNotification .dialog .contents .rewardDesc strong {
   color: #cdd6f4;
 }
 html[data-theme="catppuccin-mocha-blue"] #ingame_HUD_TutorialHints .header {
@@ -8039,13 +8078,16 @@ html[data-theme="catppuccin-mocha-lavender"] #ingame_HUD_UnlockNotification {
   background-color: rgba(30, 30, 46, 0.0098);
   background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAAAXNSR0IArs4c6QAAAbBJREFUeJztmTFuwkAQRX+ilO6hcuMDoKRIkzbH5gQUiXIAN66g9wHSLJIVsbNr45k/DvMkGrBHs09mYfYDQRAEwePylPvg9e3TtpN6WgB7ADsATXpvBHABcAYw3Lrp++t4s9iLZqcr0wI4TBY9pUmvLl3zkxPxl60IeE+Lq6EB8JGeklPp4uf7e1NnzuKndOleEe8C2oWLv9KlGlm8Czho1/AsoM1seHNppKfAs4C9RS3PAnYWtTwLWOPxL9byLMAEzwJGi1qeBVwsankWcLao5VnAsNLXYJQGI88CkKY61RreBQwA+jvu70tjsXcBSCPtEgl9zTi8lfOAU9rIcgciU8b/eCCCtKBh6ZFYji0JuDLMXaTEFvYAVUIAuwE2IYDdAJsQwG6ATQhgN8AmBLAbYLNkFlh1GGEzR4BKPs+mVoBaPs+mZg9QzefZlASo5/NsSgLU83k2kgCTfJ6NJMAkn2cjCTDJ59lIAkzyeTYP/1dYEmCSz7ORBJjk82wkASb5PBtJgEk+z6a0Carn82xKAtTzeTY1P4Oq+Tyb2vMAtXyezZwTIZV8PgiCIAh4/AK3y1Hg1Nsv8AAAAABJRU5ErkJggg==");
 }
-html[data-theme="catppuccin-mocha-lavender"] #ingame_HUD_UnlockNotification .subTitle {
+html[data-theme="catppuccin-mocha-lavender"] #ingame_HUD_UnlockNotification .dialog {
+  color: #cdd6f4;
+}
+html[data-theme="catppuccin-mocha-lavender"] #ingame_HUD_UnlockNotification .dialog .subTitle {
   color: #a6e3a1;
 }
-html[data-theme="catppuccin-mocha-lavender"] #ingame_HUD_UnlockNotification .contents .rewardDesc {
+html[data-theme="catppuccin-mocha-lavender"] #ingame_HUD_UnlockNotification .dialog .contents .rewardDesc {
   color: #a6adc8;
 }
-html[data-theme="catppuccin-mocha-lavender"] #ingame_HUD_UnlockNotification .contents .rewardDesc strong {
+html[data-theme="catppuccin-mocha-lavender"] #ingame_HUD_UnlockNotification .dialog .contents .rewardDesc strong {
   color: #cdd6f4;
 }
 html[data-theme="catppuccin-mocha-lavender"] #ingame_HUD_TutorialHints .header {

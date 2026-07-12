@@ -471,7 +471,7 @@ html[data-theme="catppuccin-{{ flavor.identifier }}-{{ accent.identifier }}"] {
               color: @pink;
               background-color: mix(@pink, @base, 10%);
 
-              &.newBadge {
+              .newBadge {
                 color: @base;
                 background-color: @pink;
               }
