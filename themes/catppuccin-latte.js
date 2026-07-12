@@ -375,15 +375,17 @@ html[data-theme="catppuccin-latte-rosewater"] #state_SettingsState .container .c
   color: #ea76cb;
   background-color: #efe4f1;
 }
-html[data-theme="catppuccin-latte-rosewater"] #state_SettingsState .container .content .sidebar button.manageMods .newBadge {
+html[data-theme="catppuccin-latte-rosewater"] #state_SettingsState .container .content .sidebar button.manageMods.newBadge {
   color: #eff1f5;
   background-color: #ea76cb;
+}
+html[data-theme="catppuccin-latte-rosewater"] #state_SettingsState .container .content .sidebar .versionbar .buildVersion {
+  color: #6c6f85;
 }
 html[data-theme="catppuccin-latte-rosewater"] #state_SettingsState .container .content .categoryContainer .category .setting {
   background-color: #e6e9ef;
 }
-html[data-theme="catppuccin-latte-rosewater"] #state_SettingsState .container .content .categoryContainer .category .setting .desc,
-html[data-theme="catppuccin-latte-rosewater"] #state_SettingsState .container .content .sidebar .versionbar .buildVersion {
+html[data-theme="catppuccin-latte-rosewater"] #state_SettingsState .container .content .categoryContainer .category .setting .desc {
   color: #6c6f85;
 }
 html[data-theme="catppuccin-latte-rosewater"] #state_SettingsState .container .content .categoryContainer .category .setting .value.enum {
@@ -392,6 +394,10 @@ html[data-theme="catppuccin-latte-rosewater"] #state_SettingsState .container .c
 }
 html[data-theme="catppuccin-latte-rosewater"] #state_KeybindingsState .content .hint {
   background-color: #e6e9ef;
+}
+html[data-theme="catppuccin-latte-rosewater"] #state_KeybindingsState .content .category .entry {
+  color: #6c6f85;
+  border-bottom-color: #acb0be;
 }
 html[data-theme="catppuccin-latte-rosewater"] #state_KeybindingsState .content .category .entry .mapping {
   color: #dc8a78;
@@ -404,20 +410,20 @@ html[data-theme="catppuccin-latte-rosewater"] #state_KeybindingsState .content .
   filter: brightness(0) saturate(100%) invert(94%) sepia(22%) saturate(523%) hue-rotate(179deg) brightness(96%) contrast(76%);
   opacity: 1 !important;
 }
-html[data-theme="catppuccin-latte-rosewater"] #state_KeybindingsState .content .category .entry {
-  color: #6c6f85;
-  border-bottom-color: #acb0be;
-}
 html[data-theme="catppuccin-latte-rosewater"] #state_ModsState > .headerBar .openModsFolder {
   background-color: #ea76cb;
 }
 html[data-theme="catppuccin-latte-rosewater"] #state_ModsState .modsList .mod {
   background-color: #e6e9ef;
 }
-html[data-theme="catppuccin-latte-rosewater"] #state_ModsState .modsStats,
-html[data-theme="catppuccin-latte-rosewater"] #state_ModsState .modsList .mod .mainInfo .description,
+html[data-theme="catppuccin-latte-rosewater"] #state_ModsState .modsList .mod .mainInfo .description {
+  color: #6c6f85;
+}
 html[data-theme="catppuccin-latte-rosewater"] #state_ModsState .modsList .mod .author strong,
 html[data-theme="catppuccin-latte-rosewater"] #state_ModsState .modsList .mod .version strong {
+  color: #6c6f85;
+}
+html[data-theme="catppuccin-latte-rosewater"] #state_ModsState .modsStats {
   color: #6c6f85;
 }
 html[data-theme="catppuccin-latte-rosewater"] .gameState.textualState > .container > .content a {
@@ -425,11 +431,6 @@ html[data-theme="catppuccin-latte-rosewater"] .gameState.textualState > .contain
 }
 html[data-theme="catppuccin-latte-rosewater"] #ingame_HUD_KeybindingOverlay {
   color: #4c4f69;
-}
-html[data-theme="catppuccin-latte-rosewater"] .keybinding {
-  color: #ccd0da;
-  background-color: #9ca0b0;
-  border-color: #ccd0da;
 }
 html[data-theme="catppuccin-latte-rosewater"] #ingame_HUD_KeybindingOverlay > .binding label {
   color: #6c6f85;
@@ -442,6 +443,11 @@ html[data-theme="catppuccin-latte-rosewater"] #ingame_HUD_KeybindingOverlay > .b
 }
 html[data-theme="catppuccin-latte-rosewater"] #ingame_HUD_KeybindingOverlay > .binding code.rightMouse {
   background: #9ca0b0 url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAbJJREFUWIXt1r9rFEEYxvFPxMIm2AkiHNhETKNIigPRJiDESrFKII2QxkLBH41opZ21jRbB5tJoEQsRSSxNiih2ydmIIih25/0DNhNY92b35u520MKnmn1n5n2+7Du7804paefjp3KoqDYuYgHvcANand5DXMYGnn1dOvyhKsHc6Zk/ng/UuRV0As+xhfuYw3RhfhqzuI73rU5vo9XpnUlJnAKwiD1cKcX7FWOYDyDXJgVYQScBskqPh0HUAbTxZALzIsTCOABvGjDf16tRAe6UDtnECl9KMsDtJs2DbqUCtHEkA8Ch2FmIAZzLYL6vsykA84nJjhXGqeelXQ4cjCx6gW5CsreF8etEgIG8U+XAkLtgYo17F2RTrASLOJnJbxdrwwBuhtsuh3bKALESfMlkHs3918/Af4B/EuBXRr+B3DGA3YwA31IAXmYEGOiMYgBd/Mxg3sd2CgDcywDwIBasAnja8Fvo49EoAHC+QYALVRN1AF1casB8KVb7FABYDxDjlKMf9q7VLUr5E67jFFZHMF/FTNhbq1g/ENMPXMVdLIfG9TiOhvnv+IzN8B9J6SnBb1HcUyMYnwRJAAAAAElFTkSuQmCC") 50%/85% no-repeat;
+}
+html[data-theme="catppuccin-latte-rosewater"] .keybinding {
+  color: #ccd0da;
+  background-color: #9ca0b0;
+  border-color: #ccd0da;
 }
 html[data-theme="catppuccin-latte-rosewater"] #ingame_HUD_Waypoints .waypoint {
   color: #4c4f69;
@@ -508,6 +514,9 @@ html[data-theme="catppuccin-latte-rosewater"] .ingameDialog > .dialogInner > .bu
   color: #eff1f5;
   background-color: #40a02b;
 }
+html[data-theme="catppuccin-latte-rosewater"] #ingame_HUD_Shop .content .upgrade {
+  background-color: #e6e9ef;
+}
 html[data-theme="catppuccin-latte-rosewater"] #ingame_HUD_Shop .content .upgrade .title .tier {
   color: #eff1f5;
   background-color: #40a02b;
@@ -532,9 +541,6 @@ html[data-theme="catppuccin-latte-rosewater"] #ingame_HUD_Shop .content .upgrade
 }
 html[data-theme="catppuccin-latte-rosewater"] #ingame_HUD_Shop .content .upgrade .title .tier[data-tier="6"] {
   background-color: #dce0e8;
-}
-html[data-theme="catppuccin-latte-rosewater"] #ingame_HUD_Shop .content .upgrade {
-  background-color: #e6e9ef;
 }
 html[data-theme="catppuccin-latte-rosewater"] #ingame_HUD_Shop .content .upgrade .description {
   color: #5c5f77;
@@ -943,15 +949,17 @@ html[data-theme="catppuccin-latte-flamingo"] #state_SettingsState .container .co
   color: #ea76cb;
   background-color: #efe4f1;
 }
-html[data-theme="catppuccin-latte-flamingo"] #state_SettingsState .container .content .sidebar button.manageMods .newBadge {
+html[data-theme="catppuccin-latte-flamingo"] #state_SettingsState .container .content .sidebar button.manageMods.newBadge {
   color: #eff1f5;
   background-color: #ea76cb;
+}
+html[data-theme="catppuccin-latte-flamingo"] #state_SettingsState .container .content .sidebar .versionbar .buildVersion {
+  color: #6c6f85;
 }
 html[data-theme="catppuccin-latte-flamingo"] #state_SettingsState .container .content .categoryContainer .category .setting {
   background-color: #e6e9ef;
 }
-html[data-theme="catppuccin-latte-flamingo"] #state_SettingsState .container .content .categoryContainer .category .setting .desc,
-html[data-theme="catppuccin-latte-flamingo"] #state_SettingsState .container .content .sidebar .versionbar .buildVersion {
+html[data-theme="catppuccin-latte-flamingo"] #state_SettingsState .container .content .categoryContainer .category .setting .desc {
   color: #6c6f85;
 }
 html[data-theme="catppuccin-latte-flamingo"] #state_SettingsState .container .content .categoryContainer .category .setting .value.enum {
@@ -960,6 +968,10 @@ html[data-theme="catppuccin-latte-flamingo"] #state_SettingsState .container .co
 }
 html[data-theme="catppuccin-latte-flamingo"] #state_KeybindingsState .content .hint {
   background-color: #e6e9ef;
+}
+html[data-theme="catppuccin-latte-flamingo"] #state_KeybindingsState .content .category .entry {
+  color: #6c6f85;
+  border-bottom-color: #acb0be;
 }
 html[data-theme="catppuccin-latte-flamingo"] #state_KeybindingsState .content .category .entry .mapping {
   color: #dd7878;
@@ -972,20 +984,20 @@ html[data-theme="catppuccin-latte-flamingo"] #state_KeybindingsState .content .c
   filter: brightness(0) saturate(100%) invert(94%) sepia(22%) saturate(523%) hue-rotate(179deg) brightness(96%) contrast(76%);
   opacity: 1 !important;
 }
-html[data-theme="catppuccin-latte-flamingo"] #state_KeybindingsState .content .category .entry {
-  color: #6c6f85;
-  border-bottom-color: #acb0be;
-}
 html[data-theme="catppuccin-latte-flamingo"] #state_ModsState > .headerBar .openModsFolder {
   background-color: #ea76cb;
 }
 html[data-theme="catppuccin-latte-flamingo"] #state_ModsState .modsList .mod {
   background-color: #e6e9ef;
 }
-html[data-theme="catppuccin-latte-flamingo"] #state_ModsState .modsStats,
-html[data-theme="catppuccin-latte-flamingo"] #state_ModsState .modsList .mod .mainInfo .description,
+html[data-theme="catppuccin-latte-flamingo"] #state_ModsState .modsList .mod .mainInfo .description {
+  color: #6c6f85;
+}
 html[data-theme="catppuccin-latte-flamingo"] #state_ModsState .modsList .mod .author strong,
 html[data-theme="catppuccin-latte-flamingo"] #state_ModsState .modsList .mod .version strong {
+  color: #6c6f85;
+}
+html[data-theme="catppuccin-latte-flamingo"] #state_ModsState .modsStats {
   color: #6c6f85;
 }
 html[data-theme="catppuccin-latte-flamingo"] .gameState.textualState > .container > .content a {
@@ -993,11 +1005,6 @@ html[data-theme="catppuccin-latte-flamingo"] .gameState.textualState > .containe
 }
 html[data-theme="catppuccin-latte-flamingo"] #ingame_HUD_KeybindingOverlay {
   color: #4c4f69;
-}
-html[data-theme="catppuccin-latte-flamingo"] .keybinding {
-  color: #ccd0da;
-  background-color: #9ca0b0;
-  border-color: #ccd0da;
 }
 html[data-theme="catppuccin-latte-flamingo"] #ingame_HUD_KeybindingOverlay > .binding label {
   color: #6c6f85;
@@ -1010,6 +1017,11 @@ html[data-theme="catppuccin-latte-flamingo"] #ingame_HUD_KeybindingOverlay > .bi
 }
 html[data-theme="catppuccin-latte-flamingo"] #ingame_HUD_KeybindingOverlay > .binding code.rightMouse {
   background: #9ca0b0 url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAbJJREFUWIXt1r9rFEEYxvFPxMIm2AkiHNhETKNIigPRJiDESrFKII2QxkLBH41opZ21jRbB5tJoEQsRSSxNiih2ydmIIih25/0DNhNY92b35u520MKnmn1n5n2+7Du7804paefjp3KoqDYuYgHvcANand5DXMYGnn1dOvyhKsHc6Zk/ng/UuRV0As+xhfuYw3RhfhqzuI73rU5vo9XpnUlJnAKwiD1cKcX7FWOYDyDXJgVYQScBskqPh0HUAbTxZALzIsTCOABvGjDf16tRAe6UDtnECl9KMsDtJs2DbqUCtHEkA8Ch2FmIAZzLYL6vsykA84nJjhXGqeelXQ4cjCx6gW5CsreF8etEgIG8U+XAkLtgYo17F2RTrASLOJnJbxdrwwBuhtsuh3bKALESfMlkHs3918/Af4B/EuBXRr+B3DGA3YwA31IAXmYEGOiMYgBd/Mxg3sd2CgDcywDwIBasAnja8Fvo49EoAHC+QYALVRN1AF1casB8KVb7FABYDxDjlKMf9q7VLUr5E67jFFZHMF/FTNhbq1g/ENMPXMVdLIfG9TiOhvnv+IzN8B9J6SnBb1HcUyMYnwRJAAAAAElFTkSuQmCC") 50%/85% no-repeat;
+}
+html[data-theme="catppuccin-latte-flamingo"] .keybinding {
+  color: #ccd0da;
+  background-color: #9ca0b0;
+  border-color: #ccd0da;
 }
 html[data-theme="catppuccin-latte-flamingo"] #ingame_HUD_Waypoints .waypoint {
   color: #4c4f69;
@@ -1076,6 +1088,9 @@ html[data-theme="catppuccin-latte-flamingo"] .ingameDialog > .dialogInner > .but
   color: #eff1f5;
   background-color: #40a02b;
 }
+html[data-theme="catppuccin-latte-flamingo"] #ingame_HUD_Shop .content .upgrade {
+  background-color: #e6e9ef;
+}
 html[data-theme="catppuccin-latte-flamingo"] #ingame_HUD_Shop .content .upgrade .title .tier {
   color: #eff1f5;
   background-color: #40a02b;
@@ -1100,9 +1115,6 @@ html[data-theme="catppuccin-latte-flamingo"] #ingame_HUD_Shop .content .upgrade 
 }
 html[data-theme="catppuccin-latte-flamingo"] #ingame_HUD_Shop .content .upgrade .title .tier[data-tier="6"] {
   background-color: #dce0e8;
-}
-html[data-theme="catppuccin-latte-flamingo"] #ingame_HUD_Shop .content .upgrade {
-  background-color: #e6e9ef;
 }
 html[data-theme="catppuccin-latte-flamingo"] #ingame_HUD_Shop .content .upgrade .description {
   color: #5c5f77;
@@ -1511,15 +1523,17 @@ html[data-theme="catppuccin-latte-pink"] #state_SettingsState .container .conten
   color: #ea76cb;
   background-color: #efe4f1;
 }
-html[data-theme="catppuccin-latte-pink"] #state_SettingsState .container .content .sidebar button.manageMods .newBadge {
+html[data-theme="catppuccin-latte-pink"] #state_SettingsState .container .content .sidebar button.manageMods.newBadge {
   color: #eff1f5;
   background-color: #ea76cb;
+}
+html[data-theme="catppuccin-latte-pink"] #state_SettingsState .container .content .sidebar .versionbar .buildVersion {
+  color: #6c6f85;
 }
 html[data-theme="catppuccin-latte-pink"] #state_SettingsState .container .content .categoryContainer .category .setting {
   background-color: #e6e9ef;
 }
-html[data-theme="catppuccin-latte-pink"] #state_SettingsState .container .content .categoryContainer .category .setting .desc,
-html[data-theme="catppuccin-latte-pink"] #state_SettingsState .container .content .sidebar .versionbar .buildVersion {
+html[data-theme="catppuccin-latte-pink"] #state_SettingsState .container .content .categoryContainer .category .setting .desc {
   color: #6c6f85;
 }
 html[data-theme="catppuccin-latte-pink"] #state_SettingsState .container .content .categoryContainer .category .setting .value.enum {
@@ -1528,6 +1542,10 @@ html[data-theme="catppuccin-latte-pink"] #state_SettingsState .container .conten
 }
 html[data-theme="catppuccin-latte-pink"] #state_KeybindingsState .content .hint {
   background-color: #e6e9ef;
+}
+html[data-theme="catppuccin-latte-pink"] #state_KeybindingsState .content .category .entry {
+  color: #6c6f85;
+  border-bottom-color: #acb0be;
 }
 html[data-theme="catppuccin-latte-pink"] #state_KeybindingsState .content .category .entry .mapping {
   color: #ea76cb;
@@ -1540,20 +1558,20 @@ html[data-theme="catppuccin-latte-pink"] #state_KeybindingsState .content .categ
   filter: brightness(0) saturate(100%) invert(94%) sepia(22%) saturate(523%) hue-rotate(179deg) brightness(96%) contrast(76%);
   opacity: 1 !important;
 }
-html[data-theme="catppuccin-latte-pink"] #state_KeybindingsState .content .category .entry {
-  color: #6c6f85;
-  border-bottom-color: #acb0be;
-}
 html[data-theme="catppuccin-latte-pink"] #state_ModsState > .headerBar .openModsFolder {
   background-color: #ea76cb;
 }
 html[data-theme="catppuccin-latte-pink"] #state_ModsState .modsList .mod {
   background-color: #e6e9ef;
 }
-html[data-theme="catppuccin-latte-pink"] #state_ModsState .modsStats,
-html[data-theme="catppuccin-latte-pink"] #state_ModsState .modsList .mod .mainInfo .description,
+html[data-theme="catppuccin-latte-pink"] #state_ModsState .modsList .mod .mainInfo .description {
+  color: #6c6f85;
+}
 html[data-theme="catppuccin-latte-pink"] #state_ModsState .modsList .mod .author strong,
 html[data-theme="catppuccin-latte-pink"] #state_ModsState .modsList .mod .version strong {
+  color: #6c6f85;
+}
+html[data-theme="catppuccin-latte-pink"] #state_ModsState .modsStats {
   color: #6c6f85;
 }
 html[data-theme="catppuccin-latte-pink"] .gameState.textualState > .container > .content a {
@@ -1561,11 +1579,6 @@ html[data-theme="catppuccin-latte-pink"] .gameState.textualState > .container > 
 }
 html[data-theme="catppuccin-latte-pink"] #ingame_HUD_KeybindingOverlay {
   color: #4c4f69;
-}
-html[data-theme="catppuccin-latte-pink"] .keybinding {
-  color: #ccd0da;
-  background-color: #9ca0b0;
-  border-color: #ccd0da;
 }
 html[data-theme="catppuccin-latte-pink"] #ingame_HUD_KeybindingOverlay > .binding label {
   color: #6c6f85;
@@ -1578,6 +1591,11 @@ html[data-theme="catppuccin-latte-pink"] #ingame_HUD_KeybindingOverlay > .bindin
 }
 html[data-theme="catppuccin-latte-pink"] #ingame_HUD_KeybindingOverlay > .binding code.rightMouse {
   background: #9ca0b0 url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAbJJREFUWIXt1r9rFEEYxvFPxMIm2AkiHNhETKNIigPRJiDESrFKII2QxkLBH41opZ21jRbB5tJoEQsRSSxNiih2ydmIIih25/0DNhNY92b35u520MKnmn1n5n2+7Du7804paefjp3KoqDYuYgHvcANand5DXMYGnn1dOvyhKsHc6Zk/ng/UuRV0As+xhfuYw3RhfhqzuI73rU5vo9XpnUlJnAKwiD1cKcX7FWOYDyDXJgVYQScBskqPh0HUAbTxZALzIsTCOABvGjDf16tRAe6UDtnECl9KMsDtJs2DbqUCtHEkA8Ch2FmIAZzLYL6vsykA84nJjhXGqeelXQ4cjCx6gW5CsreF8etEgIG8U+XAkLtgYo17F2RTrASLOJnJbxdrwwBuhtsuh3bKALESfMlkHs3918/Af4B/EuBXRr+B3DGA3YwA31IAXmYEGOiMYgBd/Mxg3sd2CgDcywDwIBasAnja8Fvo49EoAHC+QYALVRN1AF1casB8KVb7FABYDxDjlKMf9q7VLUr5E67jFFZHMF/FTNhbq1g/ENMPXMVdLIfG9TiOhvnv+IzN8B9J6SnBb1HcUyMYnwRJAAAAAElFTkSuQmCC") 50%/85% no-repeat;
+}
+html[data-theme="catppuccin-latte-pink"] .keybinding {
+  color: #ccd0da;
+  background-color: #9ca0b0;
+  border-color: #ccd0da;
 }
 html[data-theme="catppuccin-latte-pink"] #ingame_HUD_Waypoints .waypoint {
   color: #4c4f69;
@@ -1644,6 +1662,9 @@ html[data-theme="catppuccin-latte-pink"] .ingameDialog > .dialogInner > .buttons
   color: #eff1f5;
   background-color: #40a02b;
 }
+html[data-theme="catppuccin-latte-pink"] #ingame_HUD_Shop .content .upgrade {
+  background-color: #e6e9ef;
+}
 html[data-theme="catppuccin-latte-pink"] #ingame_HUD_Shop .content .upgrade .title .tier {
   color: #eff1f5;
   background-color: #40a02b;
@@ -1668,9 +1689,6 @@ html[data-theme="catppuccin-latte-pink"] #ingame_HUD_Shop .content .upgrade .tit
 }
 html[data-theme="catppuccin-latte-pink"] #ingame_HUD_Shop .content .upgrade .title .tier[data-tier="6"] {
   background-color: #dce0e8;
-}
-html[data-theme="catppuccin-latte-pink"] #ingame_HUD_Shop .content .upgrade {
-  background-color: #e6e9ef;
 }
 html[data-theme="catppuccin-latte-pink"] #ingame_HUD_Shop .content .upgrade .description {
   color: #5c5f77;
@@ -2079,15 +2097,17 @@ html[data-theme="catppuccin-latte-mauve"] #state_SettingsState .container .conte
   color: #ea76cb;
   background-color: #efe4f1;
 }
-html[data-theme="catppuccin-latte-mauve"] #state_SettingsState .container .content .sidebar button.manageMods .newBadge {
+html[data-theme="catppuccin-latte-mauve"] #state_SettingsState .container .content .sidebar button.manageMods.newBadge {
   color: #eff1f5;
   background-color: #ea76cb;
+}
+html[data-theme="catppuccin-latte-mauve"] #state_SettingsState .container .content .sidebar .versionbar .buildVersion {
+  color: #6c6f85;
 }
 html[data-theme="catppuccin-latte-mauve"] #state_SettingsState .container .content .categoryContainer .category .setting {
   background-color: #e6e9ef;
 }
-html[data-theme="catppuccin-latte-mauve"] #state_SettingsState .container .content .categoryContainer .category .setting .desc,
-html[data-theme="catppuccin-latte-mauve"] #state_SettingsState .container .content .sidebar .versionbar .buildVersion {
+html[data-theme="catppuccin-latte-mauve"] #state_SettingsState .container .content .categoryContainer .category .setting .desc {
   color: #6c6f85;
 }
 html[data-theme="catppuccin-latte-mauve"] #state_SettingsState .container .content .categoryContainer .category .setting .value.enum {
@@ -2096,6 +2116,10 @@ html[data-theme="catppuccin-latte-mauve"] #state_SettingsState .container .conte
 }
 html[data-theme="catppuccin-latte-mauve"] #state_KeybindingsState .content .hint {
   background-color: #e6e9ef;
+}
+html[data-theme="catppuccin-latte-mauve"] #state_KeybindingsState .content .category .entry {
+  color: #6c6f85;
+  border-bottom-color: #acb0be;
 }
 html[data-theme="catppuccin-latte-mauve"] #state_KeybindingsState .content .category .entry .mapping {
   color: #8839ef;
@@ -2108,20 +2132,20 @@ html[data-theme="catppuccin-latte-mauve"] #state_KeybindingsState .content .cate
   filter: brightness(0) saturate(100%) invert(94%) sepia(22%) saturate(523%) hue-rotate(179deg) brightness(96%) contrast(76%);
   opacity: 1 !important;
 }
-html[data-theme="catppuccin-latte-mauve"] #state_KeybindingsState .content .category .entry {
-  color: #6c6f85;
-  border-bottom-color: #acb0be;
-}
 html[data-theme="catppuccin-latte-mauve"] #state_ModsState > .headerBar .openModsFolder {
   background-color: #ea76cb;
 }
 html[data-theme="catppuccin-latte-mauve"] #state_ModsState .modsList .mod {
   background-color: #e6e9ef;
 }
-html[data-theme="catppuccin-latte-mauve"] #state_ModsState .modsStats,
-html[data-theme="catppuccin-latte-mauve"] #state_ModsState .modsList .mod .mainInfo .description,
+html[data-theme="catppuccin-latte-mauve"] #state_ModsState .modsList .mod .mainInfo .description {
+  color: #6c6f85;
+}
 html[data-theme="catppuccin-latte-mauve"] #state_ModsState .modsList .mod .author strong,
 html[data-theme="catppuccin-latte-mauve"] #state_ModsState .modsList .mod .version strong {
+  color: #6c6f85;
+}
+html[data-theme="catppuccin-latte-mauve"] #state_ModsState .modsStats {
   color: #6c6f85;
 }
 html[data-theme="catppuccin-latte-mauve"] .gameState.textualState > .container > .content a {
@@ -2129,11 +2153,6 @@ html[data-theme="catppuccin-latte-mauve"] .gameState.textualState > .container >
 }
 html[data-theme="catppuccin-latte-mauve"] #ingame_HUD_KeybindingOverlay {
   color: #4c4f69;
-}
-html[data-theme="catppuccin-latte-mauve"] .keybinding {
-  color: #ccd0da;
-  background-color: #9ca0b0;
-  border-color: #ccd0da;
 }
 html[data-theme="catppuccin-latte-mauve"] #ingame_HUD_KeybindingOverlay > .binding label {
   color: #6c6f85;
@@ -2146,6 +2165,11 @@ html[data-theme="catppuccin-latte-mauve"] #ingame_HUD_KeybindingOverlay > .bindi
 }
 html[data-theme="catppuccin-latte-mauve"] #ingame_HUD_KeybindingOverlay > .binding code.rightMouse {
   background: #9ca0b0 url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAbJJREFUWIXt1r9rFEEYxvFPxMIm2AkiHNhETKNIigPRJiDESrFKII2QxkLBH41opZ21jRbB5tJoEQsRSSxNiih2ydmIIih25/0DNhNY92b35u520MKnmn1n5n2+7Du7804paefjp3KoqDYuYgHvcANand5DXMYGnn1dOvyhKsHc6Zk/ng/UuRV0As+xhfuYw3RhfhqzuI73rU5vo9XpnUlJnAKwiD1cKcX7FWOYDyDXJgVYQScBskqPh0HUAbTxZALzIsTCOABvGjDf16tRAe6UDtnECl9KMsDtJs2DbqUCtHEkA8Ch2FmIAZzLYL6vsykA84nJjhXGqeelXQ4cjCx6gW5CsreF8etEgIG8U+XAkLtgYo17F2RTrASLOJnJbxdrwwBuhtsuh3bKALESfMlkHs3918/Af4B/EuBXRr+B3DGA3YwA31IAXmYEGOiMYgBd/Mxg3sd2CgDcywDwIBasAnja8Fvo49EoAHC+QYALVRN1AF1casB8KVb7FABYDxDjlKMf9q7VLUr5E67jFFZHMF/FTNhbq1g/ENMPXMVdLIfG9TiOhvnv+IzN8B9J6SnBb1HcUyMYnwRJAAAAAElFTkSuQmCC") 50%/85% no-repeat;
+}
+html[data-theme="catppuccin-latte-mauve"] .keybinding {
+  color: #ccd0da;
+  background-color: #9ca0b0;
+  border-color: #ccd0da;
 }
 html[data-theme="catppuccin-latte-mauve"] #ingame_HUD_Waypoints .waypoint {
   color: #4c4f69;
@@ -2212,6 +2236,9 @@ html[data-theme="catppuccin-latte-mauve"] .ingameDialog > .dialogInner > .button
   color: #eff1f5;
   background-color: #40a02b;
 }
+html[data-theme="catppuccin-latte-mauve"] #ingame_HUD_Shop .content .upgrade {
+  background-color: #e6e9ef;
+}
 html[data-theme="catppuccin-latte-mauve"] #ingame_HUD_Shop .content .upgrade .title .tier {
   color: #eff1f5;
   background-color: #40a02b;
@@ -2236,9 +2263,6 @@ html[data-theme="catppuccin-latte-mauve"] #ingame_HUD_Shop .content .upgrade .ti
 }
 html[data-theme="catppuccin-latte-mauve"] #ingame_HUD_Shop .content .upgrade .title .tier[data-tier="6"] {
   background-color: #dce0e8;
-}
-html[data-theme="catppuccin-latte-mauve"] #ingame_HUD_Shop .content .upgrade {
-  background-color: #e6e9ef;
 }
 html[data-theme="catppuccin-latte-mauve"] #ingame_HUD_Shop .content .upgrade .description {
   color: #5c5f77;
@@ -2647,15 +2671,17 @@ html[data-theme="catppuccin-latte-red"] #state_SettingsState .container .content
   color: #ea76cb;
   background-color: #efe4f1;
 }
-html[data-theme="catppuccin-latte-red"] #state_SettingsState .container .content .sidebar button.manageMods .newBadge {
+html[data-theme="catppuccin-latte-red"] #state_SettingsState .container .content .sidebar button.manageMods.newBadge {
   color: #eff1f5;
   background-color: #ea76cb;
+}
+html[data-theme="catppuccin-latte-red"] #state_SettingsState .container .content .sidebar .versionbar .buildVersion {
+  color: #6c6f85;
 }
 html[data-theme="catppuccin-latte-red"] #state_SettingsState .container .content .categoryContainer .category .setting {
   background-color: #e6e9ef;
 }
-html[data-theme="catppuccin-latte-red"] #state_SettingsState .container .content .categoryContainer .category .setting .desc,
-html[data-theme="catppuccin-latte-red"] #state_SettingsState .container .content .sidebar .versionbar .buildVersion {
+html[data-theme="catppuccin-latte-red"] #state_SettingsState .container .content .categoryContainer .category .setting .desc {
   color: #6c6f85;
 }
 html[data-theme="catppuccin-latte-red"] #state_SettingsState .container .content .categoryContainer .category .setting .value.enum {
@@ -2664,6 +2690,10 @@ html[data-theme="catppuccin-latte-red"] #state_SettingsState .container .content
 }
 html[data-theme="catppuccin-latte-red"] #state_KeybindingsState .content .hint {
   background-color: #e6e9ef;
+}
+html[data-theme="catppuccin-latte-red"] #state_KeybindingsState .content .category .entry {
+  color: #6c6f85;
+  border-bottom-color: #acb0be;
 }
 html[data-theme="catppuccin-latte-red"] #state_KeybindingsState .content .category .entry .mapping {
   color: #d20f39;
@@ -2676,20 +2706,20 @@ html[data-theme="catppuccin-latte-red"] #state_KeybindingsState .content .catego
   filter: brightness(0) saturate(100%) invert(94%) sepia(22%) saturate(523%) hue-rotate(179deg) brightness(96%) contrast(76%);
   opacity: 1 !important;
 }
-html[data-theme="catppuccin-latte-red"] #state_KeybindingsState .content .category .entry {
-  color: #6c6f85;
-  border-bottom-color: #acb0be;
-}
 html[data-theme="catppuccin-latte-red"] #state_ModsState > .headerBar .openModsFolder {
   background-color: #ea76cb;
 }
 html[data-theme="catppuccin-latte-red"] #state_ModsState .modsList .mod {
   background-color: #e6e9ef;
 }
-html[data-theme="catppuccin-latte-red"] #state_ModsState .modsStats,
-html[data-theme="catppuccin-latte-red"] #state_ModsState .modsList .mod .mainInfo .description,
+html[data-theme="catppuccin-latte-red"] #state_ModsState .modsList .mod .mainInfo .description {
+  color: #6c6f85;
+}
 html[data-theme="catppuccin-latte-red"] #state_ModsState .modsList .mod .author strong,
 html[data-theme="catppuccin-latte-red"] #state_ModsState .modsList .mod .version strong {
+  color: #6c6f85;
+}
+html[data-theme="catppuccin-latte-red"] #state_ModsState .modsStats {
   color: #6c6f85;
 }
 html[data-theme="catppuccin-latte-red"] .gameState.textualState > .container > .content a {
@@ -2697,11 +2727,6 @@ html[data-theme="catppuccin-latte-red"] .gameState.textualState > .container > .
 }
 html[data-theme="catppuccin-latte-red"] #ingame_HUD_KeybindingOverlay {
   color: #4c4f69;
-}
-html[data-theme="catppuccin-latte-red"] .keybinding {
-  color: #ccd0da;
-  background-color: #9ca0b0;
-  border-color: #ccd0da;
 }
 html[data-theme="catppuccin-latte-red"] #ingame_HUD_KeybindingOverlay > .binding label {
   color: #6c6f85;
@@ -2714,6 +2739,11 @@ html[data-theme="catppuccin-latte-red"] #ingame_HUD_KeybindingOverlay > .binding
 }
 html[data-theme="catppuccin-latte-red"] #ingame_HUD_KeybindingOverlay > .binding code.rightMouse {
   background: #9ca0b0 url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAbJJREFUWIXt1r9rFEEYxvFPxMIm2AkiHNhETKNIigPRJiDESrFKII2QxkLBH41opZ21jRbB5tJoEQsRSSxNiih2ydmIIih25/0DNhNY92b35u520MKnmn1n5n2+7Du7804paefjp3KoqDYuYgHvcANand5DXMYGnn1dOvyhKsHc6Zk/ng/UuRV0As+xhfuYw3RhfhqzuI73rU5vo9XpnUlJnAKwiD1cKcX7FWOYDyDXJgVYQScBskqPh0HUAbTxZALzIsTCOABvGjDf16tRAe6UDtnECl9KMsDtJs2DbqUCtHEkA8Ch2FmIAZzLYL6vsykA84nJjhXGqeelXQ4cjCx6gW5CsreF8etEgIG8U+XAkLtgYo17F2RTrASLOJnJbxdrwwBuhtsuh3bKALESfMlkHs3918/Af4B/EuBXRr+B3DGA3YwA31IAXmYEGOiMYgBd/Mxg3sd2CgDcywDwIBasAnja8Fvo49EoAHC+QYALVRN1AF1casB8KVb7FABYDxDjlKMf9q7VLUr5E67jFFZHMF/FTNhbq1g/ENMPXMVdLIfG9TiOhvnv+IzN8B9J6SnBb1HcUyMYnwRJAAAAAElFTkSuQmCC") 50%/85% no-repeat;
+}
+html[data-theme="catppuccin-latte-red"] .keybinding {
+  color: #ccd0da;
+  background-color: #9ca0b0;
+  border-color: #ccd0da;
 }
 html[data-theme="catppuccin-latte-red"] #ingame_HUD_Waypoints .waypoint {
   color: #4c4f69;
@@ -2780,6 +2810,9 @@ html[data-theme="catppuccin-latte-red"] .ingameDialog > .dialogInner > .buttons 
   color: #eff1f5;
   background-color: #40a02b;
 }
+html[data-theme="catppuccin-latte-red"] #ingame_HUD_Shop .content .upgrade {
+  background-color: #e6e9ef;
+}
 html[data-theme="catppuccin-latte-red"] #ingame_HUD_Shop .content .upgrade .title .tier {
   color: #eff1f5;
   background-color: #40a02b;
@@ -2804,9 +2837,6 @@ html[data-theme="catppuccin-latte-red"] #ingame_HUD_Shop .content .upgrade .titl
 }
 html[data-theme="catppuccin-latte-red"] #ingame_HUD_Shop .content .upgrade .title .tier[data-tier="6"] {
   background-color: #dce0e8;
-}
-html[data-theme="catppuccin-latte-red"] #ingame_HUD_Shop .content .upgrade {
-  background-color: #e6e9ef;
 }
 html[data-theme="catppuccin-latte-red"] #ingame_HUD_Shop .content .upgrade .description {
   color: #5c5f77;
@@ -3215,15 +3245,17 @@ html[data-theme="catppuccin-latte-maroon"] #state_SettingsState .container .cont
   color: #ea76cb;
   background-color: #efe4f1;
 }
-html[data-theme="catppuccin-latte-maroon"] #state_SettingsState .container .content .sidebar button.manageMods .newBadge {
+html[data-theme="catppuccin-latte-maroon"] #state_SettingsState .container .content .sidebar button.manageMods.newBadge {
   color: #eff1f5;
   background-color: #ea76cb;
+}
+html[data-theme="catppuccin-latte-maroon"] #state_SettingsState .container .content .sidebar .versionbar .buildVersion {
+  color: #6c6f85;
 }
 html[data-theme="catppuccin-latte-maroon"] #state_SettingsState .container .content .categoryContainer .category .setting {
   background-color: #e6e9ef;
 }
-html[data-theme="catppuccin-latte-maroon"] #state_SettingsState .container .content .categoryContainer .category .setting .desc,
-html[data-theme="catppuccin-latte-maroon"] #state_SettingsState .container .content .sidebar .versionbar .buildVersion {
+html[data-theme="catppuccin-latte-maroon"] #state_SettingsState .container .content .categoryContainer .category .setting .desc {
   color: #6c6f85;
 }
 html[data-theme="catppuccin-latte-maroon"] #state_SettingsState .container .content .categoryContainer .category .setting .value.enum {
@@ -3232,6 +3264,10 @@ html[data-theme="catppuccin-latte-maroon"] #state_SettingsState .container .cont
 }
 html[data-theme="catppuccin-latte-maroon"] #state_KeybindingsState .content .hint {
   background-color: #e6e9ef;
+}
+html[data-theme="catppuccin-latte-maroon"] #state_KeybindingsState .content .category .entry {
+  color: #6c6f85;
+  border-bottom-color: #acb0be;
 }
 html[data-theme="catppuccin-latte-maroon"] #state_KeybindingsState .content .category .entry .mapping {
   color: #e64553;
@@ -3244,20 +3280,20 @@ html[data-theme="catppuccin-latte-maroon"] #state_KeybindingsState .content .cat
   filter: brightness(0) saturate(100%) invert(94%) sepia(22%) saturate(523%) hue-rotate(179deg) brightness(96%) contrast(76%);
   opacity: 1 !important;
 }
-html[data-theme="catppuccin-latte-maroon"] #state_KeybindingsState .content .category .entry {
-  color: #6c6f85;
-  border-bottom-color: #acb0be;
-}
 html[data-theme="catppuccin-latte-maroon"] #state_ModsState > .headerBar .openModsFolder {
   background-color: #ea76cb;
 }
 html[data-theme="catppuccin-latte-maroon"] #state_ModsState .modsList .mod {
   background-color: #e6e9ef;
 }
-html[data-theme="catppuccin-latte-maroon"] #state_ModsState .modsStats,
-html[data-theme="catppuccin-latte-maroon"] #state_ModsState .modsList .mod .mainInfo .description,
+html[data-theme="catppuccin-latte-maroon"] #state_ModsState .modsList .mod .mainInfo .description {
+  color: #6c6f85;
+}
 html[data-theme="catppuccin-latte-maroon"] #state_ModsState .modsList .mod .author strong,
 html[data-theme="catppuccin-latte-maroon"] #state_ModsState .modsList .mod .version strong {
+  color: #6c6f85;
+}
+html[data-theme="catppuccin-latte-maroon"] #state_ModsState .modsStats {
   color: #6c6f85;
 }
 html[data-theme="catppuccin-latte-maroon"] .gameState.textualState > .container > .content a {
@@ -3265,11 +3301,6 @@ html[data-theme="catppuccin-latte-maroon"] .gameState.textualState > .container 
 }
 html[data-theme="catppuccin-latte-maroon"] #ingame_HUD_KeybindingOverlay {
   color: #4c4f69;
-}
-html[data-theme="catppuccin-latte-maroon"] .keybinding {
-  color: #ccd0da;
-  background-color: #9ca0b0;
-  border-color: #ccd0da;
 }
 html[data-theme="catppuccin-latte-maroon"] #ingame_HUD_KeybindingOverlay > .binding label {
   color: #6c6f85;
@@ -3282,6 +3313,11 @@ html[data-theme="catppuccin-latte-maroon"] #ingame_HUD_KeybindingOverlay > .bind
 }
 html[data-theme="catppuccin-latte-maroon"] #ingame_HUD_KeybindingOverlay > .binding code.rightMouse {
   background: #9ca0b0 url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAbJJREFUWIXt1r9rFEEYxvFPxMIm2AkiHNhETKNIigPRJiDESrFKII2QxkLBH41opZ21jRbB5tJoEQsRSSxNiih2ydmIIih25/0DNhNY92b35u520MKnmn1n5n2+7Du7804paefjp3KoqDYuYgHvcANand5DXMYGnn1dOvyhKsHc6Zk/ng/UuRV0As+xhfuYw3RhfhqzuI73rU5vo9XpnUlJnAKwiD1cKcX7FWOYDyDXJgVYQScBskqPh0HUAbTxZALzIsTCOABvGjDf16tRAe6UDtnECl9KMsDtJs2DbqUCtHEkA8Ch2FmIAZzLYL6vsykA84nJjhXGqeelXQ4cjCx6gW5CsreF8etEgIG8U+XAkLtgYo17F2RTrASLOJnJbxdrwwBuhtsuh3bKALESfMlkHs3918/Af4B/EuBXRr+B3DGA3YwA31IAXmYEGOiMYgBd/Mxg3sd2CgDcywDwIBasAnja8Fvo49EoAHC+QYALVRN1AF1casB8KVb7FABYDxDjlKMf9q7VLUr5E67jFFZHMF/FTNhbq1g/ENMPXMVdLIfG9TiOhvnv+IzN8B9J6SnBb1HcUyMYnwRJAAAAAElFTkSuQmCC") 50%/85% no-repeat;
+}
+html[data-theme="catppuccin-latte-maroon"] .keybinding {
+  color: #ccd0da;
+  background-color: #9ca0b0;
+  border-color: #ccd0da;
 }
 html[data-theme="catppuccin-latte-maroon"] #ingame_HUD_Waypoints .waypoint {
   color: #4c4f69;
@@ -3348,6 +3384,9 @@ html[data-theme="catppuccin-latte-maroon"] .ingameDialog > .dialogInner > .butto
   color: #eff1f5;
   background-color: #40a02b;
 }
+html[data-theme="catppuccin-latte-maroon"] #ingame_HUD_Shop .content .upgrade {
+  background-color: #e6e9ef;
+}
 html[data-theme="catppuccin-latte-maroon"] #ingame_HUD_Shop .content .upgrade .title .tier {
   color: #eff1f5;
   background-color: #40a02b;
@@ -3372,9 +3411,6 @@ html[data-theme="catppuccin-latte-maroon"] #ingame_HUD_Shop .content .upgrade .t
 }
 html[data-theme="catppuccin-latte-maroon"] #ingame_HUD_Shop .content .upgrade .title .tier[data-tier="6"] {
   background-color: #dce0e8;
-}
-html[data-theme="catppuccin-latte-maroon"] #ingame_HUD_Shop .content .upgrade {
-  background-color: #e6e9ef;
 }
 html[data-theme="catppuccin-latte-maroon"] #ingame_HUD_Shop .content .upgrade .description {
   color: #5c5f77;
@@ -3783,15 +3819,17 @@ html[data-theme="catppuccin-latte-peach"] #state_SettingsState .container .conte
   color: #ea76cb;
   background-color: #efe4f1;
 }
-html[data-theme="catppuccin-latte-peach"] #state_SettingsState .container .content .sidebar button.manageMods .newBadge {
+html[data-theme="catppuccin-latte-peach"] #state_SettingsState .container .content .sidebar button.manageMods.newBadge {
   color: #eff1f5;
   background-color: #ea76cb;
+}
+html[data-theme="catppuccin-latte-peach"] #state_SettingsState .container .content .sidebar .versionbar .buildVersion {
+  color: #6c6f85;
 }
 html[data-theme="catppuccin-latte-peach"] #state_SettingsState .container .content .categoryContainer .category .setting {
   background-color: #e6e9ef;
 }
-html[data-theme="catppuccin-latte-peach"] #state_SettingsState .container .content .categoryContainer .category .setting .desc,
-html[data-theme="catppuccin-latte-peach"] #state_SettingsState .container .content .sidebar .versionbar .buildVersion {
+html[data-theme="catppuccin-latte-peach"] #state_SettingsState .container .content .categoryContainer .category .setting .desc {
   color: #6c6f85;
 }
 html[data-theme="catppuccin-latte-peach"] #state_SettingsState .container .content .categoryContainer .category .setting .value.enum {
@@ -3800,6 +3838,10 @@ html[data-theme="catppuccin-latte-peach"] #state_SettingsState .container .conte
 }
 html[data-theme="catppuccin-latte-peach"] #state_KeybindingsState .content .hint {
   background-color: #e6e9ef;
+}
+html[data-theme="catppuccin-latte-peach"] #state_KeybindingsState .content .category .entry {
+  color: #6c6f85;
+  border-bottom-color: #acb0be;
 }
 html[data-theme="catppuccin-latte-peach"] #state_KeybindingsState .content .category .entry .mapping {
   color: #fe640b;
@@ -3812,20 +3854,20 @@ html[data-theme="catppuccin-latte-peach"] #state_KeybindingsState .content .cate
   filter: brightness(0) saturate(100%) invert(94%) sepia(22%) saturate(523%) hue-rotate(179deg) brightness(96%) contrast(76%);
   opacity: 1 !important;
 }
-html[data-theme="catppuccin-latte-peach"] #state_KeybindingsState .content .category .entry {
-  color: #6c6f85;
-  border-bottom-color: #acb0be;
-}
 html[data-theme="catppuccin-latte-peach"] #state_ModsState > .headerBar .openModsFolder {
   background-color: #ea76cb;
 }
 html[data-theme="catppuccin-latte-peach"] #state_ModsState .modsList .mod {
   background-color: #e6e9ef;
 }
-html[data-theme="catppuccin-latte-peach"] #state_ModsState .modsStats,
-html[data-theme="catppuccin-latte-peach"] #state_ModsState .modsList .mod .mainInfo .description,
+html[data-theme="catppuccin-latte-peach"] #state_ModsState .modsList .mod .mainInfo .description {
+  color: #6c6f85;
+}
 html[data-theme="catppuccin-latte-peach"] #state_ModsState .modsList .mod .author strong,
 html[data-theme="catppuccin-latte-peach"] #state_ModsState .modsList .mod .version strong {
+  color: #6c6f85;
+}
+html[data-theme="catppuccin-latte-peach"] #state_ModsState .modsStats {
   color: #6c6f85;
 }
 html[data-theme="catppuccin-latte-peach"] .gameState.textualState > .container > .content a {
@@ -3833,11 +3875,6 @@ html[data-theme="catppuccin-latte-peach"] .gameState.textualState > .container >
 }
 html[data-theme="catppuccin-latte-peach"] #ingame_HUD_KeybindingOverlay {
   color: #4c4f69;
-}
-html[data-theme="catppuccin-latte-peach"] .keybinding {
-  color: #ccd0da;
-  background-color: #9ca0b0;
-  border-color: #ccd0da;
 }
 html[data-theme="catppuccin-latte-peach"] #ingame_HUD_KeybindingOverlay > .binding label {
   color: #6c6f85;
@@ -3850,6 +3887,11 @@ html[data-theme="catppuccin-latte-peach"] #ingame_HUD_KeybindingOverlay > .bindi
 }
 html[data-theme="catppuccin-latte-peach"] #ingame_HUD_KeybindingOverlay > .binding code.rightMouse {
   background: #9ca0b0 url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAbJJREFUWIXt1r9rFEEYxvFPxMIm2AkiHNhETKNIigPRJiDESrFKII2QxkLBH41opZ21jRbB5tJoEQsRSSxNiih2ydmIIih25/0DNhNY92b35u520MKnmn1n5n2+7Du7804paefjp3KoqDYuYgHvcANand5DXMYGnn1dOvyhKsHc6Zk/ng/UuRV0As+xhfuYw3RhfhqzuI73rU5vo9XpnUlJnAKwiD1cKcX7FWOYDyDXJgVYQScBskqPh0HUAbTxZALzIsTCOABvGjDf16tRAe6UDtnECl9KMsDtJs2DbqUCtHEkA8Ch2FmIAZzLYL6vsykA84nJjhXGqeelXQ4cjCx6gW5CsreF8etEgIG8U+XAkLtgYo17F2RTrASLOJnJbxdrwwBuhtsuh3bKALESfMlkHs3918/Af4B/EuBXRr+B3DGA3YwA31IAXmYEGOiMYgBd/Mxg3sd2CgDcywDwIBasAnja8Fvo49EoAHC+QYALVRN1AF1casB8KVb7FABYDxDjlKMf9q7VLUr5E67jFFZHMF/FTNhbq1g/ENMPXMVdLIfG9TiOhvnv+IzN8B9J6SnBb1HcUyMYnwRJAAAAAElFTkSuQmCC") 50%/85% no-repeat;
+}
+html[data-theme="catppuccin-latte-peach"] .keybinding {
+  color: #ccd0da;
+  background-color: #9ca0b0;
+  border-color: #ccd0da;
 }
 html[data-theme="catppuccin-latte-peach"] #ingame_HUD_Waypoints .waypoint {
   color: #4c4f69;
@@ -3916,6 +3958,9 @@ html[data-theme="catppuccin-latte-peach"] .ingameDialog > .dialogInner > .button
   color: #eff1f5;
   background-color: #40a02b;
 }
+html[data-theme="catppuccin-latte-peach"] #ingame_HUD_Shop .content .upgrade {
+  background-color: #e6e9ef;
+}
 html[data-theme="catppuccin-latte-peach"] #ingame_HUD_Shop .content .upgrade .title .tier {
   color: #eff1f5;
   background-color: #40a02b;
@@ -3940,9 +3985,6 @@ html[data-theme="catppuccin-latte-peach"] #ingame_HUD_Shop .content .upgrade .ti
 }
 html[data-theme="catppuccin-latte-peach"] #ingame_HUD_Shop .content .upgrade .title .tier[data-tier="6"] {
   background-color: #dce0e8;
-}
-html[data-theme="catppuccin-latte-peach"] #ingame_HUD_Shop .content .upgrade {
-  background-color: #e6e9ef;
 }
 html[data-theme="catppuccin-latte-peach"] #ingame_HUD_Shop .content .upgrade .description {
   color: #5c5f77;
@@ -4351,15 +4393,17 @@ html[data-theme="catppuccin-latte-yellow"] #state_SettingsState .container .cont
   color: #ea76cb;
   background-color: #efe4f1;
 }
-html[data-theme="catppuccin-latte-yellow"] #state_SettingsState .container .content .sidebar button.manageMods .newBadge {
+html[data-theme="catppuccin-latte-yellow"] #state_SettingsState .container .content .sidebar button.manageMods.newBadge {
   color: #eff1f5;
   background-color: #ea76cb;
+}
+html[data-theme="catppuccin-latte-yellow"] #state_SettingsState .container .content .sidebar .versionbar .buildVersion {
+  color: #6c6f85;
 }
 html[data-theme="catppuccin-latte-yellow"] #state_SettingsState .container .content .categoryContainer .category .setting {
   background-color: #e6e9ef;
 }
-html[data-theme="catppuccin-latte-yellow"] #state_SettingsState .container .content .categoryContainer .category .setting .desc,
-html[data-theme="catppuccin-latte-yellow"] #state_SettingsState .container .content .sidebar .versionbar .buildVersion {
+html[data-theme="catppuccin-latte-yellow"] #state_SettingsState .container .content .categoryContainer .category .setting .desc {
   color: #6c6f85;
 }
 html[data-theme="catppuccin-latte-yellow"] #state_SettingsState .container .content .categoryContainer .category .setting .value.enum {
@@ -4368,6 +4412,10 @@ html[data-theme="catppuccin-latte-yellow"] #state_SettingsState .container .cont
 }
 html[data-theme="catppuccin-latte-yellow"] #state_KeybindingsState .content .hint {
   background-color: #e6e9ef;
+}
+html[data-theme="catppuccin-latte-yellow"] #state_KeybindingsState .content .category .entry {
+  color: #6c6f85;
+  border-bottom-color: #acb0be;
 }
 html[data-theme="catppuccin-latte-yellow"] #state_KeybindingsState .content .category .entry .mapping {
   color: #df8e1d;
@@ -4380,20 +4428,20 @@ html[data-theme="catppuccin-latte-yellow"] #state_KeybindingsState .content .cat
   filter: brightness(0) saturate(100%) invert(94%) sepia(22%) saturate(523%) hue-rotate(179deg) brightness(96%) contrast(76%);
   opacity: 1 !important;
 }
-html[data-theme="catppuccin-latte-yellow"] #state_KeybindingsState .content .category .entry {
-  color: #6c6f85;
-  border-bottom-color: #acb0be;
-}
 html[data-theme="catppuccin-latte-yellow"] #state_ModsState > .headerBar .openModsFolder {
   background-color: #ea76cb;
 }
 html[data-theme="catppuccin-latte-yellow"] #state_ModsState .modsList .mod {
   background-color: #e6e9ef;
 }
-html[data-theme="catppuccin-latte-yellow"] #state_ModsState .modsStats,
-html[data-theme="catppuccin-latte-yellow"] #state_ModsState .modsList .mod .mainInfo .description,
+html[data-theme="catppuccin-latte-yellow"] #state_ModsState .modsList .mod .mainInfo .description {
+  color: #6c6f85;
+}
 html[data-theme="catppuccin-latte-yellow"] #state_ModsState .modsList .mod .author strong,
 html[data-theme="catppuccin-latte-yellow"] #state_ModsState .modsList .mod .version strong {
+  color: #6c6f85;
+}
+html[data-theme="catppuccin-latte-yellow"] #state_ModsState .modsStats {
   color: #6c6f85;
 }
 html[data-theme="catppuccin-latte-yellow"] .gameState.textualState > .container > .content a {
@@ -4401,11 +4449,6 @@ html[data-theme="catppuccin-latte-yellow"] .gameState.textualState > .container 
 }
 html[data-theme="catppuccin-latte-yellow"] #ingame_HUD_KeybindingOverlay {
   color: #4c4f69;
-}
-html[data-theme="catppuccin-latte-yellow"] .keybinding {
-  color: #ccd0da;
-  background-color: #9ca0b0;
-  border-color: #ccd0da;
 }
 html[data-theme="catppuccin-latte-yellow"] #ingame_HUD_KeybindingOverlay > .binding label {
   color: #6c6f85;
@@ -4418,6 +4461,11 @@ html[data-theme="catppuccin-latte-yellow"] #ingame_HUD_KeybindingOverlay > .bind
 }
 html[data-theme="catppuccin-latte-yellow"] #ingame_HUD_KeybindingOverlay > .binding code.rightMouse {
   background: #9ca0b0 url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAbJJREFUWIXt1r9rFEEYxvFPxMIm2AkiHNhETKNIigPRJiDESrFKII2QxkLBH41opZ21jRbB5tJoEQsRSSxNiih2ydmIIih25/0DNhNY92b35u520MKnmn1n5n2+7Du7804paefjp3KoqDYuYgHvcANand5DXMYGnn1dOvyhKsHc6Zk/ng/UuRV0As+xhfuYw3RhfhqzuI73rU5vo9XpnUlJnAKwiD1cKcX7FWOYDyDXJgVYQScBskqPh0HUAbTxZALzIsTCOABvGjDf16tRAe6UDtnECl9KMsDtJs2DbqUCtHEkA8Ch2FmIAZzLYL6vsykA84nJjhXGqeelXQ4cjCx6gW5CsreF8etEgIG8U+XAkLtgYo17F2RTrASLOJnJbxdrwwBuhtsuh3bKALESfMlkHs3918/Af4B/EuBXRr+B3DGA3YwA31IAXmYEGOiMYgBd/Mxg3sd2CgDcywDwIBasAnja8Fvo49EoAHC+QYALVRN1AF1casB8KVb7FABYDxDjlKMf9q7VLUr5E67jFFZHMF/FTNhbq1g/ENMPXMVdLIfG9TiOhvnv+IzN8B9J6SnBb1HcUyMYnwRJAAAAAElFTkSuQmCC") 50%/85% no-repeat;
+}
+html[data-theme="catppuccin-latte-yellow"] .keybinding {
+  color: #ccd0da;
+  background-color: #9ca0b0;
+  border-color: #ccd0da;
 }
 html[data-theme="catppuccin-latte-yellow"] #ingame_HUD_Waypoints .waypoint {
   color: #4c4f69;
@@ -4484,6 +4532,9 @@ html[data-theme="catppuccin-latte-yellow"] .ingameDialog > .dialogInner > .butto
   color: #eff1f5;
   background-color: #40a02b;
 }
+html[data-theme="catppuccin-latte-yellow"] #ingame_HUD_Shop .content .upgrade {
+  background-color: #e6e9ef;
+}
 html[data-theme="catppuccin-latte-yellow"] #ingame_HUD_Shop .content .upgrade .title .tier {
   color: #eff1f5;
   background-color: #40a02b;
@@ -4508,9 +4559,6 @@ html[data-theme="catppuccin-latte-yellow"] #ingame_HUD_Shop .content .upgrade .t
 }
 html[data-theme="catppuccin-latte-yellow"] #ingame_HUD_Shop .content .upgrade .title .tier[data-tier="6"] {
   background-color: #dce0e8;
-}
-html[data-theme="catppuccin-latte-yellow"] #ingame_HUD_Shop .content .upgrade {
-  background-color: #e6e9ef;
 }
 html[data-theme="catppuccin-latte-yellow"] #ingame_HUD_Shop .content .upgrade .description {
   color: #5c5f77;
@@ -4919,15 +4967,17 @@ html[data-theme="catppuccin-latte-green"] #state_SettingsState .container .conte
   color: #ea76cb;
   background-color: #efe4f1;
 }
-html[data-theme="catppuccin-latte-green"] #state_SettingsState .container .content .sidebar button.manageMods .newBadge {
+html[data-theme="catppuccin-latte-green"] #state_SettingsState .container .content .sidebar button.manageMods.newBadge {
   color: #eff1f5;
   background-color: #ea76cb;
+}
+html[data-theme="catppuccin-latte-green"] #state_SettingsState .container .content .sidebar .versionbar .buildVersion {
+  color: #6c6f85;
 }
 html[data-theme="catppuccin-latte-green"] #state_SettingsState .container .content .categoryContainer .category .setting {
   background-color: #e6e9ef;
 }
-html[data-theme="catppuccin-latte-green"] #state_SettingsState .container .content .categoryContainer .category .setting .desc,
-html[data-theme="catppuccin-latte-green"] #state_SettingsState .container .content .sidebar .versionbar .buildVersion {
+html[data-theme="catppuccin-latte-green"] #state_SettingsState .container .content .categoryContainer .category .setting .desc {
   color: #6c6f85;
 }
 html[data-theme="catppuccin-latte-green"] #state_SettingsState .container .content .categoryContainer .category .setting .value.enum {
@@ -4936,6 +4986,10 @@ html[data-theme="catppuccin-latte-green"] #state_SettingsState .container .conte
 }
 html[data-theme="catppuccin-latte-green"] #state_KeybindingsState .content .hint {
   background-color: #e6e9ef;
+}
+html[data-theme="catppuccin-latte-green"] #state_KeybindingsState .content .category .entry {
+  color: #6c6f85;
+  border-bottom-color: #acb0be;
 }
 html[data-theme="catppuccin-latte-green"] #state_KeybindingsState .content .category .entry .mapping {
   color: #40a02b;
@@ -4948,20 +5002,20 @@ html[data-theme="catppuccin-latte-green"] #state_KeybindingsState .content .cate
   filter: brightness(0) saturate(100%) invert(94%) sepia(22%) saturate(523%) hue-rotate(179deg) brightness(96%) contrast(76%);
   opacity: 1 !important;
 }
-html[data-theme="catppuccin-latte-green"] #state_KeybindingsState .content .category .entry {
-  color: #6c6f85;
-  border-bottom-color: #acb0be;
-}
 html[data-theme="catppuccin-latte-green"] #state_ModsState > .headerBar .openModsFolder {
   background-color: #ea76cb;
 }
 html[data-theme="catppuccin-latte-green"] #state_ModsState .modsList .mod {
   background-color: #e6e9ef;
 }
-html[data-theme="catppuccin-latte-green"] #state_ModsState .modsStats,
-html[data-theme="catppuccin-latte-green"] #state_ModsState .modsList .mod .mainInfo .description,
+html[data-theme="catppuccin-latte-green"] #state_ModsState .modsList .mod .mainInfo .description {
+  color: #6c6f85;
+}
 html[data-theme="catppuccin-latte-green"] #state_ModsState .modsList .mod .author strong,
 html[data-theme="catppuccin-latte-green"] #state_ModsState .modsList .mod .version strong {
+  color: #6c6f85;
+}
+html[data-theme="catppuccin-latte-green"] #state_ModsState .modsStats {
   color: #6c6f85;
 }
 html[data-theme="catppuccin-latte-green"] .gameState.textualState > .container > .content a {
@@ -4969,11 +5023,6 @@ html[data-theme="catppuccin-latte-green"] .gameState.textualState > .container >
 }
 html[data-theme="catppuccin-latte-green"] #ingame_HUD_KeybindingOverlay {
   color: #4c4f69;
-}
-html[data-theme="catppuccin-latte-green"] .keybinding {
-  color: #ccd0da;
-  background-color: #9ca0b0;
-  border-color: #ccd0da;
 }
 html[data-theme="catppuccin-latte-green"] #ingame_HUD_KeybindingOverlay > .binding label {
   color: #6c6f85;
@@ -4986,6 +5035,11 @@ html[data-theme="catppuccin-latte-green"] #ingame_HUD_KeybindingOverlay > .bindi
 }
 html[data-theme="catppuccin-latte-green"] #ingame_HUD_KeybindingOverlay > .binding code.rightMouse {
   background: #9ca0b0 url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAbJJREFUWIXt1r9rFEEYxvFPxMIm2AkiHNhETKNIigPRJiDESrFKII2QxkLBH41opZ21jRbB5tJoEQsRSSxNiih2ydmIIih25/0DNhNY92b35u520MKnmn1n5n2+7Du7804paefjp3KoqDYuYgHvcANand5DXMYGnn1dOvyhKsHc6Zk/ng/UuRV0As+xhfuYw3RhfhqzuI73rU5vo9XpnUlJnAKwiD1cKcX7FWOYDyDXJgVYQScBskqPh0HUAbTxZALzIsTCOABvGjDf16tRAe6UDtnECl9KMsDtJs2DbqUCtHEkA8Ch2FmIAZzLYL6vsykA84nJjhXGqeelXQ4cjCx6gW5CsreF8etEgIG8U+XAkLtgYo17F2RTrASLOJnJbxdrwwBuhtsuh3bKALESfMlkHs3918/Af4B/EuBXRr+B3DGA3YwA31IAXmYEGOiMYgBd/Mxg3sd2CgDcywDwIBasAnja8Fvo49EoAHC+QYALVRN1AF1casB8KVb7FABYDxDjlKMf9q7VLUr5E67jFFZHMF/FTNhbq1g/ENMPXMVdLIfG9TiOhvnv+IzN8B9J6SnBb1HcUyMYnwRJAAAAAElFTkSuQmCC") 50%/85% no-repeat;
+}
+html[data-theme="catppuccin-latte-green"] .keybinding {
+  color: #ccd0da;
+  background-color: #9ca0b0;
+  border-color: #ccd0da;
 }
 html[data-theme="catppuccin-latte-green"] #ingame_HUD_Waypoints .waypoint {
   color: #4c4f69;
@@ -5052,6 +5106,9 @@ html[data-theme="catppuccin-latte-green"] .ingameDialog > .dialogInner > .button
   color: #eff1f5;
   background-color: #40a02b;
 }
+html[data-theme="catppuccin-latte-green"] #ingame_HUD_Shop .content .upgrade {
+  background-color: #e6e9ef;
+}
 html[data-theme="catppuccin-latte-green"] #ingame_HUD_Shop .content .upgrade .title .tier {
   color: #eff1f5;
   background-color: #40a02b;
@@ -5076,9 +5133,6 @@ html[data-theme="catppuccin-latte-green"] #ingame_HUD_Shop .content .upgrade .ti
 }
 html[data-theme="catppuccin-latte-green"] #ingame_HUD_Shop .content .upgrade .title .tier[data-tier="6"] {
   background-color: #dce0e8;
-}
-html[data-theme="catppuccin-latte-green"] #ingame_HUD_Shop .content .upgrade {
-  background-color: #e6e9ef;
 }
 html[data-theme="catppuccin-latte-green"] #ingame_HUD_Shop .content .upgrade .description {
   color: #5c5f77;
@@ -5487,15 +5541,17 @@ html[data-theme="catppuccin-latte-teal"] #state_SettingsState .container .conten
   color: #ea76cb;
   background-color: #efe4f1;
 }
-html[data-theme="catppuccin-latte-teal"] #state_SettingsState .container .content .sidebar button.manageMods .newBadge {
+html[data-theme="catppuccin-latte-teal"] #state_SettingsState .container .content .sidebar button.manageMods.newBadge {
   color: #eff1f5;
   background-color: #ea76cb;
+}
+html[data-theme="catppuccin-latte-teal"] #state_SettingsState .container .content .sidebar .versionbar .buildVersion {
+  color: #6c6f85;
 }
 html[data-theme="catppuccin-latte-teal"] #state_SettingsState .container .content .categoryContainer .category .setting {
   background-color: #e6e9ef;
 }
-html[data-theme="catppuccin-latte-teal"] #state_SettingsState .container .content .categoryContainer .category .setting .desc,
-html[data-theme="catppuccin-latte-teal"] #state_SettingsState .container .content .sidebar .versionbar .buildVersion {
+html[data-theme="catppuccin-latte-teal"] #state_SettingsState .container .content .categoryContainer .category .setting .desc {
   color: #6c6f85;
 }
 html[data-theme="catppuccin-latte-teal"] #state_SettingsState .container .content .categoryContainer .category .setting .value.enum {
@@ -5504,6 +5560,10 @@ html[data-theme="catppuccin-latte-teal"] #state_SettingsState .container .conten
 }
 html[data-theme="catppuccin-latte-teal"] #state_KeybindingsState .content .hint {
   background-color: #e6e9ef;
+}
+html[data-theme="catppuccin-latte-teal"] #state_KeybindingsState .content .category .entry {
+  color: #6c6f85;
+  border-bottom-color: #acb0be;
 }
 html[data-theme="catppuccin-latte-teal"] #state_KeybindingsState .content .category .entry .mapping {
   color: #179299;
@@ -5516,20 +5576,20 @@ html[data-theme="catppuccin-latte-teal"] #state_KeybindingsState .content .categ
   filter: brightness(0) saturate(100%) invert(94%) sepia(22%) saturate(523%) hue-rotate(179deg) brightness(96%) contrast(76%);
   opacity: 1 !important;
 }
-html[data-theme="catppuccin-latte-teal"] #state_KeybindingsState .content .category .entry {
-  color: #6c6f85;
-  border-bottom-color: #acb0be;
-}
 html[data-theme="catppuccin-latte-teal"] #state_ModsState > .headerBar .openModsFolder {
   background-color: #ea76cb;
 }
 html[data-theme="catppuccin-latte-teal"] #state_ModsState .modsList .mod {
   background-color: #e6e9ef;
 }
-html[data-theme="catppuccin-latte-teal"] #state_ModsState .modsStats,
-html[data-theme="catppuccin-latte-teal"] #state_ModsState .modsList .mod .mainInfo .description,
+html[data-theme="catppuccin-latte-teal"] #state_ModsState .modsList .mod .mainInfo .description {
+  color: #6c6f85;
+}
 html[data-theme="catppuccin-latte-teal"] #state_ModsState .modsList .mod .author strong,
 html[data-theme="catppuccin-latte-teal"] #state_ModsState .modsList .mod .version strong {
+  color: #6c6f85;
+}
+html[data-theme="catppuccin-latte-teal"] #state_ModsState .modsStats {
   color: #6c6f85;
 }
 html[data-theme="catppuccin-latte-teal"] .gameState.textualState > .container > .content a {
@@ -5537,11 +5597,6 @@ html[data-theme="catppuccin-latte-teal"] .gameState.textualState > .container > 
 }
 html[data-theme="catppuccin-latte-teal"] #ingame_HUD_KeybindingOverlay {
   color: #4c4f69;
-}
-html[data-theme="catppuccin-latte-teal"] .keybinding {
-  color: #ccd0da;
-  background-color: #9ca0b0;
-  border-color: #ccd0da;
 }
 html[data-theme="catppuccin-latte-teal"] #ingame_HUD_KeybindingOverlay > .binding label {
   color: #6c6f85;
@@ -5554,6 +5609,11 @@ html[data-theme="catppuccin-latte-teal"] #ingame_HUD_KeybindingOverlay > .bindin
 }
 html[data-theme="catppuccin-latte-teal"] #ingame_HUD_KeybindingOverlay > .binding code.rightMouse {
   background: #9ca0b0 url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAbJJREFUWIXt1r9rFEEYxvFPxMIm2AkiHNhETKNIigPRJiDESrFKII2QxkLBH41opZ21jRbB5tJoEQsRSSxNiih2ydmIIih25/0DNhNY92b35u520MKnmn1n5n2+7Du7804paefjp3KoqDYuYgHvcANand5DXMYGnn1dOvyhKsHc6Zk/ng/UuRV0As+xhfuYw3RhfhqzuI73rU5vo9XpnUlJnAKwiD1cKcX7FWOYDyDXJgVYQScBskqPh0HUAbTxZALzIsTCOABvGjDf16tRAe6UDtnECl9KMsDtJs2DbqUCtHEkA8Ch2FmIAZzLYL6vsykA84nJjhXGqeelXQ4cjCx6gW5CsreF8etEgIG8U+XAkLtgYo17F2RTrASLOJnJbxdrwwBuhtsuh3bKALESfMlkHs3918/Af4B/EuBXRr+B3DGA3YwA31IAXmYEGOiMYgBd/Mxg3sd2CgDcywDwIBasAnja8Fvo49EoAHC+QYALVRN1AF1casB8KVb7FABYDxDjlKMf9q7VLUr5E67jFFZHMF/FTNhbq1g/ENMPXMVdLIfG9TiOhvnv+IzN8B9J6SnBb1HcUyMYnwRJAAAAAElFTkSuQmCC") 50%/85% no-repeat;
+}
+html[data-theme="catppuccin-latte-teal"] .keybinding {
+  color: #ccd0da;
+  background-color: #9ca0b0;
+  border-color: #ccd0da;
 }
 html[data-theme="catppuccin-latte-teal"] #ingame_HUD_Waypoints .waypoint {
   color: #4c4f69;
@@ -5620,6 +5680,9 @@ html[data-theme="catppuccin-latte-teal"] .ingameDialog > .dialogInner > .buttons
   color: #eff1f5;
   background-color: #40a02b;
 }
+html[data-theme="catppuccin-latte-teal"] #ingame_HUD_Shop .content .upgrade {
+  background-color: #e6e9ef;
+}
 html[data-theme="catppuccin-latte-teal"] #ingame_HUD_Shop .content .upgrade .title .tier {
   color: #eff1f5;
   background-color: #40a02b;
@@ -5644,9 +5707,6 @@ html[data-theme="catppuccin-latte-teal"] #ingame_HUD_Shop .content .upgrade .tit
 }
 html[data-theme="catppuccin-latte-teal"] #ingame_HUD_Shop .content .upgrade .title .tier[data-tier="6"] {
   background-color: #dce0e8;
-}
-html[data-theme="catppuccin-latte-teal"] #ingame_HUD_Shop .content .upgrade {
-  background-color: #e6e9ef;
 }
 html[data-theme="catppuccin-latte-teal"] #ingame_HUD_Shop .content .upgrade .description {
   color: #5c5f77;
@@ -6055,15 +6115,17 @@ html[data-theme="catppuccin-latte-sky"] #state_SettingsState .container .content
   color: #ea76cb;
   background-color: #efe4f1;
 }
-html[data-theme="catppuccin-latte-sky"] #state_SettingsState .container .content .sidebar button.manageMods .newBadge {
+html[data-theme="catppuccin-latte-sky"] #state_SettingsState .container .content .sidebar button.manageMods.newBadge {
   color: #eff1f5;
   background-color: #ea76cb;
+}
+html[data-theme="catppuccin-latte-sky"] #state_SettingsState .container .content .sidebar .versionbar .buildVersion {
+  color: #6c6f85;
 }
 html[data-theme="catppuccin-latte-sky"] #state_SettingsState .container .content .categoryContainer .category .setting {
   background-color: #e6e9ef;
 }
-html[data-theme="catppuccin-latte-sky"] #state_SettingsState .container .content .categoryContainer .category .setting .desc,
-html[data-theme="catppuccin-latte-sky"] #state_SettingsState .container .content .sidebar .versionbar .buildVersion {
+html[data-theme="catppuccin-latte-sky"] #state_SettingsState .container .content .categoryContainer .category .setting .desc {
   color: #6c6f85;
 }
 html[data-theme="catppuccin-latte-sky"] #state_SettingsState .container .content .categoryContainer .category .setting .value.enum {
@@ -6072,6 +6134,10 @@ html[data-theme="catppuccin-latte-sky"] #state_SettingsState .container .content
 }
 html[data-theme="catppuccin-latte-sky"] #state_KeybindingsState .content .hint {
   background-color: #e6e9ef;
+}
+html[data-theme="catppuccin-latte-sky"] #state_KeybindingsState .content .category .entry {
+  color: #6c6f85;
+  border-bottom-color: #acb0be;
 }
 html[data-theme="catppuccin-latte-sky"] #state_KeybindingsState .content .category .entry .mapping {
   color: #04a5e5;
@@ -6084,20 +6150,20 @@ html[data-theme="catppuccin-latte-sky"] #state_KeybindingsState .content .catego
   filter: brightness(0) saturate(100%) invert(94%) sepia(22%) saturate(523%) hue-rotate(179deg) brightness(96%) contrast(76%);
   opacity: 1 !important;
 }
-html[data-theme="catppuccin-latte-sky"] #state_KeybindingsState .content .category .entry {
-  color: #6c6f85;
-  border-bottom-color: #acb0be;
-}
 html[data-theme="catppuccin-latte-sky"] #state_ModsState > .headerBar .openModsFolder {
   background-color: #ea76cb;
 }
 html[data-theme="catppuccin-latte-sky"] #state_ModsState .modsList .mod {
   background-color: #e6e9ef;
 }
-html[data-theme="catppuccin-latte-sky"] #state_ModsState .modsStats,
-html[data-theme="catppuccin-latte-sky"] #state_ModsState .modsList .mod .mainInfo .description,
+html[data-theme="catppuccin-latte-sky"] #state_ModsState .modsList .mod .mainInfo .description {
+  color: #6c6f85;
+}
 html[data-theme="catppuccin-latte-sky"] #state_ModsState .modsList .mod .author strong,
 html[data-theme="catppuccin-latte-sky"] #state_ModsState .modsList .mod .version strong {
+  color: #6c6f85;
+}
+html[data-theme="catppuccin-latte-sky"] #state_ModsState .modsStats {
   color: #6c6f85;
 }
 html[data-theme="catppuccin-latte-sky"] .gameState.textualState > .container > .content a {
@@ -6105,11 +6171,6 @@ html[data-theme="catppuccin-latte-sky"] .gameState.textualState > .container > .
 }
 html[data-theme="catppuccin-latte-sky"] #ingame_HUD_KeybindingOverlay {
   color: #4c4f69;
-}
-html[data-theme="catppuccin-latte-sky"] .keybinding {
-  color: #ccd0da;
-  background-color: #9ca0b0;
-  border-color: #ccd0da;
 }
 html[data-theme="catppuccin-latte-sky"] #ingame_HUD_KeybindingOverlay > .binding label {
   color: #6c6f85;
@@ -6122,6 +6183,11 @@ html[data-theme="catppuccin-latte-sky"] #ingame_HUD_KeybindingOverlay > .binding
 }
 html[data-theme="catppuccin-latte-sky"] #ingame_HUD_KeybindingOverlay > .binding code.rightMouse {
   background: #9ca0b0 url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAbJJREFUWIXt1r9rFEEYxvFPxMIm2AkiHNhETKNIigPRJiDESrFKII2QxkLBH41opZ21jRbB5tJoEQsRSSxNiih2ydmIIih25/0DNhNY92b35u520MKnmn1n5n2+7Du7804paefjp3KoqDYuYgHvcANand5DXMYGnn1dOvyhKsHc6Zk/ng/UuRV0As+xhfuYw3RhfhqzuI73rU5vo9XpnUlJnAKwiD1cKcX7FWOYDyDXJgVYQScBskqPh0HUAbTxZALzIsTCOABvGjDf16tRAe6UDtnECl9KMsDtJs2DbqUCtHEkA8Ch2FmIAZzLYL6vsykA84nJjhXGqeelXQ4cjCx6gW5CsreF8etEgIG8U+XAkLtgYo17F2RTrASLOJnJbxdrwwBuhtsuh3bKALESfMlkHs3918/Af4B/EuBXRr+B3DGA3YwA31IAXmYEGOiMYgBd/Mxg3sd2CgDcywDwIBasAnja8Fvo49EoAHC+QYALVRN1AF1casB8KVb7FABYDxDjlKMf9q7VLUr5E67jFFZHMF/FTNhbq1g/ENMPXMVdLIfG9TiOhvnv+IzN8B9J6SnBb1HcUyMYnwRJAAAAAElFTkSuQmCC") 50%/85% no-repeat;
+}
+html[data-theme="catppuccin-latte-sky"] .keybinding {
+  color: #ccd0da;
+  background-color: #9ca0b0;
+  border-color: #ccd0da;
 }
 html[data-theme="catppuccin-latte-sky"] #ingame_HUD_Waypoints .waypoint {
   color: #4c4f69;
@@ -6188,6 +6254,9 @@ html[data-theme="catppuccin-latte-sky"] .ingameDialog > .dialogInner > .buttons 
   color: #eff1f5;
   background-color: #40a02b;
 }
+html[data-theme="catppuccin-latte-sky"] #ingame_HUD_Shop .content .upgrade {
+  background-color: #e6e9ef;
+}
 html[data-theme="catppuccin-latte-sky"] #ingame_HUD_Shop .content .upgrade .title .tier {
   color: #eff1f5;
   background-color: #40a02b;
@@ -6212,9 +6281,6 @@ html[data-theme="catppuccin-latte-sky"] #ingame_HUD_Shop .content .upgrade .titl
 }
 html[data-theme="catppuccin-latte-sky"] #ingame_HUD_Shop .content .upgrade .title .tier[data-tier="6"] {
   background-color: #dce0e8;
-}
-html[data-theme="catppuccin-latte-sky"] #ingame_HUD_Shop .content .upgrade {
-  background-color: #e6e9ef;
 }
 html[data-theme="catppuccin-latte-sky"] #ingame_HUD_Shop .content .upgrade .description {
   color: #5c5f77;
@@ -6623,15 +6689,17 @@ html[data-theme="catppuccin-latte-sapphire"] #state_SettingsState .container .co
   color: #ea76cb;
   background-color: #efe4f1;
 }
-html[data-theme="catppuccin-latte-sapphire"] #state_SettingsState .container .content .sidebar button.manageMods .newBadge {
+html[data-theme="catppuccin-latte-sapphire"] #state_SettingsState .container .content .sidebar button.manageMods.newBadge {
   color: #eff1f5;
   background-color: #ea76cb;
+}
+html[data-theme="catppuccin-latte-sapphire"] #state_SettingsState .container .content .sidebar .versionbar .buildVersion {
+  color: #6c6f85;
 }
 html[data-theme="catppuccin-latte-sapphire"] #state_SettingsState .container .content .categoryContainer .category .setting {
   background-color: #e6e9ef;
 }
-html[data-theme="catppuccin-latte-sapphire"] #state_SettingsState .container .content .categoryContainer .category .setting .desc,
-html[data-theme="catppuccin-latte-sapphire"] #state_SettingsState .container .content .sidebar .versionbar .buildVersion {
+html[data-theme="catppuccin-latte-sapphire"] #state_SettingsState .container .content .categoryContainer .category .setting .desc {
   color: #6c6f85;
 }
 html[data-theme="catppuccin-latte-sapphire"] #state_SettingsState .container .content .categoryContainer .category .setting .value.enum {
@@ -6640,6 +6708,10 @@ html[data-theme="catppuccin-latte-sapphire"] #state_SettingsState .container .co
 }
 html[data-theme="catppuccin-latte-sapphire"] #state_KeybindingsState .content .hint {
   background-color: #e6e9ef;
+}
+html[data-theme="catppuccin-latte-sapphire"] #state_KeybindingsState .content .category .entry {
+  color: #6c6f85;
+  border-bottom-color: #acb0be;
 }
 html[data-theme="catppuccin-latte-sapphire"] #state_KeybindingsState .content .category .entry .mapping {
   color: #209fb5;
@@ -6652,20 +6724,20 @@ html[data-theme="catppuccin-latte-sapphire"] #state_KeybindingsState .content .c
   filter: brightness(0) saturate(100%) invert(94%) sepia(22%) saturate(523%) hue-rotate(179deg) brightness(96%) contrast(76%);
   opacity: 1 !important;
 }
-html[data-theme="catppuccin-latte-sapphire"] #state_KeybindingsState .content .category .entry {
-  color: #6c6f85;
-  border-bottom-color: #acb0be;
-}
 html[data-theme="catppuccin-latte-sapphire"] #state_ModsState > .headerBar .openModsFolder {
   background-color: #ea76cb;
 }
 html[data-theme="catppuccin-latte-sapphire"] #state_ModsState .modsList .mod {
   background-color: #e6e9ef;
 }
-html[data-theme="catppuccin-latte-sapphire"] #state_ModsState .modsStats,
-html[data-theme="catppuccin-latte-sapphire"] #state_ModsState .modsList .mod .mainInfo .description,
+html[data-theme="catppuccin-latte-sapphire"] #state_ModsState .modsList .mod .mainInfo .description {
+  color: #6c6f85;
+}
 html[data-theme="catppuccin-latte-sapphire"] #state_ModsState .modsList .mod .author strong,
 html[data-theme="catppuccin-latte-sapphire"] #state_ModsState .modsList .mod .version strong {
+  color: #6c6f85;
+}
+html[data-theme="catppuccin-latte-sapphire"] #state_ModsState .modsStats {
   color: #6c6f85;
 }
 html[data-theme="catppuccin-latte-sapphire"] .gameState.textualState > .container > .content a {
@@ -6673,11 +6745,6 @@ html[data-theme="catppuccin-latte-sapphire"] .gameState.textualState > .containe
 }
 html[data-theme="catppuccin-latte-sapphire"] #ingame_HUD_KeybindingOverlay {
   color: #4c4f69;
-}
-html[data-theme="catppuccin-latte-sapphire"] .keybinding {
-  color: #ccd0da;
-  background-color: #9ca0b0;
-  border-color: #ccd0da;
 }
 html[data-theme="catppuccin-latte-sapphire"] #ingame_HUD_KeybindingOverlay > .binding label {
   color: #6c6f85;
@@ -6690,6 +6757,11 @@ html[data-theme="catppuccin-latte-sapphire"] #ingame_HUD_KeybindingOverlay > .bi
 }
 html[data-theme="catppuccin-latte-sapphire"] #ingame_HUD_KeybindingOverlay > .binding code.rightMouse {
   background: #9ca0b0 url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAbJJREFUWIXt1r9rFEEYxvFPxMIm2AkiHNhETKNIigPRJiDESrFKII2QxkLBH41opZ21jRbB5tJoEQsRSSxNiih2ydmIIih25/0DNhNY92b35u520MKnmn1n5n2+7Du7804paefjp3KoqDYuYgHvcANand5DXMYGnn1dOvyhKsHc6Zk/ng/UuRV0As+xhfuYw3RhfhqzuI73rU5vo9XpnUlJnAKwiD1cKcX7FWOYDyDXJgVYQScBskqPh0HUAbTxZALzIsTCOABvGjDf16tRAe6UDtnECl9KMsDtJs2DbqUCtHEkA8Ch2FmIAZzLYL6vsykA84nJjhXGqeelXQ4cjCx6gW5CsreF8etEgIG8U+XAkLtgYo17F2RTrASLOJnJbxdrwwBuhtsuh3bKALESfMlkHs3918/Af4B/EuBXRr+B3DGA3YwA31IAXmYEGOiMYgBd/Mxg3sd2CgDcywDwIBasAnja8Fvo49EoAHC+QYALVRN1AF1casB8KVb7FABYDxDjlKMf9q7VLUr5E67jFFZHMF/FTNhbq1g/ENMPXMVdLIfG9TiOhvnv+IzN8B9J6SnBb1HcUyMYnwRJAAAAAElFTkSuQmCC") 50%/85% no-repeat;
+}
+html[data-theme="catppuccin-latte-sapphire"] .keybinding {
+  color: #ccd0da;
+  background-color: #9ca0b0;
+  border-color: #ccd0da;
 }
 html[data-theme="catppuccin-latte-sapphire"] #ingame_HUD_Waypoints .waypoint {
   color: #4c4f69;
@@ -6756,6 +6828,9 @@ html[data-theme="catppuccin-latte-sapphire"] .ingameDialog > .dialogInner > .but
   color: #eff1f5;
   background-color: #40a02b;
 }
+html[data-theme="catppuccin-latte-sapphire"] #ingame_HUD_Shop .content .upgrade {
+  background-color: #e6e9ef;
+}
 html[data-theme="catppuccin-latte-sapphire"] #ingame_HUD_Shop .content .upgrade .title .tier {
   color: #eff1f5;
   background-color: #40a02b;
@@ -6780,9 +6855,6 @@ html[data-theme="catppuccin-latte-sapphire"] #ingame_HUD_Shop .content .upgrade 
 }
 html[data-theme="catppuccin-latte-sapphire"] #ingame_HUD_Shop .content .upgrade .title .tier[data-tier="6"] {
   background-color: #dce0e8;
-}
-html[data-theme="catppuccin-latte-sapphire"] #ingame_HUD_Shop .content .upgrade {
-  background-color: #e6e9ef;
 }
 html[data-theme="catppuccin-latte-sapphire"] #ingame_HUD_Shop .content .upgrade .description {
   color: #5c5f77;
@@ -7191,15 +7263,17 @@ html[data-theme="catppuccin-latte-blue"] #state_SettingsState .container .conten
   color: #ea76cb;
   background-color: #efe4f1;
 }
-html[data-theme="catppuccin-latte-blue"] #state_SettingsState .container .content .sidebar button.manageMods .newBadge {
+html[data-theme="catppuccin-latte-blue"] #state_SettingsState .container .content .sidebar button.manageMods.newBadge {
   color: #eff1f5;
   background-color: #ea76cb;
+}
+html[data-theme="catppuccin-latte-blue"] #state_SettingsState .container .content .sidebar .versionbar .buildVersion {
+  color: #6c6f85;
 }
 html[data-theme="catppuccin-latte-blue"] #state_SettingsState .container .content .categoryContainer .category .setting {
   background-color: #e6e9ef;
 }
-html[data-theme="catppuccin-latte-blue"] #state_SettingsState .container .content .categoryContainer .category .setting .desc,
-html[data-theme="catppuccin-latte-blue"] #state_SettingsState .container .content .sidebar .versionbar .buildVersion {
+html[data-theme="catppuccin-latte-blue"] #state_SettingsState .container .content .categoryContainer .category .setting .desc {
   color: #6c6f85;
 }
 html[data-theme="catppuccin-latte-blue"] #state_SettingsState .container .content .categoryContainer .category .setting .value.enum {
@@ -7208,6 +7282,10 @@ html[data-theme="catppuccin-latte-blue"] #state_SettingsState .container .conten
 }
 html[data-theme="catppuccin-latte-blue"] #state_KeybindingsState .content .hint {
   background-color: #e6e9ef;
+}
+html[data-theme="catppuccin-latte-blue"] #state_KeybindingsState .content .category .entry {
+  color: #6c6f85;
+  border-bottom-color: #acb0be;
 }
 html[data-theme="catppuccin-latte-blue"] #state_KeybindingsState .content .category .entry .mapping {
   color: #1e66f5;
@@ -7220,20 +7298,20 @@ html[data-theme="catppuccin-latte-blue"] #state_KeybindingsState .content .categ
   filter: brightness(0) saturate(100%) invert(94%) sepia(22%) saturate(523%) hue-rotate(179deg) brightness(96%) contrast(76%);
   opacity: 1 !important;
 }
-html[data-theme="catppuccin-latte-blue"] #state_KeybindingsState .content .category .entry {
-  color: #6c6f85;
-  border-bottom-color: #acb0be;
-}
 html[data-theme="catppuccin-latte-blue"] #state_ModsState > .headerBar .openModsFolder {
   background-color: #ea76cb;
 }
 html[data-theme="catppuccin-latte-blue"] #state_ModsState .modsList .mod {
   background-color: #e6e9ef;
 }
-html[data-theme="catppuccin-latte-blue"] #state_ModsState .modsStats,
-html[data-theme="catppuccin-latte-blue"] #state_ModsState .modsList .mod .mainInfo .description,
+html[data-theme="catppuccin-latte-blue"] #state_ModsState .modsList .mod .mainInfo .description {
+  color: #6c6f85;
+}
 html[data-theme="catppuccin-latte-blue"] #state_ModsState .modsList .mod .author strong,
 html[data-theme="catppuccin-latte-blue"] #state_ModsState .modsList .mod .version strong {
+  color: #6c6f85;
+}
+html[data-theme="catppuccin-latte-blue"] #state_ModsState .modsStats {
   color: #6c6f85;
 }
 html[data-theme="catppuccin-latte-blue"] .gameState.textualState > .container > .content a {
@@ -7241,11 +7319,6 @@ html[data-theme="catppuccin-latte-blue"] .gameState.textualState > .container > 
 }
 html[data-theme="catppuccin-latte-blue"] #ingame_HUD_KeybindingOverlay {
   color: #4c4f69;
-}
-html[data-theme="catppuccin-latte-blue"] .keybinding {
-  color: #ccd0da;
-  background-color: #9ca0b0;
-  border-color: #ccd0da;
 }
 html[data-theme="catppuccin-latte-blue"] #ingame_HUD_KeybindingOverlay > .binding label {
   color: #6c6f85;
@@ -7258,6 +7331,11 @@ html[data-theme="catppuccin-latte-blue"] #ingame_HUD_KeybindingOverlay > .bindin
 }
 html[data-theme="catppuccin-latte-blue"] #ingame_HUD_KeybindingOverlay > .binding code.rightMouse {
   background: #9ca0b0 url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAbJJREFUWIXt1r9rFEEYxvFPxMIm2AkiHNhETKNIigPRJiDESrFKII2QxkLBH41opZ21jRbB5tJoEQsRSSxNiih2ydmIIih25/0DNhNY92b35u520MKnmn1n5n2+7Du7804paefjp3KoqDYuYgHvcANand5DXMYGnn1dOvyhKsHc6Zk/ng/UuRV0As+xhfuYw3RhfhqzuI73rU5vo9XpnUlJnAKwiD1cKcX7FWOYDyDXJgVYQScBskqPh0HUAbTxZALzIsTCOABvGjDf16tRAe6UDtnECl9KMsDtJs2DbqUCtHEkA8Ch2FmIAZzLYL6vsykA84nJjhXGqeelXQ4cjCx6gW5CsreF8etEgIG8U+XAkLtgYo17F2RTrASLOJnJbxdrwwBuhtsuh3bKALESfMlkHs3918/Af4B/EuBXRr+B3DGA3YwA31IAXmYEGOiMYgBd/Mxg3sd2CgDcywDwIBasAnja8Fvo49EoAHC+QYALVRN1AF1casB8KVb7FABYDxDjlKMf9q7VLUr5E67jFFZHMF/FTNhbq1g/ENMPXMVdLIfG9TiOhvnv+IzN8B9J6SnBb1HcUyMYnwRJAAAAAElFTkSuQmCC") 50%/85% no-repeat;
+}
+html[data-theme="catppuccin-latte-blue"] .keybinding {
+  color: #ccd0da;
+  background-color: #9ca0b0;
+  border-color: #ccd0da;
 }
 html[data-theme="catppuccin-latte-blue"] #ingame_HUD_Waypoints .waypoint {
   color: #4c4f69;
@@ -7324,6 +7402,9 @@ html[data-theme="catppuccin-latte-blue"] .ingameDialog > .dialogInner > .buttons
   color: #eff1f5;
   background-color: #40a02b;
 }
+html[data-theme="catppuccin-latte-blue"] #ingame_HUD_Shop .content .upgrade {
+  background-color: #e6e9ef;
+}
 html[data-theme="catppuccin-latte-blue"] #ingame_HUD_Shop .content .upgrade .title .tier {
   color: #eff1f5;
   background-color: #40a02b;
@@ -7348,9 +7429,6 @@ html[data-theme="catppuccin-latte-blue"] #ingame_HUD_Shop .content .upgrade .tit
 }
 html[data-theme="catppuccin-latte-blue"] #ingame_HUD_Shop .content .upgrade .title .tier[data-tier="6"] {
   background-color: #dce0e8;
-}
-html[data-theme="catppuccin-latte-blue"] #ingame_HUD_Shop .content .upgrade {
-  background-color: #e6e9ef;
 }
 html[data-theme="catppuccin-latte-blue"] #ingame_HUD_Shop .content .upgrade .description {
   color: #5c5f77;
@@ -7759,15 +7837,17 @@ html[data-theme="catppuccin-latte-lavender"] #state_SettingsState .container .co
   color: #ea76cb;
   background-color: #efe4f1;
 }
-html[data-theme="catppuccin-latte-lavender"] #state_SettingsState .container .content .sidebar button.manageMods .newBadge {
+html[data-theme="catppuccin-latte-lavender"] #state_SettingsState .container .content .sidebar button.manageMods.newBadge {
   color: #eff1f5;
   background-color: #ea76cb;
+}
+html[data-theme="catppuccin-latte-lavender"] #state_SettingsState .container .content .sidebar .versionbar .buildVersion {
+  color: #6c6f85;
 }
 html[data-theme="catppuccin-latte-lavender"] #state_SettingsState .container .content .categoryContainer .category .setting {
   background-color: #e6e9ef;
 }
-html[data-theme="catppuccin-latte-lavender"] #state_SettingsState .container .content .categoryContainer .category .setting .desc,
-html[data-theme="catppuccin-latte-lavender"] #state_SettingsState .container .content .sidebar .versionbar .buildVersion {
+html[data-theme="catppuccin-latte-lavender"] #state_SettingsState .container .content .categoryContainer .category .setting .desc {
   color: #6c6f85;
 }
 html[data-theme="catppuccin-latte-lavender"] #state_SettingsState .container .content .categoryContainer .category .setting .value.enum {
@@ -7776,6 +7856,10 @@ html[data-theme="catppuccin-latte-lavender"] #state_SettingsState .container .co
 }
 html[data-theme="catppuccin-latte-lavender"] #state_KeybindingsState .content .hint {
   background-color: #e6e9ef;
+}
+html[data-theme="catppuccin-latte-lavender"] #state_KeybindingsState .content .category .entry {
+  color: #6c6f85;
+  border-bottom-color: #acb0be;
 }
 html[data-theme="catppuccin-latte-lavender"] #state_KeybindingsState .content .category .entry .mapping {
   color: #7287fd;
@@ -7788,20 +7872,20 @@ html[data-theme="catppuccin-latte-lavender"] #state_KeybindingsState .content .c
   filter: brightness(0) saturate(100%) invert(94%) sepia(22%) saturate(523%) hue-rotate(179deg) brightness(96%) contrast(76%);
   opacity: 1 !important;
 }
-html[data-theme="catppuccin-latte-lavender"] #state_KeybindingsState .content .category .entry {
-  color: #6c6f85;
-  border-bottom-color: #acb0be;
-}
 html[data-theme="catppuccin-latte-lavender"] #state_ModsState > .headerBar .openModsFolder {
   background-color: #ea76cb;
 }
 html[data-theme="catppuccin-latte-lavender"] #state_ModsState .modsList .mod {
   background-color: #e6e9ef;
 }
-html[data-theme="catppuccin-latte-lavender"] #state_ModsState .modsStats,
-html[data-theme="catppuccin-latte-lavender"] #state_ModsState .modsList .mod .mainInfo .description,
+html[data-theme="catppuccin-latte-lavender"] #state_ModsState .modsList .mod .mainInfo .description {
+  color: #6c6f85;
+}
 html[data-theme="catppuccin-latte-lavender"] #state_ModsState .modsList .mod .author strong,
 html[data-theme="catppuccin-latte-lavender"] #state_ModsState .modsList .mod .version strong {
+  color: #6c6f85;
+}
+html[data-theme="catppuccin-latte-lavender"] #state_ModsState .modsStats {
   color: #6c6f85;
 }
 html[data-theme="catppuccin-latte-lavender"] .gameState.textualState > .container > .content a {
@@ -7809,11 +7893,6 @@ html[data-theme="catppuccin-latte-lavender"] .gameState.textualState > .containe
 }
 html[data-theme="catppuccin-latte-lavender"] #ingame_HUD_KeybindingOverlay {
   color: #4c4f69;
-}
-html[data-theme="catppuccin-latte-lavender"] .keybinding {
-  color: #ccd0da;
-  background-color: #9ca0b0;
-  border-color: #ccd0da;
 }
 html[data-theme="catppuccin-latte-lavender"] #ingame_HUD_KeybindingOverlay > .binding label {
   color: #6c6f85;
@@ -7826,6 +7905,11 @@ html[data-theme="catppuccin-latte-lavender"] #ingame_HUD_KeybindingOverlay > .bi
 }
 html[data-theme="catppuccin-latte-lavender"] #ingame_HUD_KeybindingOverlay > .binding code.rightMouse {
   background: #9ca0b0 url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAbJJREFUWIXt1r9rFEEYxvFPxMIm2AkiHNhETKNIigPRJiDESrFKII2QxkLBH41opZ21jRbB5tJoEQsRSSxNiih2ydmIIih25/0DNhNY92b35u520MKnmn1n5n2+7Du7804paefjp3KoqDYuYgHvcANand5DXMYGnn1dOvyhKsHc6Zk/ng/UuRV0As+xhfuYw3RhfhqzuI73rU5vo9XpnUlJnAKwiD1cKcX7FWOYDyDXJgVYQScBskqPh0HUAbTxZALzIsTCOABvGjDf16tRAe6UDtnECl9KMsDtJs2DbqUCtHEkA8Ch2FmIAZzLYL6vsykA84nJjhXGqeelXQ4cjCx6gW5CsreF8etEgIG8U+XAkLtgYo17F2RTrASLOJnJbxdrwwBuhtsuh3bKALESfMlkHs3918/Af4B/EuBXRr+B3DGA3YwA31IAXmYEGOiMYgBd/Mxg3sd2CgDcywDwIBasAnja8Fvo49EoAHC+QYALVRN1AF1casB8KVb7FABYDxDjlKMf9q7VLUr5E67jFFZHMF/FTNhbq1g/ENMPXMVdLIfG9TiOhvnv+IzN8B9J6SnBb1HcUyMYnwRJAAAAAElFTkSuQmCC") 50%/85% no-repeat;
+}
+html[data-theme="catppuccin-latte-lavender"] .keybinding {
+  color: #ccd0da;
+  background-color: #9ca0b0;
+  border-color: #ccd0da;
 }
 html[data-theme="catppuccin-latte-lavender"] #ingame_HUD_Waypoints .waypoint {
   color: #4c4f69;
@@ -7892,6 +7976,9 @@ html[data-theme="catppuccin-latte-lavender"] .ingameDialog > .dialogInner > .but
   color: #eff1f5;
   background-color: #40a02b;
 }
+html[data-theme="catppuccin-latte-lavender"] #ingame_HUD_Shop .content .upgrade {
+  background-color: #e6e9ef;
+}
 html[data-theme="catppuccin-latte-lavender"] #ingame_HUD_Shop .content .upgrade .title .tier {
   color: #eff1f5;
   background-color: #40a02b;
@@ -7916,9 +8003,6 @@ html[data-theme="catppuccin-latte-lavender"] #ingame_HUD_Shop .content .upgrade 
 }
 html[data-theme="catppuccin-latte-lavender"] #ingame_HUD_Shop .content .upgrade .title .tier[data-tier="6"] {
   background-color: #dce0e8;
-}
-html[data-theme="catppuccin-latte-lavender"] #ingame_HUD_Shop .content .upgrade {
-  background-color: #e6e9ef;
 }
 html[data-theme="catppuccin-latte-lavender"] #ingame_HUD_Shop .content .upgrade .description {
   color: #5c5f77;
