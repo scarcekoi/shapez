@@ -910,5 +910,17 @@ html[data-theme="catppuccin-{{ flavor.identifier }}-{{ accent.identifier }}"] {
       background-color: fade(@accent, 80%);
     }
   }
+  // Shape Viewer
+  #ingame_HUD_ShapeViewer {
+    .content {
+      .layer {
+        background-color: @mantle;
+
+        .quad:after {
+          background-color: fade(@surface0, 50%);
+        }
+      }
+    }
+  }
 }
 {%- endif %}{%- endfor %}

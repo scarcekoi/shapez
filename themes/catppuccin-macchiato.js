@@ -660,6 +660,12 @@ html[data-theme="catppuccin-macchiato-rosewater"] #ingame_HUD_PlacerVariants .va
 html[data-theme="catppuccin-macchiato-rosewater"] #ingame_HUD_PlacerVariants .variants .variant:hover:not(.active) {
   background-color: rgba(244, 219, 214, 0.8);
 }
+html[data-theme="catppuccin-macchiato-rosewater"] #ingame_HUD_ShapeViewer .content .layer {
+  background-color: #1e2030;
+}
+html[data-theme="catppuccin-macchiato-rosewater"] #ingame_HUD_ShapeViewer .content .layer .quad:after {
+  background-color: rgba(54, 58, 79, 0.5);
+}
 html[data-theme="catppuccin-macchiato-flamingo"] {
   background-color: #1e2030;
 }
@@ -1235,6 +1241,12 @@ html[data-theme="catppuccin-macchiato-flamingo"] #ingame_HUD_PlacerVariants .var
 html[data-theme="catppuccin-macchiato-flamingo"] #ingame_HUD_PlacerVariants .variants .variant.active,
 html[data-theme="catppuccin-macchiato-flamingo"] #ingame_HUD_PlacerVariants .variants .variant:hover:not(.active) {
   background-color: rgba(240, 198, 198, 0.8);
+}
+html[data-theme="catppuccin-macchiato-flamingo"] #ingame_HUD_ShapeViewer .content .layer {
+  background-color: #1e2030;
+}
+html[data-theme="catppuccin-macchiato-flamingo"] #ingame_HUD_ShapeViewer .content .layer .quad:after {
+  background-color: rgba(54, 58, 79, 0.5);
 }
 html[data-theme="catppuccin-macchiato-pink"] {
   background-color: #1e2030;
@@ -1812,6 +1824,12 @@ html[data-theme="catppuccin-macchiato-pink"] #ingame_HUD_PlacerVariants .variant
 html[data-theme="catppuccin-macchiato-pink"] #ingame_HUD_PlacerVariants .variants .variant:hover:not(.active) {
   background-color: rgba(245, 189, 230, 0.8);
 }
+html[data-theme="catppuccin-macchiato-pink"] #ingame_HUD_ShapeViewer .content .layer {
+  background-color: #1e2030;
+}
+html[data-theme="catppuccin-macchiato-pink"] #ingame_HUD_ShapeViewer .content .layer .quad:after {
+  background-color: rgba(54, 58, 79, 0.5);
+}
 html[data-theme="catppuccin-macchiato-mauve"] {
   background-color: #1e2030;
 }
@@ -2387,6 +2405,12 @@ html[data-theme="catppuccin-macchiato-mauve"] #ingame_HUD_PlacerVariants .varian
 html[data-theme="catppuccin-macchiato-mauve"] #ingame_HUD_PlacerVariants .variants .variant.active,
 html[data-theme="catppuccin-macchiato-mauve"] #ingame_HUD_PlacerVariants .variants .variant:hover:not(.active) {
   background-color: rgba(198, 160, 246, 0.8);
+}
+html[data-theme="catppuccin-macchiato-mauve"] #ingame_HUD_ShapeViewer .content .layer {
+  background-color: #1e2030;
+}
+html[data-theme="catppuccin-macchiato-mauve"] #ingame_HUD_ShapeViewer .content .layer .quad:after {
+  background-color: rgba(54, 58, 79, 0.5);
 }
 html[data-theme="catppuccin-macchiato-red"] {
   background-color: #1e2030;
@@ -2964,6 +2988,12 @@ html[data-theme="catppuccin-macchiato-red"] #ingame_HUD_PlacerVariants .variants
 html[data-theme="catppuccin-macchiato-red"] #ingame_HUD_PlacerVariants .variants .variant:hover:not(.active) {
   background-color: rgba(237, 135, 150, 0.8);
 }
+html[data-theme="catppuccin-macchiato-red"] #ingame_HUD_ShapeViewer .content .layer {
+  background-color: #1e2030;
+}
+html[data-theme="catppuccin-macchiato-red"] #ingame_HUD_ShapeViewer .content .layer .quad:after {
+  background-color: rgba(54, 58, 79, 0.5);
+}
 html[data-theme="catppuccin-macchiato-maroon"] {
   background-color: #1e2030;
 }
@@ -3539,6 +3569,12 @@ html[data-theme="catppuccin-macchiato-maroon"] #ingame_HUD_PlacerVariants .varia
 html[data-theme="catppuccin-macchiato-maroon"] #ingame_HUD_PlacerVariants .variants .variant.active,
 html[data-theme="catppuccin-macchiato-maroon"] #ingame_HUD_PlacerVariants .variants .variant:hover:not(.active) {
   background-color: rgba(238, 153, 160, 0.8);
+}
+html[data-theme="catppuccin-macchiato-maroon"] #ingame_HUD_ShapeViewer .content .layer {
+  background-color: #1e2030;
+}
+html[data-theme="catppuccin-macchiato-maroon"] #ingame_HUD_ShapeViewer .content .layer .quad:after {
+  background-color: rgba(54, 58, 79, 0.5);
 }
 html[data-theme="catppuccin-macchiato-peach"] {
   background-color: #1e2030;
@@ -4116,6 +4152,12 @@ html[data-theme="catppuccin-macchiato-peach"] #ingame_HUD_PlacerVariants .varian
 html[data-theme="catppuccin-macchiato-peach"] #ingame_HUD_PlacerVariants .variants .variant:hover:not(.active) {
   background-color: rgba(245, 169, 127, 0.8);
 }
+html[data-theme="catppuccin-macchiato-peach"] #ingame_HUD_ShapeViewer .content .layer {
+  background-color: #1e2030;
+}
+html[data-theme="catppuccin-macchiato-peach"] #ingame_HUD_ShapeViewer .content .layer .quad:after {
+  background-color: rgba(54, 58, 79, 0.5);
+}
 html[data-theme="catppuccin-macchiato-yellow"] {
   background-color: #1e2030;
 }
@@ -4691,6 +4733,12 @@ html[data-theme="catppuccin-macchiato-yellow"] #ingame_HUD_PlacerVariants .varia
 html[data-theme="catppuccin-macchiato-yellow"] #ingame_HUD_PlacerVariants .variants .variant.active,
 html[data-theme="catppuccin-macchiato-yellow"] #ingame_HUD_PlacerVariants .variants .variant:hover:not(.active) {
   background-color: rgba(238, 212, 159, 0.8);
+}
+html[data-theme="catppuccin-macchiato-yellow"] #ingame_HUD_ShapeViewer .content .layer {
+  background-color: #1e2030;
+}
+html[data-theme="catppuccin-macchiato-yellow"] #ingame_HUD_ShapeViewer .content .layer .quad:after {
+  background-color: rgba(54, 58, 79, 0.5);
 }
 html[data-theme="catppuccin-macchiato-green"] {
   background-color: #1e2030;
@@ -5268,6 +5316,12 @@ html[data-theme="catppuccin-macchiato-green"] #ingame_HUD_PlacerVariants .varian
 html[data-theme="catppuccin-macchiato-green"] #ingame_HUD_PlacerVariants .variants .variant:hover:not(.active) {
   background-color: rgba(166, 218, 149, 0.8);
 }
+html[data-theme="catppuccin-macchiato-green"] #ingame_HUD_ShapeViewer .content .layer {
+  background-color: #1e2030;
+}
+html[data-theme="catppuccin-macchiato-green"] #ingame_HUD_ShapeViewer .content .layer .quad:after {
+  background-color: rgba(54, 58, 79, 0.5);
+}
 html[data-theme="catppuccin-macchiato-teal"] {
   background-color: #1e2030;
 }
@@ -5843,6 +5897,12 @@ html[data-theme="catppuccin-macchiato-teal"] #ingame_HUD_PlacerVariants .variant
 html[data-theme="catppuccin-macchiato-teal"] #ingame_HUD_PlacerVariants .variants .variant.active,
 html[data-theme="catppuccin-macchiato-teal"] #ingame_HUD_PlacerVariants .variants .variant:hover:not(.active) {
   background-color: rgba(139, 213, 202, 0.8);
+}
+html[data-theme="catppuccin-macchiato-teal"] #ingame_HUD_ShapeViewer .content .layer {
+  background-color: #1e2030;
+}
+html[data-theme="catppuccin-macchiato-teal"] #ingame_HUD_ShapeViewer .content .layer .quad:after {
+  background-color: rgba(54, 58, 79, 0.5);
 }
 html[data-theme="catppuccin-macchiato-sky"] {
   background-color: #1e2030;
@@ -6420,6 +6480,12 @@ html[data-theme="catppuccin-macchiato-sky"] #ingame_HUD_PlacerVariants .variants
 html[data-theme="catppuccin-macchiato-sky"] #ingame_HUD_PlacerVariants .variants .variant:hover:not(.active) {
   background-color: rgba(145, 215, 227, 0.8);
 }
+html[data-theme="catppuccin-macchiato-sky"] #ingame_HUD_ShapeViewer .content .layer {
+  background-color: #1e2030;
+}
+html[data-theme="catppuccin-macchiato-sky"] #ingame_HUD_ShapeViewer .content .layer .quad:after {
+  background-color: rgba(54, 58, 79, 0.5);
+}
 html[data-theme="catppuccin-macchiato-sapphire"] {
   background-color: #1e2030;
 }
@@ -6995,6 +7061,12 @@ html[data-theme="catppuccin-macchiato-sapphire"] #ingame_HUD_PlacerVariants .var
 html[data-theme="catppuccin-macchiato-sapphire"] #ingame_HUD_PlacerVariants .variants .variant.active,
 html[data-theme="catppuccin-macchiato-sapphire"] #ingame_HUD_PlacerVariants .variants .variant:hover:not(.active) {
   background-color: rgba(125, 196, 228, 0.8);
+}
+html[data-theme="catppuccin-macchiato-sapphire"] #ingame_HUD_ShapeViewer .content .layer {
+  background-color: #1e2030;
+}
+html[data-theme="catppuccin-macchiato-sapphire"] #ingame_HUD_ShapeViewer .content .layer .quad:after {
+  background-color: rgba(54, 58, 79, 0.5);
 }
 html[data-theme="catppuccin-macchiato-blue"] {
   background-color: #1e2030;
@@ -7572,6 +7644,12 @@ html[data-theme="catppuccin-macchiato-blue"] #ingame_HUD_PlacerVariants .variant
 html[data-theme="catppuccin-macchiato-blue"] #ingame_HUD_PlacerVariants .variants .variant:hover:not(.active) {
   background-color: rgba(138, 173, 244, 0.8);
 }
+html[data-theme="catppuccin-macchiato-blue"] #ingame_HUD_ShapeViewer .content .layer {
+  background-color: #1e2030;
+}
+html[data-theme="catppuccin-macchiato-blue"] #ingame_HUD_ShapeViewer .content .layer .quad:after {
+  background-color: rgba(54, 58, 79, 0.5);
+}
 html[data-theme="catppuccin-macchiato-lavender"] {
   background-color: #1e2030;
 }
@@ -8147,6 +8225,12 @@ html[data-theme="catppuccin-macchiato-lavender"] #ingame_HUD_PlacerVariants .var
 html[data-theme="catppuccin-macchiato-lavender"] #ingame_HUD_PlacerVariants .variants .variant.active,
 html[data-theme="catppuccin-macchiato-lavender"] #ingame_HUD_PlacerVariants .variants .variant:hover:not(.active) {
   background-color: rgba(183, 189, 248, 0.8);
+}
+html[data-theme="catppuccin-macchiato-lavender"] #ingame_HUD_ShapeViewer .content .layer {
+  background-color: #1e2030;
+}
+html[data-theme="catppuccin-macchiato-lavender"] #ingame_HUD_ShapeViewer .content .layer .quad:after {
+  background-color: rgba(54, 58, 79, 0.5);
 }
 
     `)
