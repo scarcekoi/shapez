@@ -8256,16 +8256,16 @@ const RESOURCES = {
 
       "directionLock": {
         "regular": {
-          "color": "rgb(74, 237, 134)",
-          "background": "rgba(74, 237, 134, 0.2)"
+          "color": "rgb(166, 209, 137)",
+          "background": "rgba(166, 209, 137, 0.20)"
         },
         "wires": {
-          "color": "rgb(74, 237, 134)",
-          "background": "rgba(74, 237, 134, 0.2)"
+          "color": "rgb(166, 209, 137)",
+          "background": "rgba(166, 209, 137, 0.20)"
         },
         "error": {
-          "color": "rgb(255, 137, 137)",
-          "background": "rgba(255, 137, 137, 0.2)"
+          "color": "rgb(231, 130, 132)",
+          "background": "rgba(231, 130, 132, 0.20)"
         }
       },
 
@@ -8304,9 +8304,9 @@ const RESOURCES = {
     },
 
     "items": {
-      "outline": "#111418",
+      "outline": "#303446",
       "outlineWidth": 0.75,
-      "circleBackground": "rgba(20, 30, 40, 0.3)"
+      "circleBackground": "rgba(65, 69, 89, 0.30)"
     },
 
     "shapeTooltip": {
@@ -8332,16 +8332,16 @@ const RESOURCES = {
 
       "directionLock": {
         "regular": {
-          "color": "rgb(74, 237, 134)",
-          "background": "rgba(74, 237, 134, 0.2)"
+          "color": "rgb(166, 209, 137)",
+          "background": "rgba(166, 209, 137, 0.20)"
         },
         "wires": {
-          "color": "rgb(74, 237, 134)",
-          "background": "rgba(74, 237, 134, 0.2)"
+          "color": "rgb(166, 209, 137)",
+          "background": "rgba(166, 209, 137, 0.20)"
         },
         "error": {
-          "color": "rgb(255, 137, 137)",
-          "background": "rgba(255, 137, 137, 0.2)"
+          "color": "rgb(231, 130, 132)",
+          "background": "rgba(231, 130, 132, 0.20)"
         }
       },
 
@@ -8380,9 +8380,9 @@ const RESOURCES = {
     },
 
     "items": {
-      "outline": "#111418",
+      "outline": "#303446",
       "outlineWidth": 0.75,
-      "circleBackground": "rgba(20, 30, 40, 0.3)"
+      "circleBackground": "rgba(65, 69, 89, 0.30)"
     },
 
     "shapeTooltip": {
@@ -8408,16 +8408,16 @@ const RESOURCES = {
 
       "directionLock": {
         "regular": {
-          "color": "rgb(74, 237, 134)",
-          "background": "rgba(74, 237, 134, 0.2)"
+          "color": "rgb(166, 209, 137)",
+          "background": "rgba(166, 209, 137, 0.20)"
         },
         "wires": {
-          "color": "rgb(74, 237, 134)",
-          "background": "rgba(74, 237, 134, 0.2)"
+          "color": "rgb(166, 209, 137)",
+          "background": "rgba(166, 209, 137, 0.20)"
         },
         "error": {
-          "color": "rgb(255, 137, 137)",
-          "background": "rgba(255, 137, 137, 0.2)"
+          "color": "rgb(231, 130, 132)",
+          "background": "rgba(231, 130, 132, 0.20)"
         }
       },
 
@@ -8456,9 +8456,9 @@ const RESOURCES = {
     },
 
     "items": {
-      "outline": "#111418",
+      "outline": "#303446",
       "outlineWidth": 0.75,
-      "circleBackground": "rgba(20, 30, 40, 0.3)"
+      "circleBackground": "rgba(65, 69, 89, 0.30)"
     },
 
     "shapeTooltip": {
@@ -8484,16 +8484,16 @@ const RESOURCES = {
 
       "directionLock": {
         "regular": {
-          "color": "rgb(74, 237, 134)",
-          "background": "rgba(74, 237, 134, 0.2)"
+          "color": "rgb(166, 209, 137)",
+          "background": "rgba(166, 209, 137, 0.20)"
         },
         "wires": {
-          "color": "rgb(74, 237, 134)",
-          "background": "rgba(74, 237, 134, 0.2)"
+          "color": "rgb(166, 209, 137)",
+          "background": "rgba(166, 209, 137, 0.20)"
         },
         "error": {
-          "color": "rgb(255, 137, 137)",
-          "background": "rgba(255, 137, 137, 0.2)"
+          "color": "rgb(231, 130, 132)",
+          "background": "rgba(231, 130, 132, 0.20)"
         }
       },
 
@@ -8532,9 +8532,9 @@ const RESOURCES = {
     },
 
     "items": {
-      "outline": "#111418",
+      "outline": "#303446",
       "outlineWidth": 0.75,
-      "circleBackground": "rgba(20, 30, 40, 0.3)"
+      "circleBackground": "rgba(65, 69, 89, 0.30)"
     },
 
     "shapeTooltip": {
@@ -8560,16 +8560,16 @@ const RESOURCES = {
 
       "directionLock": {
         "regular": {
-          "color": "rgb(74, 237, 134)",
-          "background": "rgba(74, 237, 134, 0.2)"
+          "color": "rgb(166, 209, 137)",
+          "background": "rgba(166, 209, 137, 0.20)"
         },
         "wires": {
-          "color": "rgb(74, 237, 134)",
-          "background": "rgba(74, 237, 134, 0.2)"
+          "color": "rgb(166, 209, 137)",
+          "background": "rgba(166, 209, 137, 0.20)"
         },
         "error": {
-          "color": "rgb(255, 137, 137)",
-          "background": "rgba(255, 137, 137, 0.2)"
+          "color": "rgb(231, 130, 132)",
+          "background": "rgba(231, 130, 132, 0.20)"
         }
       },
 
@@ -8608,9 +8608,9 @@ const RESOURCES = {
     },
 
     "items": {
-      "outline": "#111418",
+      "outline": "#303446",
       "outlineWidth": 0.75,
-      "circleBackground": "rgba(20, 30, 40, 0.3)"
+      "circleBackground": "rgba(65, 69, 89, 0.30)"
     },
 
     "shapeTooltip": {
@@ -8636,16 +8636,16 @@ const RESOURCES = {
 
       "directionLock": {
         "regular": {
-          "color": "rgb(74, 237, 134)",
-          "background": "rgba(74, 237, 134, 0.2)"
+          "color": "rgb(166, 209, 137)",
+          "background": "rgba(166, 209, 137, 0.20)"
         },
         "wires": {
-          "color": "rgb(74, 237, 134)",
-          "background": "rgba(74, 237, 134, 0.2)"
+          "color": "rgb(166, 209, 137)",
+          "background": "rgba(166, 209, 137, 0.20)"
         },
         "error": {
-          "color": "rgb(255, 137, 137)",
-          "background": "rgba(255, 137, 137, 0.2)"
+          "color": "rgb(231, 130, 132)",
+          "background": "rgba(231, 130, 132, 0.20)"
         }
       },
 
@@ -8684,9 +8684,9 @@ const RESOURCES = {
     },
 
     "items": {
-      "outline": "#111418",
+      "outline": "#303446",
       "outlineWidth": 0.75,
-      "circleBackground": "rgba(20, 30, 40, 0.3)"
+      "circleBackground": "rgba(65, 69, 89, 0.30)"
     },
 
     "shapeTooltip": {
@@ -8712,16 +8712,16 @@ const RESOURCES = {
 
       "directionLock": {
         "regular": {
-          "color": "rgb(74, 237, 134)",
-          "background": "rgba(74, 237, 134, 0.2)"
+          "color": "rgb(166, 209, 137)",
+          "background": "rgba(166, 209, 137, 0.20)"
         },
         "wires": {
-          "color": "rgb(74, 237, 134)",
-          "background": "rgba(74, 237, 134, 0.2)"
+          "color": "rgb(166, 209, 137)",
+          "background": "rgba(166, 209, 137, 0.20)"
         },
         "error": {
-          "color": "rgb(255, 137, 137)",
-          "background": "rgba(255, 137, 137, 0.2)"
+          "color": "rgb(231, 130, 132)",
+          "background": "rgba(231, 130, 132, 0.20)"
         }
       },
 
@@ -8760,9 +8760,9 @@ const RESOURCES = {
     },
 
     "items": {
-      "outline": "#111418",
+      "outline": "#303446",
       "outlineWidth": 0.75,
-      "circleBackground": "rgba(20, 30, 40, 0.3)"
+      "circleBackground": "rgba(65, 69, 89, 0.30)"
     },
 
     "shapeTooltip": {
@@ -8788,16 +8788,16 @@ const RESOURCES = {
 
       "directionLock": {
         "regular": {
-          "color": "rgb(74, 237, 134)",
-          "background": "rgba(74, 237, 134, 0.2)"
+          "color": "rgb(166, 209, 137)",
+          "background": "rgba(166, 209, 137, 0.20)"
         },
         "wires": {
-          "color": "rgb(74, 237, 134)",
-          "background": "rgba(74, 237, 134, 0.2)"
+          "color": "rgb(166, 209, 137)",
+          "background": "rgba(166, 209, 137, 0.20)"
         },
         "error": {
-          "color": "rgb(255, 137, 137)",
-          "background": "rgba(255, 137, 137, 0.2)"
+          "color": "rgb(231, 130, 132)",
+          "background": "rgba(231, 130, 132, 0.20)"
         }
       },
 
@@ -8836,9 +8836,9 @@ const RESOURCES = {
     },
 
     "items": {
-      "outline": "#111418",
+      "outline": "#303446",
       "outlineWidth": 0.75,
-      "circleBackground": "rgba(20, 30, 40, 0.3)"
+      "circleBackground": "rgba(65, 69, 89, 0.30)"
     },
 
     "shapeTooltip": {
@@ -8864,16 +8864,16 @@ const RESOURCES = {
 
       "directionLock": {
         "regular": {
-          "color": "rgb(74, 237, 134)",
-          "background": "rgba(74, 237, 134, 0.2)"
+          "color": "rgb(166, 209, 137)",
+          "background": "rgba(166, 209, 137, 0.20)"
         },
         "wires": {
-          "color": "rgb(74, 237, 134)",
-          "background": "rgba(74, 237, 134, 0.2)"
+          "color": "rgb(166, 209, 137)",
+          "background": "rgba(166, 209, 137, 0.20)"
         },
         "error": {
-          "color": "rgb(255, 137, 137)",
-          "background": "rgba(255, 137, 137, 0.2)"
+          "color": "rgb(231, 130, 132)",
+          "background": "rgba(231, 130, 132, 0.20)"
         }
       },
 
@@ -8912,9 +8912,9 @@ const RESOURCES = {
     },
 
     "items": {
-      "outline": "#111418",
+      "outline": "#303446",
       "outlineWidth": 0.75,
-      "circleBackground": "rgba(20, 30, 40, 0.3)"
+      "circleBackground": "rgba(65, 69, 89, 0.30)"
     },
 
     "shapeTooltip": {
@@ -8940,16 +8940,16 @@ const RESOURCES = {
 
       "directionLock": {
         "regular": {
-          "color": "rgb(74, 237, 134)",
-          "background": "rgba(74, 237, 134, 0.2)"
+          "color": "rgb(166, 209, 137)",
+          "background": "rgba(166, 209, 137, 0.20)"
         },
         "wires": {
-          "color": "rgb(74, 237, 134)",
-          "background": "rgba(74, 237, 134, 0.2)"
+          "color": "rgb(166, 209, 137)",
+          "background": "rgba(166, 209, 137, 0.20)"
         },
         "error": {
-          "color": "rgb(255, 137, 137)",
-          "background": "rgba(255, 137, 137, 0.2)"
+          "color": "rgb(231, 130, 132)",
+          "background": "rgba(231, 130, 132, 0.20)"
         }
       },
 
@@ -8988,9 +8988,9 @@ const RESOURCES = {
     },
 
     "items": {
-      "outline": "#111418",
+      "outline": "#303446",
       "outlineWidth": 0.75,
-      "circleBackground": "rgba(20, 30, 40, 0.3)"
+      "circleBackground": "rgba(65, 69, 89, 0.30)"
     },
 
     "shapeTooltip": {
@@ -9016,16 +9016,16 @@ const RESOURCES = {
 
       "directionLock": {
         "regular": {
-          "color": "rgb(74, 237, 134)",
-          "background": "rgba(74, 237, 134, 0.2)"
+          "color": "rgb(166, 209, 137)",
+          "background": "rgba(166, 209, 137, 0.20)"
         },
         "wires": {
-          "color": "rgb(74, 237, 134)",
-          "background": "rgba(74, 237, 134, 0.2)"
+          "color": "rgb(166, 209, 137)",
+          "background": "rgba(166, 209, 137, 0.20)"
         },
         "error": {
-          "color": "rgb(255, 137, 137)",
-          "background": "rgba(255, 137, 137, 0.2)"
+          "color": "rgb(231, 130, 132)",
+          "background": "rgba(231, 130, 132, 0.20)"
         }
       },
 
@@ -9064,9 +9064,9 @@ const RESOURCES = {
     },
 
     "items": {
-      "outline": "#111418",
+      "outline": "#303446",
       "outlineWidth": 0.75,
-      "circleBackground": "rgba(20, 30, 40, 0.3)"
+      "circleBackground": "rgba(65, 69, 89, 0.30)"
     },
 
     "shapeTooltip": {
@@ -9092,16 +9092,16 @@ const RESOURCES = {
 
       "directionLock": {
         "regular": {
-          "color": "rgb(74, 237, 134)",
-          "background": "rgba(74, 237, 134, 0.2)"
+          "color": "rgb(166, 209, 137)",
+          "background": "rgba(166, 209, 137, 0.20)"
         },
         "wires": {
-          "color": "rgb(74, 237, 134)",
-          "background": "rgba(74, 237, 134, 0.2)"
+          "color": "rgb(166, 209, 137)",
+          "background": "rgba(166, 209, 137, 0.20)"
         },
         "error": {
-          "color": "rgb(255, 137, 137)",
-          "background": "rgba(255, 137, 137, 0.2)"
+          "color": "rgb(231, 130, 132)",
+          "background": "rgba(231, 130, 132, 0.20)"
         }
       },
 
@@ -9140,9 +9140,9 @@ const RESOURCES = {
     },
 
     "items": {
-      "outline": "#111418",
+      "outline": "#303446",
       "outlineWidth": 0.75,
-      "circleBackground": "rgba(20, 30, 40, 0.3)"
+      "circleBackground": "rgba(65, 69, 89, 0.30)"
     },
 
     "shapeTooltip": {
@@ -9168,16 +9168,16 @@ const RESOURCES = {
 
       "directionLock": {
         "regular": {
-          "color": "rgb(74, 237, 134)",
-          "background": "rgba(74, 237, 134, 0.2)"
+          "color": "rgb(166, 209, 137)",
+          "background": "rgba(166, 209, 137, 0.20)"
         },
         "wires": {
-          "color": "rgb(74, 237, 134)",
-          "background": "rgba(74, 237, 134, 0.2)"
+          "color": "rgb(166, 209, 137)",
+          "background": "rgba(166, 209, 137, 0.20)"
         },
         "error": {
-          "color": "rgb(255, 137, 137)",
-          "background": "rgba(255, 137, 137, 0.2)"
+          "color": "rgb(231, 130, 132)",
+          "background": "rgba(231, 130, 132, 0.20)"
         }
       },
 
@@ -9216,9 +9216,9 @@ const RESOURCES = {
     },
 
     "items": {
-      "outline": "#111418",
+      "outline": "#303446",
       "outlineWidth": 0.75,
-      "circleBackground": "rgba(20, 30, 40, 0.3)"
+      "circleBackground": "rgba(65, 69, 89, 0.30)"
     },
 
     "shapeTooltip": {
@@ -9244,16 +9244,16 @@ const RESOURCES = {
 
       "directionLock": {
         "regular": {
-          "color": "rgb(74, 237, 134)",
-          "background": "rgba(74, 237, 134, 0.2)"
+          "color": "rgb(166, 209, 137)",
+          "background": "rgba(166, 209, 137, 0.20)"
         },
         "wires": {
-          "color": "rgb(74, 237, 134)",
-          "background": "rgba(74, 237, 134, 0.2)"
+          "color": "rgb(166, 209, 137)",
+          "background": "rgba(166, 209, 137, 0.20)"
         },
         "error": {
-          "color": "rgb(255, 137, 137)",
-          "background": "rgba(255, 137, 137, 0.2)"
+          "color": "rgb(231, 130, 132)",
+          "background": "rgba(231, 130, 132, 0.20)"
         }
       },
 
@@ -9292,9 +9292,9 @@ const RESOURCES = {
     },
 
     "items": {
-      "outline": "#111418",
+      "outline": "#303446",
       "outlineWidth": 0.75,
-      "circleBackground": "rgba(20, 30, 40, 0.3)"
+      "circleBackground": "rgba(65, 69, 89, 0.30)"
     },
 
     "shapeTooltip": {

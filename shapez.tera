@@ -57,16 +57,16 @@ const RESOURCES = {
 
       "directionLock": {
         "regular": {
-          "color": "rgb(74, 237, 134)",
-          "background": "rgba(74, 237, 134, 0.2)"
+          "color": "{{ css_rgb(color=green) }}",
+          "background": "{{ css_rgba(color=green | mod(opacity=0.2)) }}"
         },
         "wires": {
-          "color": "rgb(74, 237, 134)",
-          "background": "rgba(74, 237, 134, 0.2)"
+          "color": "{{ css_rgb(color=green) }}",
+          "background": "{{ css_rgba(color=green | mod(opacity=0.2)) }}"
         },
         "error": {
-          "color": "rgb(255, 137, 137)",
-          "background": "rgba(255, 137, 137, 0.2)"
+          "color": "{{ css_rgb(color=red) }}",
+          "background": "{{ css_rgba(color=red | mod(opacity=0.2)) }}"
         }
       },
 
@@ -105,9 +105,9 @@ const RESOURCES = {
     },
 
     "items": {
-      "outline": "#111418",
+      "outline": "{{ base.hex }}",
       "outlineWidth": 0.75,
-      "circleBackground": "rgba(20, 30, 40, 0.3)"
+      "circleBackground": "{{ css_rgba(color=surface0 | mod(opacity=0.3)) }}"
     },
 
     "shapeTooltip": {
