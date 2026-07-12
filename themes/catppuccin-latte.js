@@ -587,7 +587,7 @@ html[data-theme="catppuccin-latte-rosewater"] #ingame_HUD_Statistics .dialogInne
   color: #4c4f69;
 }
 html[data-theme="catppuccin-latte-rosewater"] #ingame_HUD_UnlockNotification {
-  background-color: rgba(239, 241, 245, 0.0098);
+  background-color: rgba(239, 241, 245, 0.98);
   background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAAAXNSR0IArs4c6QAAAa5JREFUeJztmTFvwkAMhV+rjtlhyhKpKx2qLv3/C2Jo10pZMsGeH9DlkKKK811C7OcUfxILJJbvUzjwPSAIgiB4XJ5yH5y+fmw7qacFsAewA9Ck90YAFwBnAMOtm97fXm8We9HsdGVaAIfJoqc06dWla75zIv6yFQEfaXE1NAA+01NyLF38fH9v6sxZ/JQu3SviXUC7cPFXulQji3cBB+0angW0mQ1vLo30FHgWsLeo5VnAzqKWZwFrPP7FWp4FmOBZwGhRy7OAi0UtzwLOFrU8CxhW+hqM0mDkWQDSVKdaw7uAAUB/x/19aSz2LgBppF0ioa8Zh7dyHnBMG1nuQGTK+B8PRJAWNCw9EsuxJQFXhrmLlNjCHqBKCGA3wCYEsBtgEwLYDbAJAewG2IQAdgNslswCqw4jbOYIUMnn2dQKUMvn2dTsAar5PJuSAPV8nk1JgHo+z0YSYJLPs5EEmOTzbCQBJvk8G0mAST7P5uH/CksCTPJ5NpIAk3yejSTAJJ9nIwkwyefZlDZB9XyeTUmAej7PpuZnUDWfZ1N7HqCWz7OZcyKkks8HQRAEAY9fMBlR4F7sEJYAAAAASUVORK5CYII=");
 }
 html[data-theme="catppuccin-latte-rosewater"] #ingame_HUD_UnlockNotification .dialog {
@@ -1169,7 +1169,7 @@ html[data-theme="catppuccin-latte-flamingo"] #ingame_HUD_Statistics .dialogInner
   color: #4c4f69;
 }
 html[data-theme="catppuccin-latte-flamingo"] #ingame_HUD_UnlockNotification {
-  background-color: rgba(239, 241, 245, 0.0098);
+  background-color: rgba(239, 241, 245, 0.98);
   background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAAAXNSR0IArs4c6QAAAa5JREFUeJztmTFvwkAMhV+rjtlhyhKpKx2qLv3/C2Jo10pZMsGeH9DlkKKK811C7OcUfxILJJbvUzjwPSAIgiB4XJ5yH5y+fmw7qacFsAewA9Ck90YAFwBnAMOtm97fXm8We9HsdGVaAIfJoqc06dWla75zIv6yFQEfaXE1NAA+01NyLF38fH9v6sxZ/JQu3SviXUC7cPFXulQji3cBB+0angW0mQ1vLo30FHgWsLeo5VnAzqKWZwFrPP7FWp4FmOBZwGhRy7OAi0UtzwLOFrU8CxhW+hqM0mDkWQDSVKdaw7uAAUB/x/19aSz2LgBppF0ioa8Zh7dyHnBMG1nuQGTK+B8PRJAWNCw9EsuxJQFXhrmLlNjCHqBKCGA3wCYEsBtgEwLYDbAJAewG2IQAdgNslswCqw4jbOYIUMnn2dQKUMvn2dTsAar5PJuSAPV8nk1JgHo+z0YSYJLPs5EEmOTzbCQBJvk8G0mAST7P5uH/CksCTPJ5NpIAk3yejSTAJJ9nIwkwyefZlDZB9XyeTUmAej7PpuZnUDWfZ1N7HqCWz7OZcyKkks8HQRAEAY9fMBlR4F7sEJYAAAAASUVORK5CYII=");
 }
 html[data-theme="catppuccin-latte-flamingo"] #ingame_HUD_UnlockNotification .dialog {
@@ -1751,7 +1751,7 @@ html[data-theme="catppuccin-latte-pink"] #ingame_HUD_Statistics .dialogInner[dat
   color: #4c4f69;
 }
 html[data-theme="catppuccin-latte-pink"] #ingame_HUD_UnlockNotification {
-  background-color: rgba(239, 241, 245, 0.0098);
+  background-color: rgba(239, 241, 245, 0.98);
   background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAAAXNSR0IArs4c6QAAAa5JREFUeJztmTFvwkAMhV+rjtlhyhKpKx2qLv3/C2Jo10pZMsGeH9DlkKKK811C7OcUfxILJJbvUzjwPSAIgiB4XJ5yH5y+fmw7qacFsAewA9Ck90YAFwBnAMOtm97fXm8We9HsdGVaAIfJoqc06dWla75zIv6yFQEfaXE1NAA+01NyLF38fH9v6sxZ/JQu3SviXUC7cPFXulQji3cBB+0angW0mQ1vLo30FHgWsLeo5VnAzqKWZwFrPP7FWp4FmOBZwGhRy7OAi0UtzwLOFrU8CxhW+hqM0mDkWQDSVKdaw7uAAUB/x/19aSz2LgBppF0ioa8Zh7dyHnBMG1nuQGTK+B8PRJAWNCw9EsuxJQFXhrmLlNjCHqBKCGA3wCYEsBtgEwLYDbAJAewG2IQAdgNslswCqw4jbOYIUMnn2dQKUMvn2dTsAar5PJuSAPV8nk1JgHo+z0YSYJLPs5EEmOTzbCQBJvk8G0mAST7P5uH/CksCTPJ5NpIAk3yejSTAJJ9nIwkwyefZlDZB9XyeTUmAej7PpuZnUDWfZ1N7HqCWz7OZcyKkks8HQRAEAY9fMBlR4F7sEJYAAAAASUVORK5CYII=");
 }
 html[data-theme="catppuccin-latte-pink"] #ingame_HUD_UnlockNotification .dialog {
@@ -2333,7 +2333,7 @@ html[data-theme="catppuccin-latte-mauve"] #ingame_HUD_Statistics .dialogInner[da
   color: #4c4f69;
 }
 html[data-theme="catppuccin-latte-mauve"] #ingame_HUD_UnlockNotification {
-  background-color: rgba(239, 241, 245, 0.0098);
+  background-color: rgba(239, 241, 245, 0.98);
   background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAAAXNSR0IArs4c6QAAAa5JREFUeJztmTFvwkAMhV+rjtlhyhKpKx2qLv3/C2Jo10pZMsGeH9DlkKKK811C7OcUfxILJJbvUzjwPSAIgiB4XJ5yH5y+fmw7qacFsAewA9Ck90YAFwBnAMOtm97fXm8We9HsdGVaAIfJoqc06dWla75zIv6yFQEfaXE1NAA+01NyLF38fH9v6sxZ/JQu3SviXUC7cPFXulQji3cBB+0angW0mQ1vLo30FHgWsLeo5VnAzqKWZwFrPP7FWp4FmOBZwGhRy7OAi0UtzwLOFrU8CxhW+hqM0mDkWQDSVKdaw7uAAUB/x/19aSz2LgBppF0ioa8Zh7dyHnBMG1nuQGTK+B8PRJAWNCw9EsuxJQFXhrmLlNjCHqBKCGA3wCYEsBtgEwLYDbAJAewG2IQAdgNslswCqw4jbOYIUMnn2dQKUMvn2dTsAar5PJuSAPV8nk1JgHo+z0YSYJLPs5EEmOTzbCQBJvk8G0mAST7P5uH/CksCTPJ5NpIAk3yejSTAJJ9nIwkwyefZlDZB9XyeTUmAej7PpuZnUDWfZ1N7HqCWz7OZcyKkks8HQRAEAY9fMBlR4F7sEJYAAAAASUVORK5CYII=");
 }
 html[data-theme="catppuccin-latte-mauve"] #ingame_HUD_UnlockNotification .dialog {
@@ -2915,7 +2915,7 @@ html[data-theme="catppuccin-latte-red"] #ingame_HUD_Statistics .dialogInner[data
   color: #4c4f69;
 }
 html[data-theme="catppuccin-latte-red"] #ingame_HUD_UnlockNotification {
-  background-color: rgba(239, 241, 245, 0.0098);
+  background-color: rgba(239, 241, 245, 0.98);
   background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAAAXNSR0IArs4c6QAAAa5JREFUeJztmTFvwkAMhV+rjtlhyhKpKx2qLv3/C2Jo10pZMsGeH9DlkKKK811C7OcUfxILJJbvUzjwPSAIgiB4XJ5yH5y+fmw7qacFsAewA9Ck90YAFwBnAMOtm97fXm8We9HsdGVaAIfJoqc06dWla75zIv6yFQEfaXE1NAA+01NyLF38fH9v6sxZ/JQu3SviXUC7cPFXulQji3cBB+0angW0mQ1vLo30FHgWsLeo5VnAzqKWZwFrPP7FWp4FmOBZwGhRy7OAi0UtzwLOFrU8CxhW+hqM0mDkWQDSVKdaw7uAAUB/x/19aSz2LgBppF0ioa8Zh7dyHnBMG1nuQGTK+B8PRJAWNCw9EsuxJQFXhrmLlNjCHqBKCGA3wCYEsBtgEwLYDbAJAewG2IQAdgNslswCqw4jbOYIUMnn2dQKUMvn2dTsAar5PJuSAPV8nk1JgHo+z0YSYJLPs5EEmOTzbCQBJvk8G0mAST7P5uH/CksCTPJ5NpIAk3yejSTAJJ9nIwkwyefZlDZB9XyeTUmAej7PpuZnUDWfZ1N7HqCWz7OZcyKkks8HQRAEAY9fMBlR4F7sEJYAAAAASUVORK5CYII=");
 }
 html[data-theme="catppuccin-latte-red"] #ingame_HUD_UnlockNotification .dialog {
@@ -3497,7 +3497,7 @@ html[data-theme="catppuccin-latte-maroon"] #ingame_HUD_Statistics .dialogInner[d
   color: #4c4f69;
 }
 html[data-theme="catppuccin-latte-maroon"] #ingame_HUD_UnlockNotification {
-  background-color: rgba(239, 241, 245, 0.0098);
+  background-color: rgba(239, 241, 245, 0.98);
   background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAAAXNSR0IArs4c6QAAAa5JREFUeJztmTFvwkAMhV+rjtlhyhKpKx2qLv3/C2Jo10pZMsGeH9DlkKKK811C7OcUfxILJJbvUzjwPSAIgiB4XJ5yH5y+fmw7qacFsAewA9Ck90YAFwBnAMOtm97fXm8We9HsdGVaAIfJoqc06dWla75zIv6yFQEfaXE1NAA+01NyLF38fH9v6sxZ/JQu3SviXUC7cPFXulQji3cBB+0angW0mQ1vLo30FHgWsLeo5VnAzqKWZwFrPP7FWp4FmOBZwGhRy7OAi0UtzwLOFrU8CxhW+hqM0mDkWQDSVKdaw7uAAUB/x/19aSz2LgBppF0ioa8Zh7dyHnBMG1nuQGTK+B8PRJAWNCw9EsuxJQFXhrmLlNjCHqBKCGA3wCYEsBtgEwLYDbAJAewG2IQAdgNslswCqw4jbOYIUMnn2dQKUMvn2dTsAar5PJuSAPV8nk1JgHo+z0YSYJLPs5EEmOTzbCQBJvk8G0mAST7P5uH/CksCTPJ5NpIAk3yejSTAJJ9nIwkwyefZlDZB9XyeTUmAej7PpuZnUDWfZ1N7HqCWz7OZcyKkks8HQRAEAY9fMBlR4F7sEJYAAAAASUVORK5CYII=");
 }
 html[data-theme="catppuccin-latte-maroon"] #ingame_HUD_UnlockNotification .dialog {
@@ -4079,7 +4079,7 @@ html[data-theme="catppuccin-latte-peach"] #ingame_HUD_Statistics .dialogInner[da
   color: #4c4f69;
 }
 html[data-theme="catppuccin-latte-peach"] #ingame_HUD_UnlockNotification {
-  background-color: rgba(239, 241, 245, 0.0098);
+  background-color: rgba(239, 241, 245, 0.98);
   background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAAAXNSR0IArs4c6QAAAa5JREFUeJztmTFvwkAMhV+rjtlhyhKpKx2qLv3/C2Jo10pZMsGeH9DlkKKK811C7OcUfxILJJbvUzjwPSAIgiB4XJ5yH5y+fmw7qacFsAewA9Ck90YAFwBnAMOtm97fXm8We9HsdGVaAIfJoqc06dWla75zIv6yFQEfaXE1NAA+01NyLF38fH9v6sxZ/JQu3SviXUC7cPFXulQji3cBB+0angW0mQ1vLo30FHgWsLeo5VnAzqKWZwFrPP7FWp4FmOBZwGhRy7OAi0UtzwLOFrU8CxhW+hqM0mDkWQDSVKdaw7uAAUB/x/19aSz2LgBppF0ioa8Zh7dyHnBMG1nuQGTK+B8PRJAWNCw9EsuxJQFXhrmLlNjCHqBKCGA3wCYEsBtgEwLYDbAJAewG2IQAdgNslswCqw4jbOYIUMnn2dQKUMvn2dTsAar5PJuSAPV8nk1JgHo+z0YSYJLPs5EEmOTzbCQBJvk8G0mAST7P5uH/CksCTPJ5NpIAk3yejSTAJJ9nIwkwyefZlDZB9XyeTUmAej7PpuZnUDWfZ1N7HqCWz7OZcyKkks8HQRAEAY9fMBlR4F7sEJYAAAAASUVORK5CYII=");
 }
 html[data-theme="catppuccin-latte-peach"] #ingame_HUD_UnlockNotification .dialog {
@@ -4661,7 +4661,7 @@ html[data-theme="catppuccin-latte-yellow"] #ingame_HUD_Statistics .dialogInner[d
   color: #4c4f69;
 }
 html[data-theme="catppuccin-latte-yellow"] #ingame_HUD_UnlockNotification {
-  background-color: rgba(239, 241, 245, 0.0098);
+  background-color: rgba(239, 241, 245, 0.98);
   background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAAAXNSR0IArs4c6QAAAa5JREFUeJztmTFvwkAMhV+rjtlhyhKpKx2qLv3/C2Jo10pZMsGeH9DlkKKK811C7OcUfxILJJbvUzjwPSAIgiB4XJ5yH5y+fmw7qacFsAewA9Ck90YAFwBnAMOtm97fXm8We9HsdGVaAIfJoqc06dWla75zIv6yFQEfaXE1NAA+01NyLF38fH9v6sxZ/JQu3SviXUC7cPFXulQji3cBB+0angW0mQ1vLo30FHgWsLeo5VnAzqKWZwFrPP7FWp4FmOBZwGhRy7OAi0UtzwLOFrU8CxhW+hqM0mDkWQDSVKdaw7uAAUB/x/19aSz2LgBppF0ioa8Zh7dyHnBMG1nuQGTK+B8PRJAWNCw9EsuxJQFXhrmLlNjCHqBKCGA3wCYEsBtgEwLYDbAJAewG2IQAdgNslswCqw4jbOYIUMnn2dQKUMvn2dTsAar5PJuSAPV8nk1JgHo+z0YSYJLPs5EEmOTzbCQBJvk8G0mAST7P5uH/CksCTPJ5NpIAk3yejSTAJJ9nIwkwyefZlDZB9XyeTUmAej7PpuZnUDWfZ1N7HqCWz7OZcyKkks8HQRAEAY9fMBlR4F7sEJYAAAAASUVORK5CYII=");
 }
 html[data-theme="catppuccin-latte-yellow"] #ingame_HUD_UnlockNotification .dialog {
@@ -5243,7 +5243,7 @@ html[data-theme="catppuccin-latte-green"] #ingame_HUD_Statistics .dialogInner[da
   color: #4c4f69;
 }
 html[data-theme="catppuccin-latte-green"] #ingame_HUD_UnlockNotification {
-  background-color: rgba(239, 241, 245, 0.0098);
+  background-color: rgba(239, 241, 245, 0.98);
   background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAAAXNSR0IArs4c6QAAAa5JREFUeJztmTFvwkAMhV+rjtlhyhKpKx2qLv3/C2Jo10pZMsGeH9DlkKKK811C7OcUfxILJJbvUzjwPSAIgiB4XJ5yH5y+fmw7qacFsAewA9Ck90YAFwBnAMOtm97fXm8We9HsdGVaAIfJoqc06dWla75zIv6yFQEfaXE1NAA+01NyLF38fH9v6sxZ/JQu3SviXUC7cPFXulQji3cBB+0angW0mQ1vLo30FHgWsLeo5VnAzqKWZwFrPP7FWp4FmOBZwGhRy7OAi0UtzwLOFrU8CxhW+hqM0mDkWQDSVKdaw7uAAUB/x/19aSz2LgBppF0ioa8Zh7dyHnBMG1nuQGTK+B8PRJAWNCw9EsuxJQFXhrmLlNjCHqBKCGA3wCYEsBtgEwLYDbAJAewG2IQAdgNslswCqw4jbOYIUMnn2dQKUMvn2dTsAar5PJuSAPV8nk1JgHo+z0YSYJLPs5EEmOTzbCQBJvk8G0mAST7P5uH/CksCTPJ5NpIAk3yejSTAJJ9nIwkwyefZlDZB9XyeTUmAej7PpuZnUDWfZ1N7HqCWz7OZcyKkks8HQRAEAY9fMBlR4F7sEJYAAAAASUVORK5CYII=");
 }
 html[data-theme="catppuccin-latte-green"] #ingame_HUD_UnlockNotification .dialog {
@@ -5825,7 +5825,7 @@ html[data-theme="catppuccin-latte-teal"] #ingame_HUD_Statistics .dialogInner[dat
   color: #4c4f69;
 }
 html[data-theme="catppuccin-latte-teal"] #ingame_HUD_UnlockNotification {
-  background-color: rgba(239, 241, 245, 0.0098);
+  background-color: rgba(239, 241, 245, 0.98);
   background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAAAXNSR0IArs4c6QAAAa5JREFUeJztmTFvwkAMhV+rjtlhyhKpKx2qLv3/C2Jo10pZMsGeH9DlkKKK811C7OcUfxILJJbvUzjwPSAIgiB4XJ5yH5y+fmw7qacFsAewA9Ck90YAFwBnAMOtm97fXm8We9HsdGVaAIfJoqc06dWla75zIv6yFQEfaXE1NAA+01NyLF38fH9v6sxZ/JQu3SviXUC7cPFXulQji3cBB+0angW0mQ1vLo30FHgWsLeo5VnAzqKWZwFrPP7FWp4FmOBZwGhRy7OAi0UtzwLOFrU8CxhW+hqM0mDkWQDSVKdaw7uAAUB/x/19aSz2LgBppF0ioa8Zh7dyHnBMG1nuQGTK+B8PRJAWNCw9EsuxJQFXhrmLlNjCHqBKCGA3wCYEsBtgEwLYDbAJAewG2IQAdgNslswCqw4jbOYIUMnn2dQKUMvn2dTsAar5PJuSAPV8nk1JgHo+z0YSYJLPs5EEmOTzbCQBJvk8G0mAST7P5uH/CksCTPJ5NpIAk3yejSTAJJ9nIwkwyefZlDZB9XyeTUmAej7PpuZnUDWfZ1N7HqCWz7OZcyKkks8HQRAEAY9fMBlR4F7sEJYAAAAASUVORK5CYII=");
 }
 html[data-theme="catppuccin-latte-teal"] #ingame_HUD_UnlockNotification .dialog {
@@ -6407,7 +6407,7 @@ html[data-theme="catppuccin-latte-sky"] #ingame_HUD_Statistics .dialogInner[data
   color: #4c4f69;
 }
 html[data-theme="catppuccin-latte-sky"] #ingame_HUD_UnlockNotification {
-  background-color: rgba(239, 241, 245, 0.0098);
+  background-color: rgba(239, 241, 245, 0.98);
   background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAAAXNSR0IArs4c6QAAAa5JREFUeJztmTFvwkAMhV+rjtlhyhKpKx2qLv3/C2Jo10pZMsGeH9DlkKKK811C7OcUfxILJJbvUzjwPSAIgiB4XJ5yH5y+fmw7qacFsAewA9Ck90YAFwBnAMOtm97fXm8We9HsdGVaAIfJoqc06dWla75zIv6yFQEfaXE1NAA+01NyLF38fH9v6sxZ/JQu3SviXUC7cPFXulQji3cBB+0angW0mQ1vLo30FHgWsLeo5VnAzqKWZwFrPP7FWp4FmOBZwGhRy7OAi0UtzwLOFrU8CxhW+hqM0mDkWQDSVKdaw7uAAUB/x/19aSz2LgBppF0ioa8Zh7dyHnBMG1nuQGTK+B8PRJAWNCw9EsuxJQFXhrmLlNjCHqBKCGA3wCYEsBtgEwLYDbAJAewG2IQAdgNslswCqw4jbOYIUMnn2dQKUMvn2dTsAar5PJuSAPV8nk1JgHo+z0YSYJLPs5EEmOTzbCQBJvk8G0mAST7P5uH/CksCTPJ5NpIAk3yejSTAJJ9nIwkwyefZlDZB9XyeTUmAej7PpuZnUDWfZ1N7HqCWz7OZcyKkks8HQRAEAY9fMBlR4F7sEJYAAAAASUVORK5CYII=");
 }
 html[data-theme="catppuccin-latte-sky"] #ingame_HUD_UnlockNotification .dialog {
@@ -6989,7 +6989,7 @@ html[data-theme="catppuccin-latte-sapphire"] #ingame_HUD_Statistics .dialogInner
   color: #4c4f69;
 }
 html[data-theme="catppuccin-latte-sapphire"] #ingame_HUD_UnlockNotification {
-  background-color: rgba(239, 241, 245, 0.0098);
+  background-color: rgba(239, 241, 245, 0.98);
   background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAAAXNSR0IArs4c6QAAAa5JREFUeJztmTFvwkAMhV+rjtlhyhKpKx2qLv3/C2Jo10pZMsGeH9DlkKKK811C7OcUfxILJJbvUzjwPSAIgiB4XJ5yH5y+fmw7qacFsAewA9Ck90YAFwBnAMOtm97fXm8We9HsdGVaAIfJoqc06dWla75zIv6yFQEfaXE1NAA+01NyLF38fH9v6sxZ/JQu3SviXUC7cPFXulQji3cBB+0angW0mQ1vLo30FHgWsLeo5VnAzqKWZwFrPP7FWp4FmOBZwGhRy7OAi0UtzwLOFrU8CxhW+hqM0mDkWQDSVKdaw7uAAUB/x/19aSz2LgBppF0ioa8Zh7dyHnBMG1nuQGTK+B8PRJAWNCw9EsuxJQFXhrmLlNjCHqBKCGA3wCYEsBtgEwLYDbAJAewG2IQAdgNslswCqw4jbOYIUMnn2dQKUMvn2dTsAar5PJuSAPV8nk1JgHo+z0YSYJLPs5EEmOTzbCQBJvk8G0mAST7P5uH/CksCTPJ5NpIAk3yejSTAJJ9nIwkwyefZlDZB9XyeTUmAej7PpuZnUDWfZ1N7HqCWz7OZcyKkks8HQRAEAY9fMBlR4F7sEJYAAAAASUVORK5CYII=");
 }
 html[data-theme="catppuccin-latte-sapphire"] #ingame_HUD_UnlockNotification .dialog {
@@ -7571,7 +7571,7 @@ html[data-theme="catppuccin-latte-blue"] #ingame_HUD_Statistics .dialogInner[dat
   color: #4c4f69;
 }
 html[data-theme="catppuccin-latte-blue"] #ingame_HUD_UnlockNotification {
-  background-color: rgba(239, 241, 245, 0.0098);
+  background-color: rgba(239, 241, 245, 0.98);
   background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAAAXNSR0IArs4c6QAAAa5JREFUeJztmTFvwkAMhV+rjtlhyhKpKx2qLv3/C2Jo10pZMsGeH9DlkKKK811C7OcUfxILJJbvUzjwPSAIgiB4XJ5yH5y+fmw7qacFsAewA9Ck90YAFwBnAMOtm97fXm8We9HsdGVaAIfJoqc06dWla75zIv6yFQEfaXE1NAA+01NyLF38fH9v6sxZ/JQu3SviXUC7cPFXulQji3cBB+0angW0mQ1vLo30FHgWsLeo5VnAzqKWZwFrPP7FWp4FmOBZwGhRy7OAi0UtzwLOFrU8CxhW+hqM0mDkWQDSVKdaw7uAAUB/x/19aSz2LgBppF0ioa8Zh7dyHnBMG1nuQGTK+B8PRJAWNCw9EsuxJQFXhrmLlNjCHqBKCGA3wCYEsBtgEwLYDbAJAewG2IQAdgNslswCqw4jbOYIUMnn2dQKUMvn2dTsAar5PJuSAPV8nk1JgHo+z0YSYJLPs5EEmOTzbCQBJvk8G0mAST7P5uH/CksCTPJ5NpIAk3yejSTAJJ9nIwkwyefZlDZB9XyeTUmAej7PpuZnUDWfZ1N7HqCWz7OZcyKkks8HQRAEAY9fMBlR4F7sEJYAAAAASUVORK5CYII=");
 }
 html[data-theme="catppuccin-latte-blue"] #ingame_HUD_UnlockNotification .dialog {
@@ -8153,7 +8153,7 @@ html[data-theme="catppuccin-latte-lavender"] #ingame_HUD_Statistics .dialogInner
   color: #4c4f69;
 }
 html[data-theme="catppuccin-latte-lavender"] #ingame_HUD_UnlockNotification {
-  background-color: rgba(239, 241, 245, 0.0098);
+  background-color: rgba(239, 241, 245, 0.98);
   background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAAAXNSR0IArs4c6QAAAa5JREFUeJztmTFvwkAMhV+rjtlhyhKpKx2qLv3/C2Jo10pZMsGeH9DlkKKK811C7OcUfxILJJbvUzjwPSAIgiB4XJ5yH5y+fmw7qacFsAewA9Ck90YAFwBnAMOtm97fXm8We9HsdGVaAIfJoqc06dWla75zIv6yFQEfaXE1NAA+01NyLF38fH9v6sxZ/JQu3SviXUC7cPFXulQji3cBB+0angW0mQ1vLo30FHgWsLeo5VnAzqKWZwFrPP7FWp4FmOBZwGhRy7OAi0UtzwLOFrU8CxhW+hqM0mDkWQDSVKdaw7uAAUB/x/19aSz2LgBppF0ioa8Zh7dyHnBMG1nuQGTK+B8PRJAWNCw9EsuxJQFXhrmLlNjCHqBKCGA3wCYEsBtgEwLYDbAJAewG2IQAdgNslswCqw4jbOYIUMnn2dQKUMvn2dTsAar5PJuSAPV8nk1JgHo+z0YSYJLPs5EEmOTzbCQBJvk8G0mAST7P5uH/CksCTPJ5NpIAk3yejSTAJJ9nIwkwyefZlDZB9XyeTUmAej7PpuZnUDWfZ1N7HqCWz7OZcyKkks8HQRAEAY9fMBlR4F7sEJYAAAAASUVORK5CYII=");
 }
 html[data-theme="catppuccin-latte-lavender"] #ingame_HUD_UnlockNotification .dialog {
