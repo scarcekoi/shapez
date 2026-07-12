@@ -645,6 +645,13 @@ html[data-theme="catppuccin-frappe-rosewater"] .prefab_LoadingTextWithAnim:after
 html[data-theme="catppuccin-frappe-rosewater"] .prefab_LoadingTextWithAnimDelayed:after {
   background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A//www.w3.org/2000/svg'%20style%3D'margin%3Aauto%3Bbackground%3A0%200%3Banimation-play-state%3Arunning%3Banimation-delay%3A0s'%20width%3D'200'%20height%3D'200'%20viewBox%3D'0%200%20100%20100'%20preserveAspectRatio%3D'xMidYMid'%20display%3D'block'%3E%3Cg%20style%3D'animation-play-state%3Arunning%3Banimation-delay%3A0s'%3E%3Cg%20style%3D'animation-play-state%3Arunning%3Banimation-delay%3A0s'%20transform%3D'rotate%2865.61%2037.243%2052.757%29%20scale%28.8%29'%3E%3CanimateTransform%20attributeName%3D'transform'%20type%3D'rotate'%20repeatCount%3D'indefinite'%20values%3D'0%2050%2050%3B360%2050%2050'%20keyTimes%3D'0%3B1'%20dur%3D'1.3157894736842106s'/%3E%3Cpath%20fill-opacity%3D'.8'%20fill%3D'%238caaee'%20d%3D'M50%2050V0a50%2050%200%200150%2050z'/%3E%3C/g%3E%3Cg%20transform%3D'rotate%28-40.792%2058.447%2031.553%29%20scale%28.8%29'%3E%3CanimateTransform%20attributeName%3D'transform'%20type%3D'rotate'%20repeatCount%3D'indefinite'%20values%3D'0%2050%2050%3B360%2050%2050'%20keyTimes%3D'0%3B1'%20dur%3D'1.7543859649122806s'/%3E%3Cpath%20fill-opacity%3D'.8'%20fill%3D'%2385c1dc'%20d%3D'M50%2050h50a50%2050%200%2001-50%2050z'/%3E%3C/g%3E%3Cg%20transform%3D'rotate%28-147.195%2046.472%2043.528%29%20scale%28.8%29'%3E%3CanimateTransform%20attributeName%3D'transform'%20type%3D'rotate'%20repeatCount%3D'indefinite'%20values%3D'0%2050%2050%3B360%2050%2050'%20keyTimes%3D'0%3B1'%20dur%3D'2.6315789473684212s'/%3E%3Cpath%20fill-opacity%3D'.8'%20fill%3D'%2399d1db'%20d%3D'M50%2050v50A50%2050%200%20010%2050z'/%3E%3C/g%3E%3Cg%20transform%3D'rotate%28106.402%2041.26%2048.74%29%20scale%28.8%29'%3E%3CanimateTransform%20attributeName%3D'transform'%20type%3D'rotate'%20repeatCount%3D'indefinite'%20values%3D'0%2050%2050%3B360%2050%2050'%20keyTimes%3D'0%3B1'%20dur%3D'5.2631578947368425s'/%3E%3Cpath%20fill-opacity%3D'.8'%20fill%3D'%2381c8be'%20d%3D'M50%2050H0A50%2050%200%200150%200z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
 }
+html[data-theme="catppuccin-frappe-rosewater"] #ingame_HUD_PlacerVariants .variants .variant {
+  background-color: rgba(65, 69, 89, 0.5);
+}
+html[data-theme="catppuccin-frappe-rosewater"] #ingame_HUD_PlacerVariants .variants .variant.active,
+html[data-theme="catppuccin-frappe-rosewater"] #ingame_HUD_PlacerVariants .variants .variant:hover:not(.active) {
+  background-color: rgba(242, 213, 207, 0.8);
+}
 html[data-theme="catppuccin-frappe-flamingo"] {
   background-color: #292c3c;
 }
@@ -1205,6 +1212,13 @@ html[data-theme="catppuccin-frappe-flamingo"] #state_InGameState .prefab_GameHin
 html[data-theme="catppuccin-frappe-flamingo"] .prefab_LoadingTextWithAnim:after,
 html[data-theme="catppuccin-frappe-flamingo"] .prefab_LoadingTextWithAnimDelayed:after {
   background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A//www.w3.org/2000/svg'%20style%3D'margin%3Aauto%3Bbackground%3A0%200%3Banimation-play-state%3Arunning%3Banimation-delay%3A0s'%20width%3D'200'%20height%3D'200'%20viewBox%3D'0%200%20100%20100'%20preserveAspectRatio%3D'xMidYMid'%20display%3D'block'%3E%3Cg%20style%3D'animation-play-state%3Arunning%3Banimation-delay%3A0s'%3E%3Cg%20style%3D'animation-play-state%3Arunning%3Banimation-delay%3A0s'%20transform%3D'rotate%2865.61%2037.243%2052.757%29%20scale%28.8%29'%3E%3CanimateTransform%20attributeName%3D'transform'%20type%3D'rotate'%20repeatCount%3D'indefinite'%20values%3D'0%2050%2050%3B360%2050%2050'%20keyTimes%3D'0%3B1'%20dur%3D'1.3157894736842106s'/%3E%3Cpath%20fill-opacity%3D'.8'%20fill%3D'%238caaee'%20d%3D'M50%2050V0a50%2050%200%200150%2050z'/%3E%3C/g%3E%3Cg%20transform%3D'rotate%28-40.792%2058.447%2031.553%29%20scale%28.8%29'%3E%3CanimateTransform%20attributeName%3D'transform'%20type%3D'rotate'%20repeatCount%3D'indefinite'%20values%3D'0%2050%2050%3B360%2050%2050'%20keyTimes%3D'0%3B1'%20dur%3D'1.7543859649122806s'/%3E%3Cpath%20fill-opacity%3D'.8'%20fill%3D'%2385c1dc'%20d%3D'M50%2050h50a50%2050%200%2001-50%2050z'/%3E%3C/g%3E%3Cg%20transform%3D'rotate%28-147.195%2046.472%2043.528%29%20scale%28.8%29'%3E%3CanimateTransform%20attributeName%3D'transform'%20type%3D'rotate'%20repeatCount%3D'indefinite'%20values%3D'0%2050%2050%3B360%2050%2050'%20keyTimes%3D'0%3B1'%20dur%3D'2.6315789473684212s'/%3E%3Cpath%20fill-opacity%3D'.8'%20fill%3D'%2399d1db'%20d%3D'M50%2050v50A50%2050%200%20010%2050z'/%3E%3C/g%3E%3Cg%20transform%3D'rotate%28106.402%2041.26%2048.74%29%20scale%28.8%29'%3E%3CanimateTransform%20attributeName%3D'transform'%20type%3D'rotate'%20repeatCount%3D'indefinite'%20values%3D'0%2050%2050%3B360%2050%2050'%20keyTimes%3D'0%3B1'%20dur%3D'5.2631578947368425s'/%3E%3Cpath%20fill-opacity%3D'.8'%20fill%3D'%2381c8be'%20d%3D'M50%2050H0A50%2050%200%200150%200z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+}
+html[data-theme="catppuccin-frappe-flamingo"] #ingame_HUD_PlacerVariants .variants .variant {
+  background-color: rgba(65, 69, 89, 0.5);
+}
+html[data-theme="catppuccin-frappe-flamingo"] #ingame_HUD_PlacerVariants .variants .variant.active,
+html[data-theme="catppuccin-frappe-flamingo"] #ingame_HUD_PlacerVariants .variants .variant:hover:not(.active) {
+  background-color: rgba(238, 190, 190, 0.8);
 }
 html[data-theme="catppuccin-frappe-pink"] {
   background-color: #292c3c;
@@ -1767,6 +1781,13 @@ html[data-theme="catppuccin-frappe-pink"] .prefab_LoadingTextWithAnim:after,
 html[data-theme="catppuccin-frappe-pink"] .prefab_LoadingTextWithAnimDelayed:after {
   background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A//www.w3.org/2000/svg'%20style%3D'margin%3Aauto%3Bbackground%3A0%200%3Banimation-play-state%3Arunning%3Banimation-delay%3A0s'%20width%3D'200'%20height%3D'200'%20viewBox%3D'0%200%20100%20100'%20preserveAspectRatio%3D'xMidYMid'%20display%3D'block'%3E%3Cg%20style%3D'animation-play-state%3Arunning%3Banimation-delay%3A0s'%3E%3Cg%20style%3D'animation-play-state%3Arunning%3Banimation-delay%3A0s'%20transform%3D'rotate%2865.61%2037.243%2052.757%29%20scale%28.8%29'%3E%3CanimateTransform%20attributeName%3D'transform'%20type%3D'rotate'%20repeatCount%3D'indefinite'%20values%3D'0%2050%2050%3B360%2050%2050'%20keyTimes%3D'0%3B1'%20dur%3D'1.3157894736842106s'/%3E%3Cpath%20fill-opacity%3D'.8'%20fill%3D'%238caaee'%20d%3D'M50%2050V0a50%2050%200%200150%2050z'/%3E%3C/g%3E%3Cg%20transform%3D'rotate%28-40.792%2058.447%2031.553%29%20scale%28.8%29'%3E%3CanimateTransform%20attributeName%3D'transform'%20type%3D'rotate'%20repeatCount%3D'indefinite'%20values%3D'0%2050%2050%3B360%2050%2050'%20keyTimes%3D'0%3B1'%20dur%3D'1.7543859649122806s'/%3E%3Cpath%20fill-opacity%3D'.8'%20fill%3D'%2385c1dc'%20d%3D'M50%2050h50a50%2050%200%2001-50%2050z'/%3E%3C/g%3E%3Cg%20transform%3D'rotate%28-147.195%2046.472%2043.528%29%20scale%28.8%29'%3E%3CanimateTransform%20attributeName%3D'transform'%20type%3D'rotate'%20repeatCount%3D'indefinite'%20values%3D'0%2050%2050%3B360%2050%2050'%20keyTimes%3D'0%3B1'%20dur%3D'2.6315789473684212s'/%3E%3Cpath%20fill-opacity%3D'.8'%20fill%3D'%2399d1db'%20d%3D'M50%2050v50A50%2050%200%20010%2050z'/%3E%3C/g%3E%3Cg%20transform%3D'rotate%28106.402%2041.26%2048.74%29%20scale%28.8%29'%3E%3CanimateTransform%20attributeName%3D'transform'%20type%3D'rotate'%20repeatCount%3D'indefinite'%20values%3D'0%2050%2050%3B360%2050%2050'%20keyTimes%3D'0%3B1'%20dur%3D'5.2631578947368425s'/%3E%3Cpath%20fill-opacity%3D'.8'%20fill%3D'%2381c8be'%20d%3D'M50%2050H0A50%2050%200%200150%200z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
 }
+html[data-theme="catppuccin-frappe-pink"] #ingame_HUD_PlacerVariants .variants .variant {
+  background-color: rgba(65, 69, 89, 0.5);
+}
+html[data-theme="catppuccin-frappe-pink"] #ingame_HUD_PlacerVariants .variants .variant.active,
+html[data-theme="catppuccin-frappe-pink"] #ingame_HUD_PlacerVariants .variants .variant:hover:not(.active) {
+  background-color: rgba(244, 184, 228, 0.8);
+}
 html[data-theme="catppuccin-frappe-mauve"] {
   background-color: #292c3c;
 }
@@ -2327,6 +2348,13 @@ html[data-theme="catppuccin-frappe-mauve"] #state_InGameState .prefab_GameHint {
 html[data-theme="catppuccin-frappe-mauve"] .prefab_LoadingTextWithAnim:after,
 html[data-theme="catppuccin-frappe-mauve"] .prefab_LoadingTextWithAnimDelayed:after {
   background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A//www.w3.org/2000/svg'%20style%3D'margin%3Aauto%3Bbackground%3A0%200%3Banimation-play-state%3Arunning%3Banimation-delay%3A0s'%20width%3D'200'%20height%3D'200'%20viewBox%3D'0%200%20100%20100'%20preserveAspectRatio%3D'xMidYMid'%20display%3D'block'%3E%3Cg%20style%3D'animation-play-state%3Arunning%3Banimation-delay%3A0s'%3E%3Cg%20style%3D'animation-play-state%3Arunning%3Banimation-delay%3A0s'%20transform%3D'rotate%2865.61%2037.243%2052.757%29%20scale%28.8%29'%3E%3CanimateTransform%20attributeName%3D'transform'%20type%3D'rotate'%20repeatCount%3D'indefinite'%20values%3D'0%2050%2050%3B360%2050%2050'%20keyTimes%3D'0%3B1'%20dur%3D'1.3157894736842106s'/%3E%3Cpath%20fill-opacity%3D'.8'%20fill%3D'%238caaee'%20d%3D'M50%2050V0a50%2050%200%200150%2050z'/%3E%3C/g%3E%3Cg%20transform%3D'rotate%28-40.792%2058.447%2031.553%29%20scale%28.8%29'%3E%3CanimateTransform%20attributeName%3D'transform'%20type%3D'rotate'%20repeatCount%3D'indefinite'%20values%3D'0%2050%2050%3B360%2050%2050'%20keyTimes%3D'0%3B1'%20dur%3D'1.7543859649122806s'/%3E%3Cpath%20fill-opacity%3D'.8'%20fill%3D'%2385c1dc'%20d%3D'M50%2050h50a50%2050%200%2001-50%2050z'/%3E%3C/g%3E%3Cg%20transform%3D'rotate%28-147.195%2046.472%2043.528%29%20scale%28.8%29'%3E%3CanimateTransform%20attributeName%3D'transform'%20type%3D'rotate'%20repeatCount%3D'indefinite'%20values%3D'0%2050%2050%3B360%2050%2050'%20keyTimes%3D'0%3B1'%20dur%3D'2.6315789473684212s'/%3E%3Cpath%20fill-opacity%3D'.8'%20fill%3D'%2399d1db'%20d%3D'M50%2050v50A50%2050%200%20010%2050z'/%3E%3C/g%3E%3Cg%20transform%3D'rotate%28106.402%2041.26%2048.74%29%20scale%28.8%29'%3E%3CanimateTransform%20attributeName%3D'transform'%20type%3D'rotate'%20repeatCount%3D'indefinite'%20values%3D'0%2050%2050%3B360%2050%2050'%20keyTimes%3D'0%3B1'%20dur%3D'5.2631578947368425s'/%3E%3Cpath%20fill-opacity%3D'.8'%20fill%3D'%2381c8be'%20d%3D'M50%2050H0A50%2050%200%200150%200z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+}
+html[data-theme="catppuccin-frappe-mauve"] #ingame_HUD_PlacerVariants .variants .variant {
+  background-color: rgba(65, 69, 89, 0.5);
+}
+html[data-theme="catppuccin-frappe-mauve"] #ingame_HUD_PlacerVariants .variants .variant.active,
+html[data-theme="catppuccin-frappe-mauve"] #ingame_HUD_PlacerVariants .variants .variant:hover:not(.active) {
+  background-color: rgba(202, 158, 230, 0.8);
 }
 html[data-theme="catppuccin-frappe-red"] {
   background-color: #292c3c;
@@ -2889,6 +2917,13 @@ html[data-theme="catppuccin-frappe-red"] .prefab_LoadingTextWithAnim:after,
 html[data-theme="catppuccin-frappe-red"] .prefab_LoadingTextWithAnimDelayed:after {
   background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A//www.w3.org/2000/svg'%20style%3D'margin%3Aauto%3Bbackground%3A0%200%3Banimation-play-state%3Arunning%3Banimation-delay%3A0s'%20width%3D'200'%20height%3D'200'%20viewBox%3D'0%200%20100%20100'%20preserveAspectRatio%3D'xMidYMid'%20display%3D'block'%3E%3Cg%20style%3D'animation-play-state%3Arunning%3Banimation-delay%3A0s'%3E%3Cg%20style%3D'animation-play-state%3Arunning%3Banimation-delay%3A0s'%20transform%3D'rotate%2865.61%2037.243%2052.757%29%20scale%28.8%29'%3E%3CanimateTransform%20attributeName%3D'transform'%20type%3D'rotate'%20repeatCount%3D'indefinite'%20values%3D'0%2050%2050%3B360%2050%2050'%20keyTimes%3D'0%3B1'%20dur%3D'1.3157894736842106s'/%3E%3Cpath%20fill-opacity%3D'.8'%20fill%3D'%238caaee'%20d%3D'M50%2050V0a50%2050%200%200150%2050z'/%3E%3C/g%3E%3Cg%20transform%3D'rotate%28-40.792%2058.447%2031.553%29%20scale%28.8%29'%3E%3CanimateTransform%20attributeName%3D'transform'%20type%3D'rotate'%20repeatCount%3D'indefinite'%20values%3D'0%2050%2050%3B360%2050%2050'%20keyTimes%3D'0%3B1'%20dur%3D'1.7543859649122806s'/%3E%3Cpath%20fill-opacity%3D'.8'%20fill%3D'%2385c1dc'%20d%3D'M50%2050h50a50%2050%200%2001-50%2050z'/%3E%3C/g%3E%3Cg%20transform%3D'rotate%28-147.195%2046.472%2043.528%29%20scale%28.8%29'%3E%3CanimateTransform%20attributeName%3D'transform'%20type%3D'rotate'%20repeatCount%3D'indefinite'%20values%3D'0%2050%2050%3B360%2050%2050'%20keyTimes%3D'0%3B1'%20dur%3D'2.6315789473684212s'/%3E%3Cpath%20fill-opacity%3D'.8'%20fill%3D'%2399d1db'%20d%3D'M50%2050v50A50%2050%200%20010%2050z'/%3E%3C/g%3E%3Cg%20transform%3D'rotate%28106.402%2041.26%2048.74%29%20scale%28.8%29'%3E%3CanimateTransform%20attributeName%3D'transform'%20type%3D'rotate'%20repeatCount%3D'indefinite'%20values%3D'0%2050%2050%3B360%2050%2050'%20keyTimes%3D'0%3B1'%20dur%3D'5.2631578947368425s'/%3E%3Cpath%20fill-opacity%3D'.8'%20fill%3D'%2381c8be'%20d%3D'M50%2050H0A50%2050%200%200150%200z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
 }
+html[data-theme="catppuccin-frappe-red"] #ingame_HUD_PlacerVariants .variants .variant {
+  background-color: rgba(65, 69, 89, 0.5);
+}
+html[data-theme="catppuccin-frappe-red"] #ingame_HUD_PlacerVariants .variants .variant.active,
+html[data-theme="catppuccin-frappe-red"] #ingame_HUD_PlacerVariants .variants .variant:hover:not(.active) {
+  background-color: rgba(231, 130, 132, 0.8);
+}
 html[data-theme="catppuccin-frappe-maroon"] {
   background-color: #292c3c;
 }
@@ -3449,6 +3484,13 @@ html[data-theme="catppuccin-frappe-maroon"] #state_InGameState .prefab_GameHint 
 html[data-theme="catppuccin-frappe-maroon"] .prefab_LoadingTextWithAnim:after,
 html[data-theme="catppuccin-frappe-maroon"] .prefab_LoadingTextWithAnimDelayed:after {
   background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A//www.w3.org/2000/svg'%20style%3D'margin%3Aauto%3Bbackground%3A0%200%3Banimation-play-state%3Arunning%3Banimation-delay%3A0s'%20width%3D'200'%20height%3D'200'%20viewBox%3D'0%200%20100%20100'%20preserveAspectRatio%3D'xMidYMid'%20display%3D'block'%3E%3Cg%20style%3D'animation-play-state%3Arunning%3Banimation-delay%3A0s'%3E%3Cg%20style%3D'animation-play-state%3Arunning%3Banimation-delay%3A0s'%20transform%3D'rotate%2865.61%2037.243%2052.757%29%20scale%28.8%29'%3E%3CanimateTransform%20attributeName%3D'transform'%20type%3D'rotate'%20repeatCount%3D'indefinite'%20values%3D'0%2050%2050%3B360%2050%2050'%20keyTimes%3D'0%3B1'%20dur%3D'1.3157894736842106s'/%3E%3Cpath%20fill-opacity%3D'.8'%20fill%3D'%238caaee'%20d%3D'M50%2050V0a50%2050%200%200150%2050z'/%3E%3C/g%3E%3Cg%20transform%3D'rotate%28-40.792%2058.447%2031.553%29%20scale%28.8%29'%3E%3CanimateTransform%20attributeName%3D'transform'%20type%3D'rotate'%20repeatCount%3D'indefinite'%20values%3D'0%2050%2050%3B360%2050%2050'%20keyTimes%3D'0%3B1'%20dur%3D'1.7543859649122806s'/%3E%3Cpath%20fill-opacity%3D'.8'%20fill%3D'%2385c1dc'%20d%3D'M50%2050h50a50%2050%200%2001-50%2050z'/%3E%3C/g%3E%3Cg%20transform%3D'rotate%28-147.195%2046.472%2043.528%29%20scale%28.8%29'%3E%3CanimateTransform%20attributeName%3D'transform'%20type%3D'rotate'%20repeatCount%3D'indefinite'%20values%3D'0%2050%2050%3B360%2050%2050'%20keyTimes%3D'0%3B1'%20dur%3D'2.6315789473684212s'/%3E%3Cpath%20fill-opacity%3D'.8'%20fill%3D'%2399d1db'%20d%3D'M50%2050v50A50%2050%200%20010%2050z'/%3E%3C/g%3E%3Cg%20transform%3D'rotate%28106.402%2041.26%2048.74%29%20scale%28.8%29'%3E%3CanimateTransform%20attributeName%3D'transform'%20type%3D'rotate'%20repeatCount%3D'indefinite'%20values%3D'0%2050%2050%3B360%2050%2050'%20keyTimes%3D'0%3B1'%20dur%3D'5.2631578947368425s'/%3E%3Cpath%20fill-opacity%3D'.8'%20fill%3D'%2381c8be'%20d%3D'M50%2050H0A50%2050%200%200150%200z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+}
+html[data-theme="catppuccin-frappe-maroon"] #ingame_HUD_PlacerVariants .variants .variant {
+  background-color: rgba(65, 69, 89, 0.5);
+}
+html[data-theme="catppuccin-frappe-maroon"] #ingame_HUD_PlacerVariants .variants .variant.active,
+html[data-theme="catppuccin-frappe-maroon"] #ingame_HUD_PlacerVariants .variants .variant:hover:not(.active) {
+  background-color: rgba(234, 153, 156, 0.8);
 }
 html[data-theme="catppuccin-frappe-peach"] {
   background-color: #292c3c;
@@ -4011,6 +4053,13 @@ html[data-theme="catppuccin-frappe-peach"] .prefab_LoadingTextWithAnim:after,
 html[data-theme="catppuccin-frappe-peach"] .prefab_LoadingTextWithAnimDelayed:after {
   background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A//www.w3.org/2000/svg'%20style%3D'margin%3Aauto%3Bbackground%3A0%200%3Banimation-play-state%3Arunning%3Banimation-delay%3A0s'%20width%3D'200'%20height%3D'200'%20viewBox%3D'0%200%20100%20100'%20preserveAspectRatio%3D'xMidYMid'%20display%3D'block'%3E%3Cg%20style%3D'animation-play-state%3Arunning%3Banimation-delay%3A0s'%3E%3Cg%20style%3D'animation-play-state%3Arunning%3Banimation-delay%3A0s'%20transform%3D'rotate%2865.61%2037.243%2052.757%29%20scale%28.8%29'%3E%3CanimateTransform%20attributeName%3D'transform'%20type%3D'rotate'%20repeatCount%3D'indefinite'%20values%3D'0%2050%2050%3B360%2050%2050'%20keyTimes%3D'0%3B1'%20dur%3D'1.3157894736842106s'/%3E%3Cpath%20fill-opacity%3D'.8'%20fill%3D'%238caaee'%20d%3D'M50%2050V0a50%2050%200%200150%2050z'/%3E%3C/g%3E%3Cg%20transform%3D'rotate%28-40.792%2058.447%2031.553%29%20scale%28.8%29'%3E%3CanimateTransform%20attributeName%3D'transform'%20type%3D'rotate'%20repeatCount%3D'indefinite'%20values%3D'0%2050%2050%3B360%2050%2050'%20keyTimes%3D'0%3B1'%20dur%3D'1.7543859649122806s'/%3E%3Cpath%20fill-opacity%3D'.8'%20fill%3D'%2385c1dc'%20d%3D'M50%2050h50a50%2050%200%2001-50%2050z'/%3E%3C/g%3E%3Cg%20transform%3D'rotate%28-147.195%2046.472%2043.528%29%20scale%28.8%29'%3E%3CanimateTransform%20attributeName%3D'transform'%20type%3D'rotate'%20repeatCount%3D'indefinite'%20values%3D'0%2050%2050%3B360%2050%2050'%20keyTimes%3D'0%3B1'%20dur%3D'2.6315789473684212s'/%3E%3Cpath%20fill-opacity%3D'.8'%20fill%3D'%2399d1db'%20d%3D'M50%2050v50A50%2050%200%20010%2050z'/%3E%3C/g%3E%3Cg%20transform%3D'rotate%28106.402%2041.26%2048.74%29%20scale%28.8%29'%3E%3CanimateTransform%20attributeName%3D'transform'%20type%3D'rotate'%20repeatCount%3D'indefinite'%20values%3D'0%2050%2050%3B360%2050%2050'%20keyTimes%3D'0%3B1'%20dur%3D'5.2631578947368425s'/%3E%3Cpath%20fill-opacity%3D'.8'%20fill%3D'%2381c8be'%20d%3D'M50%2050H0A50%2050%200%200150%200z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
 }
+html[data-theme="catppuccin-frappe-peach"] #ingame_HUD_PlacerVariants .variants .variant {
+  background-color: rgba(65, 69, 89, 0.5);
+}
+html[data-theme="catppuccin-frappe-peach"] #ingame_HUD_PlacerVariants .variants .variant.active,
+html[data-theme="catppuccin-frappe-peach"] #ingame_HUD_PlacerVariants .variants .variant:hover:not(.active) {
+  background-color: rgba(239, 159, 118, 0.8);
+}
 html[data-theme="catppuccin-frappe-yellow"] {
   background-color: #292c3c;
 }
@@ -4571,6 +4620,13 @@ html[data-theme="catppuccin-frappe-yellow"] #state_InGameState .prefab_GameHint 
 html[data-theme="catppuccin-frappe-yellow"] .prefab_LoadingTextWithAnim:after,
 html[data-theme="catppuccin-frappe-yellow"] .prefab_LoadingTextWithAnimDelayed:after {
   background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A//www.w3.org/2000/svg'%20style%3D'margin%3Aauto%3Bbackground%3A0%200%3Banimation-play-state%3Arunning%3Banimation-delay%3A0s'%20width%3D'200'%20height%3D'200'%20viewBox%3D'0%200%20100%20100'%20preserveAspectRatio%3D'xMidYMid'%20display%3D'block'%3E%3Cg%20style%3D'animation-play-state%3Arunning%3Banimation-delay%3A0s'%3E%3Cg%20style%3D'animation-play-state%3Arunning%3Banimation-delay%3A0s'%20transform%3D'rotate%2865.61%2037.243%2052.757%29%20scale%28.8%29'%3E%3CanimateTransform%20attributeName%3D'transform'%20type%3D'rotate'%20repeatCount%3D'indefinite'%20values%3D'0%2050%2050%3B360%2050%2050'%20keyTimes%3D'0%3B1'%20dur%3D'1.3157894736842106s'/%3E%3Cpath%20fill-opacity%3D'.8'%20fill%3D'%238caaee'%20d%3D'M50%2050V0a50%2050%200%200150%2050z'/%3E%3C/g%3E%3Cg%20transform%3D'rotate%28-40.792%2058.447%2031.553%29%20scale%28.8%29'%3E%3CanimateTransform%20attributeName%3D'transform'%20type%3D'rotate'%20repeatCount%3D'indefinite'%20values%3D'0%2050%2050%3B360%2050%2050'%20keyTimes%3D'0%3B1'%20dur%3D'1.7543859649122806s'/%3E%3Cpath%20fill-opacity%3D'.8'%20fill%3D'%2385c1dc'%20d%3D'M50%2050h50a50%2050%200%2001-50%2050z'/%3E%3C/g%3E%3Cg%20transform%3D'rotate%28-147.195%2046.472%2043.528%29%20scale%28.8%29'%3E%3CanimateTransform%20attributeName%3D'transform'%20type%3D'rotate'%20repeatCount%3D'indefinite'%20values%3D'0%2050%2050%3B360%2050%2050'%20keyTimes%3D'0%3B1'%20dur%3D'2.6315789473684212s'/%3E%3Cpath%20fill-opacity%3D'.8'%20fill%3D'%2399d1db'%20d%3D'M50%2050v50A50%2050%200%20010%2050z'/%3E%3C/g%3E%3Cg%20transform%3D'rotate%28106.402%2041.26%2048.74%29%20scale%28.8%29'%3E%3CanimateTransform%20attributeName%3D'transform'%20type%3D'rotate'%20repeatCount%3D'indefinite'%20values%3D'0%2050%2050%3B360%2050%2050'%20keyTimes%3D'0%3B1'%20dur%3D'5.2631578947368425s'/%3E%3Cpath%20fill-opacity%3D'.8'%20fill%3D'%2381c8be'%20d%3D'M50%2050H0A50%2050%200%200150%200z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+}
+html[data-theme="catppuccin-frappe-yellow"] #ingame_HUD_PlacerVariants .variants .variant {
+  background-color: rgba(65, 69, 89, 0.5);
+}
+html[data-theme="catppuccin-frappe-yellow"] #ingame_HUD_PlacerVariants .variants .variant.active,
+html[data-theme="catppuccin-frappe-yellow"] #ingame_HUD_PlacerVariants .variants .variant:hover:not(.active) {
+  background-color: rgba(229, 200, 144, 0.8);
 }
 html[data-theme="catppuccin-frappe-green"] {
   background-color: #292c3c;
@@ -5133,6 +5189,13 @@ html[data-theme="catppuccin-frappe-green"] .prefab_LoadingTextWithAnim:after,
 html[data-theme="catppuccin-frappe-green"] .prefab_LoadingTextWithAnimDelayed:after {
   background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A//www.w3.org/2000/svg'%20style%3D'margin%3Aauto%3Bbackground%3A0%200%3Banimation-play-state%3Arunning%3Banimation-delay%3A0s'%20width%3D'200'%20height%3D'200'%20viewBox%3D'0%200%20100%20100'%20preserveAspectRatio%3D'xMidYMid'%20display%3D'block'%3E%3Cg%20style%3D'animation-play-state%3Arunning%3Banimation-delay%3A0s'%3E%3Cg%20style%3D'animation-play-state%3Arunning%3Banimation-delay%3A0s'%20transform%3D'rotate%2865.61%2037.243%2052.757%29%20scale%28.8%29'%3E%3CanimateTransform%20attributeName%3D'transform'%20type%3D'rotate'%20repeatCount%3D'indefinite'%20values%3D'0%2050%2050%3B360%2050%2050'%20keyTimes%3D'0%3B1'%20dur%3D'1.3157894736842106s'/%3E%3Cpath%20fill-opacity%3D'.8'%20fill%3D'%238caaee'%20d%3D'M50%2050V0a50%2050%200%200150%2050z'/%3E%3C/g%3E%3Cg%20transform%3D'rotate%28-40.792%2058.447%2031.553%29%20scale%28.8%29'%3E%3CanimateTransform%20attributeName%3D'transform'%20type%3D'rotate'%20repeatCount%3D'indefinite'%20values%3D'0%2050%2050%3B360%2050%2050'%20keyTimes%3D'0%3B1'%20dur%3D'1.7543859649122806s'/%3E%3Cpath%20fill-opacity%3D'.8'%20fill%3D'%2385c1dc'%20d%3D'M50%2050h50a50%2050%200%2001-50%2050z'/%3E%3C/g%3E%3Cg%20transform%3D'rotate%28-147.195%2046.472%2043.528%29%20scale%28.8%29'%3E%3CanimateTransform%20attributeName%3D'transform'%20type%3D'rotate'%20repeatCount%3D'indefinite'%20values%3D'0%2050%2050%3B360%2050%2050'%20keyTimes%3D'0%3B1'%20dur%3D'2.6315789473684212s'/%3E%3Cpath%20fill-opacity%3D'.8'%20fill%3D'%2399d1db'%20d%3D'M50%2050v50A50%2050%200%20010%2050z'/%3E%3C/g%3E%3Cg%20transform%3D'rotate%28106.402%2041.26%2048.74%29%20scale%28.8%29'%3E%3CanimateTransform%20attributeName%3D'transform'%20type%3D'rotate'%20repeatCount%3D'indefinite'%20values%3D'0%2050%2050%3B360%2050%2050'%20keyTimes%3D'0%3B1'%20dur%3D'5.2631578947368425s'/%3E%3Cpath%20fill-opacity%3D'.8'%20fill%3D'%2381c8be'%20d%3D'M50%2050H0A50%2050%200%200150%200z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
 }
+html[data-theme="catppuccin-frappe-green"] #ingame_HUD_PlacerVariants .variants .variant {
+  background-color: rgba(65, 69, 89, 0.5);
+}
+html[data-theme="catppuccin-frappe-green"] #ingame_HUD_PlacerVariants .variants .variant.active,
+html[data-theme="catppuccin-frappe-green"] #ingame_HUD_PlacerVariants .variants .variant:hover:not(.active) {
+  background-color: rgba(166, 209, 137, 0.8);
+}
 html[data-theme="catppuccin-frappe-teal"] {
   background-color: #292c3c;
 }
@@ -5693,6 +5756,13 @@ html[data-theme="catppuccin-frappe-teal"] #state_InGameState .prefab_GameHint {
 html[data-theme="catppuccin-frappe-teal"] .prefab_LoadingTextWithAnim:after,
 html[data-theme="catppuccin-frappe-teal"] .prefab_LoadingTextWithAnimDelayed:after {
   background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A//www.w3.org/2000/svg'%20style%3D'margin%3Aauto%3Bbackground%3A0%200%3Banimation-play-state%3Arunning%3Banimation-delay%3A0s'%20width%3D'200'%20height%3D'200'%20viewBox%3D'0%200%20100%20100'%20preserveAspectRatio%3D'xMidYMid'%20display%3D'block'%3E%3Cg%20style%3D'animation-play-state%3Arunning%3Banimation-delay%3A0s'%3E%3Cg%20style%3D'animation-play-state%3Arunning%3Banimation-delay%3A0s'%20transform%3D'rotate%2865.61%2037.243%2052.757%29%20scale%28.8%29'%3E%3CanimateTransform%20attributeName%3D'transform'%20type%3D'rotate'%20repeatCount%3D'indefinite'%20values%3D'0%2050%2050%3B360%2050%2050'%20keyTimes%3D'0%3B1'%20dur%3D'1.3157894736842106s'/%3E%3Cpath%20fill-opacity%3D'.8'%20fill%3D'%238caaee'%20d%3D'M50%2050V0a50%2050%200%200150%2050z'/%3E%3C/g%3E%3Cg%20transform%3D'rotate%28-40.792%2058.447%2031.553%29%20scale%28.8%29'%3E%3CanimateTransform%20attributeName%3D'transform'%20type%3D'rotate'%20repeatCount%3D'indefinite'%20values%3D'0%2050%2050%3B360%2050%2050'%20keyTimes%3D'0%3B1'%20dur%3D'1.7543859649122806s'/%3E%3Cpath%20fill-opacity%3D'.8'%20fill%3D'%2385c1dc'%20d%3D'M50%2050h50a50%2050%200%2001-50%2050z'/%3E%3C/g%3E%3Cg%20transform%3D'rotate%28-147.195%2046.472%2043.528%29%20scale%28.8%29'%3E%3CanimateTransform%20attributeName%3D'transform'%20type%3D'rotate'%20repeatCount%3D'indefinite'%20values%3D'0%2050%2050%3B360%2050%2050'%20keyTimes%3D'0%3B1'%20dur%3D'2.6315789473684212s'/%3E%3Cpath%20fill-opacity%3D'.8'%20fill%3D'%2399d1db'%20d%3D'M50%2050v50A50%2050%200%20010%2050z'/%3E%3C/g%3E%3Cg%20transform%3D'rotate%28106.402%2041.26%2048.74%29%20scale%28.8%29'%3E%3CanimateTransform%20attributeName%3D'transform'%20type%3D'rotate'%20repeatCount%3D'indefinite'%20values%3D'0%2050%2050%3B360%2050%2050'%20keyTimes%3D'0%3B1'%20dur%3D'5.2631578947368425s'/%3E%3Cpath%20fill-opacity%3D'.8'%20fill%3D'%2381c8be'%20d%3D'M50%2050H0A50%2050%200%200150%200z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+}
+html[data-theme="catppuccin-frappe-teal"] #ingame_HUD_PlacerVariants .variants .variant {
+  background-color: rgba(65, 69, 89, 0.5);
+}
+html[data-theme="catppuccin-frappe-teal"] #ingame_HUD_PlacerVariants .variants .variant.active,
+html[data-theme="catppuccin-frappe-teal"] #ingame_HUD_PlacerVariants .variants .variant:hover:not(.active) {
+  background-color: rgba(129, 200, 190, 0.8);
 }
 html[data-theme="catppuccin-frappe-sky"] {
   background-color: #292c3c;
@@ -6255,6 +6325,13 @@ html[data-theme="catppuccin-frappe-sky"] .prefab_LoadingTextWithAnim:after,
 html[data-theme="catppuccin-frappe-sky"] .prefab_LoadingTextWithAnimDelayed:after {
   background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A//www.w3.org/2000/svg'%20style%3D'margin%3Aauto%3Bbackground%3A0%200%3Banimation-play-state%3Arunning%3Banimation-delay%3A0s'%20width%3D'200'%20height%3D'200'%20viewBox%3D'0%200%20100%20100'%20preserveAspectRatio%3D'xMidYMid'%20display%3D'block'%3E%3Cg%20style%3D'animation-play-state%3Arunning%3Banimation-delay%3A0s'%3E%3Cg%20style%3D'animation-play-state%3Arunning%3Banimation-delay%3A0s'%20transform%3D'rotate%2865.61%2037.243%2052.757%29%20scale%28.8%29'%3E%3CanimateTransform%20attributeName%3D'transform'%20type%3D'rotate'%20repeatCount%3D'indefinite'%20values%3D'0%2050%2050%3B360%2050%2050'%20keyTimes%3D'0%3B1'%20dur%3D'1.3157894736842106s'/%3E%3Cpath%20fill-opacity%3D'.8'%20fill%3D'%238caaee'%20d%3D'M50%2050V0a50%2050%200%200150%2050z'/%3E%3C/g%3E%3Cg%20transform%3D'rotate%28-40.792%2058.447%2031.553%29%20scale%28.8%29'%3E%3CanimateTransform%20attributeName%3D'transform'%20type%3D'rotate'%20repeatCount%3D'indefinite'%20values%3D'0%2050%2050%3B360%2050%2050'%20keyTimes%3D'0%3B1'%20dur%3D'1.7543859649122806s'/%3E%3Cpath%20fill-opacity%3D'.8'%20fill%3D'%2385c1dc'%20d%3D'M50%2050h50a50%2050%200%2001-50%2050z'/%3E%3C/g%3E%3Cg%20transform%3D'rotate%28-147.195%2046.472%2043.528%29%20scale%28.8%29'%3E%3CanimateTransform%20attributeName%3D'transform'%20type%3D'rotate'%20repeatCount%3D'indefinite'%20values%3D'0%2050%2050%3B360%2050%2050'%20keyTimes%3D'0%3B1'%20dur%3D'2.6315789473684212s'/%3E%3Cpath%20fill-opacity%3D'.8'%20fill%3D'%2399d1db'%20d%3D'M50%2050v50A50%2050%200%20010%2050z'/%3E%3C/g%3E%3Cg%20transform%3D'rotate%28106.402%2041.26%2048.74%29%20scale%28.8%29'%3E%3CanimateTransform%20attributeName%3D'transform'%20type%3D'rotate'%20repeatCount%3D'indefinite'%20values%3D'0%2050%2050%3B360%2050%2050'%20keyTimes%3D'0%3B1'%20dur%3D'5.2631578947368425s'/%3E%3Cpath%20fill-opacity%3D'.8'%20fill%3D'%2381c8be'%20d%3D'M50%2050H0A50%2050%200%200150%200z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
 }
+html[data-theme="catppuccin-frappe-sky"] #ingame_HUD_PlacerVariants .variants .variant {
+  background-color: rgba(65, 69, 89, 0.5);
+}
+html[data-theme="catppuccin-frappe-sky"] #ingame_HUD_PlacerVariants .variants .variant.active,
+html[data-theme="catppuccin-frappe-sky"] #ingame_HUD_PlacerVariants .variants .variant:hover:not(.active) {
+  background-color: rgba(153, 209, 219, 0.8);
+}
 html[data-theme="catppuccin-frappe-sapphire"] {
   background-color: #292c3c;
 }
@@ -6815,6 +6892,13 @@ html[data-theme="catppuccin-frappe-sapphire"] #state_InGameState .prefab_GameHin
 html[data-theme="catppuccin-frappe-sapphire"] .prefab_LoadingTextWithAnim:after,
 html[data-theme="catppuccin-frappe-sapphire"] .prefab_LoadingTextWithAnimDelayed:after {
   background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A//www.w3.org/2000/svg'%20style%3D'margin%3Aauto%3Bbackground%3A0%200%3Banimation-play-state%3Arunning%3Banimation-delay%3A0s'%20width%3D'200'%20height%3D'200'%20viewBox%3D'0%200%20100%20100'%20preserveAspectRatio%3D'xMidYMid'%20display%3D'block'%3E%3Cg%20style%3D'animation-play-state%3Arunning%3Banimation-delay%3A0s'%3E%3Cg%20style%3D'animation-play-state%3Arunning%3Banimation-delay%3A0s'%20transform%3D'rotate%2865.61%2037.243%2052.757%29%20scale%28.8%29'%3E%3CanimateTransform%20attributeName%3D'transform'%20type%3D'rotate'%20repeatCount%3D'indefinite'%20values%3D'0%2050%2050%3B360%2050%2050'%20keyTimes%3D'0%3B1'%20dur%3D'1.3157894736842106s'/%3E%3Cpath%20fill-opacity%3D'.8'%20fill%3D'%238caaee'%20d%3D'M50%2050V0a50%2050%200%200150%2050z'/%3E%3C/g%3E%3Cg%20transform%3D'rotate%28-40.792%2058.447%2031.553%29%20scale%28.8%29'%3E%3CanimateTransform%20attributeName%3D'transform'%20type%3D'rotate'%20repeatCount%3D'indefinite'%20values%3D'0%2050%2050%3B360%2050%2050'%20keyTimes%3D'0%3B1'%20dur%3D'1.7543859649122806s'/%3E%3Cpath%20fill-opacity%3D'.8'%20fill%3D'%2385c1dc'%20d%3D'M50%2050h50a50%2050%200%2001-50%2050z'/%3E%3C/g%3E%3Cg%20transform%3D'rotate%28-147.195%2046.472%2043.528%29%20scale%28.8%29'%3E%3CanimateTransform%20attributeName%3D'transform'%20type%3D'rotate'%20repeatCount%3D'indefinite'%20values%3D'0%2050%2050%3B360%2050%2050'%20keyTimes%3D'0%3B1'%20dur%3D'2.6315789473684212s'/%3E%3Cpath%20fill-opacity%3D'.8'%20fill%3D'%2399d1db'%20d%3D'M50%2050v50A50%2050%200%20010%2050z'/%3E%3C/g%3E%3Cg%20transform%3D'rotate%28106.402%2041.26%2048.74%29%20scale%28.8%29'%3E%3CanimateTransform%20attributeName%3D'transform'%20type%3D'rotate'%20repeatCount%3D'indefinite'%20values%3D'0%2050%2050%3B360%2050%2050'%20keyTimes%3D'0%3B1'%20dur%3D'5.2631578947368425s'/%3E%3Cpath%20fill-opacity%3D'.8'%20fill%3D'%2381c8be'%20d%3D'M50%2050H0A50%2050%200%200150%200z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+}
+html[data-theme="catppuccin-frappe-sapphire"] #ingame_HUD_PlacerVariants .variants .variant {
+  background-color: rgba(65, 69, 89, 0.5);
+}
+html[data-theme="catppuccin-frappe-sapphire"] #ingame_HUD_PlacerVariants .variants .variant.active,
+html[data-theme="catppuccin-frappe-sapphire"] #ingame_HUD_PlacerVariants .variants .variant:hover:not(.active) {
+  background-color: rgba(133, 193, 220, 0.8);
 }
 html[data-theme="catppuccin-frappe-blue"] {
   background-color: #292c3c;
@@ -7377,6 +7461,13 @@ html[data-theme="catppuccin-frappe-blue"] .prefab_LoadingTextWithAnim:after,
 html[data-theme="catppuccin-frappe-blue"] .prefab_LoadingTextWithAnimDelayed:after {
   background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A//www.w3.org/2000/svg'%20style%3D'margin%3Aauto%3Bbackground%3A0%200%3Banimation-play-state%3Arunning%3Banimation-delay%3A0s'%20width%3D'200'%20height%3D'200'%20viewBox%3D'0%200%20100%20100'%20preserveAspectRatio%3D'xMidYMid'%20display%3D'block'%3E%3Cg%20style%3D'animation-play-state%3Arunning%3Banimation-delay%3A0s'%3E%3Cg%20style%3D'animation-play-state%3Arunning%3Banimation-delay%3A0s'%20transform%3D'rotate%2865.61%2037.243%2052.757%29%20scale%28.8%29'%3E%3CanimateTransform%20attributeName%3D'transform'%20type%3D'rotate'%20repeatCount%3D'indefinite'%20values%3D'0%2050%2050%3B360%2050%2050'%20keyTimes%3D'0%3B1'%20dur%3D'1.3157894736842106s'/%3E%3Cpath%20fill-opacity%3D'.8'%20fill%3D'%238caaee'%20d%3D'M50%2050V0a50%2050%200%200150%2050z'/%3E%3C/g%3E%3Cg%20transform%3D'rotate%28-40.792%2058.447%2031.553%29%20scale%28.8%29'%3E%3CanimateTransform%20attributeName%3D'transform'%20type%3D'rotate'%20repeatCount%3D'indefinite'%20values%3D'0%2050%2050%3B360%2050%2050'%20keyTimes%3D'0%3B1'%20dur%3D'1.7543859649122806s'/%3E%3Cpath%20fill-opacity%3D'.8'%20fill%3D'%2385c1dc'%20d%3D'M50%2050h50a50%2050%200%2001-50%2050z'/%3E%3C/g%3E%3Cg%20transform%3D'rotate%28-147.195%2046.472%2043.528%29%20scale%28.8%29'%3E%3CanimateTransform%20attributeName%3D'transform'%20type%3D'rotate'%20repeatCount%3D'indefinite'%20values%3D'0%2050%2050%3B360%2050%2050'%20keyTimes%3D'0%3B1'%20dur%3D'2.6315789473684212s'/%3E%3Cpath%20fill-opacity%3D'.8'%20fill%3D'%2399d1db'%20d%3D'M50%2050v50A50%2050%200%20010%2050z'/%3E%3C/g%3E%3Cg%20transform%3D'rotate%28106.402%2041.26%2048.74%29%20scale%28.8%29'%3E%3CanimateTransform%20attributeName%3D'transform'%20type%3D'rotate'%20repeatCount%3D'indefinite'%20values%3D'0%2050%2050%3B360%2050%2050'%20keyTimes%3D'0%3B1'%20dur%3D'5.2631578947368425s'/%3E%3Cpath%20fill-opacity%3D'.8'%20fill%3D'%2381c8be'%20d%3D'M50%2050H0A50%2050%200%200150%200z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
 }
+html[data-theme="catppuccin-frappe-blue"] #ingame_HUD_PlacerVariants .variants .variant {
+  background-color: rgba(65, 69, 89, 0.5);
+}
+html[data-theme="catppuccin-frappe-blue"] #ingame_HUD_PlacerVariants .variants .variant.active,
+html[data-theme="catppuccin-frappe-blue"] #ingame_HUD_PlacerVariants .variants .variant:hover:not(.active) {
+  background-color: rgba(140, 170, 238, 0.8);
+}
 html[data-theme="catppuccin-frappe-lavender"] {
   background-color: #292c3c;
 }
@@ -7937,6 +8028,13 @@ html[data-theme="catppuccin-frappe-lavender"] #state_InGameState .prefab_GameHin
 html[data-theme="catppuccin-frappe-lavender"] .prefab_LoadingTextWithAnim:after,
 html[data-theme="catppuccin-frappe-lavender"] .prefab_LoadingTextWithAnimDelayed:after {
   background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A//www.w3.org/2000/svg'%20style%3D'margin%3Aauto%3Bbackground%3A0%200%3Banimation-play-state%3Arunning%3Banimation-delay%3A0s'%20width%3D'200'%20height%3D'200'%20viewBox%3D'0%200%20100%20100'%20preserveAspectRatio%3D'xMidYMid'%20display%3D'block'%3E%3Cg%20style%3D'animation-play-state%3Arunning%3Banimation-delay%3A0s'%3E%3Cg%20style%3D'animation-play-state%3Arunning%3Banimation-delay%3A0s'%20transform%3D'rotate%2865.61%2037.243%2052.757%29%20scale%28.8%29'%3E%3CanimateTransform%20attributeName%3D'transform'%20type%3D'rotate'%20repeatCount%3D'indefinite'%20values%3D'0%2050%2050%3B360%2050%2050'%20keyTimes%3D'0%3B1'%20dur%3D'1.3157894736842106s'/%3E%3Cpath%20fill-opacity%3D'.8'%20fill%3D'%238caaee'%20d%3D'M50%2050V0a50%2050%200%200150%2050z'/%3E%3C/g%3E%3Cg%20transform%3D'rotate%28-40.792%2058.447%2031.553%29%20scale%28.8%29'%3E%3CanimateTransform%20attributeName%3D'transform'%20type%3D'rotate'%20repeatCount%3D'indefinite'%20values%3D'0%2050%2050%3B360%2050%2050'%20keyTimes%3D'0%3B1'%20dur%3D'1.7543859649122806s'/%3E%3Cpath%20fill-opacity%3D'.8'%20fill%3D'%2385c1dc'%20d%3D'M50%2050h50a50%2050%200%2001-50%2050z'/%3E%3C/g%3E%3Cg%20transform%3D'rotate%28-147.195%2046.472%2043.528%29%20scale%28.8%29'%3E%3CanimateTransform%20attributeName%3D'transform'%20type%3D'rotate'%20repeatCount%3D'indefinite'%20values%3D'0%2050%2050%3B360%2050%2050'%20keyTimes%3D'0%3B1'%20dur%3D'2.6315789473684212s'/%3E%3Cpath%20fill-opacity%3D'.8'%20fill%3D'%2399d1db'%20d%3D'M50%2050v50A50%2050%200%20010%2050z'/%3E%3C/g%3E%3Cg%20transform%3D'rotate%28106.402%2041.26%2048.74%29%20scale%28.8%29'%3E%3CanimateTransform%20attributeName%3D'transform'%20type%3D'rotate'%20repeatCount%3D'indefinite'%20values%3D'0%2050%2050%3B360%2050%2050'%20keyTimes%3D'0%3B1'%20dur%3D'5.2631578947368425s'/%3E%3Cpath%20fill-opacity%3D'.8'%20fill%3D'%2381c8be'%20d%3D'M50%2050H0A50%2050%200%200150%200z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+}
+html[data-theme="catppuccin-frappe-lavender"] #ingame_HUD_PlacerVariants .variants .variant {
+  background-color: rgba(65, 69, 89, 0.5);
+}
+html[data-theme="catppuccin-frappe-lavender"] #ingame_HUD_PlacerVariants .variants .variant.active,
+html[data-theme="catppuccin-frappe-lavender"] #ingame_HUD_PlacerVariants .variants .variant:hover:not(.active) {
+  background-color: rgba(186, 187, 241, 0.8);
 }
 
     `)

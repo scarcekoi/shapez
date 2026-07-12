@@ -645,6 +645,13 @@ html[data-theme="catppuccin-mocha-rosewater"] .prefab_LoadingTextWithAnim:after,
 html[data-theme="catppuccin-mocha-rosewater"] .prefab_LoadingTextWithAnimDelayed:after {
   background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A//www.w3.org/2000/svg'%20style%3D'margin%3Aauto%3Bbackground%3A0%200%3Banimation-play-state%3Arunning%3Banimation-delay%3A0s'%20width%3D'200'%20height%3D'200'%20viewBox%3D'0%200%20100%20100'%20preserveAspectRatio%3D'xMidYMid'%20display%3D'block'%3E%3Cg%20style%3D'animation-play-state%3Arunning%3Banimation-delay%3A0s'%3E%3Cg%20style%3D'animation-play-state%3Arunning%3Banimation-delay%3A0s'%20transform%3D'rotate%2865.61%2037.243%2052.757%29%20scale%28.8%29'%3E%3CanimateTransform%20attributeName%3D'transform'%20type%3D'rotate'%20repeatCount%3D'indefinite'%20values%3D'0%2050%2050%3B360%2050%2050'%20keyTimes%3D'0%3B1'%20dur%3D'1.3157894736842106s'/%3E%3Cpath%20fill-opacity%3D'.8'%20fill%3D'%2389b4fa'%20d%3D'M50%2050V0a50%2050%200%200150%2050z'/%3E%3C/g%3E%3Cg%20transform%3D'rotate%28-40.792%2058.447%2031.553%29%20scale%28.8%29'%3E%3CanimateTransform%20attributeName%3D'transform'%20type%3D'rotate'%20repeatCount%3D'indefinite'%20values%3D'0%2050%2050%3B360%2050%2050'%20keyTimes%3D'0%3B1'%20dur%3D'1.7543859649122806s'/%3E%3Cpath%20fill-opacity%3D'.8'%20fill%3D'%2374c7ec'%20d%3D'M50%2050h50a50%2050%200%2001-50%2050z'/%3E%3C/g%3E%3Cg%20transform%3D'rotate%28-147.195%2046.472%2043.528%29%20scale%28.8%29'%3E%3CanimateTransform%20attributeName%3D'transform'%20type%3D'rotate'%20repeatCount%3D'indefinite'%20values%3D'0%2050%2050%3B360%2050%2050'%20keyTimes%3D'0%3B1'%20dur%3D'2.6315789473684212s'/%3E%3Cpath%20fill-opacity%3D'.8'%20fill%3D'%2389dceb'%20d%3D'M50%2050v50A50%2050%200%20010%2050z'/%3E%3C/g%3E%3Cg%20transform%3D'rotate%28106.402%2041.26%2048.74%29%20scale%28.8%29'%3E%3CanimateTransform%20attributeName%3D'transform'%20type%3D'rotate'%20repeatCount%3D'indefinite'%20values%3D'0%2050%2050%3B360%2050%2050'%20keyTimes%3D'0%3B1'%20dur%3D'5.2631578947368425s'/%3E%3Cpath%20fill-opacity%3D'.8'%20fill%3D'%2394e2d5'%20d%3D'M50%2050H0A50%2050%200%200150%200z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
 }
+html[data-theme="catppuccin-mocha-rosewater"] #ingame_HUD_PlacerVariants .variants .variant {
+  background-color: rgba(49, 50, 68, 0.5);
+}
+html[data-theme="catppuccin-mocha-rosewater"] #ingame_HUD_PlacerVariants .variants .variant.active,
+html[data-theme="catppuccin-mocha-rosewater"] #ingame_HUD_PlacerVariants .variants .variant:hover:not(.active) {
+  background-color: rgba(245, 224, 220, 0.8);
+}
 html[data-theme="catppuccin-mocha-flamingo"] {
   background-color: #181825;
 }
@@ -1205,6 +1212,13 @@ html[data-theme="catppuccin-mocha-flamingo"] #state_InGameState .prefab_GameHint
 html[data-theme="catppuccin-mocha-flamingo"] .prefab_LoadingTextWithAnim:after,
 html[data-theme="catppuccin-mocha-flamingo"] .prefab_LoadingTextWithAnimDelayed:after {
   background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A//www.w3.org/2000/svg'%20style%3D'margin%3Aauto%3Bbackground%3A0%200%3Banimation-play-state%3Arunning%3Banimation-delay%3A0s'%20width%3D'200'%20height%3D'200'%20viewBox%3D'0%200%20100%20100'%20preserveAspectRatio%3D'xMidYMid'%20display%3D'block'%3E%3Cg%20style%3D'animation-play-state%3Arunning%3Banimation-delay%3A0s'%3E%3Cg%20style%3D'animation-play-state%3Arunning%3Banimation-delay%3A0s'%20transform%3D'rotate%2865.61%2037.243%2052.757%29%20scale%28.8%29'%3E%3CanimateTransform%20attributeName%3D'transform'%20type%3D'rotate'%20repeatCount%3D'indefinite'%20values%3D'0%2050%2050%3B360%2050%2050'%20keyTimes%3D'0%3B1'%20dur%3D'1.3157894736842106s'/%3E%3Cpath%20fill-opacity%3D'.8'%20fill%3D'%2389b4fa'%20d%3D'M50%2050V0a50%2050%200%200150%2050z'/%3E%3C/g%3E%3Cg%20transform%3D'rotate%28-40.792%2058.447%2031.553%29%20scale%28.8%29'%3E%3CanimateTransform%20attributeName%3D'transform'%20type%3D'rotate'%20repeatCount%3D'indefinite'%20values%3D'0%2050%2050%3B360%2050%2050'%20keyTimes%3D'0%3B1'%20dur%3D'1.7543859649122806s'/%3E%3Cpath%20fill-opacity%3D'.8'%20fill%3D'%2374c7ec'%20d%3D'M50%2050h50a50%2050%200%2001-50%2050z'/%3E%3C/g%3E%3Cg%20transform%3D'rotate%28-147.195%2046.472%2043.528%29%20scale%28.8%29'%3E%3CanimateTransform%20attributeName%3D'transform'%20type%3D'rotate'%20repeatCount%3D'indefinite'%20values%3D'0%2050%2050%3B360%2050%2050'%20keyTimes%3D'0%3B1'%20dur%3D'2.6315789473684212s'/%3E%3Cpath%20fill-opacity%3D'.8'%20fill%3D'%2389dceb'%20d%3D'M50%2050v50A50%2050%200%20010%2050z'/%3E%3C/g%3E%3Cg%20transform%3D'rotate%28106.402%2041.26%2048.74%29%20scale%28.8%29'%3E%3CanimateTransform%20attributeName%3D'transform'%20type%3D'rotate'%20repeatCount%3D'indefinite'%20values%3D'0%2050%2050%3B360%2050%2050'%20keyTimes%3D'0%3B1'%20dur%3D'5.2631578947368425s'/%3E%3Cpath%20fill-opacity%3D'.8'%20fill%3D'%2394e2d5'%20d%3D'M50%2050H0A50%2050%200%200150%200z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+}
+html[data-theme="catppuccin-mocha-flamingo"] #ingame_HUD_PlacerVariants .variants .variant {
+  background-color: rgba(49, 50, 68, 0.5);
+}
+html[data-theme="catppuccin-mocha-flamingo"] #ingame_HUD_PlacerVariants .variants .variant.active,
+html[data-theme="catppuccin-mocha-flamingo"] #ingame_HUD_PlacerVariants .variants .variant:hover:not(.active) {
+  background-color: rgba(242, 205, 205, 0.8);
 }
 html[data-theme="catppuccin-mocha-pink"] {
   background-color: #181825;
@@ -1767,6 +1781,13 @@ html[data-theme="catppuccin-mocha-pink"] .prefab_LoadingTextWithAnim:after,
 html[data-theme="catppuccin-mocha-pink"] .prefab_LoadingTextWithAnimDelayed:after {
   background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A//www.w3.org/2000/svg'%20style%3D'margin%3Aauto%3Bbackground%3A0%200%3Banimation-play-state%3Arunning%3Banimation-delay%3A0s'%20width%3D'200'%20height%3D'200'%20viewBox%3D'0%200%20100%20100'%20preserveAspectRatio%3D'xMidYMid'%20display%3D'block'%3E%3Cg%20style%3D'animation-play-state%3Arunning%3Banimation-delay%3A0s'%3E%3Cg%20style%3D'animation-play-state%3Arunning%3Banimation-delay%3A0s'%20transform%3D'rotate%2865.61%2037.243%2052.757%29%20scale%28.8%29'%3E%3CanimateTransform%20attributeName%3D'transform'%20type%3D'rotate'%20repeatCount%3D'indefinite'%20values%3D'0%2050%2050%3B360%2050%2050'%20keyTimes%3D'0%3B1'%20dur%3D'1.3157894736842106s'/%3E%3Cpath%20fill-opacity%3D'.8'%20fill%3D'%2389b4fa'%20d%3D'M50%2050V0a50%2050%200%200150%2050z'/%3E%3C/g%3E%3Cg%20transform%3D'rotate%28-40.792%2058.447%2031.553%29%20scale%28.8%29'%3E%3CanimateTransform%20attributeName%3D'transform'%20type%3D'rotate'%20repeatCount%3D'indefinite'%20values%3D'0%2050%2050%3B360%2050%2050'%20keyTimes%3D'0%3B1'%20dur%3D'1.7543859649122806s'/%3E%3Cpath%20fill-opacity%3D'.8'%20fill%3D'%2374c7ec'%20d%3D'M50%2050h50a50%2050%200%2001-50%2050z'/%3E%3C/g%3E%3Cg%20transform%3D'rotate%28-147.195%2046.472%2043.528%29%20scale%28.8%29'%3E%3CanimateTransform%20attributeName%3D'transform'%20type%3D'rotate'%20repeatCount%3D'indefinite'%20values%3D'0%2050%2050%3B360%2050%2050'%20keyTimes%3D'0%3B1'%20dur%3D'2.6315789473684212s'/%3E%3Cpath%20fill-opacity%3D'.8'%20fill%3D'%2389dceb'%20d%3D'M50%2050v50A50%2050%200%20010%2050z'/%3E%3C/g%3E%3Cg%20transform%3D'rotate%28106.402%2041.26%2048.74%29%20scale%28.8%29'%3E%3CanimateTransform%20attributeName%3D'transform'%20type%3D'rotate'%20repeatCount%3D'indefinite'%20values%3D'0%2050%2050%3B360%2050%2050'%20keyTimes%3D'0%3B1'%20dur%3D'5.2631578947368425s'/%3E%3Cpath%20fill-opacity%3D'.8'%20fill%3D'%2394e2d5'%20d%3D'M50%2050H0A50%2050%200%200150%200z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
 }
+html[data-theme="catppuccin-mocha-pink"] #ingame_HUD_PlacerVariants .variants .variant {
+  background-color: rgba(49, 50, 68, 0.5);
+}
+html[data-theme="catppuccin-mocha-pink"] #ingame_HUD_PlacerVariants .variants .variant.active,
+html[data-theme="catppuccin-mocha-pink"] #ingame_HUD_PlacerVariants .variants .variant:hover:not(.active) {
+  background-color: rgba(245, 194, 231, 0.8);
+}
 html[data-theme="catppuccin-mocha-mauve"] {
   background-color: #181825;
 }
@@ -2327,6 +2348,13 @@ html[data-theme="catppuccin-mocha-mauve"] #state_InGameState .prefab_GameHint {
 html[data-theme="catppuccin-mocha-mauve"] .prefab_LoadingTextWithAnim:after,
 html[data-theme="catppuccin-mocha-mauve"] .prefab_LoadingTextWithAnimDelayed:after {
   background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A//www.w3.org/2000/svg'%20style%3D'margin%3Aauto%3Bbackground%3A0%200%3Banimation-play-state%3Arunning%3Banimation-delay%3A0s'%20width%3D'200'%20height%3D'200'%20viewBox%3D'0%200%20100%20100'%20preserveAspectRatio%3D'xMidYMid'%20display%3D'block'%3E%3Cg%20style%3D'animation-play-state%3Arunning%3Banimation-delay%3A0s'%3E%3Cg%20style%3D'animation-play-state%3Arunning%3Banimation-delay%3A0s'%20transform%3D'rotate%2865.61%2037.243%2052.757%29%20scale%28.8%29'%3E%3CanimateTransform%20attributeName%3D'transform'%20type%3D'rotate'%20repeatCount%3D'indefinite'%20values%3D'0%2050%2050%3B360%2050%2050'%20keyTimes%3D'0%3B1'%20dur%3D'1.3157894736842106s'/%3E%3Cpath%20fill-opacity%3D'.8'%20fill%3D'%2389b4fa'%20d%3D'M50%2050V0a50%2050%200%200150%2050z'/%3E%3C/g%3E%3Cg%20transform%3D'rotate%28-40.792%2058.447%2031.553%29%20scale%28.8%29'%3E%3CanimateTransform%20attributeName%3D'transform'%20type%3D'rotate'%20repeatCount%3D'indefinite'%20values%3D'0%2050%2050%3B360%2050%2050'%20keyTimes%3D'0%3B1'%20dur%3D'1.7543859649122806s'/%3E%3Cpath%20fill-opacity%3D'.8'%20fill%3D'%2374c7ec'%20d%3D'M50%2050h50a50%2050%200%2001-50%2050z'/%3E%3C/g%3E%3Cg%20transform%3D'rotate%28-147.195%2046.472%2043.528%29%20scale%28.8%29'%3E%3CanimateTransform%20attributeName%3D'transform'%20type%3D'rotate'%20repeatCount%3D'indefinite'%20values%3D'0%2050%2050%3B360%2050%2050'%20keyTimes%3D'0%3B1'%20dur%3D'2.6315789473684212s'/%3E%3Cpath%20fill-opacity%3D'.8'%20fill%3D'%2389dceb'%20d%3D'M50%2050v50A50%2050%200%20010%2050z'/%3E%3C/g%3E%3Cg%20transform%3D'rotate%28106.402%2041.26%2048.74%29%20scale%28.8%29'%3E%3CanimateTransform%20attributeName%3D'transform'%20type%3D'rotate'%20repeatCount%3D'indefinite'%20values%3D'0%2050%2050%3B360%2050%2050'%20keyTimes%3D'0%3B1'%20dur%3D'5.2631578947368425s'/%3E%3Cpath%20fill-opacity%3D'.8'%20fill%3D'%2394e2d5'%20d%3D'M50%2050H0A50%2050%200%200150%200z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+}
+html[data-theme="catppuccin-mocha-mauve"] #ingame_HUD_PlacerVariants .variants .variant {
+  background-color: rgba(49, 50, 68, 0.5);
+}
+html[data-theme="catppuccin-mocha-mauve"] #ingame_HUD_PlacerVariants .variants .variant.active,
+html[data-theme="catppuccin-mocha-mauve"] #ingame_HUD_PlacerVariants .variants .variant:hover:not(.active) {
+  background-color: rgba(203, 166, 247, 0.8);
 }
 html[data-theme="catppuccin-mocha-red"] {
   background-color: #181825;
@@ -2889,6 +2917,13 @@ html[data-theme="catppuccin-mocha-red"] .prefab_LoadingTextWithAnim:after,
 html[data-theme="catppuccin-mocha-red"] .prefab_LoadingTextWithAnimDelayed:after {
   background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A//www.w3.org/2000/svg'%20style%3D'margin%3Aauto%3Bbackground%3A0%200%3Banimation-play-state%3Arunning%3Banimation-delay%3A0s'%20width%3D'200'%20height%3D'200'%20viewBox%3D'0%200%20100%20100'%20preserveAspectRatio%3D'xMidYMid'%20display%3D'block'%3E%3Cg%20style%3D'animation-play-state%3Arunning%3Banimation-delay%3A0s'%3E%3Cg%20style%3D'animation-play-state%3Arunning%3Banimation-delay%3A0s'%20transform%3D'rotate%2865.61%2037.243%2052.757%29%20scale%28.8%29'%3E%3CanimateTransform%20attributeName%3D'transform'%20type%3D'rotate'%20repeatCount%3D'indefinite'%20values%3D'0%2050%2050%3B360%2050%2050'%20keyTimes%3D'0%3B1'%20dur%3D'1.3157894736842106s'/%3E%3Cpath%20fill-opacity%3D'.8'%20fill%3D'%2389b4fa'%20d%3D'M50%2050V0a50%2050%200%200150%2050z'/%3E%3C/g%3E%3Cg%20transform%3D'rotate%28-40.792%2058.447%2031.553%29%20scale%28.8%29'%3E%3CanimateTransform%20attributeName%3D'transform'%20type%3D'rotate'%20repeatCount%3D'indefinite'%20values%3D'0%2050%2050%3B360%2050%2050'%20keyTimes%3D'0%3B1'%20dur%3D'1.7543859649122806s'/%3E%3Cpath%20fill-opacity%3D'.8'%20fill%3D'%2374c7ec'%20d%3D'M50%2050h50a50%2050%200%2001-50%2050z'/%3E%3C/g%3E%3Cg%20transform%3D'rotate%28-147.195%2046.472%2043.528%29%20scale%28.8%29'%3E%3CanimateTransform%20attributeName%3D'transform'%20type%3D'rotate'%20repeatCount%3D'indefinite'%20values%3D'0%2050%2050%3B360%2050%2050'%20keyTimes%3D'0%3B1'%20dur%3D'2.6315789473684212s'/%3E%3Cpath%20fill-opacity%3D'.8'%20fill%3D'%2389dceb'%20d%3D'M50%2050v50A50%2050%200%20010%2050z'/%3E%3C/g%3E%3Cg%20transform%3D'rotate%28106.402%2041.26%2048.74%29%20scale%28.8%29'%3E%3CanimateTransform%20attributeName%3D'transform'%20type%3D'rotate'%20repeatCount%3D'indefinite'%20values%3D'0%2050%2050%3B360%2050%2050'%20keyTimes%3D'0%3B1'%20dur%3D'5.2631578947368425s'/%3E%3Cpath%20fill-opacity%3D'.8'%20fill%3D'%2394e2d5'%20d%3D'M50%2050H0A50%2050%200%200150%200z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
 }
+html[data-theme="catppuccin-mocha-red"] #ingame_HUD_PlacerVariants .variants .variant {
+  background-color: rgba(49, 50, 68, 0.5);
+}
+html[data-theme="catppuccin-mocha-red"] #ingame_HUD_PlacerVariants .variants .variant.active,
+html[data-theme="catppuccin-mocha-red"] #ingame_HUD_PlacerVariants .variants .variant:hover:not(.active) {
+  background-color: rgba(243, 139, 168, 0.8);
+}
 html[data-theme="catppuccin-mocha-maroon"] {
   background-color: #181825;
 }
@@ -3449,6 +3484,13 @@ html[data-theme="catppuccin-mocha-maroon"] #state_InGameState .prefab_GameHint {
 html[data-theme="catppuccin-mocha-maroon"] .prefab_LoadingTextWithAnim:after,
 html[data-theme="catppuccin-mocha-maroon"] .prefab_LoadingTextWithAnimDelayed:after {
   background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A//www.w3.org/2000/svg'%20style%3D'margin%3Aauto%3Bbackground%3A0%200%3Banimation-play-state%3Arunning%3Banimation-delay%3A0s'%20width%3D'200'%20height%3D'200'%20viewBox%3D'0%200%20100%20100'%20preserveAspectRatio%3D'xMidYMid'%20display%3D'block'%3E%3Cg%20style%3D'animation-play-state%3Arunning%3Banimation-delay%3A0s'%3E%3Cg%20style%3D'animation-play-state%3Arunning%3Banimation-delay%3A0s'%20transform%3D'rotate%2865.61%2037.243%2052.757%29%20scale%28.8%29'%3E%3CanimateTransform%20attributeName%3D'transform'%20type%3D'rotate'%20repeatCount%3D'indefinite'%20values%3D'0%2050%2050%3B360%2050%2050'%20keyTimes%3D'0%3B1'%20dur%3D'1.3157894736842106s'/%3E%3Cpath%20fill-opacity%3D'.8'%20fill%3D'%2389b4fa'%20d%3D'M50%2050V0a50%2050%200%200150%2050z'/%3E%3C/g%3E%3Cg%20transform%3D'rotate%28-40.792%2058.447%2031.553%29%20scale%28.8%29'%3E%3CanimateTransform%20attributeName%3D'transform'%20type%3D'rotate'%20repeatCount%3D'indefinite'%20values%3D'0%2050%2050%3B360%2050%2050'%20keyTimes%3D'0%3B1'%20dur%3D'1.7543859649122806s'/%3E%3Cpath%20fill-opacity%3D'.8'%20fill%3D'%2374c7ec'%20d%3D'M50%2050h50a50%2050%200%2001-50%2050z'/%3E%3C/g%3E%3Cg%20transform%3D'rotate%28-147.195%2046.472%2043.528%29%20scale%28.8%29'%3E%3CanimateTransform%20attributeName%3D'transform'%20type%3D'rotate'%20repeatCount%3D'indefinite'%20values%3D'0%2050%2050%3B360%2050%2050'%20keyTimes%3D'0%3B1'%20dur%3D'2.6315789473684212s'/%3E%3Cpath%20fill-opacity%3D'.8'%20fill%3D'%2389dceb'%20d%3D'M50%2050v50A50%2050%200%20010%2050z'/%3E%3C/g%3E%3Cg%20transform%3D'rotate%28106.402%2041.26%2048.74%29%20scale%28.8%29'%3E%3CanimateTransform%20attributeName%3D'transform'%20type%3D'rotate'%20repeatCount%3D'indefinite'%20values%3D'0%2050%2050%3B360%2050%2050'%20keyTimes%3D'0%3B1'%20dur%3D'5.2631578947368425s'/%3E%3Cpath%20fill-opacity%3D'.8'%20fill%3D'%2394e2d5'%20d%3D'M50%2050H0A50%2050%200%200150%200z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+}
+html[data-theme="catppuccin-mocha-maroon"] #ingame_HUD_PlacerVariants .variants .variant {
+  background-color: rgba(49, 50, 68, 0.5);
+}
+html[data-theme="catppuccin-mocha-maroon"] #ingame_HUD_PlacerVariants .variants .variant.active,
+html[data-theme="catppuccin-mocha-maroon"] #ingame_HUD_PlacerVariants .variants .variant:hover:not(.active) {
+  background-color: rgba(235, 160, 172, 0.8);
 }
 html[data-theme="catppuccin-mocha-peach"] {
   background-color: #181825;
@@ -4011,6 +4053,13 @@ html[data-theme="catppuccin-mocha-peach"] .prefab_LoadingTextWithAnim:after,
 html[data-theme="catppuccin-mocha-peach"] .prefab_LoadingTextWithAnimDelayed:after {
   background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A//www.w3.org/2000/svg'%20style%3D'margin%3Aauto%3Bbackground%3A0%200%3Banimation-play-state%3Arunning%3Banimation-delay%3A0s'%20width%3D'200'%20height%3D'200'%20viewBox%3D'0%200%20100%20100'%20preserveAspectRatio%3D'xMidYMid'%20display%3D'block'%3E%3Cg%20style%3D'animation-play-state%3Arunning%3Banimation-delay%3A0s'%3E%3Cg%20style%3D'animation-play-state%3Arunning%3Banimation-delay%3A0s'%20transform%3D'rotate%2865.61%2037.243%2052.757%29%20scale%28.8%29'%3E%3CanimateTransform%20attributeName%3D'transform'%20type%3D'rotate'%20repeatCount%3D'indefinite'%20values%3D'0%2050%2050%3B360%2050%2050'%20keyTimes%3D'0%3B1'%20dur%3D'1.3157894736842106s'/%3E%3Cpath%20fill-opacity%3D'.8'%20fill%3D'%2389b4fa'%20d%3D'M50%2050V0a50%2050%200%200150%2050z'/%3E%3C/g%3E%3Cg%20transform%3D'rotate%28-40.792%2058.447%2031.553%29%20scale%28.8%29'%3E%3CanimateTransform%20attributeName%3D'transform'%20type%3D'rotate'%20repeatCount%3D'indefinite'%20values%3D'0%2050%2050%3B360%2050%2050'%20keyTimes%3D'0%3B1'%20dur%3D'1.7543859649122806s'/%3E%3Cpath%20fill-opacity%3D'.8'%20fill%3D'%2374c7ec'%20d%3D'M50%2050h50a50%2050%200%2001-50%2050z'/%3E%3C/g%3E%3Cg%20transform%3D'rotate%28-147.195%2046.472%2043.528%29%20scale%28.8%29'%3E%3CanimateTransform%20attributeName%3D'transform'%20type%3D'rotate'%20repeatCount%3D'indefinite'%20values%3D'0%2050%2050%3B360%2050%2050'%20keyTimes%3D'0%3B1'%20dur%3D'2.6315789473684212s'/%3E%3Cpath%20fill-opacity%3D'.8'%20fill%3D'%2389dceb'%20d%3D'M50%2050v50A50%2050%200%20010%2050z'/%3E%3C/g%3E%3Cg%20transform%3D'rotate%28106.402%2041.26%2048.74%29%20scale%28.8%29'%3E%3CanimateTransform%20attributeName%3D'transform'%20type%3D'rotate'%20repeatCount%3D'indefinite'%20values%3D'0%2050%2050%3B360%2050%2050'%20keyTimes%3D'0%3B1'%20dur%3D'5.2631578947368425s'/%3E%3Cpath%20fill-opacity%3D'.8'%20fill%3D'%2394e2d5'%20d%3D'M50%2050H0A50%2050%200%200150%200z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
 }
+html[data-theme="catppuccin-mocha-peach"] #ingame_HUD_PlacerVariants .variants .variant {
+  background-color: rgba(49, 50, 68, 0.5);
+}
+html[data-theme="catppuccin-mocha-peach"] #ingame_HUD_PlacerVariants .variants .variant.active,
+html[data-theme="catppuccin-mocha-peach"] #ingame_HUD_PlacerVariants .variants .variant:hover:not(.active) {
+  background-color: rgba(250, 179, 135, 0.8);
+}
 html[data-theme="catppuccin-mocha-yellow"] {
   background-color: #181825;
 }
@@ -4571,6 +4620,13 @@ html[data-theme="catppuccin-mocha-yellow"] #state_InGameState .prefab_GameHint {
 html[data-theme="catppuccin-mocha-yellow"] .prefab_LoadingTextWithAnim:after,
 html[data-theme="catppuccin-mocha-yellow"] .prefab_LoadingTextWithAnimDelayed:after {
   background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A//www.w3.org/2000/svg'%20style%3D'margin%3Aauto%3Bbackground%3A0%200%3Banimation-play-state%3Arunning%3Banimation-delay%3A0s'%20width%3D'200'%20height%3D'200'%20viewBox%3D'0%200%20100%20100'%20preserveAspectRatio%3D'xMidYMid'%20display%3D'block'%3E%3Cg%20style%3D'animation-play-state%3Arunning%3Banimation-delay%3A0s'%3E%3Cg%20style%3D'animation-play-state%3Arunning%3Banimation-delay%3A0s'%20transform%3D'rotate%2865.61%2037.243%2052.757%29%20scale%28.8%29'%3E%3CanimateTransform%20attributeName%3D'transform'%20type%3D'rotate'%20repeatCount%3D'indefinite'%20values%3D'0%2050%2050%3B360%2050%2050'%20keyTimes%3D'0%3B1'%20dur%3D'1.3157894736842106s'/%3E%3Cpath%20fill-opacity%3D'.8'%20fill%3D'%2389b4fa'%20d%3D'M50%2050V0a50%2050%200%200150%2050z'/%3E%3C/g%3E%3Cg%20transform%3D'rotate%28-40.792%2058.447%2031.553%29%20scale%28.8%29'%3E%3CanimateTransform%20attributeName%3D'transform'%20type%3D'rotate'%20repeatCount%3D'indefinite'%20values%3D'0%2050%2050%3B360%2050%2050'%20keyTimes%3D'0%3B1'%20dur%3D'1.7543859649122806s'/%3E%3Cpath%20fill-opacity%3D'.8'%20fill%3D'%2374c7ec'%20d%3D'M50%2050h50a50%2050%200%2001-50%2050z'/%3E%3C/g%3E%3Cg%20transform%3D'rotate%28-147.195%2046.472%2043.528%29%20scale%28.8%29'%3E%3CanimateTransform%20attributeName%3D'transform'%20type%3D'rotate'%20repeatCount%3D'indefinite'%20values%3D'0%2050%2050%3B360%2050%2050'%20keyTimes%3D'0%3B1'%20dur%3D'2.6315789473684212s'/%3E%3Cpath%20fill-opacity%3D'.8'%20fill%3D'%2389dceb'%20d%3D'M50%2050v50A50%2050%200%20010%2050z'/%3E%3C/g%3E%3Cg%20transform%3D'rotate%28106.402%2041.26%2048.74%29%20scale%28.8%29'%3E%3CanimateTransform%20attributeName%3D'transform'%20type%3D'rotate'%20repeatCount%3D'indefinite'%20values%3D'0%2050%2050%3B360%2050%2050'%20keyTimes%3D'0%3B1'%20dur%3D'5.2631578947368425s'/%3E%3Cpath%20fill-opacity%3D'.8'%20fill%3D'%2394e2d5'%20d%3D'M50%2050H0A50%2050%200%200150%200z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+}
+html[data-theme="catppuccin-mocha-yellow"] #ingame_HUD_PlacerVariants .variants .variant {
+  background-color: rgba(49, 50, 68, 0.5);
+}
+html[data-theme="catppuccin-mocha-yellow"] #ingame_HUD_PlacerVariants .variants .variant.active,
+html[data-theme="catppuccin-mocha-yellow"] #ingame_HUD_PlacerVariants .variants .variant:hover:not(.active) {
+  background-color: rgba(249, 226, 175, 0.8);
 }
 html[data-theme="catppuccin-mocha-green"] {
   background-color: #181825;
@@ -5133,6 +5189,13 @@ html[data-theme="catppuccin-mocha-green"] .prefab_LoadingTextWithAnim:after,
 html[data-theme="catppuccin-mocha-green"] .prefab_LoadingTextWithAnimDelayed:after {
   background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A//www.w3.org/2000/svg'%20style%3D'margin%3Aauto%3Bbackground%3A0%200%3Banimation-play-state%3Arunning%3Banimation-delay%3A0s'%20width%3D'200'%20height%3D'200'%20viewBox%3D'0%200%20100%20100'%20preserveAspectRatio%3D'xMidYMid'%20display%3D'block'%3E%3Cg%20style%3D'animation-play-state%3Arunning%3Banimation-delay%3A0s'%3E%3Cg%20style%3D'animation-play-state%3Arunning%3Banimation-delay%3A0s'%20transform%3D'rotate%2865.61%2037.243%2052.757%29%20scale%28.8%29'%3E%3CanimateTransform%20attributeName%3D'transform'%20type%3D'rotate'%20repeatCount%3D'indefinite'%20values%3D'0%2050%2050%3B360%2050%2050'%20keyTimes%3D'0%3B1'%20dur%3D'1.3157894736842106s'/%3E%3Cpath%20fill-opacity%3D'.8'%20fill%3D'%2389b4fa'%20d%3D'M50%2050V0a50%2050%200%200150%2050z'/%3E%3C/g%3E%3Cg%20transform%3D'rotate%28-40.792%2058.447%2031.553%29%20scale%28.8%29'%3E%3CanimateTransform%20attributeName%3D'transform'%20type%3D'rotate'%20repeatCount%3D'indefinite'%20values%3D'0%2050%2050%3B360%2050%2050'%20keyTimes%3D'0%3B1'%20dur%3D'1.7543859649122806s'/%3E%3Cpath%20fill-opacity%3D'.8'%20fill%3D'%2374c7ec'%20d%3D'M50%2050h50a50%2050%200%2001-50%2050z'/%3E%3C/g%3E%3Cg%20transform%3D'rotate%28-147.195%2046.472%2043.528%29%20scale%28.8%29'%3E%3CanimateTransform%20attributeName%3D'transform'%20type%3D'rotate'%20repeatCount%3D'indefinite'%20values%3D'0%2050%2050%3B360%2050%2050'%20keyTimes%3D'0%3B1'%20dur%3D'2.6315789473684212s'/%3E%3Cpath%20fill-opacity%3D'.8'%20fill%3D'%2389dceb'%20d%3D'M50%2050v50A50%2050%200%20010%2050z'/%3E%3C/g%3E%3Cg%20transform%3D'rotate%28106.402%2041.26%2048.74%29%20scale%28.8%29'%3E%3CanimateTransform%20attributeName%3D'transform'%20type%3D'rotate'%20repeatCount%3D'indefinite'%20values%3D'0%2050%2050%3B360%2050%2050'%20keyTimes%3D'0%3B1'%20dur%3D'5.2631578947368425s'/%3E%3Cpath%20fill-opacity%3D'.8'%20fill%3D'%2394e2d5'%20d%3D'M50%2050H0A50%2050%200%200150%200z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
 }
+html[data-theme="catppuccin-mocha-green"] #ingame_HUD_PlacerVariants .variants .variant {
+  background-color: rgba(49, 50, 68, 0.5);
+}
+html[data-theme="catppuccin-mocha-green"] #ingame_HUD_PlacerVariants .variants .variant.active,
+html[data-theme="catppuccin-mocha-green"] #ingame_HUD_PlacerVariants .variants .variant:hover:not(.active) {
+  background-color: rgba(166, 227, 161, 0.8);
+}
 html[data-theme="catppuccin-mocha-teal"] {
   background-color: #181825;
 }
@@ -5693,6 +5756,13 @@ html[data-theme="catppuccin-mocha-teal"] #state_InGameState .prefab_GameHint {
 html[data-theme="catppuccin-mocha-teal"] .prefab_LoadingTextWithAnim:after,
 html[data-theme="catppuccin-mocha-teal"] .prefab_LoadingTextWithAnimDelayed:after {
   background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A//www.w3.org/2000/svg'%20style%3D'margin%3Aauto%3Bbackground%3A0%200%3Banimation-play-state%3Arunning%3Banimation-delay%3A0s'%20width%3D'200'%20height%3D'200'%20viewBox%3D'0%200%20100%20100'%20preserveAspectRatio%3D'xMidYMid'%20display%3D'block'%3E%3Cg%20style%3D'animation-play-state%3Arunning%3Banimation-delay%3A0s'%3E%3Cg%20style%3D'animation-play-state%3Arunning%3Banimation-delay%3A0s'%20transform%3D'rotate%2865.61%2037.243%2052.757%29%20scale%28.8%29'%3E%3CanimateTransform%20attributeName%3D'transform'%20type%3D'rotate'%20repeatCount%3D'indefinite'%20values%3D'0%2050%2050%3B360%2050%2050'%20keyTimes%3D'0%3B1'%20dur%3D'1.3157894736842106s'/%3E%3Cpath%20fill-opacity%3D'.8'%20fill%3D'%2389b4fa'%20d%3D'M50%2050V0a50%2050%200%200150%2050z'/%3E%3C/g%3E%3Cg%20transform%3D'rotate%28-40.792%2058.447%2031.553%29%20scale%28.8%29'%3E%3CanimateTransform%20attributeName%3D'transform'%20type%3D'rotate'%20repeatCount%3D'indefinite'%20values%3D'0%2050%2050%3B360%2050%2050'%20keyTimes%3D'0%3B1'%20dur%3D'1.7543859649122806s'/%3E%3Cpath%20fill-opacity%3D'.8'%20fill%3D'%2374c7ec'%20d%3D'M50%2050h50a50%2050%200%2001-50%2050z'/%3E%3C/g%3E%3Cg%20transform%3D'rotate%28-147.195%2046.472%2043.528%29%20scale%28.8%29'%3E%3CanimateTransform%20attributeName%3D'transform'%20type%3D'rotate'%20repeatCount%3D'indefinite'%20values%3D'0%2050%2050%3B360%2050%2050'%20keyTimes%3D'0%3B1'%20dur%3D'2.6315789473684212s'/%3E%3Cpath%20fill-opacity%3D'.8'%20fill%3D'%2389dceb'%20d%3D'M50%2050v50A50%2050%200%20010%2050z'/%3E%3C/g%3E%3Cg%20transform%3D'rotate%28106.402%2041.26%2048.74%29%20scale%28.8%29'%3E%3CanimateTransform%20attributeName%3D'transform'%20type%3D'rotate'%20repeatCount%3D'indefinite'%20values%3D'0%2050%2050%3B360%2050%2050'%20keyTimes%3D'0%3B1'%20dur%3D'5.2631578947368425s'/%3E%3Cpath%20fill-opacity%3D'.8'%20fill%3D'%2394e2d5'%20d%3D'M50%2050H0A50%2050%200%200150%200z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+}
+html[data-theme="catppuccin-mocha-teal"] #ingame_HUD_PlacerVariants .variants .variant {
+  background-color: rgba(49, 50, 68, 0.5);
+}
+html[data-theme="catppuccin-mocha-teal"] #ingame_HUD_PlacerVariants .variants .variant.active,
+html[data-theme="catppuccin-mocha-teal"] #ingame_HUD_PlacerVariants .variants .variant:hover:not(.active) {
+  background-color: rgba(148, 226, 213, 0.8);
 }
 html[data-theme="catppuccin-mocha-sky"] {
   background-color: #181825;
@@ -6255,6 +6325,13 @@ html[data-theme="catppuccin-mocha-sky"] .prefab_LoadingTextWithAnim:after,
 html[data-theme="catppuccin-mocha-sky"] .prefab_LoadingTextWithAnimDelayed:after {
   background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A//www.w3.org/2000/svg'%20style%3D'margin%3Aauto%3Bbackground%3A0%200%3Banimation-play-state%3Arunning%3Banimation-delay%3A0s'%20width%3D'200'%20height%3D'200'%20viewBox%3D'0%200%20100%20100'%20preserveAspectRatio%3D'xMidYMid'%20display%3D'block'%3E%3Cg%20style%3D'animation-play-state%3Arunning%3Banimation-delay%3A0s'%3E%3Cg%20style%3D'animation-play-state%3Arunning%3Banimation-delay%3A0s'%20transform%3D'rotate%2865.61%2037.243%2052.757%29%20scale%28.8%29'%3E%3CanimateTransform%20attributeName%3D'transform'%20type%3D'rotate'%20repeatCount%3D'indefinite'%20values%3D'0%2050%2050%3B360%2050%2050'%20keyTimes%3D'0%3B1'%20dur%3D'1.3157894736842106s'/%3E%3Cpath%20fill-opacity%3D'.8'%20fill%3D'%2389b4fa'%20d%3D'M50%2050V0a50%2050%200%200150%2050z'/%3E%3C/g%3E%3Cg%20transform%3D'rotate%28-40.792%2058.447%2031.553%29%20scale%28.8%29'%3E%3CanimateTransform%20attributeName%3D'transform'%20type%3D'rotate'%20repeatCount%3D'indefinite'%20values%3D'0%2050%2050%3B360%2050%2050'%20keyTimes%3D'0%3B1'%20dur%3D'1.7543859649122806s'/%3E%3Cpath%20fill-opacity%3D'.8'%20fill%3D'%2374c7ec'%20d%3D'M50%2050h50a50%2050%200%2001-50%2050z'/%3E%3C/g%3E%3Cg%20transform%3D'rotate%28-147.195%2046.472%2043.528%29%20scale%28.8%29'%3E%3CanimateTransform%20attributeName%3D'transform'%20type%3D'rotate'%20repeatCount%3D'indefinite'%20values%3D'0%2050%2050%3B360%2050%2050'%20keyTimes%3D'0%3B1'%20dur%3D'2.6315789473684212s'/%3E%3Cpath%20fill-opacity%3D'.8'%20fill%3D'%2389dceb'%20d%3D'M50%2050v50A50%2050%200%20010%2050z'/%3E%3C/g%3E%3Cg%20transform%3D'rotate%28106.402%2041.26%2048.74%29%20scale%28.8%29'%3E%3CanimateTransform%20attributeName%3D'transform'%20type%3D'rotate'%20repeatCount%3D'indefinite'%20values%3D'0%2050%2050%3B360%2050%2050'%20keyTimes%3D'0%3B1'%20dur%3D'5.2631578947368425s'/%3E%3Cpath%20fill-opacity%3D'.8'%20fill%3D'%2394e2d5'%20d%3D'M50%2050H0A50%2050%200%200150%200z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
 }
+html[data-theme="catppuccin-mocha-sky"] #ingame_HUD_PlacerVariants .variants .variant {
+  background-color: rgba(49, 50, 68, 0.5);
+}
+html[data-theme="catppuccin-mocha-sky"] #ingame_HUD_PlacerVariants .variants .variant.active,
+html[data-theme="catppuccin-mocha-sky"] #ingame_HUD_PlacerVariants .variants .variant:hover:not(.active) {
+  background-color: rgba(137, 220, 235, 0.8);
+}
 html[data-theme="catppuccin-mocha-sapphire"] {
   background-color: #181825;
 }
@@ -6815,6 +6892,13 @@ html[data-theme="catppuccin-mocha-sapphire"] #state_InGameState .prefab_GameHint
 html[data-theme="catppuccin-mocha-sapphire"] .prefab_LoadingTextWithAnim:after,
 html[data-theme="catppuccin-mocha-sapphire"] .prefab_LoadingTextWithAnimDelayed:after {
   background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A//www.w3.org/2000/svg'%20style%3D'margin%3Aauto%3Bbackground%3A0%200%3Banimation-play-state%3Arunning%3Banimation-delay%3A0s'%20width%3D'200'%20height%3D'200'%20viewBox%3D'0%200%20100%20100'%20preserveAspectRatio%3D'xMidYMid'%20display%3D'block'%3E%3Cg%20style%3D'animation-play-state%3Arunning%3Banimation-delay%3A0s'%3E%3Cg%20style%3D'animation-play-state%3Arunning%3Banimation-delay%3A0s'%20transform%3D'rotate%2865.61%2037.243%2052.757%29%20scale%28.8%29'%3E%3CanimateTransform%20attributeName%3D'transform'%20type%3D'rotate'%20repeatCount%3D'indefinite'%20values%3D'0%2050%2050%3B360%2050%2050'%20keyTimes%3D'0%3B1'%20dur%3D'1.3157894736842106s'/%3E%3Cpath%20fill-opacity%3D'.8'%20fill%3D'%2389b4fa'%20d%3D'M50%2050V0a50%2050%200%200150%2050z'/%3E%3C/g%3E%3Cg%20transform%3D'rotate%28-40.792%2058.447%2031.553%29%20scale%28.8%29'%3E%3CanimateTransform%20attributeName%3D'transform'%20type%3D'rotate'%20repeatCount%3D'indefinite'%20values%3D'0%2050%2050%3B360%2050%2050'%20keyTimes%3D'0%3B1'%20dur%3D'1.7543859649122806s'/%3E%3Cpath%20fill-opacity%3D'.8'%20fill%3D'%2374c7ec'%20d%3D'M50%2050h50a50%2050%200%2001-50%2050z'/%3E%3C/g%3E%3Cg%20transform%3D'rotate%28-147.195%2046.472%2043.528%29%20scale%28.8%29'%3E%3CanimateTransform%20attributeName%3D'transform'%20type%3D'rotate'%20repeatCount%3D'indefinite'%20values%3D'0%2050%2050%3B360%2050%2050'%20keyTimes%3D'0%3B1'%20dur%3D'2.6315789473684212s'/%3E%3Cpath%20fill-opacity%3D'.8'%20fill%3D'%2389dceb'%20d%3D'M50%2050v50A50%2050%200%20010%2050z'/%3E%3C/g%3E%3Cg%20transform%3D'rotate%28106.402%2041.26%2048.74%29%20scale%28.8%29'%3E%3CanimateTransform%20attributeName%3D'transform'%20type%3D'rotate'%20repeatCount%3D'indefinite'%20values%3D'0%2050%2050%3B360%2050%2050'%20keyTimes%3D'0%3B1'%20dur%3D'5.2631578947368425s'/%3E%3Cpath%20fill-opacity%3D'.8'%20fill%3D'%2394e2d5'%20d%3D'M50%2050H0A50%2050%200%200150%200z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+}
+html[data-theme="catppuccin-mocha-sapphire"] #ingame_HUD_PlacerVariants .variants .variant {
+  background-color: rgba(49, 50, 68, 0.5);
+}
+html[data-theme="catppuccin-mocha-sapphire"] #ingame_HUD_PlacerVariants .variants .variant.active,
+html[data-theme="catppuccin-mocha-sapphire"] #ingame_HUD_PlacerVariants .variants .variant:hover:not(.active) {
+  background-color: rgba(116, 199, 236, 0.8);
 }
 html[data-theme="catppuccin-mocha-blue"] {
   background-color: #181825;
@@ -7377,6 +7461,13 @@ html[data-theme="catppuccin-mocha-blue"] .prefab_LoadingTextWithAnim:after,
 html[data-theme="catppuccin-mocha-blue"] .prefab_LoadingTextWithAnimDelayed:after {
   background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A//www.w3.org/2000/svg'%20style%3D'margin%3Aauto%3Bbackground%3A0%200%3Banimation-play-state%3Arunning%3Banimation-delay%3A0s'%20width%3D'200'%20height%3D'200'%20viewBox%3D'0%200%20100%20100'%20preserveAspectRatio%3D'xMidYMid'%20display%3D'block'%3E%3Cg%20style%3D'animation-play-state%3Arunning%3Banimation-delay%3A0s'%3E%3Cg%20style%3D'animation-play-state%3Arunning%3Banimation-delay%3A0s'%20transform%3D'rotate%2865.61%2037.243%2052.757%29%20scale%28.8%29'%3E%3CanimateTransform%20attributeName%3D'transform'%20type%3D'rotate'%20repeatCount%3D'indefinite'%20values%3D'0%2050%2050%3B360%2050%2050'%20keyTimes%3D'0%3B1'%20dur%3D'1.3157894736842106s'/%3E%3Cpath%20fill-opacity%3D'.8'%20fill%3D'%2389b4fa'%20d%3D'M50%2050V0a50%2050%200%200150%2050z'/%3E%3C/g%3E%3Cg%20transform%3D'rotate%28-40.792%2058.447%2031.553%29%20scale%28.8%29'%3E%3CanimateTransform%20attributeName%3D'transform'%20type%3D'rotate'%20repeatCount%3D'indefinite'%20values%3D'0%2050%2050%3B360%2050%2050'%20keyTimes%3D'0%3B1'%20dur%3D'1.7543859649122806s'/%3E%3Cpath%20fill-opacity%3D'.8'%20fill%3D'%2374c7ec'%20d%3D'M50%2050h50a50%2050%200%2001-50%2050z'/%3E%3C/g%3E%3Cg%20transform%3D'rotate%28-147.195%2046.472%2043.528%29%20scale%28.8%29'%3E%3CanimateTransform%20attributeName%3D'transform'%20type%3D'rotate'%20repeatCount%3D'indefinite'%20values%3D'0%2050%2050%3B360%2050%2050'%20keyTimes%3D'0%3B1'%20dur%3D'2.6315789473684212s'/%3E%3Cpath%20fill-opacity%3D'.8'%20fill%3D'%2389dceb'%20d%3D'M50%2050v50A50%2050%200%20010%2050z'/%3E%3C/g%3E%3Cg%20transform%3D'rotate%28106.402%2041.26%2048.74%29%20scale%28.8%29'%3E%3CanimateTransform%20attributeName%3D'transform'%20type%3D'rotate'%20repeatCount%3D'indefinite'%20values%3D'0%2050%2050%3B360%2050%2050'%20keyTimes%3D'0%3B1'%20dur%3D'5.2631578947368425s'/%3E%3Cpath%20fill-opacity%3D'.8'%20fill%3D'%2394e2d5'%20d%3D'M50%2050H0A50%2050%200%200150%200z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
 }
+html[data-theme="catppuccin-mocha-blue"] #ingame_HUD_PlacerVariants .variants .variant {
+  background-color: rgba(49, 50, 68, 0.5);
+}
+html[data-theme="catppuccin-mocha-blue"] #ingame_HUD_PlacerVariants .variants .variant.active,
+html[data-theme="catppuccin-mocha-blue"] #ingame_HUD_PlacerVariants .variants .variant:hover:not(.active) {
+  background-color: rgba(137, 180, 250, 0.8);
+}
 html[data-theme="catppuccin-mocha-lavender"] {
   background-color: #181825;
 }
@@ -7937,6 +8028,13 @@ html[data-theme="catppuccin-mocha-lavender"] #state_InGameState .prefab_GameHint
 html[data-theme="catppuccin-mocha-lavender"] .prefab_LoadingTextWithAnim:after,
 html[data-theme="catppuccin-mocha-lavender"] .prefab_LoadingTextWithAnimDelayed:after {
   background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A//www.w3.org/2000/svg'%20style%3D'margin%3Aauto%3Bbackground%3A0%200%3Banimation-play-state%3Arunning%3Banimation-delay%3A0s'%20width%3D'200'%20height%3D'200'%20viewBox%3D'0%200%20100%20100'%20preserveAspectRatio%3D'xMidYMid'%20display%3D'block'%3E%3Cg%20style%3D'animation-play-state%3Arunning%3Banimation-delay%3A0s'%3E%3Cg%20style%3D'animation-play-state%3Arunning%3Banimation-delay%3A0s'%20transform%3D'rotate%2865.61%2037.243%2052.757%29%20scale%28.8%29'%3E%3CanimateTransform%20attributeName%3D'transform'%20type%3D'rotate'%20repeatCount%3D'indefinite'%20values%3D'0%2050%2050%3B360%2050%2050'%20keyTimes%3D'0%3B1'%20dur%3D'1.3157894736842106s'/%3E%3Cpath%20fill-opacity%3D'.8'%20fill%3D'%2389b4fa'%20d%3D'M50%2050V0a50%2050%200%200150%2050z'/%3E%3C/g%3E%3Cg%20transform%3D'rotate%28-40.792%2058.447%2031.553%29%20scale%28.8%29'%3E%3CanimateTransform%20attributeName%3D'transform'%20type%3D'rotate'%20repeatCount%3D'indefinite'%20values%3D'0%2050%2050%3B360%2050%2050'%20keyTimes%3D'0%3B1'%20dur%3D'1.7543859649122806s'/%3E%3Cpath%20fill-opacity%3D'.8'%20fill%3D'%2374c7ec'%20d%3D'M50%2050h50a50%2050%200%2001-50%2050z'/%3E%3C/g%3E%3Cg%20transform%3D'rotate%28-147.195%2046.472%2043.528%29%20scale%28.8%29'%3E%3CanimateTransform%20attributeName%3D'transform'%20type%3D'rotate'%20repeatCount%3D'indefinite'%20values%3D'0%2050%2050%3B360%2050%2050'%20keyTimes%3D'0%3B1'%20dur%3D'2.6315789473684212s'/%3E%3Cpath%20fill-opacity%3D'.8'%20fill%3D'%2389dceb'%20d%3D'M50%2050v50A50%2050%200%20010%2050z'/%3E%3C/g%3E%3Cg%20transform%3D'rotate%28106.402%2041.26%2048.74%29%20scale%28.8%29'%3E%3CanimateTransform%20attributeName%3D'transform'%20type%3D'rotate'%20repeatCount%3D'indefinite'%20values%3D'0%2050%2050%3B360%2050%2050'%20keyTimes%3D'0%3B1'%20dur%3D'5.2631578947368425s'/%3E%3Cpath%20fill-opacity%3D'.8'%20fill%3D'%2394e2d5'%20d%3D'M50%2050H0A50%2050%200%200150%200z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+}
+html[data-theme="catppuccin-mocha-lavender"] #ingame_HUD_PlacerVariants .variants .variant {
+  background-color: rgba(49, 50, 68, 0.5);
+}
+html[data-theme="catppuccin-mocha-lavender"] #ingame_HUD_PlacerVariants .variants .variant.active,
+html[data-theme="catppuccin-mocha-lavender"] #ingame_HUD_PlacerVariants .variants .variant:hover:not(.active) {
+  background-color: rgba(180, 190, 254, 0.8);
 }
 
     `)

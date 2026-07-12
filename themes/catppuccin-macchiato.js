@@ -645,6 +645,13 @@ html[data-theme="catppuccin-macchiato-rosewater"] .prefab_LoadingTextWithAnim:af
 html[data-theme="catppuccin-macchiato-rosewater"] .prefab_LoadingTextWithAnimDelayed:after {
   background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A//www.w3.org/2000/svg'%20style%3D'margin%3Aauto%3Bbackground%3A0%200%3Banimation-play-state%3Arunning%3Banimation-delay%3A0s'%20width%3D'200'%20height%3D'200'%20viewBox%3D'0%200%20100%20100'%20preserveAspectRatio%3D'xMidYMid'%20display%3D'block'%3E%3Cg%20style%3D'animation-play-state%3Arunning%3Banimation-delay%3A0s'%3E%3Cg%20style%3D'animation-play-state%3Arunning%3Banimation-delay%3A0s'%20transform%3D'rotate%2865.61%2037.243%2052.757%29%20scale%28.8%29'%3E%3CanimateTransform%20attributeName%3D'transform'%20type%3D'rotate'%20repeatCount%3D'indefinite'%20values%3D'0%2050%2050%3B360%2050%2050'%20keyTimes%3D'0%3B1'%20dur%3D'1.3157894736842106s'/%3E%3Cpath%20fill-opacity%3D'.8'%20fill%3D'%238aadf4'%20d%3D'M50%2050V0a50%2050%200%200150%2050z'/%3E%3C/g%3E%3Cg%20transform%3D'rotate%28-40.792%2058.447%2031.553%29%20scale%28.8%29'%3E%3CanimateTransform%20attributeName%3D'transform'%20type%3D'rotate'%20repeatCount%3D'indefinite'%20values%3D'0%2050%2050%3B360%2050%2050'%20keyTimes%3D'0%3B1'%20dur%3D'1.7543859649122806s'/%3E%3Cpath%20fill-opacity%3D'.8'%20fill%3D'%237dc4e4'%20d%3D'M50%2050h50a50%2050%200%2001-50%2050z'/%3E%3C/g%3E%3Cg%20transform%3D'rotate%28-147.195%2046.472%2043.528%29%20scale%28.8%29'%3E%3CanimateTransform%20attributeName%3D'transform'%20type%3D'rotate'%20repeatCount%3D'indefinite'%20values%3D'0%2050%2050%3B360%2050%2050'%20keyTimes%3D'0%3B1'%20dur%3D'2.6315789473684212s'/%3E%3Cpath%20fill-opacity%3D'.8'%20fill%3D'%2391d7e3'%20d%3D'M50%2050v50A50%2050%200%20010%2050z'/%3E%3C/g%3E%3Cg%20transform%3D'rotate%28106.402%2041.26%2048.74%29%20scale%28.8%29'%3E%3CanimateTransform%20attributeName%3D'transform'%20type%3D'rotate'%20repeatCount%3D'indefinite'%20values%3D'0%2050%2050%3B360%2050%2050'%20keyTimes%3D'0%3B1'%20dur%3D'5.2631578947368425s'/%3E%3Cpath%20fill-opacity%3D'.8'%20fill%3D'%238bd5ca'%20d%3D'M50%2050H0A50%2050%200%200150%200z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
 }
+html[data-theme="catppuccin-macchiato-rosewater"] #ingame_HUD_PlacerVariants .variants .variant {
+  background-color: rgba(54, 58, 79, 0.5);
+}
+html[data-theme="catppuccin-macchiato-rosewater"] #ingame_HUD_PlacerVariants .variants .variant.active,
+html[data-theme="catppuccin-macchiato-rosewater"] #ingame_HUD_PlacerVariants .variants .variant:hover:not(.active) {
+  background-color: rgba(244, 219, 214, 0.8);
+}
 html[data-theme="catppuccin-macchiato-flamingo"] {
   background-color: #1e2030;
 }
@@ -1205,6 +1212,13 @@ html[data-theme="catppuccin-macchiato-flamingo"] #state_InGameState .prefab_Game
 html[data-theme="catppuccin-macchiato-flamingo"] .prefab_LoadingTextWithAnim:after,
 html[data-theme="catppuccin-macchiato-flamingo"] .prefab_LoadingTextWithAnimDelayed:after {
   background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A//www.w3.org/2000/svg'%20style%3D'margin%3Aauto%3Bbackground%3A0%200%3Banimation-play-state%3Arunning%3Banimation-delay%3A0s'%20width%3D'200'%20height%3D'200'%20viewBox%3D'0%200%20100%20100'%20preserveAspectRatio%3D'xMidYMid'%20display%3D'block'%3E%3Cg%20style%3D'animation-play-state%3Arunning%3Banimation-delay%3A0s'%3E%3Cg%20style%3D'animation-play-state%3Arunning%3Banimation-delay%3A0s'%20transform%3D'rotate%2865.61%2037.243%2052.757%29%20scale%28.8%29'%3E%3CanimateTransform%20attributeName%3D'transform'%20type%3D'rotate'%20repeatCount%3D'indefinite'%20values%3D'0%2050%2050%3B360%2050%2050'%20keyTimes%3D'0%3B1'%20dur%3D'1.3157894736842106s'/%3E%3Cpath%20fill-opacity%3D'.8'%20fill%3D'%238aadf4'%20d%3D'M50%2050V0a50%2050%200%200150%2050z'/%3E%3C/g%3E%3Cg%20transform%3D'rotate%28-40.792%2058.447%2031.553%29%20scale%28.8%29'%3E%3CanimateTransform%20attributeName%3D'transform'%20type%3D'rotate'%20repeatCount%3D'indefinite'%20values%3D'0%2050%2050%3B360%2050%2050'%20keyTimes%3D'0%3B1'%20dur%3D'1.7543859649122806s'/%3E%3Cpath%20fill-opacity%3D'.8'%20fill%3D'%237dc4e4'%20d%3D'M50%2050h50a50%2050%200%2001-50%2050z'/%3E%3C/g%3E%3Cg%20transform%3D'rotate%28-147.195%2046.472%2043.528%29%20scale%28.8%29'%3E%3CanimateTransform%20attributeName%3D'transform'%20type%3D'rotate'%20repeatCount%3D'indefinite'%20values%3D'0%2050%2050%3B360%2050%2050'%20keyTimes%3D'0%3B1'%20dur%3D'2.6315789473684212s'/%3E%3Cpath%20fill-opacity%3D'.8'%20fill%3D'%2391d7e3'%20d%3D'M50%2050v50A50%2050%200%20010%2050z'/%3E%3C/g%3E%3Cg%20transform%3D'rotate%28106.402%2041.26%2048.74%29%20scale%28.8%29'%3E%3CanimateTransform%20attributeName%3D'transform'%20type%3D'rotate'%20repeatCount%3D'indefinite'%20values%3D'0%2050%2050%3B360%2050%2050'%20keyTimes%3D'0%3B1'%20dur%3D'5.2631578947368425s'/%3E%3Cpath%20fill-opacity%3D'.8'%20fill%3D'%238bd5ca'%20d%3D'M50%2050H0A50%2050%200%200150%200z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+}
+html[data-theme="catppuccin-macchiato-flamingo"] #ingame_HUD_PlacerVariants .variants .variant {
+  background-color: rgba(54, 58, 79, 0.5);
+}
+html[data-theme="catppuccin-macchiato-flamingo"] #ingame_HUD_PlacerVariants .variants .variant.active,
+html[data-theme="catppuccin-macchiato-flamingo"] #ingame_HUD_PlacerVariants .variants .variant:hover:not(.active) {
+  background-color: rgba(240, 198, 198, 0.8);
 }
 html[data-theme="catppuccin-macchiato-pink"] {
   background-color: #1e2030;
@@ -1767,6 +1781,13 @@ html[data-theme="catppuccin-macchiato-pink"] .prefab_LoadingTextWithAnim:after,
 html[data-theme="catppuccin-macchiato-pink"] .prefab_LoadingTextWithAnimDelayed:after {
   background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A//www.w3.org/2000/svg'%20style%3D'margin%3Aauto%3Bbackground%3A0%200%3Banimation-play-state%3Arunning%3Banimation-delay%3A0s'%20width%3D'200'%20height%3D'200'%20viewBox%3D'0%200%20100%20100'%20preserveAspectRatio%3D'xMidYMid'%20display%3D'block'%3E%3Cg%20style%3D'animation-play-state%3Arunning%3Banimation-delay%3A0s'%3E%3Cg%20style%3D'animation-play-state%3Arunning%3Banimation-delay%3A0s'%20transform%3D'rotate%2865.61%2037.243%2052.757%29%20scale%28.8%29'%3E%3CanimateTransform%20attributeName%3D'transform'%20type%3D'rotate'%20repeatCount%3D'indefinite'%20values%3D'0%2050%2050%3B360%2050%2050'%20keyTimes%3D'0%3B1'%20dur%3D'1.3157894736842106s'/%3E%3Cpath%20fill-opacity%3D'.8'%20fill%3D'%238aadf4'%20d%3D'M50%2050V0a50%2050%200%200150%2050z'/%3E%3C/g%3E%3Cg%20transform%3D'rotate%28-40.792%2058.447%2031.553%29%20scale%28.8%29'%3E%3CanimateTransform%20attributeName%3D'transform'%20type%3D'rotate'%20repeatCount%3D'indefinite'%20values%3D'0%2050%2050%3B360%2050%2050'%20keyTimes%3D'0%3B1'%20dur%3D'1.7543859649122806s'/%3E%3Cpath%20fill-opacity%3D'.8'%20fill%3D'%237dc4e4'%20d%3D'M50%2050h50a50%2050%200%2001-50%2050z'/%3E%3C/g%3E%3Cg%20transform%3D'rotate%28-147.195%2046.472%2043.528%29%20scale%28.8%29'%3E%3CanimateTransform%20attributeName%3D'transform'%20type%3D'rotate'%20repeatCount%3D'indefinite'%20values%3D'0%2050%2050%3B360%2050%2050'%20keyTimes%3D'0%3B1'%20dur%3D'2.6315789473684212s'/%3E%3Cpath%20fill-opacity%3D'.8'%20fill%3D'%2391d7e3'%20d%3D'M50%2050v50A50%2050%200%20010%2050z'/%3E%3C/g%3E%3Cg%20transform%3D'rotate%28106.402%2041.26%2048.74%29%20scale%28.8%29'%3E%3CanimateTransform%20attributeName%3D'transform'%20type%3D'rotate'%20repeatCount%3D'indefinite'%20values%3D'0%2050%2050%3B360%2050%2050'%20keyTimes%3D'0%3B1'%20dur%3D'5.2631578947368425s'/%3E%3Cpath%20fill-opacity%3D'.8'%20fill%3D'%238bd5ca'%20d%3D'M50%2050H0A50%2050%200%200150%200z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
 }
+html[data-theme="catppuccin-macchiato-pink"] #ingame_HUD_PlacerVariants .variants .variant {
+  background-color: rgba(54, 58, 79, 0.5);
+}
+html[data-theme="catppuccin-macchiato-pink"] #ingame_HUD_PlacerVariants .variants .variant.active,
+html[data-theme="catppuccin-macchiato-pink"] #ingame_HUD_PlacerVariants .variants .variant:hover:not(.active) {
+  background-color: rgba(245, 189, 230, 0.8);
+}
 html[data-theme="catppuccin-macchiato-mauve"] {
   background-color: #1e2030;
 }
@@ -2327,6 +2348,13 @@ html[data-theme="catppuccin-macchiato-mauve"] #state_InGameState .prefab_GameHin
 html[data-theme="catppuccin-macchiato-mauve"] .prefab_LoadingTextWithAnim:after,
 html[data-theme="catppuccin-macchiato-mauve"] .prefab_LoadingTextWithAnimDelayed:after {
   background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A//www.w3.org/2000/svg'%20style%3D'margin%3Aauto%3Bbackground%3A0%200%3Banimation-play-state%3Arunning%3Banimation-delay%3A0s'%20width%3D'200'%20height%3D'200'%20viewBox%3D'0%200%20100%20100'%20preserveAspectRatio%3D'xMidYMid'%20display%3D'block'%3E%3Cg%20style%3D'animation-play-state%3Arunning%3Banimation-delay%3A0s'%3E%3Cg%20style%3D'animation-play-state%3Arunning%3Banimation-delay%3A0s'%20transform%3D'rotate%2865.61%2037.243%2052.757%29%20scale%28.8%29'%3E%3CanimateTransform%20attributeName%3D'transform'%20type%3D'rotate'%20repeatCount%3D'indefinite'%20values%3D'0%2050%2050%3B360%2050%2050'%20keyTimes%3D'0%3B1'%20dur%3D'1.3157894736842106s'/%3E%3Cpath%20fill-opacity%3D'.8'%20fill%3D'%238aadf4'%20d%3D'M50%2050V0a50%2050%200%200150%2050z'/%3E%3C/g%3E%3Cg%20transform%3D'rotate%28-40.792%2058.447%2031.553%29%20scale%28.8%29'%3E%3CanimateTransform%20attributeName%3D'transform'%20type%3D'rotate'%20repeatCount%3D'indefinite'%20values%3D'0%2050%2050%3B360%2050%2050'%20keyTimes%3D'0%3B1'%20dur%3D'1.7543859649122806s'/%3E%3Cpath%20fill-opacity%3D'.8'%20fill%3D'%237dc4e4'%20d%3D'M50%2050h50a50%2050%200%2001-50%2050z'/%3E%3C/g%3E%3Cg%20transform%3D'rotate%28-147.195%2046.472%2043.528%29%20scale%28.8%29'%3E%3CanimateTransform%20attributeName%3D'transform'%20type%3D'rotate'%20repeatCount%3D'indefinite'%20values%3D'0%2050%2050%3B360%2050%2050'%20keyTimes%3D'0%3B1'%20dur%3D'2.6315789473684212s'/%3E%3Cpath%20fill-opacity%3D'.8'%20fill%3D'%2391d7e3'%20d%3D'M50%2050v50A50%2050%200%20010%2050z'/%3E%3C/g%3E%3Cg%20transform%3D'rotate%28106.402%2041.26%2048.74%29%20scale%28.8%29'%3E%3CanimateTransform%20attributeName%3D'transform'%20type%3D'rotate'%20repeatCount%3D'indefinite'%20values%3D'0%2050%2050%3B360%2050%2050'%20keyTimes%3D'0%3B1'%20dur%3D'5.2631578947368425s'/%3E%3Cpath%20fill-opacity%3D'.8'%20fill%3D'%238bd5ca'%20d%3D'M50%2050H0A50%2050%200%200150%200z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+}
+html[data-theme="catppuccin-macchiato-mauve"] #ingame_HUD_PlacerVariants .variants .variant {
+  background-color: rgba(54, 58, 79, 0.5);
+}
+html[data-theme="catppuccin-macchiato-mauve"] #ingame_HUD_PlacerVariants .variants .variant.active,
+html[data-theme="catppuccin-macchiato-mauve"] #ingame_HUD_PlacerVariants .variants .variant:hover:not(.active) {
+  background-color: rgba(198, 160, 246, 0.8);
 }
 html[data-theme="catppuccin-macchiato-red"] {
   background-color: #1e2030;
@@ -2889,6 +2917,13 @@ html[data-theme="catppuccin-macchiato-red"] .prefab_LoadingTextWithAnim:after,
 html[data-theme="catppuccin-macchiato-red"] .prefab_LoadingTextWithAnimDelayed:after {
   background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A//www.w3.org/2000/svg'%20style%3D'margin%3Aauto%3Bbackground%3A0%200%3Banimation-play-state%3Arunning%3Banimation-delay%3A0s'%20width%3D'200'%20height%3D'200'%20viewBox%3D'0%200%20100%20100'%20preserveAspectRatio%3D'xMidYMid'%20display%3D'block'%3E%3Cg%20style%3D'animation-play-state%3Arunning%3Banimation-delay%3A0s'%3E%3Cg%20style%3D'animation-play-state%3Arunning%3Banimation-delay%3A0s'%20transform%3D'rotate%2865.61%2037.243%2052.757%29%20scale%28.8%29'%3E%3CanimateTransform%20attributeName%3D'transform'%20type%3D'rotate'%20repeatCount%3D'indefinite'%20values%3D'0%2050%2050%3B360%2050%2050'%20keyTimes%3D'0%3B1'%20dur%3D'1.3157894736842106s'/%3E%3Cpath%20fill-opacity%3D'.8'%20fill%3D'%238aadf4'%20d%3D'M50%2050V0a50%2050%200%200150%2050z'/%3E%3C/g%3E%3Cg%20transform%3D'rotate%28-40.792%2058.447%2031.553%29%20scale%28.8%29'%3E%3CanimateTransform%20attributeName%3D'transform'%20type%3D'rotate'%20repeatCount%3D'indefinite'%20values%3D'0%2050%2050%3B360%2050%2050'%20keyTimes%3D'0%3B1'%20dur%3D'1.7543859649122806s'/%3E%3Cpath%20fill-opacity%3D'.8'%20fill%3D'%237dc4e4'%20d%3D'M50%2050h50a50%2050%200%2001-50%2050z'/%3E%3C/g%3E%3Cg%20transform%3D'rotate%28-147.195%2046.472%2043.528%29%20scale%28.8%29'%3E%3CanimateTransform%20attributeName%3D'transform'%20type%3D'rotate'%20repeatCount%3D'indefinite'%20values%3D'0%2050%2050%3B360%2050%2050'%20keyTimes%3D'0%3B1'%20dur%3D'2.6315789473684212s'/%3E%3Cpath%20fill-opacity%3D'.8'%20fill%3D'%2391d7e3'%20d%3D'M50%2050v50A50%2050%200%20010%2050z'/%3E%3C/g%3E%3Cg%20transform%3D'rotate%28106.402%2041.26%2048.74%29%20scale%28.8%29'%3E%3CanimateTransform%20attributeName%3D'transform'%20type%3D'rotate'%20repeatCount%3D'indefinite'%20values%3D'0%2050%2050%3B360%2050%2050'%20keyTimes%3D'0%3B1'%20dur%3D'5.2631578947368425s'/%3E%3Cpath%20fill-opacity%3D'.8'%20fill%3D'%238bd5ca'%20d%3D'M50%2050H0A50%2050%200%200150%200z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
 }
+html[data-theme="catppuccin-macchiato-red"] #ingame_HUD_PlacerVariants .variants .variant {
+  background-color: rgba(54, 58, 79, 0.5);
+}
+html[data-theme="catppuccin-macchiato-red"] #ingame_HUD_PlacerVariants .variants .variant.active,
+html[data-theme="catppuccin-macchiato-red"] #ingame_HUD_PlacerVariants .variants .variant:hover:not(.active) {
+  background-color: rgba(237, 135, 150, 0.8);
+}
 html[data-theme="catppuccin-macchiato-maroon"] {
   background-color: #1e2030;
 }
@@ -3449,6 +3484,13 @@ html[data-theme="catppuccin-macchiato-maroon"] #state_InGameState .prefab_GameHi
 html[data-theme="catppuccin-macchiato-maroon"] .prefab_LoadingTextWithAnim:after,
 html[data-theme="catppuccin-macchiato-maroon"] .prefab_LoadingTextWithAnimDelayed:after {
   background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A//www.w3.org/2000/svg'%20style%3D'margin%3Aauto%3Bbackground%3A0%200%3Banimation-play-state%3Arunning%3Banimation-delay%3A0s'%20width%3D'200'%20height%3D'200'%20viewBox%3D'0%200%20100%20100'%20preserveAspectRatio%3D'xMidYMid'%20display%3D'block'%3E%3Cg%20style%3D'animation-play-state%3Arunning%3Banimation-delay%3A0s'%3E%3Cg%20style%3D'animation-play-state%3Arunning%3Banimation-delay%3A0s'%20transform%3D'rotate%2865.61%2037.243%2052.757%29%20scale%28.8%29'%3E%3CanimateTransform%20attributeName%3D'transform'%20type%3D'rotate'%20repeatCount%3D'indefinite'%20values%3D'0%2050%2050%3B360%2050%2050'%20keyTimes%3D'0%3B1'%20dur%3D'1.3157894736842106s'/%3E%3Cpath%20fill-opacity%3D'.8'%20fill%3D'%238aadf4'%20d%3D'M50%2050V0a50%2050%200%200150%2050z'/%3E%3C/g%3E%3Cg%20transform%3D'rotate%28-40.792%2058.447%2031.553%29%20scale%28.8%29'%3E%3CanimateTransform%20attributeName%3D'transform'%20type%3D'rotate'%20repeatCount%3D'indefinite'%20values%3D'0%2050%2050%3B360%2050%2050'%20keyTimes%3D'0%3B1'%20dur%3D'1.7543859649122806s'/%3E%3Cpath%20fill-opacity%3D'.8'%20fill%3D'%237dc4e4'%20d%3D'M50%2050h50a50%2050%200%2001-50%2050z'/%3E%3C/g%3E%3Cg%20transform%3D'rotate%28-147.195%2046.472%2043.528%29%20scale%28.8%29'%3E%3CanimateTransform%20attributeName%3D'transform'%20type%3D'rotate'%20repeatCount%3D'indefinite'%20values%3D'0%2050%2050%3B360%2050%2050'%20keyTimes%3D'0%3B1'%20dur%3D'2.6315789473684212s'/%3E%3Cpath%20fill-opacity%3D'.8'%20fill%3D'%2391d7e3'%20d%3D'M50%2050v50A50%2050%200%20010%2050z'/%3E%3C/g%3E%3Cg%20transform%3D'rotate%28106.402%2041.26%2048.74%29%20scale%28.8%29'%3E%3CanimateTransform%20attributeName%3D'transform'%20type%3D'rotate'%20repeatCount%3D'indefinite'%20values%3D'0%2050%2050%3B360%2050%2050'%20keyTimes%3D'0%3B1'%20dur%3D'5.2631578947368425s'/%3E%3Cpath%20fill-opacity%3D'.8'%20fill%3D'%238bd5ca'%20d%3D'M50%2050H0A50%2050%200%200150%200z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+}
+html[data-theme="catppuccin-macchiato-maroon"] #ingame_HUD_PlacerVariants .variants .variant {
+  background-color: rgba(54, 58, 79, 0.5);
+}
+html[data-theme="catppuccin-macchiato-maroon"] #ingame_HUD_PlacerVariants .variants .variant.active,
+html[data-theme="catppuccin-macchiato-maroon"] #ingame_HUD_PlacerVariants .variants .variant:hover:not(.active) {
+  background-color: rgba(238, 153, 160, 0.8);
 }
 html[data-theme="catppuccin-macchiato-peach"] {
   background-color: #1e2030;
@@ -4011,6 +4053,13 @@ html[data-theme="catppuccin-macchiato-peach"] .prefab_LoadingTextWithAnim:after,
 html[data-theme="catppuccin-macchiato-peach"] .prefab_LoadingTextWithAnimDelayed:after {
   background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A//www.w3.org/2000/svg'%20style%3D'margin%3Aauto%3Bbackground%3A0%200%3Banimation-play-state%3Arunning%3Banimation-delay%3A0s'%20width%3D'200'%20height%3D'200'%20viewBox%3D'0%200%20100%20100'%20preserveAspectRatio%3D'xMidYMid'%20display%3D'block'%3E%3Cg%20style%3D'animation-play-state%3Arunning%3Banimation-delay%3A0s'%3E%3Cg%20style%3D'animation-play-state%3Arunning%3Banimation-delay%3A0s'%20transform%3D'rotate%2865.61%2037.243%2052.757%29%20scale%28.8%29'%3E%3CanimateTransform%20attributeName%3D'transform'%20type%3D'rotate'%20repeatCount%3D'indefinite'%20values%3D'0%2050%2050%3B360%2050%2050'%20keyTimes%3D'0%3B1'%20dur%3D'1.3157894736842106s'/%3E%3Cpath%20fill-opacity%3D'.8'%20fill%3D'%238aadf4'%20d%3D'M50%2050V0a50%2050%200%200150%2050z'/%3E%3C/g%3E%3Cg%20transform%3D'rotate%28-40.792%2058.447%2031.553%29%20scale%28.8%29'%3E%3CanimateTransform%20attributeName%3D'transform'%20type%3D'rotate'%20repeatCount%3D'indefinite'%20values%3D'0%2050%2050%3B360%2050%2050'%20keyTimes%3D'0%3B1'%20dur%3D'1.7543859649122806s'/%3E%3Cpath%20fill-opacity%3D'.8'%20fill%3D'%237dc4e4'%20d%3D'M50%2050h50a50%2050%200%2001-50%2050z'/%3E%3C/g%3E%3Cg%20transform%3D'rotate%28-147.195%2046.472%2043.528%29%20scale%28.8%29'%3E%3CanimateTransform%20attributeName%3D'transform'%20type%3D'rotate'%20repeatCount%3D'indefinite'%20values%3D'0%2050%2050%3B360%2050%2050'%20keyTimes%3D'0%3B1'%20dur%3D'2.6315789473684212s'/%3E%3Cpath%20fill-opacity%3D'.8'%20fill%3D'%2391d7e3'%20d%3D'M50%2050v50A50%2050%200%20010%2050z'/%3E%3C/g%3E%3Cg%20transform%3D'rotate%28106.402%2041.26%2048.74%29%20scale%28.8%29'%3E%3CanimateTransform%20attributeName%3D'transform'%20type%3D'rotate'%20repeatCount%3D'indefinite'%20values%3D'0%2050%2050%3B360%2050%2050'%20keyTimes%3D'0%3B1'%20dur%3D'5.2631578947368425s'/%3E%3Cpath%20fill-opacity%3D'.8'%20fill%3D'%238bd5ca'%20d%3D'M50%2050H0A50%2050%200%200150%200z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
 }
+html[data-theme="catppuccin-macchiato-peach"] #ingame_HUD_PlacerVariants .variants .variant {
+  background-color: rgba(54, 58, 79, 0.5);
+}
+html[data-theme="catppuccin-macchiato-peach"] #ingame_HUD_PlacerVariants .variants .variant.active,
+html[data-theme="catppuccin-macchiato-peach"] #ingame_HUD_PlacerVariants .variants .variant:hover:not(.active) {
+  background-color: rgba(245, 169, 127, 0.8);
+}
 html[data-theme="catppuccin-macchiato-yellow"] {
   background-color: #1e2030;
 }
@@ -4571,6 +4620,13 @@ html[data-theme="catppuccin-macchiato-yellow"] #state_InGameState .prefab_GameHi
 html[data-theme="catppuccin-macchiato-yellow"] .prefab_LoadingTextWithAnim:after,
 html[data-theme="catppuccin-macchiato-yellow"] .prefab_LoadingTextWithAnimDelayed:after {
   background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A//www.w3.org/2000/svg'%20style%3D'margin%3Aauto%3Bbackground%3A0%200%3Banimation-play-state%3Arunning%3Banimation-delay%3A0s'%20width%3D'200'%20height%3D'200'%20viewBox%3D'0%200%20100%20100'%20preserveAspectRatio%3D'xMidYMid'%20display%3D'block'%3E%3Cg%20style%3D'animation-play-state%3Arunning%3Banimation-delay%3A0s'%3E%3Cg%20style%3D'animation-play-state%3Arunning%3Banimation-delay%3A0s'%20transform%3D'rotate%2865.61%2037.243%2052.757%29%20scale%28.8%29'%3E%3CanimateTransform%20attributeName%3D'transform'%20type%3D'rotate'%20repeatCount%3D'indefinite'%20values%3D'0%2050%2050%3B360%2050%2050'%20keyTimes%3D'0%3B1'%20dur%3D'1.3157894736842106s'/%3E%3Cpath%20fill-opacity%3D'.8'%20fill%3D'%238aadf4'%20d%3D'M50%2050V0a50%2050%200%200150%2050z'/%3E%3C/g%3E%3Cg%20transform%3D'rotate%28-40.792%2058.447%2031.553%29%20scale%28.8%29'%3E%3CanimateTransform%20attributeName%3D'transform'%20type%3D'rotate'%20repeatCount%3D'indefinite'%20values%3D'0%2050%2050%3B360%2050%2050'%20keyTimes%3D'0%3B1'%20dur%3D'1.7543859649122806s'/%3E%3Cpath%20fill-opacity%3D'.8'%20fill%3D'%237dc4e4'%20d%3D'M50%2050h50a50%2050%200%2001-50%2050z'/%3E%3C/g%3E%3Cg%20transform%3D'rotate%28-147.195%2046.472%2043.528%29%20scale%28.8%29'%3E%3CanimateTransform%20attributeName%3D'transform'%20type%3D'rotate'%20repeatCount%3D'indefinite'%20values%3D'0%2050%2050%3B360%2050%2050'%20keyTimes%3D'0%3B1'%20dur%3D'2.6315789473684212s'/%3E%3Cpath%20fill-opacity%3D'.8'%20fill%3D'%2391d7e3'%20d%3D'M50%2050v50A50%2050%200%20010%2050z'/%3E%3C/g%3E%3Cg%20transform%3D'rotate%28106.402%2041.26%2048.74%29%20scale%28.8%29'%3E%3CanimateTransform%20attributeName%3D'transform'%20type%3D'rotate'%20repeatCount%3D'indefinite'%20values%3D'0%2050%2050%3B360%2050%2050'%20keyTimes%3D'0%3B1'%20dur%3D'5.2631578947368425s'/%3E%3Cpath%20fill-opacity%3D'.8'%20fill%3D'%238bd5ca'%20d%3D'M50%2050H0A50%2050%200%200150%200z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+}
+html[data-theme="catppuccin-macchiato-yellow"] #ingame_HUD_PlacerVariants .variants .variant {
+  background-color: rgba(54, 58, 79, 0.5);
+}
+html[data-theme="catppuccin-macchiato-yellow"] #ingame_HUD_PlacerVariants .variants .variant.active,
+html[data-theme="catppuccin-macchiato-yellow"] #ingame_HUD_PlacerVariants .variants .variant:hover:not(.active) {
+  background-color: rgba(238, 212, 159, 0.8);
 }
 html[data-theme="catppuccin-macchiato-green"] {
   background-color: #1e2030;
@@ -5133,6 +5189,13 @@ html[data-theme="catppuccin-macchiato-green"] .prefab_LoadingTextWithAnim:after,
 html[data-theme="catppuccin-macchiato-green"] .prefab_LoadingTextWithAnimDelayed:after {
   background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A//www.w3.org/2000/svg'%20style%3D'margin%3Aauto%3Bbackground%3A0%200%3Banimation-play-state%3Arunning%3Banimation-delay%3A0s'%20width%3D'200'%20height%3D'200'%20viewBox%3D'0%200%20100%20100'%20preserveAspectRatio%3D'xMidYMid'%20display%3D'block'%3E%3Cg%20style%3D'animation-play-state%3Arunning%3Banimation-delay%3A0s'%3E%3Cg%20style%3D'animation-play-state%3Arunning%3Banimation-delay%3A0s'%20transform%3D'rotate%2865.61%2037.243%2052.757%29%20scale%28.8%29'%3E%3CanimateTransform%20attributeName%3D'transform'%20type%3D'rotate'%20repeatCount%3D'indefinite'%20values%3D'0%2050%2050%3B360%2050%2050'%20keyTimes%3D'0%3B1'%20dur%3D'1.3157894736842106s'/%3E%3Cpath%20fill-opacity%3D'.8'%20fill%3D'%238aadf4'%20d%3D'M50%2050V0a50%2050%200%200150%2050z'/%3E%3C/g%3E%3Cg%20transform%3D'rotate%28-40.792%2058.447%2031.553%29%20scale%28.8%29'%3E%3CanimateTransform%20attributeName%3D'transform'%20type%3D'rotate'%20repeatCount%3D'indefinite'%20values%3D'0%2050%2050%3B360%2050%2050'%20keyTimes%3D'0%3B1'%20dur%3D'1.7543859649122806s'/%3E%3Cpath%20fill-opacity%3D'.8'%20fill%3D'%237dc4e4'%20d%3D'M50%2050h50a50%2050%200%2001-50%2050z'/%3E%3C/g%3E%3Cg%20transform%3D'rotate%28-147.195%2046.472%2043.528%29%20scale%28.8%29'%3E%3CanimateTransform%20attributeName%3D'transform'%20type%3D'rotate'%20repeatCount%3D'indefinite'%20values%3D'0%2050%2050%3B360%2050%2050'%20keyTimes%3D'0%3B1'%20dur%3D'2.6315789473684212s'/%3E%3Cpath%20fill-opacity%3D'.8'%20fill%3D'%2391d7e3'%20d%3D'M50%2050v50A50%2050%200%20010%2050z'/%3E%3C/g%3E%3Cg%20transform%3D'rotate%28106.402%2041.26%2048.74%29%20scale%28.8%29'%3E%3CanimateTransform%20attributeName%3D'transform'%20type%3D'rotate'%20repeatCount%3D'indefinite'%20values%3D'0%2050%2050%3B360%2050%2050'%20keyTimes%3D'0%3B1'%20dur%3D'5.2631578947368425s'/%3E%3Cpath%20fill-opacity%3D'.8'%20fill%3D'%238bd5ca'%20d%3D'M50%2050H0A50%2050%200%200150%200z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
 }
+html[data-theme="catppuccin-macchiato-green"] #ingame_HUD_PlacerVariants .variants .variant {
+  background-color: rgba(54, 58, 79, 0.5);
+}
+html[data-theme="catppuccin-macchiato-green"] #ingame_HUD_PlacerVariants .variants .variant.active,
+html[data-theme="catppuccin-macchiato-green"] #ingame_HUD_PlacerVariants .variants .variant:hover:not(.active) {
+  background-color: rgba(166, 218, 149, 0.8);
+}
 html[data-theme="catppuccin-macchiato-teal"] {
   background-color: #1e2030;
 }
@@ -5693,6 +5756,13 @@ html[data-theme="catppuccin-macchiato-teal"] #state_InGameState .prefab_GameHint
 html[data-theme="catppuccin-macchiato-teal"] .prefab_LoadingTextWithAnim:after,
 html[data-theme="catppuccin-macchiato-teal"] .prefab_LoadingTextWithAnimDelayed:after {
   background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A//www.w3.org/2000/svg'%20style%3D'margin%3Aauto%3Bbackground%3A0%200%3Banimation-play-state%3Arunning%3Banimation-delay%3A0s'%20width%3D'200'%20height%3D'200'%20viewBox%3D'0%200%20100%20100'%20preserveAspectRatio%3D'xMidYMid'%20display%3D'block'%3E%3Cg%20style%3D'animation-play-state%3Arunning%3Banimation-delay%3A0s'%3E%3Cg%20style%3D'animation-play-state%3Arunning%3Banimation-delay%3A0s'%20transform%3D'rotate%2865.61%2037.243%2052.757%29%20scale%28.8%29'%3E%3CanimateTransform%20attributeName%3D'transform'%20type%3D'rotate'%20repeatCount%3D'indefinite'%20values%3D'0%2050%2050%3B360%2050%2050'%20keyTimes%3D'0%3B1'%20dur%3D'1.3157894736842106s'/%3E%3Cpath%20fill-opacity%3D'.8'%20fill%3D'%238aadf4'%20d%3D'M50%2050V0a50%2050%200%200150%2050z'/%3E%3C/g%3E%3Cg%20transform%3D'rotate%28-40.792%2058.447%2031.553%29%20scale%28.8%29'%3E%3CanimateTransform%20attributeName%3D'transform'%20type%3D'rotate'%20repeatCount%3D'indefinite'%20values%3D'0%2050%2050%3B360%2050%2050'%20keyTimes%3D'0%3B1'%20dur%3D'1.7543859649122806s'/%3E%3Cpath%20fill-opacity%3D'.8'%20fill%3D'%237dc4e4'%20d%3D'M50%2050h50a50%2050%200%2001-50%2050z'/%3E%3C/g%3E%3Cg%20transform%3D'rotate%28-147.195%2046.472%2043.528%29%20scale%28.8%29'%3E%3CanimateTransform%20attributeName%3D'transform'%20type%3D'rotate'%20repeatCount%3D'indefinite'%20values%3D'0%2050%2050%3B360%2050%2050'%20keyTimes%3D'0%3B1'%20dur%3D'2.6315789473684212s'/%3E%3Cpath%20fill-opacity%3D'.8'%20fill%3D'%2391d7e3'%20d%3D'M50%2050v50A50%2050%200%20010%2050z'/%3E%3C/g%3E%3Cg%20transform%3D'rotate%28106.402%2041.26%2048.74%29%20scale%28.8%29'%3E%3CanimateTransform%20attributeName%3D'transform'%20type%3D'rotate'%20repeatCount%3D'indefinite'%20values%3D'0%2050%2050%3B360%2050%2050'%20keyTimes%3D'0%3B1'%20dur%3D'5.2631578947368425s'/%3E%3Cpath%20fill-opacity%3D'.8'%20fill%3D'%238bd5ca'%20d%3D'M50%2050H0A50%2050%200%200150%200z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+}
+html[data-theme="catppuccin-macchiato-teal"] #ingame_HUD_PlacerVariants .variants .variant {
+  background-color: rgba(54, 58, 79, 0.5);
+}
+html[data-theme="catppuccin-macchiato-teal"] #ingame_HUD_PlacerVariants .variants .variant.active,
+html[data-theme="catppuccin-macchiato-teal"] #ingame_HUD_PlacerVariants .variants .variant:hover:not(.active) {
+  background-color: rgba(139, 213, 202, 0.8);
 }
 html[data-theme="catppuccin-macchiato-sky"] {
   background-color: #1e2030;
@@ -6255,6 +6325,13 @@ html[data-theme="catppuccin-macchiato-sky"] .prefab_LoadingTextWithAnim:after,
 html[data-theme="catppuccin-macchiato-sky"] .prefab_LoadingTextWithAnimDelayed:after {
   background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A//www.w3.org/2000/svg'%20style%3D'margin%3Aauto%3Bbackground%3A0%200%3Banimation-play-state%3Arunning%3Banimation-delay%3A0s'%20width%3D'200'%20height%3D'200'%20viewBox%3D'0%200%20100%20100'%20preserveAspectRatio%3D'xMidYMid'%20display%3D'block'%3E%3Cg%20style%3D'animation-play-state%3Arunning%3Banimation-delay%3A0s'%3E%3Cg%20style%3D'animation-play-state%3Arunning%3Banimation-delay%3A0s'%20transform%3D'rotate%2865.61%2037.243%2052.757%29%20scale%28.8%29'%3E%3CanimateTransform%20attributeName%3D'transform'%20type%3D'rotate'%20repeatCount%3D'indefinite'%20values%3D'0%2050%2050%3B360%2050%2050'%20keyTimes%3D'0%3B1'%20dur%3D'1.3157894736842106s'/%3E%3Cpath%20fill-opacity%3D'.8'%20fill%3D'%238aadf4'%20d%3D'M50%2050V0a50%2050%200%200150%2050z'/%3E%3C/g%3E%3Cg%20transform%3D'rotate%28-40.792%2058.447%2031.553%29%20scale%28.8%29'%3E%3CanimateTransform%20attributeName%3D'transform'%20type%3D'rotate'%20repeatCount%3D'indefinite'%20values%3D'0%2050%2050%3B360%2050%2050'%20keyTimes%3D'0%3B1'%20dur%3D'1.7543859649122806s'/%3E%3Cpath%20fill-opacity%3D'.8'%20fill%3D'%237dc4e4'%20d%3D'M50%2050h50a50%2050%200%2001-50%2050z'/%3E%3C/g%3E%3Cg%20transform%3D'rotate%28-147.195%2046.472%2043.528%29%20scale%28.8%29'%3E%3CanimateTransform%20attributeName%3D'transform'%20type%3D'rotate'%20repeatCount%3D'indefinite'%20values%3D'0%2050%2050%3B360%2050%2050'%20keyTimes%3D'0%3B1'%20dur%3D'2.6315789473684212s'/%3E%3Cpath%20fill-opacity%3D'.8'%20fill%3D'%2391d7e3'%20d%3D'M50%2050v50A50%2050%200%20010%2050z'/%3E%3C/g%3E%3Cg%20transform%3D'rotate%28106.402%2041.26%2048.74%29%20scale%28.8%29'%3E%3CanimateTransform%20attributeName%3D'transform'%20type%3D'rotate'%20repeatCount%3D'indefinite'%20values%3D'0%2050%2050%3B360%2050%2050'%20keyTimes%3D'0%3B1'%20dur%3D'5.2631578947368425s'/%3E%3Cpath%20fill-opacity%3D'.8'%20fill%3D'%238bd5ca'%20d%3D'M50%2050H0A50%2050%200%200150%200z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
 }
+html[data-theme="catppuccin-macchiato-sky"] #ingame_HUD_PlacerVariants .variants .variant {
+  background-color: rgba(54, 58, 79, 0.5);
+}
+html[data-theme="catppuccin-macchiato-sky"] #ingame_HUD_PlacerVariants .variants .variant.active,
+html[data-theme="catppuccin-macchiato-sky"] #ingame_HUD_PlacerVariants .variants .variant:hover:not(.active) {
+  background-color: rgba(145, 215, 227, 0.8);
+}
 html[data-theme="catppuccin-macchiato-sapphire"] {
   background-color: #1e2030;
 }
@@ -6815,6 +6892,13 @@ html[data-theme="catppuccin-macchiato-sapphire"] #state_InGameState .prefab_Game
 html[data-theme="catppuccin-macchiato-sapphire"] .prefab_LoadingTextWithAnim:after,
 html[data-theme="catppuccin-macchiato-sapphire"] .prefab_LoadingTextWithAnimDelayed:after {
   background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A//www.w3.org/2000/svg'%20style%3D'margin%3Aauto%3Bbackground%3A0%200%3Banimation-play-state%3Arunning%3Banimation-delay%3A0s'%20width%3D'200'%20height%3D'200'%20viewBox%3D'0%200%20100%20100'%20preserveAspectRatio%3D'xMidYMid'%20display%3D'block'%3E%3Cg%20style%3D'animation-play-state%3Arunning%3Banimation-delay%3A0s'%3E%3Cg%20style%3D'animation-play-state%3Arunning%3Banimation-delay%3A0s'%20transform%3D'rotate%2865.61%2037.243%2052.757%29%20scale%28.8%29'%3E%3CanimateTransform%20attributeName%3D'transform'%20type%3D'rotate'%20repeatCount%3D'indefinite'%20values%3D'0%2050%2050%3B360%2050%2050'%20keyTimes%3D'0%3B1'%20dur%3D'1.3157894736842106s'/%3E%3Cpath%20fill-opacity%3D'.8'%20fill%3D'%238aadf4'%20d%3D'M50%2050V0a50%2050%200%200150%2050z'/%3E%3C/g%3E%3Cg%20transform%3D'rotate%28-40.792%2058.447%2031.553%29%20scale%28.8%29'%3E%3CanimateTransform%20attributeName%3D'transform'%20type%3D'rotate'%20repeatCount%3D'indefinite'%20values%3D'0%2050%2050%3B360%2050%2050'%20keyTimes%3D'0%3B1'%20dur%3D'1.7543859649122806s'/%3E%3Cpath%20fill-opacity%3D'.8'%20fill%3D'%237dc4e4'%20d%3D'M50%2050h50a50%2050%200%2001-50%2050z'/%3E%3C/g%3E%3Cg%20transform%3D'rotate%28-147.195%2046.472%2043.528%29%20scale%28.8%29'%3E%3CanimateTransform%20attributeName%3D'transform'%20type%3D'rotate'%20repeatCount%3D'indefinite'%20values%3D'0%2050%2050%3B360%2050%2050'%20keyTimes%3D'0%3B1'%20dur%3D'2.6315789473684212s'/%3E%3Cpath%20fill-opacity%3D'.8'%20fill%3D'%2391d7e3'%20d%3D'M50%2050v50A50%2050%200%20010%2050z'/%3E%3C/g%3E%3Cg%20transform%3D'rotate%28106.402%2041.26%2048.74%29%20scale%28.8%29'%3E%3CanimateTransform%20attributeName%3D'transform'%20type%3D'rotate'%20repeatCount%3D'indefinite'%20values%3D'0%2050%2050%3B360%2050%2050'%20keyTimes%3D'0%3B1'%20dur%3D'5.2631578947368425s'/%3E%3Cpath%20fill-opacity%3D'.8'%20fill%3D'%238bd5ca'%20d%3D'M50%2050H0A50%2050%200%200150%200z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+}
+html[data-theme="catppuccin-macchiato-sapphire"] #ingame_HUD_PlacerVariants .variants .variant {
+  background-color: rgba(54, 58, 79, 0.5);
+}
+html[data-theme="catppuccin-macchiato-sapphire"] #ingame_HUD_PlacerVariants .variants .variant.active,
+html[data-theme="catppuccin-macchiato-sapphire"] #ingame_HUD_PlacerVariants .variants .variant:hover:not(.active) {
+  background-color: rgba(125, 196, 228, 0.8);
 }
 html[data-theme="catppuccin-macchiato-blue"] {
   background-color: #1e2030;
@@ -7377,6 +7461,13 @@ html[data-theme="catppuccin-macchiato-blue"] .prefab_LoadingTextWithAnim:after,
 html[data-theme="catppuccin-macchiato-blue"] .prefab_LoadingTextWithAnimDelayed:after {
   background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A//www.w3.org/2000/svg'%20style%3D'margin%3Aauto%3Bbackground%3A0%200%3Banimation-play-state%3Arunning%3Banimation-delay%3A0s'%20width%3D'200'%20height%3D'200'%20viewBox%3D'0%200%20100%20100'%20preserveAspectRatio%3D'xMidYMid'%20display%3D'block'%3E%3Cg%20style%3D'animation-play-state%3Arunning%3Banimation-delay%3A0s'%3E%3Cg%20style%3D'animation-play-state%3Arunning%3Banimation-delay%3A0s'%20transform%3D'rotate%2865.61%2037.243%2052.757%29%20scale%28.8%29'%3E%3CanimateTransform%20attributeName%3D'transform'%20type%3D'rotate'%20repeatCount%3D'indefinite'%20values%3D'0%2050%2050%3B360%2050%2050'%20keyTimes%3D'0%3B1'%20dur%3D'1.3157894736842106s'/%3E%3Cpath%20fill-opacity%3D'.8'%20fill%3D'%238aadf4'%20d%3D'M50%2050V0a50%2050%200%200150%2050z'/%3E%3C/g%3E%3Cg%20transform%3D'rotate%28-40.792%2058.447%2031.553%29%20scale%28.8%29'%3E%3CanimateTransform%20attributeName%3D'transform'%20type%3D'rotate'%20repeatCount%3D'indefinite'%20values%3D'0%2050%2050%3B360%2050%2050'%20keyTimes%3D'0%3B1'%20dur%3D'1.7543859649122806s'/%3E%3Cpath%20fill-opacity%3D'.8'%20fill%3D'%237dc4e4'%20d%3D'M50%2050h50a50%2050%200%2001-50%2050z'/%3E%3C/g%3E%3Cg%20transform%3D'rotate%28-147.195%2046.472%2043.528%29%20scale%28.8%29'%3E%3CanimateTransform%20attributeName%3D'transform'%20type%3D'rotate'%20repeatCount%3D'indefinite'%20values%3D'0%2050%2050%3B360%2050%2050'%20keyTimes%3D'0%3B1'%20dur%3D'2.6315789473684212s'/%3E%3Cpath%20fill-opacity%3D'.8'%20fill%3D'%2391d7e3'%20d%3D'M50%2050v50A50%2050%200%20010%2050z'/%3E%3C/g%3E%3Cg%20transform%3D'rotate%28106.402%2041.26%2048.74%29%20scale%28.8%29'%3E%3CanimateTransform%20attributeName%3D'transform'%20type%3D'rotate'%20repeatCount%3D'indefinite'%20values%3D'0%2050%2050%3B360%2050%2050'%20keyTimes%3D'0%3B1'%20dur%3D'5.2631578947368425s'/%3E%3Cpath%20fill-opacity%3D'.8'%20fill%3D'%238bd5ca'%20d%3D'M50%2050H0A50%2050%200%200150%200z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
 }
+html[data-theme="catppuccin-macchiato-blue"] #ingame_HUD_PlacerVariants .variants .variant {
+  background-color: rgba(54, 58, 79, 0.5);
+}
+html[data-theme="catppuccin-macchiato-blue"] #ingame_HUD_PlacerVariants .variants .variant.active,
+html[data-theme="catppuccin-macchiato-blue"] #ingame_HUD_PlacerVariants .variants .variant:hover:not(.active) {
+  background-color: rgba(138, 173, 244, 0.8);
+}
 html[data-theme="catppuccin-macchiato-lavender"] {
   background-color: #1e2030;
 }
@@ -7937,6 +8028,13 @@ html[data-theme="catppuccin-macchiato-lavender"] #state_InGameState .prefab_Game
 html[data-theme="catppuccin-macchiato-lavender"] .prefab_LoadingTextWithAnim:after,
 html[data-theme="catppuccin-macchiato-lavender"] .prefab_LoadingTextWithAnimDelayed:after {
   background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A//www.w3.org/2000/svg'%20style%3D'margin%3Aauto%3Bbackground%3A0%200%3Banimation-play-state%3Arunning%3Banimation-delay%3A0s'%20width%3D'200'%20height%3D'200'%20viewBox%3D'0%200%20100%20100'%20preserveAspectRatio%3D'xMidYMid'%20display%3D'block'%3E%3Cg%20style%3D'animation-play-state%3Arunning%3Banimation-delay%3A0s'%3E%3Cg%20style%3D'animation-play-state%3Arunning%3Banimation-delay%3A0s'%20transform%3D'rotate%2865.61%2037.243%2052.757%29%20scale%28.8%29'%3E%3CanimateTransform%20attributeName%3D'transform'%20type%3D'rotate'%20repeatCount%3D'indefinite'%20values%3D'0%2050%2050%3B360%2050%2050'%20keyTimes%3D'0%3B1'%20dur%3D'1.3157894736842106s'/%3E%3Cpath%20fill-opacity%3D'.8'%20fill%3D'%238aadf4'%20d%3D'M50%2050V0a50%2050%200%200150%2050z'/%3E%3C/g%3E%3Cg%20transform%3D'rotate%28-40.792%2058.447%2031.553%29%20scale%28.8%29'%3E%3CanimateTransform%20attributeName%3D'transform'%20type%3D'rotate'%20repeatCount%3D'indefinite'%20values%3D'0%2050%2050%3B360%2050%2050'%20keyTimes%3D'0%3B1'%20dur%3D'1.7543859649122806s'/%3E%3Cpath%20fill-opacity%3D'.8'%20fill%3D'%237dc4e4'%20d%3D'M50%2050h50a50%2050%200%2001-50%2050z'/%3E%3C/g%3E%3Cg%20transform%3D'rotate%28-147.195%2046.472%2043.528%29%20scale%28.8%29'%3E%3CanimateTransform%20attributeName%3D'transform'%20type%3D'rotate'%20repeatCount%3D'indefinite'%20values%3D'0%2050%2050%3B360%2050%2050'%20keyTimes%3D'0%3B1'%20dur%3D'2.6315789473684212s'/%3E%3Cpath%20fill-opacity%3D'.8'%20fill%3D'%2391d7e3'%20d%3D'M50%2050v50A50%2050%200%20010%2050z'/%3E%3C/g%3E%3Cg%20transform%3D'rotate%28106.402%2041.26%2048.74%29%20scale%28.8%29'%3E%3CanimateTransform%20attributeName%3D'transform'%20type%3D'rotate'%20repeatCount%3D'indefinite'%20values%3D'0%2050%2050%3B360%2050%2050'%20keyTimes%3D'0%3B1'%20dur%3D'5.2631578947368425s'/%3E%3Cpath%20fill-opacity%3D'.8'%20fill%3D'%238bd5ca'%20d%3D'M50%2050H0A50%2050%200%200150%200z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+}
+html[data-theme="catppuccin-macchiato-lavender"] #ingame_HUD_PlacerVariants .variants .variant {
+  background-color: rgba(54, 58, 79, 0.5);
+}
+html[data-theme="catppuccin-macchiato-lavender"] #ingame_HUD_PlacerVariants .variants .variant.active,
+html[data-theme="catppuccin-macchiato-lavender"] #ingame_HUD_PlacerVariants .variants .variant:hover:not(.active) {
+  background-color: rgba(183, 189, 248, 0.8);
 }
 
     `)
