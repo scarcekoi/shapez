@@ -28,7 +28,9 @@ const knownBuildings = [
   /* shapez.MetaNotificationBlockBuilding, */
   shapez.MetaWireTunnelBuilding,
   shapez.MetaComparatorBuilding,
-  shapez.MetaConstantSignalBuilding
+  shapez.MetaConstantSignalBuilding,
+  shapez.MetaReaderBuilding,
+  shapez.MetaFilterBuilding
 ];
 
 class Mod extends shapez.Mod {
@@ -8405,15 +8407,28 @@ const RESOURCES = {
       "#1a678b": "#1e66f5",
       "#b37dcd": "#ea76cb",
       "#bbdf6d": "#179299",
-      "#ed1d5d": "#d20f39",
+      "#ed1d5d": "#e32f3e",
       "#9fcd7d": "#147d82",
-      "#bfd630": "#40a02b",
-      "#aaaaaa": "#4c4f69",
-      "#cdbb7d": "#fe640b",
-      /* "#daff89": "#49b531", */
-      "#777a86": "#6c6f85",
+      "#bfd630": "#8f9724",
+      "#aaaaaa": "#acb0be",
+      "#cdbb7d": "#df8e1d",
+      /* "#daff89": "#a4ad29", */
+      "#777a86": "#9ca0b0",
       "#823cab": "#8839ef",
       "#2b84fd": "#7287fd",
+      "#25fff2": "#04a5e5",
+      "#c45c2e": "#fe640b",
+      "#ce418a": "#e660c2",
+      "#7dc6cd": "#209fb5",
+      "#61ef6f": "#40a02b",
+      "#555759": "#e6e9ef",
+      "#333": "#dce0e8",
+      "#3a52bc": "#5972fd",
+      "#bc3a61": "#db1d2d",
+      "#7dcda2": "#398c26",
+      "#cd9b7d": "#c87f1a",
+      "red": "#d20f39",
+      "#b37dcd": "#ea76cb",
     },
   },
   "catppuccin-latte-rosewater.json": {

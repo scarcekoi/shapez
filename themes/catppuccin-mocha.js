@@ -28,7 +28,9 @@ const knownBuildings = [
   /* shapez.MetaNotificationBlockBuilding, */
   shapez.MetaWireTunnelBuilding,
   shapez.MetaComparatorBuilding,
-  shapez.MetaConstantSignalBuilding
+  shapez.MetaConstantSignalBuilding,
+  shapez.MetaReaderBuilding,
+  shapez.MetaFilterBuilding
 ];
 
 class Mod extends shapez.Mod {
@@ -8405,15 +8407,28 @@ const RESOURCES = {
       "#1a678b": "#89b4fa",
       "#b37dcd": "#f5c2e7",
       "#bbdf6d": "#94e2d5",
-      "#ed1d5d": "#f38ba8",
+      "#ed1d5d": "#e78b9b",
       "#9fcd7d": "#80dccd",
-      "#bfd630": "#a6e3a1",
-      "#aaaaaa": "#cdd6f4",
-      "#cdbb7d": "#fab387",
-      /* "#daff89": "#b9e9b5", */
-      "#777a86": "#a6adc8",
+      "#bfd630": "#cfe3a8",
+      "#aaaaaa": "#585b70",
+      "#cdbb7d": "#f9e2af",
+      /* "#daff89": "#dbeabc", */
+      "#777a86": "#6c7086",
       "#823cab": "#cba6f7",
       "#2b84fd": "#b4befe",
+      "#25fff2": "#89dceb",
+      "#c45c2e": "#fab387",
+      "#ce418a": "#f1addf",
+      "#7dc6cd": "#74c7ec",
+      "#61ef6f": "#a6e3a1",
+      "#555759": "#181825",
+      "#333": "#11111b",
+      "#3a52bc": "#9aa8fe",
+      "#bc3a61": "#e27688",
+      "#7dcda2": "#94dd8d",
+      "#cd9b7d": "#f7d997",
+      "red": "#f38ba8",
+      "#b37dcd": "#f5c2e7",
     },
   },
   "catppuccin-mocha-rosewater.json": {

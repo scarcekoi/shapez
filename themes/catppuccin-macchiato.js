@@ -28,7 +28,9 @@ const knownBuildings = [
   /* shapez.MetaNotificationBlockBuilding, */
   shapez.MetaWireTunnelBuilding,
   shapez.MetaComparatorBuilding,
-  shapez.MetaConstantSignalBuilding
+  shapez.MetaConstantSignalBuilding,
+  shapez.MetaReaderBuilding,
+  shapez.MetaFilterBuilding
 ];
 
 class Mod extends shapez.Mod {
@@ -8405,15 +8407,28 @@ const RESOURCES = {
       "#1a678b": "#8aadf4",
       "#b37dcd": "#f5bde6",
       "#bbdf6d": "#8bd5ca",
-      "#ed1d5d": "#ed8796",
+      "#ed1d5d": "#ea848c",
       "#9fcd7d": "#78cec1",
-      "#bfd630": "#a6da95",
-      "#aaaaaa": "#cad3f5",
-      "#cdbb7d": "#f5a97f",
-      /* "#daff89": "#b7e1a9", */
-      "#777a86": "#a5adcb",
+      "#bfd630": "#cad79a",
+      "#aaaaaa": "#5b6078",
+      "#cdbb7d": "#eed49f",
+      /* "#daff89": "#d4dfad", */
+      "#777a86": "#6e738d",
       "#823cab": "#c6a0f6",
       "#2b84fd": "#b7bdf8",
+      "#25fff2": "#91d7e3",
+      "#c45c2e": "#f5a97f",
+      "#ce418a": "#f2a6de",
+      "#7dc6cd": "#7dc4e4",
+      "#61ef6f": "#a6da95",
+      "#555759": "#1e2030",
+      "#333": "#181926",
+      "#3a52bc": "#a0a9f6",
+      "#bc3a61": "#e76d77",
+      "#7dcda2": "#97d482",
+      "#cd9b7d": "#eaca8a",
+      "red": "#ed8796",
+      "#b37dcd": "#f5bde6",
     },
   },
   "catppuccin-macchiato-rosewater.json": {

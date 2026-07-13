@@ -28,7 +28,9 @@ const knownBuildings = [
   /* shapez.MetaNotificationBlockBuilding, */
   shapez.MetaWireTunnelBuilding,
   shapez.MetaComparatorBuilding,
-  shapez.MetaConstantSignalBuilding
+  shapez.MetaConstantSignalBuilding,
+  shapez.MetaReaderBuilding,
+  shapez.MetaFilterBuilding
 ];
 
 class Mod extends shapez.Mod {
@@ -8405,15 +8407,28 @@ const RESOURCES = {
       "#1a678b": "#8caaee",
       "#b37dcd": "#f4b8e4",
       "#bbdf6d": "#81c8be",
-      "#ed1d5d": "#e78284",
+      "#ed1d5d": "#e68487",
       "#9fcd7d": "#70c0b6",
-      "#bfd630": "#a6d189",
-      "#aaaaaa": "#c6d0f5",
-      "#cdbb7d": "#ef9f76",
-      /* "#daff89": "#b4d89c", */
-      "#777a86": "#a5adce",
+      "#bfd630": "#c5cd8d",
+      "#aaaaaa": "#626880",
+      "#cdbb7d": "#e5c890",
+      /* "#daff89": "#ced59f", */
+      "#777a86": "#737994",
       "#823cab": "#ca9ee6",
       "#2b84fd": "#babbf1",
+      "#25fff2": "#99d1db",
+      "#c45c2e": "#ef9f76",
+      "#ce418a": "#f1a1db",
+      "#7dc6cd": "#85c1dc",
+      "#61ef6f": "#a6d189",
+      "#555759": "#292c3c",
+      "#333": "#232634",
+      "#3a52bc": "#a5a6ed",
+      "#bc3a61": "#e16f73",
+      "#7dcda2": "#98ca76",
+      "#cd9b7d": "#e0bf7c",
+      "red": "#e78284",
+      "#b37dcd": "#f4b8e4",
     },
   },
   "catppuccin-frappe-rosewater.json": {
