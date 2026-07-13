@@ -15,22 +15,6 @@ const METADATA = {
   },
 };
 
-const customOverviewColors = {
-  "#eb5555": "#eba0ac",
-  "#1a678b": "#89b4fa",
-  "#b37dcd": "#f5c2e7",
-  "#bbdf6d": "#94e2d5",
-  "#ed1d5d": "#f38ba8",
-  "#9fcd7d": "#80dccd",
-  "#bfd630": "#a6e3a1",
-  "#aaaaaa": "#cdd6f4",
-  "#cdbb7d": "#fab387",
-  /* "#daff89": "#b9e9b5", */
-  "#777a86": "#a6adc8",
-  "#823cab": "#cba6f7",
-  "#2b84fd": "#b4befe",
-};
-
 const knownBuildings = [
   shapez.MetaHubBuilding,
   shapez.MetaLeverBuilding,
@@ -119,12 +103,12 @@ class Mod extends shapez.Mod {
       const vanillaColor = originalMethod();
 
       // Fall back if this color is not known or customisation is disabled
-      if (!settings.changeOverviewColors || !(vanillaColor in customOverviewColors)) {
+      if (!settings.changeOverviewColors || !(vanillaColor in RESOURCES["catppuccin-mocha.json"].overviewColors)) {
         return vanillaColor;
       }
 
       // Abuse the returned value to get the custom color
-      return customOverviewColors[vanillaColor];
+      return RESOURCES["catppuccin-mocha.json"].overviewColors[vanillaColor];
     };
 
     for (const metaclass of knownBuildings) {
@@ -8485,6 +8469,23 @@ html[data-theme="catppuccin-mocha-lavender"] #ingame_HUD_ShapeViewer .content .l
 };
 
 const RESOURCES = {
+  "catppuccin-mocha.json": {
+    "overviewColors": {
+      "#eb5555": "#eba0ac",
+      "#1a678b": "#89b4fa",
+      "#b37dcd": "#f5c2e7",
+      "#bbdf6d": "#94e2d5",
+      "#ed1d5d": "#f38ba8",
+      "#9fcd7d": "#80dccd",
+      "#bfd630": "#a6e3a1",
+      "#aaaaaa": "#cdd6f4",
+      "#cdbb7d": "#fab387",
+      /* "#daff89": "#b9e9b5", */
+      "#777a86": "#a6adc8",
+      "#823cab": "#cba6f7",
+      "#2b84fd": "#b4befe",
+    },
+  },
   "catppuccin-mocha-rosewater.json": {
     "map": {
       "background": "#1e1e2e",

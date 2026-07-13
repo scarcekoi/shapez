@@ -24,22 +24,6 @@ const METADATA = {
   },
 };
 
-const customOverviewColors = {
-  "#eb5555": "{{ maroon.hex }}",
-  "#1a678b": "{{ blue.hex }}",
-  "#b37dcd": "{{ pink.hex }}",
-  "#bbdf6d": "{{ teal.hex }}",
-  "#ed1d5d": "{{ red.hex }}",
-  "#9fcd7d": "{{ teal | sub(lightness=5) | hex }}",
-  "#bfd630": "{{ green.hex }}",
-  "#aaaaaa": "{{ text.hex }}",
-  "#cdbb7d": "{{ peach.hex }}",
-  /* "#daff89": "{{ green | add(lightness=5) | hex }}", */
-  "#777a86": "{{ subtext0.hex }}",
-  "#823cab": "{{ mauve.hex }}",
-  "#2b84fd": "{{ lavender.hex }}",
-};
-
 const knownBuildings = [
   shapez.MetaHubBuilding,
   shapez.MetaLeverBuilding,
@@ -128,12 +112,12 @@ class Mod extends shapez.Mod {
       const vanillaColor = originalMethod();
 
       // Fall back if this color is not known or customisation is disabled
-      if (!settings.changeOverviewColors || !(vanillaColor in customOverviewColors)) {
+      if (!settings.changeOverviewColors || !(vanillaColor in RESOURCES["catppuccin-{{ flavor.identifier }}.json"].overviewColors)) {
         return vanillaColor;
       }
 
       // Abuse the returned value to get the custom color
-      return customOverviewColors[vanillaColor];
+      return RESOURCES["catppuccin-{{ flavor.identifier }}.json"].overviewColors[vanillaColor];
     };
 
     for (const metaclass of knownBuildings) {
@@ -165,6 +149,23 @@ class Mod extends shapez.Mod {
 };
 
 const RESOURCES = {
+  "catppuccin-{{ flavor.identifier }}.json": {
+    "overviewColors": {
+      "#eb5555": "{{ maroon.hex }}",
+      "#1a678b": "{{ blue.hex }}",
+      "#b37dcd": "{{ pink.hex }}",
+      "#bbdf6d": "{{ teal.hex }}",
+      "#ed1d5d": "{{ red.hex }}",
+      "#9fcd7d": "{{ teal | sub(lightness=5) | hex }}",
+      "#bfd630": "{{ green.hex }}",
+      "#aaaaaa": "{{ text.hex }}",
+      "#cdbb7d": "{{ peach.hex }}",
+      /* "#daff89": "{{ green | add(lightness=5) | hex }}", */
+      "#777a86": "{{ subtext0.hex }}",
+      "#823cab": "{{ mauve.hex }}",
+      "#2b84fd": "{{ lavender.hex }}",
+    },
+  },
   {%- for _, accent in flavor.colors %}
   {%- if accent.accent %}
   "catppuccin-{{ flavor.identifier }}-{{ accent.identifier }}.json": {

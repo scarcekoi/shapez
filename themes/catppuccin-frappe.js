@@ -15,22 +15,6 @@ const METADATA = {
   },
 };
 
-const customOverviewColors = {
-  "#eb5555": "#ea999c",
-  "#1a678b": "#8caaee",
-  "#b37dcd": "#f4b8e4",
-  "#bbdf6d": "#81c8be",
-  "#ed1d5d": "#e78284",
-  "#9fcd7d": "#70c0b6",
-  "#bfd630": "#a6d189",
-  "#aaaaaa": "#c6d0f5",
-  "#cdbb7d": "#ef9f76",
-  /* "#daff89": "#b4d89c", */
-  "#777a86": "#a5adce",
-  "#823cab": "#ca9ee6",
-  "#2b84fd": "#babbf1",
-};
-
 const knownBuildings = [
   shapez.MetaHubBuilding,
   shapez.MetaLeverBuilding,
@@ -119,12 +103,12 @@ class Mod extends shapez.Mod {
       const vanillaColor = originalMethod();
 
       // Fall back if this color is not known or customisation is disabled
-      if (!settings.changeOverviewColors || !(vanillaColor in customOverviewColors)) {
+      if (!settings.changeOverviewColors || !(vanillaColor in RESOURCES["catppuccin-frappe.json"].overviewColors)) {
         return vanillaColor;
       }
 
       // Abuse the returned value to get the custom color
-      return customOverviewColors[vanillaColor];
+      return RESOURCES["catppuccin-frappe.json"].overviewColors[vanillaColor];
     };
 
     for (const metaclass of knownBuildings) {
@@ -8485,6 +8469,23 @@ html[data-theme="catppuccin-frappe-lavender"] #ingame_HUD_ShapeViewer .content .
 };
 
 const RESOURCES = {
+  "catppuccin-frappe.json": {
+    "overviewColors": {
+      "#eb5555": "#ea999c",
+      "#1a678b": "#8caaee",
+      "#b37dcd": "#f4b8e4",
+      "#bbdf6d": "#81c8be",
+      "#ed1d5d": "#e78284",
+      "#9fcd7d": "#70c0b6",
+      "#bfd630": "#a6d189",
+      "#aaaaaa": "#c6d0f5",
+      "#cdbb7d": "#ef9f76",
+      /* "#daff89": "#b4d89c", */
+      "#777a86": "#a5adce",
+      "#823cab": "#ca9ee6",
+      "#2b84fd": "#babbf1",
+    },
+  },
   "catppuccin-frappe-rosewater.json": {
     "map": {
       "background": "#303446",
