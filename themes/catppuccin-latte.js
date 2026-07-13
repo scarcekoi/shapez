@@ -48,6 +48,8 @@ class Mod extends shapez.Mod {
         const container = document.createElement("span");
         container.className = "changeOverviewColors";
 
+        mod.classList.add("changeableOverviewColors");
+
         container.innerHTML = `
           <strong>Change Overview Colors</strong>
           <div class="value checkbox">
@@ -81,10 +83,32 @@ class Mod extends shapez.Mod {
       #state_ModsState .modsList .mod {
         grid-template-columns:
           1fr
-          calc(140px * var(--ui-scale))
           calc(100px * var(--ui-scale))
           calc(100px * var(--ui-scale))
           calc(50px * var(--ui-scale));
+      }
+      #state_ModsState .modsList .mod.changeableOverviewColors {
+        grid-template-columns:
+          1fr
+          calc(150px * var(--ui-scale))
+          calc(100px * var(--ui-scale))
+          calc(100px * var(--ui-scale))
+          calc(50px * var(--ui-scale));
+      }
+      #state_ModsState .modsList .mod .changeOverviewColors {
+        text-transform: uppercase;
+        color: #6c6f85;
+        font-size: calc(10px*var(--ui-scale));
+        line-height: calc(13px*var(--ui-scale));
+        font-weight: 400;
+        font-family: GameFont,sans-serif;
+        letter-spacing: .01em;
+        display: inline-flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: fit-content;
+        align-self: center;
       }
       #state_ModsState .modsList .mod .changeOverviewColors strong {
         text-transform: uppercase;
@@ -94,6 +118,10 @@ class Mod extends shapez.Mod {
         font-weight: 400;
         font-family: GameFont,sans-serif;
         letter-spacing: .01em;
+      }
+      #state_ModsState .modsList .mod .changeOverviewColors .checkbox {
+        margin-top: 7px;
+        margin-bottom: 7px;
       }
     `);
     // Create a binding so that it can be referenced inside the function
@@ -123,169 +151,71 @@ class Mod extends shapez.Mod {
       name: "Catppuccin Latte Rosewater",
       theme: RESOURCES["catppuccin-latte-rosewater.json"],
     });
-    this.modInterface.registerCss(`
-      #state_ModsState .modsList .mod .changeOverviewColors {
-        display: flex;
-        flex-direction: column;
-        align-self: center;
-      }
-    `);
     this.modInterface.registerGameTheme({
       id: "catppuccin-latte-flamingo",
       name: "Catppuccin Latte Flamingo",
       theme: RESOURCES["catppuccin-latte-flamingo.json"],
     });
-    this.modInterface.registerCss(`
-      #state_ModsState .modsList .mod .changeOverviewColors {
-        display: flex;
-        flex-direction: column;
-        align-self: center;
-      }
-    `);
     this.modInterface.registerGameTheme({
       id: "catppuccin-latte-pink",
       name: "Catppuccin Latte Pink",
       theme: RESOURCES["catppuccin-latte-pink.json"],
     });
-    this.modInterface.registerCss(`
-      #state_ModsState .modsList .mod .changeOverviewColors {
-        display: flex;
-        flex-direction: column;
-        align-self: center;
-      }
-    `);
     this.modInterface.registerGameTheme({
       id: "catppuccin-latte-mauve",
       name: "Catppuccin Latte Mauve",
       theme: RESOURCES["catppuccin-latte-mauve.json"],
     });
-    this.modInterface.registerCss(`
-      #state_ModsState .modsList .mod .changeOverviewColors {
-        display: flex;
-        flex-direction: column;
-        align-self: center;
-      }
-    `);
     this.modInterface.registerGameTheme({
       id: "catppuccin-latte-red",
       name: "Catppuccin Latte Red",
       theme: RESOURCES["catppuccin-latte-red.json"],
     });
-    this.modInterface.registerCss(`
-      #state_ModsState .modsList .mod .changeOverviewColors {
-        display: flex;
-        flex-direction: column;
-        align-self: center;
-      }
-    `);
     this.modInterface.registerGameTheme({
       id: "catppuccin-latte-maroon",
       name: "Catppuccin Latte Maroon",
       theme: RESOURCES["catppuccin-latte-maroon.json"],
     });
-    this.modInterface.registerCss(`
-      #state_ModsState .modsList .mod .changeOverviewColors {
-        display: flex;
-        flex-direction: column;
-        align-self: center;
-      }
-    `);
     this.modInterface.registerGameTheme({
       id: "catppuccin-latte-peach",
       name: "Catppuccin Latte Peach",
       theme: RESOURCES["catppuccin-latte-peach.json"],
     });
-    this.modInterface.registerCss(`
-      #state_ModsState .modsList .mod .changeOverviewColors {
-        display: flex;
-        flex-direction: column;
-        align-self: center;
-      }
-    `);
     this.modInterface.registerGameTheme({
       id: "catppuccin-latte-yellow",
       name: "Catppuccin Latte Yellow",
       theme: RESOURCES["catppuccin-latte-yellow.json"],
     });
-    this.modInterface.registerCss(`
-      #state_ModsState .modsList .mod .changeOverviewColors {
-        display: flex;
-        flex-direction: column;
-        align-self: center;
-      }
-    `);
     this.modInterface.registerGameTheme({
       id: "catppuccin-latte-green",
       name: "Catppuccin Latte Green",
       theme: RESOURCES["catppuccin-latte-green.json"],
     });
-    this.modInterface.registerCss(`
-      #state_ModsState .modsList .mod .changeOverviewColors {
-        display: flex;
-        flex-direction: column;
-        align-self: center;
-      }
-    `);
     this.modInterface.registerGameTheme({
       id: "catppuccin-latte-teal",
       name: "Catppuccin Latte Teal",
       theme: RESOURCES["catppuccin-latte-teal.json"],
     });
-    this.modInterface.registerCss(`
-      #state_ModsState .modsList .mod .changeOverviewColors {
-        display: flex;
-        flex-direction: column;
-        align-self: center;
-      }
-    `);
     this.modInterface.registerGameTheme({
       id: "catppuccin-latte-sky",
       name: "Catppuccin Latte Sky",
       theme: RESOURCES["catppuccin-latte-sky.json"],
     });
-    this.modInterface.registerCss(`
-      #state_ModsState .modsList .mod .changeOverviewColors {
-        display: flex;
-        flex-direction: column;
-        align-self: center;
-      }
-    `);
     this.modInterface.registerGameTheme({
       id: "catppuccin-latte-sapphire",
       name: "Catppuccin Latte Sapphire",
       theme: RESOURCES["catppuccin-latte-sapphire.json"],
     });
-    this.modInterface.registerCss(`
-      #state_ModsState .modsList .mod .changeOverviewColors {
-        display: flex;
-        flex-direction: column;
-        align-self: center;
-      }
-    `);
     this.modInterface.registerGameTheme({
       id: "catppuccin-latte-blue",
       name: "Catppuccin Latte Blue",
       theme: RESOURCES["catppuccin-latte-blue.json"],
     });
-    this.modInterface.registerCss(`
-      #state_ModsState .modsList .mod .changeOverviewColors {
-        display: flex;
-        flex-direction: column;
-        align-self: center;
-      }
-    `);
     this.modInterface.registerGameTheme({
       id: "catppuccin-latte-lavender",
       name: "Catppuccin Latte Lavender",
       theme: RESOURCES["catppuccin-latte-lavender.json"],
     });
-    this.modInterface.registerCss(`
-      #state_ModsState .modsList .mod .changeOverviewColors {
-        display: flex;
-        flex-direction: column;
-        align-self: center;
-      }
-    `);
     this.modInterface.registerCss(`
 html[data-theme="catppuccin-latte-rosewater"] {
   background-color: #e6e9ef;

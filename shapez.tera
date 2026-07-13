@@ -57,6 +57,8 @@ class Mod extends shapez.Mod {
         const container = document.createElement("span");
         container.className = "changeOverviewColors";
 
+        mod.classList.add("changeableOverviewColors");
+
         container.innerHTML = `
           <strong>Change Overview Colors</strong>
           <div class="value checkbox">
@@ -90,10 +92,32 @@ class Mod extends shapez.Mod {
       #state_ModsState .modsList .mod {
         grid-template-columns:
           1fr
-          calc(140px * var(--ui-scale))
           calc(100px * var(--ui-scale))
           calc(100px * var(--ui-scale))
           calc(50px * var(--ui-scale));
+      }
+      #state_ModsState .modsList .mod.changeableOverviewColors {
+        grid-template-columns:
+          1fr
+          calc(150px * var(--ui-scale))
+          calc(100px * var(--ui-scale))
+          calc(100px * var(--ui-scale))
+          calc(50px * var(--ui-scale));
+      }
+      #state_ModsState .modsList .mod .changeOverviewColors {
+        text-transform: uppercase;
+        color: {{ subtext0.hex }};
+        font-size: calc(10px*var(--ui-scale));
+        line-height: calc(13px*var(--ui-scale));
+        font-weight: 400;
+        font-family: GameFont,sans-serif;
+        letter-spacing: .01em;
+        display: inline-flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: fit-content;
+        align-self: center;
       }
       #state_ModsState .modsList .mod .changeOverviewColors strong {
         text-transform: uppercase;
@@ -103,6 +127,10 @@ class Mod extends shapez.Mod {
         font-weight: 400;
         font-family: GameFont,sans-serif;
         letter-spacing: .01em;
+      }
+      #state_ModsState .modsList .mod .changeOverviewColors .checkbox {
+        margin-top: 7px;
+        margin-bottom: 7px;
       }
     `);
     // Create a binding so that it can be referenced inside the function
@@ -134,13 +162,6 @@ class Mod extends shapez.Mod {
       name: "Catppuccin {{ flavor.name }} {{ accent.name }}",
       theme: RESOURCES["catppuccin-{{ flavor.identifier }}-{{ accent.identifier }}.json"],
     });
-    this.modInterface.registerCss(`
-      #state_ModsState .modsList .mod .changeOverviewColors {
-        display: flex;
-        flex-direction: column;
-        align-self: center;
-      }
-    `);
     {%- endif %}{%- endfor %}
     this.modInterface.registerCss(`
 {{ read_file(path="css/" ~ flavor.identifier ~ ".css") }}

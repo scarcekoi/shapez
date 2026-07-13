@@ -48,6 +48,8 @@ class Mod extends shapez.Mod {
         const container = document.createElement("span");
         container.className = "changeOverviewColors";
 
+        mod.classList.add("changeableOverviewColors");
+
         container.innerHTML = `
           <strong>Change Overview Colors</strong>
           <div class="value checkbox">
@@ -81,10 +83,32 @@ class Mod extends shapez.Mod {
       #state_ModsState .modsList .mod {
         grid-template-columns:
           1fr
-          calc(140px * var(--ui-scale))
           calc(100px * var(--ui-scale))
           calc(100px * var(--ui-scale))
           calc(50px * var(--ui-scale));
+      }
+      #state_ModsState .modsList .mod.changeableOverviewColors {
+        grid-template-columns:
+          1fr
+          calc(150px * var(--ui-scale))
+          calc(100px * var(--ui-scale))
+          calc(100px * var(--ui-scale))
+          calc(50px * var(--ui-scale));
+      }
+      #state_ModsState .modsList .mod .changeOverviewColors {
+        text-transform: uppercase;
+        color: #a6adc8;
+        font-size: calc(10px*var(--ui-scale));
+        line-height: calc(13px*var(--ui-scale));
+        font-weight: 400;
+        font-family: GameFont,sans-serif;
+        letter-spacing: .01em;
+        display: inline-flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: fit-content;
+        align-self: center;
       }
       #state_ModsState .modsList .mod .changeOverviewColors strong {
         text-transform: uppercase;
@@ -94,6 +118,10 @@ class Mod extends shapez.Mod {
         font-weight: 400;
         font-family: GameFont,sans-serif;
         letter-spacing: .01em;
+      }
+      #state_ModsState .modsList .mod .changeOverviewColors .checkbox {
+        margin-top: 7px;
+        margin-bottom: 7px;
       }
     `);
     // Create a binding so that it can be referenced inside the function
@@ -123,169 +151,71 @@ class Mod extends shapez.Mod {
       name: "Catppuccin Mocha Rosewater",
       theme: RESOURCES["catppuccin-mocha-rosewater.json"],
     });
-    this.modInterface.registerCss(`
-      #state_ModsState .modsList .mod .changeOverviewColors {
-        display: flex;
-        flex-direction: column;
-        align-self: center;
-      }
-    `);
     this.modInterface.registerGameTheme({
       id: "catppuccin-mocha-flamingo",
       name: "Catppuccin Mocha Flamingo",
       theme: RESOURCES["catppuccin-mocha-flamingo.json"],
     });
-    this.modInterface.registerCss(`
-      #state_ModsState .modsList .mod .changeOverviewColors {
-        display: flex;
-        flex-direction: column;
-        align-self: center;
-      }
-    `);
     this.modInterface.registerGameTheme({
       id: "catppuccin-mocha-pink",
       name: "Catppuccin Mocha Pink",
       theme: RESOURCES["catppuccin-mocha-pink.json"],
     });
-    this.modInterface.registerCss(`
-      #state_ModsState .modsList .mod .changeOverviewColors {
-        display: flex;
-        flex-direction: column;
-        align-self: center;
-      }
-    `);
     this.modInterface.registerGameTheme({
       id: "catppuccin-mocha-mauve",
       name: "Catppuccin Mocha Mauve",
       theme: RESOURCES["catppuccin-mocha-mauve.json"],
     });
-    this.modInterface.registerCss(`
-      #state_ModsState .modsList .mod .changeOverviewColors {
-        display: flex;
-        flex-direction: column;
-        align-self: center;
-      }
-    `);
     this.modInterface.registerGameTheme({
       id: "catppuccin-mocha-red",
       name: "Catppuccin Mocha Red",
       theme: RESOURCES["catppuccin-mocha-red.json"],
     });
-    this.modInterface.registerCss(`
-      #state_ModsState .modsList .mod .changeOverviewColors {
-        display: flex;
-        flex-direction: column;
-        align-self: center;
-      }
-    `);
     this.modInterface.registerGameTheme({
       id: "catppuccin-mocha-maroon",
       name: "Catppuccin Mocha Maroon",
       theme: RESOURCES["catppuccin-mocha-maroon.json"],
     });
-    this.modInterface.registerCss(`
-      #state_ModsState .modsList .mod .changeOverviewColors {
-        display: flex;
-        flex-direction: column;
-        align-self: center;
-      }
-    `);
     this.modInterface.registerGameTheme({
       id: "catppuccin-mocha-peach",
       name: "Catppuccin Mocha Peach",
       theme: RESOURCES["catppuccin-mocha-peach.json"],
     });
-    this.modInterface.registerCss(`
-      #state_ModsState .modsList .mod .changeOverviewColors {
-        display: flex;
-        flex-direction: column;
-        align-self: center;
-      }
-    `);
     this.modInterface.registerGameTheme({
       id: "catppuccin-mocha-yellow",
       name: "Catppuccin Mocha Yellow",
       theme: RESOURCES["catppuccin-mocha-yellow.json"],
     });
-    this.modInterface.registerCss(`
-      #state_ModsState .modsList .mod .changeOverviewColors {
-        display: flex;
-        flex-direction: column;
-        align-self: center;
-      }
-    `);
     this.modInterface.registerGameTheme({
       id: "catppuccin-mocha-green",
       name: "Catppuccin Mocha Green",
       theme: RESOURCES["catppuccin-mocha-green.json"],
     });
-    this.modInterface.registerCss(`
-      #state_ModsState .modsList .mod .changeOverviewColors {
-        display: flex;
-        flex-direction: column;
-        align-self: center;
-      }
-    `);
     this.modInterface.registerGameTheme({
       id: "catppuccin-mocha-teal",
       name: "Catppuccin Mocha Teal",
       theme: RESOURCES["catppuccin-mocha-teal.json"],
     });
-    this.modInterface.registerCss(`
-      #state_ModsState .modsList .mod .changeOverviewColors {
-        display: flex;
-        flex-direction: column;
-        align-self: center;
-      }
-    `);
     this.modInterface.registerGameTheme({
       id: "catppuccin-mocha-sky",
       name: "Catppuccin Mocha Sky",
       theme: RESOURCES["catppuccin-mocha-sky.json"],
     });
-    this.modInterface.registerCss(`
-      #state_ModsState .modsList .mod .changeOverviewColors {
-        display: flex;
-        flex-direction: column;
-        align-self: center;
-      }
-    `);
     this.modInterface.registerGameTheme({
       id: "catppuccin-mocha-sapphire",
       name: "Catppuccin Mocha Sapphire",
       theme: RESOURCES["catppuccin-mocha-sapphire.json"],
     });
-    this.modInterface.registerCss(`
-      #state_ModsState .modsList .mod .changeOverviewColors {
-        display: flex;
-        flex-direction: column;
-        align-self: center;
-      }
-    `);
     this.modInterface.registerGameTheme({
       id: "catppuccin-mocha-blue",
       name: "Catppuccin Mocha Blue",
       theme: RESOURCES["catppuccin-mocha-blue.json"],
     });
-    this.modInterface.registerCss(`
-      #state_ModsState .modsList .mod .changeOverviewColors {
-        display: flex;
-        flex-direction: column;
-        align-self: center;
-      }
-    `);
     this.modInterface.registerGameTheme({
       id: "catppuccin-mocha-lavender",
       name: "Catppuccin Mocha Lavender",
       theme: RESOURCES["catppuccin-mocha-lavender.json"],
     });
-    this.modInterface.registerCss(`
-      #state_ModsState .modsList .mod .changeOverviewColors {
-        display: flex;
-        flex-direction: column;
-        align-self: center;
-      }
-    `);
     this.modInterface.registerCss(`
 html[data-theme="catppuccin-mocha-rosewater"] {
   background-color: #181825;
