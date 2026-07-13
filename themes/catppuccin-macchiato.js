@@ -8,81 +8,300 @@ const METADATA = {
   description: "Soothing pastel theme for the high-spirited!",
   minimumGameVersion: ">=1.5.0",
   doesNotAffectSavegame: true,
+
+
+  settings: {
+    changeOverviewColors: false,
+  },
 };
+
+const customOverviewColors = {
+  "#eb5555": "#ee99a0",
+  "#1a678b": "#8aadf4",
+  "#b37dcd": "#f5bde6",
+  "#bbdf6d": "#8bd5ca",
+  "#ed1d5d": "#ed8796",
+  "#9fcd7d": "#78cec1",
+  "#bfd630": "#a6da95",
+  "#aaaaaa": "#cad3f5",
+  "#cdbb7d": "#f5a97f",
+  /* "#daff89": "#b7e1a9", */
+  "#777a86": "#a5adcb",
+  "#823cab": "#c6a0f6",
+  "#2b84fd": "#b7bdf8",
+};
+
+const knownBuildings = [
+  shapez.MetaHubBuilding,
+  shapez.MetaLeverBuilding,
+  shapez.MetaMinerBuilding,
+  shapez.MetaStorageBuilding,
+  shapez.MetaTrashBuilding,
+  shapez.MetaStackerBuilding,
+  shapez.MetaConstantProducerBuilding,
+  shapez.MetaDisplayBuilding,
+  shapez.MetaMixerBuilding,
+  /* shapez.MetaNotificationBlockBuilding, */
+  shapez.MetaWireTunnelBuilding,
+  shapez.MetaComparatorBuilding,
+  shapez.MetaConstantSignalBuilding
+];
 
 class Mod extends shapez.Mod {
   init() {
-    console.log("Initializing Catppuccin Theme");
+    console.log("Initializing Catppuccin Macchiato Theme");
+    this.signals.stateEntered.add(state => {
+      if (state.key !== "ModsState") return;
+
+      const mods = document.querySelectorAll("#state_ModsState .modsList .mod");
+
+      for (const mod of mods) {
+        const name = mod.querySelector(".name");
+        if (!name || name.textContent !== "Catppuccin Macchiato") {
+          continue;
+        };
+
+        const container = document.createElement("span");
+        container.className = "changeOverviewColors";
+
+        container.innerHTML = `
+          <strong>Change Overview Colors</strong>
+          <div class="value checkbox">
+            <span class="knob"></span>
+          </div>
+        `;
+
+        const version = mod.querySelector(".version");
+        mod.insertBefore(container, version);
+
+        const checkbox = container.querySelector(".checkbox");
+
+        if (this.settings.changeOverviewColors) {
+          checkbox.classList.add("checked");
+        };
+
+        checkbox.addEventListener("click", () => {
+          this.settings.changeOverviewColors =
+            !this.settings.changeOverviewColors;
+
+          checkbox.classList.toggle(
+            "checked",
+            this.settings.changeOverviewColors
+          );
+
+          this.saveSettings();
+        });
+      };
+    });
+    this.modInterface.registerCss(`
+      #state_ModsState .modsList .mod {
+        grid-template-columns:
+          1fr
+          calc(140px * var(--ui-scale))
+          calc(100px * var(--ui-scale))
+          calc(100px * var(--ui-scale))
+          calc(50px * var(--ui-scale));
+      }
+      #state_ModsState .modsList .mod .changeOverviewColors strong {
+        text-transform: uppercase;
+        color: #a5adcb;
+        font-size: calc(10px*var(--ui-scale));
+        line-height: calc(13px*var(--ui-scale));
+        font-weight: 400;
+        font-family: GameFont,sans-serif;
+        letter-spacing: .01em;
+      }
+    `);
+    // Create a binding so that it can be referenced inside the function
+    const settings = this.settings;
+
+    function getSilhouetteColor(originalMethod) {
+      const vanillaColor = originalMethod();
+
+      // Fall back if this color is not known or customisation is disabled
+      if (!settings.changeOverviewColors || !(vanillaColor in customOverviewColors)) {
+        return vanillaColor;
+      }
+
+      // Abuse the returned value to get the custom color
+      return customOverviewColors[vanillaColor];
+    };
+
+    for (const metaclass of knownBuildings) {
+      this.modInterface.replaceMethod(
+        metaclass,
+        "getSilhouetteColor",
+        getSilhouetteColor
+      );
+    };
     this.modInterface.registerGameTheme({
       id: "catppuccin-macchiato-rosewater",
       name: "Catppuccin Macchiato Rosewater",
       theme: RESOURCES["catppuccin-macchiato-rosewater.json"],
-    })
+    });
+    this.modInterface.registerCss(`
+      #state_ModsState .modsList .mod .changeOverviewColors {
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+      }
+    `);
     this.modInterface.registerGameTheme({
       id: "catppuccin-macchiato-flamingo",
       name: "Catppuccin Macchiato Flamingo",
       theme: RESOURCES["catppuccin-macchiato-flamingo.json"],
-    })
+    });
+    this.modInterface.registerCss(`
+      #state_ModsState .modsList .mod .changeOverviewColors {
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+      }
+    `);
     this.modInterface.registerGameTheme({
       id: "catppuccin-macchiato-pink",
       name: "Catppuccin Macchiato Pink",
       theme: RESOURCES["catppuccin-macchiato-pink.json"],
-    })
+    });
+    this.modInterface.registerCss(`
+      #state_ModsState .modsList .mod .changeOverviewColors {
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+      }
+    `);
     this.modInterface.registerGameTheme({
       id: "catppuccin-macchiato-mauve",
       name: "Catppuccin Macchiato Mauve",
       theme: RESOURCES["catppuccin-macchiato-mauve.json"],
-    })
+    });
+    this.modInterface.registerCss(`
+      #state_ModsState .modsList .mod .changeOverviewColors {
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+      }
+    `);
     this.modInterface.registerGameTheme({
       id: "catppuccin-macchiato-red",
       name: "Catppuccin Macchiato Red",
       theme: RESOURCES["catppuccin-macchiato-red.json"],
-    })
+    });
+    this.modInterface.registerCss(`
+      #state_ModsState .modsList .mod .changeOverviewColors {
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+      }
+    `);
     this.modInterface.registerGameTheme({
       id: "catppuccin-macchiato-maroon",
       name: "Catppuccin Macchiato Maroon",
       theme: RESOURCES["catppuccin-macchiato-maroon.json"],
-    })
+    });
+    this.modInterface.registerCss(`
+      #state_ModsState .modsList .mod .changeOverviewColors {
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+      }
+    `);
     this.modInterface.registerGameTheme({
       id: "catppuccin-macchiato-peach",
       name: "Catppuccin Macchiato Peach",
       theme: RESOURCES["catppuccin-macchiato-peach.json"],
-    })
+    });
+    this.modInterface.registerCss(`
+      #state_ModsState .modsList .mod .changeOverviewColors {
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+      }
+    `);
     this.modInterface.registerGameTheme({
       id: "catppuccin-macchiato-yellow",
       name: "Catppuccin Macchiato Yellow",
       theme: RESOURCES["catppuccin-macchiato-yellow.json"],
-    })
+    });
+    this.modInterface.registerCss(`
+      #state_ModsState .modsList .mod .changeOverviewColors {
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+      }
+    `);
     this.modInterface.registerGameTheme({
       id: "catppuccin-macchiato-green",
       name: "Catppuccin Macchiato Green",
       theme: RESOURCES["catppuccin-macchiato-green.json"],
-    })
+    });
+    this.modInterface.registerCss(`
+      #state_ModsState .modsList .mod .changeOverviewColors {
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+      }
+    `);
     this.modInterface.registerGameTheme({
       id: "catppuccin-macchiato-teal",
       name: "Catppuccin Macchiato Teal",
       theme: RESOURCES["catppuccin-macchiato-teal.json"],
-    })
+    });
+    this.modInterface.registerCss(`
+      #state_ModsState .modsList .mod .changeOverviewColors {
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+      }
+    `);
     this.modInterface.registerGameTheme({
       id: "catppuccin-macchiato-sky",
       name: "Catppuccin Macchiato Sky",
       theme: RESOURCES["catppuccin-macchiato-sky.json"],
-    })
+    });
+    this.modInterface.registerCss(`
+      #state_ModsState .modsList .mod .changeOverviewColors {
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+      }
+    `);
     this.modInterface.registerGameTheme({
       id: "catppuccin-macchiato-sapphire",
       name: "Catppuccin Macchiato Sapphire",
       theme: RESOURCES["catppuccin-macchiato-sapphire.json"],
-    })
+    });
+    this.modInterface.registerCss(`
+      #state_ModsState .modsList .mod .changeOverviewColors {
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+      }
+    `);
     this.modInterface.registerGameTheme({
       id: "catppuccin-macchiato-blue",
       name: "Catppuccin Macchiato Blue",
       theme: RESOURCES["catppuccin-macchiato-blue.json"],
-    })
+    });
+    this.modInterface.registerCss(`
+      #state_ModsState .modsList .mod .changeOverviewColors {
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+      }
+    `);
     this.modInterface.registerGameTheme({
       id: "catppuccin-macchiato-lavender",
       name: "Catppuccin Macchiato Lavender",
       theme: RESOURCES["catppuccin-macchiato-lavender.json"],
-    })
+    });
+    this.modInterface.registerCss(`
+      #state_ModsState .modsList .mod .changeOverviewColors {
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+      }
+    `);
     this.modInterface.registerCss(`
 html[data-theme="catppuccin-macchiato-rosewater"] {
   background-color: #1e2030;
@@ -8261,7 +8480,7 @@ html[data-theme="catppuccin-macchiato-lavender"] #ingame_HUD_ShapeViewer .conten
   background-color: rgba(54, 58, 79, 0.5);
 }
 
-    `)
+    `);
   }
 };
 

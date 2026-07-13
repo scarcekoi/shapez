@@ -17,22 +17,150 @@ const METADATA = {
   description: "Soothing pastel theme for the high-spirited!",
   minimumGameVersion: ">=1.5.0",
   doesNotAffectSavegame: true,
+
+
+  settings: {
+    changeOverviewColors: false,
+  },
 };
+
+const customOverviewColors = {
+  "#eb5555": "{{ maroon.hex }}",
+  "#1a678b": "{{ blue.hex }}",
+  "#b37dcd": "{{ pink.hex }}",
+  "#bbdf6d": "{{ teal.hex }}",
+  "#ed1d5d": "{{ red.hex }}",
+  "#9fcd7d": "{{ teal | sub(lightness=5) | hex }}",
+  "#bfd630": "{{ green.hex }}",
+  "#aaaaaa": "{{ text.hex }}",
+  "#cdbb7d": "{{ peach.hex }}",
+  /* "#daff89": "{{ green | add(lightness=5) | hex }}", */
+  "#777a86": "{{ subtext0.hex }}",
+  "#823cab": "{{ mauve.hex }}",
+  "#2b84fd": "{{ lavender.hex }}",
+};
+
+const knownBuildings = [
+  shapez.MetaHubBuilding,
+  shapez.MetaLeverBuilding,
+  shapez.MetaMinerBuilding,
+  shapez.MetaStorageBuilding,
+  shapez.MetaTrashBuilding,
+  shapez.MetaStackerBuilding,
+  shapez.MetaConstantProducerBuilding,
+  shapez.MetaDisplayBuilding,
+  shapez.MetaMixerBuilding,
+  /* shapez.MetaNotificationBlockBuilding, */
+  shapez.MetaWireTunnelBuilding,
+  shapez.MetaComparatorBuilding,
+  shapez.MetaConstantSignalBuilding
+];
 
 class Mod extends shapez.Mod {
   init() {
-    console.log("Initializing Catppuccin Theme");
+    console.log("Initializing Catppuccin {{ flavor.name }} Theme");
+    this.signals.stateEntered.add(state => {
+      if (state.key !== "ModsState") return;
+
+      const mods = document.querySelectorAll("#state_ModsState .modsList .mod");
+
+      for (const mod of mods) {
+        const name = mod.querySelector(".name");
+        if (!name || name.textContent !== "Catppuccin {{ flavor.name }}") {
+          continue;
+        };
+
+        const container = document.createElement("span");
+        container.className = "changeOverviewColors";
+
+        container.innerHTML = `
+          <strong>Change Overview Colors</strong>
+          <div class="value checkbox">
+            <span class="knob"></span>
+          </div>
+        `;
+
+        const version = mod.querySelector(".version");
+        mod.insertBefore(container, version);
+
+        const checkbox = container.querySelector(".checkbox");
+
+        if (this.settings.changeOverviewColors) {
+          checkbox.classList.add("checked");
+        };
+
+        checkbox.addEventListener("click", () => {
+          this.settings.changeOverviewColors =
+            !this.settings.changeOverviewColors;
+
+          checkbox.classList.toggle(
+            "checked",
+            this.settings.changeOverviewColors
+          );
+
+          this.saveSettings();
+        });
+      };
+    });
+    this.modInterface.registerCss(`
+      #state_ModsState .modsList .mod {
+        grid-template-columns:
+          1fr
+          calc(140px * var(--ui-scale))
+          calc(100px * var(--ui-scale))
+          calc(100px * var(--ui-scale))
+          calc(50px * var(--ui-scale));
+      }
+      #state_ModsState .modsList .mod .changeOverviewColors strong {
+        text-transform: uppercase;
+        color: {{ subtext0.hex }};
+        font-size: calc(10px*var(--ui-scale));
+        line-height: calc(13px*var(--ui-scale));
+        font-weight: 400;
+        font-family: GameFont,sans-serif;
+        letter-spacing: .01em;
+      }
+    `);
+    // Create a binding so that it can be referenced inside the function
+    const settings = this.settings;
+
+    function getSilhouetteColor(originalMethod) {
+      const vanillaColor = originalMethod();
+
+      // Fall back if this color is not known or customisation is disabled
+      if (!settings.changeOverviewColors || !(vanillaColor in customOverviewColors)) {
+        return vanillaColor;
+      }
+
+      // Abuse the returned value to get the custom color
+      return customOverviewColors[vanillaColor];
+    };
+
+    for (const metaclass of knownBuildings) {
+      this.modInterface.replaceMethod(
+        metaclass,
+        "getSilhouetteColor",
+        getSilhouetteColor
+      );
+    };
     {%- for _, accent in flavor.colors %}
     {%- if accent.accent %}
     this.modInterface.registerGameTheme({
       id: "catppuccin-{{ flavor.identifier }}-{{ accent.identifier }}",
       name: "Catppuccin {{ flavor.name }} {{ accent.name }}",
       theme: RESOURCES["catppuccin-{{ flavor.identifier }}-{{ accent.identifier }}.json"],
-    })
+    });
+    this.modInterface.registerCss(`
+      #state_ModsState .modsList .mod .changeOverviewColors {
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+      }
+    `);
     {%- endif %}{%- endfor %}
     this.modInterface.registerCss(`
 {{ read_file(path="css/" ~ flavor.identifier ~ ".css") }}
-    `)
+    `);
   }
 };
 
