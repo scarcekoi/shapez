@@ -39,7 +39,7 @@
 1. Download the `catppuccin-<flavor>.js` file for the flavor of your choice from [themes](themes).
 2. Move the downloaded file to the mod folder (**Settings** > **Mods** > **Open Mods Folder**)
 3. Open shapez and go to **Settings** > **User Interface** > **Game Theme**.
-4. Select your desired flavor from the dropdown.
+4. Select your desired flavor and accent combination from the dropdown.
 5. Enjoy!
 
 ## 💝 Thanks to
