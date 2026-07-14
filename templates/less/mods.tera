@@ -1,0 +1,21 @@
+---
+whiskers:
+  version: "^2.9.0"
+  matrix:
+    - flavor
+    - accent
+  filename: "less/mods/{{ flavor.identifier }}.less"
+  hex_format: "#{{r}}{{g}}{{b}}{{z}}"
+---
+@import "https://userstyles.catppuccin.com/lib/lib.less";
+
+@flavor: {{ flavor.identifier }};
+
+{%- for _, accent in flavor.colors %}
+{% if accent.accent %}
+html[data-theme="catppuccin-{{ flavor.identifier }}-{{ accent.identifier }}"] {
+  #lib.palette();
+
+  @accentColor: {{ accent.identifier }};
+}
+{%- endif %}{%- endfor %}

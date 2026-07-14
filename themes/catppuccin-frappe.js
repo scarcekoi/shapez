@@ -14,6 +14,8 @@ const METADATA = {
   },
 };
 
+const supportedMods = []
+
 const knownBuildings = [
   shapez.MetaHubBuilding,
   shapez.MetaLeverBuilding,
@@ -252,6 +254,8 @@ class Mod extends shapez.Mod {
       theme: RESOURCES["catppuccin-frappe-lavender.json"],
     });
     this.modInterface.registerCss(`
+/* deno-fmt-ignore */
+/* deno-fmt-ignore */
 html[data-theme="catppuccin-frappe-rosewater"] {
   background-color: #292c3c;
 }
@@ -8526,6 +8530,9 @@ html[data-theme="catppuccin-frappe-lavender"] #ingame_HUD_InteractiveTutorial .t
 html[data-theme="catppuccin-frappe-lavender"] #ingame_HUD_InteractiveTutorial .desc strong {
   color: #babbf1;
 }
+
+    `);
+    this.modInterface.registerCss(`
 
     `);
   }

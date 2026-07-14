@@ -19,14 +19,21 @@ jobs:
 
       - name: Check JS
         run: |
-          whiskers --check themes/catppuccin-latte.js templates/shapez.js.tera
-          whiskers --check themes/catppuccin-frappe.js templates/shapez.js.tera
-          whiskers --check themes/catppuccin-macchiato.js templates/shapez.js.tera
-          whiskers --check themes/catppuccin-mocha.js templates/shapez.js.tera
+          whiskers --check themes/catppuccin-latte.js templates/js/shapez.tera
+          whiskers --check themes/catppuccin-frappe.js templates/js/shapez.tera
+          whiskers --check themes/catppuccin-macchiato.js templates/js/shapez.tera
+          whiskers --check themes/catppuccin-mocha.js templates/js/shapez.tera
 
       - name: Check LESS
         run: |
-          whiskers --check less/latte.less templates/shapez.less.tera
-          whiskers --check less/frappe.less templates/shapez.less.tera
-          whiskers --check less/macchiato.less templates/shapez.less.tera
-          whiskers --check less/mocha.less templates/shapez.less.tera
+          whiskers --check less/latte.less templates/less/shapez.tera
+          whiskers --check less/frappe.less templates/less/shapez.tera
+          whiskers --check less/macchiato.less templates/less/shapez.tera
+          whiskers --check less/mocha.less templates/less/shapez.tera
+
+      - name: Check Mods LESS
+        run: |
+          whiskers --check less/mods/latte.less templates/less/mods.tera
+          whiskers --check less/mods/frappe.less templates/less/mods.tera
+          whiskers --check less/mods/macchiato.less templates/less/mods.tera
+          whiskers --check less/mods/mocha.less templates/less/mods.tera

@@ -11,7 +11,7 @@ whiskers:
 
 @flavor: {{ flavor.identifier }};
 
-{% for _, accent in flavor.colors -%}
+{%- for _, accent in flavor.colors %}
 {% if accent.accent %}
 html[data-theme="catppuccin-{{ flavor.identifier }}-{{ accent.identifier }}"] {
   #lib.palette();
@@ -39,7 +39,7 @@ html[data-theme="catppuccin-{{ flavor.identifier }}-{{ accent.identifier }}"] {
     animation: CTP_LL_LoadingAnimation 4s ease-in-out infinite;
   }
   #ll_preload_status,
-  #ll_standalone  {
+  #ll_standalone {
     color: @subtext0;
   }
   #ll_standalone a {

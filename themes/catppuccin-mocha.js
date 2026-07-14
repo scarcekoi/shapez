@@ -14,6 +14,8 @@ const METADATA = {
   },
 };
 
+const supportedMods = []
+
 const knownBuildings = [
   shapez.MetaHubBuilding,
   shapez.MetaLeverBuilding,
@@ -252,6 +254,8 @@ class Mod extends shapez.Mod {
       theme: RESOURCES["catppuccin-mocha-lavender.json"],
     });
     this.modInterface.registerCss(`
+/* deno-fmt-ignore */
+/* deno-fmt-ignore */
 html[data-theme="catppuccin-mocha-rosewater"] {
   background-color: #181825;
 }
@@ -8526,6 +8530,9 @@ html[data-theme="catppuccin-mocha-lavender"] #ingame_HUD_InteractiveTutorial .ti
 html[data-theme="catppuccin-mocha-lavender"] #ingame_HUD_InteractiveTutorial .desc strong {
   color: #b4befe;
 }
+
+    `);
+    this.modInterface.registerCss(`
 
     `);
   }
