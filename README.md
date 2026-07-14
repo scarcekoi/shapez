@@ -36,6 +36,9 @@
 
 ## Usage
 
+> [!NOTE]
+> It is recommended to disable the vignette (**Settings** > **User Interface** > **Vignette**), as it is currently unthemed.
+
 1. Download the `catppuccin-<flavor>.js` file for the flavor of your choice from [themes](themes).
 2. Move the downloaded file to the mod folder (**Settings** > **Mods** > **Open Mods Folder**)
 3. Open shapez and go to **Settings** > **User Interface** > **Game Theme**.
