@@ -45,6 +45,7 @@
 ## 💝 Thanks to
 
 - [Scarce Koi](https://github.com/scarcekoi)
+- [dengr1065](https://github.com/dengr1065)
 
 &nbsp;
 
