@@ -39,7 +39,18 @@ const knownBuildings = [
   shapez.MetaComparatorBuilding,
   shapez.MetaConstantSignalBuilding,
   shapez.MetaReaderBuilding,
-  shapez.MetaFilterBuilding
+  shapez.MetaFilterBuilding,
+  shapez.MetaGoalAcceptorBuilding,
+  shapez.MetaRotaterBuilding,
+  shapez.MetaWireBuilding,
+  shapez.MetaBalancerBuilding,
+  shapez.MetaBlockBuilding,
+  shapez.MetaAnalyzerBuilding,
+  shapez.MetaTransistorBuilding,
+  shapez.MetaCutterBuilding,
+  shapez.MetaPainterBuilding,
+  shapez.MetaUndergroundBeltBuilding,
+  shapez.MetaItemProducerBuilding,
 ];
 
 class Mod extends shapez.Mod {
@@ -150,12 +161,35 @@ class Mod extends shapez.Mod {
       return RESOURCES["catppuccin-{{ flavor.identifier }}.json"].overviewColors[vanillaColor];
     };
 
+    function getUndergroundSilhouetteColor(originalMethod, args) {
+      const [variant, rotationVariant] = args;
+
+      const vanillaColor = originalMethod(variant, rotationVariant);
+
+      if (
+        !settings.changeOverviewColors ||
+        !(vanillaColor in RESOURCES["catppuccin-{{ flavor.identifier }}.json"].overviewColors)
+      ) {
+        return vanillaColor;
+      }
+
+      return RESOURCES["catppuccin-{{ flavor.identifier }}.json"].overviewColors[vanillaColor];
+    }
+
     for (const metaclass of knownBuildings) {
-      this.modInterface.replaceMethod(
-        metaclass,
-        "getSilhouetteColor",
-        getSilhouetteColor
-      );
+      if (metaclass === shapez.MetaUndergroundBeltBuilding) {
+        this.modInterface.replaceMethod(
+          metaclass,
+          "getSilhouetteColor",
+          getUndergroundSilhouetteColor
+        );
+      } else {
+        this.modInterface.replaceMethod(
+          metaclass,
+          "getSilhouetteColor",
+          getSilhouetteColor
+        );
+      }
     };
     {%- for _, accent in flavor.colors %}
     {%- if accent.accent %}
@@ -175,30 +209,31 @@ const RESOURCES = {
   "catppuccin-{{ flavor.identifier }}.json": {
     "overviewColors": {
       "#eb5555": "{{ maroon.hex }}",
-      "#1a678b": "{{ blue.hex }}",
+      "#1a678b": "{{ blue | sub(lightness=5) | hex }}",
       "#b37dcd": "{{ pink.hex }}",
       "#bbdf6d": "{{ teal.hex }}",
       "#ed1d5d": "{{ maroon | sub(lightness=5) | hex }}",
       "#9fcd7d": "{{ teal | sub(lightness=5) | hex }}",
       "#bfd630": "{{ green | mix(color=yellow, amount=0.5) | hex }}",
-      "#aaaaaa": "{{ surface2.hex }}",
+      "#aaaaaa": "{{ subtext1.hex }}",
       "#cdbb7d": "{{ yellow.hex }}",
       /* "#daff89": "{{ green | mix(color=yellow, amount=0.5) | add(lightness=5) | hex }}", */
-      "#777a86": "{{ overlay0.hex }}",
+      "#777a86": "{{ subtext0.hex }}",
       "#823cab": "{{ mauve.hex }}",
       "#2b84fd": "{{ lavender.hex }}",
       "#25fff2": "{{ sky.hex }}",
       "#c45c2e": "{{ peach.hex }}",
       "#ce418a": "{{ pink | sub(lightness=5) | hex }}",
       "#7dc6cd": "{{ sapphire.hex }}",
-      "#61ef6f": "{{ green.hex }}",
-      "#555759": "{{ mantle.hex }}",
-      "#333": "{{ crust.hex }}",
+      "#61ef6f": "{{ green | sub(lightness=5) | hex }}",
+      "#555759": "{{ base | mix(color=mantle, amount=0.5) | hex }}",
+      "#333": "{{ mantle.hex }}",
       "#3a52bc": "{{ lavender | sub(lightness=5) | hex }}",
       "#bc3a61": "{{ maroon | sub(lightness=10) | hex }}",
-      "#7dcda2": "{{ green | sub(lightness=5) | hex }}",
+      "#7dcda2": "{{ green | sub(lightness=10) | hex }}",
       "#cd9b7d": "{{ yellow | sub(lightness=5) | hex }}",
-      "red": "{{ red.hex }}",
+      "#6d9dff": "{{ blue.hex }}",
+      "#71ff9c": "{{ green.hex }}",
       "#b37dcd": "{{ pink.hex }}",
     },
   },

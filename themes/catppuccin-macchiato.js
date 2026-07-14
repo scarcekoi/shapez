@@ -30,7 +30,18 @@ const knownBuildings = [
   shapez.MetaComparatorBuilding,
   shapez.MetaConstantSignalBuilding,
   shapez.MetaReaderBuilding,
-  shapez.MetaFilterBuilding
+  shapez.MetaFilterBuilding,
+  shapez.MetaGoalAcceptorBuilding,
+  shapez.MetaRotaterBuilding,
+  shapez.MetaWireBuilding,
+  shapez.MetaBalancerBuilding,
+  shapez.MetaBlockBuilding,
+  shapez.MetaAnalyzerBuilding,
+  shapez.MetaTransistorBuilding,
+  shapez.MetaCutterBuilding,
+  shapez.MetaPainterBuilding,
+  shapez.MetaUndergroundBeltBuilding,
+  shapez.MetaItemProducerBuilding,
 ];
 
 class Mod extends shapez.Mod {
@@ -141,12 +152,35 @@ class Mod extends shapez.Mod {
       return RESOURCES["catppuccin-macchiato.json"].overviewColors[vanillaColor];
     };
 
+    function getUndergroundSilhouetteColor(originalMethod, args) {
+      const [variant, rotationVariant] = args;
+
+      const vanillaColor = originalMethod(variant, rotationVariant);
+
+      if (
+        !settings.changeOverviewColors ||
+        !(vanillaColor in RESOURCES["catppuccin-macchiato.json"].overviewColors)
+      ) {
+        return vanillaColor;
+      }
+
+      return RESOURCES["catppuccin-macchiato.json"].overviewColors[vanillaColor];
+    }
+
     for (const metaclass of knownBuildings) {
-      this.modInterface.replaceMethod(
-        metaclass,
-        "getSilhouetteColor",
-        getSilhouetteColor
-      );
+      if (metaclass === shapez.MetaUndergroundBeltBuilding) {
+        this.modInterface.replaceMethod(
+          metaclass,
+          "getSilhouetteColor",
+          getUndergroundSilhouetteColor
+        );
+      } else {
+        this.modInterface.replaceMethod(
+          metaclass,
+          "getSilhouetteColor",
+          getSilhouetteColor
+        );
+      }
     };
     this.modInterface.registerGameTheme({
       id: "catppuccin-macchiato-rosewater",
@@ -8544,30 +8578,31 @@ const RESOURCES = {
   "catppuccin-macchiato.json": {
     "overviewColors": {
       "#eb5555": "#ee99a0",
-      "#1a678b": "#8aadf4",
+      "#1a678b": "#729df2",
       "#b37dcd": "#f5bde6",
       "#bbdf6d": "#8bd5ca",
       "#ed1d5d": "#ea848c",
       "#9fcd7d": "#78cec1",
       "#bfd630": "#cad79a",
-      "#aaaaaa": "#5b6078",
+      "#aaaaaa": "#b8c0e0",
       "#cdbb7d": "#eed49f",
       /* "#daff89": "#d4dfad", */
-      "#777a86": "#6e738d",
+      "#777a86": "#a5adcb",
       "#823cab": "#c6a0f6",
       "#2b84fd": "#b7bdf8",
       "#25fff2": "#91d7e3",
       "#c45c2e": "#f5a97f",
       "#ce418a": "#f2a6de",
       "#7dc6cd": "#7dc4e4",
-      "#61ef6f": "#a6da95",
-      "#555759": "#1e2030",
-      "#333": "#181926",
+      "#61ef6f": "#97d482",
+      "#555759": "#212435",
+      "#333": "#1e2030",
       "#3a52bc": "#a0a9f6",
       "#bc3a61": "#e76d77",
-      "#7dcda2": "#97d482",
+      "#7dcda2": "#87cd6f",
       "#cd9b7d": "#eaca8a",
-      "red": "#ed8796",
+      "#6d9dff": "#8aadf4",
+      "#71ff9c": "#a6da95",
       "#b37dcd": "#f5bde6",
     },
   },
