@@ -923,5 +923,20 @@ html[data-theme="catppuccin-{{ flavor.identifier }}-{{ accent.identifier }}"] {
       }
     }
   }
+  // Tutorial
+  #ingame_HUD_InteractiveTutorial {
+    color: @subtext0;
+    background-color: fade(@surface0, 90%);
+
+    .title {
+      color: @text;
+    }
+
+    .desc {
+      strong {
+        color: @accent;
+      }
+    }
+  }
 }
 {%- endif %}{%- endfor %}

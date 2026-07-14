@@ -803,6 +803,16 @@ html[data-theme="catppuccin-frappe-rosewater"] #ingame_HUD_ShapeViewer .content 
 html[data-theme="catppuccin-frappe-rosewater"] #ingame_HUD_ShapeViewer .content .layer .quad:after {
   background-color: rgba(65, 69, 89, 0.5);
 }
+html[data-theme="catppuccin-frappe-rosewater"] #ingame_HUD_InteractiveTutorial {
+  color: #a5adce;
+  background-color: rgba(65, 69, 89, 0.9);
+}
+html[data-theme="catppuccin-frappe-rosewater"] #ingame_HUD_InteractiveTutorial .title {
+  color: #c6d0f5;
+}
+html[data-theme="catppuccin-frappe-rosewater"] #ingame_HUD_InteractiveTutorial .desc strong {
+  color: #f2d5cf;
+}
 html[data-theme="catppuccin-frappe-flamingo"] {
   background-color: #292c3c;
 }
@@ -1386,6 +1396,16 @@ html[data-theme="catppuccin-frappe-flamingo"] #ingame_HUD_ShapeViewer .content .
 }
 html[data-theme="catppuccin-frappe-flamingo"] #ingame_HUD_ShapeViewer .content .layer .quad:after {
   background-color: rgba(65, 69, 89, 0.5);
+}
+html[data-theme="catppuccin-frappe-flamingo"] #ingame_HUD_InteractiveTutorial {
+  color: #a5adce;
+  background-color: rgba(65, 69, 89, 0.9);
+}
+html[data-theme="catppuccin-frappe-flamingo"] #ingame_HUD_InteractiveTutorial .title {
+  color: #c6d0f5;
+}
+html[data-theme="catppuccin-frappe-flamingo"] #ingame_HUD_InteractiveTutorial .desc strong {
+  color: #eebebe;
 }
 html[data-theme="catppuccin-frappe-pink"] {
   background-color: #292c3c;
@@ -1971,6 +1991,16 @@ html[data-theme="catppuccin-frappe-pink"] #ingame_HUD_ShapeViewer .content .laye
 html[data-theme="catppuccin-frappe-pink"] #ingame_HUD_ShapeViewer .content .layer .quad:after {
   background-color: rgba(65, 69, 89, 0.5);
 }
+html[data-theme="catppuccin-frappe-pink"] #ingame_HUD_InteractiveTutorial {
+  color: #a5adce;
+  background-color: rgba(65, 69, 89, 0.9);
+}
+html[data-theme="catppuccin-frappe-pink"] #ingame_HUD_InteractiveTutorial .title {
+  color: #c6d0f5;
+}
+html[data-theme="catppuccin-frappe-pink"] #ingame_HUD_InteractiveTutorial .desc strong {
+  color: #f4b8e4;
+}
 html[data-theme="catppuccin-frappe-mauve"] {
   background-color: #292c3c;
 }
@@ -2554,6 +2584,16 @@ html[data-theme="catppuccin-frappe-mauve"] #ingame_HUD_ShapeViewer .content .lay
 }
 html[data-theme="catppuccin-frappe-mauve"] #ingame_HUD_ShapeViewer .content .layer .quad:after {
   background-color: rgba(65, 69, 89, 0.5);
+}
+html[data-theme="catppuccin-frappe-mauve"] #ingame_HUD_InteractiveTutorial {
+  color: #a5adce;
+  background-color: rgba(65, 69, 89, 0.9);
+}
+html[data-theme="catppuccin-frappe-mauve"] #ingame_HUD_InteractiveTutorial .title {
+  color: #c6d0f5;
+}
+html[data-theme="catppuccin-frappe-mauve"] #ingame_HUD_InteractiveTutorial .desc strong {
+  color: #ca9ee6;
 }
 html[data-theme="catppuccin-frappe-red"] {
   background-color: #292c3c;
@@ -3139,6 +3179,16 @@ html[data-theme="catppuccin-frappe-red"] #ingame_HUD_ShapeViewer .content .layer
 html[data-theme="catppuccin-frappe-red"] #ingame_HUD_ShapeViewer .content .layer .quad:after {
   background-color: rgba(65, 69, 89, 0.5);
 }
+html[data-theme="catppuccin-frappe-red"] #ingame_HUD_InteractiveTutorial {
+  color: #a5adce;
+  background-color: rgba(65, 69, 89, 0.9);
+}
+html[data-theme="catppuccin-frappe-red"] #ingame_HUD_InteractiveTutorial .title {
+  color: #c6d0f5;
+}
+html[data-theme="catppuccin-frappe-red"] #ingame_HUD_InteractiveTutorial .desc strong {
+  color: #e78284;
+}
 html[data-theme="catppuccin-frappe-maroon"] {
   background-color: #292c3c;
 }
@@ -3722,6 +3772,16 @@ html[data-theme="catppuccin-frappe-maroon"] #ingame_HUD_ShapeViewer .content .la
 }
 html[data-theme="catppuccin-frappe-maroon"] #ingame_HUD_ShapeViewer .content .layer .quad:after {
   background-color: rgba(65, 69, 89, 0.5);
+}
+html[data-theme="catppuccin-frappe-maroon"] #ingame_HUD_InteractiveTutorial {
+  color: #a5adce;
+  background-color: rgba(65, 69, 89, 0.9);
+}
+html[data-theme="catppuccin-frappe-maroon"] #ingame_HUD_InteractiveTutorial .title {
+  color: #c6d0f5;
+}
+html[data-theme="catppuccin-frappe-maroon"] #ingame_HUD_InteractiveTutorial .desc strong {
+  color: #ea999c;
 }
 html[data-theme="catppuccin-frappe-peach"] {
   background-color: #292c3c;
@@ -4307,6 +4367,16 @@ html[data-theme="catppuccin-frappe-peach"] #ingame_HUD_ShapeViewer .content .lay
 html[data-theme="catppuccin-frappe-peach"] #ingame_HUD_ShapeViewer .content .layer .quad:after {
   background-color: rgba(65, 69, 89, 0.5);
 }
+html[data-theme="catppuccin-frappe-peach"] #ingame_HUD_InteractiveTutorial {
+  color: #a5adce;
+  background-color: rgba(65, 69, 89, 0.9);
+}
+html[data-theme="catppuccin-frappe-peach"] #ingame_HUD_InteractiveTutorial .title {
+  color: #c6d0f5;
+}
+html[data-theme="catppuccin-frappe-peach"] #ingame_HUD_InteractiveTutorial .desc strong {
+  color: #ef9f76;
+}
 html[data-theme="catppuccin-frappe-yellow"] {
   background-color: #292c3c;
 }
@@ -4890,6 +4960,16 @@ html[data-theme="catppuccin-frappe-yellow"] #ingame_HUD_ShapeViewer .content .la
 }
 html[data-theme="catppuccin-frappe-yellow"] #ingame_HUD_ShapeViewer .content .layer .quad:after {
   background-color: rgba(65, 69, 89, 0.5);
+}
+html[data-theme="catppuccin-frappe-yellow"] #ingame_HUD_InteractiveTutorial {
+  color: #a5adce;
+  background-color: rgba(65, 69, 89, 0.9);
+}
+html[data-theme="catppuccin-frappe-yellow"] #ingame_HUD_InteractiveTutorial .title {
+  color: #c6d0f5;
+}
+html[data-theme="catppuccin-frappe-yellow"] #ingame_HUD_InteractiveTutorial .desc strong {
+  color: #e5c890;
 }
 html[data-theme="catppuccin-frappe-green"] {
   background-color: #292c3c;
@@ -5475,6 +5555,16 @@ html[data-theme="catppuccin-frappe-green"] #ingame_HUD_ShapeViewer .content .lay
 html[data-theme="catppuccin-frappe-green"] #ingame_HUD_ShapeViewer .content .layer .quad:after {
   background-color: rgba(65, 69, 89, 0.5);
 }
+html[data-theme="catppuccin-frappe-green"] #ingame_HUD_InteractiveTutorial {
+  color: #a5adce;
+  background-color: rgba(65, 69, 89, 0.9);
+}
+html[data-theme="catppuccin-frappe-green"] #ingame_HUD_InteractiveTutorial .title {
+  color: #c6d0f5;
+}
+html[data-theme="catppuccin-frappe-green"] #ingame_HUD_InteractiveTutorial .desc strong {
+  color: #a6d189;
+}
 html[data-theme="catppuccin-frappe-teal"] {
   background-color: #292c3c;
 }
@@ -6058,6 +6148,16 @@ html[data-theme="catppuccin-frappe-teal"] #ingame_HUD_ShapeViewer .content .laye
 }
 html[data-theme="catppuccin-frappe-teal"] #ingame_HUD_ShapeViewer .content .layer .quad:after {
   background-color: rgba(65, 69, 89, 0.5);
+}
+html[data-theme="catppuccin-frappe-teal"] #ingame_HUD_InteractiveTutorial {
+  color: #a5adce;
+  background-color: rgba(65, 69, 89, 0.9);
+}
+html[data-theme="catppuccin-frappe-teal"] #ingame_HUD_InteractiveTutorial .title {
+  color: #c6d0f5;
+}
+html[data-theme="catppuccin-frappe-teal"] #ingame_HUD_InteractiveTutorial .desc strong {
+  color: #81c8be;
 }
 html[data-theme="catppuccin-frappe-sky"] {
   background-color: #292c3c;
@@ -6643,6 +6743,16 @@ html[data-theme="catppuccin-frappe-sky"] #ingame_HUD_ShapeViewer .content .layer
 html[data-theme="catppuccin-frappe-sky"] #ingame_HUD_ShapeViewer .content .layer .quad:after {
   background-color: rgba(65, 69, 89, 0.5);
 }
+html[data-theme="catppuccin-frappe-sky"] #ingame_HUD_InteractiveTutorial {
+  color: #a5adce;
+  background-color: rgba(65, 69, 89, 0.9);
+}
+html[data-theme="catppuccin-frappe-sky"] #ingame_HUD_InteractiveTutorial .title {
+  color: #c6d0f5;
+}
+html[data-theme="catppuccin-frappe-sky"] #ingame_HUD_InteractiveTutorial .desc strong {
+  color: #99d1db;
+}
 html[data-theme="catppuccin-frappe-sapphire"] {
   background-color: #292c3c;
 }
@@ -7226,6 +7336,16 @@ html[data-theme="catppuccin-frappe-sapphire"] #ingame_HUD_ShapeViewer .content .
 }
 html[data-theme="catppuccin-frappe-sapphire"] #ingame_HUD_ShapeViewer .content .layer .quad:after {
   background-color: rgba(65, 69, 89, 0.5);
+}
+html[data-theme="catppuccin-frappe-sapphire"] #ingame_HUD_InteractiveTutorial {
+  color: #a5adce;
+  background-color: rgba(65, 69, 89, 0.9);
+}
+html[data-theme="catppuccin-frappe-sapphire"] #ingame_HUD_InteractiveTutorial .title {
+  color: #c6d0f5;
+}
+html[data-theme="catppuccin-frappe-sapphire"] #ingame_HUD_InteractiveTutorial .desc strong {
+  color: #85c1dc;
 }
 html[data-theme="catppuccin-frappe-blue"] {
   background-color: #292c3c;
@@ -7811,6 +7931,16 @@ html[data-theme="catppuccin-frappe-blue"] #ingame_HUD_ShapeViewer .content .laye
 html[data-theme="catppuccin-frappe-blue"] #ingame_HUD_ShapeViewer .content .layer .quad:after {
   background-color: rgba(65, 69, 89, 0.5);
 }
+html[data-theme="catppuccin-frappe-blue"] #ingame_HUD_InteractiveTutorial {
+  color: #a5adce;
+  background-color: rgba(65, 69, 89, 0.9);
+}
+html[data-theme="catppuccin-frappe-blue"] #ingame_HUD_InteractiveTutorial .title {
+  color: #c6d0f5;
+}
+html[data-theme="catppuccin-frappe-blue"] #ingame_HUD_InteractiveTutorial .desc strong {
+  color: #8caaee;
+}
 html[data-theme="catppuccin-frappe-lavender"] {
   background-color: #292c3c;
 }
@@ -8394,6 +8524,16 @@ html[data-theme="catppuccin-frappe-lavender"] #ingame_HUD_ShapeViewer .content .
 }
 html[data-theme="catppuccin-frappe-lavender"] #ingame_HUD_ShapeViewer .content .layer .quad:after {
   background-color: rgba(65, 69, 89, 0.5);
+}
+html[data-theme="catppuccin-frappe-lavender"] #ingame_HUD_InteractiveTutorial {
+  color: #a5adce;
+  background-color: rgba(65, 69, 89, 0.9);
+}
+html[data-theme="catppuccin-frappe-lavender"] #ingame_HUD_InteractiveTutorial .title {
+  color: #c6d0f5;
+}
+html[data-theme="catppuccin-frappe-lavender"] #ingame_HUD_InteractiveTutorial .desc strong {
+  color: #babbf1;
 }
 
     `);
