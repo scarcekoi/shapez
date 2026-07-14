@@ -19,14 +19,14 @@ jobs:
 
       - name: Check JS
         run: |
-          whiskers --check themes/catppuccin-latte.js shapez.tera
-          whiskers --check themes/catppuccin-frappe.js shapez.tera
-          whiskers --check themes/catppuccin-macchiato.js shapez.tera
-          whiskers --check themes/catppuccin-mocha.js shapez.tera
+          whiskers --check themes/catppuccin-latte.js templates/shapez.js.tera
+          whiskers --check themes/catppuccin-frappe.js templates/shapez.js.tera
+          whiskers --check themes/catppuccin-macchiato.js templates/shapez.js.tera
+          whiskers --check themes/catppuccin-mocha.js templates/shapez.js.tera
 
       - name: Check LESS
         run: |
-          whiskers --check less/latte.less shapez.less.tera
-          whiskers --check less/frappe.less shapez.less.tera
-          whiskers --check less/macchiato.less shapez.less.tera
-          whiskers --check less/mocha.less shapez.less.tera
+          whiskers --check less/latte.less templates/shapez.less.tera
+          whiskers --check less/frappe.less templates/shapez.less.tera
+          whiskers --check less/macchiato.less templates/shapez.less.tera
+          whiskers --check less/mocha.less templates/shapez.less.tera

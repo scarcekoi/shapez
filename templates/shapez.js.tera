@@ -199,7 +199,7 @@ class Mod extends shapez.Mod {
     });
     {%- endif %}{%- endfor %}
     this.modInterface.registerCss(`
-{{ read_file(path="css/" ~ flavor.identifier ~ ".css") }}
+{{ read_file(path="../css/" ~ flavor.identifier ~ ".css") }}
     `);
   }
 };
