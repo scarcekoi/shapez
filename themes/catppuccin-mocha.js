@@ -9,7 +9,6 @@ const METADATA = {
   minimumGameVersion: ">=1.5.0",
   doesNotAffectSavegame: true,
 
-
   settings: {
     changeOverviewColors: false,
   },

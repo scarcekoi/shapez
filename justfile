@@ -13,13 +13,13 @@ format: less
   sed -i '/\/\* deno-fmt-ignore \*\//d' css/*.css
 
 whiskers_js: format
-  whiskers shapez.tera
+  whiskers shapez.js.tera
 
 check: whiskers_js
-  whiskers --check themes/catppuccin-latte.js shapez.tera
-  whiskers --check themes/catppuccin-frappe.js shapez.tera
-  whiskers --check themes/catppuccin-macchiato.js shapez.tera
-  whiskers --check themes/catppuccin-mocha.js shapez.tera
+  whiskers --check themes/catppuccin-latte.js shapez.js.tera
+  whiskers --check themes/catppuccin-frappe.js shapez.js.tera
+  whiskers --check themes/catppuccin-macchiato.js shapez.js.tera
+  whiskers --check themes/catppuccin-mocha.js shapez.js.tera
 
   whiskers --check less/latte.less shapez.less.tera
   whiskers --check less/frappe.less shapez.less.tera
