@@ -45,6 +45,12 @@
 4. Select your desired flavor and accent combination from the dropdown.
 5. Enjoy!
 
+### Changing Overview Colors
+
+The overview colors are viewable after zooming out far enough on the map. Per each mod (flavor) you can enable or disable the changing of overview colors. Overview colors are separate from the theme. For example, you can use Mocha Mauve with Latte overview colors.
+To enable or disable overview colors, go to **Settings** > **Mods** > **Catppuccin <flavor>** and then toggle **Change Overview Colors**.
+When disabled, the default colors are used. When enabled, the overview colors are applied instantly, no need for a restart.
+
 ## 💝 Thanks to
 
 - [Scarce Koi](https://github.com/scarcekoi)
