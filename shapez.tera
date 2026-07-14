@@ -251,9 +251,9 @@ const RESOURCES = {
       },
 
       "wires": {
-        "overlayColor": "rgba(97, 161, 152, 0.75)",
-        "previewColor": "rgb(97, 161, 152, 0.5)",
-        "highlightColor": "rgba(0, 0, 255, 0.5)"
+        "overlayColor": "{{ css_rgba(color=green | mod(opacity=0.75)) }}",
+        "previewColor": "{{ css_rgba(color=blue | mod(opacity=0.5)) }}",
+        "highlightColor": "{{ css_rgba(color=green | mod(opacity=0.5)) }}"
       },
 
       "connectedMiners": {
@@ -265,7 +265,7 @@ const RESOURCES = {
 
       "zone": {
         "borderSolid": "rgba(23, 192, 255, 1)",
-        "outerColor": "rgba(20 , 20, 25, 0.5)"
+        "outerColor": "rgba(20, 20, 25, 0.5)"
       }
     },
 

@@ -8618,9 +8618,9 @@ const RESOURCES = {
       },
 
       "wires": {
-        "overlayColor": "rgba(97, 161, 152, 0.75)",
-        "previewColor": "rgb(97, 161, 152, 0.5)",
-        "highlightColor": "rgba(0, 0, 255, 0.5)"
+        "overlayColor": "rgba(166, 218, 149, 0.75)",
+        "previewColor": "rgba(138, 173, 244, 0.50)",
+        "highlightColor": "rgba(166, 218, 149, 0.50)"
       },
 
       "connectedMiners": {
@@ -8632,7 +8632,7 @@ const RESOURCES = {
 
       "zone": {
         "borderSolid": "rgba(23, 192, 255, 1)",
-        "outerColor": "rgba(20 , 20, 25, 0.5)"
+        "outerColor": "rgba(20, 20, 25, 0.5)"
       }
     },
 
@@ -8694,9 +8694,9 @@ const RESOURCES = {
       },
 
       "wires": {
-        "overlayColor": "rgba(97, 161, 152, 0.75)",
-        "previewColor": "rgb(97, 161, 152, 0.5)",
-        "highlightColor": "rgba(0, 0, 255, 0.5)"
+        "overlayColor": "rgba(166, 218, 149, 0.75)",
+        "previewColor": "rgba(138, 173, 244, 0.50)",
+        "highlightColor": "rgba(166, 218, 149, 0.50)"
       },
 
       "connectedMiners": {
@@ -8708,7 +8708,7 @@ const RESOURCES = {
 
       "zone": {
         "borderSolid": "rgba(23, 192, 255, 1)",
-        "outerColor": "rgba(20 , 20, 25, 0.5)"
+        "outerColor": "rgba(20, 20, 25, 0.5)"
       }
     },
 
@@ -8770,9 +8770,9 @@ const RESOURCES = {
       },
 
       "wires": {
-        "overlayColor": "rgba(97, 161, 152, 0.75)",
-        "previewColor": "rgb(97, 161, 152, 0.5)",
-        "highlightColor": "rgba(0, 0, 255, 0.5)"
+        "overlayColor": "rgba(166, 218, 149, 0.75)",
+        "previewColor": "rgba(138, 173, 244, 0.50)",
+        "highlightColor": "rgba(166, 218, 149, 0.50)"
       },
 
       "connectedMiners": {
@@ -8784,7 +8784,7 @@ const RESOURCES = {
 
       "zone": {
         "borderSolid": "rgba(23, 192, 255, 1)",
-        "outerColor": "rgba(20 , 20, 25, 0.5)"
+        "outerColor": "rgba(20, 20, 25, 0.5)"
       }
     },
 
@@ -8846,9 +8846,9 @@ const RESOURCES = {
       },
 
       "wires": {
-        "overlayColor": "rgba(97, 161, 152, 0.75)",
-        "previewColor": "rgb(97, 161, 152, 0.5)",
-        "highlightColor": "rgba(0, 0, 255, 0.5)"
+        "overlayColor": "rgba(166, 218, 149, 0.75)",
+        "previewColor": "rgba(138, 173, 244, 0.50)",
+        "highlightColor": "rgba(166, 218, 149, 0.50)"
       },
 
       "connectedMiners": {
@@ -8860,7 +8860,7 @@ const RESOURCES = {
 
       "zone": {
         "borderSolid": "rgba(23, 192, 255, 1)",
-        "outerColor": "rgba(20 , 20, 25, 0.5)"
+        "outerColor": "rgba(20, 20, 25, 0.5)"
       }
     },
 
@@ -8922,9 +8922,9 @@ const RESOURCES = {
       },
 
       "wires": {
-        "overlayColor": "rgba(97, 161, 152, 0.75)",
-        "previewColor": "rgb(97, 161, 152, 0.5)",
-        "highlightColor": "rgba(0, 0, 255, 0.5)"
+        "overlayColor": "rgba(166, 218, 149, 0.75)",
+        "previewColor": "rgba(138, 173, 244, 0.50)",
+        "highlightColor": "rgba(166, 218, 149, 0.50)"
       },
 
       "connectedMiners": {
@@ -8936,7 +8936,7 @@ const RESOURCES = {
 
       "zone": {
         "borderSolid": "rgba(23, 192, 255, 1)",
-        "outerColor": "rgba(20 , 20, 25, 0.5)"
+        "outerColor": "rgba(20, 20, 25, 0.5)"
       }
     },
 
@@ -8998,9 +8998,9 @@ const RESOURCES = {
       },
 
       "wires": {
-        "overlayColor": "rgba(97, 161, 152, 0.75)",
-        "previewColor": "rgb(97, 161, 152, 0.5)",
-        "highlightColor": "rgba(0, 0, 255, 0.5)"
+        "overlayColor": "rgba(166, 218, 149, 0.75)",
+        "previewColor": "rgba(138, 173, 244, 0.50)",
+        "highlightColor": "rgba(166, 218, 149, 0.50)"
       },
 
       "connectedMiners": {
@@ -9012,7 +9012,7 @@ const RESOURCES = {
 
       "zone": {
         "borderSolid": "rgba(23, 192, 255, 1)",
-        "outerColor": "rgba(20 , 20, 25, 0.5)"
+        "outerColor": "rgba(20, 20, 25, 0.5)"
       }
     },
 
@@ -9074,9 +9074,9 @@ const RESOURCES = {
       },
 
       "wires": {
-        "overlayColor": "rgba(97, 161, 152, 0.75)",
-        "previewColor": "rgb(97, 161, 152, 0.5)",
-        "highlightColor": "rgba(0, 0, 255, 0.5)"
+        "overlayColor": "rgba(166, 218, 149, 0.75)",
+        "previewColor": "rgba(138, 173, 244, 0.50)",
+        "highlightColor": "rgba(166, 218, 149, 0.50)"
       },
 
       "connectedMiners": {
@@ -9088,7 +9088,7 @@ const RESOURCES = {
 
       "zone": {
         "borderSolid": "rgba(23, 192, 255, 1)",
-        "outerColor": "rgba(20 , 20, 25, 0.5)"
+        "outerColor": "rgba(20, 20, 25, 0.5)"
       }
     },
 
@@ -9150,9 +9150,9 @@ const RESOURCES = {
       },
 
       "wires": {
-        "overlayColor": "rgba(97, 161, 152, 0.75)",
-        "previewColor": "rgb(97, 161, 152, 0.5)",
-        "highlightColor": "rgba(0, 0, 255, 0.5)"
+        "overlayColor": "rgba(166, 218, 149, 0.75)",
+        "previewColor": "rgba(138, 173, 244, 0.50)",
+        "highlightColor": "rgba(166, 218, 149, 0.50)"
       },
 
       "connectedMiners": {
@@ -9164,7 +9164,7 @@ const RESOURCES = {
 
       "zone": {
         "borderSolid": "rgba(23, 192, 255, 1)",
-        "outerColor": "rgba(20 , 20, 25, 0.5)"
+        "outerColor": "rgba(20, 20, 25, 0.5)"
       }
     },
 
@@ -9226,9 +9226,9 @@ const RESOURCES = {
       },
 
       "wires": {
-        "overlayColor": "rgba(97, 161, 152, 0.75)",
-        "previewColor": "rgb(97, 161, 152, 0.5)",
-        "highlightColor": "rgba(0, 0, 255, 0.5)"
+        "overlayColor": "rgba(166, 218, 149, 0.75)",
+        "previewColor": "rgba(138, 173, 244, 0.50)",
+        "highlightColor": "rgba(166, 218, 149, 0.50)"
       },
 
       "connectedMiners": {
@@ -9240,7 +9240,7 @@ const RESOURCES = {
 
       "zone": {
         "borderSolid": "rgba(23, 192, 255, 1)",
-        "outerColor": "rgba(20 , 20, 25, 0.5)"
+        "outerColor": "rgba(20, 20, 25, 0.5)"
       }
     },
 
@@ -9302,9 +9302,9 @@ const RESOURCES = {
       },
 
       "wires": {
-        "overlayColor": "rgba(97, 161, 152, 0.75)",
-        "previewColor": "rgb(97, 161, 152, 0.5)",
-        "highlightColor": "rgba(0, 0, 255, 0.5)"
+        "overlayColor": "rgba(166, 218, 149, 0.75)",
+        "previewColor": "rgba(138, 173, 244, 0.50)",
+        "highlightColor": "rgba(166, 218, 149, 0.50)"
       },
 
       "connectedMiners": {
@@ -9316,7 +9316,7 @@ const RESOURCES = {
 
       "zone": {
         "borderSolid": "rgba(23, 192, 255, 1)",
-        "outerColor": "rgba(20 , 20, 25, 0.5)"
+        "outerColor": "rgba(20, 20, 25, 0.5)"
       }
     },
 
@@ -9378,9 +9378,9 @@ const RESOURCES = {
       },
 
       "wires": {
-        "overlayColor": "rgba(97, 161, 152, 0.75)",
-        "previewColor": "rgb(97, 161, 152, 0.5)",
-        "highlightColor": "rgba(0, 0, 255, 0.5)"
+        "overlayColor": "rgba(166, 218, 149, 0.75)",
+        "previewColor": "rgba(138, 173, 244, 0.50)",
+        "highlightColor": "rgba(166, 218, 149, 0.50)"
       },
 
       "connectedMiners": {
@@ -9392,7 +9392,7 @@ const RESOURCES = {
 
       "zone": {
         "borderSolid": "rgba(23, 192, 255, 1)",
-        "outerColor": "rgba(20 , 20, 25, 0.5)"
+        "outerColor": "rgba(20, 20, 25, 0.5)"
       }
     },
 
@@ -9454,9 +9454,9 @@ const RESOURCES = {
       },
 
       "wires": {
-        "overlayColor": "rgba(97, 161, 152, 0.75)",
-        "previewColor": "rgb(97, 161, 152, 0.5)",
-        "highlightColor": "rgba(0, 0, 255, 0.5)"
+        "overlayColor": "rgba(166, 218, 149, 0.75)",
+        "previewColor": "rgba(138, 173, 244, 0.50)",
+        "highlightColor": "rgba(166, 218, 149, 0.50)"
       },
 
       "connectedMiners": {
@@ -9468,7 +9468,7 @@ const RESOURCES = {
 
       "zone": {
         "borderSolid": "rgba(23, 192, 255, 1)",
-        "outerColor": "rgba(20 , 20, 25, 0.5)"
+        "outerColor": "rgba(20, 20, 25, 0.5)"
       }
     },
 
@@ -9530,9 +9530,9 @@ const RESOURCES = {
       },
 
       "wires": {
-        "overlayColor": "rgba(97, 161, 152, 0.75)",
-        "previewColor": "rgb(97, 161, 152, 0.5)",
-        "highlightColor": "rgba(0, 0, 255, 0.5)"
+        "overlayColor": "rgba(166, 218, 149, 0.75)",
+        "previewColor": "rgba(138, 173, 244, 0.50)",
+        "highlightColor": "rgba(166, 218, 149, 0.50)"
       },
 
       "connectedMiners": {
@@ -9544,7 +9544,7 @@ const RESOURCES = {
 
       "zone": {
         "borderSolid": "rgba(23, 192, 255, 1)",
-        "outerColor": "rgba(20 , 20, 25, 0.5)"
+        "outerColor": "rgba(20, 20, 25, 0.5)"
       }
     },
 
@@ -9606,9 +9606,9 @@ const RESOURCES = {
       },
 
       "wires": {
-        "overlayColor": "rgba(97, 161, 152, 0.75)",
-        "previewColor": "rgb(97, 161, 152, 0.5)",
-        "highlightColor": "rgba(0, 0, 255, 0.5)"
+        "overlayColor": "rgba(166, 218, 149, 0.75)",
+        "previewColor": "rgba(138, 173, 244, 0.50)",
+        "highlightColor": "rgba(166, 218, 149, 0.50)"
       },
 
       "connectedMiners": {
@@ -9620,7 +9620,7 @@ const RESOURCES = {
 
       "zone": {
         "borderSolid": "rgba(23, 192, 255, 1)",
-        "outerColor": "rgba(20 , 20, 25, 0.5)"
+        "outerColor": "rgba(20, 20, 25, 0.5)"
       }
     },
 
