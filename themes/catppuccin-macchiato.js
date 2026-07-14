@@ -8576,7 +8576,7 @@ const RESOURCES = {
       "selectionOutline": "rgba(244, 219, 214, 0.50)",
       "selectionBackground": "rgba(244, 219, 214, 0.20)",
 
-      "chunkBorders": "rgba(127, 190, 255, 0.04)",
+      "chunkBorders": "rgba(244, 219, 214, 0.04)",
 
       "tutorialDragText": "rgb(74, 237, 134)",
 
@@ -8652,7 +8652,7 @@ const RESOURCES = {
       "selectionOutline": "rgba(240, 198, 198, 0.50)",
       "selectionBackground": "rgba(240, 198, 198, 0.20)",
 
-      "chunkBorders": "rgba(127, 190, 255, 0.04)",
+      "chunkBorders": "rgba(240, 198, 198, 0.04)",
 
       "tutorialDragText": "rgb(74, 237, 134)",
 
@@ -8728,7 +8728,7 @@ const RESOURCES = {
       "selectionOutline": "rgba(245, 189, 230, 0.50)",
       "selectionBackground": "rgba(245, 189, 230, 0.20)",
 
-      "chunkBorders": "rgba(127, 190, 255, 0.04)",
+      "chunkBorders": "rgba(245, 189, 230, 0.04)",
 
       "tutorialDragText": "rgb(74, 237, 134)",
 
@@ -8804,7 +8804,7 @@ const RESOURCES = {
       "selectionOutline": "rgba(198, 160, 246, 0.50)",
       "selectionBackground": "rgba(198, 160, 246, 0.20)",
 
-      "chunkBorders": "rgba(127, 190, 255, 0.04)",
+      "chunkBorders": "rgba(198, 160, 246, 0.04)",
 
       "tutorialDragText": "rgb(74, 237, 134)",
 
@@ -8880,7 +8880,7 @@ const RESOURCES = {
       "selectionOutline": "rgba(237, 135, 150, 0.50)",
       "selectionBackground": "rgba(237, 135, 150, 0.20)",
 
-      "chunkBorders": "rgba(127, 190, 255, 0.04)",
+      "chunkBorders": "rgba(237, 135, 150, 0.04)",
 
       "tutorialDragText": "rgb(74, 237, 134)",
 
@@ -8956,7 +8956,7 @@ const RESOURCES = {
       "selectionOutline": "rgba(238, 153, 160, 0.50)",
       "selectionBackground": "rgba(238, 153, 160, 0.20)",
 
-      "chunkBorders": "rgba(127, 190, 255, 0.04)",
+      "chunkBorders": "rgba(238, 153, 160, 0.04)",
 
       "tutorialDragText": "rgb(74, 237, 134)",
 
@@ -9032,7 +9032,7 @@ const RESOURCES = {
       "selectionOutline": "rgba(245, 169, 127, 0.50)",
       "selectionBackground": "rgba(245, 169, 127, 0.20)",
 
-      "chunkBorders": "rgba(127, 190, 255, 0.04)",
+      "chunkBorders": "rgba(245, 169, 127, 0.04)",
 
       "tutorialDragText": "rgb(74, 237, 134)",
 
@@ -9108,7 +9108,7 @@ const RESOURCES = {
       "selectionOutline": "rgba(238, 212, 159, 0.50)",
       "selectionBackground": "rgba(238, 212, 159, 0.20)",
 
-      "chunkBorders": "rgba(127, 190, 255, 0.04)",
+      "chunkBorders": "rgba(238, 212, 159, 0.04)",
 
       "tutorialDragText": "rgb(74, 237, 134)",
 
@@ -9184,7 +9184,7 @@ const RESOURCES = {
       "selectionOutline": "rgba(166, 218, 149, 0.50)",
       "selectionBackground": "rgba(166, 218, 149, 0.20)",
 
-      "chunkBorders": "rgba(127, 190, 255, 0.04)",
+      "chunkBorders": "rgba(166, 218, 149, 0.04)",
 
       "tutorialDragText": "rgb(74, 237, 134)",
 
@@ -9260,7 +9260,7 @@ const RESOURCES = {
       "selectionOutline": "rgba(139, 213, 202, 0.50)",
       "selectionBackground": "rgba(139, 213, 202, 0.20)",
 
-      "chunkBorders": "rgba(127, 190, 255, 0.04)",
+      "chunkBorders": "rgba(139, 213, 202, 0.04)",
 
       "tutorialDragText": "rgb(74, 237, 134)",
 
@@ -9336,7 +9336,7 @@ const RESOURCES = {
       "selectionOutline": "rgba(145, 215, 227, 0.50)",
       "selectionBackground": "rgba(145, 215, 227, 0.20)",
 
-      "chunkBorders": "rgba(127, 190, 255, 0.04)",
+      "chunkBorders": "rgba(145, 215, 227, 0.04)",
 
       "tutorialDragText": "rgb(74, 237, 134)",
 
@@ -9412,7 +9412,7 @@ const RESOURCES = {
       "selectionOutline": "rgba(125, 196, 228, 0.50)",
       "selectionBackground": "rgba(125, 196, 228, 0.20)",
 
-      "chunkBorders": "rgba(127, 190, 255, 0.04)",
+      "chunkBorders": "rgba(125, 196, 228, 0.04)",
 
       "tutorialDragText": "rgb(74, 237, 134)",
 
@@ -9488,7 +9488,7 @@ const RESOURCES = {
       "selectionOutline": "rgba(138, 173, 244, 0.50)",
       "selectionBackground": "rgba(138, 173, 244, 0.20)",
 
-      "chunkBorders": "rgba(127, 190, 255, 0.04)",
+      "chunkBorders": "rgba(138, 173, 244, 0.04)",
 
       "tutorialDragText": "rgb(74, 237, 134)",
 
@@ -9564,7 +9564,7 @@ const RESOURCES = {
       "selectionOutline": "rgba(183, 189, 248, 0.50)",
       "selectionBackground": "rgba(183, 189, 248, 0.20)",
 
-      "chunkBorders": "rgba(127, 190, 255, 0.04)",
+      "chunkBorders": "rgba(183, 189, 248, 0.04)",
 
       "tutorialDragText": "rgb(74, 237, 134)",
 

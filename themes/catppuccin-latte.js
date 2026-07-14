@@ -8542,10 +8542,10 @@ const RESOURCES = {
       "#ed1d5d": "#e32f3e",
       "#9fcd7d": "#147d82",
       "#bfd630": "#8f9724",
-      "#aaaaaa": "#5c5f77",
+      "#aaaaaa": "#6c6f85",
       "#cdbb7d": "#df8e1d",
       /* "#daff89": "#a4ad29", */
-      "#777a86": "#6c6f85",
+      "#777a86": "[object]",
       "#823cab": "#8839ef",
       "#2b84fd": "#7287fd",
       "#25fff2": "#04a5e5",
@@ -8554,7 +8554,7 @@ const RESOURCES = {
       "#7dc6cd": "#209fb5",
       "#61ef6f": "#398c26",
       "#555759": "#ebedf2",
-      "#333": "#e6e9ef",
+      "#333": "#eff1f5",
       "#3a52bc": "#5972fd",
       "#bc3a61": "#db1d2d",
       "#7dcda2": "#307820",
@@ -8576,7 +8576,7 @@ const RESOURCES = {
       "selectionOutline": "rgba(220, 138, 120, 0.50)",
       "selectionBackground": "rgba(220, 138, 120, 0.20)",
 
-      "chunkBorders": "rgba(127, 190, 255, 0.04)",
+      "chunkBorders": "rgba(220, 138, 120, 0.04)",
 
       "tutorialDragText": "rgb(74, 237, 134)",
 
@@ -8630,9 +8630,9 @@ const RESOURCES = {
     },
 
     "items": {
-      "outline": "#eff1f5",
+      "outline": "#4c4f69",
       "outlineWidth": 0.75,
-      "circleBackground": "rgba(204, 208, 218, 0.30)"
+      "circleBackground": "rgba(92, 95, 119, 0.30)"
     },
 
     "shapeTooltip": {
@@ -8652,7 +8652,7 @@ const RESOURCES = {
       "selectionOutline": "rgba(221, 120, 120, 0.50)",
       "selectionBackground": "rgba(221, 120, 120, 0.20)",
 
-      "chunkBorders": "rgba(127, 190, 255, 0.04)",
+      "chunkBorders": "rgba(221, 120, 120, 0.04)",
 
       "tutorialDragText": "rgb(74, 237, 134)",
 
@@ -8706,9 +8706,9 @@ const RESOURCES = {
     },
 
     "items": {
-      "outline": "#eff1f5",
+      "outline": "#4c4f69",
       "outlineWidth": 0.75,
-      "circleBackground": "rgba(204, 208, 218, 0.30)"
+      "circleBackground": "rgba(92, 95, 119, 0.30)"
     },
 
     "shapeTooltip": {
@@ -8728,7 +8728,7 @@ const RESOURCES = {
       "selectionOutline": "rgba(234, 118, 203, 0.50)",
       "selectionBackground": "rgba(234, 118, 203, 0.20)",
 
-      "chunkBorders": "rgba(127, 190, 255, 0.04)",
+      "chunkBorders": "rgba(234, 118, 203, 0.04)",
 
       "tutorialDragText": "rgb(74, 237, 134)",
 
@@ -8782,9 +8782,9 @@ const RESOURCES = {
     },
 
     "items": {
-      "outline": "#eff1f5",
+      "outline": "#4c4f69",
       "outlineWidth": 0.75,
-      "circleBackground": "rgba(204, 208, 218, 0.30)"
+      "circleBackground": "rgba(92, 95, 119, 0.30)"
     },
 
     "shapeTooltip": {
@@ -8804,7 +8804,7 @@ const RESOURCES = {
       "selectionOutline": "rgba(136, 57, 239, 0.50)",
       "selectionBackground": "rgba(136, 57, 239, 0.20)",
 
-      "chunkBorders": "rgba(127, 190, 255, 0.04)",
+      "chunkBorders": "rgba(136, 57, 239, 0.04)",
 
       "tutorialDragText": "rgb(74, 237, 134)",
 
@@ -8858,9 +8858,9 @@ const RESOURCES = {
     },
 
     "items": {
-      "outline": "#eff1f5",
+      "outline": "#4c4f69",
       "outlineWidth": 0.75,
-      "circleBackground": "rgba(204, 208, 218, 0.30)"
+      "circleBackground": "rgba(92, 95, 119, 0.30)"
     },
 
     "shapeTooltip": {
@@ -8880,7 +8880,7 @@ const RESOURCES = {
       "selectionOutline": "rgba(210, 15, 57, 0.50)",
       "selectionBackground": "rgba(210, 15, 57, 0.20)",
 
-      "chunkBorders": "rgba(127, 190, 255, 0.04)",
+      "chunkBorders": "rgba(210, 15, 57, 0.04)",
 
       "tutorialDragText": "rgb(74, 237, 134)",
 
@@ -8934,9 +8934,9 @@ const RESOURCES = {
     },
 
     "items": {
-      "outline": "#eff1f5",
+      "outline": "#4c4f69",
       "outlineWidth": 0.75,
-      "circleBackground": "rgba(204, 208, 218, 0.30)"
+      "circleBackground": "rgba(92, 95, 119, 0.30)"
     },
 
     "shapeTooltip": {
@@ -8956,7 +8956,7 @@ const RESOURCES = {
       "selectionOutline": "rgba(230, 69, 83, 0.50)",
       "selectionBackground": "rgba(230, 69, 83, 0.20)",
 
-      "chunkBorders": "rgba(127, 190, 255, 0.04)",
+      "chunkBorders": "rgba(230, 69, 83, 0.04)",
 
       "tutorialDragText": "rgb(74, 237, 134)",
 
@@ -9010,9 +9010,9 @@ const RESOURCES = {
     },
 
     "items": {
-      "outline": "#eff1f5",
+      "outline": "#4c4f69",
       "outlineWidth": 0.75,
-      "circleBackground": "rgba(204, 208, 218, 0.30)"
+      "circleBackground": "rgba(92, 95, 119, 0.30)"
     },
 
     "shapeTooltip": {
@@ -9032,7 +9032,7 @@ const RESOURCES = {
       "selectionOutline": "rgba(254, 100, 11, 0.50)",
       "selectionBackground": "rgba(254, 100, 11, 0.20)",
 
-      "chunkBorders": "rgba(127, 190, 255, 0.04)",
+      "chunkBorders": "rgba(254, 100, 11, 0.04)",
 
       "tutorialDragText": "rgb(74, 237, 134)",
 
@@ -9086,9 +9086,9 @@ const RESOURCES = {
     },
 
     "items": {
-      "outline": "#eff1f5",
+      "outline": "#4c4f69",
       "outlineWidth": 0.75,
-      "circleBackground": "rgba(204, 208, 218, 0.30)"
+      "circleBackground": "rgba(92, 95, 119, 0.30)"
     },
 
     "shapeTooltip": {
@@ -9108,7 +9108,7 @@ const RESOURCES = {
       "selectionOutline": "rgba(223, 142, 29, 0.50)",
       "selectionBackground": "rgba(223, 142, 29, 0.20)",
 
-      "chunkBorders": "rgba(127, 190, 255, 0.04)",
+      "chunkBorders": "rgba(223, 142, 29, 0.04)",
 
       "tutorialDragText": "rgb(74, 237, 134)",
 
@@ -9162,9 +9162,9 @@ const RESOURCES = {
     },
 
     "items": {
-      "outline": "#eff1f5",
+      "outline": "#4c4f69",
       "outlineWidth": 0.75,
-      "circleBackground": "rgba(204, 208, 218, 0.30)"
+      "circleBackground": "rgba(92, 95, 119, 0.30)"
     },
 
     "shapeTooltip": {
@@ -9184,7 +9184,7 @@ const RESOURCES = {
       "selectionOutline": "rgba(64, 160, 43, 0.50)",
       "selectionBackground": "rgba(64, 160, 43, 0.20)",
 
-      "chunkBorders": "rgba(127, 190, 255, 0.04)",
+      "chunkBorders": "rgba(64, 160, 43, 0.04)",
 
       "tutorialDragText": "rgb(74, 237, 134)",
 
@@ -9238,9 +9238,9 @@ const RESOURCES = {
     },
 
     "items": {
-      "outline": "#eff1f5",
+      "outline": "#4c4f69",
       "outlineWidth": 0.75,
-      "circleBackground": "rgba(204, 208, 218, 0.30)"
+      "circleBackground": "rgba(92, 95, 119, 0.30)"
     },
 
     "shapeTooltip": {
@@ -9260,7 +9260,7 @@ const RESOURCES = {
       "selectionOutline": "rgba(23, 146, 153, 0.50)",
       "selectionBackground": "rgba(23, 146, 153, 0.20)",
 
-      "chunkBorders": "rgba(127, 190, 255, 0.04)",
+      "chunkBorders": "rgba(23, 146, 153, 0.04)",
 
       "tutorialDragText": "rgb(74, 237, 134)",
 
@@ -9314,9 +9314,9 @@ const RESOURCES = {
     },
 
     "items": {
-      "outline": "#eff1f5",
+      "outline": "#4c4f69",
       "outlineWidth": 0.75,
-      "circleBackground": "rgba(204, 208, 218, 0.30)"
+      "circleBackground": "rgba(92, 95, 119, 0.30)"
     },
 
     "shapeTooltip": {
@@ -9336,7 +9336,7 @@ const RESOURCES = {
       "selectionOutline": "rgba(4, 165, 229, 0.50)",
       "selectionBackground": "rgba(4, 165, 229, 0.20)",
 
-      "chunkBorders": "rgba(127, 190, 255, 0.04)",
+      "chunkBorders": "rgba(4, 165, 229, 0.04)",
 
       "tutorialDragText": "rgb(74, 237, 134)",
 
@@ -9390,9 +9390,9 @@ const RESOURCES = {
     },
 
     "items": {
-      "outline": "#eff1f5",
+      "outline": "#4c4f69",
       "outlineWidth": 0.75,
-      "circleBackground": "rgba(204, 208, 218, 0.30)"
+      "circleBackground": "rgba(92, 95, 119, 0.30)"
     },
 
     "shapeTooltip": {
@@ -9412,7 +9412,7 @@ const RESOURCES = {
       "selectionOutline": "rgba(32, 159, 181, 0.50)",
       "selectionBackground": "rgba(32, 159, 181, 0.20)",
 
-      "chunkBorders": "rgba(127, 190, 255, 0.04)",
+      "chunkBorders": "rgba(32, 159, 181, 0.04)",
 
       "tutorialDragText": "rgb(74, 237, 134)",
 
@@ -9466,9 +9466,9 @@ const RESOURCES = {
     },
 
     "items": {
-      "outline": "#eff1f5",
+      "outline": "#4c4f69",
       "outlineWidth": 0.75,
-      "circleBackground": "rgba(204, 208, 218, 0.30)"
+      "circleBackground": "rgba(92, 95, 119, 0.30)"
     },
 
     "shapeTooltip": {
@@ -9488,7 +9488,7 @@ const RESOURCES = {
       "selectionOutline": "rgba(30, 102, 245, 0.50)",
       "selectionBackground": "rgba(30, 102, 245, 0.20)",
 
-      "chunkBorders": "rgba(127, 190, 255, 0.04)",
+      "chunkBorders": "rgba(30, 102, 245, 0.04)",
 
       "tutorialDragText": "rgb(74, 237, 134)",
 
@@ -9542,9 +9542,9 @@ const RESOURCES = {
     },
 
     "items": {
-      "outline": "#eff1f5",
+      "outline": "#4c4f69",
       "outlineWidth": 0.75,
-      "circleBackground": "rgba(204, 208, 218, 0.30)"
+      "circleBackground": "rgba(92, 95, 119, 0.30)"
     },
 
     "shapeTooltip": {
@@ -9564,7 +9564,7 @@ const RESOURCES = {
       "selectionOutline": "rgba(114, 135, 253, 0.50)",
       "selectionBackground": "rgba(114, 135, 253, 0.20)",
 
-      "chunkBorders": "rgba(127, 190, 255, 0.04)",
+      "chunkBorders": "rgba(114, 135, 253, 0.04)",
 
       "tutorialDragText": "rgb(74, 237, 134)",
 
@@ -9618,9 +9618,9 @@ const RESOURCES = {
     },
 
     "items": {
-      "outline": "#eff1f5",
+      "outline": "#4c4f69",
       "outlineWidth": 0.75,
-      "circleBackground": "rgba(204, 208, 218, 0.30)"
+      "circleBackground": "rgba(92, 95, 119, 0.30)"
     },
 
     "shapeTooltip": {

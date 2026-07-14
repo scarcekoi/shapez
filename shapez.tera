@@ -215,10 +215,10 @@ const RESOURCES = {
       "#ed1d5d": "{{ maroon | sub(lightness=5) | hex }}",
       "#9fcd7d": "{{ teal | sub(lightness=5) | hex }}",
       "#bfd630": "{{ green | mix(color=yellow, amount=0.5) | hex }}",
-      "#aaaaaa": "{{ subtext1.hex }}",
+      "#aaaaaa": "{{ if(cond=flavor.dark, t=subtext1.hex, f=subtext0.hex) }}",
       "#cdbb7d": "{{ yellow.hex }}",
       /* "#daff89": "{{ green | mix(color=yellow, amount=0.5) | add(lightness=5) | hex }}", */
-      "#777a86": "{{ subtext0.hex }}",
+      "#777a86": "{{ if(cond=flavor.dark, t=subtext0.hex, f=subtext1) }}",
       "#823cab": "{{ mauve.hex }}",
       "#2b84fd": "{{ lavender.hex }}",
       "#25fff2": "{{ sky.hex }}",
@@ -227,7 +227,7 @@ const RESOURCES = {
       "#7dc6cd": "{{ sapphire.hex }}",
       "#61ef6f": "{{ green | sub(lightness=5) | hex }}",
       "#555759": "{{ base | mix(color=mantle, amount=0.5) | hex }}",
-      "#333": "{{ mantle.hex }}",
+      "#333": "{{ if(cond=flavor.dark, t=mantle.hex, f=base.hex) }}",
       "#3a52bc": "{{ lavender | sub(lightness=5) | hex }}",
       "#bc3a61": "{{ maroon | sub(lightness=10) | hex }}",
       "#7dcda2": "{{ green | sub(lightness=10) | hex }}",
@@ -251,7 +251,7 @@ const RESOURCES = {
       "selectionOutline": "{{ css_rgba(color=accent | mod(opacity=0.5)) }}",
       "selectionBackground": "{{ css_rgba(color=accent | mod(opacity=0.2)) }}",
 
-      "chunkBorders": "rgba(127, 190, 255, 0.04)",
+      "chunkBorders": "{{ css_rgba(color=accent | mod(opacity=0.04)) }}",
 
       "tutorialDragText": "rgb(74, 237, 134)",
 
@@ -305,9 +305,9 @@ const RESOURCES = {
     },
 
     "items": {
-      "outline": "{{ base.hex }}",
+      "outline": "{{ if(cond=flavor.dark, t=base.hex, f=text.hex) }}",
       "outlineWidth": 0.75,
-      "circleBackground": "{{ css_rgba(color=surface0 | mod(opacity=0.3)) }}"
+      "circleBackground": "{{ css_rgba(color=if(cond=flavor.dark, t=surface0, f=subtext1) | mod(opacity=0.3)) }}"
     },
 
     "shapeTooltip": {
